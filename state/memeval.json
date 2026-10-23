@@ -1,0 +1,12 @@
+{
+  "tenant": {
+    "orgId": "b665a814-0237-4735-a883-8c2c5dacd01f",
+    "workspaceId": "d6d8bbff-be39-4135-99e4-832a82f75af9",
+    "users": {
+      "owner": "630348eb-476b-4803-ab92-6e2b3d65de01",
+      "sales": "f4024da3-ae14-4fd3-9e28-9894a2d43f96",
+      "finance": "638f4ed5-cf4d-42c7-a519-eb6bd81acc99"
+    },
+    "slug": "bb2-memeval-mvj7qlh9"
+  }
+}

@@ -1,0 +1,2036 @@
+{
+  "meta": {
+    "report_no": "ERA-TR-2026-01",
+    "commit": "3aba0bbfb",
+    "accessed": "2026-10-22",
+    "qa_reader": "claude-haiku-5-5",
+    "qa_judge": "claude-haiku-5-5",
+    "qa_reader_src": "QA run (pending): reader model used to answer LoCoMo questions from Era's context",
+    "qa_judge_src": "QA run (pending): judge model that grades answers"
+  },
+  "num": {
+    "lme_n": {
+      "v": 470,
+      "u": "",
+      "src": "lme-r45.json summary type=ALL n=470 (500 questions minus 30 abstention, memeval-r45.ts:171)"
+    },
+    "lme_sess_any": {
+      "v": 98.3,
+      "u": "%",
+      "d": 1,
+      "src": "lme-r45.json ALL sessionAny 462/470 (audit B 1.1)"
+    },
+    "lme_sess_all": {
+      "v": 90.2,
+      "u": "%",
+      "d": 1,
+      "src": "lme-r45.json ALL sessionAll 424/470 (audit C 1f)"
+    },
+    "lme_ev_any": {
+      "v": 95.1,
+      "u": "%",
+      "d": 1,
+      "src": "lme-r45.json ALL evidence any 447/470 (audit B 4.3)"
+    },
+    "lme_ev_all": {
+      "v": 78.9,
+      "u": "%",
+      "d": 1,
+      "src": "lme-r45.json ALL evidence all 78.94% (audit B 4.3)"
+    },
+    "lme_vec_sess_any": {
+      "v": 97.9,
+      "u": "%",
+      "d": 1,
+      "src": "lme-after.json (R42) vectorTop10 sessionAny 460/470, logs-final-lme-after.log:41 (audit B 1.1)"
+    },
+    "lme_tok": {
+      "v": 5183,
+      "u": "tok",
+      "src": "lme-r45.json ALL tokens p50 (audit B 4.5)"
+    },
+    "lme_ms": {
+      "v": 35.3,
+      "u": "ms",
+      "d": 0,
+      "src": "lme-r45.json ALL ms p50, rows recomputed (audit B 1.3, 4.4)"
+    },
+    "locomo_n": {
+      "v": 1540,
+      "u": "",
+      "src": "locomo10.json 1,986 QA minus 446 category 5 (audit B 1.2)"
+    },
+    "locomo_ev_any": {
+      "v": 72.4,
+      "u": "%",
+      "d": 1,
+      "src": "locomo-r45.json 1115/1540 (audit B 4.7)"
+    },
+    "locomo_ev_all": {
+      "v": 58.7,
+      "u": "%",
+      "d": 1,
+      "src": "locomo-r45.json 904/1540 (audit B 4.7)"
+    },
+    "locomo_vec_ev_any": {
+      "v": 62.6,
+      "u": "%",
+      "d": 1,
+      "src": "locomo-after.json (R42) vectorTop10 964/1540 (audit B 3.6)"
+    },
+    "locomo_tok": {
+      "v": 596,
+      "u": "tok",
+      "src": "locomo-r45.json ALL tokens p50 (audit B 1.2)"
+    },
+    "locomo_ms": {
+      "v": 28.6,
+      "u": "ms",
+      "d": 0,
+      "src": "locomo-r45.json ALL ms p50, logs-R45-final-locomo.log:11 (audit B 1.3)"
+    },
+    "locomo_qa_era": {
+      "v": 76.1,
+      "u": "%",
+      "d": 1,
+      "src": "R51 final run (brain-bench2/results/r51-*.json), claude-haiku-5-5 reader+judge via owner subscription, Mem0 prompts; dev 77.3 / held-out test 74.9"
+    },
+    "locomo_qa_fullctx": {
+      "v": 87.3,
+      "u": "%",
+      "d": 1,
+      "src": "brain-bench2/results/r46-locomo-summary.json + logs-R46-qa.log (R46, claude-haiku-5-5 reader and judge via the owner's Claude subscription, Mem0 prompts, 1,540 questions, categories 1-4); full conversation in context"
+    },
+    "locomo_qa_era_tok": {
+      "v": 2009,
+      "u": "tok",
+      "src": "R51 Era context tokens p50 on LoCoMo QA"
+    },
+    "lme_qa_era": {
+      "v": 75,
+      "u": "%",
+      "d": 1,
+      "src": "R51 LongMemEval-S sample of 100 (seed 46), official prompts, claude-haiku-5-5; full haystack 92.0"
+    },
+    "trH2_all": {
+      "v": [
+        289,
+        325
+      ],
+      "u": "frac",
+      "d": 1,
+      "src": "trbizH2-r45.json recallGraph functional rows 289/325 = 88.92% (audit B 1.4)"
+    },
+    "trH2_direct": {
+      "v": [
+        30,
+        30
+      ],
+      "u": "frac",
+      "src": "trbizH2-r45.json recallGraph, category direct (audit B 1.4)"
+    },
+    "trH2_join": {
+      "v": [
+        37,
+        60
+      ],
+      "u": "frac",
+      "src": "trbizH2-r45.json recallGraph, join_receiver (audit B 4.8)"
+    },
+    "trH2_hop2": {
+      "v": [
+        105,
+        105
+      ],
+      "u": "frac",
+      "src": "trbizH2-r45.json recallGraph, 2-hop (audit B 4.8)"
+    },
+    "trH2_hop3a": {
+      "v": [
+        19,
+        30
+      ],
+      "u": "frac",
+      "src": "trbizH2-r45.json, 3-hop complaint→order→invoice→payment (audit B 4.8)"
+    },
+    "trH2_hop3b": {
+      "v": [
+        24,
+        25
+      ],
+      "u": "frac",
+      "src": "trbizH2-r45.json, 3-hop customer→company→contract end (audit B 4.8)"
+    },
+    "trH2_temporal": {
+      "v": [
+        30,
+        30
+      ],
+      "u": "frac",
+      "src": "trbizH2-r45.json, temporal (audit B 1.4)"
+    },
+    "trH2_rec_upd": {
+      "v": [
+        20,
+        20
+      ],
+      "u": "frac",
+      "src": "trbizH2-r45.json, record update (audit B 1.4)"
+    },
+    "trH2_conv_upd": {
+      "v": [
+        24,
+        25
+      ],
+      "u": "frac",
+      "src": "trbizH2-r45.json, conversation update (audit B 1.4)"
+    },
+    "trH2_tr": {
+      "v": [
+        225,
+        245
+      ],
+      "u": "frac",
+      "d": 1,
+      "src": "trbizH2-r45.json recallGraph on Turkish-template questions (audit B 1.4)"
+    },
+    "trH2_en": {
+      "v": [
+        64,
+        80
+      ],
+      "u": "frac",
+      "d": 1,
+      "src": "trbizH2-r45.json recallGraph on English-template questions (audit B 1.4)"
+    },
+    "trH2_mh": {
+      "v": [
+        148,
+        160
+      ],
+      "u": "frac",
+      "d": 1,
+      "src": "105 + 43 of 105 + 55 two- and three-hop questions (audit B 6.2)"
+    },
+    "trH2_tok": {
+      "v": 1067,
+      "u": "tok",
+      "src": "trbizH2-r45.json recallGraph functional tokens p50 (audit B 3.1)"
+    },
+    "trH2_turn_tok": {
+      "v": 1245,
+      "u": "tok",
+      "src": "logs-R45-era1000-trbizH2: eraTurn tokens p50 at committed budget 1000 (audit B 3.1)"
+    },
+    "trA_turn_tok": {
+      "v": 1342,
+      "u": "tok",
+      "src": "logs-R45-era1000-trbizA eraTurn p50 (audit B 3.1)"
+    },
+    "trH_turn_tok": {
+      "v": 1444,
+      "u": "tok",
+      "src": "logs-R45-era1000-trbizH eraTurn p50 (audit B 3.1)"
+    },
+    "trH2_ms": {
+      "v": 52.8,
+      "u": "ms",
+      "d": 0,
+      "src": "trbizH2-r45.json recallGraph ms p50 (audit B 4.8)"
+    },
+    "k_direct": {
+      "v": [
+        100,
+        100
+      ],
+      "u": "frac",
+      "src": "biz100k-r45.json recallGraph direct (audit B 4.9)"
+    },
+    "k_hop2": {
+      "v": [
+        60,
+        60
+      ],
+      "u": "frac",
+      "src": "biz100k-r45.json recallGraph multihop2 (audit B 1.5)"
+    },
+    "k_hop3": {
+      "v": [
+        40,
+        40
+      ],
+      "u": "frac",
+      "src": "biz100k-r45.json recallGraph multihop3 (audit B 1.5)"
+    },
+    "k_mh": {
+      "v": [
+        100,
+        100
+      ],
+      "u": "frac",
+      "d": 0,
+      "src": "biz100k-r45.json recallGraph multihop2+3 = 100/100 (audit B 1.5)"
+    },
+    "vec_direct": {
+      "v": [
+        69,
+        100
+      ],
+      "u": "frac",
+      "src": "biz100k-after.json vectorTop10 direct (audit A37, B 6.1)"
+    },
+    "vec_hop2": {
+      "v": [
+        0,
+        60
+      ],
+      "u": "frac",
+      "src": "biz100k-after.json vectorTop10 multihop2 (audit A37)"
+    },
+    "vec_hop3": {
+      "v": [
+        1,
+        40
+      ],
+      "u": "frac",
+      "src": "biz100k-after.json vectorTop10 multihop3 (audit A37)"
+    },
+    "vec_mh": {
+      "v": [
+        1,
+        100
+      ],
+      "u": "frac",
+      "d": 0,
+      "src": "biz100k-after.json vectorTop10 multihop 1/100 (audit B 6.1)"
+    },
+    "vec_all": {
+      "v": [
+        70,
+        200
+      ],
+      "u": "frac",
+      "d": 0,
+      "src": "biz100k-after.json vectorTop10 70/200 = 35% (audit B 3.5)"
+    },
+    "k_tok": {
+      "v": 1026,
+      "u": "tok",
+      "src": "biz100k-r45.json recallGraph tokens p50 overall (977/1019/1100 by category) (audit B 4.9)"
+    },
+    "k_graph_ms": {
+      "v": 57.1,
+      "u": "ms",
+      "d": 0,
+      "src": "biz100k-r45.json recallGraph ms p50 over 200 (audit B 4.9)"
+    },
+    "k_mem_ms": {
+      "v": 29.6,
+      "u": "ms",
+      "d": 0,
+      "src": "biz100k-p8.json recallMemories p50, committed recall.ts (audit B 4.9)"
+    },
+    "k_ev3_all": {
+      "v": [
+        5,
+        40
+      ],
+      "u": "frac",
+      "src": "logs-R45-final-biz100k.log:14 evAll on 3-hop (audit B 0)"
+    },
+    "abl_fts_b": {
+      "v": 4031,
+      "u": "ms",
+      "d": 0,
+      "src": "biz100k-before.json recallMemories p50 over 200 (audit B 3.3)"
+    },
+    "abl_fts_a": {
+      "v": 29.6,
+      "u": "ms",
+      "d": 0,
+      "src": "biz100k-p8.json recallMemories p50, committed code (audit B 3.3)"
+    },
+    "abl_path_b_acc": {
+      "v": [
+        0,
+        100
+      ],
+      "u": "frac",
+      "src": "biz100k-before.json, multi-hop subset (audit B 3.4)"
+    },
+    "abl_path_b_tok": {
+      "v": 2466,
+      "u": "tok",
+      "src": "biz100k-before.json multi-hop tokens p50 (audit B 3.4)"
+    },
+    "abl_path_b_ms": {
+      "v": 377,
+      "u": "ms",
+      "d": 0,
+      "src": "biz100k-before.json multi-hop ms p50 (audit B 3.4)"
+    },
+    "abl_path_a_acc": {
+      "v": [
+        100,
+        100
+      ],
+      "u": "frac",
+      "src": "biz100k-r45.json multi-hop subset (audit B 3.4)"
+    },
+    "abl_path_a_tok": {
+      "v": 1060,
+      "u": "tok",
+      "src": "biz100k-r45.json multi-hop tokens p50 (audit B 3.4)"
+    },
+    "abl_path_a_ms": {
+      "v": 54.7,
+      "u": "ms",
+      "d": 0,
+      "src": "biz100k-r45.json multi-hop ms p50 (audit B 3.4)"
+    },
+    "abl_vec_all": {
+      "v": 35,
+      "u": "%",
+      "d": 0,
+      "src": "biz100k-after.json vectorTop10 70/200 (audit B 3.5)"
+    },
+    "abl_graph_all": {
+      "v": 100,
+      "u": "%",
+      "d": 0,
+      "src": "biz100k-r45.json recallGraph 200/200 (audit B 3.5)"
+    },
+    "abl_tr_b": {
+      "v": 48,
+      "u": "%",
+      "d": 1,
+      "src": "r45-ab bp-orig engine on trbizH2 156/325, logs-R45-ab-trbizH2-r45b.log:23 (audit B 3.7)"
+    },
+    "abl_tr_a": {
+      "v": 88.9,
+      "u": "%",
+      "d": 1,
+      "src": "trbizH2-r45.json 289/325 (audit B 3.7)"
+    },
+    "abl_perm_b": {
+      "v": 33.9,
+      "u": "ms",
+      "d": 0,
+      "src": "trbiz-fixbefore.json recallGraph functional p50, R42 code, first Turkish set (audit B 3.8)"
+    },
+    "abl_perm_a": {
+      "v": 55.7,
+      "u": "ms",
+      "d": 0,
+      "src": "trbiz-fixafter.json recallGraph functional p50, R43 code (audit B 3.8)"
+    },
+    "secrets_A": {
+      "v": 865,
+      "u": "",
+      "src": "state/trbizA.json planted secrets (audit B 1.6)"
+    },
+    "secrets_A_inv": {
+      "v": 820,
+      "u": "",
+      "src": "state/trbizA.json invoice amounts (audit B 1.6)"
+    },
+    "secrets_A_sal": {
+      "v": 20,
+      "u": "",
+      "src": "state/trbizA.json salaries (audit B 1.6)"
+    },
+    "secrets_A_cred": {
+      "v": 15,
+      "u": "",
+      "src": "state/trbizA.json credit limits (audit B 1.6)"
+    },
+    "secrets_A_note": {
+      "v": 10,
+      "u": "",
+      "src": "state/trbizA.json owner-personal notes (audit B 1.6)"
+    },
+    "secrets_H": {
+      "v": 790,
+      "u": "",
+      "src": "state/trbizH.json planted secrets (audit B 1.6)"
+    },
+    "leak_A_n": {
+      "v": 6400,
+      "u": "",
+      "src": "trbizA-r45 leak rows: 8 methods x (owner 370 + sales 370 + finance 60) (audit B 1.6)"
+    },
+    "leak_A": {
+      "v": 0,
+      "u": "",
+      "src": "trbizA-r45 leak rows recomputed 0/6,400 (audit B 1.6)"
+    },
+    "leak_H_n": {
+      "v": 6160,
+      "u": "",
+      "src": "trbizH-r45 leak rows (audit B 1.6)"
+    },
+    "leak_H": {
+      "v": 0,
+      "u": "",
+      "src": "trbizH-r45 leak rows recomputed 0/6,160 (audit B 1.6)"
+    },
+    "leak_H2_n": {
+      "v": 1335,
+      "u": "",
+      "src": "trbizH2-r45, 3 methods, no sweep (audit B 1.6)"
+    },
+    "leak_H2": {
+      "v": 0,
+      "u": "",
+      "src": "trbizH2-r45 0/1,335 (audit B 1.6)"
+    },
+    "leak_gaps_n": {
+      "v": 111,
+      "u": "",
+      "src": "check-gaps-trbizA.json PASS 111 / FAIL 0 (audit B 1.6)"
+    },
+    "leak_gaps": {
+      "v": 0,
+      "u": "",
+      "src": "check-gaps-trbizA.json FAIL 0 (audit B 1.6)"
+    },
+    "leak_era1000_n": {
+      "v": 490,
+      "u": "",
+      "src": "trbizA-era1000 targeted permission rows, committed chat budget 1000 (audit B 0.3)"
+    },
+    "leak_era1000": {
+      "v": 0,
+      "u": "",
+      "src": "trbizA-era1000 0/490 (audit B 0.3)"
+    },
+    "leak_answers": {
+      "v": 12560,
+      "u": "",
+      "src": "leak_A_n + leak_H_n = 6,400 + 6,160 (audit B 4.10)"
+    },
+    "paths_member": {
+      "v": 7,
+      "u": "",
+      "src": "7 distinct member read paths; graphPlusMemories is a harness union (audit B 1.6)"
+    },
+    "paths_noperson": {
+      "v": 8,
+      "u": "",
+      "src": "check-gaps.ts callers (audit B 1.6)"
+    },
+    "c_mem0_25_qa": {
+      "v": 66.9,
+      "u": "%",
+      "d": 1,
+      "date": "2025-04",
+      "src": "Mem0 paper Table 2, J 66.88, gpt-4o-mini (audit C 3a)"
+    },
+    "c_mem0g_25_qa": {
+      "v": 68.4,
+      "u": "%",
+      "d": 1,
+      "date": "2025-04",
+      "src": "Mem0 paper Table 2, J 68.44 (audit C 3a)"
+    },
+    "c_zepm_25_qa": {
+      "v": 66,
+      "u": "%",
+      "d": 1,
+      "date": "2025-04",
+      "src": "Mem0 paper Table 2, Zep run by Mem0, J 65.99 (audit C 3d)"
+    },
+    "c_zepown_25_qa": {
+      "v": 75.1,
+      "u": "%",
+      "d": 1,
+      "date": "2025-05",
+      "src": "Zep rebuttal blog 75.14 ± 0.17 (audit C 3d)"
+    },
+    "c_full_25_qa": {
+      "v": 72.9,
+      "u": "%",
+      "d": 1,
+      "date": "2025-04",
+      "src": "Mem0 paper Table 2 full-context, gpt-4o-mini (audit C 3e)"
+    },
+    "c_letta_25_qa": {
+      "v": 74,
+      "u": "%",
+      "d": 1,
+      "date": "2025-08",
+      "src": "Letta blog 12 Aug 2025, filesystem agent, gpt-4o-mini, scoring not stated (audit C 6a)"
+    },
+    "c_mem0_26_qa": {
+      "v": 92.5,
+      "u": "%",
+      "d": 1,
+      "date": "2026-09",
+      "src": "mem0.ai/research LoCoMo 92.5, Platform top_200, model not named, blog updated 28 Sep 2026 (audit C 2.6, D)"
+    },
+    "c_zep_26_qa": {
+      "v": 94.7,
+      "u": "%",
+      "d": 1,
+      "date": "2026-09",
+      "src": "getzep.com/research LoCoMo 94.7% (1,459/1,540), gpt-5.4 reader+judge, modified 2026-09-29 (audit C 2.6)"
+    },
+    "c_mem0_26_lme": {
+      "v": 94.4,
+      "u": "%",
+      "d": 1,
+      "date": "2026-09",
+      "src": "mem0.ai/research LongMemEval 94.4 (audit C 2.6)"
+    },
+    "c_zep_26_lme": {
+      "v": 90.2,
+      "u": "%",
+      "d": 1,
+      "date": "2026-09",
+      "src": "getzep.com/research LongMemEval 90.2% (451/500), gpt-5.4 (audit C 4a)"
+    },
+    "c_sm_26_lme_4o": {
+      "v": 97,
+      "u": "%",
+      "d": 0,
+      "date": "2026-05",
+      "src": "supermemory.ai/research/longmembench, gpt-4o answers, top-20 retrieval, LLM judge (audit C 5a)"
+    },
+    "c_sm_26_lme_g5": {
+      "v": 84.6,
+      "u": "%",
+      "d": 1,
+      "date": "2026-05",
+      "src": "supermemory.ai/research/longmembench gpt-5 row (audit C 2.6)"
+    },
+    "c_sm_26_lme_gem": {
+      "v": 85.2,
+      "u": "%",
+      "d": 1,
+      "date": "2026-05",
+      "src": "supermemory.ai/research/longmembench gemini-3-pro row (audit C 2.6)"
+    },
+    "c_zep_25_lme": {
+      "v": 71.2,
+      "u": "%",
+      "d": 1,
+      "date": "2025-01",
+      "src": "Zep paper Table 2, gpt-4o (audit C 4a)"
+    },
+    "c_full_25_lme": {
+      "v": 60.2,
+      "u": "%",
+      "d": 1,
+      "date": "2025-01",
+      "src": "Zep paper Table 2, full context gpt-4o (audit C 2.2)"
+    },
+    "c_mem0_25_tok": {
+      "v": 1764,
+      "u": "tok",
+      "date": "2025-04",
+      "src": "Mem0 paper Table 2 memory tokens (audit C 3b)"
+    },
+    "c_mem0g_25_tok": {
+      "v": 3616,
+      "u": "tok",
+      "date": "2025-04",
+      "src": "Mem0 paper Table 2 (audit C 3b)"
+    },
+    "c_zepm_25_tok": {
+      "v": 3911,
+      "u": "tok",
+      "date": "2025-04",
+      "src": "Mem0 paper Table 2 (audit C 3d)"
+    },
+    "c_full_25_tok": {
+      "v": 26031,
+      "u": "tok",
+      "date": "2025-04",
+      "src": "Mem0 paper Table 2 full-context (audit C 3e)"
+    },
+    "c_mem0_26_tok": {
+      "v": 6956,
+      "u": "tok",
+      "date": "2026-09",
+      "src": "Mem0 blog, mean ~6,956 tokens per query on LoCoMo (audit C 2.6)"
+    },
+    "c_zep_26_tok": {
+      "v": 5760,
+      "u": "tok",
+      "date": "2026-09",
+      "src": "getzep.com/research LoCoMo median context 5,760 (audit C 2.6)"
+    },
+    "c_mem0_25_ms": {
+      "v": 148,
+      "u": "ms",
+      "d": 0,
+      "date": "2025-04",
+      "src": "Mem0 paper Table 2 search p50 0.148 s (audit C 3c)"
+    },
+    "c_mem0g_25_ms": {
+      "v": 476,
+      "u": "ms",
+      "d": 0,
+      "date": "2025-04",
+      "src": "Mem0 paper Table 2 search p50 0.476 s (audit C 3c)"
+    },
+    "c_zepm_25_ms": {
+      "v": 513,
+      "u": "ms",
+      "d": 0,
+      "date": "2025-04",
+      "src": "Mem0 paper Table 2 Zep search p50 0.513 s (audit C 3d)"
+    },
+    "c_zep_26_locomo_ms": {
+      "v": 87,
+      "u": "ms",
+      "d": 0,
+      "date": "2026-09",
+      "src": "getzep.com/research LoCoMo retrieval p50 87 ms (p95 155), hosted, measurement point not stated (audit C 2.6, D)"
+    },
+    "c_zep_26_lme_ms": {
+      "v": 104,
+      "u": "ms",
+      "d": 0,
+      "date": "2026-09",
+      "src": "getzep.com/research LongMemEval retrieval p50 104 ms (p95 162) (audit D)"
+    },
+    "c_sm_ms": {
+      "v": 187,
+      "u": "ms",
+      "d": 0,
+      "date": "2026-10",
+      "src": "supermemory.ai homepage 'Search: 187 ms server, 356 ms end to end' (audit D; quote marked (p), re-check before publishing)"
+    },
+    "c_sm_e2e_ms": {
+      "v": 356,
+      "u": "ms",
+      "d": 0,
+      "date": "2026-10",
+      "src": "supermemory.ai homepage end to end (audit D, (p))"
+    },
+    "lat_ratio": {
+      "calc": "div",
+      "a": "c_zep_26_locomo_ms",
+      "b": "locomo_ms",
+      "u": "x",
+      "d": 0,
+      "src": "computed: Zep LoCoMo p50 / Era LoCoMo p50"
+    },
+    "leak_total": {
+      "calc": "sum",
+      "keys": [
+        "leak_A",
+        "leak_H",
+        "leak_H2",
+        "leak_gaps",
+        "leak_era1000"
+      ],
+      "u": "",
+      "src": "computed: sum of leaks over all permission tests"
+    },
+    "lme_qa_fullctx": {
+      "v": 92,
+      "u": "%",
+      "d": 1,
+      "src": "R46 LongMemEval-S sample of 100, full haystack in context, claude-haiku-5-5"
+    }
+  },
+  "refs": [
+    {
+      "key": "lme",
+      "text": "D. Wu, H. Wang, W. Yu, Y. Zhang, K.-W. Chang, D. Yu. LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory. ICLR 2025. arXiv:2410.10813. Data: huggingface.co/datasets/xiaowu0162/longmemeval-cleaned (MIT).",
+      "url": "https://arxiv.org/abs/2410.10813"
+    },
+    {
+      "key": "locomo",
+      "text": "A. Maharana, D.-H. Lee, S. Tulyakov, M. Bansal, F. Barbieri, Y. Fang. Evaluating Very Long-Term Conversational Memory of LLM Agents. ACL 2024. arXiv:2402.17753. Data: github.com/snap-research/locomo (CC BY-NC 4.0).",
+      "url": "https://aclanthology.org/2024.acl-long.747"
+    },
+    {
+      "key": "crmarena",
+      "text": "K.-H. Huang et al. CRMArena: Understanding the Capacity of LLM Agents to Perform Professional CRM Tasks in Realistic Environments. arXiv:2411.02305, 2024.",
+      "url": "https://arxiv.org/abs/2411.02305"
+    },
+    {
+      "key": "crmarenapro",
+      "text": "K.-H. Huang et al. CRMArena-Pro. arXiv:2505.18878, 2025.",
+      "url": "https://arxiv.org/abs/2505.18878"
+    },
+    {
+      "key": "gatemem",
+      "text": "GateMem: a benchmark for multi-principal shared-memory agents. arXiv:2606.18829, June 2026.",
+      "url": "https://arxiv.org/abs/2606.18829"
+    },
+    {
+      "key": "mem0",
+      "text": "P. Chhikara, D. Khant, S. Aryan, T. Singh, D. Yadav. Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory. arXiv:2504.19413, 2025, Table 2 (gpt-4o-mini).",
+      "url": "https://arxiv.org/abs/2504.19413"
+    },
+    {
+      "key": "mem0research",
+      "text": "Mem0. Research results and 'The token-efficient memory algorithm' (blog, Apr 2026, updated 28 Sep 2026).",
+      "url": "https://mem0.ai/research",
+      "accessed": true
+    },
+    {
+      "key": "mem0docs",
+      "text": "Mem0 documentation: OSS v2 → v3 migration; graph memory.",
+      "url": "https://docs.mem0.ai/platform/features/graph-memory",
+      "accessed": true
+    },
+    {
+      "key": "zep",
+      "text": "P. Rasmussen, P. Paliychuk, T. Beauvais, J. Ryan, D. Chalef. Zep: A Temporal Knowledge Graph Architecture for Agent Memory. arXiv:2501.13956, 2025. Blog: getzep.com/blog/state-of-the-art-agent-memory.",
+      "url": "https://arxiv.org/abs/2501.13956"
+    },
+    {
+      "key": "zeprebuttal",
+      "text": "Zep. Lies, Damn Lies, Statistics: Is Mem0 Really SOTA in Agent Memory? Blog, 6 May 2025.",
+      "url": "https://www.getzep.com/blog/lies-damn-lies-statistics-is-mem0-really-sota-in-agent-memory/",
+      "accessed": true
+    },
+    {
+      "key": "zepresearch",
+      "text": "Zep. Research results (page modified 29 Sep 2026).",
+      "url": "https://www.getzep.com/research/",
+      "accessed": true
+    },
+    {
+      "key": "zepabac",
+      "text": "Zep documentation: attribute-based and policy-based access control (Enterprise).",
+      "url": "https://help.getzep.com/v4/attribute-based-access-control.md",
+      "accessed": true
+    },
+    {
+      "key": "graphiti",
+      "text": "Graphiti (getzep/graphiti), graphiti-core 0.31.2, source code.",
+      "url": "https://github.com/getzep/graphiti",
+      "accessed": true
+    },
+    {
+      "key": "smresearch",
+      "text": "Supermemory. LongMemEval-S evaluation report, May 2026.",
+      "url": "https://supermemory.ai/research/longmembench/",
+      "accessed": true
+    },
+    {
+      "key": "smdocs",
+      "text": "Supermemory documentation: search defaults; container tags (namespaces).",
+      "url": "https://supermemory.ai/docs/concepts/container-tags",
+      "accessed": true
+    },
+    {
+      "key": "letta",
+      "text": "Letta. Benchmarking AI Agent Memory: Is a Filesystem All You Need? Blog, 12 Aug 2025.",
+      "url": "https://www.letta.com/blog/benchmarking-ai-agent-memory",
+      "accessed": true
+    },
+    {
+      "key": "cognee",
+      "text": "Cognee (topoteretes/cognee), commit 37f788bd, source code.",
+      "url": "https://github.com/topoteretes/cognee",
+      "accessed": true
+    },
+    {
+      "key": "multihoprag",
+      "text": "Y. Tang, Y. Yang. MultiHop-RAG: Benchmarking Retrieval-Augmented Generation for Multi-Hop Queries. arXiv:2401.15391, 2024.",
+      "url": "https://arxiv.org/abs/2401.15391"
+    },
+    {
+      "key": "pgvector",
+      "text": "pgvector: open-source vector similarity search for PostgreSQL. README.",
+      "url": "https://github.com/pgvector/pgvector",
+      "accessed": true
+    },
+    {
+      "key": "karpathy",
+      "text": "A. Karpathy. LLM wiki (gist).",
+      "url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+      "accessed": true
+    },
+    {
+      "key": "penfield",
+      "text": "Penfield Labs. Audit of LoCoMo labels and judge leniency. Blog post, 8 Apr 2026.",
+      "url": null
+    }
+  ],
+  "evidence": [
+    {
+      "en": "No LLM call while reading; the only model is the local query embedding",
+      "tr": "Okurken LLM çağrısı yok; tek model yerel sorgu gömmesi",
+      "code": "brain-paths:1187, :55-63 · apps/brain-agent/src/brain/recall.ts:8-16 · apps/studio/lib/brain/recall.ts:1-14 · apps/studio/lib/brain/embed-client.ts:6-14"
+    },
+    {
+      "en": "Embeddings: multilingual-e5-small, q8, CPU, 384 dimensions; HNSW cosine index",
+      "tr": "Gömme: multilingual-e5-small, q8, CPU, 384 boyut; HNSW kosinüs dizini",
+      "code": "apps/brain-agent/src/brain/local-embeddings.ts:17 · embeddings.ts:22-28 · packages/os-kernel/sql/450_brains.sql:146,150"
+    },
+    {
+      "en": "Keyword and vector legs run side by side; EN + TR stop words dropped before the GIN probe",
+      "tr": "Anahtar sözcük ve vektör kolları birlikte çalışır; EN + TR durak sözcükleri GIN sorgusundan önce atılır",
+      "code": "apps/brain-agent/src/brain/recall.ts:184-217 · sql/898_brain_speed.sql:37-51,189-265"
+    },
+    {
+      "en": "Anchors: exact name probe first, Turkish case endings removed",
+      "tr": "Çapalar: önce tam ad eşleşmesi, Türkçe hâl ekleri atılarak",
+      "code": "brain-paths:296-308,325-327,341-375,462"
+    },
+    {
+      "en": "Then word containment + trigram similarity, then by meaning",
+      "tr": "Sonra sözcük içerme + trigram benzerliği, sonra anlam",
+      "code": "brain-paths:377-446 (similarity :417), :471-491, :1239-1252"
+    },
+    {
+      "en": "Kind words with consonant softening ('talebindeki' → talep)",
+      "tr": "Ünsüz yumuşamasıyla tür sözcükleri ('talebindeki' → talep)",
+      "code": "brain-paths:597-605,690-718"
+    },
+    {
+      "en": "Up to 3 hops; 48 best nodes walk on per level; at most 600 nodes",
+      "tr": "En çok 3 adım; her düzeyde en iyi 48 düğüm ilerler; en çok 600 düğüm",
+      "code": "brain-paths:78-79,88,1227,1295-1297,1363-1365"
+    },
+    {
+      "en": "A relation fanning out to more than 50 neighbours is not followed unless named (then 8)",
+      "tr": "50'den fazla komşuya açılan ilişki, soruda geçmedikçe izlenmez (geçerse 8)",
+      "code": "brain-paths:72-76,785-791,1277"
+    },
+    {
+      "en": "Facts ranked by closeness + question stems; period words favour that period (graph facts)",
+      "tr": "Bilgiler yakınlık + soru kökleriyle sıralanır; dönem sözcükleri o dönemi öne alır (çizge bilgileri)",
+      "code": "brain-paths:224-237,925-944,963-970,984-1024"
+    },
+    {
+      "en": "Same attribute twice: newest first, older marked earlier",
+      "tr": "Aynı nitelik iki kez: en yenisi önce, eskisi 'önceki' olarak işaretli",
+      "code": "brain-paths:1064-1142,1616"
+    },
+    {
+      "en": "Token budget for the context (estimated at 3 characters per token)",
+      "tr": "Bağlam için token bütçesi (token başına 3 karakter tahmini)",
+      "code": "brain-paths:1610,1620-1687 · apps/studio/lib/era/turn/right-now.ts:112"
+    },
+    {
+      "en": "Visibility rule: workspace, modules read, privacy, current facts, on every read",
+      "tr": "Görünürlük kuralı: çalışma alanı, okunabilen modüller, gizlilik, güncel bilgiler; her okumada",
+      "code": "brain-viewer:184-232 · packages/os-kernel/sql/900_brain_viewer_access.sql:19-41"
+    },
+    {
+      "en": "Hidden nodes are neither shown nor walked through (seeds, hops, evidence, facts)",
+      "tr": "Gizli düğümler ne gösterilir ne üzerinden geçilir (tohum, adım, kanıt, bilgi)",
+      "code": "brain-paths:357-366,425,487,779-798,873,947,1157-1161"
+    },
+    {
+      "en": "Viewer resolution fails closed (reads no module)",
+      "tr": "Görüntüleyen çözümlemesi hata durumunda kapalı kalır (hiçbir modülü okumaz)",
+      "code": "brain-viewer:76-108"
+    },
+    {
+      "en": "Row-level security on brain tables: organization / workspace / person",
+      "tr": "Bellek tablolarında satır düzeyi güvenlik: organizasyon / çalışma alanı / kişi",
+      "code": "sql/092_tenant_strict.sql:392-400 · sql/898_brain_speed.sql:354-386 · packages/db/index.ts:7-18,78-170"
+    },
+    {
+      "en": "No person: workspace-shared facts only (product callers)",
+      "tr": "Kişi yoksa: yalnız çalışma alanında paylaşılan bilgiler (ürün çağıranları)",
+      "code": "brain-viewer:110-178 · apps/studio/lib/brain/brain-context.ts:122-123 · workflow-scope.ts:84 · apps/brain-agent/src/research/run.ts:90"
+    },
+    {
+      "en": "Record sync: module tag, valid-from, versions; one locked transaction",
+      "tr": "Kayıt senkronu: modül etiketi, geçerlilik başlangıcı, sürümler; tek kilitli işlem",
+      "code": "apps/brain-agent/src/brain/connector-ingest.ts:199-201,242-369 (lock :244, tag :259-264)"
+    },
+    {
+      "en": "Fact extraction and relation judging (LLM); six entity types",
+      "tr": "Bilgi çıkarımı ve ilişki değerlendirmesi (LLM); altı varlık türü",
+      "code": "apps/brain-agent/src/brain/extraction.ts:26-37,66,99,232-276 · ingestion.ts:899-907"
+    },
+    {
+      "en": "Consolidation: 03:00 UTC, organizations with an active connector row, one LLM pass",
+      "tr": "Pekiştirme: 03:00 UTC, etkin bağlayıcı satırı olan organizasyonlar, tek LLM geçişi",
+      "code": "apps/brain-agent/src/index.ts:426-439 · consolidation.ts:73-118,139-154,186-214,271-286"
+    },
+    {
+      "en": "Relationship discovery: co-occurrence + embedding candidates; LLM names an inferred edge",
+      "tr": "İlişki keşfi: birlikte geçme + gömme adayları; LLM çıkarsanan kenarı adlandırır",
+      "code": "apps/brain-agent/src/brain/relationships.ts:1-30,140,201-203 · extraction.ts:385-420"
+    },
+    {
+      "en": "Community detection: Louvain (networkx, seed 42); ontology OWL + SHACL checks",
+      "tr": "Topluluk tespiti: Louvain (networkx, seed 42); ontoloji OWL + SHACL denetimi",
+      "code": "services/semantica-sidecar/app.py:122-189 · ontology-core.ts:82-165 · ontology-tick.ts:130-145"
+    },
+    {
+      "en": "Hash-chained decision log; no production writer yet",
+      "tr": "Özet zincirli karar günlüğü; üretimde henüz yazan yok",
+      "code": "apps/brain-agent/src/decisions/provenance-core.ts:48-90 · provenance.ts:45-110"
+    },
+    {
+      "en": "Facts editable from Era's screens (correct, forget, keep private, confirm)",
+      "tr": "Bilgiler Era ekranlarından düzenlenebilir (düzelt, unut, gizli tut, onayla)",
+      "code": "sql/450_brains.sql:156-245"
+    }
+  ],
+  "matrix": {
+    "systems": [
+      "era",
+      "mem0",
+      "zep",
+      "sm",
+      "letta",
+      "cognee",
+      "wiki",
+      "rag"
+    ],
+    "rows": [
+      {
+        "key": "m_nollm",
+        "cells": {
+          "era": "y",
+          "mem0": "y",
+          "zep": "y",
+          "sm": "y",
+          "letta": "n",
+          "cognee": "n",
+          "wiki": "n",
+          "rag": "y"
+        }
+      },
+      {
+        "key": "m_records",
+        "cells": {
+          "era": "y",
+          "mem0": "n",
+          "zep": "n",
+          "sm": "n",
+          "letta": "n",
+          "cognee": "p",
+          "wiki": "n",
+          "rag": "n"
+        }
+      },
+      {
+        "key": "m_multihop",
+        "cells": {
+          "era": "y",
+          "mem0": "n",
+          "zep": "p",
+          "sm": "n",
+          "letta": "n",
+          "cognee": "p",
+          "wiki": "p",
+          "rag": "n"
+        }
+      },
+      {
+        "key": "m_bitemporal",
+        "cells": {
+          "era": "p",
+          "mem0": "p",
+          "zep": "y",
+          "sm": "p",
+          "letta": "n",
+          "cognee": "p",
+          "wiki": "p",
+          "rag": "n"
+        }
+      },
+      {
+        "key": "m_latest",
+        "cells": {
+          "era": "y",
+          "mem0": "p",
+          "zep": "y",
+          "sm": "y",
+          "letta": "n",
+          "cognee": "u",
+          "wiki": "p",
+          "rag": "n"
+        }
+      },
+      {
+        "key": "m_acl",
+        "cells": {
+          "era": "y",
+          "mem0": "n",
+          "zep": "p",
+          "sm": "p",
+          "letta": "n",
+          "cognee": "p",
+          "wiki": "p",
+          "rag": "p"
+        }
+      },
+      {
+        "key": "m_turkish",
+        "cells": {
+          "era": "y",
+          "mem0": "n",
+          "zep": "n",
+          "sm": "u",
+          "letta": "u",
+          "cognee": "n",
+          "wiki": "n",
+          "rag": "u"
+        }
+      },
+      {
+        "key": "m_onestore",
+        "cells": {
+          "era": "y",
+          "mem0": "p",
+          "zep": "n",
+          "sm": "u",
+          "letta": "y",
+          "cognee": "n",
+          "wiki": "y",
+          "rag": "y"
+        }
+      },
+      {
+        "key": "m_qa",
+        "cells": {
+          "era": "@locomo_qa_era",
+          "mem0": "y",
+          "zep": "y",
+          "sm": "y",
+          "letta": "y",
+          "cognee": "p",
+          "wiki": "n",
+          "rag": "n"
+        }
+      },
+      {
+        "key": "m_leaktest",
+        "cells": {
+          "era": "y",
+          "mem0": "n",
+          "zep": "n",
+          "sm": "n",
+          "letta": "n",
+          "cognee": "n",
+          "wiki": "n",
+          "rag": "n"
+        }
+      },
+      {
+        "key": "m_bizbench",
+        "cells": {
+          "era": "y",
+          "mem0": "n",
+          "zep": "n",
+          "sm": "n",
+          "letta": "n",
+          "cognee": "n",
+          "wiki": "n",
+          "rag": "n"
+        }
+      },
+      {
+        "key": "m_hosted",
+        "cells": {
+          "era": "n",
+          "mem0": "y",
+          "zep": "y",
+          "sm": "y",
+          "letta": "y",
+          "cognee": "y",
+          "wiki": "p",
+          "rag": "u"
+        }
+      },
+      {
+        "key": "m_compliance",
+        "cells": {
+          "era": "u",
+          "mem0": "u",
+          "zep": "y",
+          "sm": "y",
+          "letta": "u",
+          "cognee": "u",
+          "wiki": "n",
+          "rag": "u"
+        }
+      },
+      {
+        "key": "m_harness",
+        "cells": {
+          "era": "n",
+          "mem0": "y",
+          "zep": "u",
+          "sm": "y",
+          "letta": "u",
+          "cognee": "u",
+          "wiki": "n",
+          "rag": "n"
+        }
+      },
+      {
+        "key": "m_files",
+        "cells": {
+          "era": "n",
+          "mem0": "n",
+          "zep": "n",
+          "sm": "n",
+          "letta": "y",
+          "cognee": "n",
+          "wiki": "y",
+          "rag": "p"
+        }
+      }
+    ]
+  },
+  "en": {
+    "lang": "en",
+    "pending": "pending",
+    "fig": "Figure",
+    "tab": "Table",
+    "fig_s": "Fig.",
+    "months": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "accessed": "accessed 22 Oct 2026",
+    "run_head": "Era Technical Report · Era Brain",
+    "title": "Era Brain: Evaluating a Permission-Aware Business Memory on Retrieval, Multi-hop Records and Access Control",
+    "author": "Era Research",
+    "date": "October 2026",
+    "status_pending": "Draft · {k} values pending",
+    "status_final": "Preprint v2",
+    "abstract_h": "Abstract",
+    "abstract": "Era Brain is the memory layer of Era, a platform that runs a business's records and conversations. It keeps synced records (customers, orders, invoices, payments) and facts drawn from conversations in one PostgreSQL database, and answers a query with hybrid keyword and vector recall plus a question-guided path search over typed relations. No language model is called while reading; the only model on the read path is a local embedding model. We evaluate retrieval on two public conversational-memory benchmarks, LongMemEval-S {c:lme} and LoCoMo {c:locomo}, answer accuracy on LoCoMo with an LLM judge, three generated business datasets, and a permission test with planted secrets. At least one evidence session is in the top 10 for {n:lme_sess_any} of 470 answerable LongMemEval-S questions, and all of them for {n:lme_sess_all}. LoCoMo answer accuracy is {n:locomo_qa_era}, against {n:locomo_qa_fullctx} for the same model reading the full conversation. On a held-out business set the answer reaches the context for {n:trH2_all|pct} of 325 questions; on a 100,000-row graph, path search answers {n:k_mh} multi-hop questions where plain vector top-10 answers {n:vec_mh}. Across {n:leak_answers} answers to restricted members, no planted secret leaked. Median recall time is {r:locomo_ms,lme_ms} in process, with no network hop. The business datasets are synthetic and self-built; Section 6 lists what this evaluation does not show.",
+    "kpi_h": "Summary of results.",
+    "kpi_cap": "Six headline numbers with their conditions. Values marked pending come from runs that have not finished.",
+    "k1_t": "LoCoMo answer accuracy",
+    "k1_s": "LLM judge · full context, same model: {n:locomo_qa_fullctx}",
+    "k2_t": "LongMemEval-S retrieval",
+    "k2_s": "≥1 evidence session in top 10 · all sessions: {n:lme_sess_all} · 470 q",
+    "k3_t": "Held-out business questions",
+    "k3_s": "answer in context · 325 q (245 TR, 80 EN)",
+    "k4_t": "Multi-hop, 100k graph rows",
+    "k4_s": "path search · plain vector top-10: {n:vec_mh}",
+    "k5_t": "Permission leaks",
+    "k5_s": "{n:leak_answers} member answers · 7 read paths + 8 no-person callers",
+    "k6_t": "Recall latency p50",
+    "k6_s": "LoCoMo / LongMemEval · in process, no network hop",
+    "s1": "1 Introduction",
+    "s1_p1": "Memory layers for language-model agents are usually evaluated on long chat histories: one user talks to an assistant for weeks, and the system must recall what was said {c:lme,locomo}. A business asks different questions. The answer to “has the invoice for this customer's last order been paid?” sits in three synced records joined by relations, may have changed since yesterday, and must not reach a sales assistant who is not allowed to see invoices. The language is often Turkish, whose suffixes defeat plain keyword search.",
+    "s1_p2": "Public benchmarks for this setting are scarce. Agent benchmarks over CRM data {c:crmarena,crmarenapro} and a 2026 benchmark for access control in shared agent memory {c:gatemem} exist, but none measures a memory layer's retrieval over synced business records under per-person permissions. We therefore report two kinds of evidence: standard retrieval and answer-accuracy numbers on public conversational benchmarks, so that Era Brain can be placed next to published systems, and self-built business and permission tests, whose construction and limits are described in Sections 3 and 6.",
+    "s1_p3": "This report makes four contributions:",
+    "s1_l1": "a description of Era Brain's write, store and read paths, with each claim traced to source code (Appendix A);",
+    "s1_l2": "retrieval and answer-accuracy results on LongMemEval-S and LoCoMo, reported with the benchmarks' own question counts and metric names;",
+    "s1_l3": "a business-memory evaluation in Turkish and English: question types, multi-hop record joins at 100,000 graph rows, latest-value questions and context size;",
+    "s1_l4": "a permission test with {n:secrets_A} planted secrets run through every member-facing read path, and a capability comparison with six memory systems as documented on 22 October 2026.",
+    "s2": "2 System",
+    "s2_p1": "Era Brain has a write path, a store and a read path ({f:arch}). The write path turns synced records and conversations into facts, entities and typed relations. The store is one PostgreSQL database. The read path answers a query without calling a language model. Background jobs refine the graph; this evaluation did not exercise them.",
+    "s21": "2.1 Architecture",
+    "s21_p1": "Records from connected apps are written without a language model. Each record is tagged with the module it came from (sales, finance, HR, …), versioned from its own date, and written once even when a sync is retried: the memory, its links, edges, version and sync ledger share one locked transaction, and entities are upserted idempotently before it. Conversations go through LLM fact extraction. Extracted facts link to people, companies, products and topics, not to synced records; an order number mentioned in a chat is matched to the record only at query time, through text.",
+    "s21_p2": "Two components exist in code but receive no production data yet: the causal decision graph and its hash-chained log{fn:prov}. Nightly consolidation also has a known gap{fn:consol}.",
+    "fn_prov": "Each log entry is chained to the previous one with SHA-256, so editing or removing an earlier entry breaks the chain. Removing the newest entries, or rewriting the whole chain, cannot be detected without an external anchor.",
+    "fn_consol": "Consolidation runs at 03:00 UTC, and only for organizations with an active connector row; organizations that only sync records are not consolidated. Facts it derives are not yet tagged with module, workspace or privacy, so the permission result in Section 4.6 does not cover them.",
+    "cap_arch": "Era Brain components by layer. Filled marker: exercised by this evaluation; half: partly, or with simulated input; empty: not exercised. Dashed outline: built but not yet fed with production data. LLM: the component calls a language model.",
+    "a_write": "Write",
+    "a_store": "Store · one PostgreSQL",
+    "a_read": "Read · no LLM",
+    "a_bg": "Background jobs (not exercised)",
+    "a_dec": "Decisions (built, not yet fed)",
+    "a_rec_t": "Record sync",
+    "a_rec_b": "Orders, invoices, payments from apps; module tag, valid-from, exactly once",
+    "a_ext_t": "Fact extraction",
+    "a_ext_b": "Chat → facts linked to people, companies, products, topics",
+    "a_jud_t": "Relation judging",
+    "a_jud_b": "New fact updates, extends or is unrelated",
+    "a_mem_t": "Memories",
+    "a_mem_b": "Text, e5 vector, full text; scope, owner, module, valid-from",
+    "a_ent_t": "Entities + typed relations",
+    "a_ent_b": "Names, aliases, trigram indexes; typed edges",
+    "a_ver_t": "Record versions",
+    "a_ver_b": "Field-level history; latest value supersedes",
+    "a_rls_t": "Tenancy (RLS)",
+    "a_rls_b": "Organization and workspace on every row",
+    "a_hyb_t": "Hybrid recall",
+    "a_hyb_b": "Full text ‖ vector, fused by rank",
+    "a_path_t": "Path search",
+    "a_path_b": "Typed relations, ≤ 3 hops, question-guided",
+    "a_vis_t": "Visibility rule",
+    "a_vis_b": "Module, privacy, current facts at every step",
+    "a_ctx_t": "Context",
+    "a_ctx_b": "Paths + facts under a token budget",
+    "a_asof_t": "Point in time",
+    "a_asof_b": "As-of recall; not tested",
+    "a_con_t": "Consolidation",
+    "a_con_b": "Nightly; newer wins; expired facts retired",
+    "a_rel_t": "Relationship discovery",
+    "a_rel_b": "~2 min; LLM names inferred edges",
+    "a_com_t": "Communities",
+    "a_com_b": "Louvain clustering",
+    "a_ont_t": "Ontology checks",
+    "a_ont_b": "OWL + SHACL; gaps become insights",
+    "a_lrn_t": "Approved learning",
+    "a_lrn_b": "Rules and skills wait for a person",
+    "a_cdg_t": "Causal decision graph",
+    "a_cdg_b": "Which decision led to which outcome",
+    "a_log_t": "Decision log",
+    "a_log_b": "Hash-chained entries",
+    "lg_full": "exercised",
+    "lg_half": "partly / simulated input",
+    "lg_none": "not exercised",
+    "lg_dash": "built, not yet fed",
+    "s22": "2.2 Read path",
+    "s22_p1": "A query is answered in six steps ({f:read}), inside one read transaction:",
+    "st1_t": "Anchors.",
+    "st1": "Names in the question are matched exactly first, with Turkish case endings removed (“Ağaoğlunun” → Ağaoğlu), then by word containment and trigram similarity, then by meaning (entities behind the nearest memories). Kind words (“order”, “fatura”, “talebindeki” → talep, with consonant softening) set the kind of node to reach.",
+    "st2_t": "Hybrid recall.",
+    "st2": "A full-text query, with English and Turkish stop words removed, and a vector query (HNSW, cosine) run side by side; their results are fused by reciprocal rank.",
+    "st3_t": "Path search.",
+    "st3": "From the anchors, a walk over typed relations goes up to three hops. At each level the 48 most promising nodes walk on (at most 600 in total). A relation that fans out to more than 50 neighbours is not followed unless the question names it. The walk stops once the asked relations and kinds are covered.",
+    "st4_t": "Rank.",
+    "st4": "Graph facts are scored by vector distance to the question and by how many of its word stems they contain; period words (“geçen ay”, “last week”) favour facts from that period. When the same attribute is stated twice, the newest comes first and the older one is marked as earlier.",
+    "st5_t": "Visibility.",
+    "st5": "Every statement carries the asker's visibility rule (Section 2.3): a node the person may not see is neither returned nor walked through.",
+    "st6_t": "Compact.",
+    "st6": "Anchors, answer paths with their evidence, and the best remaining facts are written under a token budget (about 1,000 tokens in chat, estimated at three characters per token).",
+    "cap_read": "Read path for one query. The visibility rule is applied inside every step, not as a final filter. No language model is called; the only model is the local query embedding.",
+    "r1": "Anchors",
+    "r1b": "exact → word/trigram → meaning",
+    "r2": "Hybrid recall",
+    "r2b": "full text ‖ vector",
+    "r3": "Typed path search",
+    "r3b": "≤ 3 hops, beam 48",
+    "r4": "Rank",
+    "r4b": "distance, stems, period, newest",
+    "r5": "Compact context",
+    "r5b": "~1,000-token budget",
+    "r_q": "Question",
+    "r_m": "Model",
+    "r_vis": "Visibility rule on every statement: workspace RLS · module read grants · privacy · current facts",
+    "r_emb": "local e5 embedding (in process)",
+    "cap_ex": "Worked example with illustrative data. The question names a customer and the kinds “order”, “invoice” and “paid”. The walk follows placed → billed_to → pays from the anchor and ignores the other branches; an HR note linked to the same customer is invisible to this member and is never traversed. Relation names follow the benchmark data; a live app's connector names them differently (Section 6).",
+    "ex_q": "“Has the invoice for Kaya Tekstil's last order been paid?”",
+    "ex_cust": "Customer",
+    "ex_order": "Order",
+    "ex_inv": "Invoice",
+    "ex_pay": "Payment",
+    "ex_old": "older order",
+    "ex_contact": "Contact",
+    "ex_hr": "HR note",
+    "ex_hidden": "hidden: not walked",
+    "ex_anchor": "anchor",
+    "ex_ctx": "Context returned (excerpt)",
+    "ex_ctx1": "Kaya Tekstil —placed→ SP-1042 (12 Sep) —billed_to→ FT-2291",
+    "ex_ctx2": "FT-2291 ←pays— payment 18 Sep, bank transfer",
+    "ex_ctx3": "facts: SP-1042 total ₺18,400 · FT-2291 due 30 Sep",
+    "s23": "2.3 Visibility rule",
+    "s23_p1": "Access is enforced in two layers ({f:perm}). PostgreSQL row-level security binds every connection to one organization and workspace. On top of it, one shared visibility rule is added to every read query: facts from a module the member cannot read (resolved from the platform's role grants), other people's private or personal facts, and superseded facts are excluded. An entity named only by hidden facts is not a node, and an edge is followed only if its module is readable and both ends are visible. If the member's grants cannot be resolved, the rule falls back to reading no module. A product caller with no person, such as a workflow or a research job, reads only the workspace's shared facts. Module and privacy are query predicates, not row-level-security policies{fn:rls}.",
+    "fn_rls": "The engine's library functions run unfiltered when called with no viewer at all; every product caller passes one (Appendix A).",
+    "cap_perm": "Two layers of access control. Row-level security scopes each connection to the organization and workspace; the visibility rule removes what this member may not read at every step of the read path, and fails closed.",
+    "p_l1": "Row-level security (PostgreSQL)",
+    "p_l1b": "organization · workspace · person; every connection",
+    "p_l2": "Visibility rule (one shared function)",
+    "p_l2b": "module read grants from roles · privacy · current facts",
+    "p_member": "Sales member",
+    "p_member_b": "reads: sales, CRM · not: finance, invoices, HR",
+    "p_s1": "seeds",
+    "p_s2": "each hop: edge + far end",
+    "p_s3": "hop evidence",
+    "p_s4": "node facts",
+    "p_drop": "dropped",
+    "p_keep": "returned",
+    "p_fc": "Grants cannot be resolved → reads no module (fail-closed)",
+    "p_np": "No person (workflow, research) → workspace-shared facts only",
+    "p_ex1": "Order SP-1042 (sales)",
+    "p_ex2": "Invoice amount (finance)",
+    "p_ex3": "Salary (HR)",
+    "p_ex4": "Owner's private note",
+    "s24": "2.4 What one search call touches",
+    "s24_p1": "{f:hops} counts the services one search call touches. Era Brain runs the query embedding in process and sends about ten SQL statements to one PostgreSQL database in one transaction. Several current systems also avoid a language model on their default read path, among them Mem0 v3, Graphiti and Zep, and Supermemory {c:mem0docs,graphiti,zepresearch,smdocs}. The difference in {f:hops} is therefore the number of services and network hops, not the absence of an LLM alone. In production the studio reaches the embedding model over one internal HTTP call; the benchmark ran it in process.",
+    "cap_hops": "Services touched by one search call, from each system's documentation and code as of 22 October 2026. Services: separate systems the call reaches, including the database. Mem0g is the graph variant described in the 2025 paper {c:mem0}; it is no longer in Mem0's open-source package. Letta's agent decides each search with an LLM.",
+    "h_hops": "services",
+    "h_llm": "LLM calls",
+    "h_app": "App",
+    "h_pg": "PostgreSQL",
+    "h_pg_b": "e5 embed in process · ~10 SQL · 1 transaction",
+    "h_emb": "Embedder",
+    "h_emb_api": "Embedder API",
+    "h_vec": "Vector store",
+    "h_ent": "+ entity store",
+    "h_llm_box": "LLM",
+    "h_llm_ent": "LLM: entities from query",
+    "h_neo": "Neo4j",
+    "h_graph": "Graph DB",
+    "h_zepapi": "Zep API",
+    "h_zep_int": "internals not published",
+    "h_smapi": "Supermemory API",
+    "h_sm_int": "internals not documented",
+    "h_agent": "Agent LLM",
+    "h_arch": "Archival search",
+    "h_era": "Era Brain",
+    "h_mem0": "Mem0 OSS v3",
+    "h_mem0g": "Mem0g (2025 paper)",
+    "h_graphiti": "Graphiti (self-hosted)",
+    "h_zep": "Zep (hosted)",
+    "h_sm": "Supermemory (hosted)",
+    "h_letta": "Letta",
+    "h_unk": "?",
+    "h_local_opt": "1–2",
+    "h_ge1": "≥ 1",
+    "s3": "3 Evaluation setup",
+    "s3_p1": "{t:data} lists the datasets. All runs used the code of commit {m:commit} unless a footnote says otherwise.",
+    "cap_data": "Datasets. The business sets were generated by us. H2 is a reworded variant (new seed, record texts and question wording) of H, a set the engine was tuned on; no engine code changed after H2 was generated.",
+    "d_h1": "Dataset",
+    "d_h2": "Language",
+    "d_h3": "Questions",
+    "d_h4": "Content",
+    "d_h5": "Origin",
+    "d_lme": "LongMemEval-S, cleaned {c:lme}",
+    "d_lme2": "EN",
+    "d_lme3": "500 (470 scored)",
+    "d_lme4": "~115k-token chat history per question",
+    "d_lme5": "public · MIT",
+    "d_loc": "LoCoMo-10 {c:locomo}",
+    "d_loc2": "EN",
+    "d_loc3": "1,540",
+    "d_loc4": "10 long conversations; adversarial category 5 excluded, as in {c:mem0}",
+    "d_loc5": "public · CC BY-NC 4.0, evaluation only",
+    "d_h2s": "Business set H2 (held out)",
+    "d_h2s2": "TR + EN (245 / 80)",
+    "d_h2s3": "325",
+    "d_h2s4": "customers, orders, invoices, payments, shipments, tickets, contracts, WhatsApp and e-mail threads",
+    "d_h2s5": "generated · product write paths",
+    "d_ah": "Business sets A and H",
+    "d_ah2": "TR + EN",
+    "d_ah3": "370 / 365",
+    "d_ah4": "same family; used while tuning; permission sweeps with 865 and 790 secrets",
+    "d_ah5": "generated",
+    "d_k": "Scale set",
+    "d_k2": "EN",
+    "d_k3": "200 (100 multi-hop)",
+    "d_k4": "20,000 entities (12,000 people, 5,000 companies, products, projects, places), 40,000 memories, 40,000 typed relations",
+    "d_k5": "generated · bulk-loaded",
+    "s31": "3.1 Metrics",
+    "mt1_t": "Evidence in top 10 (any / all).",
+    "mt1": "Whether at least one, or every, gold evidence item is among the 10 returned items: LongMemEval sessions or rounds, LoCoMo dialogue turns. LongMemEval's official retrieval metric is recall_all {c:lme}; we report both. The 30 abstention questions have no evidence and are excluded, as in LongMemEval's own retrieval scoring. Four LoCoMo questions have no evidence label and count as misses.",
+    "mt2_t": "Answer in context.",
+    "mt2": "On the business sets: the gold answer string appears in the returned context (case-insensitive, Turkish locale). It does not prove that the answer came from the right evidence; on the 100k three-hop questions the source facts for every hop are present in {n:k_ev3_all}.",
+    "mt3_t": "QA accuracy.",
+    "mt3": "A reader model answers each LoCoMo question from the returned context, and an LLM judge grades the answer against the gold answer, following {c:mem0}. Reader: {m:qa_reader}; judge: {m:qa_judge}.",
+    "mt4_t": "Tokens.",
+    "mt4": "cl100k_base count of the context text as returned; memory lists are rendered one line per memory.",
+    "mt5_t": "Latency.",
+    "mt5": "Median (p50) wall time of one recall call in the benchmark process, including the local query embedding and all queries to PostgreSQL in Docker on the same machine (Windows 11, 24 cores); one client, warm, first query excluded, no remote network.",
+    "s32": "3.2 What was not exercised",
+    "s32_p1": "On LongMemEval and LoCoMo the conversations were stored as raw text without fact extraction, so only hybrid recall ran and the graph was not used. LLM extraction, relation judging, consolidation and relationship discovery were switched off to keep model cost at zero; their effect is not measured. In the business sets, records and relations were generated directly in the writer's input format rather than produced by a live app's connector mapping. Repeated runs differ by about one question per set, and latencies vary between runs{fn:ver}.",
+    "fn_ver": "LoCoMo and LongMemEval latency was measured before a final speed-only change to memory recall; LoCoMo p50 was 21 ms on an earlier code version without the visibility rule. The 100k memory-search latency ({n:k_mem_ms}) comes from a separate run on the committed code. The chat-context path was swept for leaks with a 700-token graph budget; the committed budget of 1,000 tokens was leak-checked on the targeted permission questions ({n:leak_era1000} leaks in {n:leak_era1000_n} answers).",
+    "s4": "4 Results",
+    "s41": "4.1 Answer accuracy",
+    "s41_p1": "{f:qa} sets Era Brain's LoCoMo answer accuracy next to a same-model baseline that reads the full conversation, and next to published figures. Published figures use different reader and judge models and were not re-run by us; they are grouped by date. Mem0's and Zep's 2026 results {c:mem0research,zepresearch} use newer readers than their 2025 papers {c:mem0,zep}. The 2025 Zep figure of 66.0% was produced by Mem0's team and is disputed by Zep, whose own run reports 75.1% {c:zeprebuttal}. LoCoMo's labels contain errors that affect every judge-based score{fn:pen}.",
+    "fn_pen": "An independent audit reports 99 score-affecting label errors among the 1,540 questions, and a standard judge that accepted 62.8% of intentionally wrong answers {c:penfield}.",
+    "cap_qa": "Answer accuracy with an LLM judge. Black: Era Brain; dark grey: same-model full-context baseline; grey: published by the paper or vendor named, with reader model and date. Values from different readers and judges are not directly comparable. Dashed: pending.",
+    "qa_a": "(a) LoCoMo, 1,540 questions",
+    "qa_b": "(b) LongMemEval-S",
+    "q_era": "Era Brain",
+    "q_full": "Full context, same model",
+    "q_g26": "Published 2026",
+    "q_g25": "Published 2025",
+    "q_zep": "Zep",
+    "q_mem0": "Mem0",
+    "q_mem0g": "Mem0g",
+    "q_zepm": "Zep, run by Mem0",
+    "q_zepown": "Zep, own run",
+    "q_letta": "Letta, file agent",
+    "q_full25": "Full context",
+    "q_sm": "Supermemory",
+    "m_not_named": "model not named",
+    "m_not_stated": "scoring not stated",
+    "s42": "4.2 Retrieval",
+    "s42_p1": "{f:ret} reports retrieval on the public benchmarks. On LongMemEval-S, hybrid recall puts at least one evidence session in the top 10 for {n:lme_sess_any} of questions, and every evidence session for {n:lme_sess_all}. A plain vector top-10 already reaches {n:lme_vec_sess_any} on the “any” measure, so the benchmark leaves little room there; the “all” measures separate methods more. On LoCoMo, hybrid recall finds at least one evidence turn for {n:locomo_ev_any} against {n:locomo_vec_ev_any} for plain vector, with about {n:locomo_tok} tokens of context.",
+    "cap_ret": "Retrieval on the public benchmarks, top 10 items. Any: at least one gold evidence item returned; all: every one. Plain-vector values come from the preceding run on the same data and machine.",
+    "rt_a": "(a) LongMemEval-S, 470 questions",
+    "rt_b": "(b) LoCoMo, 1,540 questions",
+    "rt_sany": "Session, any",
+    "rt_sall": "Session, all",
+    "rt_eany": "Evidence, any",
+    "rt_eall": "Evidence, all",
+    "rt_hyb": "Era hybrid recall",
+    "rt_vec": "Plain vector top-10",
+    "s43": "4.3 Business memory",
+    "s43_p1": "{f:biz} breaks the held-out set down by question type. Direct lookups, two-hop questions (person → employer → tax number, IBAN or website; ticket → assigned staff phone; product → supplier phone), period questions and latest-value questions are answered almost completely. Two types remain weak: questions that join a record with a conversation (an order is named, the answer is in the customer's WhatsApp or e-mail) at {n:trH2_join}, and the complaint → order → invoice → payment chain at {n:trH2_hop3a}. Turkish questions score {n:trH2_tr|pct}, English ones {n:trH2_en|pct}.",
+    "s43_p2": "<i>Latest value wins.</i> When a record is re-synced with a new value, or a conversation corrects an earlier statement, the newer fact must come first. This held for {n:trH2_rec_upd} record updates and {n:trH2_conv_upd} conversation updates.",
+    "s43_p3": "{f:mh} isolates multi-hop questions on the 100,000-row scale set. Path search answers every direct, two-hop and three-hop question. A plain vector top-10 over the same memories answers {n:vec_hop2} two-hop and {n:vec_hop3} three-hop questions; its 35% overall score ({n:vec_all}) comes almost entirely from direct lookups. The same pattern is reported for vector RAG on public multi-hop queries {c:multihoprag}.",
+    "cap_biz": "Held-out business set H2 (325 questions), answer in context by question type. Bars to scale; labels give correct / total.",
+    "b_direct": "Direct lookup",
+    "b_hop2": "2-hop (employer, staff, supplier)",
+    "b_hop3b": "3-hop: customer → company → contract",
+    "b_hop3a": "3-hop: complaint → order → invoice → payment",
+    "b_join": "Record + conversation join",
+    "b_temporal": "Period (“eylülde”, “last month”)",
+    "b_rec": "Latest value: record re-synced",
+    "b_conv": "Latest value: corrected in chat",
+    "b_all": "All questions",
+    "b_tr": "Turkish questions",
+    "b_en": "English questions",
+    "cap_mh": "Scale set (100,000 graph rows, owner asking): path search vs plain vector top-10, answer in context.",
+    "mh_direct": "Direct (100)",
+    "mh_hop2": "2-hop (60)",
+    "mh_hop3": "3-hop (40)",
+    "mh_path": "Era path search",
+    "mh_vec": "Plain vector top-10",
+    "s44": "4.4 Context size",
+    "s44_p1": "{f:tok} compares context tokens per query. On LoCoMo, hybrid recall returns ten raw turns, about {n:locomo_tok} tokens. On business questions, path search returns {n:trH2_tok} tokens and an Era chat turn hands the model {n:trH2_turn_tok}. The 2025 figures are what Mem0, Mem0g and Zep used for their QA scores; the 2026 systems use larger contexts at much higher accuracy. Fewer tokens at lower recall is not cheaper like-for-like, and tokenizers differ, so these numbers are indicative.",
+    "cap_tok": "Context tokens per query (p50 unless noted). Black: Era Brain; grey: published LoCoMo figures with date. The full-context bar is cut; its value is printed.",
+    "t_era_loc": "Era · LoCoMo (10 raw turns)",
+    "t_era_biz": "Era · business, path search",
+    "t_era_turn": "Era · business, chat turn",
+    "t_era_lme": "Era · LongMemEval (raw rounds)",
+    "t_mem0_25": "Mem0",
+    "t_mem0g_25": "Mem0g",
+    "t_zepm_25": "Zep, run by Mem0",
+    "t_zep_26": "Zep (median)",
+    "t_mem0_26": "Mem0 (mean)",
+    "t_full": "Full conversation",
+    "s45": "4.5 Latency",
+    "s45_p1": "{f:lat} shows median search time. Era Brain's figures are measured in process without a network hop; vendor figures are measured through their hosted services or as stated in their publications, so the comparison indicates an order of magnitude, not a ranking. Against the fastest published hosted retrieval latency (Zep, {n:c_zep_26_locomo_ms} on LoCoMo), Era Brain's {n:locomo_ms} is about {n:lat_ratio} lower. Graph recall on business questions takes longer, {n:trH2_ms}, because it walks up to three levels and applies the visibility rule at each{fn:m0lat}.",
+    "fn_m0lat": "Mem0's 2026 README gives “latency p50 0.88 s” on LoCoMo without saying what it covers; it is not plotted. Supermemory's homepage figures (server and end to end) are plotted as published.",
+    "cap_lat": "Median (p50) search latency in milliseconds, linear scale. Black: Era Brain, in process, local database, no network hop. Grey: as published (accessed 22 October 2026), measured through hosted services or as stated.",
+    "l_era_loc": "Era · LoCoMo, memory recall",
+    "l_era_lme": "Era · LongMemEval, memory recall",
+    "l_era_k": "Era · 100k, memory recall",
+    "l_era_biz": "Era · business, graph recall",
+    "l_era_kg": "Era · 100k, graph recall",
+    "l_zep_loc": "Zep · LoCoMo retrieval",
+    "l_zep_lme": "Zep · LongMemEval retrieval",
+    "l_sm": "Supermemory · server",
+    "l_sm_e2e": "Supermemory · end to end",
+    "l_mem0": "Mem0 · search",
+    "l_mem0g": "Mem0g · search",
+    "l_zepm": "Zep, run by Mem0",
+    "s46": "4.6 Permissions",
+    "s46_p1": "In the permission test a sales member (no finance, invoices or HR) asks every question, and a finance member (no HR) asks every targeted permission question. {n:secrets_A} secrets are planted in set A ({n:secrets_A_inv} invoice amounts, {n:secrets_A_sal} salaries, {n:secrets_A_cred} credit limits, {n:secrets_A_note} private notes) and {n:secrets_H} in set H. A leak is any secret the asker may not see appearing in the returned context. Seven member read paths were swept: memory and graph recall in the agent service, recall in the studio, Era's brain-search and brain-graph tools, the Era chat-turn context and the builder copilot context. Eight callers with no person (research, two workflow blocks, internal recall and list, copilot and graph context, meetings brief) were checked separately. {f:leak} shows the result: no leak in any answer.",
+    "cap_leak": "Left: composition of the 865 secrets planted in set A. Right: answers checked per test, with leaks found (red).",
+    "lk_A": "Set A sweep · 7 paths + union",
+    "lk_H": "Set H sweep",
+    "lk_H2": "Set H2, targeted",
+    "lk_gaps": "8 no-person callers (checks)",
+    "lk_1000": "Chat turn at 1,000-token budget",
+    "lk_leaks": "leaks",
+    "lk_answers": "answers checked",
+    "sc_inv": "invoice amounts",
+    "sc_sal": "salaries",
+    "sc_cred": "credit limits",
+    "sc_note": "private notes",
+    "sc_tot": "{n:secrets_A} secrets planted in set A",
+    "s47": "4.7 What changed the numbers",
+    "s47_p1": "{t:abl} lists the changes that moved the results most. Each row compares the engine before and after the named change on the same data and machine; most rows bundle several related edits, so a row does not isolate a single technique.",
+    "cap_abl": "Before and after comparisons. Before values come from earlier code versions on the same data.",
+    "ab_h1": "Change",
+    "ab_h2": "Before",
+    "ab_h3": "After",
+    "ab_h4": "Set, measure",
+    "ab1": "Full-text search that uses its index, plus a batched access counter",
+    "ab1s": "100k · memory search p50",
+    "ab2": "Typed path search with precise seeds and question-ranked facts, instead of a 1,000-node expansion",
+    "ab2s": "100k · multi-hop: answer, tokens, p50",
+    "ab3": "Hybrid recall instead of plain vector top-10",
+    "ab3s": "LoCoMo · evidence, any",
+    "ab4": "Path search instead of plain vector top-10",
+    "ab4s": "100k · all 200, answer in context",
+    "ab5": "All Turkish matching and ranking work on the path engine (suffixes, consonant softening, end-node facts, record kinds, period words)",
+    "ab5s": "H2 · answer in context",
+    "ab6": "Visibility rule on every step, with its row-level-security cost",
+    "ab6s": "first Turkish set (310 q) · graph p50",
+    "s5": "5 Comparison with related systems",
+    "s5_p1": "{t:cap} compares capabilities as documented by each project on 22 October 2026, from vendor documentation, papers and source code {c:mem0docs,graphiti,zepabac,smdocs,cognee,letta,karpathy,pgvector}. We mark only what is documented; “?” means we searched and found nothing. Two findings cut against Era Brain. First, a read path without a language model is no longer distinctive: Mem0 v3, Graphiti, Zep and Supermemory skip the LLM by default. Second, fine-grained access exists elsewhere: Zep Enterprise offers policy- and attribute-based rules on ingestion metadata {c:zepabac}, Supermemory restricts members to namespaces, and Cognee grants permissions per dataset. What we did not find elsewhere is a per-fact rule derived from the business's own role and module grants and applied at every graph step, or a published permission-leak test.",
+    "s5_p2": "Others lead in several areas: published end-to-end QA (Mem0, Zep, Supermemory); bi-temporal edges with invalidation (Zep and Graphiti; Era's edges carry no validity interval and graph walks read current facts only); managed extraction and custom ontologies (Zep, Mem0); hosted products, SDKs and integrations; documented compliance (Zep: SOC 2 Type II, HIPAA; Supermemory: SOC 2, HIPAA); and open evaluation harnesses (Mem0, Supermemory). On LoCoMo, a plain file-search agent (Letta, gpt-4o-mini) scored 74.0% {c:letta}, above Mem0's 2025 score, so a files-and-search memory such as a wiki is a strong baseline for chat recall. Our comparison concerns business records and permissions.",
+    "cap_cap": "Capabilities as documented on 22 October 2026. ● yes · ◐ partial, plan-dependent or limited · ○ no · ? not documented (searched). Era Brain's QA entry stays pending until the run in Section 4.1 completes.",
+    "sys_era": "Era Brain",
+    "sys_mem0": "Mem0",
+    "sys_zep": "Zep / Graphiti",
+    "sys_sm": "Super-memory",
+    "sys_letta": "Letta",
+    "sys_cognee": "Cognee",
+    "sys_wiki": "Wiki / Obsidian",
+    "sys_rag": "Vector RAG",
+    "m_nollm": "No LLM on the default read path",
+    "m_records": "Business records written as typed, versioned data without an LLM",
+    "m_multihop": "Typed, question-guided multi-hop path search",
+    "m_bitemporal": "Validity time on graph edges (bi-temporal)",
+    "m_latest": "Latest value wins at read time",
+    "m_acl": "Per-fact access rule from role/module grants, on every graph step",
+    "m_turkish": "Turkish morphology in keyword search",
+    "m_onestore": "One datastore for vectors, text, graph and access",
+    "m_qa": "Published end-to-end QA score",
+    "m_leaktest": "Published permission-leak test",
+    "m_bizbench": "Published structured-business benchmark",
+    "m_hosted": "Hosted product or public SDK",
+    "m_compliance": "Documented compliance (SOC 2, HIPAA)",
+    "m_harness": "Open evaluation harness",
+    "m_files": "Memory editable as plain files",
+    "cap_pub": "Published competitor figures used in this report, with reader model and date. All are end-to-end QA scores; none is retrieval recall.",
+    "pb_h1": "System",
+    "pb_h2": "Benchmark",
+    "pb_h3": "Score",
+    "pb_h4": "Reader / judge",
+    "pb_h5": "Date",
+    "pb_h6": "Ref.",
+    "s6": "6 Limitations",
+    "lim1": "Answer accuracy is pending in this draft. Every other accuracy number is retrieval: whether the evidence reached the model, not whether a correct answer was produced.",
+    "lim2": "The business sets are synthetic and self-built. H2 is a reworded variant of a set used during tuning; validation on real customer data is still needed.",
+    "lim3": "Records and relations in the business sets were generated in the writer's input format. Today's connector mapping for a generic app emits generic relations (bought, paid by, related to), so a live graph may be sparser than the one walked here.",
+    "lim4": "“Answer in context” is a string match. On the 100k three-hop questions the source facts for every hop are present in {n:k_ev3_all}; the answer arrives through the path line.",
+    "lim5": "The 100k set was bulk-loaded by SQL rather than written through the product, and only the owner asked.",
+    "lim6": "Latency is one in-process call with a single client on a local database; LoCoMo and LongMemEval latency predate a final speed-only change to recall.",
+    "lim7": "LLM layers (extraction, relation judging, consolidation, relationship discovery) were not run. Facts derived by consolidation are not yet tagged with module, workspace or privacy, so the zero-leak result does not cover them.",
+    "lim8": "As-of (point-in-time) recall was not tested, and graph edges carry no validity interval.",
+    "lim9": "Competitor figures are taken from their publications, not re-run; they use different models, tokenizers and setups.",
+    "lim10": "LoCoMo is licensed CC BY-NC 4.0; it was used for evaluation only and is not redistributed. The harness is not yet public.",
+    "s7": "7 Conclusion",
+    "s7_p1": "Era Brain answers business questions from one PostgreSQL database with no language model on the read path. On the tests we built for that setting (multi-hop record joins, latest values, Turkish phrasing and per-member permissions) it found the answer for {n:trH2_all|pct} of held-out questions and leaked no secret in {n:leak_answers} answers, with about {n:trH2_turn_tok} tokens of context per chat turn. On public conversational benchmarks its retrieval improves on a plain vector baseline, and its LoCoMo answer accuracy is {n:locomo_qa_era}. Next steps: validation on real customer data, a public release of the harness, a run of a public access-control benchmark {c:gatemem}, and tagging consolidation-derived facts with module, workspace and privacy.",
+    "refs_h": "References",
+    "appA": "Appendix A  Where each claim lives in the code",
+    "appA_p": "Repository commit {m:commit}. Paths are relative to the repository root; brain-paths = packages/db/brain-paths.ts, brain-viewer = packages/db/brain-viewer.ts.",
+    "cap_ev": "Claims and their source locations.",
+    "ev_h1": "Claim",
+    "ev_h2": "Code",
+    "h_emb_sub": "API unless local",
+    "tok_w": "tok",
+    "homepage": "vendor homepage",
+    "t_era_qa": "Era · LoCoMo, QA run"
+  },
+  "tr": {
+    "lang": "tr",
+    "pending": "bekliyor",
+    "fig": "Şekil",
+    "tab": "Tablo",
+    "fig_s": "Şekil",
+    "months": [
+      "Oca",
+      "Şub",
+      "Mar",
+      "Nis",
+      "May",
+      "Haz",
+      "Tem",
+      "Ağu",
+      "Eyl",
+      "Eki",
+      "Kas",
+      "Ara"
+    ],
+    "accessed": "erişim: 22 Eki 2026",
+    "run_head": "Era Teknik Rapor · Era Brain",
+    "title": "Era Brain: Yetkiye Duyarlı Bir İşletme Belleğinin Geri Getirme, Çok Adımlı Kayıt Sorguları ve Erişim Denetimi Açısından Değerlendirilmesi",
+    "author": "Era Research",
+    "date": "Ekim 2026",
+    "status_pending": "Taslak · {k} değer bekliyor",
+    "status_final": "Ön baskı v2",
+    "abstract_h": "Özet",
+    "abstract": "Era Brain, bir işletmenin kayıtlarını ve yazışmalarını yürüten Era platformunun bellek katmanıdır. Senkronize edilen kayıtları (müşteriler, siparişler, faturalar, ödemeler) ve yazışmalardan çıkarılan bilgileri tek bir PostgreSQL veritabanında tutar; bir soruyu, anahtar sözcük ve vektör aramasını birleştiren hibrit geri getirmeyle ve tipli ilişkiler üzerinde soruya göre yönlenen bir yol aramasıyla yanıtlar. Okuma sırasında hiçbir dil modeli çağrılmaz; okuma yolundaki tek model, yerelde çalışan bir gömme (embedding) modelidir. Geri getirmeyi iki açık konuşma belleği kıyaslamasında, LongMemEval-S {c:lme} ve LoCoMo {c:locomo} üzerinde ölçüyoruz; LoCoMo'da yanıt doğruluğunu bir LLM hakemle değerlendiriyor, ayrıca üç üretilmiş işletme veri seti ve gizli bilgilerin yerleştirildiği bir yetki testi kullanıyoruz. Yanıtlanabilir 470 LongMemEval-S sorusunda kanıt oturumlarından en az biri {n:lme_sess_any}, tamamı ise {n:lme_sess_all} oranında ilk 10 sonuç arasındadır. LoCoMo yanıt doğruluğu {n:locomo_qa_era}; aynı model konuşmanın tamamını okuduğunda bu değer {n:locomo_qa_fullctx}. Ayrı tutulan bir işletme setinde yanıt, 325 soruda {n:trH2_all|pct} oranında bağlama ulaşır. 100.000 satırlık bir çizgede çok adımlı sorularda yol araması {n:k_mh}, düz vektör araması (ilk 10) ise {n:vec_mh} doğru sonuç verir. Kısıtlı üyelere verilen {n:leak_answers} yanıtın hiçbirinde yerleştirilen gizli bilgi sızmadı. Medyan arama süresi, süreç içinde ve ağ geçişi olmadan {r:locomo_ms,lme_ms} aralığındadır. İşletme veri setleri sentetiktir ve tarafımızca hazırlanmıştır; bu değerlendirmenin neyi göstermediği 6. bölümde sıralanmıştır.",
+    "kpi_h": "Sonuçların özeti.",
+    "kpi_cap": "Koşullarıyla birlikte altı temel değer. “Bekliyor” ile işaretli değerler henüz tamamlanmamış koşulardan gelecektir.",
+    "k1_t": "LoCoMo yanıt doğruluğu",
+    "k1_s": "LLM hakem · aynı modelle tam bağlam: {n:locomo_qa_fullctx}",
+    "k2_t": "LongMemEval-S geri getirme",
+    "k2_s": "ilk 10'da ≥1 kanıt oturumu · tüm oturumlar: {n:lme_sess_all} · 470 soru",
+    "k3_t": "Ayrı tutulan işletme soruları",
+    "k3_s": "yanıt bağlamda · 325 soru (245 TR, 80 EN)",
+    "k4_t": "Çok adımlı, 100 bin satırlık çizge",
+    "k4_s": "yol araması · düz vektör (ilk 10): {n:vec_mh}",
+    "k5_t": "Yetki sızıntısı",
+    "k5_s": "{n:leak_answers} üye yanıtı · 7 okuma yolu + kişisiz 8 çağıran",
+    "k6_t": "Arama süresi (p50)",
+    "k6_s": "LoCoMo / LongMemEval · süreç içi, ağ geçişi yok",
+    "s1": "1 Giriş",
+    "s1_p1": "Dil modeli ajanları için geliştirilen bellek katmanları genellikle uzun sohbet geçmişleri üzerinde değerlendirilir: tek bir kullanıcı haftalarca bir asistanla konuşur, sistemden de söylenenleri hatırlaması beklenir {c:lme,locomo}. Bir işletmenin soruları ise farklıdır. “Bu müşterinin son siparişinin faturası ödendi mi?” sorusunun yanıtı, ilişkilerle birbirine bağlanan üç senkron kayıtta durur; dünden bu yana değişmiş olabilir ve fatura görme yetkisi olmayan bir satış asistanına ulaşmamalıdır. Üstelik dil çoğu zaman Türkçedir ve sondan eklemeli yapı, düz anahtar sözcük aramasını işlemez hâle getirir.",
+    "s1_p2": "Bu ortam için açık kıyaslama verisi azdır. CRM verisi üzerinde çalışan ajan kıyaslamaları {c:crmarena,crmarenapro} ve paylaşılan ajan belleğinde erişim denetimini ölçen 2026 tarihli bir kıyaslama {c:gatemem} mevcuttur; ancak hiçbiri bir bellek katmanının senkron işletme kayıtları üzerindeki geri getirmesini kişi bazlı yetkiler altında ölçmez. Bu nedenle iki tür kanıt sunuyoruz: Era Brain'i yayımlanmış sistemlerle yan yana koyabilmek için açık konuşma kıyaslamalarında standart geri getirme ve yanıt doğruluğu sonuçları; ve kuruluşunu ve sınırlarını 3. ve 6. bölümlerde açıkladığımız, kendi hazırladığımız işletme ve yetki testleri.",
+    "s1_p3": "Bu raporun dört katkısı vardır:",
+    "s1_l1": "Era Brain'in yazma, saklama ve okuma yollarının, her iddiası kaynak koda bağlanarak tanımlanması (Ek A);",
+    "s1_l2": "LongMemEval-S ve LoCoMo üzerinde, kıyaslamaların kendi soru sayıları ve ölçüt adlarıyla raporlanan geri getirme ve yanıt doğruluğu sonuçları;",
+    "s1_l3": "Türkçe ve İngilizce bir işletme belleği değerlendirmesi: soru türleri, 100.000 çizge satırında çok adımlı kayıt birleştirmeleri, en güncel değer soruları ve bağlam büyüklüğü;",
+    "s1_l4": "{n:secrets_A} gizli bilginin yerleştirildiği ve üyelere açık her okuma yolundan geçirilen bir yetki testi ile altı bellek sisteminin 22 Ekim 2026 itibarıyla belgelenmiş yetenekleriyle karşılaştırılması.",
+    "s2": "2 Sistem",
+    "s2_p1": "Era Brain bir yazma yolu, bir depo ve bir okuma yolundan oluşur ({f:arch}). Yazma yolu senkron kayıtları ve yazışmaları bilgilere, varlıklara ve tipli ilişkilere dönüştürür. Depo tek bir PostgreSQL veritabanıdır. Okuma yolu bir soruyu dil modeli çağırmadan yanıtlar. Arka plan işleri çizgeyi zenginleştirir; bu değerlendirmede çalıştırılmamışlardır.",
+    "s21": "2.1 Mimari",
+    "s21_p1": "Bağlı uygulamalardan gelen kayıtlar dil modeli kullanılmadan yazılır. Her kayıt geldiği modülle (satış, finans, İK, …) etiketlenir, kendi tarihinden itibaren sürümlenir ve senkron yeniden denendiğinde bile yalnızca bir kez yazılır: bellek kaydı, bağlantıları, kenarları, sürümü ve senkron defteri tek bir kilitli işlemde yazılır; varlıklar bu işlemden önce, tekrarlansa da aynı sonucu verecek biçimde eklenir veya güncellenir. Yazışmalar ise LLM ile bilgi çıkarımından geçer. Çıkarılan bilgiler kişilere, şirketlere, ürünlere ve konulara bağlanır, senkron kayıtlara bağlanmaz; bir sohbette geçen sipariş numarası kayıtla ancak soru sorulduğunda, metin üzerinden eşleşir.",
+    "s21_p2": "İki bileşen kodda mevcuttur ancak üretimde henüz veri almamaktadır: nedensel karar çizgesi ve onun özet zincirli günlüğü{fn:prov}. Gece çalışan pekiştirme işinde de bilinen bir eksik vardır{fn:consol}.",
+    "fn_prov": "Her günlük kaydı bir öncekine SHA-256 ile zincirlenir; bu nedenle önceki bir kaydı değiştirmek ya da silmek zinciri bozar. En yeni kayıtların silinmesi ya da zincirin baştan yeniden yazılması ise dışarıda tutulan bir çapa olmadan fark edilemez.",
+    "fn_consol": "Pekiştirme 03:00 UTC'de ve yalnızca etkin bir bağlayıcı satırı olan organizasyonlar için çalışır; yalnızca kayıt senkronize eden organizasyonlar pekiştirilmez. Ürettiği bilgiler henüz modül, çalışma alanı ve gizlilikle etiketlenmemektedir; dolayısıyla Bölüm 4.6'daki yetki sonucu bu bilgileri kapsamaz.",
+    "cap_arch": "Katmanlarına göre Era Brain bileşenleri. Dolu işaret: bu değerlendirmede çalıştırıldı; yarım: kısmen ya da benzetilmiş girdiyle; boş: çalıştırılmadı. Kesikli çerçeve: yapıldı, ancak üretimde henüz veri almıyor. LLM: bileşen bir dil modeli çağırır.",
+    "a_write": "Yazma",
+    "a_store": "Depo · tek PostgreSQL",
+    "a_read": "Okuma · LLM yok",
+    "a_bg": "Arka plan işleri (çalıştırılmadı)",
+    "a_dec": "Kararlar (yapıldı, henüz veri almıyor)",
+    "a_rec_t": "Kayıt senkronu",
+    "a_rec_b": "Uygulamalardan sipariş, fatura, ödeme; modül etiketi, geçerlilik, tek yazım",
+    "a_ext_t": "Bilgi çıkarımı",
+    "a_ext_b": "Sohbet → kişi, şirket, ürün, konuya bağlı bilgiler",
+    "a_jud_t": "İlişki değerlendirme",
+    "a_jud_b": "Yeni bilgi günceller mi, genişletir mi, ilgisiz mi",
+    "a_mem_t": "Bellek kayıtları",
+    "a_mem_b": "Metin, e5 vektörü, tam metin; kapsam, sahip, modül, geçerlilik",
+    "a_ent_t": "Varlıklar + tipli ilişkiler",
+    "a_ent_b": "Adlar, takma adlar, trigram dizinleri; tipli kenarlar",
+    "a_ver_t": "Kayıt sürümleri",
+    "a_ver_b": "Alan düzeyinde geçmiş; en güncel değer öne geçer",
+    "a_rls_t": "Kiracı yalıtımı (RLS)",
+    "a_rls_b": "Her satırda organizasyon ve çalışma alanı",
+    "a_hyb_t": "Hibrit geri getirme",
+    "a_hyb_b": "Tam metin ‖ vektör, sıra birleştirme",
+    "a_path_t": "Yol araması",
+    "a_path_b": "Tipli ilişkiler, ≤ 3 adım, soruya göre",
+    "a_vis_t": "Görünürlük kuralı",
+    "a_vis_b": "Her adımda modül, gizlilik, güncel bilgi",
+    "a_ctx_t": "Bağlam",
+    "a_ctx_b": "Token bütçesi içinde yollar + bilgiler",
+    "a_asof_t": "Belirli bir tarihteki durum",
+    "a_asof_b": "As-of sorgusu; test edilmedi",
+    "a_con_t": "Pekiştirme",
+    "a_con_b": "Gece; yeni olan kazanır; süresi dolan emekli",
+    "a_rel_t": "İlişki keşfi",
+    "a_rel_b": "~2 dk; LLM çıkarsanan kenarı adlandırır",
+    "a_com_t": "Topluluklar",
+    "a_com_b": "Louvain kümeleme",
+    "a_ont_t": "Ontoloji denetimi",
+    "a_ont_b": "OWL + SHACL; eksikler içgörü olur",
+    "a_lrn_t": "Onaylı öğrenme",
+    "a_lrn_b": "Kurallar ve beceriler kişi onayı bekler",
+    "a_cdg_t": "Nedensel karar çizgesi",
+    "a_cdg_b": "Hangi karar hangi sonuca yol açtı",
+    "a_log_t": "Karar günlüğü",
+    "a_log_b": "Özet zincirli kayıtlar",
+    "lg_full": "çalıştırıldı",
+    "lg_half": "kısmen / benzetilmiş girdi",
+    "lg_none": "çalıştırılmadı",
+    "lg_dash": "yapıldı, henüz veri almıyor",
+    "s22": "2.2 Okuma yolu",
+    "s22_p1": "Bir soru, tek bir okuma işlemi içinde altı adımda yanıtlanır ({f:read}):",
+    "st1_t": "Çapalar.",
+    "st1": "Sorudaki adlar önce birebir eşleştirilir; Türkçe hâl ekleri atılır (“Ağaoğlunun” → Ağaoğlu). Ardından sözcük içerme ve trigram benzerliğine, son olarak anlama (en yakın bellek kayıtlarının arkasındaki varlıklara) bakılır. Tür sözcükleri (“sipariş”, “fatura”, ünsüz yumuşamasıyla “talebindeki” → talep) ulaşılacak düğüm türünü belirler.",
+    "st2_t": "Hibrit geri getirme.",
+    "st2": "İngilizce ve Türkçe durak sözcükleri atılmış bir tam metin sorgusu ile bir vektör sorgusu (HNSW, kosinüs) birlikte çalışır; sonuçlar karşılıklı sıra (reciprocal rank) yöntemiyle birleştirilir.",
+    "st3_t": "Yol araması.",
+    "st3": "Çapalardan başlayan yürüyüş, tipli ilişkiler üzerinde en çok üç adım ilerler. Her düzeyde en umut verici 48 düğüm yola devam eder (toplamda en çok 600). 50'den fazla komşuya açılan bir ilişki, soruda adı geçmedikçe izlenmez. Sorulan ilişkiler ve türler karşılandığında yürüyüş durur.",
+    "st4_t": "Sıralama.",
+    "st4": "Çizge bilgileri, soruya vektör uzaklığına ve sorudaki sözcük köklerinden kaçını içerdiğine göre puanlanır; dönem ifadeleri (“geçen ay”, “eylülde”) o döneme ait bilgileri öne alır. Aynı nitelik iki kez söylenmişse en yenisi önce gelir, eskisi “önceki” olarak işaretlenir.",
+    "st5_t": "Görünürlük.",
+    "st5": "Her sorgu, soranın görünürlük kuralını taşır (Bölüm 2.3): kişinin göremeyeceği bir düğüm ne döndürülür ne de üzerinden geçilir.",
+    "st6_t": "Sıkıştırma.",
+    "st6": "Çapalar, kanıtlarıyla birlikte yanıt yolları ve kalan en iyi bilgiler bir token bütçesi içinde yazılır (sohbette yaklaşık 1.000 token; token başına üç karakter varsayılarak tahmin edilir).",
+    "cap_read": "Tek bir soru için okuma yolu. Görünürlük kuralı en sonda bir süzgeç olarak değil, her adımın içinde uygulanır. Dil modeli çağrılmaz; tek model yerel sorgu gömmesidir.",
+    "r1": "Çapalar",
+    "r1b": "birebir → sözcük/trigram → anlam",
+    "r2": "Hibrit geri getirme",
+    "r2b": "tam metin ‖ vektör",
+    "r3": "Tipli yol araması",
+    "r3b": "≤ 3 adım, ışın 48",
+    "r4": "Sıralama",
+    "r4b": "uzaklık, kök, dönem, en yeni",
+    "r5": "Sıkıştırılmış bağlam",
+    "r5b": "~1.000 token bütçe",
+    "r_q": "Soru",
+    "r_m": "Model",
+    "r_vis": "Her sorguda görünürlük kuralı: çalışma alanı RLS · modül okuma yetkileri · gizlilik · güncel bilgi",
+    "r_emb": "yerel e5 gömmesi (süreç içi)",
+    "cap_ex": "Örnek veriyle işlenmiş bir örnek. Soru bir müşteriyi ve “sipariş”, “fatura”, “ödendi” türlerini adlandırır. Yürüyüş çapadan placed → billed_to → pays ilişkilerini izler, diğer dalları yok sayar; aynı müşteriye bağlı İK notu bu üye için görünmezdir ve üzerinden hiç geçilmez. İlişki adları kıyaslama verisindeki gibidir; canlı bir uygulamanın bağlayıcısı bunları farklı adlandırır (Bölüm 6).",
+    "ex_q": "“Kaya Tekstil'in son siparişinin faturası ödendi mi?”",
+    "ex_cust": "Müşteri",
+    "ex_order": "Sipariş",
+    "ex_inv": "Fatura",
+    "ex_pay": "Ödeme",
+    "ex_old": "eski sipariş",
+    "ex_contact": "İlgili kişi",
+    "ex_hr": "İK notu",
+    "ex_hidden": "gizli: üzerinden geçilmez",
+    "ex_anchor": "çapa",
+    "ex_ctx": "Dönen bağlam (alıntı)",
+    "ex_ctx1": "Kaya Tekstil —placed→ SP-1042 (12 Eyl) —billed_to→ FT-2291",
+    "ex_ctx2": "FT-2291 ←pays— ödeme 18 Eyl, havale",
+    "ex_ctx3": "bilgiler: SP-1042 tutarı 18.400 ₺ · FT-2291 vadesi 30 Eyl",
+    "s23": "2.3 Görünürlük kuralı",
+    "s23_p1": "Erişim iki katmanda uygulanır ({f:perm}). PostgreSQL satır düzeyi güvenliği (RLS) her bağlantıyı tek bir organizasyon ve çalışma alanına bağlar. Bunun üzerine, her okuma sorgusuna ortak bir görünürlük kuralı eklenir: üyenin okuyamadığı modüllere ait bilgiler (platformdaki rol yetkilerinden çözülür), başkalarının özel ya da kişisel bilgileri ve geçerliliğini yitirmiş bilgiler dışarıda bırakılır. Yalnızca gizli bilgilerde adı geçen bir varlık düğüm sayılmaz; bir kenar da ancak modülü okunabiliyorsa ve iki ucu da görünürse izlenir. Üyenin yetkileri çözülemezse kural hiçbir modülü okumama durumuna düşer. Bir iş akışı ya da araştırma işi gibi kişisi olmayan bir ürün çağıranı yalnızca çalışma alanında paylaşılan bilgileri okur. Modül ve gizlilik denetimleri RLS politikası değil, sorgu koşuludur{fn:rls}.",
+    "fn_rls": "Motorun kütüphane işlevleri hiç görüntüleyen verilmeden çağrıldığında süzgeçsiz çalışır; ürün içindeki her çağıran bir görüntüleyen geçirir (Ek A).",
+    "cap_perm": "Erişim denetiminin iki katmanı. Satır düzeyi güvenlik her bağlantıyı organizasyon ve çalışma alanıyla sınırlar; görünürlük kuralı okuma yolunun her adımında bu üyenin okuyamayacaklarını çıkarır ve hata durumunda kapalı kalır.",
+    "p_l1": "Satır düzeyi güvenlik (PostgreSQL)",
+    "p_l1b": "organizasyon · çalışma alanı · kişi; her bağlantıda",
+    "p_l2": "Görünürlük kuralı (tek ortak işlev)",
+    "p_l2b": "rollerden modül okuma yetkileri · gizlilik · güncel bilgi",
+    "p_member": "Satış üyesi",
+    "p_member_b": "okur: satış, CRM · okuyamaz: finans, fatura, İK",
+    "p_s1": "tohumlar",
+    "p_s2": "her adım: kenar + karşı uç",
+    "p_s3": "adım kanıtı",
+    "p_s4": "düğüm bilgileri",
+    "p_drop": "çıkarılır",
+    "p_keep": "döner",
+    "p_fc": "Yetkiler çözülemezse → hiçbir modül okunmaz (fail-closed)",
+    "p_np": "Kişi yoksa (iş akışı, araştırma) → yalnız paylaşılan bilgiler",
+    "p_ex1": "Sipariş SP-1042 (satış)",
+    "p_ex2": "Fatura tutarı (finans)",
+    "p_ex3": "Maaş (İK)",
+    "p_ex4": "Sahibin özel notu",
+    "s24": "2.4 Bir aramanın dokunduğu servisler",
+    "s24_p1": "{f:hops}, tek bir arama çağrısının dokunduğu servisleri sayar. Era Brain sorgu gömmesini süreç içinde hesaplar ve tek bir PostgreSQL veritabanına, tek işlem içinde yaklaşık on SQL ifadesi gönderir. Güncel sistemlerin birçoğu da varsayılan okuma yolunda dil modeli kullanmaz; Mem0 v3, Graphiti ve Zep ile Supermemory bunlar arasındadır {c:mem0docs,graphiti,zepresearch,smdocs}. Dolayısıyla şekildeki fark, yalnızca LLM olmaması değil, servis ve ağ geçişi sayısıdır. Üretimde stüdyo gömme modeline tek bir iç HTTP çağrısıyla ulaşır; kıyaslamada model süreç içinde çalıştırıldı.",
+    "cap_hops": "Tek bir arama çağrısının dokunduğu servisler; her sistemin 22 Ekim 2026 itibarıyla belgeleri ve kodundan. Servis: çağrının ulaştığı ayrı sistemler, veritabanı dahil. Mem0g, 2025 makalesinde {c:mem0} tanımlanan çizge sürümüdür; artık Mem0'ın açık kaynak paketinde yer almaz. Letta'da her aramaya ajan LLM'i karar verir.",
+    "h_hops": "servis",
+    "h_llm": "LLM çağrısı",
+    "h_app": "Uygulama",
+    "h_pg": "PostgreSQL",
+    "h_pg_b": "süreç içi e5 gömmesi · ~10 SQL · 1 işlem",
+    "h_emb": "Gömme",
+    "h_emb_api": "Gömme API'si",
+    "h_vec": "Vektör deposu",
+    "h_ent": "+ varlık deposu",
+    "h_llm_box": "LLM",
+    "h_llm_ent": "LLM: sorudan varlıklar",
+    "h_neo": "Neo4j",
+    "h_graph": "Çizge VT",
+    "h_zepapi": "Zep API",
+    "h_zep_int": "iç yapı yayımlanmamış",
+    "h_smapi": "Supermemory API",
+    "h_sm_int": "iç yapı belgelenmemiş",
+    "h_agent": "Ajan LLM",
+    "h_arch": "Arşiv araması",
+    "h_era": "Era Brain",
+    "h_mem0": "Mem0 OSS v3",
+    "h_mem0g": "Mem0g (2025 makalesi)",
+    "h_graphiti": "Graphiti (kendi sunucunda)",
+    "h_zep": "Zep (barındırılan)",
+    "h_sm": "Supermemory (barındırılan)",
+    "h_letta": "Letta",
+    "h_unk": "?",
+    "h_local_opt": "1–2",
+    "h_ge1": "≥ 1",
+    "s3": "3 Deney düzeni",
+    "s3_p1": "Veri setleri aşağıda listelenmiştir ({t:data}). Bir dipnotta aksi belirtilmedikçe tüm koşular {m:commit} commit'indeki kodla yapılmıştır.",
+    "cap_data": "Veri setleri. İşletme setlerini biz ürettik. H2, motorun ayarlanmasında kullanılan H setinin yeniden ifade edilmiş bir türevidir (yeni tohum, kayıt metinleri ve soru ifadeleri); H2 üretildikten sonra motor kodunda değişiklik yapılmadı.",
+    "d_h1": "Veri seti",
+    "d_h2": "Dil",
+    "d_h3": "Soru",
+    "d_h4": "İçerik",
+    "d_h5": "Kaynak",
+    "d_lme": "LongMemEval-S, temizlenmiş {c:lme}",
+    "d_lme2": "EN",
+    "d_lme3": "500 (470 puanlandı)",
+    "d_lme4": "soru başına ~115 bin tokenlık sohbet geçmişi",
+    "d_lme5": "açık · MIT",
+    "d_loc": "LoCoMo-10 {c:locomo}",
+    "d_loc2": "EN",
+    "d_loc3": "1.540",
+    "d_loc4": "10 uzun konuşma; çekişmeli 5. kategori dışarıda ({c:mem0} ile aynı)",
+    "d_loc5": "açık · CC BY-NC 4.0, yalnız değerlendirme",
+    "d_h2s": "İşletme seti H2 (ayrı tutulan)",
+    "d_h2s2": "TR + EN (245 / 80)",
+    "d_h2s3": "325",
+    "d_h2s4": "müşteriler, siparişler, faturalar, ödemeler, sevkiyatlar, destek talepleri, sözleşmeler, WhatsApp ve e-posta yazışmaları",
+    "d_h2s5": "üretilmiş · ürünün yazma yolları",
+    "d_ah": "İşletme setleri A ve H",
+    "d_ah2": "TR + EN",
+    "d_ah3": "370 / 365",
+    "d_ah4": "aynı aile; ayarlamada kullanıldı; 865 ve 790 gizli bilgiyle yetki taramaları",
+    "d_ah5": "üretilmiş",
+    "d_k": "Ölçek seti",
+    "d_k2": "EN",
+    "d_k3": "200 (100 çok adımlı)",
+    "d_k4": "20.000 varlık (12.000 kişi, 5.000 şirket, ürünler, projeler, yerler), 40.000 bellek kaydı, 40.000 tipli ilişki",
+    "d_k5": "üretilmiş · toplu yüklendi",
+    "s31": "3.1 Ölçütler",
+    "mt1_t": "İlk 10'da kanıt (en az biri / tümü).",
+    "mt1": "Altın kanıt öğelerinden en az birinin ya da hepsinin dönen 10 öğe arasında olup olmadığı: LongMemEval'de oturumlar veya turlar, LoCoMo'da diyalog turları. LongMemEval'in resmî geri getirme ölçütü recall_all'dur {c:lme}; ikisini de raporluyoruz. Yanıt verilmemesi beklenen (abstention) 30 sorunun kanıtı yoktur ve LongMemEval'in kendi geri getirme puanlamasında olduğu gibi dışarıda bırakılmıştır. Kanıt etiketi olmayan dört LoCoMo sorusu ıskalanmış sayılır.",
+    "mt2_t": "Yanıt bağlamda.",
+    "mt2": "İşletme setlerinde: altın yanıt metni dönen bağlamda geçiyor mu (büyük/küçük harf duyarsız, Türkçe yerel ayarıyla). Yanıtın doğru kanıttan geldiğini kanıtlamaz; 100 bin setinin üç adımlı sorularında her adımın kaynak bilgisi {n:k_ev3_all} durumda bağlamdadır.",
+    "mt3_t": "Yanıt doğruluğu (QA).",
+    "mt3": "Bir okuyucu model her LoCoMo sorusunu dönen bağlamdan yanıtlar; bir LLM hakem yanıtı altın yanıtla karşılaştırarak puanlar; düzen {c:mem0} ile aynıdır. Okuyucu: {m:qa_reader}; hakem: {m:qa_judge}.",
+    "mt4_t": "Token.",
+    "mt4": "Dönen bağlam metninin cl100k_base ile sayımı; bellek listeleri her kayıt bir satır olacak biçimde yazılır.",
+    "mt5_t": "Gecikme.",
+    "mt5": "Kıyaslama sürecinde tek bir geri getirme çağrısının medyan (p50) duvar saati süresi: yerel sorgu gömmesi ve aynı makinede Docker içindeki PostgreSQL'e giden tüm sorgular dahil (Windows 11, 24 çekirdek); tek istemci, ısınmış, ilk sorgu hariç, uzak ağ yok.",
+    "s32": "3.2 Çalıştırılmayanlar",
+    "s32_p1": "LongMemEval ve LoCoMo'da konuşmalar bilgi çıkarımı yapılmadan ham metin olarak saklandı; bu nedenle yalnızca hibrit geri getirme çalıştı, çizge kullanılmadı. Model maliyetini sıfırda tutmak için LLM ile bilgi çıkarımı, ilişki değerlendirme, pekiştirme ve ilişki keşfi kapalıydı; etkileri ölçülmemiştir. İşletme setlerinde kayıtlar ve ilişkiler, canlı bir uygulamanın bağlayıcı eşlemesinden geçmek yerine doğrudan yazıcının girdi biçiminde üretildi. Tekrarlanan koşular set başına yaklaşık bir soru farklılık gösterir, gecikmeler de koşudan koşuya değişir{fn:ver}.",
+    "fn_ver": "LoCoMo ve LongMemEval gecikmeleri, bellek geri getirmesine yapılan ve yalnızca hızı etkileyen son değişiklikten önce ölçüldü; görünürlük kuralı olmayan daha eski bir kod sürümünde LoCoMo p50 değeri 21 ms idi. 100 bin bellek araması gecikmesi ({n:k_mem_ms}) commit edilmiş kodla yapılan ayrı bir koşudan gelir. Sohbet bağlamı yolu sızıntı için 700 tokenlık çizge bütçesiyle tarandı; commit edilen 1.000 tokenlık bütçe hedefli yetki sorularında denetlendi ({n:leak_era1000_n} yanıtta {n:leak_era1000} sızıntı).",
+    "s4": "4 Sonuçlar",
+    "s41": "4.1 Yanıt doğruluğu",
+    "s41_p1": "{f:qa}, Era Brain'in LoCoMo yanıt doğruluğunu, konuşmanın tamamını okuyan aynı modelli bir taban çizgisiyle ve yayımlanmış değerlerle yan yana gösterir. Yayımlanmış değerler farklı okuyucu ve hakem modelleri kullanır, tarafımızca yeniden koşulmamıştır ve tarihe göre gruplanmıştır. Mem0 ve Zep'in 2026 sonuçları {c:mem0research,zepresearch}, 2025 makalelerine {c:mem0,zep} göre daha yeni okuyucular kullanır. Zep için 2025'te verilen %66,0 değeri Mem0 ekibince üretilmiştir ve Zep buna itiraz eder; Zep'in kendi koşusu %75,1 bildirir {c:zeprebuttal}. LoCoMo etiketlerinde, hakemle puanlanan her sonucu etkileyen hatalar vardır{fn:pen}.",
+    "fn_pen": "Bağımsız bir inceleme, 1.540 soru içinde puanı etkileyen 99 etiket hatası bulunduğunu ve standart hakemin bilerek yanlış verilen yanıtların %62,8'ini kabul ettiğini bildirmektedir {c:penfield}.",
+    "cap_qa": "LLM hakemle yanıt doğruluğu. Siyah: Era Brain; koyu gri: aynı modelle tam bağlam taban çizgisi; gri: adı verilen makale ya da şirketçe yayımlanan değer, okuyucu model ve tarihiyle. Farklı okuyucu ve hakemlerle elde edilen değerler doğrudan karşılaştırılamaz. Kesikli: bekliyor.",
+    "qa_a": "(a) LoCoMo, 1.540 soru",
+    "qa_b": "(b) LongMemEval-S",
+    "q_era": "Era Brain",
+    "q_full": "Tam bağlam, aynı model",
+    "q_g26": "2026'da yayımlanan",
+    "q_g25": "2025'te yayımlanan",
+    "q_zep": "Zep",
+    "q_mem0": "Mem0",
+    "q_mem0g": "Mem0g",
+    "q_zepm": "Zep, Mem0'ın koşusu",
+    "q_zepown": "Zep, kendi koşusu",
+    "q_letta": "Letta, dosya ajanı",
+    "q_full25": "Tam bağlam",
+    "q_sm": "Supermemory",
+    "m_not_named": "model belirtilmemiş",
+    "m_not_stated": "puanlama belirtilmemiş",
+    "s42": "4.2 Geri getirme",
+    "s42_p1": "{f:ret}, açık kıyaslamalardaki geri getirme sonuçlarını verir. LongMemEval-S'te hibrit geri getirme, soruların {n:lme_sess_any} kadarında en az bir kanıt oturumunu, {n:lme_sess_all} kadarında ise tüm kanıt oturumlarını ilk 10'a yerleştirir. Düz vektör araması (ilk 10) “en az biri” ölçütünde zaten {n:lme_vec_sess_any} değerine ulaştığından kıyaslama burada az fark bırakır; yöntemleri “tümü” ölçütleri daha iyi ayırır. LoCoMo'da hibrit geri getirme en az bir kanıt turunu {n:locomo_ev_any} oranında bulur; düz vektörde bu oran {n:locomo_vec_ev_any}, bağlam ise yaklaşık {n:locomo_tok} tokendır.",
+    "cap_ret": "Açık kıyaslamalarda geri getirme, ilk 10 öğe. En az biri: altın kanıt öğelerinden en az biri döndü; tümü: hepsi döndü. Düz vektör değerleri aynı veri ve makinede yapılan bir önceki koşudan gelir.",
+    "rt_a": "(a) LongMemEval-S, 470 soru",
+    "rt_b": "(b) LoCoMo, 1.540 soru",
+    "rt_sany": "Oturum, en az biri",
+    "rt_sall": "Oturum, tümü",
+    "rt_eany": "Kanıt, en az biri",
+    "rt_eall": "Kanıt, tümü",
+    "rt_hyb": "Era hibrit geri getirme",
+    "rt_vec": "Düz vektör, ilk 10",
+    "s43": "4.3 İşletme belleği",
+    "s43_p1": "{f:biz}, ayrı tutulan seti soru türlerine ayırır. Doğrudan sorgular, iki adımlı sorular (kişi → işveren → vergi numarası, IBAN ya da web sitesi; destek talebi → atanan personelin telefonu; ürün → tedarikçinin telefonu), dönem soruları ve en güncel değer soruları neredeyse eksiksiz yanıtlanır. İki tür zayıf kalır: bir kaydı bir yazışmayla birleştiren sorular (soruda sipariş geçer, yanıt müşterinin WhatsApp ya da e-postasındadır; {n:trH2_join}) ve şikâyet → sipariş → fatura → ödeme zinciri ({n:trH2_hop3a}). Türkçe sorularda başarı {n:trH2_tr|pct}, İngilizce sorularda {n:trH2_en|pct}.",
+    "s43_p2": "<i>En güncel değer kazanır.</i> Bir kayıt yeni bir değerle yeniden senkronize edildiğinde ya da bir yazışma önceki bir ifadeyi düzelttiğinde, yeni bilginin önce gelmesi gerekir. Bu koşul kayıt güncellemelerinde {n:trH2_rec_upd}, yazışma güncellemelerinde {n:trH2_conv_upd} oranında sağlandı.",
+    "s43_p3": "{f:mh}, 100.000 satırlık ölçek setindeki çok adımlı soruları ayrıca gösterir. Yol araması doğrudan, iki adımlı ve üç adımlı soruların hepsini yanıtlar. Aynı bellek kayıtları üzerinde düz vektör araması (ilk 10) iki adımlı sorularda {n:vec_hop2}, üç adımlı sorularda {n:vec_hop3} doğru sonuç verir; genelde aldığı %35'lik değer ({n:vec_all}) neredeyse tamamen doğrudan sorgulardan gelir. Vektör tabanlı RAG için açık çok adımlı sorularda da aynı örüntü bildirilmiştir {c:multihoprag}.",
+    "cap_biz": "Ayrı tutulan işletme seti H2 (325 soru), soru türüne göre yanıtın bağlamda bulunması. Çubuklar ölçeklidir; etiketler doğru / toplam sayısını verir.",
+    "b_direct": "Doğrudan sorgu",
+    "b_hop2": "2 adım (işveren, personel, tedarikçi)",
+    "b_hop3b": "3 adım: müşteri → şirket → sözleşme",
+    "b_hop3a": "3 adım: şikâyet → sipariş → fatura → ödeme",
+    "b_join": "Kayıt + yazışma birleştirme",
+    "b_temporal": "Dönem (“eylülde”, “geçen ay”)",
+    "b_rec": "En güncel değer: kayıt yeniden senkron",
+    "b_conv": "En güncel değer: sohbette düzeltme",
+    "b_all": "Tüm sorular",
+    "b_tr": "Türkçe sorular",
+    "b_en": "İngilizce sorular",
+    "cap_mh": "Ölçek seti (100.000 çizge satırı, soran: sahip): yol araması ile düz vektör araması (ilk 10), yanıtın bağlamda bulunması.",
+    "mh_direct": "Doğrudan (100)",
+    "mh_hop2": "2 adım (60)",
+    "mh_hop3": "3 adım (40)",
+    "mh_path": "Era yol araması",
+    "mh_vec": "Düz vektör, ilk 10",
+    "s44": "4.4 Bağlam büyüklüğü",
+    "s44_p1": "{f:tok}, soru başına bağlam tokenlarını karşılaştırır. LoCoMo'da hibrit geri getirme on ham tur döndürür; bu yaklaşık {n:locomo_tok} tokendır. İşletme sorularında yol araması {n:trH2_tok} token döndürür, bir Era sohbet turu ise modele {n:trH2_turn_tok} token verir. 2025 değerleri, Mem0, Mem0g ve Zep'in QA sonuçları için kullandıkları bağlamdır; 2026 sistemleri çok daha yüksek doğruluk için daha büyük bağlam kullanır. Daha düşük geri getirmeyle daha az token, eşit koşullarda daha ucuz anlamına gelmez; tokenlaştırıcılar da farklıdır. Bu nedenle bu sayılar yol göstericidir.",
+    "cap_tok": "Soru başına bağlam tokenı (aksi belirtilmedikçe p50). Siyah: Era Brain; gri: tarihiyle birlikte yayımlanmış LoCoMo değerleri. Tam bağlam çubuğu kesilmiştir; değeri yazılıdır.",
+    "t_era_loc": "Era · LoCoMo (10 ham tur)",
+    "t_era_biz": "Era · işletme, yol araması",
+    "t_era_turn": "Era · işletme, sohbet turu",
+    "t_era_lme": "Era · LongMemEval (ham turlar)",
+    "t_mem0_25": "Mem0",
+    "t_mem0g_25": "Mem0g",
+    "t_zepm_25": "Zep, Mem0'ın koşusu",
+    "t_zep_26": "Zep (medyan)",
+    "t_mem0_26": "Mem0 (ortalama)",
+    "t_full": "Konuşmanın tamamı",
+    "s45": "4.5 Gecikme",
+    "s45_p1": "{f:lat} medyan arama süresini gösterir. Era Brain'in değerleri süreç içinde, ağ geçişi olmadan ölçülmüştür; şirketlerin değerleri ise barındırılan servisleri üzerinden ya da yayınlarında belirtildiği biçimde ölçülmüştür. Bu nedenle karşılaştırma bir sıralama değil, büyüklük mertebesi verir. Yayımlanmış en hızlı barındırılan geri getirme gecikmesine göre (Zep, LoCoMo'da {n:c_zep_26_locomo_ms}), Era Brain'in {n:locomo_ms} değeri yaklaşık {n:lat_ratio} daha düşüktür. İşletme sorularında çizge geri getirmesi daha uzun sürer ({n:trH2_ms}), çünkü üç düzeye kadar yürür ve her düzeyde görünürlük kuralını uygular{fn:m0lat}.",
+    "fn_m0lat": "Mem0'ın 2026 README dosyası LoCoMo için neyi kapsadığını belirtmeden “latency p50 0.88 s” verir; grafikte gösterilmemiştir. Supermemory'nin ana sayfasındaki değerler (sunucu ve uçtan uca) yayımlandığı gibi gösterilmiştir.",
+    "cap_lat": "Milisaniye cinsinden medyan (p50) arama gecikmesi, doğrusal ölçek. Siyah: Era Brain, süreç içi, yerel veritabanı, ağ geçişi yok. Gri: yayımlandığı gibi (erişim 22 Ekim 2026), barındırılan servisler üzerinden ya da belirtildiği biçimde ölçülmüş.",
+    "l_era_loc": "Era · LoCoMo, bellek geri getirme",
+    "l_era_lme": "Era · LongMemEval, bellek geri getirme",
+    "l_era_k": "Era · 100 bin, bellek geri getirme",
+    "l_era_biz": "Era · işletme, çizge geri getirme",
+    "l_era_kg": "Era · 100 bin, çizge geri getirme",
+    "l_zep_loc": "Zep · LoCoMo geri getirme",
+    "l_zep_lme": "Zep · LongMemEval geri getirme",
+    "l_sm": "Supermemory · sunucu",
+    "l_sm_e2e": "Supermemory · uçtan uca",
+    "l_mem0": "Mem0 · arama",
+    "l_mem0g": "Mem0g · arama",
+    "l_zepm": "Zep, Mem0'ın koşusu",
+    "s46": "4.6 Yetkiler",
+    "s46_p1": "Yetki testinde bir satış üyesi (finans, fatura ve İK yetkisi yok) her soruyu, bir finans üyesi (İK yetkisi yok) ise hedefli her yetki sorusunu sorar. A setine {n:secrets_A} gizli bilgi ({n:secrets_A_inv} fatura tutarı, {n:secrets_A_sal} maaş, {n:secrets_A_cred} kredi limiti, {n:secrets_A_note} özel not), H setine {n:secrets_H} gizli bilgi yerleştirildi. Soranın görmemesi gereken bir gizli bilginin dönen bağlamda yer alması sızıntı sayılır. Üyelere açık yedi okuma yolu tarandı: ajan servisinde bellek ve çizge geri getirmesi, stüdyoda geri getirme, Era'nın bellek araması ve bellek çizgesi araçları, Era sohbet turu bağlamı ve builder copilot bağlamı. Kişisi olmayan sekiz çağıran (araştırma, iki iş akışı bloğu, iç geri getirme ve listeleme, copilot ve çizge bağlamı, toplantı özeti) ayrıca denetlendi. Sonuç {f:leak} içinde görülüyor: hiçbir yanıtta sızıntı yok.",
+    "cap_leak": "Sol: A setine yerleştirilen 865 gizli bilginin dağılımı. Sağ: test başına denetlenen yanıtlar ve bulunan sızıntılar (kırmızı).",
+    "lk_A": "A seti taraması · 7 yol + birleşim",
+    "lk_H": "H seti taraması",
+    "lk_H2": "H2 seti, hedefli",
+    "lk_gaps": "Kişisiz 8 çağıran (denetim)",
+    "lk_1000": "1.000 token bütçeli sohbet turu",
+    "lk_leaks": "sızıntı",
+    "lk_answers": "denetlenen yanıt",
+    "sc_inv": "fatura tutarı",
+    "sc_sal": "maaş",
+    "sc_cred": "kredi limiti",
+    "sc_note": "özel not",
+    "sc_tot": "A setine yerleştirilen {n:secrets_A} gizli bilgi",
+    "s47": "4.7 Sonuçları değiştiren adımlar",
+    "s47_p1": "{t:abl}, sonuçları en çok etkileyen değişiklikleri listeler. Her satır motoru, adı geçen değişiklikten önce ve sonra, aynı veri ve makinede karşılaştırır. Satırların çoğu birbiriyle ilişkili birkaç değişikliği birlikte içerir; bu yüzden bir satır tek bir tekniğin etkisini yalıtmaz.",
+    "cap_abl": "Önce ve sonra karşılaştırmaları. “Önce” değerleri aynı veri üzerinde daha eski kod sürümlerinden gelir.",
+    "ab_h1": "Değişiklik",
+    "ab_h2": "Önce",
+    "ab_h3": "Sonra",
+    "ab_h4": "Set, ölçüt",
+    "ab1": "Dizinini kullanabilen tam metin araması ve toplu erişim sayacı",
+    "ab1s": "100 bin · bellek araması p50",
+    "ab2": "1.000 düğümlük genişletme yerine isabetli tohumlar ve soruya göre sıralanan bilgilerle tipli yol araması",
+    "ab2s": "100 bin · çok adımlı: yanıt, token, p50",
+    "ab3": "Düz vektör (ilk 10) yerine hibrit geri getirme",
+    "ab3s": "LoCoMo · kanıt, en az biri",
+    "ab4": "Düz vektör (ilk 10) yerine yol araması",
+    "ab4s": "100 bin · 200 sorunun tümü, yanıt bağlamda",
+    "ab5": "Yol motorunda Türkçe eşleştirme ve sıralama çalışmalarının tümü (ekler, ünsüz yumuşaması, uç düğüm bilgileri, kayıt türleri, dönem ifadeleri)",
+    "ab5s": "H2 · yanıt bağlamda",
+    "ab6": "Her adımda görünürlük kuralı, satır düzeyi güvenlik maliyetiyle",
+    "ab6s": "ilk Türkçe set (310 soru) · çizge p50",
+    "s5": "5 İlgili sistemlerle karşılaştırma",
+    "s5_p1": "{t:cap}, her projenin 22 Ekim 2026 itibarıyla belgelediği yetenekleri; şirket belgeleri, makaleler ve kaynak kod üzerinden karşılaştırır {c:mem0docs,graphiti,zepabac,smdocs,cognee,letta,karpathy,pgvector}. Yalnızca belgelenmiş olanı işaretledik; “?” aradığımız hâlde bulamadığımız anlamına gelir. İki bulgu Era Brain'in aleyhinedir. Birincisi, dil modeli kullanmayan bir okuma yolu artık ayırt edici değildir: Mem0 v3, Graphiti, Zep ve Supermemory varsayılan olarak LLM çağırmaz. İkincisi, ince taneli erişim başka sistemlerde de vardır: Zep Enterprise, veri alınırken eklenen üst verilere dayalı politika ve nitelik kuralları sunar {c:zepabac}; Supermemory üyeleri ad alanlarıyla sınırlar; Cognee yetkileri veri seti bazında verir. Başka bir sistemde bulamadığımız şey, işletmenin kendi rol ve modül yetkilerinden türetilen ve çizgenin her adımında uygulanan bilgi bazlı bir kural ile yayımlanmış bir yetki sızıntısı testidir.",
+    "s5_p2": "Diğer sistemler birkaç alanda öndedir: yayımlanmış uçtan uca QA sonuçları (Mem0, Zep, Supermemory); geçersiz kılmayla çift zamanlı kenarlar (Zep ve Graphiti; Era'nın kenarlarında geçerlilik aralığı yoktur ve çizge yürüyüşleri yalnızca güncel bilgileri okur); yönetilen bilgi çıkarımı ve özel ontolojiler (Zep, Mem0); barındırılan ürünler, SDK'lar ve entegrasyonlar; belgelenmiş uyumluluk (Zep: SOC 2 Type II, HIPAA; Supermemory: SOC 2, HIPAA); açık değerlendirme altyapıları (Mem0, Supermemory). LoCoMo'da yalnızca dosya arayan bir ajan (Letta, gpt-4o-mini) %74,0 aldı {c:letta}; bu, Mem0'ın 2025 sonucunun üzerindedir. Dolayısıyla wiki gibi dosya ve aramaya dayalı bir bellek, sohbet hatırlama için güçlü bir taban çizgisidir. Bizim karşılaştırmamız işletme kayıtları ve yetkilerle ilgilidir.",
+    "cap_cap": "22 Ekim 2026 itibarıyla belgelenmiş yetenekler. ● var · ◐ kısmen, plana bağlı ya da sınırlı · ○ yok · ? belgelenmemiş (arandı). Era Brain'in QA satırı, Bölüm 4.1'deki koşu tamamlanana kadar bekliyor olarak kalır.",
+    "sys_era": "Era Brain",
+    "sys_mem0": "Mem0",
+    "sys_zep": "Zep / Graphiti",
+    "sys_sm": "Super-memory",
+    "sys_letta": "Letta",
+    "sys_cognee": "Cognee",
+    "sys_wiki": "Wiki / Obsidian",
+    "sys_rag": "Vektör RAG",
+    "m_nollm": "Varsayılan okuma yolunda LLM yok",
+    "m_records": "İşletme kayıtları LLM'siz, tipli ve sürümlü yazılır",
+    "m_multihop": "Tipli, soruya göre yönlenen çok adımlı yol araması",
+    "m_bitemporal": "Çizge kenarlarında geçerlilik zamanı (çift zamanlı)",
+    "m_latest": "Okumada en güncel değer kazanır",
+    "m_acl": "Rol/modül yetkilerinden bilgi bazlı kural, her çizge adımında",
+    "m_turkish": "Anahtar sözcük aramasında Türkçe biçimbilim",
+    "m_onestore": "Vektör, metin, çizge ve erişim için tek depo",
+    "m_qa": "Yayımlanmış uçtan uca QA sonucu",
+    "m_leaktest": "Yayımlanmış yetki sızıntısı testi",
+    "m_bizbench": "Yayımlanmış yapılandırılmış işletme kıyaslaması",
+    "m_hosted": "Barındırılan ürün ya da açık SDK",
+    "m_compliance": "Belgelenmiş uyumluluk (SOC 2, HIPAA)",
+    "m_harness": "Açık değerlendirme altyapısı",
+    "m_files": "Düz dosya olarak düzenlenebilen bellek",
+    "cap_pub": "Bu raporda kullanılan, yayımlanmış rakip değerleri; okuyucu model ve tarihiyle. Hepsi uçtan uca QA sonucudur; hiçbiri geri getirme oranı değildir.",
+    "pb_h1": "Sistem",
+    "pb_h2": "Kıyaslama",
+    "pb_h3": "Sonuç",
+    "pb_h4": "Okuyucu / hakem",
+    "pb_h5": "Tarih",
+    "pb_h6": "Kay.",
+    "s6": "6 Sınırlılıklar",
+    "lim1": "Bu taslakta yanıt doğruluğu henüz bekliyor. Diğer tüm doğruluk değerleri geri getirmeye aittir: kanıtın modele ulaşıp ulaşmadığını ölçer, doğru bir yanıt üretilip üretilmediğini değil.",
+    "lim2": "İşletme setleri sentetiktir ve tarafımızca hazırlanmıştır. H2, ayarlama sırasında kullanılan bir setin yeniden ifade edilmiş türevidir; gerçek müşteri verisiyle doğrulama henüz yapılmamıştır.",
+    "lim3": "İşletme setlerindeki kayıtlar ve ilişkiler yazıcının girdi biçiminde üretildi. Bugünkü bağlayıcı eşlemesi, genel bir uygulama için genel ilişkiler (bought, paid by, related to) üretir; bu nedenle canlı bir çizge, burada üzerinde yürünen çizgeden daha seyrek olabilir.",
+    "lim4": "“Yanıt bağlamda” bir metin eşleşmesidir. 100 bin setinin üç adımlı sorularında her adımın kaynak bilgisi {n:k_ev3_all} durumda bağlamdadır; yanıt yol satırı üzerinden gelir.",
+    "lim5": "100 bin seti ürün üzerinden yazılmadı, SQL ile toplu yüklendi; soruları yalnızca sahip sordu.",
+    "lim6": "Gecikme, yerel veritabanında tek istemcili, süreç içi bir çağrıdır; LoCoMo ve LongMemEval gecikmeleri geri getirmeye yapılan son hız değişikliğinden önce ölçüldü.",
+    "lim7": "LLM katmanları (bilgi çıkarımı, ilişki değerlendirme, pekiştirme, ilişki keşfi) çalıştırılmadı. Pekiştirmenin ürettiği bilgiler henüz modül, çalışma alanı ve gizlilikle etiketlenmiyor; sıfır sızıntı sonucu bu bilgileri kapsamaz.",
+    "lim8": "Belirli bir tarihteki durumu soran (as-of) geri getirme test edilmedi; çizge kenarlarında geçerlilik aralığı yoktur.",
+    "lim9": "Rakip değerleri yayınlarından alınmıştır, yeniden koşulmamıştır; farklı modeller, tokenlaştırıcılar ve düzenler kullanırlar.",
+    "lim10": "LoCoMo CC BY-NC 4.0 lisanslıdır; yalnızca değerlendirme için kullanıldı ve yeniden dağıtılmadı. Değerlendirme altyapısı henüz açık değildir.",
+    "s7": "7 Sonuç",
+    "s7_p1": "Era Brain işletme sorularını, okuma yolunda dil modeli kullanmadan, tek bir PostgreSQL veritabanından yanıtlar. Bu ortam için kurduğumuz testlerde (çok adımlı kayıt birleştirmeleri, en güncel değerler, Türkçe ifadeler ve üye bazlı yetkiler) ayrı tutulan sorularda yanıtı {n:trH2_all|pct} oranında buldu ve {n:leak_answers} yanıtın hiçbirinde gizli bilgi sızdırmadı; bunu sohbet turu başına yaklaşık {n:trH2_turn_tok} tokenlık bağlamla yaptı. Açık konuşma kıyaslamalarında geri getirmesi düz vektör taban çizgisini geçer; LoCoMo yanıt doğruluğu {n:locomo_qa_era}. Sonraki adımlar: gerçek müşteri verisiyle doğrulama, değerlendirme altyapısının açık olarak yayımlanması, açık bir erişim denetimi kıyaslamasının {c:gatemem} koşulması ve pekiştirmenin ürettiği bilgilerin modül, çalışma alanı ve gizlilikle etiketlenmesi.",
+    "refs_h": "Kaynakça",
+    "appA": "Ek A  Her iddianın koddaki yeri",
+    "appA_p": "Depo commit'i {m:commit}. Yollar depo köküne görelidir; brain-paths = packages/db/brain-paths.ts, brain-viewer = packages/db/brain-viewer.ts.",
+    "cap_ev": "İddialar ve kaynak koddaki yerleri.",
+    "ev_h1": "İddia",
+    "ev_h2": "Kod",
+    "h_emb_sub": "yerel değilse API",
+    "tok_w": "token",
+    "homepage": "şirket ana sayfası",
+    "t_era_qa": "Era · LoCoMo, QA koşusu"
+  }
+}

@@ -1,0 +1,6847 @@
+{
+  "ds": "trbizH",
+  "label": "r44",
+  "at": "2026-10-22T02:48:13.011Z",
+  "all": {
+    "old": {
+      "n": 325,
+      "hit": 163,
+      "msP50": 54.175100000000384,
+      "msP95": 68.63070000000153,
+      "tokP50": 1120
+    },
+    "new": {
+      "n": 325,
+      "hit": 221,
+      "msP50": 45.977300000000014,
+      "msP95": 67.4369000000006,
+      "tokP50": 1044
+    }
+  },
+  "byCat": {
+    "direct": {
+      "old": {
+        "n": 30,
+        "hit": 30,
+        "first": null,
+        "msP50": 55.21180000000004,
+        "tokP50": 1194
+      },
+      "new": {
+        "n": 30,
+        "hit": 30,
+        "first": null,
+        "msP50": 45.90129999999999,
+        "tokP50": 988
+      }
+    },
+    "join": {
+      "old": {
+        "n": 60,
+        "hit": 2,
+        "first": null,
+        "msP50": 54.8715000000002,
+        "tokP50": 1202
+      },
+      "new": {
+        "n": 60,
+        "hit": 20,
+        "first": null,
+        "msP50": 45.36409999999978,
+        "tokP50": 938
+      }
+    },
+    "multihop2": {
+      "old": {
+        "n": 105,
+        "hit": 33,
+        "first": null,
+        "msP50": 47.92829999999958,
+        "tokP50": 1142
+      },
+      "new": {
+        "n": 105,
+        "hit": 52,
+        "first": null,
+        "msP50": 48.92660000000251,
+        "tokP50": 1152
+      }
+    },
+    "multihop3": {
+      "old": {
+        "n": 55,
+        "hit": 27,
+        "first": null,
+        "msP50": 56.00590000000011,
+        "tokP50": 1035
+      },
+      "new": {
+        "n": 55,
+        "hit": 47,
+        "first": null,
+        "msP50": 57.19980000000214,
+        "tokP50": 1273
+      }
+    },
+    "temporal": {
+      "old": {
+        "n": 30,
+        "hit": 28,
+        "first": 14,
+        "msP50": 54.76650000000154,
+        "tokP50": 1062
+      },
+      "new": {
+        "n": 30,
+        "hit": 28,
+        "first": 14,
+        "msP50": 42.43409999999858,
+        "tokP50": 958
+      }
+    },
+    "update_record": {
+      "old": {
+        "n": 20,
+        "hit": 20,
+        "first": 20,
+        "msP50": 45.13169999999809,
+        "tokP50": 956
+      },
+      "new": {
+        "n": 20,
+        "hit": 20,
+        "first": 20,
+        "msP50": 44.52809999999954,
+        "tokP50": 946
+      }
+    },
+    "update_conversation": {
+      "old": {
+        "n": 25,
+        "hit": 23,
+        "first": 20,
+        "msP50": 56.86869999999908,
+        "tokP50": 1362
+      },
+      "new": {
+        "n": 25,
+        "hit": 24,
+        "first": 23,
+        "msP50": 58.23790000000008,
+        "tokP50": 1316
+      }
+    }
+  },
+  "byKind": {
+    "direct": {
+      "old": {
+        "n": 30,
+        "hit": 30,
+        "first": null,
+        "msP50": 55.21180000000004,
+        "tokP50": 1194
+      },
+      "new": {
+        "n": 30,
+        "hit": 30,
+        "first": null,
+        "msP50": 45.90129999999999,
+        "tokP50": 988
+      }
+    },
+    "join_receiver": {
+      "old": {
+        "n": 60,
+        "hit": 2,
+        "first": null,
+        "msP50": 54.8715000000002,
+        "tokP50": 1202
+      },
+      "new": {
+        "n": 60,
+        "hit": 20,
+        "first": null,
+        "msP50": 45.36409999999978,
+        "tokP50": 938
+      }
+    },
+    "hop2_company_web": {
+      "old": {
+        "n": 22,
+        "hit": 13,
+        "first": null,
+        "msP50": 54.73329999999987,
+        "tokP50": 1244
+      },
+      "new": {
+        "n": 22,
+        "hit": 16,
+        "first": null,
+        "msP50": 55.52899999999863,
+        "tokP50": 1244
+      }
+    },
+    "hop2_company_iban": {
+      "old": {
+        "n": 24,
+        "hit": 3,
+        "first": null,
+        "msP50": 36.51219999999921,
+        "tokP50": 987
+      },
+      "new": {
+        "n": 24,
+        "hit": 10,
+        "first": null,
+        "msP50": 41.41109999999935,
+        "tokP50": 1204
+      }
+    },
+    "hop2_company_vkn": {
+      "old": {
+        "n": 14,
+        "hit": 1,
+        "first": null,
+        "msP50": 62.66740000000027,
+        "tokP50": 1371
+      },
+      "new": {
+        "n": 14,
+        "hit": 1,
+        "first": null,
+        "msP50": 60.72999999999956,
+        "tokP50": 1509
+      }
+    },
+    "hop2_ticket_staff": {
+      "old": {
+        "n": 25,
+        "hit": 13,
+        "first": null,
+        "msP50": 46.92489999999816,
+        "tokP50": 1158
+      },
+      "new": {
+        "n": 25,
+        "hit": 14,
+        "first": null,
+        "msP50": 48.92660000000251,
+        "tokP50": 1151
+      }
+    },
+    "hop2_supplier": {
+      "old": {
+        "n": 20,
+        "hit": 3,
+        "first": null,
+        "msP50": 46.99780000000101,
+        "tokP50": 1063
+      },
+      "new": {
+        "n": 20,
+        "hit": 11,
+        "first": null,
+        "msP50": 47.41449999999895,
+        "tokP50": 1123
+      }
+    },
+    "hop3_complaint_payment": {
+      "old": {
+        "n": 30,
+        "hit": 14,
+        "first": null,
+        "msP50": 59.51050000000032,
+        "tokP50": 1109
+      },
+      "new": {
+        "n": 30,
+        "hit": 28,
+        "first": null,
+        "msP50": 60.08840000000055,
+        "tokP50": 1467
+      }
+    },
+    "hop3_contract_end": {
+      "old": {
+        "n": 25,
+        "hit": 13,
+        "first": null,
+        "msP50": 33.60170000000289,
+        "tokP50": 959
+      },
+      "new": {
+        "n": 25,
+        "hit": 19,
+        "first": null,
+        "msP50": 35.18530000000101,
+        "tokP50": 952
+      }
+    },
+    "temporal_last_month": {
+      "old": {
+        "n": 30,
+        "hit": 28,
+        "first": 14,
+        "msP50": 54.76650000000154,
+        "tokP50": 1062
+      },
+      "new": {
+        "n": 30,
+        "hit": 28,
+        "first": 14,
+        "msP50": 42.43409999999858,
+        "tokP50": 958
+      }
+    },
+    "update_shipment_track": {
+      "old": {
+        "n": 20,
+        "hit": 20,
+        "first": 20,
+        "msP50": 45.13169999999809,
+        "tokP50": 956
+      },
+      "new": {
+        "n": 20,
+        "hit": 20,
+        "first": 20,
+        "msP50": 44.52809999999954,
+        "tokP50": 946
+      }
+    },
+    "update_email_chat": {
+      "old": {
+        "n": 13,
+        "hit": 11,
+        "first": 10,
+        "msP50": 57.03550000000541,
+        "tokP50": 1304
+      },
+      "new": {
+        "n": 13,
+        "hit": 12,
+        "first": 12,
+        "msP50": 58.31049999999959,
+        "tokP50": 1304
+      }
+    },
+    "update_email_card": {
+      "old": {
+        "n": 12,
+        "hit": 12,
+        "first": 10,
+        "msP50": 56.86869999999908,
+        "tokP50": 1378
+      },
+      "new": {
+        "n": 12,
+        "hit": 12,
+        "first": 11,
+        "msP50": 56.73120000000199,
+        "tokP50": 1362
+      }
+    }
+  },
+  "rows": [
+    {
+      "eng": "new",
+      "id": "direct-0",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 46.1572000000001,
+      "tok": 1008
+    },
+    {
+      "eng": "old",
+      "id": "direct-0",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 53.644399999999905,
+      "tok": 1042
+    },
+    {
+      "eng": "old",
+      "id": "direct-1",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 47.64110000000005,
+      "tok": 910
+    },
+    {
+      "eng": "new",
+      "id": "direct-1",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 52.841499999999996,
+      "tok": 988
+    },
+    {
+      "eng": "new",
+      "id": "direct-2",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 49.02580000000012,
+      "tok": 1072
+    },
+    {
+      "eng": "old",
+      "id": "direct-2",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 61.761799999999994,
+      "tok": 1508
+    },
+    {
+      "eng": "old",
+      "id": "direct-3",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 63.277000000000044,
+      "tok": 1550
+    },
+    {
+      "eng": "new",
+      "id": "direct-3",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 45.500999999999976,
+      "tok": 1123
+    },
+    {
+      "eng": "new",
+      "id": "direct-4",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 46.52189999999996,
+      "tok": 778
+    },
+    {
+      "eng": "old",
+      "id": "direct-4",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 44.26649999999995,
+      "tok": 880
+    },
+    {
+      "eng": "old",
+      "id": "direct-5",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 56.83230000000003,
+      "tok": 1199
+    },
+    {
+      "eng": "new",
+      "id": "direct-5",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 43.77570000000014,
+      "tok": 958
+    },
+    {
+      "eng": "new",
+      "id": "direct-6",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 45.977300000000014,
+      "tok": 913
+    },
+    {
+      "eng": "old",
+      "id": "direct-6",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 58.32120000000009,
+      "tok": 913
+    },
+    {
+      "eng": "old",
+      "id": "direct-7",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 56.479399999999714,
+      "tok": 1184
+    },
+    {
+      "eng": "new",
+      "id": "direct-7",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 45.601700000000164,
+      "tok": 1093
+    },
+    {
+      "eng": "new",
+      "id": "direct-8",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 45.04919999999993,
+      "tok": 1086
+    },
+    {
+      "eng": "old",
+      "id": "direct-8",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 57.327200000000175,
+      "tok": 1510
+    },
+    {
+      "eng": "old",
+      "id": "direct-9",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 47.929999999999836,
+      "tok": 1145
+    },
+    {
+      "eng": "new",
+      "id": "direct-9",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 47.64339999999993,
+      "tok": 1049
+    },
+    {
+      "eng": "new",
+      "id": "direct-10",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 43.750600000000304,
+      "tok": 826
+    },
+    {
+      "eng": "old",
+      "id": "direct-10",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 54.175100000000384,
+      "tok": 1522
+    },
+    {
+      "eng": "old",
+      "id": "direct-11",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 54.42399999999998,
+      "tok": 1586
+    },
+    {
+      "eng": "new",
+      "id": "direct-11",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 46.68170000000009,
+      "tok": 1171
+    },
+    {
+      "eng": "new",
+      "id": "direct-12",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 65.20929999999998,
+      "tok": 958
+    },
+    {
+      "eng": "old",
+      "id": "direct-12",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 47.759399999999914,
+      "tok": 869
+    },
+    {
+      "eng": "old",
+      "id": "direct-13",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 76.23659999999973,
+      "tok": 1514
+    },
+    {
+      "eng": "new",
+      "id": "direct-13",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 48.235499999999774,
+      "tok": 1039
+    },
+    {
+      "eng": "new",
+      "id": "direct-14",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 50.05650000000014,
+      "tok": 1101
+    },
+    {
+      "eng": "old",
+      "id": "direct-14",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 53.86189999999988,
+      "tok": 1360
+    },
+    {
+      "eng": "old",
+      "id": "direct-15",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 59.21489999999994,
+      "tok": 1549
+    },
+    {
+      "eng": "new",
+      "id": "direct-15",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 43.02520000000004,
+      "tok": 1315
+    },
+    {
+      "eng": "new",
+      "id": "direct-16",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 44.92410000000018,
+      "tok": 882
+    },
+    {
+      "eng": "old",
+      "id": "direct-16",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 45.197000000000116,
+      "tok": 983
+    },
+    {
+      "eng": "old",
+      "id": "direct-17",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 50.64229999999998,
+      "tok": 1016
+    },
+    {
+      "eng": "new",
+      "id": "direct-17",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 42.99739999999974,
+      "tok": 816
+    },
+    {
+      "eng": "new",
+      "id": "direct-18",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 45.90129999999999,
+      "tok": 897
+    },
+    {
+      "eng": "old",
+      "id": "direct-18",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 55.17499999999973,
+      "tok": 1522
+    },
+    {
+      "eng": "old",
+      "id": "direct-19",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 57.34130000000005,
+      "tok": 1430
+    },
+    {
+      "eng": "new",
+      "id": "direct-19",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 44.67489999999998,
+      "tok": 929
+    },
+    {
+      "eng": "new",
+      "id": "direct-20",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 44.32029999999986,
+      "tok": 1127
+    },
+    {
+      "eng": "old",
+      "id": "direct-20",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 61.26050000000032,
+      "tok": 1534
+    },
+    {
+      "eng": "old",
+      "id": "direct-21",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 45.65110000000004,
+      "tok": 760
+    },
+    {
+      "eng": "new",
+      "id": "direct-21",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 45.85390000000007,
+      "tok": 656
+    },
+    {
+      "eng": "new",
+      "id": "direct-22",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 45.115999999999985,
+      "tok": 780
+    },
+    {
+      "eng": "old",
+      "id": "direct-22",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 44.18719999999985,
+      "tok": 1000
+    },
+    {
+      "eng": "old",
+      "id": "direct-23",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 59.54250000000002,
+      "tok": 1174
+    },
+    {
+      "eng": "new",
+      "id": "direct-23",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 46.94369999999981,
+      "tok": 1330
+    },
+    {
+      "eng": "new",
+      "id": "direct-24",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 45.939600000000155,
+      "tok": 977
+    },
+    {
+      "eng": "old",
+      "id": "direct-24",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 54.1271999999999,
+      "tok": 1194
+    },
+    {
+      "eng": "old",
+      "id": "direct-25",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 55.21180000000004,
+      "tok": 1505
+    },
+    {
+      "eng": "new",
+      "id": "direct-25",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 45.93719999999985,
+      "tok": 1231
+    },
+    {
+      "eng": "new",
+      "id": "direct-26",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 41.64060000000063,
+      "tok": 968
+    },
+    {
+      "eng": "old",
+      "id": "direct-26",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 53.59480000000076,
+      "tok": 1169
+    },
+    {
+      "eng": "old",
+      "id": "direct-27",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 55.85480000000007,
+      "tok": 971
+    },
+    {
+      "eng": "new",
+      "id": "direct-27",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 43.65300000000025,
+      "tok": 971
+    },
+    {
+      "eng": "new",
+      "id": "direct-28",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 48.03299999999945,
+      "tok": 900
+    },
+    {
+      "eng": "old",
+      "id": "direct-28",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 57.87960000000021,
+      "tok": 900
+    },
+    {
+      "eng": "old",
+      "id": "direct-29",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 55.64099999999962,
+      "tok": 1593
+    },
+    {
+      "eng": "new",
+      "id": "direct-29",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 44.02089999999953,
+      "tok": 1033
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-30",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 45.167199999999866,
+      "tok": 728
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-30",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 54.24159999999938,
+      "tok": 822
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-31",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 59.01209999999992,
+      "tok": 1209
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-31",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 42.81410000000051,
+      "tok": 784
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-32",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 45.19290000000001,
+      "tok": 1059
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-32",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 42.812699999999495,
+      "tok": 1059
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-33",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 40.53070000000025,
+      "tok": 1202
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-33",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 43.93299999999999,
+      "tok": 1202
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-34",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 42.95129999999972,
+      "tok": 852
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-34",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 58.19509999999991,
+      "tok": 859
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-35",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": true,
+      "first": null,
+      "ms": 65.21379999999954,
+      "tok": 1555
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-35",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": true,
+      "first": null,
+      "ms": 46.571100000000115,
+      "tok": 970
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-36",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": true,
+      "first": null,
+      "ms": 48.50919999999951,
+      "tok": 1012
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-36",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 54.80320000000029,
+      "tok": 1404
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-37",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 54.84600000000046,
+      "tok": 936
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-37",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 45.79450000000088,
+      "tok": 905
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-38",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 45.81810000000041,
+      "tok": 1058
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-38",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 47.70929999999953,
+      "tok": 1058
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-39",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 58.11279999999988,
+      "tok": 1425
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-39",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": true,
+      "first": null,
+      "ms": 45.128099999999904,
+      "tok": 871
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-40",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": true,
+      "first": null,
+      "ms": 41.86790000000019,
+      "tok": 1190
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-40",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 56.55439999999999,
+      "tok": 1535
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-41",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 43.89440000000013,
+      "tok": 845
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-41",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 43.492300000000796,
+      "tok": 845
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-42",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": true,
+      "first": null,
+      "ms": 44.02639999999974,
+      "tok": 888
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-42",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 57.33110000000033,
+      "tok": 1536
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-43",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 57.30709999999999,
+      "tok": 1488
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-43",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 51.46010000000024,
+      "tok": 1016
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-44",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 44.30959999999959,
+      "tok": 1159
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-44",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 54.8715000000002,
+      "tok": 1518
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-45",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 44.41179999999986,
+      "tok": 863
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-45",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 44.718799999999646,
+      "tok": 863
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-46",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 45.560199999999895,
+      "tok": 704
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-46",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 64.96140000000014,
+      "tok": 744
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-47",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 53.03199999999924,
+      "tok": 1109
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-47",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 45.44749999999931,
+      "tok": 923
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-48",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": true,
+      "first": null,
+      "ms": 44.382300000000214,
+      "tok": 1045
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-48",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 54.690599999999904,
+      "tok": 1446
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-49",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 62.29070000000047,
+      "tok": 1606
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-49",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 47.89920000000075,
+      "tok": 918
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-50",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 44.32340000000022,
+      "tok": 916
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-50",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 57.41520000000037,
+      "tok": 1581
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-51",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 59.6241,
+      "tok": 1462
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-51",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": true,
+      "first": null,
+      "ms": 45.75810000000001,
+      "tok": 1068
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-52",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 44.30799999999999,
+      "tok": 854
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-52",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 41.82940000000053,
+      "tok": 854
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-53",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 43.09760000000006,
+      "tok": 869
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-53",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 48.60239999999976,
+      "tok": 869
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-54",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": true,
+      "first": null,
+      "ms": 47.699499999999716,
+      "tok": 1175
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-54",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 55.712000000000444,
+      "tok": 1507
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-55",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 53.401200000000244,
+      "tok": 895
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-55",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 43.35450000000037,
+      "tok": 878
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-56",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": true,
+      "first": null,
+      "ms": 45.36409999999978,
+      "tok": 938
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-56",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 58.02139999999963,
+      "tok": 1524
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-57",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 54.83820000000014,
+      "tok": 788
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-57",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": true,
+      "first": null,
+      "ms": 44.46270000000004,
+      "tok": 843
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-58",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": true,
+      "first": null,
+      "ms": 43.24669999999969,
+      "tok": 1028
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-58",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 66.15210000000025,
+      "tok": 1548
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-59",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 54.0621000000001,
+      "tok": 1217
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-59",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 53.29449999999997,
+      "tok": 1217
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-60",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 68.79320000000007,
+      "tok": 885
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-60",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 51.11649999999918,
+      "tok": 885
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-61",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 76.53279999999995,
+      "tok": 1570
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-61",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": true,
+      "first": null,
+      "ms": 54.20390000000043,
+      "tok": 931
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-62",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 51.66349999999966,
+      "tok": 712
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-62",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 64.60959999999977,
+      "tok": 814
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-63",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 59.754399999999805,
+      "tok": 1563
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-63",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 46.83860000000004,
+      "tok": 1032
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-64",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 46.24489999999969,
+      "tok": 944
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-64",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 56.851300000000265,
+      "tok": 1394
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-65",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 57.938999999999396,
+      "tok": 1512
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-65",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 42.36359999999877,
+      "tok": 948
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-66",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 51.69920000000093,
+      "tok": 987
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-66",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 67.71349999999984,
+      "tok": 1019
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-67",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 48.80459999999948,
+      "tok": 1130
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-67",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 42.98840000000018,
+      "tok": 1130
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-68",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 49.43669999999838,
+      "tok": 866
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-68",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 44.751399999999194,
+      "tok": 866
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-69",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 59.443999999999505,
+      "tok": 1530
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-69",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": true,
+      "first": null,
+      "ms": 43.77599999999984,
+      "tok": 1000
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-70",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 43.648299999998926,
+      "tok": 873
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-70",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 42.722999999999956,
+      "tok": 873
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-71",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": true,
+      "first": null,
+      "ms": 55.45349999999962,
+      "tok": 840
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-71",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 45.581200000000536,
+      "tok": 828
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-72",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 44.25760000000082,
+      "tok": 963
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-72",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 45.131500000001324,
+      "tok": 963
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-73",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 55.43130000000019,
+      "tok": 1346
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-73",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 45.56660000000011,
+      "tok": 870
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-74",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": true,
+      "first": null,
+      "ms": 47.48819999999978,
+      "tok": 1157
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-74",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 56.800600000000486,
+      "tok": 1578
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-75",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 62.24070000000029,
+      "tok": 1570
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-75",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": true,
+      "first": null,
+      "ms": 45.96429999999964,
+      "tok": 1034
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-76",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": true,
+      "first": null,
+      "ms": 44.374299999999494,
+      "tok": 1190
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-76",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 57.900399999998626,
+      "tok": 1462
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-77",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 57.92740000000049,
+      "tok": 1539
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-77",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": true,
+      "first": null,
+      "ms": 44.501000000000204,
+      "tok": 797
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-78",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": true,
+      "first": null,
+      "ms": 42.72850000000108,
+      "tok": 1002
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-78",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 53.09819999999854,
+      "tok": 1165
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-79",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 50.338700000000244,
+      "tok": 1120
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-79",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 46.00219999999899,
+      "tok": 1120
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-80",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 43.54770000000099,
+      "tok": 801
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-80",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 43.14719999999943,
+      "tok": 801
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-81",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 55.41370000000097,
+      "tok": 1508
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-81",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": true,
+      "first": null,
+      "ms": 46.79280000000108,
+      "tok": 1145
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-82",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 45.46519999999873,
+      "tok": 1069
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-82",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 44.606299999999464,
+      "tok": 1069
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-83",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 42.804299999999785,
+      "tok": 780
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-83",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 44.674300000000585,
+      "tok": 780
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-84",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 48.57459999999992,
+      "tok": 1066
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-84",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 42.16779999999926,
+      "tok": 1066
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-85",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 55.79409999999916,
+      "tok": 1520
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-85",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 46.57330000000002,
+      "tok": 751
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-86",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 44.66980000000149,
+      "tok": 666
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-86",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 53.86670000000049,
+      "tok": 1153
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-87",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 44.8729000000003,
+      "tok": 856
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-87",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 46.89480000000003,
+      "tok": 856
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-88",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 42.09090000000106,
+      "tok": 786
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-88",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 41.160499999999956,
+      "tok": 786
+    },
+    {
+      "eng": "old",
+      "id": "join_receiver-89",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": false,
+      "first": null,
+      "ms": 52.88789999999972,
+      "tok": 1542
+    },
+    {
+      "eng": "new",
+      "id": "join_receiver-89",
+      "cat": "join",
+      "kind": "join_receiver",
+      "hit": true,
+      "first": null,
+      "ms": 42.29100000000108,
+      "tok": 959
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_web-90",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": true,
+      "first": null,
+      "ms": 32.22470000000067,
+      "tok": 525
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_web-90",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": false,
+      "first": null,
+      "ms": 31.780299999998533,
+      "tok": 475
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_iban-91",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": false,
+      "first": null,
+      "ms": 74.5637999999999,
+      "tok": 1624
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_iban-91",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": false,
+      "first": null,
+      "ms": 72.16020000000026,
+      "tok": 1590
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_iban-92",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": false,
+      "first": null,
+      "ms": 34.214899999999034,
+      "tok": 987
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_iban-92",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": false,
+      "first": null,
+      "ms": 36.51219999999921,
+      "tok": 987
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_web-93",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": false,
+      "first": null,
+      "ms": 35.083300000000236,
+      "tok": 833
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_web-93",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": false,
+      "first": null,
+      "ms": 33.71310000000085,
+      "tok": 833
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_web-94",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": false,
+      "first": null,
+      "ms": 55.52899999999863,
+      "tok": 439
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_web-94",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": false,
+      "first": null,
+      "ms": 53.760299999999916,
+      "tok": 439
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_web-95",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": true,
+      "first": null,
+      "ms": 58.6921999999995,
+      "tok": 1294
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_web-95",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": true,
+      "first": null,
+      "ms": 62.32730000000083,
+      "tok": 1294
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_iban-96",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": false,
+      "first": null,
+      "ms": 82.34550000000127,
+      "tok": 1590
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_iban-96",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": false,
+      "first": null,
+      "ms": 80.37820000000102,
+      "tok": 1517
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_vkn-97",
+      "cat": "multihop2",
+      "kind": "hop2_company_vkn",
+      "hit": false,
+      "first": null,
+      "ms": 38.73940000000039,
+      "tok": 661
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_vkn-97",
+      "cat": "multihop2",
+      "kind": "hop2_company_vkn",
+      "hit": false,
+      "first": null,
+      "ms": 33.9966000000004,
+      "tok": 661
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_iban-98",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": true,
+      "first": null,
+      "ms": 33.237600000000384,
+      "tok": 729
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_iban-98",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": false,
+      "first": null,
+      "ms": 33.89010000000053,
+      "tok": 703
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_vkn-99",
+      "cat": "multihop2",
+      "kind": "hop2_company_vkn",
+      "hit": false,
+      "first": null,
+      "ms": 44.74490000000151,
+      "tok": 870
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_vkn-99",
+      "cat": "multihop2",
+      "kind": "hop2_company_vkn",
+      "hit": false,
+      "first": null,
+      "ms": 40.34929999999986,
+      "tok": 870
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_vkn-100",
+      "cat": "multihop2",
+      "kind": "hop2_company_vkn",
+      "hit": false,
+      "first": null,
+      "ms": 79.75199999999859,
+      "tok": 1506
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_vkn-100",
+      "cat": "multihop2",
+      "kind": "hop2_company_vkn",
+      "hit": false,
+      "first": null,
+      "ms": 86.99129999999968,
+      "tok": 1534
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_web-101",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": true,
+      "first": null,
+      "ms": 58.9911000000011,
+      "tok": 1286
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_web-101",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": true,
+      "first": null,
+      "ms": 58.123999999999796,
+      "tok": 1286
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_iban-102",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": false,
+      "first": null,
+      "ms": 67.4369000000006,
+      "tok": 1550
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_iban-102",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": false,
+      "first": null,
+      "ms": 71.30420000000049,
+      "tok": 1526
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_iban-103",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": false,
+      "first": null,
+      "ms": 33.740600000000995,
+      "tok": 1156
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_iban-103",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": true,
+      "first": null,
+      "ms": 36.33510000000024,
+      "tok": 1204
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_web-104",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": true,
+      "first": null,
+      "ms": 57.37410000000091,
+      "tok": 1269
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_web-104",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": true,
+      "first": null,
+      "ms": 51.55479999999989,
+      "tok": 1269
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_iban-105",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": false,
+      "first": null,
+      "ms": 33.29039999999986,
+      "tok": 755
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_iban-105",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": true,
+      "first": null,
+      "ms": 35.67369999999937,
+      "tok": 866
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_web-106",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": true,
+      "first": null,
+      "ms": 34.68339999999989,
+      "tok": 1075
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_web-106",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": true,
+      "first": null,
+      "ms": 34.75720000000001,
+      "tok": 1075
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_iban-107",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": false,
+      "first": null,
+      "ms": 66.25490000000173,
+      "tok": 1085
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_iban-107",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": false,
+      "first": null,
+      "ms": 75.6752000000015,
+      "tok": 1222
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_iban-108",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": false,
+      "first": null,
+      "ms": 67.89990000000034,
+      "tok": 1579
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_iban-108",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": false,
+      "first": null,
+      "ms": 72.16460000000006,
+      "tok": 1506
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_web-109",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": true,
+      "first": null,
+      "ms": 60.46719999999914,
+      "tok": 1506
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_web-109",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": true,
+      "first": null,
+      "ms": 59.73610000000008,
+      "tok": 1506
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_web-110",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": true,
+      "first": null,
+      "ms": 59.40320000000065,
+      "tok": 1447
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_web-110",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": true,
+      "first": null,
+      "ms": 61.162899999999354,
+      "tok": 1447
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_web-111",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": true,
+      "first": null,
+      "ms": 60.05229999999938,
+      "tok": 1402
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_web-111",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": true,
+      "first": null,
+      "ms": 60.3663000000015,
+      "tok": 1402
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_vkn-112",
+      "cat": "multihop2",
+      "kind": "hop2_company_vkn",
+      "hit": false,
+      "first": null,
+      "ms": 71.33970000000045,
+      "tok": 1568
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_vkn-112",
+      "cat": "multihop2",
+      "kind": "hop2_company_vkn",
+      "hit": false,
+      "first": null,
+      "ms": 70.73600000000079,
+      "tok": 1287
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_web-113",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": true,
+      "first": null,
+      "ms": 55.48909999999887,
+      "tok": 1571
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_web-113",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": true,
+      "first": null,
+      "ms": 61.763199999999415,
+      "tok": 1498
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_web-114",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": true,
+      "first": null,
+      "ms": 54.23450000000048,
+      "tok": 1443
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_web-114",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": true,
+      "first": null,
+      "ms": 56.784999999999854,
+      "tok": 1443
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_vkn-115",
+      "cat": "multihop2",
+      "kind": "hop2_company_vkn",
+      "hit": false,
+      "first": null,
+      "ms": 65.14819999999963,
+      "tok": 1344
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_vkn-115",
+      "cat": "multihop2",
+      "kind": "hop2_company_vkn",
+      "hit": false,
+      "first": null,
+      "ms": 63.32459999999992,
+      "tok": 1556
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_iban-116",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": true,
+      "first": null,
+      "ms": 41.41109999999935,
+      "tok": 969
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_iban-116",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": false,
+      "first": null,
+      "ms": 34.11199999999917,
+      "tok": 919
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_vkn-117",
+      "cat": "multihop2",
+      "kind": "hop2_company_vkn",
+      "hit": false,
+      "first": null,
+      "ms": 68.69160000000011,
+      "tok": 1557
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_vkn-117",
+      "cat": "multihop2",
+      "kind": "hop2_company_vkn",
+      "hit": false,
+      "first": null,
+      "ms": 70.55819999999949,
+      "tok": 1558
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_iban-118",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": false,
+      "first": null,
+      "ms": 68.61419999999998,
+      "tok": 1608
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_iban-118",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": false,
+      "first": null,
+      "ms": 70.41370000000097,
+      "tok": 1606
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_iban-119",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": false,
+      "first": null,
+      "ms": 33.199799999998504,
+      "tok": 821
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_iban-119",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": false,
+      "first": null,
+      "ms": 35.111399999999776,
+      "tok": 821
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_web-120",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": true,
+      "first": null,
+      "ms": 47.044700000000375,
+      "tok": 524
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_web-120",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": false,
+      "first": null,
+      "ms": 54.73329999999987,
+      "tok": 419
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_iban-121",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": false,
+      "first": null,
+      "ms": 63.64969999999994,
+      "tok": 1161
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_iban-121",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": false,
+      "first": null,
+      "ms": 64.70209999999861,
+      "tok": 1461
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_vkn-122",
+      "cat": "multihop2",
+      "kind": "hop2_company_vkn",
+      "hit": false,
+      "first": null,
+      "ms": 34.550999999999476,
+      "tok": 697
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_vkn-122",
+      "cat": "multihop2",
+      "kind": "hop2_company_vkn",
+      "hit": false,
+      "first": null,
+      "ms": 32.21810000000005,
+      "tok": 697
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_web-123",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": false,
+      "first": null,
+      "ms": 31.594499999999243,
+      "tok": 608
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_web-123",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": false,
+      "first": null,
+      "ms": 31.921699999998964,
+      "tok": 608
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_vkn-124",
+      "cat": "multihop2",
+      "kind": "hop2_company_vkn",
+      "hit": false,
+      "first": null,
+      "ms": 57.70550000000003,
+      "tok": 1375
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_vkn-124",
+      "cat": "multihop2",
+      "kind": "hop2_company_vkn",
+      "hit": false,
+      "first": null,
+      "ms": 63.84200000000055,
+      "tok": 1375
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_vkn-125",
+      "cat": "multihop2",
+      "kind": "hop2_company_vkn",
+      "hit": false,
+      "first": null,
+      "ms": 49.00460000000021,
+      "tok": 430
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_vkn-125",
+      "cat": "multihop2",
+      "kind": "hop2_company_vkn",
+      "hit": false,
+      "first": null,
+      "ms": 48.03560000000107,
+      "tok": 430
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_iban-126",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": false,
+      "first": null,
+      "ms": 34.76050000000032,
+      "tok": 707
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_iban-126",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": false,
+      "first": null,
+      "ms": 33.79650000000038,
+      "tok": 650
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_iban-127",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": false,
+      "first": null,
+      "ms": 32.616900000000896,
+      "tok": 512
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_iban-127",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": false,
+      "first": null,
+      "ms": 37.35959999999977,
+      "tok": 500
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_vkn-128",
+      "cat": "multihop2",
+      "kind": "hop2_company_vkn",
+      "hit": false,
+      "first": null,
+      "ms": 64.45779999999831,
+      "tok": 1593
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_vkn-128",
+      "cat": "multihop2",
+      "kind": "hop2_company_vkn",
+      "hit": false,
+      "first": null,
+      "ms": 62.66740000000027,
+      "tok": 1488
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_vkn-129",
+      "cat": "multihop2",
+      "kind": "hop2_company_vkn",
+      "hit": false,
+      "first": null,
+      "ms": 63.843300000000454,
+      "tok": 1371
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_vkn-129",
+      "cat": "multihop2",
+      "kind": "hop2_company_vkn",
+      "hit": false,
+      "first": null,
+      "ms": 60.72999999999956,
+      "tok": 1521
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_web-130",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": true,
+      "first": null,
+      "ms": 33.00540000000001,
+      "tok": 823
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_web-130",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": false,
+      "first": null,
+      "ms": 31.11869999999908,
+      "tok": 775
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_web-131",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": false,
+      "first": null,
+      "ms": 30.95889999999963,
+      "tok": 881
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_web-131",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": false,
+      "first": null,
+      "ms": 35.656199999999444,
+      "tok": 881
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_iban-132",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": true,
+      "first": null,
+      "ms": 34.29370000000017,
+      "tok": 653
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_iban-132",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": false,
+      "first": null,
+      "ms": 35.1857,
+      "tok": 624
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_iban-133",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": false,
+      "first": null,
+      "ms": 31.943699999999808,
+      "tok": 480
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_iban-133",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": true,
+      "first": null,
+      "ms": 33.08329999999842,
+      "tok": 529
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_vkn-134",
+      "cat": "multihop2",
+      "kind": "hop2_company_vkn",
+      "hit": true,
+      "first": null,
+      "ms": 61.36039999999957,
+      "tok": 1509
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_vkn-134",
+      "cat": "multihop2",
+      "kind": "hop2_company_vkn",
+      "hit": true,
+      "first": null,
+      "ms": 60.08250000000044,
+      "tok": 1509
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_iban-135",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": false,
+      "first": null,
+      "ms": 31.86869999999908,
+      "tok": 628
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_iban-135",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": false,
+      "first": null,
+      "ms": 35.38560000000143,
+      "tok": 628
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_web-136",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": true,
+      "first": null,
+      "ms": 60.75550000000112,
+      "tok": 1244
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_web-136",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": true,
+      "first": null,
+      "ms": 57.90270000000055,
+      "tok": 1244
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_web-137",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": true,
+      "first": null,
+      "ms": 78.80199999999968,
+      "tok": 1450
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_web-137",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": true,
+      "first": null,
+      "ms": 58.66179999999986,
+      "tok": 1450
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_iban-138",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": false,
+      "first": null,
+      "ms": 92.07620000000134,
+      "tok": 1547
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_iban-138",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": false,
+      "first": null,
+      "ms": 77.30279999999948,
+      "tok": 1422
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_web-139",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": false,
+      "first": null,
+      "ms": 34.81710000000021,
+      "tok": 941
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_web-139",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": false,
+      "first": null,
+      "ms": 33.71429999999964,
+      "tok": 941
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_web-140",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": true,
+      "first": null,
+      "ms": 32.340000000000146,
+      "tok": 726
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_web-140",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": true,
+      "first": null,
+      "ms": 32.32600000000093,
+      "tok": 726
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_iban-141",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": false,
+      "first": null,
+      "ms": 32.31129999999939,
+      "tok": 403
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_iban-141",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": true,
+      "first": null,
+      "ms": 33.64710000000014,
+      "tok": 426
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_iban-142",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": true,
+      "first": null,
+      "ms": 64.29770000000099,
+      "tok": 1447
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_iban-142",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": true,
+      "first": null,
+      "ms": 58.048000000000684,
+      "tok": 1506
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_web-143",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": true,
+      "first": null,
+      "ms": 58.60950000000048,
+      "tok": 1493
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_web-143",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": true,
+      "first": null,
+      "ms": 57.449100000001636,
+      "tok": 1493
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_vkn-144",
+      "cat": "multihop2",
+      "kind": "hop2_company_vkn",
+      "hit": false,
+      "first": null,
+      "ms": 58.90049999999974,
+      "tok": 1580
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_vkn-144",
+      "cat": "multihop2",
+      "kind": "hop2_company_vkn",
+      "hit": false,
+      "first": null,
+      "ms": 60.87550000000192,
+      "tok": 1565
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_iban-145",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": true,
+      "first": null,
+      "ms": 60.564299999998184,
+      "tok": 1372
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_iban-145",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": true,
+      "first": null,
+      "ms": 61.99659999999858,
+      "tok": 1239
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_vkn-146",
+      "cat": "multihop2",
+      "kind": "hop2_company_vkn",
+      "hit": false,
+      "first": null,
+      "ms": 34.762800000000425,
+      "tok": 791
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_vkn-146",
+      "cat": "multihop2",
+      "kind": "hop2_company_vkn",
+      "hit": false,
+      "first": null,
+      "ms": 30.21600000000035,
+      "tok": 791
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_iban-147",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": false,
+      "first": null,
+      "ms": 70.65090000000055,
+      "tok": 824
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_iban-147",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": false,
+      "first": null,
+      "ms": 67.48270000000048,
+      "tok": 1491
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_web-148",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": false,
+      "first": null,
+      "ms": 32.5692999999992,
+      "tok": 674
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_web-148",
+      "cat": "multihop2",
+      "kind": "hop2_company_web",
+      "hit": false,
+      "first": null,
+      "ms": 31.386999999998807,
+      "tok": 674
+    },
+    {
+      "eng": "old",
+      "id": "hop2_company_iban-149",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": true,
+      "first": null,
+      "ms": 32.87199999999939,
+      "tok": 708
+    },
+    {
+      "eng": "new",
+      "id": "hop2_company_iban-149",
+      "cat": "multihop2",
+      "kind": "hop2_company_iban",
+      "hit": true,
+      "first": null,
+      "ms": 34.01959999999963,
+      "tok": 708
+    },
+    {
+      "eng": "new",
+      "id": "hop2_ticket_staff-150",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": false,
+      "first": null,
+      "ms": 48.92660000000251,
+      "tok": 325
+    },
+    {
+      "eng": "old",
+      "id": "hop2_ticket_staff-150",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": false,
+      "first": null,
+      "ms": 46.902500000000146,
+      "tok": 325
+    },
+    {
+      "eng": "old",
+      "id": "hop2_ticket_staff-151",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": false,
+      "first": null,
+      "ms": 46.856800000001385,
+      "tok": 359
+    },
+    {
+      "eng": "new",
+      "id": "hop2_ticket_staff-151",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": false,
+      "first": null,
+      "ms": 49.98809999999867,
+      "tok": 359
+    },
+    {
+      "eng": "new",
+      "id": "hop2_ticket_staff-152",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": false,
+      "first": null,
+      "ms": 46.11200000000099,
+      "tok": 424
+    },
+    {
+      "eng": "old",
+      "id": "hop2_ticket_staff-152",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": false,
+      "first": null,
+      "ms": 46.17289999999775,
+      "tok": 424
+    },
+    {
+      "eng": "old",
+      "id": "hop2_ticket_staff-153",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": true,
+      "first": null,
+      "ms": 51.45829999999842,
+      "tok": 1240
+    },
+    {
+      "eng": "new",
+      "id": "hop2_ticket_staff-153",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": true,
+      "first": null,
+      "ms": 50.234999999996944,
+      "tok": 1227
+    },
+    {
+      "eng": "new",
+      "id": "hop2_ticket_staff-154",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": false,
+      "first": null,
+      "ms": 50.39950000000317,
+      "tok": 1229
+    },
+    {
+      "eng": "old",
+      "id": "hop2_ticket_staff-154",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": false,
+      "first": null,
+      "ms": 48.035899999998946,
+      "tok": 1229
+    },
+    {
+      "eng": "old",
+      "id": "hop2_ticket_staff-155",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": false,
+      "first": null,
+      "ms": 51.71509999999762,
+      "tok": 402
+    },
+    {
+      "eng": "new",
+      "id": "hop2_ticket_staff-155",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": false,
+      "first": null,
+      "ms": 58.903000000002066,
+      "tok": 402
+    },
+    {
+      "eng": "new",
+      "id": "hop2_ticket_staff-156",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": true,
+      "first": null,
+      "ms": 71.70829999999842,
+      "tok": 1165
+    },
+    {
+      "eng": "old",
+      "id": "hop2_ticket_staff-156",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": true,
+      "first": null,
+      "ms": 57.37160000000222,
+      "tok": 1221
+    },
+    {
+      "eng": "old",
+      "id": "hop2_ticket_staff-157",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": true,
+      "first": null,
+      "ms": 44.72099999999773,
+      "tok": 1016
+    },
+    {
+      "eng": "new",
+      "id": "hop2_ticket_staff-157",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": true,
+      "first": null,
+      "ms": 46.631900000000314,
+      "tok": 1016
+    },
+    {
+      "eng": "new",
+      "id": "hop2_ticket_staff-158",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": true,
+      "first": null,
+      "ms": 61.383200000000215,
+      "tok": 1152
+    },
+    {
+      "eng": "old",
+      "id": "hop2_ticket_staff-158",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": true,
+      "first": null,
+      "ms": 61.61930000000211,
+      "tok": 1158
+    },
+    {
+      "eng": "old",
+      "id": "hop2_ticket_staff-159",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": false,
+      "first": null,
+      "ms": 46.91489999999976,
+      "tok": 351
+    },
+    {
+      "eng": "new",
+      "id": "hop2_ticket_staff-159",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": false,
+      "first": null,
+      "ms": 48.795900000000984,
+      "tok": 351
+    },
+    {
+      "eng": "new",
+      "id": "hop2_ticket_staff-160",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": false,
+      "first": null,
+      "ms": 48.22899999999936,
+      "tok": 356
+    },
+    {
+      "eng": "old",
+      "id": "hop2_ticket_staff-160",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": false,
+      "first": null,
+      "ms": 47.41909999999916,
+      "tok": 356
+    },
+    {
+      "eng": "old",
+      "id": "hop2_ticket_staff-161",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": true,
+      "first": null,
+      "ms": 47.92829999999958,
+      "tok": 1341
+    },
+    {
+      "eng": "new",
+      "id": "hop2_ticket_staff-161",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": true,
+      "first": null,
+      "ms": 44.68990000000122,
+      "tok": 1341
+    },
+    {
+      "eng": "new",
+      "id": "hop2_ticket_staff-162",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": false,
+      "first": null,
+      "ms": 47.10829999999987,
+      "tok": 447
+    },
+    {
+      "eng": "old",
+      "id": "hop2_ticket_staff-162",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": false,
+      "first": null,
+      "ms": 47.455699999998615,
+      "tok": 447
+    },
+    {
+      "eng": "old",
+      "id": "hop2_ticket_staff-163",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": true,
+      "first": null,
+      "ms": 44.488499999999476,
+      "tok": 1164
+    },
+    {
+      "eng": "new",
+      "id": "hop2_ticket_staff-163",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": true,
+      "first": null,
+      "ms": 51.492200000000594,
+      "tok": 1164
+    },
+    {
+      "eng": "new",
+      "id": "hop2_ticket_staff-164",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": true,
+      "first": null,
+      "ms": 51.77930000000197,
+      "tok": 1271
+    },
+    {
+      "eng": "old",
+      "id": "hop2_ticket_staff-164",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": true,
+      "first": null,
+      "ms": 54.088700000000244,
+      "tok": 1196
+    },
+    {
+      "eng": "old",
+      "id": "hop2_ticket_staff-165",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": false,
+      "first": null,
+      "ms": 46.92489999999816,
+      "tok": 1142
+    },
+    {
+      "eng": "new",
+      "id": "hop2_ticket_staff-165",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": false,
+      "first": null,
+      "ms": 52.132699999998295,
+      "tok": 1142
+    },
+    {
+      "eng": "new",
+      "id": "hop2_ticket_staff-166",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": true,
+      "first": null,
+      "ms": 44.793900000000576,
+      "tok": 1419
+    },
+    {
+      "eng": "old",
+      "id": "hop2_ticket_staff-166",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": true,
+      "first": null,
+      "ms": 44.18250000000262,
+      "tok": 1419
+    },
+    {
+      "eng": "old",
+      "id": "hop2_ticket_staff-167",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": true,
+      "first": null,
+      "ms": 68.63070000000153,
+      "tok": 1021
+    },
+    {
+      "eng": "new",
+      "id": "hop2_ticket_staff-167",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": true,
+      "first": null,
+      "ms": 60.78610000000117,
+      "tok": 935
+    },
+    {
+      "eng": "new",
+      "id": "hop2_ticket_staff-168",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": true,
+      "first": null,
+      "ms": 46.03359999999884,
+      "tok": 1158
+    },
+    {
+      "eng": "old",
+      "id": "hop2_ticket_staff-168",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": true,
+      "first": null,
+      "ms": 45.153000000002066,
+      "tok": 1158
+    },
+    {
+      "eng": "old",
+      "id": "hop2_ticket_staff-169",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": true,
+      "first": null,
+      "ms": 56.345900000000256,
+      "tok": 1335
+    },
+    {
+      "eng": "new",
+      "id": "hop2_ticket_staff-169",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": true,
+      "first": null,
+      "ms": 60.96110000000044,
+      "tok": 1151
+    },
+    {
+      "eng": "new",
+      "id": "hop2_ticket_staff-170",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": true,
+      "first": null,
+      "ms": 65.32280000000173,
+      "tok": 1086
+    },
+    {
+      "eng": "old",
+      "id": "hop2_ticket_staff-170",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": false,
+      "first": null,
+      "ms": 66.46679999999833,
+      "tok": 953
+    },
+    {
+      "eng": "old",
+      "id": "hop2_ticket_staff-171",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": true,
+      "first": null,
+      "ms": 46.62510000000111,
+      "tok": 1221
+    },
+    {
+      "eng": "new",
+      "id": "hop2_ticket_staff-171",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": true,
+      "first": null,
+      "ms": 45.51420000000144,
+      "tok": 1224
+    },
+    {
+      "eng": "new",
+      "id": "hop2_ticket_staff-172",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": true,
+      "first": null,
+      "ms": 44.32809999999881,
+      "tok": 1334
+    },
+    {
+      "eng": "old",
+      "id": "hop2_ticket_staff-172",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": true,
+      "first": null,
+      "ms": 44.40380000000005,
+      "tok": 1334
+    },
+    {
+      "eng": "old",
+      "id": "hop2_ticket_staff-173",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": false,
+      "first": null,
+      "ms": 42.4406999999992,
+      "tok": 1480
+    },
+    {
+      "eng": "new",
+      "id": "hop2_ticket_staff-173",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": false,
+      "first": null,
+      "ms": 46.300100000000384,
+      "tok": 1480
+    },
+    {
+      "eng": "new",
+      "id": "hop2_ticket_staff-174",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": false,
+      "first": null,
+      "ms": 47.9871000000021,
+      "tok": 358
+    },
+    {
+      "eng": "old",
+      "id": "hop2_ticket_staff-174",
+      "cat": "multihop2",
+      "kind": "hop2_ticket_staff",
+      "hit": false,
+      "first": null,
+      "ms": 46.240499999999884,
+      "tok": 358
+    },
+    {
+      "eng": "old",
+      "id": "hop2_supplier-175",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": false,
+      "first": null,
+      "ms": 46.5470000000023,
+      "tok": 989
+    },
+    {
+      "eng": "new",
+      "id": "hop2_supplier-175",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": true,
+      "first": null,
+      "ms": 45.90129999999772,
+      "tok": 1049
+    },
+    {
+      "eng": "new",
+      "id": "hop2_supplier-176",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": true,
+      "first": null,
+      "ms": 60.278400000002875,
+      "tok": 834
+    },
+    {
+      "eng": "old",
+      "id": "hop2_supplier-176",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": false,
+      "first": null,
+      "ms": 57.280800000000454,
+      "tok": 772
+    },
+    {
+      "eng": "old",
+      "id": "hop2_supplier-177",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": false,
+      "first": null,
+      "ms": 41.69889999999941,
+      "tok": 1063
+    },
+    {
+      "eng": "new",
+      "id": "hop2_supplier-177",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": true,
+      "first": null,
+      "ms": 44.4945000000007,
+      "tok": 1123
+    },
+    {
+      "eng": "new",
+      "id": "hop2_supplier-178",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": false,
+      "first": null,
+      "ms": 47.405399999999645,
+      "tok": 1554
+    },
+    {
+      "eng": "old",
+      "id": "hop2_supplier-178",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": false,
+      "first": null,
+      "ms": 44.97530000000188,
+      "tok": 1554
+    },
+    {
+      "eng": "old",
+      "id": "hop2_supplier-179",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": false,
+      "first": null,
+      "ms": 58.5031999999992,
+      "tok": 762
+    },
+    {
+      "eng": "new",
+      "id": "hop2_supplier-179",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": false,
+      "first": null,
+      "ms": 58.448200000002544,
+      "tok": 674
+    },
+    {
+      "eng": "new",
+      "id": "hop2_supplier-180",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": true,
+      "first": null,
+      "ms": 42.89890000000014,
+      "tok": 1052
+    },
+    {
+      "eng": "old",
+      "id": "hop2_supplier-180",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": false,
+      "first": null,
+      "ms": 44.11880000000019,
+      "tok": 977
+    },
+    {
+      "eng": "old",
+      "id": "hop2_supplier-181",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": false,
+      "first": null,
+      "ms": 61.15780000000086,
+      "tok": 901
+    },
+    {
+      "eng": "new",
+      "id": "hop2_supplier-181",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": false,
+      "first": null,
+      "ms": 59.41649999999936,
+      "tok": 711
+    },
+    {
+      "eng": "new",
+      "id": "hop2_supplier-182",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": false,
+      "first": null,
+      "ms": 49.171800000000076,
+      "tok": 1261
+    },
+    {
+      "eng": "old",
+      "id": "hop2_supplier-182",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": false,
+      "first": null,
+      "ms": 45.91200000000026,
+      "tok": 1261
+    },
+    {
+      "eng": "old",
+      "id": "hop2_supplier-183",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": false,
+      "first": null,
+      "ms": 49.67329999999856,
+      "tok": 1437
+    },
+    {
+      "eng": "new",
+      "id": "hop2_supplier-183",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": false,
+      "first": null,
+      "ms": 47.473299999997835,
+      "tok": 1437
+    },
+    {
+      "eng": "new",
+      "id": "hop2_supplier-184",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": false,
+      "first": null,
+      "ms": 51.47019999999975,
+      "tok": 1482
+    },
+    {
+      "eng": "old",
+      "id": "hop2_supplier-184",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": false,
+      "first": null,
+      "ms": 50.98780000000261,
+      "tok": 1482
+    },
+    {
+      "eng": "old",
+      "id": "hop2_supplier-185",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": false,
+      "first": null,
+      "ms": 46.99780000000101,
+      "tok": 1043
+    },
+    {
+      "eng": "new",
+      "id": "hop2_supplier-185",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": true,
+      "first": null,
+      "ms": 46.56710000000021,
+      "tok": 1099
+    },
+    {
+      "eng": "new",
+      "id": "hop2_supplier-186",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": true,
+      "first": null,
+      "ms": 47.1349999999984,
+      "tok": 990
+    },
+    {
+      "eng": "old",
+      "id": "hop2_supplier-186",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": false,
+      "first": null,
+      "ms": 43.421800000000076,
+      "tok": 929
+    },
+    {
+      "eng": "old",
+      "id": "hop2_supplier-187",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": true,
+      "first": null,
+      "ms": 52.222899999997026,
+      "tok": 1263
+    },
+    {
+      "eng": "new",
+      "id": "hop2_supplier-187",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": true,
+      "first": null,
+      "ms": 43.43409999999858,
+      "tok": 1251
+    },
+    {
+      "eng": "new",
+      "id": "hop2_supplier-188",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": true,
+      "first": null,
+      "ms": 42.31980000000112,
+      "tok": 1234
+    },
+    {
+      "eng": "old",
+      "id": "hop2_supplier-188",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": true,
+      "first": null,
+      "ms": 46.17250000000058,
+      "tok": 1241
+    },
+    {
+      "eng": "old",
+      "id": "hop2_supplier-189",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": false,
+      "first": null,
+      "ms": 58.45539999999892,
+      "tok": 899
+    },
+    {
+      "eng": "new",
+      "id": "hop2_supplier-189",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": true,
+      "first": null,
+      "ms": 58.96860000000015,
+      "tok": 976
+    },
+    {
+      "eng": "new",
+      "id": "hop2_supplier-190",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": true,
+      "first": null,
+      "ms": 47.41449999999895,
+      "tok": 953
+    },
+    {
+      "eng": "old",
+      "id": "hop2_supplier-190",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": false,
+      "first": null,
+      "ms": 43.288800000002084,
+      "tok": 893
+    },
+    {
+      "eng": "old",
+      "id": "hop2_supplier-191",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": false,
+      "first": null,
+      "ms": 56.68630000000121,
+      "tok": 1431
+    },
+    {
+      "eng": "new",
+      "id": "hop2_supplier-191",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": false,
+      "first": null,
+      "ms": 57.65869999999995,
+      "tok": 1431
+    },
+    {
+      "eng": "new",
+      "id": "hop2_supplier-192",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": false,
+      "first": null,
+      "ms": 54.6147000000019,
+      "tok": 691
+    },
+    {
+      "eng": "old",
+      "id": "hop2_supplier-192",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": false,
+      "first": null,
+      "ms": 53.98879999999917,
+      "tok": 691
+    },
+    {
+      "eng": "old",
+      "id": "hop2_supplier-193",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": false,
+      "first": null,
+      "ms": 46.15629999999874,
+      "tok": 1439
+    },
+    {
+      "eng": "new",
+      "id": "hop2_supplier-193",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": false,
+      "first": null,
+      "ms": 45.47029999999722,
+      "tok": 1439
+    },
+    {
+      "eng": "new",
+      "id": "hop2_supplier-194",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": true,
+      "first": null,
+      "ms": 45.200700000001234,
+      "tok": 1535
+    },
+    {
+      "eng": "old",
+      "id": "hop2_supplier-194",
+      "cat": "multihop2",
+      "kind": "hop2_supplier",
+      "hit": true,
+      "first": null,
+      "ms": 43.035799999997835,
+      "tok": 1535
+    },
+    {
+      "eng": "old",
+      "id": "hop3_complaint_payment-195",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 61.170100000003,
+      "tok": 954
+    },
+    {
+      "eng": "new",
+      "id": "hop3_complaint_payment-195",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 59.79729999999836,
+      "tok": 1227
+    },
+    {
+      "eng": "new",
+      "id": "hop3_complaint_payment-196",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 57.19980000000214,
+      "tok": 1016
+    },
+    {
+      "eng": "old",
+      "id": "hop3_complaint_payment-196",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 55.652099999999336,
+      "tok": 1000
+    },
+    {
+      "eng": "old",
+      "id": "hop3_complaint_payment-197",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": false,
+      "first": null,
+      "ms": 60.46149999999761,
+      "tok": 1227
+    },
+    {
+      "eng": "new",
+      "id": "hop3_complaint_payment-197",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 63.740499999999884,
+      "tok": 1403
+    },
+    {
+      "eng": "new",
+      "id": "hop3_complaint_payment-198",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 60.02820000000065,
+      "tok": 1414
+    },
+    {
+      "eng": "old",
+      "id": "hop3_complaint_payment-198",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 63.26979999999821,
+      "tok": 1016
+    },
+    {
+      "eng": "old",
+      "id": "hop3_complaint_payment-199",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 67.05489999999918,
+      "tok": 1101
+    },
+    {
+      "eng": "new",
+      "id": "hop3_complaint_payment-199",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 57.57419999999911,
+      "tok": 1117
+    },
+    {
+      "eng": "new",
+      "id": "hop3_complaint_payment-200",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 64.77620000000024,
+      "tok": 1428
+    },
+    {
+      "eng": "old",
+      "id": "hop3_complaint_payment-200",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 56.3663000000015,
+      "tok": 1461
+    },
+    {
+      "eng": "old",
+      "id": "hop3_complaint_payment-201",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 58.55229999999938,
+      "tok": 1266
+    },
+    {
+      "eng": "new",
+      "id": "hop3_complaint_payment-201",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 60.92859999999928,
+      "tok": 1504
+    },
+    {
+      "eng": "new",
+      "id": "hop3_complaint_payment-202",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": false,
+      "first": null,
+      "ms": 60.44770000000062,
+      "tok": 1490
+    },
+    {
+      "eng": "old",
+      "id": "hop3_complaint_payment-202",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 63.451600000000326,
+      "tok": 1404
+    },
+    {
+      "eng": "old",
+      "id": "hop3_complaint_payment-203",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": false,
+      "first": null,
+      "ms": 63.04200000000128,
+      "tok": 1048
+    },
+    {
+      "eng": "new",
+      "id": "hop3_complaint_payment-203",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 63.14389999999912,
+      "tok": 1458
+    },
+    {
+      "eng": "new",
+      "id": "hop3_complaint_payment-204",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 61.53770000000077,
+      "tok": 1305
+    },
+    {
+      "eng": "old",
+      "id": "hop3_complaint_payment-204",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": false,
+      "first": null,
+      "ms": 62.9304000000011,
+      "tok": 1137
+    },
+    {
+      "eng": "old",
+      "id": "hop3_complaint_payment-205",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": false,
+      "first": null,
+      "ms": 58.46690000000308,
+      "tok": 937
+    },
+    {
+      "eng": "new",
+      "id": "hop3_complaint_payment-205",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 57.968800000002375,
+      "tok": 1502
+    },
+    {
+      "eng": "new",
+      "id": "hop3_complaint_payment-206",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 58.092899999999645,
+      "tok": 1520
+    },
+    {
+      "eng": "old",
+      "id": "hop3_complaint_payment-206",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 54.679299999999785,
+      "tok": 1377
+    },
+    {
+      "eng": "old",
+      "id": "hop3_complaint_payment-207",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": false,
+      "first": null,
+      "ms": 62.8817999999992,
+      "tok": 1222
+    },
+    {
+      "eng": "new",
+      "id": "hop3_complaint_payment-207",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 62.89379999999801,
+      "tok": 1551
+    },
+    {
+      "eng": "new",
+      "id": "hop3_complaint_payment-208",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 58.532499999997526,
+      "tok": 1492
+    },
+    {
+      "eng": "old",
+      "id": "hop3_complaint_payment-208",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": false,
+      "first": null,
+      "ms": 54.67619999999806,
+      "tok": 1000
+    },
+    {
+      "eng": "old",
+      "id": "hop3_complaint_payment-209",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": false,
+      "first": null,
+      "ms": 59.51050000000032,
+      "tok": 1269
+    },
+    {
+      "eng": "new",
+      "id": "hop3_complaint_payment-209",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 57.98830000000089,
+      "tok": 1491
+    },
+    {
+      "eng": "new",
+      "id": "hop3_complaint_payment-210",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 56.75119999999879,
+      "tok": 1273
+    },
+    {
+      "eng": "old",
+      "id": "hop3_complaint_payment-210",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 58.397799999998824,
+      "tok": 858
+    },
+    {
+      "eng": "old",
+      "id": "hop3_complaint_payment-211",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": false,
+      "first": null,
+      "ms": 62.050899999998364,
+      "tok": 981
+    },
+    {
+      "eng": "new",
+      "id": "hop3_complaint_payment-211",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 60.59140000000116,
+      "tok": 1533
+    },
+    {
+      "eng": "new",
+      "id": "hop3_complaint_payment-212",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 58.26339999999982,
+      "tok": 1540
+    },
+    {
+      "eng": "old",
+      "id": "hop3_complaint_payment-212",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 61.71680000000197,
+      "tok": 1476
+    },
+    {
+      "eng": "old",
+      "id": "hop3_complaint_payment-213",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 67.84749999999985,
+      "tok": 1566
+    },
+    {
+      "eng": "new",
+      "id": "hop3_complaint_payment-213",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 62.684799999999086,
+      "tok": 1558
+    },
+    {
+      "eng": "new",
+      "id": "hop3_complaint_payment-214",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": false,
+      "first": null,
+      "ms": 62.459100000000035,
+      "tok": 1544
+    },
+    {
+      "eng": "old",
+      "id": "hop3_complaint_payment-214",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 61.002800000002026,
+      "tok": 1520
+    },
+    {
+      "eng": "old",
+      "id": "hop3_complaint_payment-215",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": false,
+      "first": null,
+      "ms": 56.00590000000011,
+      "tok": 1035
+    },
+    {
+      "eng": "new",
+      "id": "hop3_complaint_payment-215",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 58.16149999999834,
+      "tok": 1346
+    },
+    {
+      "eng": "new",
+      "id": "hop3_complaint_payment-216",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 59.22509999999966,
+      "tok": 1465
+    },
+    {
+      "eng": "old",
+      "id": "hop3_complaint_payment-216",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 64.77430000000095,
+      "tok": 1483
+    },
+    {
+      "eng": "old",
+      "id": "hop3_complaint_payment-217",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 58.48329999999987,
+      "tok": 1151
+    },
+    {
+      "eng": "new",
+      "id": "hop3_complaint_payment-217",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 61.66190000000279,
+      "tok": 1517
+    },
+    {
+      "eng": "new",
+      "id": "hop3_complaint_payment-218",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 62.31339999999909,
+      "tok": 1304
+    },
+    {
+      "eng": "old",
+      "id": "hop3_complaint_payment-218",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": false,
+      "first": null,
+      "ms": 58.12329999999929,
+      "tok": 949
+    },
+    {
+      "eng": "old",
+      "id": "hop3_complaint_payment-219",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": false,
+      "first": null,
+      "ms": 58.47019999999975,
+      "tok": 1055
+    },
+    {
+      "eng": "new",
+      "id": "hop3_complaint_payment-219",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 60.92540000000008,
+      "tok": 1400
+    },
+    {
+      "eng": "new",
+      "id": "hop3_complaint_payment-220",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 60.430499999998574,
+      "tok": 1467
+    },
+    {
+      "eng": "old",
+      "id": "hop3_complaint_payment-220",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": false,
+      "first": null,
+      "ms": 60.31069999999818,
+      "tok": 996
+    },
+    {
+      "eng": "old",
+      "id": "hop3_complaint_payment-221",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": false,
+      "first": null,
+      "ms": 56.46809999999823,
+      "tok": 918
+    },
+    {
+      "eng": "new",
+      "id": "hop3_complaint_payment-221",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 60.08840000000055,
+      "tok": 1189
+    },
+    {
+      "eng": "new",
+      "id": "hop3_complaint_payment-222",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 55.11579999999958,
+      "tok": 1520
+    },
+    {
+      "eng": "old",
+      "id": "hop3_complaint_payment-222",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": false,
+      "first": null,
+      "ms": 58.74569999999949,
+      "tok": 1274
+    },
+    {
+      "eng": "old",
+      "id": "hop3_complaint_payment-223",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": false,
+      "first": null,
+      "ms": 58.25489999999991,
+      "tok": 996
+    },
+    {
+      "eng": "new",
+      "id": "hop3_complaint_payment-223",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 59.855899999998655,
+      "tok": 1505
+    },
+    {
+      "eng": "new",
+      "id": "hop3_complaint_payment-224",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": true,
+      "first": null,
+      "ms": 56.995499999997264,
+      "tok": 1406
+    },
+    {
+      "eng": "old",
+      "id": "hop3_complaint_payment-224",
+      "cat": "multihop3",
+      "kind": "hop3_complaint_payment",
+      "hit": false,
+      "first": null,
+      "ms": 56.09280000000217,
+      "tok": 1109
+    },
+    {
+      "eng": "old",
+      "id": "hop3_contract_end-225",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": false,
+      "first": null,
+      "ms": 34.33999999999651,
+      "tok": 1101
+    },
+    {
+      "eng": "new",
+      "id": "hop3_contract_end-225",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": false,
+      "first": null,
+      "ms": 34.382699999998295,
+      "tok": 1101
+    },
+    {
+      "eng": "new",
+      "id": "hop3_contract_end-226",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": true,
+      "first": null,
+      "ms": 33.93130000000019,
+      "tok": 1181
+    },
+    {
+      "eng": "old",
+      "id": "hop3_contract_end-226",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": true,
+      "first": null,
+      "ms": 33.599600000001374,
+      "tok": 1181
+    },
+    {
+      "eng": "old",
+      "id": "hop3_contract_end-227",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": true,
+      "first": null,
+      "ms": 31.375299999999697,
+      "tok": 873
+    },
+    {
+      "eng": "new",
+      "id": "hop3_contract_end-227",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": true,
+      "first": null,
+      "ms": 33.10889999999927,
+      "tok": 859
+    },
+    {
+      "eng": "new",
+      "id": "hop3_contract_end-228",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": true,
+      "first": null,
+      "ms": 33.87039999999979,
+      "tok": 1044
+    },
+    {
+      "eng": "old",
+      "id": "hop3_contract_end-228",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": false,
+      "first": null,
+      "ms": 36.09309999999823,
+      "tok": 959
+    },
+    {
+      "eng": "old",
+      "id": "hop3_contract_end-229",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": true,
+      "first": null,
+      "ms": 32.107600000003,
+      "tok": 1220
+    },
+    {
+      "eng": "new",
+      "id": "hop3_contract_end-229",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": true,
+      "first": null,
+      "ms": 36.65370000000257,
+      "tok": 1220
+    },
+    {
+      "eng": "new",
+      "id": "hop3_contract_end-230",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": true,
+      "first": null,
+      "ms": 48.23219999999856,
+      "tok": 607
+    },
+    {
+      "eng": "old",
+      "id": "hop3_contract_end-230",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": true,
+      "first": null,
+      "ms": 48.60559999999896,
+      "tok": 607
+    },
+    {
+      "eng": "old",
+      "id": "hop3_contract_end-231",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": false,
+      "first": null,
+      "ms": 36.23730000000069,
+      "tok": 1229
+    },
+    {
+      "eng": "new",
+      "id": "hop3_contract_end-231",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": true,
+      "first": null,
+      "ms": 36.415499999999156,
+      "tok": 1244
+    },
+    {
+      "eng": "new",
+      "id": "hop3_contract_end-232",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": false,
+      "first": null,
+      "ms": 41.558499999999185,
+      "tok": 933
+    },
+    {
+      "eng": "old",
+      "id": "hop3_contract_end-232",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": false,
+      "first": null,
+      "ms": 32.92000000000189,
+      "tok": 933
+    },
+    {
+      "eng": "old",
+      "id": "hop3_contract_end-233",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": false,
+      "first": null,
+      "ms": 59.18760000000111,
+      "tok": 1510
+    },
+    {
+      "eng": "new",
+      "id": "hop3_contract_end-233",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": true,
+      "first": null,
+      "ms": 62.21090000000186,
+      "tok": 1535
+    },
+    {
+      "eng": "new",
+      "id": "hop3_contract_end-234",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": true,
+      "first": null,
+      "ms": 33.17250000000058,
+      "tok": 893
+    },
+    {
+      "eng": "old",
+      "id": "hop3_contract_end-234",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": true,
+      "first": null,
+      "ms": 33.60170000000289,
+      "tok": 893
+    },
+    {
+      "eng": "old",
+      "id": "hop3_contract_end-235",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": true,
+      "first": null,
+      "ms": 30.49279999999999,
+      "tok": 965
+    },
+    {
+      "eng": "new",
+      "id": "hop3_contract_end-235",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": true,
+      "first": null,
+      "ms": 37.496500000001106,
+      "tok": 952
+    },
+    {
+      "eng": "new",
+      "id": "hop3_contract_end-236",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": true,
+      "first": null,
+      "ms": 33.81459999999788,
+      "tok": 511
+    },
+    {
+      "eng": "old",
+      "id": "hop3_contract_end-236",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": true,
+      "first": null,
+      "ms": 31.716499999998632,
+      "tok": 524
+    },
+    {
+      "eng": "old",
+      "id": "hop3_contract_end-237",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": false,
+      "first": null,
+      "ms": 31.94640000000072,
+      "tok": 556
+    },
+    {
+      "eng": "new",
+      "id": "hop3_contract_end-237",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": false,
+      "first": null,
+      "ms": 33.08640000000014,
+      "tok": 556
+    },
+    {
+      "eng": "new",
+      "id": "hop3_contract_end-238",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": true,
+      "first": null,
+      "ms": 35.18530000000101,
+      "tok": 927
+    },
+    {
+      "eng": "old",
+      "id": "hop3_contract_end-238",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": false,
+      "first": null,
+      "ms": 36.90149999999994,
+      "tok": 846
+    },
+    {
+      "eng": "old",
+      "id": "hop3_contract_end-239",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": false,
+      "first": null,
+      "ms": 34.94080000000031,
+      "tok": 1053
+    },
+    {
+      "eng": "new",
+      "id": "hop3_contract_end-239",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": true,
+      "first": null,
+      "ms": 35.81550000000061,
+      "tok": 1075
+    },
+    {
+      "eng": "new",
+      "id": "hop3_contract_end-240",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": true,
+      "first": null,
+      "ms": 34.81920000000173,
+      "tok": 973
+    },
+    {
+      "eng": "old",
+      "id": "hop3_contract_end-240",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": true,
+      "first": null,
+      "ms": 34.000700000000506,
+      "tok": 973
+    },
+    {
+      "eng": "old",
+      "id": "hop3_contract_end-241",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": true,
+      "first": null,
+      "ms": 34.046400000002905,
+      "tok": 695
+    },
+    {
+      "eng": "new",
+      "id": "hop3_contract_end-241",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": true,
+      "first": null,
+      "ms": 35.785900000002584,
+      "tok": 684
+    },
+    {
+      "eng": "new",
+      "id": "hop3_contract_end-242",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": true,
+      "first": null,
+      "ms": 36.610899999999674,
+      "tok": 884
+    },
+    {
+      "eng": "old",
+      "id": "hop3_contract_end-242",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": true,
+      "first": null,
+      "ms": 41.95369999999821,
+      "tok": 931
+    },
+    {
+      "eng": "old",
+      "id": "hop3_contract_end-243",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": true,
+      "first": null,
+      "ms": 35.66389999999956,
+      "tok": 1261
+    },
+    {
+      "eng": "new",
+      "id": "hop3_contract_end-243",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": true,
+      "first": null,
+      "ms": 41.33030000000144,
+      "tok": 1246
+    },
+    {
+      "eng": "new",
+      "id": "hop3_contract_end-244",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": false,
+      "first": null,
+      "ms": 55.769899999999325,
+      "tok": 1524
+    },
+    {
+      "eng": "old",
+      "id": "hop3_contract_end-244",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": true,
+      "first": null,
+      "ms": 53.99490000000151,
+      "tok": 1534
+    },
+    {
+      "eng": "old",
+      "id": "hop3_contract_end-245",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": false,
+      "first": null,
+      "ms": 31.479600000002392,
+      "tok": 664
+    },
+    {
+      "eng": "new",
+      "id": "hop3_contract_end-245",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": true,
+      "first": null,
+      "ms": 32.26789999999892,
+      "tok": 698
+    },
+    {
+      "eng": "new",
+      "id": "hop3_contract_end-246",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": true,
+      "first": null,
+      "ms": 36.251899999999296,
+      "tok": 784
+    },
+    {
+      "eng": "old",
+      "id": "hop3_contract_end-246",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": true,
+      "first": null,
+      "ms": 32.30589999999938,
+      "tok": 784
+    },
+    {
+      "eng": "old",
+      "id": "hop3_contract_end-247",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": false,
+      "first": null,
+      "ms": 32.47810000000027,
+      "tok": 970
+    },
+    {
+      "eng": "new",
+      "id": "hop3_contract_end-247",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": true,
+      "first": null,
+      "ms": 33.9390999999996,
+      "tok": 994
+    },
+    {
+      "eng": "new",
+      "id": "hop3_contract_end-248",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": false,
+      "first": null,
+      "ms": 33.248899999998685,
+      "tok": 586
+    },
+    {
+      "eng": "old",
+      "id": "hop3_contract_end-248",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": false,
+      "first": null,
+      "ms": 30.02889999999752,
+      "tok": 643
+    },
+    {
+      "eng": "old",
+      "id": "hop3_contract_end-249",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": false,
+      "first": null,
+      "ms": 31.183499999999185,
+      "tok": 1046
+    },
+    {
+      "eng": "new",
+      "id": "hop3_contract_end-249",
+      "cat": "multihop3",
+      "kind": "hop3_contract_end",
+      "hit": false,
+      "first": null,
+      "ms": 33.6833000000006,
+      "tok": 1046
+    },
+    {
+      "eng": "new",
+      "id": "temporal_last_month-250",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": false,
+      "ms": 30.384299999997893,
+      "tok": 484
+    },
+    {
+      "eng": "old",
+      "id": "temporal_last_month-250",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": false,
+      "ms": 56.608100000001286,
+      "tok": 1062
+    },
+    {
+      "eng": "old",
+      "id": "temporal_last_month-251",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": false,
+      "ms": 54.105899999998655,
+      "tok": 1061
+    },
+    {
+      "eng": "new",
+      "id": "temporal_last_month-251",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": false,
+      "ms": 34.44959999999992,
+      "tok": 583
+    },
+    {
+      "eng": "new",
+      "id": "temporal_last_month-252",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": false,
+      "first": false,
+      "ms": 41.78410000000076,
+      "tok": 899
+    },
+    {
+      "eng": "old",
+      "id": "temporal_last_month-252",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": false,
+      "first": false,
+      "ms": 42.09490000000005,
+      "tok": 899
+    },
+    {
+      "eng": "old",
+      "id": "temporal_last_month-253",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": true,
+      "ms": 55.61409999999887,
+      "tok": 1062
+    },
+    {
+      "eng": "new",
+      "id": "temporal_last_month-253",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": true,
+      "ms": 44.05659999999989,
+      "tok": 1062
+    },
+    {
+      "eng": "new",
+      "id": "temporal_last_month-254",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": false,
+      "ms": 31.963700000000244,
+      "tok": 561
+    },
+    {
+      "eng": "old",
+      "id": "temporal_last_month-254",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": false,
+      "ms": 53.93249999999898,
+      "tok": 1314
+    },
+    {
+      "eng": "old",
+      "id": "temporal_last_month-255",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": false,
+      "ms": 55.30390000000261,
+      "tok": 822
+    },
+    {
+      "eng": "new",
+      "id": "temporal_last_month-255",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": false,
+      "ms": 32.15849999999773,
+      "tok": 529
+    },
+    {
+      "eng": "new",
+      "id": "temporal_last_month-256",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": true,
+      "ms": 41.63409999999931,
+      "tok": 1113
+    },
+    {
+      "eng": "old",
+      "id": "temporal_last_month-256",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": true,
+      "ms": 41.8153999999995,
+      "tok": 1113
+    },
+    {
+      "eng": "old",
+      "id": "temporal_last_month-257",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": true,
+      "ms": 54.87410000000091,
+      "tok": 762
+    },
+    {
+      "eng": "new",
+      "id": "temporal_last_month-257",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": true,
+      "ms": 53.45290000000023,
+      "tok": 1058
+    },
+    {
+      "eng": "new",
+      "id": "temporal_last_month-258",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": true,
+      "ms": 34.63470000000234,
+      "tok": 648
+    },
+    {
+      "eng": "old",
+      "id": "temporal_last_month-258",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": true,
+      "ms": 53.04639999999927,
+      "tok": 835
+    },
+    {
+      "eng": "old",
+      "id": "temporal_last_month-259",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": false,
+      "ms": 56.37119999999777,
+      "tok": 817
+    },
+    {
+      "eng": "new",
+      "id": "temporal_last_month-259",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": false,
+      "ms": 32.5522000000019,
+      "tok": 529
+    },
+    {
+      "eng": "new",
+      "id": "temporal_last_month-260",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": true,
+      "ms": 52.468800000002375,
+      "tok": 1084
+    },
+    {
+      "eng": "old",
+      "id": "temporal_last_month-260",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": true,
+      "ms": 52.86290000000008,
+      "tok": 1084
+    },
+    {
+      "eng": "old",
+      "id": "temporal_last_month-261",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": false,
+      "ms": 53.61330000000089,
+      "tok": 1102
+    },
+    {
+      "eng": "new",
+      "id": "temporal_last_month-261",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": false,
+      "ms": 32.82549999999901,
+      "tok": 526
+    },
+    {
+      "eng": "new",
+      "id": "temporal_last_month-262",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": true,
+      "ms": 42.23949999999968,
+      "tok": 1018
+    },
+    {
+      "eng": "old",
+      "id": "temporal_last_month-262",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": true,
+      "ms": 48.09180000000197,
+      "tok": 1018
+    },
+    {
+      "eng": "old",
+      "id": "temporal_last_month-263",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": false,
+      "first": false,
+      "ms": 51.740499999999884,
+      "tok": 982
+    },
+    {
+      "eng": "new",
+      "id": "temporal_last_month-263",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": false,
+      "first": false,
+      "ms": 46.844600000000355,
+      "tok": 982
+    },
+    {
+      "eng": "new",
+      "id": "temporal_last_month-264",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": true,
+      "ms": 47.29040000000168,
+      "tok": 960
+    },
+    {
+      "eng": "old",
+      "id": "temporal_last_month-264",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": true,
+      "ms": 58.671699999998964,
+      "tok": 1326
+    },
+    {
+      "eng": "old",
+      "id": "temporal_last_month-265",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": true,
+      "ms": 54.76650000000154,
+      "tok": 1373
+    },
+    {
+      "eng": "new",
+      "id": "temporal_last_month-265",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": true,
+      "ms": 42.43409999999858,
+      "tok": 994
+    },
+    {
+      "eng": "new",
+      "id": "temporal_last_month-266",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": false,
+      "ms": 31.833800000000338,
+      "tok": 481
+    },
+    {
+      "eng": "old",
+      "id": "temporal_last_month-266",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": false,
+      "ms": 52.22390000000087,
+      "tok": 1236
+    },
+    {
+      "eng": "old",
+      "id": "temporal_last_month-267",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": false,
+      "ms": 57.069500000001426,
+      "tok": 961
+    },
+    {
+      "eng": "new",
+      "id": "temporal_last_month-267",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": false,
+      "ms": 42.46280000000115,
+      "tok": 961
+    },
+    {
+      "eng": "new",
+      "id": "temporal_last_month-268",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": true,
+      "ms": 44.4955000000009,
+      "tok": 1188
+    },
+    {
+      "eng": "old",
+      "id": "temporal_last_month-268",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": true,
+      "ms": 61.716599999999744,
+      "tok": 1188
+    },
+    {
+      "eng": "old",
+      "id": "temporal_last_month-269",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": false,
+      "ms": 54.043100000002596,
+      "tok": 1274
+    },
+    {
+      "eng": "new",
+      "id": "temporal_last_month-269",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": false,
+      "ms": 32.26670000000013,
+      "tok": 593
+    },
+    {
+      "eng": "new",
+      "id": "temporal_last_month-270",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": true,
+      "ms": 44.12970000000132,
+      "tok": 958
+    },
+    {
+      "eng": "old",
+      "id": "temporal_last_month-270",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": true,
+      "ms": 42.65850000000137,
+      "tok": 958
+    },
+    {
+      "eng": "old",
+      "id": "temporal_last_month-271",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": true,
+      "ms": 57.30529999999999,
+      "tok": 1062
+    },
+    {
+      "eng": "new",
+      "id": "temporal_last_month-271",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": true,
+      "ms": 43.78040000000328,
+      "tok": 879
+    },
+    {
+      "eng": "new",
+      "id": "temporal_last_month-272",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": false,
+      "ms": 45.190200000000914,
+      "tok": 939
+    },
+    {
+      "eng": "old",
+      "id": "temporal_last_month-272",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": false,
+      "ms": 57.93159999999989,
+      "tok": 1018
+    },
+    {
+      "eng": "old",
+      "id": "temporal_last_month-273",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": true,
+      "ms": 45.41569999999774,
+      "tok": 1021
+    },
+    {
+      "eng": "new",
+      "id": "temporal_last_month-273",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": true,
+      "ms": 42.96559999999954,
+      "tok": 1021
+    },
+    {
+      "eng": "new",
+      "id": "temporal_last_month-274",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": true,
+      "ms": 32.84140000000116,
+      "tok": 765
+    },
+    {
+      "eng": "old",
+      "id": "temporal_last_month-274",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": true,
+      "ms": 54.293900000000576,
+      "tok": 925
+    },
+    {
+      "eng": "old",
+      "id": "temporal_last_month-275",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": false,
+      "ms": 53.84370000000126,
+      "tok": 898
+    },
+    {
+      "eng": "new",
+      "id": "temporal_last_month-275",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": false,
+      "ms": 37.228800000000774,
+      "tok": 714
+    },
+    {
+      "eng": "new",
+      "id": "temporal_last_month-276",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": false,
+      "ms": 47.01269999999931,
+      "tok": 960
+    },
+    {
+      "eng": "old",
+      "id": "temporal_last_month-276",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": false,
+      "ms": 62.003499999998894,
+      "tok": 1035
+    },
+    {
+      "eng": "old",
+      "id": "temporal_last_month-277",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": false,
+      "ms": 54.791299999997136,
+      "tok": 1170
+    },
+    {
+      "eng": "new",
+      "id": "temporal_last_month-277",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": false,
+      "ms": 45.200800000002346,
+      "tok": 1170
+    },
+    {
+      "eng": "new",
+      "id": "temporal_last_month-278",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": false,
+      "ms": 32.1791000000012,
+      "tok": 493
+    },
+    {
+      "eng": "old",
+      "id": "temporal_last_month-278",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": false,
+      "ms": 54.81580000000031,
+      "tok": 1165
+    },
+    {
+      "eng": "old",
+      "id": "temporal_last_month-279",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": true,
+      "ms": 58.18830000000162,
+      "tok": 1325
+    },
+    {
+      "eng": "new",
+      "id": "temporal_last_month-279",
+      "cat": "temporal",
+      "kind": "temporal_last_month",
+      "hit": true,
+      "first": true,
+      "ms": 47.36209999999846,
+      "tok": 1139
+    },
+    {
+      "eng": "new",
+      "id": "update_shipment_track-280",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 51.833300000002055,
+      "tok": 1067
+    },
+    {
+      "eng": "old",
+      "id": "update_shipment_track-280",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 44.27740000000267,
+      "tok": 1067
+    },
+    {
+      "eng": "old",
+      "id": "update_shipment_track-281",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 45.71030000000246,
+      "tok": 810
+    },
+    {
+      "eng": "new",
+      "id": "update_shipment_track-281",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 43.97560000000158,
+      "tok": 810
+    },
+    {
+      "eng": "new",
+      "id": "update_shipment_track-282",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 44.52809999999954,
+      "tok": 925
+    },
+    {
+      "eng": "old",
+      "id": "update_shipment_track-282",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 55.34679999999935,
+      "tok": 932
+    },
+    {
+      "eng": "old",
+      "id": "update_shipment_track-283",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 42.892799999997806,
+      "tok": 857
+    },
+    {
+      "eng": "new",
+      "id": "update_shipment_track-283",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 44.85689999999886,
+      "tok": 699
+    },
+    {
+      "eng": "new",
+      "id": "update_shipment_track-284",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 43.00180000000182,
+      "tok": 1220
+    },
+    {
+      "eng": "old",
+      "id": "update_shipment_track-284",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 52.83839999999691,
+      "tok": 1220
+    },
+    {
+      "eng": "old",
+      "id": "update_shipment_track-285",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 42.44670000000042,
+      "tok": 1061
+    },
+    {
+      "eng": "new",
+      "id": "update_shipment_track-285",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 44.33299999999872,
+      "tok": 1061
+    },
+    {
+      "eng": "new",
+      "id": "update_shipment_track-286",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 43.80279999999766,
+      "tok": 1028
+    },
+    {
+      "eng": "old",
+      "id": "update_shipment_track-286",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 55.33709999999701,
+      "tok": 1265
+    },
+    {
+      "eng": "old",
+      "id": "update_shipment_track-287",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 58.44230000000243,
+      "tok": 1247
+    },
+    {
+      "eng": "new",
+      "id": "update_shipment_track-287",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 47.28320000000167,
+      "tok": 946
+    },
+    {
+      "eng": "new",
+      "id": "update_shipment_track-288",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 45.478900000001886,
+      "tok": 997
+    },
+    {
+      "eng": "old",
+      "id": "update_shipment_track-288",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 58.41740000000209,
+      "tok": 1109
+    },
+    {
+      "eng": "old",
+      "id": "update_shipment_track-289",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 44.23819999999978,
+      "tok": 767
+    },
+    {
+      "eng": "new",
+      "id": "update_shipment_track-289",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 42.144500000002154,
+      "tok": 767
+    },
+    {
+      "eng": "new",
+      "id": "update_shipment_track-290",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 43.270999999997,
+      "tok": 1138
+    },
+    {
+      "eng": "old",
+      "id": "update_shipment_track-290",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 52.70509999999922,
+      "tok": 1138
+    },
+    {
+      "eng": "old",
+      "id": "update_shipment_track-291",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 42.945700000000215,
+      "tok": 1207
+    },
+    {
+      "eng": "new",
+      "id": "update_shipment_track-291",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 44.600500000000466,
+      "tok": 1207
+    },
+    {
+      "eng": "new",
+      "id": "update_shipment_track-292",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 43.38550000000032,
+      "tok": 956
+    },
+    {
+      "eng": "old",
+      "id": "update_shipment_track-292",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 55.582800000000134,
+      "tok": 956
+    },
+    {
+      "eng": "old",
+      "id": "update_shipment_track-293",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 41.64519999999902,
+      "tok": 1004
+    },
+    {
+      "eng": "new",
+      "id": "update_shipment_track-293",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 53.097600000000966,
+      "tok": 1004
+    },
+    {
+      "eng": "new",
+      "id": "update_shipment_track-294",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 45.93319999999949,
+      "tok": 704
+    },
+    {
+      "eng": "old",
+      "id": "update_shipment_track-294",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 49.61789999999746,
+      "tok": 704
+    },
+    {
+      "eng": "old",
+      "id": "update_shipment_track-295",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 44.81079999999929,
+      "tok": 797
+    },
+    {
+      "eng": "new",
+      "id": "update_shipment_track-295",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 42.95889999999781,
+      "tok": 797
+    },
+    {
+      "eng": "new",
+      "id": "update_shipment_track-296",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 47.045900000000984,
+      "tok": 842
+    },
+    {
+      "eng": "old",
+      "id": "update_shipment_track-296",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 45.13169999999809,
+      "tok": 842
+    },
+    {
+      "eng": "old",
+      "id": "update_shipment_track-297",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 44.987600000000384,
+      "tok": 920
+    },
+    {
+      "eng": "new",
+      "id": "update_shipment_track-297",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 44.11030000000028,
+      "tok": 920
+    },
+    {
+      "eng": "new",
+      "id": "update_shipment_track-298",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 43.61070000000109,
+      "tok": 896
+    },
+    {
+      "eng": "old",
+      "id": "update_shipment_track-298",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 44.03450000000157,
+      "tok": 896
+    },
+    {
+      "eng": "old",
+      "id": "update_shipment_track-299",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 44.30710000000181,
+      "tok": 898
+    },
+    {
+      "eng": "new",
+      "id": "update_shipment_track-299",
+      "cat": "update_record",
+      "kind": "update_shipment_track",
+      "hit": true,
+      "first": true,
+      "ms": 44.667600000000675,
+      "tok": 898
+    },
+    {
+      "eng": "new",
+      "id": "update_email_chat-300",
+      "cat": "update_conversation",
+      "kind": "update_email_chat",
+      "hit": true,
+      "first": true,
+      "ms": 58.31049999999959,
+      "tok": 1268
+    },
+    {
+      "eng": "old",
+      "id": "update_email_chat-300",
+      "cat": "update_conversation",
+      "kind": "update_email_chat",
+      "hit": true,
+      "first": true,
+      "ms": 58.03910000000178,
+      "tok": 1258
+    },
+    {
+      "eng": "old",
+      "id": "update_email_card-301",
+      "cat": "update_conversation",
+      "kind": "update_email_card",
+      "hit": true,
+      "first": false,
+      "ms": 63.15179999999964,
+      "tok": 1172
+    },
+    {
+      "eng": "new",
+      "id": "update_email_card-301",
+      "cat": "update_conversation",
+      "kind": "update_email_card",
+      "hit": true,
+      "first": true,
+      "ms": 61.49339999999938,
+      "tok": 1172
+    },
+    {
+      "eng": "new",
+      "id": "update_email_chat-302",
+      "cat": "update_conversation",
+      "kind": "update_email_chat",
+      "hit": true,
+      "first": true,
+      "ms": 55.53120000000126,
+      "tok": 1217
+    },
+    {
+      "eng": "old",
+      "id": "update_email_chat-302",
+      "cat": "update_conversation",
+      "kind": "update_email_chat",
+      "hit": true,
+      "first": true,
+      "ms": 54.0538000000015,
+      "tok": 1125
+    },
+    {
+      "eng": "old",
+      "id": "update_email_card-303",
+      "cat": "update_conversation",
+      "kind": "update_email_card",
+      "hit": true,
+      "first": false,
+      "ms": 77.35399999999936,
+      "tok": 1258
+    },
+    {
+      "eng": "new",
+      "id": "update_email_card-303",
+      "cat": "update_conversation",
+      "kind": "update_email_card",
+      "hit": true,
+      "first": false,
+      "ms": 80.4380999999994,
+      "tok": 1268
+    },
+    {
+      "eng": "new",
+      "id": "update_email_chat-304",
+      "cat": "update_conversation",
+      "kind": "update_email_chat",
+      "hit": true,
+      "first": true,
+      "ms": 68.65489999999772,
+      "tok": 1562
+    },
+    {
+      "eng": "old",
+      "id": "update_email_chat-304",
+      "cat": "update_conversation",
+      "kind": "update_email_chat",
+      "hit": true,
+      "first": true,
+      "ms": 67.06199999999808,
+      "tok": 1561
+    },
+    {
+      "eng": "old",
+      "id": "update_email_card-305",
+      "cat": "update_conversation",
+      "kind": "update_email_card",
+      "hit": true,
+      "first": true,
+      "ms": 60.697800000001735,
+      "tok": 1351
+    },
+    {
+      "eng": "new",
+      "id": "update_email_card-305",
+      "cat": "update_conversation",
+      "kind": "update_email_card",
+      "hit": true,
+      "first": true,
+      "ms": 56.64719999999943,
+      "tok": 1316
+    },
+    {
+      "eng": "new",
+      "id": "update_email_chat-306",
+      "cat": "update_conversation",
+      "kind": "update_email_chat",
+      "hit": true,
+      "first": true,
+      "ms": 58.49880000000121,
+      "tok": 1425
+    },
+    {
+      "eng": "old",
+      "id": "update_email_chat-306",
+      "cat": "update_conversation",
+      "kind": "update_email_chat",
+      "hit": true,
+      "first": true,
+      "ms": 57.55940000000555,
+      "tok": 1415
+    },
+    {
+      "eng": "old",
+      "id": "update_email_card-307",
+      "cat": "update_conversation",
+      "kind": "update_email_card",
+      "hit": true,
+      "first": true,
+      "ms": 43.5028999999995,
+      "tok": 1372
+    },
+    {
+      "eng": "new",
+      "id": "update_email_card-307",
+      "cat": "update_conversation",
+      "kind": "update_email_card",
+      "hit": true,
+      "first": true,
+      "ms": 44.183899999996356,
+      "tok": 1372
+    },
+    {
+      "eng": "new",
+      "id": "update_email_chat-308",
+      "cat": "update_conversation",
+      "kind": "update_email_chat",
+      "hit": true,
+      "first": true,
+      "ms": 65.26819999999861,
+      "tok": 1395
+    },
+    {
+      "eng": "old",
+      "id": "update_email_chat-308",
+      "cat": "update_conversation",
+      "kind": "update_email_chat",
+      "hit": true,
+      "first": true,
+      "ms": 76.84969999999885,
+      "tok": 1393
+    },
+    {
+      "eng": "old",
+      "id": "update_email_card-309",
+      "cat": "update_conversation",
+      "kind": "update_email_card",
+      "hit": true,
+      "first": true,
+      "ms": 56.572299999999814,
+      "tok": 1485
+    },
+    {
+      "eng": "new",
+      "id": "update_email_card-309",
+      "cat": "update_conversation",
+      "kind": "update_email_card",
+      "hit": true,
+      "first": true,
+      "ms": 56.65350000000035,
+      "tok": 1138
+    },
+    {
+      "eng": "new",
+      "id": "update_email_chat-310",
+      "cat": "update_conversation",
+      "kind": "update_email_chat",
+      "hit": true,
+      "first": true,
+      "ms": 60.303899999998976,
+      "tok": 1452
+    },
+    {
+      "eng": "old",
+      "id": "update_email_chat-310",
+      "cat": "update_conversation",
+      "kind": "update_email_chat",
+      "hit": true,
+      "first": false,
+      "ms": 55.313099999999395,
+      "tok": 1482
+    },
+    {
+      "eng": "old",
+      "id": "update_email_card-311",
+      "cat": "update_conversation",
+      "kind": "update_email_card",
+      "hit": true,
+      "first": true,
+      "ms": 55.10899999999674,
+      "tok": 1378
+    },
+    {
+      "eng": "new",
+      "id": "update_email_card-311",
+      "cat": "update_conversation",
+      "kind": "update_email_card",
+      "hit": true,
+      "first": true,
+      "ms": 52.919999999998254,
+      "tok": 1449
+    },
+    {
+      "eng": "new",
+      "id": "update_email_chat-312",
+      "cat": "update_conversation",
+      "kind": "update_email_chat",
+      "hit": true,
+      "first": true,
+      "ms": 58.23790000000008,
+      "tok": 1304
+    },
+    {
+      "eng": "old",
+      "id": "update_email_chat-312",
+      "cat": "update_conversation",
+      "kind": "update_email_chat",
+      "hit": true,
+      "first": true,
+      "ms": 54.65610000000015,
+      "tok": 1304
+    },
+    {
+      "eng": "old",
+      "id": "update_email_card-313",
+      "cat": "update_conversation",
+      "kind": "update_email_card",
+      "hit": true,
+      "first": true,
+      "ms": 68.48909999999887,
+      "tok": 1511
+    },
+    {
+      "eng": "new",
+      "id": "update_email_card-313",
+      "cat": "update_conversation",
+      "kind": "update_email_card",
+      "hit": true,
+      "first": true,
+      "ms": 69.09860000000481,
+      "tok": 1531
+    },
+    {
+      "eng": "new",
+      "id": "update_email_chat-314",
+      "cat": "update_conversation",
+      "kind": "update_email_chat",
+      "hit": false,
+      "first": false,
+      "ms": 46.88420000000042,
+      "tok": 1231
+    },
+    {
+      "eng": "old",
+      "id": "update_email_chat-314",
+      "cat": "update_conversation",
+      "kind": "update_email_chat",
+      "hit": false,
+      "first": false,
+      "ms": 44.00010000000475,
+      "tok": 1231
+    },
+    {
+      "eng": "old",
+      "id": "update_email_card-315",
+      "cat": "update_conversation",
+      "kind": "update_email_card",
+      "hit": true,
+      "first": true,
+      "ms": 41.13270000000193,
+      "tok": 1500
+    },
+    {
+      "eng": "new",
+      "id": "update_email_card-315",
+      "cat": "update_conversation",
+      "kind": "update_email_card",
+      "hit": true,
+      "first": true,
+      "ms": 41.48329999999987,
+      "tok": 1500
+    },
+    {
+      "eng": "new",
+      "id": "update_email_chat-316",
+      "cat": "update_conversation",
+      "kind": "update_email_chat",
+      "hit": true,
+      "first": true,
+      "ms": 59.500599999999395,
+      "tok": 1154
+    },
+    {
+      "eng": "old",
+      "id": "update_email_chat-316",
+      "cat": "update_conversation",
+      "kind": "update_email_chat",
+      "hit": true,
+      "first": true,
+      "ms": 57.03550000000541,
+      "tok": 1086
+    },
+    {
+      "eng": "old",
+      "id": "update_email_card-317",
+      "cat": "update_conversation",
+      "kind": "update_email_card",
+      "hit": true,
+      "first": true,
+      "ms": 62.760699999998906,
+      "tok": 1093
+    },
+    {
+      "eng": "new",
+      "id": "update_email_card-317",
+      "cat": "update_conversation",
+      "kind": "update_email_card",
+      "hit": true,
+      "first": true,
+      "ms": 59.39669999999751,
+      "tok": 1114
+    },
+    {
+      "eng": "new",
+      "id": "update_email_chat-318",
+      "cat": "update_conversation",
+      "kind": "update_email_chat",
+      "hit": true,
+      "first": true,
+      "ms": 44.82600000000093,
+      "tok": 1130
+    },
+    {
+      "eng": "old",
+      "id": "update_email_chat-318",
+      "cat": "update_conversation",
+      "kind": "update_email_chat",
+      "hit": true,
+      "first": true,
+      "ms": 40.34679999999935,
+      "tok": 1130
+    },
+    {
+      "eng": "old",
+      "id": "update_email_card-319",
+      "cat": "update_conversation",
+      "kind": "update_email_card",
+      "hit": true,
+      "first": true,
+      "ms": 43.18109999999433,
+      "tok": 1362
+    },
+    {
+      "eng": "new",
+      "id": "update_email_card-319",
+      "cat": "update_conversation",
+      "kind": "update_email_card",
+      "hit": true,
+      "first": true,
+      "ms": 43.560199999999895,
+      "tok": 1362
+    },
+    {
+      "eng": "new",
+      "id": "update_email_chat-320",
+      "cat": "update_conversation",
+      "kind": "update_email_chat",
+      "hit": true,
+      "first": true,
+      "ms": 43.334100000000035,
+      "tok": 1331
+    },
+    {
+      "eng": "old",
+      "id": "update_email_chat-320",
+      "cat": "update_conversation",
+      "kind": "update_email_chat",
+      "hit": true,
+      "first": true,
+      "ms": 44.159599999999045,
+      "tok": 1331
+    },
+    {
+      "eng": "old",
+      "id": "update_email_card-321",
+      "cat": "update_conversation",
+      "kind": "update_email_card",
+      "hit": true,
+      "first": true,
+      "ms": 56.86869999999908,
+      "tok": 1393
+    },
+    {
+      "eng": "new",
+      "id": "update_email_card-321",
+      "cat": "update_conversation",
+      "kind": "update_email_card",
+      "hit": true,
+      "first": true,
+      "ms": 62.88270000000193,
+      "tok": 1276
+    },
+    {
+      "eng": "new",
+      "id": "update_email_chat-322",
+      "cat": "update_conversation",
+      "kind": "update_email_chat",
+      "hit": true,
+      "first": true,
+      "ms": 56.294800000003306,
+      "tok": 914
+    },
+    {
+      "eng": "old",
+      "id": "update_email_chat-322",
+      "cat": "update_conversation",
+      "kind": "update_email_chat",
+      "hit": false,
+      "first": false,
+      "ms": 57.379399999997986,
+      "tok": 1203
+    },
+    {
+      "eng": "old",
+      "id": "update_email_card-323",
+      "cat": "update_conversation",
+      "kind": "update_email_card",
+      "hit": true,
+      "first": true,
+      "ms": 54.13459999999759,
+      "tok": 1479
+    },
+    {
+      "eng": "new",
+      "id": "update_email_card-323",
+      "cat": "update_conversation",
+      "kind": "update_email_card",
+      "hit": true,
+      "first": true,
+      "ms": 56.73120000000199,
+      "tok": 1455
+    },
+    {
+      "eng": "new",
+      "id": "update_email_chat-324",
+      "cat": "update_conversation",
+      "kind": "update_email_chat",
+      "hit": true,
+      "first": true,
+      "ms": 75.64319999999861,
+      "tok": 1416
+    },
+    {
+      "eng": "old",
+      "id": "update_email_chat-324",
+      "cat": "update_conversation",
+      "kind": "update_email_chat",
+      "hit": true,
+      "first": true,
+      "ms": 81.15099999999802,
+      "tok": 1396
+    }
+  ]
+}

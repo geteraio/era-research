@@ -1,0 +1,6451 @@
+{
+  "ds": "trbizA",
+  "label": "r45a",
+  "at": "2026-10-22T02:54:14.122Z",
+  "all": {
+    "old": {
+      "n": 310,
+      "hit": 222,
+      "msP50": 54.46969999999965,
+      "msP95": 63.565199999997276,
+      "tokP50": 1049
+    },
+    "new": {
+      "n": 310,
+      "hit": 310,
+      "msP50": 44.8211999999985,
+      "msP95": 63.84200000000055,
+      "tokP50": 1061
+    }
+  },
+  "byCat": {
+    "temporal": {
+      "old": {
+        "n": 50,
+        "hit": 50,
+        "first": 24,
+        "msP50": 58.00630000000001,
+        "tokP50": 983
+      },
+      "new": {
+        "n": 50,
+        "hit": 50,
+        "first": 50,
+        "msP50": 46.556000000000495,
+        "tokP50": 1541
+      }
+    },
+    "direct": {
+      "old": {
+        "n": 30,
+        "hit": 30,
+        "first": null,
+        "msP50": 54.01460000000043,
+        "tokP50": 1353
+      },
+      "new": {
+        "n": 30,
+        "hit": 30,
+        "first": null,
+        "msP50": 36.1857,
+        "tokP50": 847
+      }
+    },
+    "join": {
+      "old": {
+        "n": 80,
+        "hit": 55,
+        "first": null,
+        "msP50": 55.23500000000058,
+        "tokP50": 1051
+      },
+      "new": {
+        "n": 80,
+        "hit": 80,
+        "first": null,
+        "msP50": 37.703300000001036,
+        "tokP50": 843
+      }
+    },
+    "multihop2": {
+      "old": {
+        "n": 60,
+        "hit": 18,
+        "first": null,
+        "msP50": 31.867199999996956,
+        "tokP50": 804
+      },
+      "new": {
+        "n": 60,
+        "hit": 60,
+        "first": null,
+        "msP50": 34.69830000000002,
+        "tokP50": 916
+      }
+    },
+    "multihop3": {
+      "old": {
+        "n": 40,
+        "hit": 19,
+        "first": null,
+        "msP50": 58.775799999999435,
+        "tokP50": 1097
+      },
+      "new": {
+        "n": 40,
+        "hit": 40,
+        "first": null,
+        "msP50": 61.78889999999956,
+        "tokP50": 1464
+      }
+    },
+    "update_record": {
+      "old": {
+        "n": 25,
+        "hit": 25,
+        "first": 25,
+        "msP50": 50.677700000000186,
+        "tokP50": 1049
+      },
+      "new": {
+        "n": 25,
+        "hit": 25,
+        "first": 25,
+        "msP50": 45.449100000001636,
+        "tokP50": 1241
+      }
+    },
+    "update_conversation": {
+      "old": {
+        "n": 25,
+        "hit": 25,
+        "first": 1,
+        "msP50": 42.39229999999952,
+        "tokP50": 1078
+      },
+      "new": {
+        "n": 25,
+        "hit": 25,
+        "first": 25,
+        "msP50": 44.84269999999742,
+        "tokP50": 1215
+      }
+    }
+  },
+  "byKind": {
+    "temporal": {
+      "old": {
+        "n": 50,
+        "hit": 50,
+        "first": 24,
+        "msP50": 58.00630000000001,
+        "tokP50": 983
+      },
+      "new": {
+        "n": 50,
+        "hit": 50,
+        "first": 50,
+        "msP50": 46.556000000000495,
+        "tokP50": 1541
+      }
+    },
+    "direct": {
+      "old": {
+        "n": 30,
+        "hit": 30,
+        "first": null,
+        "msP50": 54.01460000000043,
+        "tokP50": 1353
+      },
+      "new": {
+        "n": 30,
+        "hit": 30,
+        "first": null,
+        "msP50": 36.1857,
+        "tokP50": 847
+      }
+    },
+    "join": {
+      "old": {
+        "n": 80,
+        "hit": 55,
+        "first": null,
+        "msP50": 55.23500000000058,
+        "tokP50": 1051
+      },
+      "new": {
+        "n": 80,
+        "hit": 80,
+        "first": null,
+        "msP50": 37.703300000001036,
+        "tokP50": 843
+      }
+    },
+    "multihop2": {
+      "old": {
+        "n": 60,
+        "hit": 18,
+        "first": null,
+        "msP50": 31.867199999996956,
+        "tokP50": 804
+      },
+      "new": {
+        "n": 60,
+        "hit": 60,
+        "first": null,
+        "msP50": 34.69830000000002,
+        "tokP50": 916
+      }
+    },
+    "multihop3": {
+      "old": {
+        "n": 40,
+        "hit": 19,
+        "first": null,
+        "msP50": 58.775799999999435,
+        "tokP50": 1097
+      },
+      "new": {
+        "n": 40,
+        "hit": 40,
+        "first": null,
+        "msP50": 61.78889999999956,
+        "tokP50": 1464
+      }
+    },
+    "update_record": {
+      "old": {
+        "n": 25,
+        "hit": 25,
+        "first": 25,
+        "msP50": 50.677700000000186,
+        "tokP50": 1049
+      },
+      "new": {
+        "n": 25,
+        "hit": 25,
+        "first": 25,
+        "msP50": 45.449100000001636,
+        "tokP50": 1241
+      }
+    },
+    "update_conversation": {
+      "old": {
+        "n": 25,
+        "hit": 25,
+        "first": 1,
+        "msP50": 42.39229999999952,
+        "tokP50": 1078
+      },
+      "new": {
+        "n": 25,
+        "hit": 25,
+        "first": 25,
+        "msP50": 44.84269999999742,
+        "tokP50": 1215
+      }
+    }
+  },
+  "rows": [
+    {
+      "eng": "new",
+      "id": "temporal-0",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 50.496000000000095,
+      "tok": 1541
+    },
+    {
+      "eng": "old",
+      "id": "temporal-0",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": false,
+      "ms": 59.468200000000024,
+      "tok": 705
+    },
+    {
+      "eng": "old",
+      "id": "temporal-1",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": false,
+      "ms": 57.85010000000011,
+      "tok": 849
+    },
+    {
+      "eng": "new",
+      "id": "temporal-1",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 52.07809999999995,
+      "tok": 1509
+    },
+    {
+      "eng": "new",
+      "id": "temporal-2",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 48.619699999999966,
+      "tok": 1562
+    },
+    {
+      "eng": "old",
+      "id": "temporal-2",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": false,
+      "ms": 56.35259999999994,
+      "tok": 1289
+    },
+    {
+      "eng": "old",
+      "id": "temporal-3",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 60.18959999999993,
+      "tok": 989
+    },
+    {
+      "eng": "new",
+      "id": "temporal-3",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 48.5286000000001,
+      "tok": 1566
+    },
+    {
+      "eng": "new",
+      "id": "temporal-4",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 47.160899999999856,
+      "tok": 1534
+    },
+    {
+      "eng": "old",
+      "id": "temporal-4",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 61.725599999999986,
+      "tok": 1173
+    },
+    {
+      "eng": "old",
+      "id": "temporal-5",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": false,
+      "ms": 56.07690000000002,
+      "tok": 799
+    },
+    {
+      "eng": "new",
+      "id": "temporal-5",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 48.36169999999993,
+      "tok": 1574
+    },
+    {
+      "eng": "new",
+      "id": "temporal-6",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 48.33569999999986,
+      "tok": 1663
+    },
+    {
+      "eng": "old",
+      "id": "temporal-6",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": false,
+      "ms": 60.25279999999998,
+      "tok": 840
+    },
+    {
+      "eng": "old",
+      "id": "temporal-7",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": false,
+      "ms": 56.00279999999998,
+      "tok": 911
+    },
+    {
+      "eng": "new",
+      "id": "temporal-7",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 47.30899999999974,
+      "tok": 1528
+    },
+    {
+      "eng": "new",
+      "id": "temporal-8",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 44.08320000000003,
+      "tok": 1279
+    },
+    {
+      "eng": "old",
+      "id": "temporal-8",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 61.61110000000008,
+      "tok": 1278
+    },
+    {
+      "eng": "old",
+      "id": "temporal-9",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": false,
+      "ms": 58.557300000000396,
+      "tok": 974
+    },
+    {
+      "eng": "new",
+      "id": "temporal-9",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 45.40779999999995,
+      "tok": 1556
+    },
+    {
+      "eng": "new",
+      "id": "temporal-10",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 43.20990000000029,
+      "tok": 1489
+    },
+    {
+      "eng": "old",
+      "id": "temporal-10",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 55.959899999999834,
+      "tok": 804
+    },
+    {
+      "eng": "old",
+      "id": "temporal-11",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": false,
+      "ms": 55.227400000000216,
+      "tok": 983
+    },
+    {
+      "eng": "new",
+      "id": "temporal-11",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 43.903699999999844,
+      "tok": 1533
+    },
+    {
+      "eng": "new",
+      "id": "temporal-12",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 46.30420000000004,
+      "tok": 1505
+    },
+    {
+      "eng": "old",
+      "id": "temporal-12",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 56.66260000000011,
+      "tok": 781
+    },
+    {
+      "eng": "old",
+      "id": "temporal-13",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 55.47400000000016,
+      "tok": 1223
+    },
+    {
+      "eng": "new",
+      "id": "temporal-13",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 44.23289999999997,
+      "tok": 1568
+    },
+    {
+      "eng": "new",
+      "id": "temporal-14",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 47.25529999999981,
+      "tok": 1551
+    },
+    {
+      "eng": "old",
+      "id": "temporal-14",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 58.5634,
+      "tok": 804
+    },
+    {
+      "eng": "old",
+      "id": "temporal-15",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": false,
+      "ms": 54.51999999999998,
+      "tok": 972
+    },
+    {
+      "eng": "new",
+      "id": "temporal-15",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 45.51870000000008,
+      "tok": 1266
+    },
+    {
+      "eng": "new",
+      "id": "temporal-16",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 46.666299999999865,
+      "tok": 1490
+    },
+    {
+      "eng": "old",
+      "id": "temporal-16",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 58.46770000000015,
+      "tok": 1008
+    },
+    {
+      "eng": "old",
+      "id": "temporal-17",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": false,
+      "ms": 51.10629999999992,
+      "tok": 1292
+    },
+    {
+      "eng": "new",
+      "id": "temporal-17",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 44.503200000000106,
+      "tok": 1628
+    },
+    {
+      "eng": "new",
+      "id": "temporal-18",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 50.628999999999905,
+      "tok": 1539
+    },
+    {
+      "eng": "old",
+      "id": "temporal-18",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": false,
+      "ms": 65.30560000000014,
+      "tok": 1111
+    },
+    {
+      "eng": "old",
+      "id": "temporal-19",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 89.60649999999987,
+      "tok": 1189
+    },
+    {
+      "eng": "new",
+      "id": "temporal-19",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 73.76240000000007,
+      "tok": 1629
+    },
+    {
+      "eng": "new",
+      "id": "temporal-20",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 67.25910000000022,
+      "tok": 1575
+    },
+    {
+      "eng": "old",
+      "id": "temporal-20",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 70.81050000000005,
+      "tok": 733
+    },
+    {
+      "eng": "old",
+      "id": "temporal-21",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": false,
+      "ms": 66.28679999999986,
+      "tok": 1010
+    },
+    {
+      "eng": "new",
+      "id": "temporal-21",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 46.10269999999991,
+      "tok": 1561
+    },
+    {
+      "eng": "new",
+      "id": "temporal-22",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 48.96129999999994,
+      "tok": 1416
+    },
+    {
+      "eng": "old",
+      "id": "temporal-22",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": false,
+      "ms": 58.00630000000001,
+      "tok": 754
+    },
+    {
+      "eng": "old",
+      "id": "temporal-23",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": false,
+      "ms": 58.822599999999966,
+      "tok": 1125
+    },
+    {
+      "eng": "new",
+      "id": "temporal-23",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 47.55600000000004,
+      "tok": 1473
+    },
+    {
+      "eng": "new",
+      "id": "temporal-24",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 45.89289999999983,
+      "tok": 1341
+    },
+    {
+      "eng": "old",
+      "id": "temporal-24",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 58.95399999999972,
+      "tok": 1170
+    },
+    {
+      "eng": "old",
+      "id": "temporal-25",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 59.40099999999984,
+      "tok": 843
+    },
+    {
+      "eng": "new",
+      "id": "temporal-25",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 46.951600000000326,
+      "tok": 1474
+    },
+    {
+      "eng": "new",
+      "id": "temporal-26",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 45.58939999999984,
+      "tok": 1561
+    },
+    {
+      "eng": "old",
+      "id": "temporal-26",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": false,
+      "ms": 56.15259999999944,
+      "tok": 924
+    },
+    {
+      "eng": "old",
+      "id": "temporal-27",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 54.073599999999715,
+      "tok": 1283
+    },
+    {
+      "eng": "new",
+      "id": "temporal-27",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 44.28400000000056,
+      "tok": 1539
+    },
+    {
+      "eng": "new",
+      "id": "temporal-28",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 46.369299999999384,
+      "tok": 1527
+    },
+    {
+      "eng": "old",
+      "id": "temporal-28",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 64.5010999999995,
+      "tok": 956
+    },
+    {
+      "eng": "old",
+      "id": "temporal-29",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 56.16009999999915,
+      "tok": 1140
+    },
+    {
+      "eng": "new",
+      "id": "temporal-29",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 44.29229999999916,
+      "tok": 1587
+    },
+    {
+      "eng": "new",
+      "id": "temporal-30",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 48.02760000000035,
+      "tok": 1608
+    },
+    {
+      "eng": "old",
+      "id": "temporal-30",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": false,
+      "ms": 55.11539999999968,
+      "tok": 1285
+    },
+    {
+      "eng": "old",
+      "id": "temporal-31",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": false,
+      "ms": 56.8704000000007,
+      "tok": 1161
+    },
+    {
+      "eng": "new",
+      "id": "temporal-31",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 47.42990000000009,
+      "tok": 1577
+    },
+    {
+      "eng": "new",
+      "id": "temporal-32",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 44.699799999999414,
+      "tok": 1599
+    },
+    {
+      "eng": "old",
+      "id": "temporal-32",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": false,
+      "ms": 59.12169999999969,
+      "tok": 842
+    },
+    {
+      "eng": "old",
+      "id": "temporal-33",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 53.95809999999983,
+      "tok": 963
+    },
+    {
+      "eng": "new",
+      "id": "temporal-33",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 45.30450000000019,
+      "tok": 1517
+    },
+    {
+      "eng": "new",
+      "id": "temporal-34",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 46.73100000000068,
+      "tok": 1320
+    },
+    {
+      "eng": "old",
+      "id": "temporal-34",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": false,
+      "ms": 54.972999999999956,
+      "tok": 1060
+    },
+    {
+      "eng": "old",
+      "id": "temporal-35",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": false,
+      "ms": 56.42900000000009,
+      "tok": 1106
+    },
+    {
+      "eng": "new",
+      "id": "temporal-35",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 45.73520000000008,
+      "tok": 1550
+    },
+    {
+      "eng": "new",
+      "id": "temporal-36",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 46.556000000000495,
+      "tok": 1538
+    },
+    {
+      "eng": "old",
+      "id": "temporal-36",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 56.092099999999846,
+      "tok": 834
+    },
+    {
+      "eng": "old",
+      "id": "temporal-37",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 57.64559999999983,
+      "tok": 1066
+    },
+    {
+      "eng": "new",
+      "id": "temporal-37",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 49.01630000000023,
+      "tok": 1535
+    },
+    {
+      "eng": "new",
+      "id": "temporal-38",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 52.188499999999294,
+      "tok": 1536
+    },
+    {
+      "eng": "old",
+      "id": "temporal-38",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 61.33359999999993,
+      "tok": 1192
+    },
+    {
+      "eng": "old",
+      "id": "temporal-39",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": false,
+      "ms": 55.33650000000034,
+      "tok": 1294
+    },
+    {
+      "eng": "new",
+      "id": "temporal-39",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 44.16910000000007,
+      "tok": 1574
+    },
+    {
+      "eng": "new",
+      "id": "temporal-40",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 43.05670000000009,
+      "tok": 1386
+    },
+    {
+      "eng": "old",
+      "id": "temporal-40",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": false,
+      "ms": 54.46969999999965,
+      "tok": 1096
+    },
+    {
+      "eng": "old",
+      "id": "temporal-41",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": false,
+      "ms": 55.28389999999945,
+      "tok": 969
+    },
+    {
+      "eng": "new",
+      "id": "temporal-41",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 45.45890000000054,
+      "tok": 1583
+    },
+    {
+      "eng": "new",
+      "id": "temporal-42",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 44.64840000000004,
+      "tok": 1579
+    },
+    {
+      "eng": "old",
+      "id": "temporal-42",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 59.755700000000616,
+      "tok": 1169
+    },
+    {
+      "eng": "old",
+      "id": "temporal-43",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": false,
+      "ms": 59.55320000000029,
+      "tok": 800
+    },
+    {
+      "eng": "new",
+      "id": "temporal-43",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 45.201500000000124,
+      "tok": 1550
+    },
+    {
+      "eng": "new",
+      "id": "temporal-44",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 49.35230000000047,
+      "tok": 1578
+    },
+    {
+      "eng": "old",
+      "id": "temporal-44",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 63.62219999999979,
+      "tok": 837
+    },
+    {
+      "eng": "old",
+      "id": "temporal-45",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 60.9389000000001,
+      "tok": 886
+    },
+    {
+      "eng": "new",
+      "id": "temporal-45",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 47.58309999999983,
+      "tok": 1254
+    },
+    {
+      "eng": "new",
+      "id": "temporal-46",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 43.67169999999987,
+      "tok": 1574
+    },
+    {
+      "eng": "old",
+      "id": "temporal-46",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": false,
+      "ms": 57.519900000000234,
+      "tok": 781
+    },
+    {
+      "eng": "old",
+      "id": "temporal-47",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 61.665899999999965,
+      "tok": 781
+    },
+    {
+      "eng": "new",
+      "id": "temporal-47",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 46.55799999999999,
+      "tok": 1547
+    },
+    {
+      "eng": "new",
+      "id": "temporal-48",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 43.921800000000076,
+      "tok": 1258
+    },
+    {
+      "eng": "old",
+      "id": "temporal-48",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": false,
+      "ms": 61.31710000000021,
+      "tok": 1179
+    },
+    {
+      "eng": "old",
+      "id": "temporal-49",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 56.73250000000007,
+      "tok": 936
+    },
+    {
+      "eng": "new",
+      "id": "temporal-49",
+      "cat": "temporal",
+      "kind": "temporal",
+      "hit": true,
+      "first": true,
+      "ms": 45.914200000000164,
+      "tok": 1541
+    },
+    {
+      "eng": "new",
+      "id": "direct-50",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 33.93249999999989,
+      "tok": 911
+    },
+    {
+      "eng": "old",
+      "id": "direct-50",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 64.39099999999962,
+      "tok": 1433
+    },
+    {
+      "eng": "old",
+      "id": "direct-51",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 55.26560000000063,
+      "tok": 1519
+    },
+    {
+      "eng": "new",
+      "id": "direct-51",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 49.33299999999963,
+      "tok": 780
+    },
+    {
+      "eng": "new",
+      "id": "direct-52",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 37.66150000000016,
+      "tok": 820
+    },
+    {
+      "eng": "old",
+      "id": "direct-52",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 51.23949999999968,
+      "tok": 1144
+    },
+    {
+      "eng": "old",
+      "id": "direct-53",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 53.279199999999946,
+      "tok": 1518
+    },
+    {
+      "eng": "new",
+      "id": "direct-53",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 33.445700000000215,
+      "tok": 929
+    },
+    {
+      "eng": "new",
+      "id": "direct-54",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 36.3145999999997,
+      "tok": 842
+    },
+    {
+      "eng": "old",
+      "id": "direct-54",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 63.61740000000009,
+      "tok": 1020
+    },
+    {
+      "eng": "old",
+      "id": "direct-55",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 51.39219999999932,
+      "tok": 1293
+    },
+    {
+      "eng": "new",
+      "id": "direct-55",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 48.50770000000011,
+      "tok": 764
+    },
+    {
+      "eng": "new",
+      "id": "direct-56",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 49.26929999999993,
+      "tok": 783
+    },
+    {
+      "eng": "old",
+      "id": "direct-56",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 54.28440000000046,
+      "tok": 1617
+    },
+    {
+      "eng": "old",
+      "id": "direct-57",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 57.79659999999967,
+      "tok": 1589
+    },
+    {
+      "eng": "new",
+      "id": "direct-57",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 47.73880000000008,
+      "tok": 784
+    },
+    {
+      "eng": "new",
+      "id": "direct-58",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 34.22729999999956,
+      "tok": 913
+    },
+    {
+      "eng": "old",
+      "id": "direct-58",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 53.769500000000335,
+      "tok": 1353
+    },
+    {
+      "eng": "old",
+      "id": "direct-59",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 55.71720000000005,
+      "tok": 1404
+    },
+    {
+      "eng": "new",
+      "id": "direct-59",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 52.24589999999989,
+      "tok": 759
+    },
+    {
+      "eng": "new",
+      "id": "direct-60",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 33.89640000000054,
+      "tok": 915
+    },
+    {
+      "eng": "old",
+      "id": "direct-60",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 53.26089999999931,
+      "tok": 1044
+    },
+    {
+      "eng": "old",
+      "id": "direct-61",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 55.15399999999954,
+      "tok": 1569
+    },
+    {
+      "eng": "new",
+      "id": "direct-61",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 33.00709999999981,
+      "tok": 943
+    },
+    {
+      "eng": "new",
+      "id": "direct-62",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 46.77019999999993,
+      "tok": 775
+    },
+    {
+      "eng": "old",
+      "id": "direct-62",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 58.947299999999814,
+      "tok": 1497
+    },
+    {
+      "eng": "old",
+      "id": "direct-63",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 50.53519999999935,
+      "tok": 1266
+    },
+    {
+      "eng": "new",
+      "id": "direct-63",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 56.91490000000067,
+      "tok": 748
+    },
+    {
+      "eng": "new",
+      "id": "direct-64",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 32.58300000000054,
+      "tok": 913
+    },
+    {
+      "eng": "old",
+      "id": "direct-64",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 53.436100000000806,
+      "tok": 1464
+    },
+    {
+      "eng": "old",
+      "id": "direct-65",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 54.80090000000018,
+      "tok": 1506
+    },
+    {
+      "eng": "new",
+      "id": "direct-65",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 33.22320000000036,
+      "tok": 902
+    },
+    {
+      "eng": "new",
+      "id": "direct-66",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 34.758099999999104,
+      "tok": 902
+    },
+    {
+      "eng": "old",
+      "id": "direct-66",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 53.13659999999982,
+      "tok": 1154
+    },
+    {
+      "eng": "old",
+      "id": "direct-67",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 63.744200000001,
+      "tok": 1517
+    },
+    {
+      "eng": "new",
+      "id": "direct-67",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 35.13979999999901,
+      "tok": 921
+    },
+    {
+      "eng": "new",
+      "id": "direct-68",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 50.12299999999959,
+      "tok": 812
+    },
+    {
+      "eng": "old",
+      "id": "direct-68",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 58.041300000000774,
+      "tok": 1313
+    },
+    {
+      "eng": "old",
+      "id": "direct-69",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 57.40010000000075,
+      "tok": 1392
+    },
+    {
+      "eng": "new",
+      "id": "direct-69",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 36.1857,
+      "tok": 827
+    },
+    {
+      "eng": "new",
+      "id": "direct-70",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 35.057199999999284,
+      "tok": 964
+    },
+    {
+      "eng": "old",
+      "id": "direct-70",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 53.90270000000055,
+      "tok": 1383
+    },
+    {
+      "eng": "old",
+      "id": "direct-71",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 54.01460000000043,
+      "tok": 1017
+    },
+    {
+      "eng": "new",
+      "id": "direct-71",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 36.74189999999908,
+      "tok": 846
+    },
+    {
+      "eng": "new",
+      "id": "direct-72",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 34.22479999999996,
+      "tok": 929
+    },
+    {
+      "eng": "old",
+      "id": "direct-72",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 52.74459999999999,
+      "tok": 993
+    },
+    {
+      "eng": "old",
+      "id": "direct-73",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 54.23999999999978,
+      "tok": 1204
+    },
+    {
+      "eng": "new",
+      "id": "direct-73",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 33.856400000000576,
+      "tok": 903
+    },
+    {
+      "eng": "new",
+      "id": "direct-74",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 35.344199999999546,
+      "tok": 847
+    },
+    {
+      "eng": "old",
+      "id": "direct-74",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 51.94049999999879,
+      "tok": 1026
+    },
+    {
+      "eng": "old",
+      "id": "direct-75",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 53.40070000000014,
+      "tok": 1219
+    },
+    {
+      "eng": "new",
+      "id": "direct-75",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 31.751499999998487,
+      "tok": 748
+    },
+    {
+      "eng": "new",
+      "id": "direct-76",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 50.6237000000001,
+      "tok": 769
+    },
+    {
+      "eng": "old",
+      "id": "direct-76",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 50.23599999999897,
+      "tok": 1256
+    },
+    {
+      "eng": "old",
+      "id": "direct-77",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 51.09350000000086,
+      "tok": 1299
+    },
+    {
+      "eng": "new",
+      "id": "direct-77",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 50.41849999999977,
+      "tok": 797
+    },
+    {
+      "eng": "new",
+      "id": "direct-78",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 35.23190000000068,
+      "tok": 949
+    },
+    {
+      "eng": "old",
+      "id": "direct-78",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 51.51520000000164,
+      "tok": 1224
+    },
+    {
+      "eng": "old",
+      "id": "direct-79",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 59.46399999999994,
+      "tok": 1459
+    },
+    {
+      "eng": "new",
+      "id": "direct-79",
+      "cat": "direct",
+      "kind": "direct",
+      "hit": true,
+      "first": null,
+      "ms": 36.694799999999304,
+      "tok": 873
+    },
+    {
+      "eng": "new",
+      "id": "join-80",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 35.908799999999246,
+      "tok": 910
+    },
+    {
+      "eng": "old",
+      "id": "join-80",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 60.018299999999726,
+      "tok": 1068
+    },
+    {
+      "eng": "old",
+      "id": "join-81",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 53.4466999999986,
+      "tok": 1050
+    },
+    {
+      "eng": "new",
+      "id": "join-81",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 34.17289999999957,
+      "tok": 742
+    },
+    {
+      "eng": "new",
+      "id": "join-82",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 50.58179999999993,
+      "tok": 772
+    },
+    {
+      "eng": "old",
+      "id": "join-82",
+      "cat": "join",
+      "kind": "join",
+      "hit": false,
+      "first": null,
+      "ms": 54.64929999999913,
+      "tok": 1149
+    },
+    {
+      "eng": "old",
+      "id": "join-83",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 52.105100000000675,
+      "tok": 787
+    },
+    {
+      "eng": "new",
+      "id": "join-83",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 37.4315000000006,
+      "tok": 831
+    },
+    {
+      "eng": "new",
+      "id": "join-84",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 34.92649999999958,
+      "tok": 850
+    },
+    {
+      "eng": "old",
+      "id": "join-84",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 58.732600000001185,
+      "tok": 1042
+    },
+    {
+      "eng": "old",
+      "id": "join-85",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 54.18950000000041,
+      "tok": 1039
+    },
+    {
+      "eng": "new",
+      "id": "join-85",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 36.203199999999924,
+      "tok": 942
+    },
+    {
+      "eng": "new",
+      "id": "join-86",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 37.03339999999844,
+      "tok": 877
+    },
+    {
+      "eng": "old",
+      "id": "join-86",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 54.31209999999919,
+      "tok": 1179
+    },
+    {
+      "eng": "old",
+      "id": "join-87",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 52.01850000000013,
+      "tok": 1082
+    },
+    {
+      "eng": "new",
+      "id": "join-87",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 52.34180000000015,
+      "tok": 773
+    },
+    {
+      "eng": "new",
+      "id": "join-88",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 38.4890000000014,
+      "tok": 951
+    },
+    {
+      "eng": "old",
+      "id": "join-88",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 55.02380000000085,
+      "tok": 996
+    },
+    {
+      "eng": "old",
+      "id": "join-89",
+      "cat": "join",
+      "kind": "join",
+      "hit": false,
+      "first": null,
+      "ms": 55.16120000000046,
+      "tok": 992
+    },
+    {
+      "eng": "new",
+      "id": "join-89",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 32.874799999999595,
+      "tok": 900
+    },
+    {
+      "eng": "new",
+      "id": "join-90",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 52.673399999999674,
+      "tok": 832
+    },
+    {
+      "eng": "old",
+      "id": "join-90",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 59.80659999999989,
+      "tok": 1157
+    },
+    {
+      "eng": "old",
+      "id": "join-91",
+      "cat": "join",
+      "kind": "join",
+      "hit": false,
+      "first": null,
+      "ms": 54.58419999999933,
+      "tok": 838
+    },
+    {
+      "eng": "new",
+      "id": "join-91",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 36.14919999999984,
+      "tok": 817
+    },
+    {
+      "eng": "new",
+      "id": "join-92",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 49.908400000000256,
+      "tok": 806
+    },
+    {
+      "eng": "old",
+      "id": "join-92",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 55.35009999999966,
+      "tok": 1038
+    },
+    {
+      "eng": "old",
+      "id": "join-93",
+      "cat": "join",
+      "kind": "join",
+      "hit": false,
+      "first": null,
+      "ms": 55.82619999999952,
+      "tok": 1002
+    },
+    {
+      "eng": "new",
+      "id": "join-93",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 51.06890000000021,
+      "tok": 823
+    },
+    {
+      "eng": "new",
+      "id": "join-94",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 35.11709999999948,
+      "tok": 830
+    },
+    {
+      "eng": "old",
+      "id": "join-94",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 56.84349999999904,
+      "tok": 911
+    },
+    {
+      "eng": "old",
+      "id": "join-95",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 53.93130000000019,
+      "tok": 1051
+    },
+    {
+      "eng": "new",
+      "id": "join-95",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 49.95960000000014,
+      "tok": 790
+    },
+    {
+      "eng": "new",
+      "id": "join-96",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 34.872300000000905,
+      "tok": 919
+    },
+    {
+      "eng": "old",
+      "id": "join-96",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 54.84440000000177,
+      "tok": 1089
+    },
+    {
+      "eng": "old",
+      "id": "join-97",
+      "cat": "join",
+      "kind": "join",
+      "hit": false,
+      "first": null,
+      "ms": 52.841999999998734,
+      "tok": 1126
+    },
+    {
+      "eng": "new",
+      "id": "join-97",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 51.07470000000103,
+      "tok": 764
+    },
+    {
+      "eng": "new",
+      "id": "join-98",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 36.529200000000856,
+      "tok": 891
+    },
+    {
+      "eng": "old",
+      "id": "join-98",
+      "cat": "join",
+      "kind": "join",
+      "hit": false,
+      "first": null,
+      "ms": 51.10479999999916,
+      "tok": 1188
+    },
+    {
+      "eng": "old",
+      "id": "join-99",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 56.254000000000815,
+      "tok": 1138
+    },
+    {
+      "eng": "new",
+      "id": "join-99",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 33.63789999999972,
+      "tok": 899
+    },
+    {
+      "eng": "new",
+      "id": "join-100",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 33.51879999999983,
+      "tok": 802
+    },
+    {
+      "eng": "old",
+      "id": "join-100",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 54.53600000000006,
+      "tok": 1164
+    },
+    {
+      "eng": "old",
+      "id": "join-101",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 56.82500000000073,
+      "tok": 1168
+    },
+    {
+      "eng": "new",
+      "id": "join-101",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 37.3796999999995,
+      "tok": 913
+    },
+    {
+      "eng": "new",
+      "id": "join-102",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 51.83389999999963,
+      "tok": 738
+    },
+    {
+      "eng": "old",
+      "id": "join-102",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 59.481700000000274,
+      "tok": 1122
+    },
+    {
+      "eng": "old",
+      "id": "join-103",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 57.76159999999982,
+      "tok": 1041
+    },
+    {
+      "eng": "new",
+      "id": "join-103",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 53.90860000000066,
+      "tok": 780
+    },
+    {
+      "eng": "new",
+      "id": "join-104",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 37.46359999999913,
+      "tok": 850
+    },
+    {
+      "eng": "old",
+      "id": "join-104",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 51.27759999999944,
+      "tok": 1190
+    },
+    {
+      "eng": "old",
+      "id": "join-105",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 54.85820000000058,
+      "tok": 886
+    },
+    {
+      "eng": "new",
+      "id": "join-105",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 38.670100000001185,
+      "tok": 812
+    },
+    {
+      "eng": "new",
+      "id": "join-106",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 50.15439999999944,
+      "tok": 749
+    },
+    {
+      "eng": "old",
+      "id": "join-106",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 55.72429999999986,
+      "tok": 968
+    },
+    {
+      "eng": "old",
+      "id": "join-107",
+      "cat": "join",
+      "kind": "join",
+      "hit": false,
+      "first": null,
+      "ms": 51.21389999999883,
+      "tok": 935
+    },
+    {
+      "eng": "new",
+      "id": "join-107",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 50.45589999999902,
+      "tok": 775
+    },
+    {
+      "eng": "new",
+      "id": "join-108",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 35.86609999999928,
+      "tok": 813
+    },
+    {
+      "eng": "old",
+      "id": "join-108",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 53.597999999999956,
+      "tok": 941
+    },
+    {
+      "eng": "old",
+      "id": "join-109",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 54.47940000000017,
+      "tok": 1167
+    },
+    {
+      "eng": "new",
+      "id": "join-109",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 36.52559999999903,
+      "tok": 891
+    },
+    {
+      "eng": "new",
+      "id": "join-110",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 40.8065000000006,
+      "tok": 909
+    },
+    {
+      "eng": "old",
+      "id": "join-110",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 61.0515000000014,
+      "tok": 1138
+    },
+    {
+      "eng": "old",
+      "id": "join-111",
+      "cat": "join",
+      "kind": "join",
+      "hit": false,
+      "first": null,
+      "ms": 54.86800000000039,
+      "tok": 1260
+    },
+    {
+      "eng": "new",
+      "id": "join-111",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 50.39609999999993,
+      "tok": 793
+    },
+    {
+      "eng": "new",
+      "id": "join-112",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 34.23619999999937,
+      "tok": 905
+    },
+    {
+      "eng": "old",
+      "id": "join-112",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 54.40909999999894,
+      "tok": 989
+    },
+    {
+      "eng": "old",
+      "id": "join-113",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 58.14220000000023,
+      "tok": 1117
+    },
+    {
+      "eng": "new",
+      "id": "join-113",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 52.018700000000536,
+      "tok": 783
+    },
+    {
+      "eng": "new",
+      "id": "join-114",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 45.17399999999907,
+      "tok": 845
+    },
+    {
+      "eng": "old",
+      "id": "join-114",
+      "cat": "join",
+      "kind": "join",
+      "hit": false,
+      "first": null,
+      "ms": 53.65489999999954,
+      "tok": 678
+    },
+    {
+      "eng": "old",
+      "id": "join-115",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 55.778700000000754,
+      "tok": 1280
+    },
+    {
+      "eng": "new",
+      "id": "join-115",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 37.76430000000073,
+      "tok": 925
+    },
+    {
+      "eng": "new",
+      "id": "join-116",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 36.1232,
+      "tok": 926
+    },
+    {
+      "eng": "old",
+      "id": "join-116",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 52.230900000000474,
+      "tok": 1001
+    },
+    {
+      "eng": "old",
+      "id": "join-117",
+      "cat": "join",
+      "kind": "join",
+      "hit": false,
+      "first": null,
+      "ms": 55.51590000000033,
+      "tok": 883
+    },
+    {
+      "eng": "new",
+      "id": "join-117",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 34.317699999999604,
+      "tok": 843
+    },
+    {
+      "eng": "new",
+      "id": "join-118",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 50.07330000000002,
+      "tok": 767
+    },
+    {
+      "eng": "old",
+      "id": "join-118",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 59.7413000000015,
+      "tok": 1103
+    },
+    {
+      "eng": "old",
+      "id": "join-119",
+      "cat": "join",
+      "kind": "join",
+      "hit": false,
+      "first": null,
+      "ms": 52.541800000000876,
+      "tok": 1169
+    },
+    {
+      "eng": "new",
+      "id": "join-119",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 48.7588999999989,
+      "tok": 767
+    },
+    {
+      "eng": "new",
+      "id": "join-120",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 35.79019999999946,
+      "tok": 942
+    },
+    {
+      "eng": "old",
+      "id": "join-120",
+      "cat": "join",
+      "kind": "join",
+      "hit": false,
+      "first": null,
+      "ms": 57.21339999999873,
+      "tok": 1052
+    },
+    {
+      "eng": "old",
+      "id": "join-121",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 56.35910000000149,
+      "tok": 930
+    },
+    {
+      "eng": "new",
+      "id": "join-121",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 34.6242000000002,
+      "tok": 941
+    },
+    {
+      "eng": "new",
+      "id": "join-122",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 35.85030000000006,
+      "tok": 820
+    },
+    {
+      "eng": "old",
+      "id": "join-122",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 55.02270000000135,
+      "tok": 1042
+    },
+    {
+      "eng": "old",
+      "id": "join-123",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 53.62329999999929,
+      "tok": 981
+    },
+    {
+      "eng": "new",
+      "id": "join-123",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 51.77059999999983,
+      "tok": 773
+    },
+    {
+      "eng": "new",
+      "id": "join-124",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 49.9947000000011,
+      "tok": 737
+    },
+    {
+      "eng": "old",
+      "id": "join-124",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 63.69579999999951,
+      "tok": 898
+    },
+    {
+      "eng": "old",
+      "id": "join-125",
+      "cat": "join",
+      "kind": "join",
+      "hit": false,
+      "first": null,
+      "ms": 55.55289999999877,
+      "tok": 1055
+    },
+    {
+      "eng": "new",
+      "id": "join-125",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 35.589100000001054,
+      "tok": 810
+    },
+    {
+      "eng": "new",
+      "id": "join-126",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 35.24569999999949,
+      "tok": 875
+    },
+    {
+      "eng": "old",
+      "id": "join-126",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 57.48610000000008,
+      "tok": 965
+    },
+    {
+      "eng": "old",
+      "id": "join-127",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 54.183899999999994,
+      "tok": 792
+    },
+    {
+      "eng": "new",
+      "id": "join-127",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 35.06119999999828,
+      "tok": 830
+    },
+    {
+      "eng": "new",
+      "id": "join-128",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 37.12049999999908,
+      "tok": 877
+    },
+    {
+      "eng": "old",
+      "id": "join-128",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 59.061100000000806,
+      "tok": 1252
+    },
+    {
+      "eng": "old",
+      "id": "join-129",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 55.719099999998434,
+      "tok": 901
+    },
+    {
+      "eng": "new",
+      "id": "join-129",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 36.448599999999715,
+      "tok": 899
+    },
+    {
+      "eng": "new",
+      "id": "join-130",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 49.80539999999928,
+      "tok": 757
+    },
+    {
+      "eng": "old",
+      "id": "join-130",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 55.21240000000034,
+      "tok": 934
+    },
+    {
+      "eng": "old",
+      "id": "join-131",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 54.866900000000896,
+      "tok": 912
+    },
+    {
+      "eng": "new",
+      "id": "join-131",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 35.11039999999957,
+      "tok": 925
+    },
+    {
+      "eng": "new",
+      "id": "join-132",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 34.64719999999943,
+      "tok": 927
+    },
+    {
+      "eng": "old",
+      "id": "join-132",
+      "cat": "join",
+      "kind": "join",
+      "hit": false,
+      "first": null,
+      "ms": 66.94930000000022,
+      "tok": 1216
+    },
+    {
+      "eng": "old",
+      "id": "join-133",
+      "cat": "join",
+      "kind": "join",
+      "hit": false,
+      "first": null,
+      "ms": 55.16400000000067,
+      "tok": 1068
+    },
+    {
+      "eng": "new",
+      "id": "join-133",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 52.343800000000556,
+      "tok": 791
+    },
+    {
+      "eng": "new",
+      "id": "join-134",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 57.872699999999895,
+      "tok": 665
+    },
+    {
+      "eng": "old",
+      "id": "join-134",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 61.23520000000099,
+      "tok": 1081
+    },
+    {
+      "eng": "old",
+      "id": "join-135",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 53.734199999998964,
+      "tok": 1063
+    },
+    {
+      "eng": "new",
+      "id": "join-135",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 50.77889999999934,
+      "tok": 789
+    },
+    {
+      "eng": "new",
+      "id": "join-136",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 48.476300000000265,
+      "tok": 812
+    },
+    {
+      "eng": "old",
+      "id": "join-136",
+      "cat": "join",
+      "kind": "join",
+      "hit": false,
+      "first": null,
+      "ms": 55.49539999999979,
+      "tok": 1023
+    },
+    {
+      "eng": "old",
+      "id": "join-137",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 56.46169999999984,
+      "tok": 1093
+    },
+    {
+      "eng": "new",
+      "id": "join-137",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 54.10500000000138,
+      "tok": 783
+    },
+    {
+      "eng": "new",
+      "id": "join-138",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 37.42630000000099,
+      "tok": 947
+    },
+    {
+      "eng": "old",
+      "id": "join-138",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 55.28280000000086,
+      "tok": 1213
+    },
+    {
+      "eng": "old",
+      "id": "join-139",
+      "cat": "join",
+      "kind": "join",
+      "hit": false,
+      "first": null,
+      "ms": 51.014900000000125,
+      "tok": 1049
+    },
+    {
+      "eng": "new",
+      "id": "join-139",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 35.8742000000002,
+      "tok": 852
+    },
+    {
+      "eng": "new",
+      "id": "join-140",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 42.828599999998914,
+      "tok": 924
+    },
+    {
+      "eng": "old",
+      "id": "join-140",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 60.17319999999927,
+      "tok": 887
+    },
+    {
+      "eng": "old",
+      "id": "join-141",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 58.03259999999864,
+      "tok": 1001
+    },
+    {
+      "eng": "new",
+      "id": "join-141",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 37.703300000001036,
+      "tok": 878
+    },
+    {
+      "eng": "new",
+      "id": "join-142",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 37.672199999999066,
+      "tok": 932
+    },
+    {
+      "eng": "old",
+      "id": "join-142",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 54.909200000000055,
+      "tok": 1230
+    },
+    {
+      "eng": "old",
+      "id": "join-143",
+      "cat": "join",
+      "kind": "join",
+      "hit": false,
+      "first": null,
+      "ms": 56.88140000000021,
+      "tok": 1127
+    },
+    {
+      "eng": "new",
+      "id": "join-143",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 35.70600000000013,
+      "tok": 929
+    },
+    {
+      "eng": "new",
+      "id": "join-144",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 59.87910000000011,
+      "tok": 770
+    },
+    {
+      "eng": "old",
+      "id": "join-144",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 56.05760000000009,
+      "tok": 1070
+    },
+    {
+      "eng": "old",
+      "id": "join-145",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 57.80400000000009,
+      "tok": 1114
+    },
+    {
+      "eng": "new",
+      "id": "join-145",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 38.428499999999985,
+      "tok": 901
+    },
+    {
+      "eng": "new",
+      "id": "join-146",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 39.098399999998946,
+      "tok": 925
+    },
+    {
+      "eng": "old",
+      "id": "join-146",
+      "cat": "join",
+      "kind": "join",
+      "hit": false,
+      "first": null,
+      "ms": 57.73559999999998,
+      "tok": 1344
+    },
+    {
+      "eng": "old",
+      "id": "join-147",
+      "cat": "join",
+      "kind": "join",
+      "hit": false,
+      "first": null,
+      "ms": 56.81430000000182,
+      "tok": 950
+    },
+    {
+      "eng": "new",
+      "id": "join-147",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 35.0183999999972,
+      "tok": 956
+    },
+    {
+      "eng": "new",
+      "id": "join-148",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 52.84029999999984,
+      "tok": 758
+    },
+    {
+      "eng": "old",
+      "id": "join-148",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 58.082800000000134,
+      "tok": 1011
+    },
+    {
+      "eng": "old",
+      "id": "join-149",
+      "cat": "join",
+      "kind": "join",
+      "hit": false,
+      "first": null,
+      "ms": 53.04190000000017,
+      "tok": 1246
+    },
+    {
+      "eng": "new",
+      "id": "join-149",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 50.68459999999686,
+      "tok": 788
+    },
+    {
+      "eng": "new",
+      "id": "join-150",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 53.1095000000023,
+      "tok": 776
+    },
+    {
+      "eng": "old",
+      "id": "join-150",
+      "cat": "join",
+      "kind": "join",
+      "hit": false,
+      "first": null,
+      "ms": 55.19400000000314,
+      "tok": 1058
+    },
+    {
+      "eng": "old",
+      "id": "join-151",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 51.82370000000083,
+      "tok": 951
+    },
+    {
+      "eng": "new",
+      "id": "join-151",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 35.61189999999988,
+      "tok": 922
+    },
+    {
+      "eng": "new",
+      "id": "join-152",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 35.7544999999991,
+      "tok": 926
+    },
+    {
+      "eng": "old",
+      "id": "join-152",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 57.70650000000023,
+      "tok": 1072
+    },
+    {
+      "eng": "old",
+      "id": "join-153",
+      "cat": "join",
+      "kind": "join",
+      "hit": false,
+      "first": null,
+      "ms": 54.70599999999831,
+      "tok": 985
+    },
+    {
+      "eng": "new",
+      "id": "join-153",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 37.30569999999716,
+      "tok": 937
+    },
+    {
+      "eng": "new",
+      "id": "join-154",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 38.54249999999956,
+      "tok": 838
+    },
+    {
+      "eng": "old",
+      "id": "join-154",
+      "cat": "join",
+      "kind": "join",
+      "hit": false,
+      "first": null,
+      "ms": 55.765699999999924,
+      "tok": 798
+    },
+    {
+      "eng": "old",
+      "id": "join-155",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 54.16240000000107,
+      "tok": 868
+    },
+    {
+      "eng": "new",
+      "id": "join-155",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 54.069400000000314,
+      "tok": 771
+    },
+    {
+      "eng": "new",
+      "id": "join-156",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 35.28600000000006,
+      "tok": 913
+    },
+    {
+      "eng": "old",
+      "id": "join-156",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 55.23500000000058,
+      "tok": 1026
+    },
+    {
+      "eng": "old",
+      "id": "join-157",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 57.23239999999714,
+      "tok": 963
+    },
+    {
+      "eng": "new",
+      "id": "join-157",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 38.197400000000926,
+      "tok": 925
+    },
+    {
+      "eng": "new",
+      "id": "join-158",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 51.089599999999336,
+      "tok": 770
+    },
+    {
+      "eng": "old",
+      "id": "join-158",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 54.21229999999923,
+      "tok": 1100
+    },
+    {
+      "eng": "old",
+      "id": "join-159",
+      "cat": "join",
+      "kind": "join",
+      "hit": false,
+      "first": null,
+      "ms": 53.001899999999296,
+      "tok": 1100
+    },
+    {
+      "eng": "new",
+      "id": "join-159",
+      "cat": "join",
+      "kind": "join",
+      "hit": true,
+      "first": null,
+      "ms": 34.42020000000048,
+      "tok": 946
+    },
+    {
+      "eng": "new",
+      "id": "hop2-160",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 35.703300000001036,
+      "tok": 994
+    },
+    {
+      "eng": "old",
+      "id": "hop2-160",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 39.663800000002084,
+      "tok": 825
+    },
+    {
+      "eng": "old",
+      "id": "hop2-161",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 35.14589999999953,
+      "tok": 694
+    },
+    {
+      "eng": "new",
+      "id": "hop2-161",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 38.34449999999924,
+      "tok": 847
+    },
+    {
+      "eng": "new",
+      "id": "hop2-162",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 32.82980000000316,
+      "tok": 798
+    },
+    {
+      "eng": "old",
+      "id": "hop2-162",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 29.64979999999923,
+      "tok": 651
+    },
+    {
+      "eng": "old",
+      "id": "hop2-163",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 32.86380000000281,
+      "tok": 1235
+    },
+    {
+      "eng": "new",
+      "id": "hop2-163",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 34.45100000000093,
+      "tok": 1373
+    },
+    {
+      "eng": "new",
+      "id": "hop2-164",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 48.7680999999975,
+      "tok": 640
+    },
+    {
+      "eng": "old",
+      "id": "hop2-164",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 50.126500000002125,
+      "tok": 391
+    },
+    {
+      "eng": "old",
+      "id": "hop2-165",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 30.338400000000547,
+      "tok": 809
+    },
+    {
+      "eng": "new",
+      "id": "hop2-165",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 45.25050000000192,
+      "tok": 981
+    },
+    {
+      "eng": "new",
+      "id": "hop2-166",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 47.18819999999687,
+      "tok": 742
+    },
+    {
+      "eng": "old",
+      "id": "hop2-166",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 47.396999999997206,
+      "tok": 492
+    },
+    {
+      "eng": "old",
+      "id": "hop2-167",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 31.58169999999882,
+      "tok": 945
+    },
+    {
+      "eng": "new",
+      "id": "hop2-167",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 35.658299999999144,
+      "tok": 1022
+    },
+    {
+      "eng": "new",
+      "id": "hop2-168",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 33.29980000000069,
+      "tok": 699
+    },
+    {
+      "eng": "old",
+      "id": "hop2-168",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 32.75619999999981,
+      "tok": 635
+    },
+    {
+      "eng": "old",
+      "id": "hop2-169",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 33.72030000000086,
+      "tok": 1015
+    },
+    {
+      "eng": "new",
+      "id": "hop2-169",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 32.77400000000125,
+      "tok": 1150
+    },
+    {
+      "eng": "new",
+      "id": "hop2-170",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 35.576600000000326,
+      "tok": 957
+    },
+    {
+      "eng": "old",
+      "id": "hop2-170",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 31.457399999999325,
+      "tok": 820
+    },
+    {
+      "eng": "old",
+      "id": "hop2-171",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 31.385200000000623,
+      "tok": 923
+    },
+    {
+      "eng": "new",
+      "id": "hop2-171",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 32.956700000002456,
+      "tok": 901
+    },
+    {
+      "eng": "new",
+      "id": "hop2-172",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 48.143599999999424,
+      "tok": 716
+    },
+    {
+      "eng": "old",
+      "id": "hop2-172",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 50.088800000001356,
+      "tok": 463
+    },
+    {
+      "eng": "old",
+      "id": "hop2-173",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 39.95249999999942,
+      "tok": 1142
+    },
+    {
+      "eng": "new",
+      "id": "hop2-173",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 37.19670000000042,
+      "tok": 1183
+    },
+    {
+      "eng": "new",
+      "id": "hop2-174",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 33.57589999999982,
+      "tok": 1126
+    },
+    {
+      "eng": "old",
+      "id": "hop2-174",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 31.867199999996956,
+      "tok": 835
+    },
+    {
+      "eng": "old",
+      "id": "hop2-175",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 31.15259999999762,
+      "tok": 1105
+    },
+    {
+      "eng": "new",
+      "id": "hop2-175",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 34.24120000000039,
+      "tok": 1175
+    },
+    {
+      "eng": "new",
+      "id": "hop2-176",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 34.909999999999854,
+      "tok": 774
+    },
+    {
+      "eng": "old",
+      "id": "hop2-176",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 33.17280000000028,
+      "tok": 635
+    },
+    {
+      "eng": "old",
+      "id": "hop2-177",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 32.26020000000062,
+      "tok": 608
+    },
+    {
+      "eng": "new",
+      "id": "hop2-177",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 34.17329999999856,
+      "tok": 847
+    },
+    {
+      "eng": "new",
+      "id": "hop2-178",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 33.692299999998795,
+      "tok": 1090
+    },
+    {
+      "eng": "old",
+      "id": "hop2-178",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 30.212999999999738,
+      "tok": 1028
+    },
+    {
+      "eng": "old",
+      "id": "hop2-179",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 53.496399999999994,
+      "tok": 354
+    },
+    {
+      "eng": "new",
+      "id": "hop2-179",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 49.6247000000003,
+      "tok": 661
+    },
+    {
+      "eng": "new",
+      "id": "hop2-180",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 34.58399999999892,
+      "tok": 1278
+    },
+    {
+      "eng": "old",
+      "id": "hop2-180",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 32.86699999999837,
+      "tok": 1150
+    },
+    {
+      "eng": "old",
+      "id": "hop2-181",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 30.302299999999377,
+      "tok": 713
+    },
+    {
+      "eng": "new",
+      "id": "hop2-181",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 39.460800000000745,
+      "tok": 855
+    },
+    {
+      "eng": "new",
+      "id": "hop2-182",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 38.40110000000277,
+      "tok": 1186
+    },
+    {
+      "eng": "old",
+      "id": "hop2-182",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 32.38090000000011,
+      "tok": 910
+    },
+    {
+      "eng": "old",
+      "id": "hop2-183",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 49.10069999999905,
+      "tok": 438
+    },
+    {
+      "eng": "new",
+      "id": "hop2-183",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 49.28649999999834,
+      "tok": 777
+    },
+    {
+      "eng": "new",
+      "id": "hop2-184",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 35.23960000000079,
+      "tok": 863
+    },
+    {
+      "eng": "old",
+      "id": "hop2-184",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 32.23099999999977,
+      "tok": 730
+    },
+    {
+      "eng": "old",
+      "id": "hop2-185",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 31.6291999999994,
+      "tok": 606
+    },
+    {
+      "eng": "new",
+      "id": "hop2-185",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 34.24010000000271,
+      "tok": 756
+    },
+    {
+      "eng": "new",
+      "id": "hop2-186",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 33.89280000000144,
+      "tok": 628
+    },
+    {
+      "eng": "old",
+      "id": "hop2-186",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 35.79290000000037,
+      "tok": 479
+    },
+    {
+      "eng": "old",
+      "id": "hop2-187",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 32.286700000000565,
+      "tok": 802
+    },
+    {
+      "eng": "new",
+      "id": "hop2-187",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 35.2531999999992,
+      "tok": 954
+    },
+    {
+      "eng": "new",
+      "id": "hop2-188",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 32.27990000000136,
+      "tok": 862
+    },
+    {
+      "eng": "old",
+      "id": "hop2-188",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 30.17870000000039,
+      "tok": 810
+    },
+    {
+      "eng": "old",
+      "id": "hop2-189",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 31.40810000000056,
+      "tok": 640
+    },
+    {
+      "eng": "new",
+      "id": "hop2-189",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 36.80459999999948,
+      "tok": 693
+    },
+    {
+      "eng": "new",
+      "id": "hop2-190",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 37.901300000001356,
+      "tok": 1059
+    },
+    {
+      "eng": "old",
+      "id": "hop2-190",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 33.66189999999915,
+      "tok": 1075
+    },
+    {
+      "eng": "old",
+      "id": "hop2-191",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 36.338800000001356,
+      "tok": 1041
+    },
+    {
+      "eng": "new",
+      "id": "hop2-191",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 34.74090000000069,
+      "tok": 1111
+    },
+    {
+      "eng": "new",
+      "id": "hop2-192",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 32.780900000001566,
+      "tok": 916
+    },
+    {
+      "eng": "old",
+      "id": "hop2-192",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 35.557199999999284,
+      "tok": 736
+    },
+    {
+      "eng": "old",
+      "id": "hop2-193",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 30.88130000000092,
+      "tok": 1149
+    },
+    {
+      "eng": "new",
+      "id": "hop2-193",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 33.780399999999645,
+      "tok": 1299
+    },
+    {
+      "eng": "new",
+      "id": "hop2-194",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 32.91889999999694,
+      "tok": 1061
+    },
+    {
+      "eng": "old",
+      "id": "hop2-194",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 32.49659999999858,
+      "tok": 906
+    },
+    {
+      "eng": "old",
+      "id": "hop2-195",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 33.62149999999747,
+      "tok": 790
+    },
+    {
+      "eng": "new",
+      "id": "hop2-195",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 39.045600000001286,
+      "tok": 937
+    },
+    {
+      "eng": "new",
+      "id": "hop2-196",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 33.99910000000091,
+      "tok": 1192
+    },
+    {
+      "eng": "old",
+      "id": "hop2-196",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 30.473900000000867,
+      "tok": 1056
+    },
+    {
+      "eng": "old",
+      "id": "hop2-197",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 36.20839999999953,
+      "tok": 710
+    },
+    {
+      "eng": "new",
+      "id": "hop2-197",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 34.65849999999773,
+      "tok": 844
+    },
+    {
+      "eng": "new",
+      "id": "hop2-198",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 33.510300000001735,
+      "tok": 671
+    },
+    {
+      "eng": "old",
+      "id": "hop2-198",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 30.33929999999964,
+      "tok": 510
+    },
+    {
+      "eng": "old",
+      "id": "hop2-199",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 30.83350000000064,
+      "tok": 1055
+    },
+    {
+      "eng": "new",
+      "id": "hop2-199",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 34.69830000000002,
+      "tok": 1204
+    },
+    {
+      "eng": "new",
+      "id": "hop2-200",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 33.108100000001286,
+      "tok": 972
+    },
+    {
+      "eng": "old",
+      "id": "hop2-200",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 31.972099999999045,
+      "tok": 826
+    },
+    {
+      "eng": "old",
+      "id": "hop2-201",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 30.785499999998137,
+      "tok": 703
+    },
+    {
+      "eng": "new",
+      "id": "hop2-201",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 34.89559999999983,
+      "tok": 762
+    },
+    {
+      "eng": "new",
+      "id": "hop2-202",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 32.803100000000995,
+      "tok": 691
+    },
+    {
+      "eng": "old",
+      "id": "hop2-202",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 29.6163000000015,
+      "tok": 605
+    },
+    {
+      "eng": "old",
+      "id": "hop2-203",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 46.3894999999975,
+      "tok": 462
+    },
+    {
+      "eng": "new",
+      "id": "hop2-203",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 49.145300000000134,
+      "tok": 630
+    },
+    {
+      "eng": "new",
+      "id": "hop2-204",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 39.39349999999831,
+      "tok": 1003
+    },
+    {
+      "eng": "old",
+      "id": "hop2-204",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 30.942399999999907,
+      "tok": 852
+    },
+    {
+      "eng": "old",
+      "id": "hop2-205",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 30.95720000000074,
+      "tok": 600
+    },
+    {
+      "eng": "new",
+      "id": "hop2-205",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 35.68239999999787,
+      "tok": 767
+    },
+    {
+      "eng": "new",
+      "id": "hop2-206",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 32.82920000000013,
+      "tok": 1108
+    },
+    {
+      "eng": "old",
+      "id": "hop2-206",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 31.06970000000001,
+      "tok": 953
+    },
+    {
+      "eng": "old",
+      "id": "hop2-207",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 31.528399999999237,
+      "tok": 804
+    },
+    {
+      "eng": "new",
+      "id": "hop2-207",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 35.386500000000524,
+      "tok": 939
+    },
+    {
+      "eng": "new",
+      "id": "hop2-208",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 31.892400000000634,
+      "tok": 832
+    },
+    {
+      "eng": "old",
+      "id": "hop2-208",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 31.192800000000716,
+      "tok": 758
+    },
+    {
+      "eng": "old",
+      "id": "hop2-209",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 46.58759999999893,
+      "tok": 353
+    },
+    {
+      "eng": "new",
+      "id": "hop2-209",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 48.815999999998894,
+      "tok": 692
+    },
+    {
+      "eng": "new",
+      "id": "hop2-210",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 33.40559999999823,
+      "tok": 609
+    },
+    {
+      "eng": "old",
+      "id": "hop2-210",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 30.209999999999127,
+      "tok": 528
+    },
+    {
+      "eng": "old",
+      "id": "hop2-211",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 31.779200000000856,
+      "tok": 604
+    },
+    {
+      "eng": "new",
+      "id": "hop2-211",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 32.89770000000135,
+      "tok": 735
+    },
+    {
+      "eng": "new",
+      "id": "hop2-212",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 33.96390000000247,
+      "tok": 1230
+    },
+    {
+      "eng": "old",
+      "id": "hop2-212",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 31.16569999999774,
+      "tok": 1073
+    },
+    {
+      "eng": "old",
+      "id": "hop2-213",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 31.583299999998417,
+      "tok": 1071
+    },
+    {
+      "eng": "new",
+      "id": "hop2-213",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 32.609700000000885,
+      "tok": 1146
+    },
+    {
+      "eng": "new",
+      "id": "hop2-214",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 35.366000000001804,
+      "tok": 1166
+    },
+    {
+      "eng": "old",
+      "id": "hop2-214",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 34.80110000000059,
+      "tok": 1027
+    },
+    {
+      "eng": "old",
+      "id": "hop2-215",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 37.68709999999919,
+      "tok": 1118
+    },
+    {
+      "eng": "new",
+      "id": "hop2-215",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 44.334499999997206,
+      "tok": 1339
+    },
+    {
+      "eng": "new",
+      "id": "hop2-216",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 34.64419999999882,
+      "tok": 1357
+    },
+    {
+      "eng": "old",
+      "id": "hop2-216",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 31.159700000000157,
+      "tok": 1199
+    },
+    {
+      "eng": "old",
+      "id": "hop2-217",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 30.316899999997986,
+      "tok": 834
+    },
+    {
+      "eng": "new",
+      "id": "hop2-217",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 36.85029999999824,
+      "tok": 821
+    },
+    {
+      "eng": "new",
+      "id": "hop2-218",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 33.01850000000195,
+      "tok": 874
+    },
+    {
+      "eng": "old",
+      "id": "hop2-218",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 31.292199999999866,
+      "tok": 720
+    },
+    {
+      "eng": "old",
+      "id": "hop2-219",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": false,
+      "first": null,
+      "ms": 31.00959999999759,
+      "tok": 671
+    },
+    {
+      "eng": "new",
+      "id": "hop2-219",
+      "cat": "multihop2",
+      "kind": "multihop2",
+      "hit": true,
+      "first": null,
+      "ms": 34.60250000000087,
+      "tok": 848
+    },
+    {
+      "eng": "new",
+      "id": "hop3-220",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 67.06079999999929,
+      "tok": 1522
+    },
+    {
+      "eng": "old",
+      "id": "hop3-220",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 63.565199999997276,
+      "tok": 1318
+    },
+    {
+      "eng": "old",
+      "id": "hop3-221",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": false,
+      "first": null,
+      "ms": 53.32610000000204,
+      "tok": 1288
+    },
+    {
+      "eng": "new",
+      "id": "hop3-221",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 58.297200000000885,
+      "tok": 1416
+    },
+    {
+      "eng": "new",
+      "id": "hop3-222",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 63.62419999999838,
+      "tok": 1372
+    },
+    {
+      "eng": "old",
+      "id": "hop3-222",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": false,
+      "first": null,
+      "ms": 58.775799999999435,
+      "tok": 1000
+    },
+    {
+      "eng": "old",
+      "id": "hop3-223",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": false,
+      "first": null,
+      "ms": 55.765800000001036,
+      "tok": 1010
+    },
+    {
+      "eng": "new",
+      "id": "hop3-223",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 57.705799999999726,
+      "tok": 1476
+    },
+    {
+      "eng": "new",
+      "id": "hop3-224",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 60.099300000001676,
+      "tok": 1467
+    },
+    {
+      "eng": "old",
+      "id": "hop3-224",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 57.15469999999914,
+      "tok": 1149
+    },
+    {
+      "eng": "old",
+      "id": "hop3-225",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 60.81300000000192,
+      "tok": 1277
+    },
+    {
+      "eng": "new",
+      "id": "hop3-225",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 61.83599999999933,
+      "tok": 1579
+    },
+    {
+      "eng": "new",
+      "id": "hop3-226",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 59.51060000000143,
+      "tok": 1373
+    },
+    {
+      "eng": "old",
+      "id": "hop3-226",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 56.78759999999966,
+      "tok": 1018
+    },
+    {
+      "eng": "old",
+      "id": "hop3-227",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": false,
+      "first": null,
+      "ms": 58.45820000000094,
+      "tok": 1107
+    },
+    {
+      "eng": "new",
+      "id": "hop3-227",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 63.929700000000594,
+      "tok": 1518
+    },
+    {
+      "eng": "new",
+      "id": "hop3-228",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 72.90500000000247,
+      "tok": 1481
+    },
+    {
+      "eng": "old",
+      "id": "hop3-228",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 58.221300000001065,
+      "tok": 1081
+    },
+    {
+      "eng": "old",
+      "id": "hop3-229",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 60.83970000000045,
+      "tok": 931
+    },
+    {
+      "eng": "new",
+      "id": "hop3-229",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 66.17250000000058,
+      "tok": 1396
+    },
+    {
+      "eng": "new",
+      "id": "hop3-230",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 60.68000000000029,
+      "tok": 1382
+    },
+    {
+      "eng": "old",
+      "id": "hop3-230",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": false,
+      "first": null,
+      "ms": 60.054700000000594,
+      "tok": 1016
+    },
+    {
+      "eng": "old",
+      "id": "hop3-231",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": false,
+      "first": null,
+      "ms": 55.76670000000013,
+      "tok": 1076
+    },
+    {
+      "eng": "new",
+      "id": "hop3-231",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 57.1252999999997,
+      "tok": 1315
+    },
+    {
+      "eng": "new",
+      "id": "hop3-232",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 60.350399999999354,
+      "tok": 1548
+    },
+    {
+      "eng": "old",
+      "id": "hop3-232",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 54.16339999999764,
+      "tok": 1052
+    },
+    {
+      "eng": "old",
+      "id": "hop3-233",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": false,
+      "first": null,
+      "ms": 59.96360000000277,
+      "tok": 963
+    },
+    {
+      "eng": "new",
+      "id": "hop3-233",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 63.89850000000297,
+      "tok": 1503
+    },
+    {
+      "eng": "new",
+      "id": "hop3-234",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 59.322800000001735,
+      "tok": 1464
+    },
+    {
+      "eng": "old",
+      "id": "hop3-234",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 61.3156999999992,
+      "tok": 1199
+    },
+    {
+      "eng": "old",
+      "id": "hop3-235",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 56.941100000000006,
+      "tok": 1134
+    },
+    {
+      "eng": "new",
+      "id": "hop3-235",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 59.018700000000536,
+      "tok": 1535
+    },
+    {
+      "eng": "new",
+      "id": "hop3-236",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 60.60069999999905,
+      "tok": 1299
+    },
+    {
+      "eng": "old",
+      "id": "hop3-236",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 56.160500000001775,
+      "tok": 915
+    },
+    {
+      "eng": "old",
+      "id": "hop3-237",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": false,
+      "first": null,
+      "ms": 59.35710000000108,
+      "tok": 1195
+    },
+    {
+      "eng": "new",
+      "id": "hop3-237",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 62.51889999999912,
+      "tok": 1535
+    },
+    {
+      "eng": "new",
+      "id": "hop3-238",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 61.466199999998935,
+      "tok": 1551
+    },
+    {
+      "eng": "old",
+      "id": "hop3-238",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": false,
+      "first": null,
+      "ms": 60.42500000000291,
+      "tok": 1055
+    },
+    {
+      "eng": "old",
+      "id": "hop3-239",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": false,
+      "first": null,
+      "ms": 57.7429000000011,
+      "tok": 1229
+    },
+    {
+      "eng": "new",
+      "id": "hop3-239",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 67.83550000000105,
+      "tok": 1428
+    },
+    {
+      "eng": "new",
+      "id": "hop3-240",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 70.32060000000274,
+      "tok": 1431
+    },
+    {
+      "eng": "old",
+      "id": "hop3-240",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 57.555600000003324,
+      "tok": 1100
+    },
+    {
+      "eng": "old",
+      "id": "hop3-241",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": false,
+      "first": null,
+      "ms": 61.14539999999761,
+      "tok": 1075
+    },
+    {
+      "eng": "new",
+      "id": "hop3-241",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 66.17599999999948,
+      "tok": 1450
+    },
+    {
+      "eng": "new",
+      "id": "hop3-242",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 71.5609000000004,
+      "tok": 1386
+    },
+    {
+      "eng": "old",
+      "id": "hop3-242",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": false,
+      "first": null,
+      "ms": 64.22999999999956,
+      "tok": 947
+    },
+    {
+      "eng": "old",
+      "id": "hop3-243",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": false,
+      "first": null,
+      "ms": 60.18839999999909,
+      "tok": 1075
+    },
+    {
+      "eng": "new",
+      "id": "hop3-243",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 63.2055999999975,
+      "tok": 1149
+    },
+    {
+      "eng": "new",
+      "id": "hop3-244",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 59.32449999999881,
+      "tok": 1254
+    },
+    {
+      "eng": "old",
+      "id": "hop3-244",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 58.013199999997596,
+      "tok": 1027
+    },
+    {
+      "eng": "old",
+      "id": "hop3-245",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 60.10310000000027,
+      "tok": 1147
+    },
+    {
+      "eng": "new",
+      "id": "hop3-245",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 61.63680000000022,
+      "tok": 1547
+    },
+    {
+      "eng": "new",
+      "id": "hop3-246",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 59.597900000000664,
+      "tok": 1451
+    },
+    {
+      "eng": "old",
+      "id": "hop3-246",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 56.627800000002026,
+      "tok": 1023
+    },
+    {
+      "eng": "old",
+      "id": "hop3-247",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": false,
+      "first": null,
+      "ms": 58.436499999999796,
+      "tok": 1217
+    },
+    {
+      "eng": "new",
+      "id": "hop3-247",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 62.680600000003324,
+      "tok": 1419
+    },
+    {
+      "eng": "new",
+      "id": "hop3-248",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 65.05630000000019,
+      "tok": 1444
+    },
+    {
+      "eng": "old",
+      "id": "hop3-248",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": false,
+      "first": null,
+      "ms": 63.20969999999943,
+      "tok": 1151
+    },
+    {
+      "eng": "old",
+      "id": "hop3-249",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 65.38490000000093,
+      "tok": 1247
+    },
+    {
+      "eng": "new",
+      "id": "hop3-249",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 58.332000000002154,
+      "tok": 1525
+    },
+    {
+      "eng": "new",
+      "id": "hop3-250",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 59.586999999999534,
+      "tok": 1505
+    },
+    {
+      "eng": "old",
+      "id": "hop3-250",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 54.102999999999156,
+      "tok": 1117
+    },
+    {
+      "eng": "old",
+      "id": "hop3-251",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": false,
+      "first": null,
+      "ms": 59.808099999998376,
+      "tok": 1003
+    },
+    {
+      "eng": "new",
+      "id": "hop3-251",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 61.78889999999956,
+      "tok": 1371
+    },
+    {
+      "eng": "new",
+      "id": "hop3-252",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 59.5625,
+      "tok": 1463
+    },
+    {
+      "eng": "old",
+      "id": "hop3-252",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 57.27530000000115,
+      "tok": 1135
+    },
+    {
+      "eng": "old",
+      "id": "hop3-253",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 64.35779999999795,
+      "tok": 1257
+    },
+    {
+      "eng": "new",
+      "id": "hop3-253",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 63.84200000000055,
+      "tok": 1494
+    },
+    {
+      "eng": "new",
+      "id": "hop3-254",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 67.78629999999976,
+      "tok": 1533
+    },
+    {
+      "eng": "old",
+      "id": "hop3-254",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": false,
+      "first": null,
+      "ms": 61.664600000000064,
+      "tok": 1456
+    },
+    {
+      "eng": "old",
+      "id": "hop3-255",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 57.900799999999435,
+      "tok": 1088
+    },
+    {
+      "eng": "new",
+      "id": "hop3-255",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 70.90330000000176,
+      "tok": 1477
+    },
+    {
+      "eng": "new",
+      "id": "hop3-256",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 63.994299999998475,
+      "tok": 1499
+    },
+    {
+      "eng": "old",
+      "id": "hop3-256",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": false,
+      "first": null,
+      "ms": 60.95079999999871,
+      "tok": 1097
+    },
+    {
+      "eng": "old",
+      "id": "hop3-257",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": false,
+      "first": null,
+      "ms": 64.09769999999844,
+      "tok": 1085
+    },
+    {
+      "eng": "new",
+      "id": "hop3-257",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 58.896199999999226,
+      "tok": 1241
+    },
+    {
+      "eng": "new",
+      "id": "hop3-258",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 60.955799999999726,
+      "tok": 1540
+    },
+    {
+      "eng": "old",
+      "id": "hop3-258",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": false,
+      "first": null,
+      "ms": 56.69260000000213,
+      "tok": 1002
+    },
+    {
+      "eng": "old",
+      "id": "hop3-259",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": false,
+      "first": null,
+      "ms": 55.4207000000024,
+      "tok": 1245
+    },
+    {
+      "eng": "new",
+      "id": "hop3-259",
+      "cat": "multihop3",
+      "kind": "multihop3",
+      "hit": true,
+      "first": null,
+      "ms": 60.2361000000019,
+      "tok": 1379
+    },
+    {
+      "eng": "new",
+      "id": "updrec-260",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 43.03719999999885,
+      "tok": 1456
+    },
+    {
+      "eng": "old",
+      "id": "updrec-260",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 42.52950000000055,
+      "tok": 1131
+    },
+    {
+      "eng": "old",
+      "id": "updrec-261",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 41.031700000003184,
+      "tok": 820
+    },
+    {
+      "eng": "new",
+      "id": "updrec-261",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 45.178100000000995,
+      "tok": 1072
+    },
+    {
+      "eng": "new",
+      "id": "updrec-262",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 45.60330000000249,
+      "tok": 1073
+    },
+    {
+      "eng": "old",
+      "id": "updrec-262",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 41.49380000000019,
+      "tok": 813
+    },
+    {
+      "eng": "old",
+      "id": "updrec-263",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 52.89340000000084,
+      "tok": 941
+    },
+    {
+      "eng": "new",
+      "id": "updrec-263",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 42.38350000000355,
+      "tok": 1425
+    },
+    {
+      "eng": "new",
+      "id": "updrec-264",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 47.027100000002974,
+      "tok": 1185
+    },
+    {
+      "eng": "old",
+      "id": "updrec-264",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 54.61559999999736,
+      "tok": 845
+    },
+    {
+      "eng": "old",
+      "id": "updrec-265",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 49.05789999999979,
+      "tok": 1180
+    },
+    {
+      "eng": "new",
+      "id": "updrec-265",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 46.07010000000082,
+      "tok": 1251
+    },
+    {
+      "eng": "new",
+      "id": "updrec-266",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 48.10859999999957,
+      "tok": 1155
+    },
+    {
+      "eng": "old",
+      "id": "updrec-266",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 41.486800000002404,
+      "tok": 811
+    },
+    {
+      "eng": "old",
+      "id": "updrec-267",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 50.677700000000186,
+      "tok": 988
+    },
+    {
+      "eng": "new",
+      "id": "updrec-267",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 49.15629999999874,
+      "tok": 1248
+    },
+    {
+      "eng": "new",
+      "id": "updrec-268",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 47.188500000000204,
+      "tok": 1224
+    },
+    {
+      "eng": "old",
+      "id": "updrec-268",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 53.03779999999824,
+      "tok": 1141
+    },
+    {
+      "eng": "old",
+      "id": "updrec-269",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 53.68669999999838,
+      "tok": 960
+    },
+    {
+      "eng": "new",
+      "id": "updrec-269",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 43.65450000000055,
+      "tok": 1103
+    },
+    {
+      "eng": "new",
+      "id": "updrec-270",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 43.044300000001385,
+      "tok": 1380
+    },
+    {
+      "eng": "old",
+      "id": "updrec-270",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 42.94510000000082,
+      "tok": 1095
+    },
+    {
+      "eng": "old",
+      "id": "updrec-271",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 52.91609999999855,
+      "tok": 1202
+    },
+    {
+      "eng": "new",
+      "id": "updrec-271",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 45.56619999999748,
+      "tok": 1098
+    },
+    {
+      "eng": "new",
+      "id": "updrec-272",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 44.11379999999917,
+      "tok": 1221
+    },
+    {
+      "eng": "old",
+      "id": "updrec-272",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 54.89940000000206,
+      "tok": 961
+    },
+    {
+      "eng": "old",
+      "id": "updrec-273",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 45.53610000000117,
+      "tok": 968
+    },
+    {
+      "eng": "new",
+      "id": "updrec-273",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 45.68699999999808,
+      "tok": 1321
+    },
+    {
+      "eng": "new",
+      "id": "updrec-274",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 46.99209999999948,
+      "tok": 1562
+    },
+    {
+      "eng": "old",
+      "id": "updrec-274",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 45.40839999999662,
+      "tok": 1226
+    },
+    {
+      "eng": "old",
+      "id": "updrec-275",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 53.4333000000006,
+      "tok": 1016
+    },
+    {
+      "eng": "new",
+      "id": "updrec-275",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 45.449100000001636,
+      "tok": 1172
+    },
+    {
+      "eng": "new",
+      "id": "updrec-276",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 45.35150000000067,
+      "tok": 1171
+    },
+    {
+      "eng": "old",
+      "id": "updrec-276",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 46.10619999999835,
+      "tok": 915
+    },
+    {
+      "eng": "old",
+      "id": "updrec-277",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 42.43790000000081,
+      "tok": 1227
+    },
+    {
+      "eng": "new",
+      "id": "updrec-277",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 43.02179999999862,
+      "tok": 1366
+    },
+    {
+      "eng": "new",
+      "id": "updrec-278",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 43.818299999999,
+      "tok": 1099
+    },
+    {
+      "eng": "old",
+      "id": "updrec-278",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 53.71549999999843,
+      "tok": 1152
+    },
+    {
+      "eng": "old",
+      "id": "updrec-279",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 42.56260000000111,
+      "tok": 1049
+    },
+    {
+      "eng": "new",
+      "id": "updrec-279",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 44.8211999999985,
+      "tok": 1168
+    },
+    {
+      "eng": "new",
+      "id": "updrec-280",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 45.24510000000009,
+      "tok": 1308
+    },
+    {
+      "eng": "old",
+      "id": "updrec-280",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 51.04139999999825,
+      "tok": 1016
+    },
+    {
+      "eng": "old",
+      "id": "updrec-281",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 61.93830000000162,
+      "tok": 1076
+    },
+    {
+      "eng": "new",
+      "id": "updrec-281",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 46.97030000000086,
+      "tok": 1453
+    },
+    {
+      "eng": "new",
+      "id": "updrec-282",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 43.71780000000217,
+      "tok": 1518
+    },
+    {
+      "eng": "old",
+      "id": "updrec-282",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 42.27059999999983,
+      "tok": 1098
+    },
+    {
+      "eng": "old",
+      "id": "updrec-283",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 52.28659999999945,
+      "tok": 1119
+    },
+    {
+      "eng": "new",
+      "id": "updrec-283",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 46.37830000000031,
+      "tok": 1241
+    },
+    {
+      "eng": "new",
+      "id": "updrec-284",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 49.04689999999755,
+      "tok": 1242
+    },
+    {
+      "eng": "old",
+      "id": "updrec-284",
+      "cat": "update_record",
+      "kind": "update_record",
+      "hit": true,
+      "first": true,
+      "ms": 53.65889999999854,
+      "tok": 1265
+    },
+    {
+      "eng": "old",
+      "id": "updconv-285",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": false,
+      "ms": 44.364300000001094,
+      "tok": 1103
+    },
+    {
+      "eng": "new",
+      "id": "updconv-285",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": true,
+      "ms": 42.85979999999836,
+      "tok": 1213
+    },
+    {
+      "eng": "new",
+      "id": "updconv-286",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": true,
+      "ms": 42.96399999999994,
+      "tok": 1120
+    },
+    {
+      "eng": "old",
+      "id": "updconv-286",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": false,
+      "ms": 44.4207000000024,
+      "tok": 983
+    },
+    {
+      "eng": "old",
+      "id": "updconv-287",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": false,
+      "ms": 44.232599999999366,
+      "tok": 1033
+    },
+    {
+      "eng": "new",
+      "id": "updconv-287",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": true,
+      "ms": 45.498999999999796,
+      "tok": 1071
+    },
+    {
+      "eng": "new",
+      "id": "updconv-288",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": true,
+      "ms": 44.84269999999742,
+      "tok": 970
+    },
+    {
+      "eng": "old",
+      "id": "updconv-288",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": false,
+      "ms": 41.072800000001735,
+      "tok": 777
+    },
+    {
+      "eng": "old",
+      "id": "updconv-289",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": false,
+      "ms": 44.79989999999816,
+      "tok": 725
+    },
+    {
+      "eng": "new",
+      "id": "updconv-289",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": true,
+      "ms": 45.96249999999782,
+      "tok": 1021
+    },
+    {
+      "eng": "new",
+      "id": "updconv-290",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": true,
+      "ms": 43.14760000000024,
+      "tok": 1352
+    },
+    {
+      "eng": "old",
+      "id": "updconv-290",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": false,
+      "ms": 43.40009999999893,
+      "tok": 1084
+    },
+    {
+      "eng": "old",
+      "id": "updconv-291",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": false,
+      "ms": 40.95520000000033,
+      "tok": 1264
+    },
+    {
+      "eng": "new",
+      "id": "updconv-291",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": true,
+      "ms": 42.27629999999772,
+      "tok": 1432
+    },
+    {
+      "eng": "new",
+      "id": "updconv-292",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": true,
+      "ms": 45.786299999999756,
+      "tok": 1511
+    },
+    {
+      "eng": "old",
+      "id": "updconv-292",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": false,
+      "ms": 44.176799999997456,
+      "tok": 1224
+    },
+    {
+      "eng": "old",
+      "id": "updconv-293",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": false,
+      "ms": 41.82920000000013,
+      "tok": 1067
+    },
+    {
+      "eng": "new",
+      "id": "updconv-293",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": true,
+      "ms": 44.384399999999005,
+      "tok": 1256
+    },
+    {
+      "eng": "new",
+      "id": "updconv-294",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": true,
+      "ms": 43.82389999999941,
+      "tok": 1213
+    },
+    {
+      "eng": "old",
+      "id": "updconv-294",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": false,
+      "ms": 40.66189999999915,
+      "tok": 1174
+    },
+    {
+      "eng": "old",
+      "id": "updconv-295",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": false,
+      "ms": 40.20130000000063,
+      "tok": 1141
+    },
+    {
+      "eng": "new",
+      "id": "updconv-295",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": true,
+      "ms": 44.776599999997416,
+      "tok": 1283
+    },
+    {
+      "eng": "new",
+      "id": "updconv-296",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": true,
+      "ms": 42.671800000000076,
+      "tok": 996
+    },
+    {
+      "eng": "old",
+      "id": "updconv-296",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": false,
+      "ms": 44.143199999998615,
+      "tok": 916
+    },
+    {
+      "eng": "old",
+      "id": "updconv-297",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": false,
+      "ms": 41.50600000000122,
+      "tok": 1031
+    },
+    {
+      "eng": "new",
+      "id": "updconv-297",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": true,
+      "ms": 43.63060000000041,
+      "tok": 1331
+    },
+    {
+      "eng": "new",
+      "id": "updconv-298",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": true,
+      "ms": 45.082000000002154,
+      "tok": 1229
+    },
+    {
+      "eng": "old",
+      "id": "updconv-298",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": false,
+      "ms": 42.56170000000202,
+      "tok": 1122
+    },
+    {
+      "eng": "old",
+      "id": "updconv-299",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": false,
+      "ms": 40.6153000000013,
+      "tok": 1159
+    },
+    {
+      "eng": "new",
+      "id": "updconv-299",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": true,
+      "ms": 46.36590000000069,
+      "tok": 1323
+    },
+    {
+      "eng": "new",
+      "id": "updconv-300",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": true,
+      "ms": 48.00240000000122,
+      "tok": 1316
+    },
+    {
+      "eng": "old",
+      "id": "updconv-300",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": false,
+      "ms": 47.47059999999692,
+      "tok": 1078
+    },
+    {
+      "eng": "old",
+      "id": "updconv-301",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": false,
+      "ms": 44.40490000000136,
+      "tok": 1059
+    },
+    {
+      "eng": "new",
+      "id": "updconv-301",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": true,
+      "ms": 42.398700000001554,
+      "tok": 1067
+    },
+    {
+      "eng": "new",
+      "id": "updconv-302",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": true,
+      "ms": 54.069400000000314,
+      "tok": 1215
+    },
+    {
+      "eng": "old",
+      "id": "updconv-302",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": false,
+      "ms": 41.96450000000186,
+      "tok": 979
+    },
+    {
+      "eng": "old",
+      "id": "updconv-303",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": false,
+      "ms": 42.39229999999952,
+      "tok": 834
+    },
+    {
+      "eng": "new",
+      "id": "updconv-303",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": true,
+      "ms": 45.53229999999894,
+      "tok": 1075
+    },
+    {
+      "eng": "new",
+      "id": "updconv-304",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": true,
+      "ms": 45.245200000001205,
+      "tok": 1293
+    },
+    {
+      "eng": "old",
+      "id": "updconv-304",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": false,
+      "ms": 41.84470000000147,
+      "tok": 1215
+    },
+    {
+      "eng": "old",
+      "id": "updconv-305",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": false,
+      "ms": 40.52619999999661,
+      "tok": 1209
+    },
+    {
+      "eng": "new",
+      "id": "updconv-305",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": true,
+      "ms": 44.88009999999849,
+      "tok": 1292
+    },
+    {
+      "eng": "new",
+      "id": "updconv-306",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": true,
+      "ms": 44.996900000001915,
+      "tok": 791
+    },
+    {
+      "eng": "old",
+      "id": "updconv-306",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": false,
+      "ms": 44.42109999999957,
+      "tok": 775
+    },
+    {
+      "eng": "old",
+      "id": "updconv-307",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": false,
+      "ms": 41.04139999999825,
+      "tok": 1169
+    },
+    {
+      "eng": "new",
+      "id": "updconv-307",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": true,
+      "ms": 44.05349999999817,
+      "tok": 1332
+    },
+    {
+      "eng": "new",
+      "id": "updconv-308",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": true,
+      "ms": 42.39280000000144,
+      "tok": 1196
+    },
+    {
+      "eng": "old",
+      "id": "updconv-308",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": false,
+      "ms": 41.39570000000094,
+      "tok": 1254
+    },
+    {
+      "eng": "old",
+      "id": "updconv-309",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": true,
+      "ms": 44.702699999998,
+      "tok": 927
+    },
+    {
+      "eng": "new",
+      "id": "updconv-309",
+      "cat": "update_conversation",
+      "kind": "update_conversation",
+      "hit": true,
+      "first": true,
+      "ms": 44.86230000000069,
+      "tok": 1138
+    }
+  ]
+}

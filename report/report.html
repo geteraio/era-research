@@ -1,0 +1,554 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Era Brain Technical Report</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=block">
+<style>
+@page{size:A4;margin:0}
+*{box-sizing:border-box}
+:root{--ink:#111;--mut:#555;--hair:#d6d6d6;--soft:#f3f3f3;--leak:#c0262d;
+  --serif:"Source Serif 4","Source Serif Pro","IBM Plex Serif",Georgia,"Times New Roman",serif;
+  --sans:"IBM Plex Sans","Helvetica Neue",Arial,sans-serif;
+  --mono:"IBM Plex Mono",Consolas,"Courier New",monospace}
+html,body{margin:0;background:#fff;color:var(--ink)}
+p{margin:0}
+body{font-family:var(--serif);font-size:9.6pt;line-height:1.42;-webkit-print-color-adjust:exact;print-color-adjust:exact;font-variant-numeric:lining-nums}
+@media screen{body{background:#e6e6e6;padding:8px 0}.page{margin:0 auto 10px;box-shadow:0 0 0 1px #cfcfcf}}
+body.shot{padding:0;background:#fff}body.shot .page{margin:0;box-shadow:none}
+.page{width:210mm;height:297mm;padding:12mm 19mm 10mm;display:flex;flex-direction:column;background:#fff;break-after:page;page-break-after:always;overflow:hidden;position:relative}
+.page:last-child{break-after:auto;page-break-after:auto}
+.rh{flex:none;display:flex;justify-content:space-between;align-items:center;font-family:var(--sans);font-size:7.2pt;color:var(--mut);border-bottom:.6pt solid var(--ink);padding-bottom:1.4mm;margin-bottom:5mm;height:6.4mm}
+.rh .l{display:flex;gap:2mm;align-items:center;color:var(--ink)}
+.rh svg{width:3.4mm;height:3.4mm;display:block}
+.rh.first{border-bottom:0;visibility:hidden;margin-bottom:0;height:0;padding:0}
+.content{flex:1 1 auto;display:flex;flex-direction:column;overflow:hidden;min-height:0}
+.main{flex:none;display:flex;flex-direction:column}
+.main>*{margin:0 0 2.3mm}
+.fns{flex:none;margin-top:auto;padding-top:2mm;font-size:7.3pt;line-height:1.36;display:flex;flex-direction:column;gap:.8mm}
+.fns:empty{display:none}
+.fns::before{content:"";display:block;width:32%;border-top:.5pt solid var(--ink);margin-bottom:1mm}
+.fns p{margin:0;text-align:justify;hyphens:auto}
+.fns sup{font-size:.75em;margin-right:.3em}
+.rf{flex:none;display:flex;justify-content:space-between;font-family:var(--sans);font-size:7.2pt;color:var(--mut);margin-top:3.5mm;height:4mm}
+p.para{text-align:justify;hyphens:auto}
+.main>p.para+p.para:not(.cont){text-indent:1.4em}
+h2.sec{font-size:12.2pt;font-weight:700;margin:3mm 0 2mm;letter-spacing:-.005em}
+h3.sub{font-size:10.2pt;font-weight:600;margin:2mm 0 1.3mm}
+.main>h2.sec:first-child,.main>h3.sub:first-child{margin-top:0}
+ol.lst,ul.lst{padding-left:5mm;display:flex;flex-direction:column;gap:1mm}
+ol.lst li,ul.lst li{text-align:justify;hyphens:auto}
+ol.steps{list-style:none;padding:0;display:flex;flex-direction:column;gap:1.2mm}
+ol.steps li{display:grid;grid-template-columns:5.4mm 1fr;text-align:justify;hyphens:auto}
+ol.steps li>i{font-style:normal;font-family:var(--sans);font-size:7.3pt;font-weight:600;width:3.8mm;height:3.8mm;border-radius:1mm;background:var(--ink);color:#fff;display:flex;align-items:center;justify-content:center;margin-top:.75mm}
+figure{margin:1mm 0 3.2mm}
+figure svg{display:block;width:100%;height:auto;font-family:var(--sans)}
+figcaption,.tcap{font-family:var(--sans);font-size:7.7pt;line-height:1.38;color:#222;text-align:justify;hyphens:auto}
+figcaption{margin-top:1.6mm}
+.tcap{margin-bottom:1.6mm}
+figcaption b,.tcap b{font-weight:600}
+.tblock{margin:1mm 0 3.2mm}
+table.bt{border-collapse:collapse;width:100%;font-family:var(--sans);font-size:7.5pt;line-height:1.3;border-top:1pt solid var(--ink);border-bottom:1pt solid var(--ink)}
+.bt th{font-weight:600;text-align:left;border-bottom:.5pt solid var(--ink);padding:1.2mm 1.5mm;vertical-align:bottom}
+.bt td{padding:1mm 1.5mm;vertical-align:top;border-bottom:.3pt solid #e2e2e2}
+.bt tr:last-child td{border-bottom:0}
+.bt td.n,.bt th.n{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.bt td.c,.bt th.c{text-align:center}
+.bt code,.mono{font-family:var(--mono);font-size:6.9pt}
+.bt tr.era td{font-weight:600}
+.pend{font-family:var(--sans);font-size:.82em;font-weight:500;font-style:normal;color:#555;background:repeating-linear-gradient(135deg,#ececec 0 3px,#f8f8f8 3px 6px);border:.6pt dashed #8f8f8f;border-radius:2px;padding:0 .35em;white-space:nowrap;letter-spacing:0}
+sup.fnref{font-size:.68em;line-height:0;font-family:var(--sans);margin-left:.05em}
+.cite{white-space:nowrap}
+code{font-family:var(--mono);font-size:.86em}
+/* title block */
+.tb{display:flex;flex-direction:column;gap:2.2mm;margin-bottom:4mm;padding-bottom:4mm;border-bottom:.6pt solid var(--ink)}
+.tb .top{display:flex;justify-content:space-between;align-items:center;font-family:var(--sans);font-size:7.6pt;color:var(--mut)}
+.tb .top .l{display:flex;align-items:center;gap:2.2mm;color:var(--ink);font-weight:600;font-size:8.2pt}
+.tb .top svg{width:6mm;height:6mm;display:block}
+.tb h1{font-size:17.5pt;line-height:1.18;font-weight:700;margin:3mm 0 0;letter-spacing:-.01em}
+.tb .au{font-size:10.5pt;font-weight:600}
+.tb .meta{font-family:var(--sans);font-size:7.8pt;color:var(--mut);display:flex;gap:3mm;flex-wrap:wrap;align-items:center}
+.abs{margin:0 7mm 3.5mm;font-size:8.9pt;line-height:1.4}
+.abs h4{font-size:9.6pt;margin:0 0 1mm;text-align:center;font-weight:700}
+.abs p{margin:0;text-align:justify;hyphens:auto}
+/* kpis */
+.kpis{display:grid;grid-template-columns:repeat(3,1fr);border-top:1pt solid var(--ink);border-bottom:1pt solid var(--ink);font-family:var(--sans)}
+.kpi{padding:2.4mm 2.6mm 2.6mm;border-right:.4pt solid #d9d9d9;border-bottom:.4pt solid #d9d9d9;display:flex;flex-direction:column;gap:.6mm}
+.kpi:nth-child(3n){border-right:0}.kpi:nth-last-child(-n+3){border-bottom:0}
+.kpi .t{font-size:7.4pt;font-weight:600}
+.kpi .v{font-family:var(--mono);font-size:16pt;font-weight:500;line-height:1.1;font-variant-numeric:tabular-nums}
+.kpi .v .pend{font-size:9pt;vertical-align:middle;padding:.4mm 1.6mm}
+.kpi .s{font-size:6.9pt;color:var(--mut);line-height:1.3}
+.refs{display:flex;flex-direction:column;gap:1.3mm;font-size:8pt;line-height:1.36}
+.refs .r{display:grid;grid-template-columns:7mm 1fr}
+.refs .u{font-family:var(--mono);font-size:6.8pt;color:#333;word-break:break-all}
+.refs .a{color:var(--mut);font-size:7.2pt}
+.sym{display:inline-block;vertical-align:-1px}
+</style>
+</head>
+<body>
+<script id="data" type="application/json">/*DATA*/</script>
+<script>
+(async function(){
+"use strict";
+/* ---------- data ---------- */
+let DATA=null;
+const raw=document.getElementById('data').textContent.trim();
+if(raw && raw!=='/*DATA*/'){DATA=JSON.parse(raw)}else{DATA=await (await fetch('data.json')).json()}
+const qs=new URLSearchParams(location.search);
+const LANG=(window.LANG||qs.get('lang')||'en')==='tr'?'tr':'en';
+document.documentElement.lang=LANG;
+const L=DATA[LANG], NUM=DATA.num, META=DATA.meta;
+const S=k=>{if(!(k in L))throw new Error('string '+k);return L[k]};
+
+/* ---------- numbers ---------- */
+function grp(i,sep){return i.replace(/\B(?=(\d{3})+(?!\d))/g,sep)}
+function fnum(v,d){d=d||0;const neg=v<0;let [i,f]=Math.abs(v).toFixed(d).split('.');i=grp(i,LANG==='tr'?'.':',');return (neg?'-':'')+i+(f?(LANG==='tr'?',':'.')+f:'')}
+function pct(v,d){return LANG==='tr'?'%'+fnum(v,d):fnum(v,d)+'%'}
+function val(key){const e=NUM[key];if(!e)throw new Error('num '+key);
+  if(e.calc==='div'){const a=val(e.a),b=val(e.b);return a==null||b==null?null:a/b}
+  if(e.calc==='sum'){let s=0;for(const k of e.keys){const v=val(k);if(v==null)return null;s+=v}return s}
+  return e.v}
+function cval(key){const v=val(key);if(v==null)return null;return NUM[key].u==='frac'?v[0]/v[1]*100:v}
+const PEND_H=()=>`<span class="pend">${S('pending')}</span>`;
+function fmt(key,mode,plain){const e=NUM[key];if(!e)throw new Error('num '+key);const v=val(key);
+  if(v==null)return plain?S('pending'):PEND_H();
+  const u=e.u,d=e.d!=null?e.d:(u==='%'?1:0);
+  if(u==='frac'){if(mode==='pct')return pct(v[0]/v[1]*100,e.d!=null?e.d:1);if(mode==='fp')return fnum(v[0])+'/'+fnum(v[1])+' · '+pct(v[0]/v[1]*100,0);return fnum(v[0])+'/'+fnum(v[1])}
+  if(u==='%')return pct(v,d);
+  if(u==='ms')return fnum(v,d)+' ms';
+  if(u==='x')return LANG==='tr'?fnum(v,d)+' kat':fnum(v,d)+'×';
+  return fnum(v,d)}
+function fdate(s){if(!s)return '';const [y,m]=s.split('-');return S('months')[+m-1]+' '+y}
+let pendingCount=0;for(const k in NUM){if(!NUM[k].calc&&NUM[k].v==null)pendingCount++}
+for(const k of ['qa_reader','qa_judge'])if(META[k]==null)pendingCount++;
+
+/* ---------- numbering ---------- */
+const FIGS=['arch','read','ex','perm','hops','qa','ret','biz','mh','tok','lat','leak'];
+const TABS=['kpi','data','abl','cap','pub'];
+const figNo=id=>{const i=FIGS.indexOf(id);if(i<0)throw new Error('fig '+id);return i+1};
+const tabNo=id=>{if(id==='ev')return 'A1';const i=TABS.indexOf(id);if(i<0)throw new Error('tab '+id);return i+1};
+const citeOrder=[];const refByKey=Object.fromEntries(DATA.refs.map(r=>[r.key,r]));
+function citeNo(k){if(!refByKey[k])throw new Error('ref '+k);let i=citeOrder.indexOf(k);if(i<0){citeOrder.push(k);i=citeOrder.length-1}return i+1}
+const fnOrder=[];function fnNo(k){let i=fnOrder.indexOf(k);if(i<0){fnOrder.push(k);i=fnOrder.length-1}return i+1}
+
+/* ---------- templating ---------- */
+function T(s,plain){
+  let out=s.replace(/\{(n|r|c|f|t|fn|m):([^}]+)\}|\{k\}/g,(m0,kind,arg)=>{
+    if(!kind)return String(pendingCount);
+    if(kind==='n'){const [k,mode]=arg.split('|');return fmt(k,mode,plain)}
+    if(kind==='r'){const [a,b]=arg.split(',');const va=val(a),vb=val(b);
+      if(va==null||vb==null)return plain?S('pending'):PEND_H();
+      return fnum(va,NUM[a].d||0)+'–'+fnum(vb,NUM[b].d||0)+' ms'}
+    if(kind==='c'){const ns=arg.split(',').map(x=>citeNo(x.trim()));return plain?'['+ns.join(', ')+']':`<span class="cite">[${ns.join(', ')}]</span>`}
+    if(kind==='f')return S('fig')+' '+figNo(arg);
+    if(kind==='t')return S('tab')+' '+tabNo(arg);
+    if(kind==='fn'){if(plain)return '';const n=fnNo(arg);return `<sup class="fnref" data-fn="${arg}">${n}</sup>`}
+    if(kind==='m'){const v=META[arg];return v==null?(plain?S('pending'):PEND_H()):String(v)}
+  });
+  if(plain)out=out.replace(/<[^>]+>/g,'');
+  return out}
+const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+const PT=k=>esc(T(S(k),true));
+
+/* ---------- svg helpers ---------- */
+const C={era:'#111',base:'#5e5e5e',p26:'#9d9d9d',p25:'#cfcfcf',leak:'#c0262d',grid:'#e3e3e3',mut:'#666',line:'#111'};
+function tlen(s,fs,mono){return String(s).length*fs*(mono?0.6:0.54)}
+function tx(x,y,s,o){o=o||{};return `<text x="${x}" y="${y}" font-size="${o.fs||9}"${o.w?` font-weight="${o.w}"`:''} fill="${o.fill||'#111'}"${o.anchor?` text-anchor="${o.anchor}"`:''}${o.it?' font-style="italic"':''}${o.mono?' font-family="IBM Plex Mono, Consolas, monospace"':''}${o.ls?` letter-spacing="${o.ls}"`:''}>${s}</text>`}
+function wrap(s,width,fs){const words=String(s).split(/\s+/);const lines=[];let cur='';for(const w of words){const t=cur?cur+' '+w:w;if(tlen(t,fs)>width&&cur){lines.push(cur);cur=w}else cur=t}if(cur)lines.push(cur);return lines}
+function txw(x,y,s,width,fs,lh,o){const ls=wrap(s,width,fs);return ls.map((l,i)=>tx(x,y+i*lh,esc(l),Object.assign({fs},o||{}))).join('')}
+function svg(W,H,inner){return `<svg viewBox="0 0 ${W} ${H.toFixed(1)}" xmlns="http://www.w3.org/2000/svg" role="img">${inner}</svg>`}
+function arrow(x1,y1,x2,y2,o){o=o||{};const a=Math.atan2(y2-y1,x2-x1),s=o.head||4.5;
+  const hx=x2-s*Math.cos(a-0.45),hy=y2-s*Math.sin(a-0.45),kx=x2-s*Math.cos(a+0.45),ky=y2-s*Math.sin(a+0.45);
+  return `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="${o.c||'#111'}" stroke-width="${o.sw||.9}"${o.dash?` stroke-dasharray="${o.dash}"`:''}/><path d="M${x2} ${y2} L${hx} ${hy} L${kx} ${ky} Z" fill="${o.c||'#111'}"/>`}
+function marker(x,y,st){const r=3.4;
+  if(st==='full')return `<circle cx="${x}" cy="${y}" r="${r}" fill="#111"/>`;
+  if(st==='half')return `<circle cx="${x}" cy="${y}" r="${r}" fill="#fff" stroke="#111" stroke-width=".8"/><path d="M${x} ${y-r} A${r} ${r} 0 0 0 ${x} ${y+r} Z" fill="#111"/>`;
+  return `<circle cx="${x}" cy="${y}" r="${r}" fill="#fff" stroke="#111" stroke-width=".8"/>`}
+function symHtml(st){const m={y:'full',p:'half',n:'none'}[st];if(!m)return `<span style="font-weight:600;color:#666">?</span>`;
+  return `<svg class="sym" width="9" height="9" viewBox="0 0 9 9">${marker(4.5,4.5,m).replace(/r="3.4"/g,'r="3.6"')}</svg>`}
+const LOGO=`<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-label="Era"><rect width="100" height="100" rx="23" fill="#0B0B10"/><path transform="translate(19 19) scale(0.62)" fill="#fff" d="M42 4h16c10 0 18 8 18 18v20H62c-7 0-12-5-12-12V18h-8zM96 42v16c0 10-8 18-18 18H58V62c0-7 5-12 12-12h12v-8zM58 96H42c-10 0-18-8-18-18V58h14c7 0 12 5 12 12v12h8zM4 58V42c0-10 8-18 18-18h20v14c0 7-5 12-12 12H18v8z"/></svg>`;
+function box(x,y,w,h,o){let s=`<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="3.5" fill="${o.fill||'#fff'}" stroke="${o.stroke||'#111'}" stroke-width="${o.sw||.8}"${o.dash?' stroke-dasharray="3.5 2.5"':''}/>`;
+  const ink=o.ink||'#111',pad=7;
+  if(o.t)s+=tx(x+pad,y+12,esc(o.t),{fs:o.tfs||8.8,w:600,fill:ink});
+  if(o.b)s+=txw(x+pad,y+(o.t?23:13),o.b,w-pad*2-(o.st?6:0),o.bfs||7.7,9.4,{fill:o.bink||(o.fill&&o.fill!=='#fff'&&o.ink==='#fff'?'#d0d0d0':'#555')});
+  if(o.st)s+=marker(x+w-7,y+8,o.st);
+  if(o.llm){s+=`<rect x="${x+w-25}" y="${y+h-12}" width="20" height="9" rx="2" fill="#fff" stroke="#111" stroke-width=".6"/>`+tx(x+w-15,y+h-5.2,'LLM',{fs:6.2,w:600,anchor:'middle'})}
+  return s}
+
+/* ---------- generic horizontal bar chart ---------- */
+function hbar(o){
+  const W=640,lw=o.lw!=null?o.lw:190,x0=lw+8,vw=o.vw!=null?o.vw:150,x1=W-vw,tw=x1-x0,rh=o.rh||15,bh=o.bh||9;
+  let y=0,lg='',body='';
+  if(o.legend){let lx=x0;for(const it of o.legend){lg+=`<rect x="${lx}" y="1" width="9" height="8" rx="1.5" fill="${C[it.c]}"${it.dash?' stroke="#8a8a8a" stroke-dasharray="2 1.5" stroke-width=".7"':''}/>`+tx(lx+13,8.5,esc(it.t),{fs:7.8});lx+=13+tlen(it.t,7.8)+14}y=16}
+  const y0=y;
+  for(const r of o.rows){
+    if(r.group){y+=(y===y0?1:6);body+=tx(0,y+8,esc(r.group),{fs:7.8,w:600,fill:'#333',ls:'.02em'});body+=`<line x1="0" x2="${W}" y1="${y+11.5}" y2="${y+11.5}" stroke="#d0d0d0" stroke-width=".5"/>`;y+=14;continue}
+    const v=r.key!=null?cval(r.key):(r.v!==undefined?r.v:null);const cy=y+rh/2;
+    body+=tx(lw,cy+3,esc(r.label),{anchor:'end',fs:8.3,w:r.c==='era'?600:400});
+    if(v==null){body+=`<rect x="${x0}" y="${cy-bh/2}" width="${tw}" height="${bh}" rx="1.5" fill="#f5f5f5" stroke="#8a8a8a" stroke-width=".7" stroke-dasharray="3 2"/>`+tx(x0+5,cy+3,esc(S('pending')),{fs:7.6,it:1,fill:'#555'});
+      if(r.sub)body+=tx(x1+5,cy+3,esc(r.sub),{fs:7.2,fill:'#666'})}
+    else{const cut=v>o.max;const w=Math.max(.9,tw*Math.min(v,o.max)/o.max);
+      body+=`<rect x="${x0}" y="${cy-bh/2}" width="${w.toFixed(2)}" height="${bh}" rx="1.5" fill="${C[r.c||'p26']}"/>`;
+      if(cut){const bx=x0+w-16;body+=`<path d="M${bx} ${cy+bh/2+1.5} l4 ${-bh-3} M${bx+5} ${cy+bh/2+1.5} l4 ${-bh-3}" stroke="#fff" stroke-width="2.2"/>`}
+      const lab=r.vl!=null?r.vl:fmt(r.key,r.mode,true);const lx=x0+w+4;
+      body+=tx(lx,cy+3,esc(lab),{fs:7.9,w:r.c==='era'?600:400,mono:1});
+      if(r.extra)body+=r.extra(lx+tlen(lab,7.9,1)+5,cy+3);
+      if(r.sub)body+=tx(lx+tlen(lab,7.9,1)+6+(r.extraW||0),cy+3,esc(r.sub),{fs:7.1,fill:'#666'})}
+    y+=rh}
+  const yb=y+2;let ax='';
+  for(const t of o.ticks){const x=x0+tw*t/o.max;ax+=`<line x1="${x.toFixed(2)}" x2="${x.toFixed(2)}" y1="${y0}" y2="${yb}" stroke="${C.grid}" stroke-width=".6"/>`+tx(x.toFixed(2),yb+9,esc(o.tf?o.tf(t):fnum(t)),{fs:7.2,anchor:'middle',fill:'#666'})}
+  ax+=`<line x1="${x0}" x2="${x0}" y1="${y0}" y2="${yb}" stroke="#111" stroke-width=".7"/>`;
+  let H=yb+12;if(o.axisLabel){ax+=tx(x0+tw/2,yb+20,esc(o.axisLabel),{fs:7.2,anchor:'middle',fill:'#666'});H+=9}
+  return svg(W,H,lg+ax+body)}
+const pctTick=t=>LANG==='tr'?'%'+t:t+'%';
+
+/* ---------- figures ---------- */
+function figArch(){
+  const W=640,cw=190,g=35,xs=[0,cw+g,2*(cw+g)],top=20,H=236;let s='';
+  const cols=[['a_write',[['a_rec','full',0],['a_ext','half',1],['a_jud','none',1]]],
+    ['a_store',[['a_mem','full',0],['a_ent','full',0],['a_ver','half',0],['a_rls','full',0]]],
+    ['a_read',[['a_hyb','full',0],['a_path','full',0],['a_vis','full',0],['a_ctx','full',0],['a_asof','none',0]]]];
+  cols.forEach(([hk,items],ci)=>{const x=xs[ci];s+=tx(x,11,PT(hk).toLocaleUpperCase(LANG),{fs:7.6,w:600,fill:'#333',ls:'.06em'});
+    const n=items.length,gap=6,h=(H-(n-1)*gap)/n;
+    items.forEach(([k,st,llm],i)=>{const y=top+i*(h+gap);s+=box(x,y,cw,h,{t:T(S(k+'_t'),true),b:T(S(k+'_b'),true),st,llm,fill:ci===1?'#f6f6f6':'#fff'})})});
+  for(let i=0;i<2;i++){const xa=xs[i]+cw+5,xb=xs[i+1]-5,ym=top+H/2;s+=arrow(xa,ym,xb,ym,{sw:1.1,head:5})}
+  const yb=top+H+22;s+=tx(0,yb,PT('a_bg').toLocaleUpperCase(LANG),{fs:7.6,w:600,fill:'#333',ls:'.06em'});
+  s+=`<line x1="${xs[1]+cw/2}" y1="${top+H+3}" x2="${xs[1]+cw/2}" y2="${yb-10}" stroke="#111" stroke-width=".8" stroke-dasharray="2 2"/>`;
+  const bg=[['a_con',1],['a_rel',1],['a_com',0],['a_ont',0],['a_lrn',1]];const bw=(W-4*8)/5;
+  bg.forEach(([k,llm],i)=>{s+=box(i*(bw+8),yb+6,bw,50,{t:T(S(k+'_t'),true),b:T(S(k+'_b'),true),st:'none',llm})});
+  const yd=yb+80;s+=tx(0,yd,PT('a_dec').toLocaleUpperCase(LANG),{fs:7.6,w:600,fill:'#333',ls:'.06em'});
+  [['a_cdg'],['a_log']].forEach(([k],i)=>{s+=box(i*(bw+8),yd+6,bw,44,{t:T(S(k+'_t'),true),b:T(S(k+'_b'),true),st:'none',dash:1})});
+  // legend
+  let lx=2*(bw+8)+14,ly=yd+14;const lg=[['full','lg_full'],['half','lg_half'],['none','lg_none']];
+  lg.forEach(([st,k],i)=>{s+=marker(lx+4,ly+i*13-3,st)+tx(lx+12,ly+i*13,PT(k),{fs:7.6})});
+  const lx2=lx+175;s+=`<rect x="${lx2}" y="${ly-8}" width="14" height="9" rx="2" fill="#fff" stroke="#111" stroke-width=".7" stroke-dasharray="3 2"/>`+tx(lx2+19,ly,PT('lg_dash'),{fs:7.6});
+  s+=`<rect x="${lx2}" y="${ly+5}" width="20" height="9" rx="2" fill="#fff" stroke="#111" stroke-width=".6"/>`+tx(lx2+10,ly+11.8,'LLM',{fs:6.2,w:600,anchor:'middle'})+tx(lx2+25,ly+13,LANG==='tr'?'dil modeli çağırır':'calls a language model',{fs:7.6});
+  return svg(W,yd+54,s)}
+
+function figRead(){
+  const W=640;let s='';const y=34,h=66;
+  s+=box(0,y,64,h,{t:PT('r_q'),fill:'#fff'});
+  s+=tx(7,y+30,'“…?”',{fs:11,fill:'#555'});
+  const sx=78,sw=88,sg=12;
+  for(let i=0;i<5;i++){const x=sx+i*(sw+sg);
+    s+=`<rect x="${x}" y="${y}" width="${sw}" height="${h}" rx="3.5" fill="#fff" stroke="#111" stroke-width=".8"/>`;
+    s+=`<rect x="${x+6}" y="${y+6}" width="11" height="11" rx="2" fill="#111"/>`+tx(x+11.5,y+14.4,String(i+1),{fs:7.4,w:600,fill:'#fff',anchor:'middle'});
+    const tl=wrap(T(S('r'+(i+1)),true),sw-12,8.4).length;s+=txw(x+6,y+28,T(S('r'+(i+1)),true),sw-12,8.4,10,{w:600});
+    s+=txw(x+6,y+28+tl*10+1,T(S('r'+(i+1)+'b'),true),sw-12,7.2,8.6,{fill:'#555'});
+    if(i<4)s+=arrow(x+sw+1,y+h/2,x+sw+sg-1,y+h/2,{head:4})}
+  s+=arrow(64,y+h/2,sx-1,y+h/2,{head:4});
+  const mx=sx+5*(sw+sg)-sg+14;s+=arrow(mx-13,y+h/2,mx-1,y+h/2,{head:4});
+  s+=box(mx,y,W-mx,h,{t:PT('r_m'),fill:'#111',ink:'#fff'});
+  // embedding tag
+  const ex=sx,ew=2*sw+sg;s+=`<rect x="${ex}" y="2" width="${ew}" height="16" rx="3" fill="#f2f2f2" stroke="#777" stroke-width=".6"/>`+tx(ex+ew/2,13,PT('r_emb'),{fs:7.6,anchor:'middle',fill:'#333'});
+  s+=`<line x1="${ex+sw/2}" y1="18" x2="${ex+sw/2}" y2="${y}" stroke="#777" stroke-width=".7"/><line x1="${ex+sw+sg+sw/2}" y1="18" x2="${ex+sw+sg+sw/2}" y2="${y}" stroke="#777" stroke-width=".7"/>`;
+  // visibility band
+  const by=y+h+12,bx=sx,bw=5*sw+4*sg;
+  for(let i=0;i<5;i++){const cx=sx+i*(sw+sg)+sw/2;s+=`<line x1="${cx}" y1="${by}" x2="${cx}" y2="${y+h}" stroke="#111" stroke-width=".8" stroke-dasharray="2 1.6"/>`}
+  s+=`<rect x="${bx}" y="${by}" width="${bw}" height="20" rx="3" fill="#111"/>`+tx(bx+bw/2,by+13,PT('r_vis'),{fs:7.8,anchor:'middle',fill:'#fff',w:500});
+  return svg(W,by+24,s)}
+
+function figEx(){
+  const W=640;let s='';
+  s+=tx(0,12,esc(T(S('ex_q'),true)),{fs:9.4,it:1});
+  const ny=40,nh=36,nw=[118,112,112,122],nx=[0,176,350,518];
+  const kinds=['ex_cust','ex_order','ex_inv','ex_pay'],names=['Kaya Tekstil','SP-1042',`FT-2291`,LANG==='tr'?'18 Eyl, havale':'18 Sep, transfer'];
+  for(let i=0;i<4;i++){const anchor=i===0;
+    s+=`<rect x="${nx[i]}" y="${ny}" width="${nw[i]}" height="${nh}" rx="4" fill="${anchor?'#111':'#fff'}" stroke="#111" stroke-width="${anchor?1:1.2}"/>`;
+    s+=tx(nx[i]+8,ny+13,PT(kinds[i]).toLocaleUpperCase(LANG),{fs:6.8,w:600,fill:anchor?'#cfcfcf':'#666',ls:'.05em'});
+    s+=tx(nx[i]+8,ny+27,esc(names[i]),{fs:9,w:600,fill:anchor?'#fff':'#111'})}
+  s+=tx(nx[0]+nw[0]-6,ny-4,PT('ex_anchor'),{fs:7,anchor:'end',fill:'#555',it:1});
+  const rel=['placed','billed_to','pays'];
+  for(let i=0;i<3;i++){const xa=nx[i]+nw[i],xb=nx[i+1];const ym=ny+nh/2;
+    if(i<2)s+=arrow(xa+2,ym,xb-2,ym,{sw:1.8,head:6});else s+=arrow(xb-2,ym,xa+2,ym,{sw:1.8,head:6});
+    const mx=(xa+xb)/2;s+=tx(mx,ym-6,rel[i],{fs:7.6,anchor:'middle',mono:1});
+    s+=`<circle cx="${mx}" cy="${ym+11}" r="5.2" fill="#fff" stroke="#111" stroke-width=".8"/>`+tx(mx,ym+13.6,String(i+1),{fs:6.8,w:600,anchor:'middle'})}
+  // side branches
+  const ly=ny+nh+44;
+  // older order
+  s+=`<rect x="${nx[1]}" y="${ly}" width="${nw[1]}" height="30" rx="4" fill="#fff" stroke="#b5b5b5" stroke-width=".8"/>`+tx(nx[1]+8,ly+12,PT('ex_order').toLocaleUpperCase(LANG)+' · '+PT('ex_old'),{fs:6.6,fill:'#888',ls:'.03em'})+tx(nx[1]+8,ly+24,'SP-0977',{fs:8.6,fill:'#888'});
+  s+=`<line x1="${nx[0]+nw[0]-20}" y1="${ny+nh}" x2="${nx[1]+14}" y2="${ly}" stroke="#b5b5b5" stroke-width=".9"/>`+tx(nx[1]-6,ly+8,'placed',{fs:7,mono:1,fill:'#999',anchor:'end'});
+  // hidden HR note
+  s+=`<rect x="${nx[0]}" y="${ly}" width="${nw[0]-12}" height="30" rx="4" fill="#f6f6f6" stroke="#8a8a8a" stroke-width=".8" stroke-dasharray="3 2"/>`;
+  s+=`<g transform="translate(${nx[0]+8} ${ly+9})"><rect x="0" y="4" width="8" height="6.5" rx="1" fill="#777"/><path d="M1.6 4.2 V2.6 a2.4 2.4 0 0 1 4.8 0 V4.2" fill="none" stroke="#777" stroke-width="1.1"/></g>`;
+  s+=tx(nx[0]+21,ly+13,PT('ex_hr'),{fs:8.2,fill:'#666',w:600})+tx(nx[0]+21,ly+24,PT('ex_hidden'),{fs:6.8,fill:'#777',it:1});
+  s+=`<line x1="${nx[0]+40}" y1="${ny+nh}" x2="${nx[0]+40}" y2="${ly}" stroke="#9a9a9a" stroke-width=".9" stroke-dasharray="2.5 2"/>`;
+  const cxm=nx[0]+40,cym=(ny+nh+ly)/2;s+=`<circle cx="${cxm}" cy="${cym}" r="5" fill="#fff" stroke="#9a9a9a" stroke-width=".8"/><path d="M${cxm-2.4} ${cym-2.4} l4.8 4.8 M${cxm+2.4} ${cym-2.4} l-4.8 4.8" stroke="#777" stroke-width="1"/>`;
+  // context excerpt
+  const cx=nx[2],cw=W-cx,cy=ly-14;
+  s+=`<rect x="${cx}" y="${cy}" width="${cw}" height="58" rx="3.5" fill="#f4f4f4" stroke="#bdbdbd" stroke-width=".6"/>`;
+  s+=tx(cx+8,cy+12,PT('ex_ctx').toLocaleUpperCase(LANG),{fs:6.8,w:600,fill:'#555',ls:'.05em'});
+  ['ex_ctx1','ex_ctx2','ex_ctx3'].forEach((k,i)=>{s+=tx(cx+8,cy+25+i*11,PT(k),{fs:7,mono:1,fill:'#111'})});
+  return svg(W,ly+46,s)}
+
+function figPerm(){
+  const W=640;let s='';
+  s+=box(0,62,118,64,{t:PT('p_member'),b:T(S('p_member_b'),true)});
+  s+=arrow(119,94,146,94,{head:4.5});
+  const ox=148,oy=4,ow=318,oh=176;
+  s+=`<rect x="${ox}" y="${oy}" width="${ow}" height="${oh}" rx="5" fill="#f4f4f4" stroke="#111" stroke-width=".9"/>`;
+  s+=tx(ox+9,oy+14,PT('p_l1'),{fs:8.8,w:600})+tx(ox+9,oy+26,PT('p_l1b'),{fs:7.4,fill:'#555'});
+  const ix=ox+12,iy=oy+36,iw=ow-24,ih=oh-46;
+  s+=`<rect x="${ix}" y="${iy}" width="${iw}" height="${ih}" rx="4" fill="#fff" stroke="#111" stroke-width=".9"/>`;
+  s+=tx(ix+9,iy+14,PT('p_l2'),{fs:8.8,w:600})+tx(ix+9,iy+26,PT('p_l2b'),{fs:7.4,fill:'#555'});
+  const steps=['p_s1','p_s2','p_s3','p_s4'];const sw=(iw-18-3*8)/4;
+  steps.forEach((k,i)=>{const x=ix+9+i*(sw+8),y=iy+38;s+=`<rect x="${x}" y="${y}" width="${sw}" height="40" rx="3" fill="#111"/>`;
+    s+=txw(x+6,y+14,T(S(k),true),sw-10,7.6,9.2,{fill:'#fff',w:500});
+    if(i<3)s+=arrow(x+sw+.5,y+20,x+sw+7.5,y+20,{head:3.5})});
+  s+=txw(ix+9,iy+ih-22,T(S('p_fc'),true),iw-18,7.3,9,{fill:'#333'});
+  // examples
+  const ex=[['p_ex1',1],['p_ex2',0],['p_ex3',0],['p_ex4',0]];const rx=486;
+  s+=arrow(ox+ow+1,94,rx-4,94,{head:4.5});
+  ex.forEach(([k,ok],i)=>{const y=40+i*28;
+    s+=`<rect x="${rx}" y="${y}" width="${W-rx}" height="22" rx="3" fill="${ok?'#fff':'#f3f3f3'}" stroke="${ok?'#111':'#bdbdbd'}" stroke-width=".8"${ok?'':' stroke-dasharray="3 2"'}/>`;
+    s+=tx(rx+7,y+14.5,PT(k),{fs:7.8,fill:ok?'#111':'#888',w:ok?600:400});
+    s+=tx(W-6,y+14.5,ok?'✓ '+PT('p_keep'):'— '+PT('p_drop'),{fs:7,anchor:'end',fill:ok?'#111':'#888',it:!ok})});
+  s+=tx(0,oy+oh+16,'• '+PT('p_np'),{fs:7.6,fill:'#333'});
+  return svg(W,oy+oh+22,s)}
+
+function figHops(){
+  const W=640;let s='';const rows=[
+    ['h_era',[['h_app'],['h_pg','h_pg_b','dark']],'1','0'],
+    ['h_mem0',[['h_app'],['h_emb','h_emb_sub'],['h_vec','h_ent']],'1–2','0'],
+    ['h_mem0g',[['h_app'],['h_llm_ent',null,'llm'],['h_emb'],['h_vec'],['h_neo']],'4','1'],
+    ['h_graphiti',[['h_app'],['h_emb_api'],['h_graph']],'2','0'],
+    ['h_zep',[['h_app'],['h_zepapi','h_zep_int','ext']],'1 + ?','?'],
+    ['h_sm',[['h_app'],['h_smapi','h_sm_int','ext']],'1 + ?','0'],
+    ['h_letta',[['h_app'],['h_agent',null,'llm'],['h_arch']],'2','≥ 1']];
+  const lw=118,cx1=W-74,cx2=W-24,rh=31;
+  s+=tx(cx1,10,PT('h_hops'),{fs:7.4,w:600,anchor:'middle',fill:'#333'})+tx(cx2,10,PT('h_llm'),{fs:7.4,w:600,anchor:'middle',fill:'#333'});
+  s+=`<line x1="0" x2="${W}" y1="15" y2="15" stroke="#111" stroke-width=".7"/>`;
+  rows.forEach(([nk,boxes,sv,llm],ri)=>{const y=20+ri*rh,cy=y+rh/2-2;
+    s+=tx(0,cy+3,PT(nk),{fs:8.3,w:ri===0?600:500});
+    let x=lw;boxes.forEach(([bk,sub,kind],bi)=>{const t=PT(bk),st=sub?PT(sub):'';
+      let w=Math.max(tlen(T(S(bk),true),8)+16,sub?tlen(T(S(sub),true),6.8)+16:0,36);if(kind==='dark')w=Math.max(w,250);
+      const fill=kind==='dark'?'#111':kind==='llm'?'#dedede':'#fff',ink=kind==='dark'?'#fff':'#111';
+      if(bi>0){s+=arrow(x-14,cy,x-1.5,cy,{head:3.6})}
+      s+=`<rect x="${x}" y="${cy-11}" width="${w}" height="22" rx="3" fill="${fill}" stroke="#111" stroke-width="${kind==='llm'?1.2:.7}"${kind==='ext'?' stroke-dasharray="3 2"':''}/>`;
+      if(sub){s+=tx(x+7,cy-1.5,t,{fs:8,w:600,fill:ink})+tx(x+7,cy+7.5,st,{fs:6.8,fill:kind==='dark'?'#cfcfcf':'#666'})}
+      else s+=tx(x+7,cy+3,t,{fs:8,w:kind==='llm'?600:500,fill:ink});
+      x+=w+16});
+    s+=tx(cx1,cy+3.5,sv,{fs:9,anchor:'middle',mono:1,w:ri===0?600:400})+tx(cx2,cy+3.5,llm,{fs:9,anchor:'middle',mono:1,w:ri===0?600:400,fill:'#111'});
+    if(ri<rows.length-1)s+=`<line x1="0" x2="${W}" y1="${y+rh-2}" y2="${y+rh-2}" stroke="#e2e2e2" stroke-width=".5"/>`});
+  return svg(W,20+rows.length*rh,s)}
+
+function figQA(){
+  const d=k=>fdate(NUM[k].date);const mn=k=>T(S(k),true);
+  const rowsA=[
+    {label:S('q_era'),key:'locomo_qa_era',c:'era',sub:LANG==='tr'?'okuyucu: '+(META.qa_reader||S('pending')):'reader: '+(META.qa_reader||S('pending'))},
+    {label:S('q_full'),key:'locomo_qa_fullctx',c:'base'},
+    {group:S('q_g26')},
+    {label:S('q_zep'),key:'c_zep_26_qa',c:'p26',sub:'gpt-5.4 · '+d('c_zep_26_qa')},
+    {label:S('q_mem0'),key:'c_mem0_26_qa',c:'p26',sub:mn('m_not_named')+' · '+d('c_mem0_26_qa')},
+    {group:S('q_g25')},
+    {label:S('q_zepown'),key:'c_zepown_25_qa',c:'p25',sub:d('c_zepown_25_qa')},
+    {label:S('q_letta'),key:'c_letta_25_qa',c:'p25',sub:'gpt-4o-mini, '+mn('m_not_stated')+' · '+d('c_letta_25_qa')},
+    {label:S('q_full25'),key:'c_full_25_qa',c:'p25',sub:'gpt-4o-mini · '+d('c_full_25_qa')},
+    {label:S('q_mem0g'),key:'c_mem0g_25_qa',c:'p25',sub:'gpt-4o-mini · '+d('c_mem0g_25_qa')},
+    {label:S('q_mem0'),key:'c_mem0_25_qa',c:'p25',sub:'gpt-4o-mini · '+d('c_mem0_25_qa')},
+    {label:S('q_zepm'),key:'c_zepm_25_qa',c:'p25',sub:'gpt-4o-mini · '+d('c_zepm_25_qa')}];
+  const rowsB=[
+    {label:S('q_era'),key:'lme_qa_era',c:'era',sub:(LANG==='tr'?'100 soruluk örneklem · okuyucu: ':'sample of 100 · reader: ')+(META.qa_reader||S('pending'))},
+    {label:S('q_full'),key:'lme_qa_fullctx',c:'base',sub:LANG==='tr'?'aynı örneklem, aynı model':'same sample, same model'},
+    {group:S('q_g26')},
+    {label:S('q_sm'),key:'c_sm_26_lme_4o',c:'p26',sub:'gpt-4o · '+d('c_sm_26_lme_4o')},
+    {label:S('q_mem0'),key:'c_mem0_26_lme',c:'p26',sub:mn('m_not_named')+' · '+d('c_mem0_26_lme')},
+    {label:S('q_zep'),key:'c_zep_26_lme',c:'p26',sub:'gpt-5.4 · '+d('c_zep_26_lme')},
+    {label:S('q_sm'),key:'c_sm_26_lme_gem',c:'p26',sub:'gemini-3-pro · '+d('c_sm_26_lme_gem')},
+    {label:S('q_sm'),key:'c_sm_26_lme_g5',c:'p26',sub:'gpt-5 · '+d('c_sm_26_lme_g5')},
+    {group:S('q_g25')},
+    {label:S('q_zep'),key:'c_zep_25_lme',c:'p25',sub:'gpt-4o · '+d('c_zep_25_lme')},
+    {label:S('q_full25'),key:'c_full_25_lme',c:'p25',sub:'gpt-4o · '+d('c_full_25_lme')}];
+  const o={max:100,ticks:[0,20,40,60,80,100],tf:pctTick,lw:150,vw:190,rh:13.5,bh:8.5};
+  return `<div style="font-family:var(--sans);font-size:7.8pt;font-weight:600;margin:0 0 1mm">${esc(S('qa_a'))}</div>`+hbar(Object.assign({rows:rowsA},o))+
+    `<div style="font-family:var(--sans);font-size:7.8pt;font-weight:600;margin:2mm 0 1mm">${esc(S('qa_b'))}</div>`+hbar(Object.assign({rows:rowsB},o))}
+
+function figRet(){
+  const rows=[{group:S('rt_a')},
+    {label:S('rt_sany'),key:'lme_sess_any',c:'era'},{label:'',key:'lme_vec_sess_any',c:'p25'},
+    {label:S('rt_sall'),key:'lme_sess_all',c:'era'},{label:S('rt_eany'),key:'lme_ev_any',c:'era'},{label:S('rt_eall'),key:'lme_ev_all',c:'era'},
+    {group:S('rt_b')},
+    {label:S('rt_eany'),key:'locomo_ev_any',c:'era'},{label:'',key:'locomo_vec_ev_any',c:'p25'},{label:S('rt_eall'),key:'locomo_ev_all',c:'era'}];
+  return hbar({rows,max:100,ticks:[0,20,40,60,80,100],tf:pctTick,lw:130,vw:60,rh:13,bh:8.5,legend:[{c:'era',t:S('rt_hyb')},{c:'p25',t:S('rt_vec')}]})}
+
+function figBiz(){
+  const r=(k,key,c)=>({label:S(k),key,mode:'fp',c:c||'era'});
+  const rows=[r('b_direct','trH2_direct'),r('b_hop2','trH2_hop2'),r('b_temporal','trH2_temporal'),r('b_rec','trH2_rec_upd'),r('b_conv','trH2_conv_upd'),r('b_hop3b','trH2_hop3b'),r('b_join','trH2_join'),r('b_hop3a','trH2_hop3a'),
+    {group:' '},r('b_all','trH2_all'),r('b_tr','trH2_tr','base'),r('b_en','trH2_en','base')];
+  return hbar({rows,max:100,ticks:[0,25,50,75,100],tf:pctTick,lw:205,vw:90,rh:13.5,bh:8.5})}
+
+function figMH(){
+  const rows=[{group:S('mh_direct')},{label:S('mh_path'),key:'k_direct',mode:'fp',c:'era'},{label:S('mh_vec'),key:'vec_direct',mode:'fp',c:'p25'},
+    {group:S('mh_hop2')},{label:S('mh_path'),key:'k_hop2',mode:'fp',c:'era'},{label:S('mh_vec'),key:'vec_hop2',mode:'fp',c:'p25'},
+    {group:S('mh_hop3')},{label:S('mh_path'),key:'k_hop3',mode:'fp',c:'era'},{label:S('mh_vec'),key:'vec_hop3',mode:'fp',c:'p25'}];
+  return hbar({rows,max:100,ticks:[0,25,50,75,100],tf:pctTick,lw:130,vw:90,rh:12.5,bh:8})}
+
+function figTok(){
+  const d=k=>fdate(NUM[k].date);
+  const rows=[{group:'Era Brain'},
+    {label:S('t_era_loc'),key:'locomo_tok',c:'era'},{label:S('t_era_biz'),key:'trH2_tok',c:'era'},{label:S('t_era_turn'),key:'trH2_turn_tok',c:'era'},{label:S('t_era_lme'),key:'lme_tok',c:'era'},{label:S('t_era_qa'),key:'locomo_qa_era_tok',c:'era'},
+    {group:'LoCoMo · '+S('q_g25')},
+    {label:S('t_mem0_25'),key:'c_mem0_25_tok',c:'p25',sub:'gpt-4o-mini · '+d('c_mem0_25_tok')},{label:S('t_mem0g_25'),key:'c_mem0g_25_tok',c:'p25',sub:d('c_mem0g_25_tok')},{label:S('t_zepm_25'),key:'c_zepm_25_tok',c:'p25',sub:d('c_zepm_25_tok')},{label:S('t_full'),key:'c_full_25_tok',c:'p25',sub:d('c_full_25_tok')},
+    {group:'LoCoMo · '+S('q_g26')},
+    {label:S('t_zep_26'),key:'c_zep_26_tok',c:'p26',sub:d('c_zep_26_tok')},{label:S('t_mem0_26'),key:'c_mem0_26_tok',c:'p26',sub:d('c_mem0_26_tok')}];
+  return hbar({rows,max:8000,ticks:[0,2000,4000,6000,8000],lw:175,vw:120,rh:13,bh:8.5,axisLabel:LANG==='tr'?'soru başına token':'tokens per query'})}
+
+function figLat(){
+  const d=k=>fdate(NUM[k].date);
+  const rows=[{group:LANG==='tr'?'Era Brain · süreç içi, ağ geçişi yok':'Era Brain · in process, no network hop'},
+    {label:S('l_era_loc'),key:'locomo_ms',c:'era'},{label:S('l_era_k'),key:'k_mem_ms',c:'era'},{label:S('l_era_lme'),key:'lme_ms',c:'era'},{label:S('l_era_biz'),key:'trH2_ms',c:'era'},{label:S('l_era_kg'),key:'k_graph_ms',c:'era'},
+    {group:S('q_g26')+' · '+S('accessed')},
+    {label:S('l_zep_loc'),key:'c_zep_26_locomo_ms',c:'p26',sub:d('c_zep_26_locomo_ms')},{label:S('l_zep_lme'),key:'c_zep_26_lme_ms',c:'p26',sub:d('c_zep_26_lme_ms')},{label:S('l_sm'),key:'c_sm_ms',c:'p26',sub:S('homepage')},{label:S('l_sm_e2e'),key:'c_sm_e2e_ms',c:'p26',sub:S('homepage')},
+    {group:S('q_g25')+' · Mem0 paper, Table 2'.replace('Mem0 paper',LANG==='tr'?'Mem0 makalesi':'Mem0 paper').replace('Table',LANG==='tr'?'Tablo':'Table')},
+    {label:S('l_mem0'),key:'c_mem0_25_ms',c:'p25',sub:d('c_mem0_25_ms')},{label:S('l_mem0g'),key:'c_mem0g_25_ms',c:'p25',sub:d('c_mem0g_25_ms')},{label:S('l_zepm'),key:'c_zepm_25_ms',c:'p25',sub:d('c_zepm_25_ms')}];
+  return hbar({rows,max:550,ticks:[0,100,200,300,400,500],lw:175,vw:85,rh:12.5,bh:8,axisLabel:LANG==='tr'?'milisaniye (p50)':'milliseconds (p50)'})}
+
+function figLeak(){
+  const W=640;let s='';
+  // left: composition
+  const tot=val('secrets_A');const parts=[['secrets_A_inv','sc_inv','#111'],['secrets_A_sal','sc_sal','#5e5e5e'],['secrets_A_cred','sc_cred','#9d9d9d'],['secrets_A_note','sc_note','#cfcfcf']];
+  s+=tx(0,10,PT('sc_tot'),{fs:8.2,w:600});
+  const bx=0,by=18,bw=200,bh=14;let x=bx;
+  parts.forEach(([k,lk,c])=>{const w=bw*val(k)/tot;s+=`<rect x="${x.toFixed(2)}" y="${by}" width="${Math.max(w-.6,.8).toFixed(2)}" height="${bh}" fill="${c}"/>`;x+=w});
+  parts.forEach(([k,lk,c],i)=>{const y=by+bh+14+i*12;s+=`<rect x="0" y="${y-7}" width="8" height="8" rx="1" fill="${c}"/>`+tx(12,y,fmt(k,null,true),{fs:8,mono:1,w:500})+tx(42,y,PT(lk),{fs:7.8,fill:'#333'})});
+  // right: answers checked with leaks
+  const rx=250,lw=150,x0=rx+lw+6,tw=W-x0-70,max=7000;
+  const rows=[['lk_A','leak_A_n','leak_A'],['lk_H','leak_H_n','leak_H'],['lk_H2','leak_H2_n','leak_H2'],['lk_1000','leak_era1000_n','leak_era1000'],['lk_gaps','leak_gaps_n','leak_gaps']];
+  s+=tx(x0,10,PT('lk_answers'),{fs:7.6,fill:'#555'})+tx(W,10,PT('lk_leaks'),{fs:7.6,fill:C.leak,anchor:'end',w:600});
+  rows.forEach(([lk,nk,lkk],i)=>{const y=18+i*15,cy=y+6;const n=val(nk),lv=val(lkk);
+    s+=tx(x0-6,cy+3,PT(lk),{fs:7.9,anchor:'end'});
+    const w=tw*Math.min(n,max)/max;s+=`<rect x="${x0}" y="${cy-4.5}" width="${Math.max(w,.9).toFixed(2)}" height="9" rx="1.5" fill="#9d9d9d"/>`+tx(x0+w+4,cy+3,fmt(nk,null,true),{fs:7.6,mono:1});
+    s+=tx(W,cy+3.2,lv==null?S('pending'):fnum(lv),{fs:9,mono:1,w:600,fill:C.leak,anchor:'end'})});
+  const yb=18+rows.length*15+2;
+  [0,2000,4000,6000].forEach(t=>{const xx=x0+tw*t/max;s+=`<line x1="${xx}" x2="${xx}" y1="16" y2="${yb}" stroke="${C.grid}" stroke-width=".6"/>`+tx(xx,yb+9,fnum(t),{fs:7,anchor:'middle',fill:'#666'})});
+  s+=`<line x1="${x0}" x2="${x0}" y1="16" y2="${yb}" stroke="#111" stroke-width=".7"/>`;
+  // put grid behind: reorder by simple trick (draw again bars on top not needed for print legibility)
+  return svg(W,Math.max(yb+14,by+bh+14+4*12),s)}
+
+/* ---------- tables ---------- */
+function tabKPI(){const k=(t,v,s)=>`<div class="kpi"><div class="t">${T(S(t))}</div><div class="v">${v}</div><div class="s">${T(S(s))}</div></div>`;
+  return `<div class="kpis">${k('k1_t',fmt('locomo_qa_era'),'k1_s')}${k('k2_t',fmt('lme_sess_any'),'k2_s')}${k('k3_t',fmt('trH2_all','pct'),'k3_s')}${k('k4_t',fmt('k_mh'),'k4_s')}${k('k5_t',fmt('leak_total'),'k5_s')}${k('k6_t',T('{r:locomo_ms,lme_ms}'),'k6_s')}</div>`}
+function tabData(){const R=['d_lme','d_loc','d_h2s','d_ah','d_k'];
+  return `<table class="bt"><thead><tr>${['d_h1','d_h2','d_h3','d_h4','d_h5'].map(h=>`<th>${T(S(h))}</th>`).join('')}</tr></thead><tbody>${R.map(r=>`<tr><td style="width:24%"><b style="font-weight:600">${T(S(r))}</b></td><td style="white-space:nowrap">${T(S(r+'2'))}</td><td style="white-space:nowrap">${T(S(r+'3'))}</td><td>${T(S(r+'4'))}</td><td style="width:17%">${T(S(r+'5'))}</td></tr>`).join('')}</tbody></table>`}
+function tabAbl(){const tw=S('tok_w');
+  const R=[['ab1',fmt('abl_fts_b'),fmt('abl_fts_a')],
+    ['ab2',`${fmt('abl_path_b_acc')} · ${fmt('abl_path_b_tok')} ${tw} · ${fmt('abl_path_b_ms')}`,`${fmt('abl_path_a_acc')} · ${fmt('abl_path_a_tok')} ${tw} · ${fmt('abl_path_a_ms')}`],
+    ['ab3',fmt('locomo_vec_ev_any'),fmt('locomo_ev_any')],['ab4',fmt('abl_vec_all'),fmt('abl_graph_all')],['ab5',fmt('abl_tr_b'),fmt('abl_tr_a')],['ab6',fmt('abl_perm_b'),fmt('abl_perm_a')]];
+  return `<table class="bt"><thead><tr><th>${S('ab_h1')}</th><th class="n">${S('ab_h2')}</th><th class="n">${S('ab_h3')}</th><th>${S('ab_h4')}</th></tr></thead><tbody>${R.map(([k,b,a])=>`<tr><td>${T(S(k))}</td><td class="n">${b}</td><td class="n" style="font-weight:600">${a}</td><td style="width:22%">${T(S(k+'s'))}</td></tr>`).join('')}</tbody></table>`}
+function tabCap(){const sys=DATA.matrix.systems;
+  const cell=v=>{if(typeof v==='string'&&v[0]==='@'){const k=v.slice(1);return val(k)==null?PEND_H():symHtml('y')}return symHtml(v)};
+  return `<table class="bt"><thead><tr><th></th>${sys.map(s=>`<th class="c" style="width:8.4%;${s==='era'?'':''}">${esc(S('sys_'+s))}</th>`).join('')}</tr></thead><tbody>${DATA.matrix.rows.map(r=>`<tr><td>${T(S(r.key))}</td>${sys.map(s=>`<td class="c"${s==='era'?' style="background:#f2f2f2"':''}>${cell(r.cells[s])}</td>`).join('')}</tr>`).join('')}</tbody></table>`}
+function tabPub(){const d=k=>fdate(NUM[k].date);const nn=S('m_not_named');
+  const R=[['q_mem0','LoCoMo',['c_mem0_25_qa'],'gpt-4o-mini','mem0'],['q_mem0g','LoCoMo',['c_mem0g_25_qa'],'gpt-4o-mini','mem0'],['q_zepm','LoCoMo',['c_zepm_25_qa'],'gpt-4o-mini','mem0'],
+    ['q_zepown','LoCoMo',['c_zepown_25_qa'],'—','zeprebuttal'],['q_full25','LoCoMo',['c_full_25_qa'],'gpt-4o-mini','mem0'],['q_letta','LoCoMo',['c_letta_25_qa'],'gpt-4o-mini; '+S('m_not_stated'),'letta'],
+    ['q_mem0','LoCoMo / LongMemEval',['c_mem0_26_qa','c_mem0_26_lme'],nn,'mem0research'],['q_zep','LoCoMo / LongMemEval',['c_zep_26_qa','c_zep_26_lme'],'gpt-5.4','zepresearch'],
+    ['q_zep','LongMemEval-S',['c_zep_25_lme'],'gpt-4o','zep'],['q_full25','LongMemEval-S',['c_full_25_lme'],'gpt-4o','zep'],
+    ['q_sm','LongMemEval-S',['c_sm_26_lme_4o','c_sm_26_lme_g5','c_sm_26_lme_gem'],'gpt-4o / gpt-5 / gemini-3-pro','smresearch']];
+  return `<table class="bt"><thead><tr>${['pb_h1','pb_h2','pb_h3','pb_h4','pb_h5','pb_h6'].map((h,i)=>`<th${i===2?' class="n"':''}>${S(h)}</th>`).join('')}</tr></thead><tbody>${R.map(([s,b,ks,m,ref])=>`<tr><td>${esc(S(s))}</td><td>${b}</td><td class="n">${ks.map(k=>fmt(k)).join(' / ')}</td><td>${esc(m)}</td><td style="white-space:nowrap">${d(ks[0])}</td><td>${T('{c:'+ref+'}')}</td></tr>`).join('')}</tbody></table>`}
+function tabEv(){return `<table class="bt"><thead><tr><th>${S('ev_h1')}</th><th>${S('ev_h2')}</th></tr></thead><tbody>${DATA.evidence.map(e=>`<tr><td style="width:40%">${esc(e[LANG])}</td><td><code>${esc(e.code)}</code></td></tr>`).join('')}</tbody></table>`}
+function refsHtml(items){return `<div class="refs">${items.map(i=>{const k=citeOrder[i];const r=refByKey[k];return `<div class="r"><span>[${i+1}]</span><span>${esc(r.text)}${r.url?` <span class="u">${esc(r.url)}</span>`:''}${r.accessed?` <span class="a">(${esc(S('accessed'))})</span>`:''}</span></div>`}).join('')}</div>`}
+
+/* ---------- document blocks ---------- */
+const B=[];
+const H1=k=>B.push({k:'h1',s:k}),H2=k=>B.push({k:'h2',s:k}),P=(k,o)=>B.push(Object.assign({k:'p',src:S(k)},o||{}));
+const FIG=(id,fn,cap)=>B.push({k:'fig',id,fn,cap}),TAB=(id,fn,cap,o)=>B.push(Object.assign({k:'tab',id,fn,cap},o||{}));
+B.push({k:'title'});
+TAB('kpi',tabKPI,'kpi_cap',{float:false,lead:'kpi_h'});
+H1('s1');P('s1_p1');P('s1_p2');P('s1_p3');B.push({k:'list',items:['s1_l1','s1_l2','s1_l3','s1_l4']});
+H1('s2');P('s2_p1');H2('s21');P('s21_p1');FIG('arch',figArch,'cap_arch');P('s21_p2');
+H2('s22');P('s22_p1');B.push({k:'steps',items:[1,2,3,4,5,6]});FIG('read',figRead,'cap_read');FIG('ex',figEx,'cap_ex');
+H2('s23');P('s23_p1');FIG('perm',figPerm,'cap_perm');
+H2('s24');P('s24_p1');FIG('hops',figHops,'cap_hops');
+H1('s3');P('s3_p1');TAB('data',tabData,'cap_data');
+H2('s31');B.push({k:'defs',items:[1,2,3,4,5]});
+H2('s32');P('s32_p1');
+H1('s4');H2('s41');P('s41_p1');FIG('qa',figQA,'cap_qa');
+H2('s42');P('s42_p1');FIG('ret',figRet,'cap_ret');
+H2('s43');P('s43_p1');FIG('biz',figBiz,'cap_biz');P('s43_p2');P('s43_p3');FIG('mh',figMH,'cap_mh');
+H2('s44');P('s44_p1');FIG('tok',figTok,'cap_tok');
+H2('s45');P('s45_p1');FIG('lat',figLat,'cap_lat');
+H2('s46');P('s46_p1');FIG('leak',figLeak,'cap_leak');
+H2('s47');P('s47_p1');TAB('abl',tabAbl,'cap_abl');
+H1('s5');P('s5_p1');TAB('cap',tabCap,'cap_cap');P('s5_p2');TAB('pub',tabPub,'cap_pub');
+H1('s6');B.push({k:'list',items:['lim1','lim2','lim3','lim4','lim5','lim6','lim7','lim8','lim9','lim10'],ul:true});
+H1('s7');P('s7_p1');
+H1('refs_h');B.push({k:'refs'});
+B.push({k:'break'});
+B.push({k:'h1raw',text:S('appA')});P('appA_p');TAB('ev',tabEv,'cap_ev');
+
+/* ---------- render a block to an element ---------- */
+function el(html){const t=document.createElement('template');t.innerHTML=html.trim();return t.content.firstElementChild}
+function sentences(src){return src.split(/(?<=[.;:!?])\s+(?=[A-ZÇĞİÖŞÜ“(<])/)}
+function render(b){
+  switch(b.k){
+    case 'title':{const st=pendingCount?T(S('status_pending')):S('status_final');
+      return el(`<div><div class="tb"><div class="top"><span class="l">${LOGO}<span>Era Research</span></span><span class="mono" style="font-size:7.6pt">${esc(META.report_no)}</span></div><h1>${esc(S('title'))}</h1><div class="au">${esc(S('author'))}</div><div class="meta"><span>${esc(S('date'))}</span><span>·</span><span>${esc(S('run_head').split(' · ')[0])}</span><span>·</span><span>commit <span class="mono">${esc(META.commit)}</span></span><span>·</span><span>${pendingCount?`<span class="pend">${esc(st)}</span>`:esc(st)}</span></div></div><div class="abs"><h4>${esc(S('abstract_h'))}</h4><p>${T(S('abstract'))}</p></div></div>`)}
+    case 'h1':return el(`<h2 class="sec keep">${esc(S(b.s))}</h2>`);
+    case 'h1raw':return el(`<h2 class="sec keep">${esc(b.text)}</h2>`);
+    case 'h2':return el(`<h3 class="sub keep">${esc(S(b.s))}</h3>`);
+    case 'p':return el(`<p class="para${b.cont?' cont':''}${b.head?' head':''}">${T(b.src)}</p>`);
+    case 'list':{const tag=b.ul?'ul':'ol';return el(`<${tag} class="lst"${b.start?` start="${b.start}"`:''}>${b.items.map(k=>`<li>${T(S(k))}</li>`).join('')}</${tag}>`)}
+    case 'steps':return el(`<ol class="steps">${b.items.map(i=>`<li><i>${i}</i><span><b>${esc(S('st'+i+'_t'))}</b> ${T(S('st'+i))}</span></li>`).join('')}</ol>`);
+    case 'defs':return el(`<div style="display:flex;flex-direction:column;gap:1.2mm">${b.items.map(i=>`<p class="para" style="text-indent:0"><b>${esc(S('mt'+i+'_t'))}</b> ${T(S('mt'+i))}</p>`).join('')}</div>`);
+    case 'fig':return el(`<figure>${b.fn()}<figcaption><b>${S('fig')} ${figNo(b.id)}:</b> ${T(S(b.cap))}</figcaption></figure>`);
+    case 'tab':return el(`<div class="tblock"><div class="tcap"><b>${S('tab')} ${tabNo(b.id)}:</b> ${b.lead?esc(S(b.lead))+' ':''}${T(S(b.cap))}</div>${b.fn()}</div>`);
+    case 'refs':{if(!b.items)b.items=citeOrder.map((_,i)=>i);return el(refsHtml(b.items))}
+  }
+  throw new Error('block '+b.k)}
+function splitBlock(b,n){ // returns [head, tail] or null; n = number of units in head
+  if(b.k==='p'){const ss=sentences(b.src);if(n<1||n>=ss.length)return null;return [Object.assign({},b,{src:ss.slice(0,n).join(' '),head:true}),Object.assign({},b,{src:ss.slice(n).join(' '),cont:true,head:false})]}
+  if(b.k==='list'||b.k==='steps'||b.k==='defs'||b.k==='refs'){if(n<1||n>=b.items.length)return null;const st=b.start||1;
+    return [Object.assign({},b,{items:b.items.slice(0,n)}),Object.assign({},b,{items:b.items.slice(n),start:b.k==='list'?st+n:undefined})]}
+  return null}
+function units(b){if(b.k==='p')return sentences(b.src).length;if(b.items)return b.items.length;return 1}
+
+/* ---------- pagination ---------- */
+await document.fonts.ready;
+try{await Promise.all(['400 10pt "Source Serif 4"','700 10pt "Source Serif 4"','italic 400 10pt "Source Serif 4"','600 10pt "Source Serif 4"','400 10pt "IBM Plex Sans"','600 10pt "IBM Plex Sans"','400 10pt "IBM Plex Mono"'].map(f=>document.fonts.load(f)))}catch(e){}
+const pages=[];let cur=null;let deferred=[];
+function newPage(){
+  const pg=el(`<section class="page"><header class="rh${pages.length===0?' first':''}"><span class="l">${LOGO}<span>${esc(S('run_head'))}</span></span><span class="mono">${esc(META.report_no)}</span></header><div class="content"><div class="main"></div><div class="fns"></div></div><footer class="rf"><span>Era Research · ${esc(S('date'))}</span><span class="pn"></span></footer></section>`);
+  document.body.appendChild(pg);cur={pg,main:pg.querySelector('.main'),fns:pg.querySelector('.fns'),content:pg.querySelector('.content')};pages.push(cur);
+  const d=deferred;deferred=[];for(const f of d){const e=render(f);cur.main.appendChild(e);updFn();if(!fits()&&cur.main.children.length>1){cur.main.removeChild(e);updFn();deferred.push(f)}}}
+function updFn(){const seen=[];cur.main.querySelectorAll('sup.fnref').forEach(s=>{const k=s.dataset.fn;if(!seen.includes(k))seen.push(k)});
+  cur.fns.innerHTML=seen.map(k=>`<p><sup>${fnNo(k)}</sup>${T(S('fn_'+k))}</p>`).join('')}
+function fits(){return cur.content.scrollHeight<=cur.content.clientHeight+.5}
+function tryAppend(e){cur.main.appendChild(e);updFn();if(fits())return true;cur.main.removeChild(e);updFn();return false}
+const isFloat=b=>(b.k==='fig'||b.k==='tab')&&b.float!==false;
+newPage();
+const queue=B.slice();
+while(queue.length){const b=queue.shift();
+  if(b.k==='break'){while(deferred.length)newPage();newPage();continue}
+  if((b.k==='h1'||b.k==='h1raw')&&deferred.length){while(deferred.length)newPage()}
+  const e=render(b);
+  if(tryAppend(e))continue;
+  if(isFloat(b)){if(cur.main.children.length===0){cur.main.appendChild(e);updFn()}else deferred.push(b);continue}
+  // try split
+  let placed=false;const n=units(b);
+  for(let k=n-1;k>=1&&cur.main.children.length>0;k--){const sp=splitBlock(b,k);if(!sp)break;const he=render(sp[0]);if(tryAppend(he)){queue.unshift(sp[1]);placed=true;break}}
+  if(placed)continue;
+  let carry=null;const last=cur.main.lastElementChild;if(last&&last.classList.contains('keep')){cur.main.removeChild(last);carry=last;updFn()}
+  newPage();if(carry){cur.main.prepend(carry)}
+  // after deferred floats were placed at top, put carry after them
+  if(carry){cur.main.removeChild(carry);cur.main.appendChild(carry)}
+  if(!tryAppend(e)){ // try split on fresh page, else force
+    let ok=false;for(let k=units(b)-1;k>=1;k--){const sp=splitBlock(b,k);if(!sp)break;const he=render(sp[0]);if(tryAppend(he)){queue.unshift(sp[1]);ok=true;break}}
+    if(!ok){cur.main.appendChild(e);updFn()}}
+}
+while(deferred.length)newPage();
+// footers
+pages.forEach((p,i)=>{p.pg.querySelector('.pn').textContent=(i+1)+' / '+pages.length});
+// overflow report
+const ovf=[];pages.forEach((p,i)=>{const c=p.content;if(c.scrollHeight>c.clientHeight+1||p.pg.scrollHeight>p.pg.clientHeight+1)ovf.push(i+1)});
+document.body.dataset.pages=pages.length;document.body.dataset.overflow=ovf.length?ovf.join(','):'none';document.body.dataset.pending=pendingCount;
+document.title=LANG==='tr'?'Era Brain Teknik Raporu':'Era Brain Technical Report';
+const pgq=+qs.get('page');if(pgq){document.body.classList.add('shot');pages.forEach((p,i)=>{if(i+1!==pgq)p.pg.style.display='none'})}
+document.body.dataset.done='1';
+})().catch(err=>{document.body.dataset.overflow='error';document.body.dataset.error=String(err&&err.stack||err);document.body.insertAdjacentHTML('afterbegin','<pre style="color:#c00;white-space:pre-wrap">'+String(err&&err.stack||err).replace(/</g,'&lt;')+'</pre>');document.body.dataset.done='1'});
+</script>
+</body>
+</html>

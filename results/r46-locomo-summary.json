@@ -1,0 +1,174 @@
+{
+  "model": "claude-haiku-5-5",
+  "systems": {
+    "era": {
+      "multi-hop": {
+        "n": 282,
+        "correct": 184,
+        "J": 65.2482269503546,
+        "unparsedAnswers": 0,
+        "unparsedJudge": 0
+      },
+      "temporal": {
+        "n": 321,
+        "correct": 242,
+        "J": 75.38940809968847,
+        "unparsedAnswers": 0,
+        "unparsedJudge": 0
+      },
+      "open-domain": {
+        "n": 96,
+        "correct": 46,
+        "J": 47.916666666666664,
+        "unparsedAnswers": 0,
+        "unparsedJudge": 0
+      },
+      "single-hop": {
+        "n": 841,
+        "correct": 609,
+        "J": 72.41379310344827,
+        "unparsedAnswers": 0,
+        "unparsedJudge": 0
+      },
+      "ALL": {
+        "n": 1540,
+        "correct": 1081,
+        "J": 70.1948051948052,
+        "unparsedAnswers": 0,
+        "unparsedJudge": 0
+      }
+    },
+    "full": {
+      "multi-hop": {
+        "n": 282,
+        "correct": 234,
+        "J": 82.97872340425532,
+        "unparsedAnswers": 0,
+        "unparsedJudge": 0
+      },
+      "temporal": {
+        "n": 321,
+        "correct": 275,
+        "J": 85.66978193146417,
+        "unparsedAnswers": 0,
+        "unparsedJudge": 0
+      },
+      "open-domain": {
+        "n": 96,
+        "correct": 55,
+        "J": 57.291666666666664,
+        "unparsedAnswers": 0,
+        "unparsedJudge": 0
+      },
+      "single-hop": {
+        "n": 841,
+        "correct": 781,
+        "J": 92.86563614744352,
+        "unparsedAnswers": 0,
+        "unparsedJudge": 0
+      },
+      "ALL": {
+        "n": 1540,
+        "correct": 1345,
+        "J": 87.33766233766234,
+        "unparsedAnswers": 0,
+        "unparsedJudge": 0
+      }
+    }
+  },
+  "eraContext": {
+    "n": 1540,
+    "tokens": {
+      "n": 1540,
+      "p50": 1365,
+      "p95": 1638,
+      "max": 1872,
+      "mean": 1369.487012987013
+    },
+    "tokensGraph": {
+      "n": 1540,
+      "p50": 696,
+      "p95": 948,
+      "max": 1125,
+      "mean": 701.8909090909091
+    },
+    "tokensMem": {
+      "n": 1540,
+      "p50": 672,
+      "p95": 790,
+      "max": 880,
+      "mean": 662.5961038961038
+    },
+    "ms": {
+      "n": 1540,
+      "p50": 48.6862000000001,
+      "p95": 60.17899999999645,
+      "max": 726.7574,
+      "mean": 49.93076097402597
+    },
+    "msGraph": {
+      "n": 1540,
+      "p50": 48.6862000000001,
+      "p95": 60.17899999999645,
+      "max": 726.7574,
+      "mean": 49.93076097402597
+    },
+    "msMem": {
+      "n": 1540,
+      "p50": 28.22939999999653,
+      "p95": 35.64049999999406,
+      "max": 707.5536999999999,
+      "mean": 29.37306883116883
+    },
+    "graphUsed": 1540
+  },
+  "evidence": {
+    "multi-hop": {
+      "n": 282,
+      "evAny": 272,
+      "evAll": 150,
+      "evAnyMem": 263,
+      "evAllMem": 137,
+      "ansInCtx": 44
+    },
+    "temporal": {
+      "n": 321,
+      "evAny": 293,
+      "evAll": 285,
+      "evAnyMem": 288,
+      "evAllMem": 279,
+      "ansInCtx": 82
+    },
+    "open-domain": {
+      "n": 96,
+      "evAny": 75,
+      "evAll": 54,
+      "evAnyMem": 72,
+      "evAllMem": 51,
+      "ansInCtx": 9
+    },
+    "single-hop": {
+      "n": 841,
+      "evAny": 754,
+      "evAll": 749,
+      "evAnyMem": 749,
+      "evAllMem": 744,
+      "ansInCtx": 324
+    },
+    "ALL": {
+      "n": 1540,
+      "evAny": 1394,
+      "evAll": 1238,
+      "evAnyMem": 1372,
+      "evAllMem": 1211,
+      "ansInCtx": 459
+    }
+  },
+  "fullContextTokens": {
+    "n": 10,
+    "p50": 22247,
+    "p95": 24270,
+    "max": 24270,
+    "mean": 20782.5
+  }
+}

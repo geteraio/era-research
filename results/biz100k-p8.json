@@ -1,0 +1,3548 @@
+{
+  "dataset": "biz100k",
+  "label": "p8",
+  "at": "2026-10-22T03:50:56.293Z",
+  "code": {
+    "head": "890e63123",
+    "dirty": [
+      "M apps/brain-agent/src/brain/connector-ingest.ts",
+      " M apps/brain-agent/src/brain/graph-query.ts",
+      " M apps/brain-agent/src/brain/ingestion.ts",
+      " M apps/brain-agent/src/brain/recall.ts",
+      " M apps/studio/lib/brain/brain-context.ts",
+      " M apps/studio/lib/brain/graph-context.ts",
+      " M apps/studio/lib/brain/graph-query.ts",
+      " M apps/studio/lib/brain/recall.ts",
+      " M apps/studio/lib/brain/sync-types.ts",
+      " M apps/studio/lib/brain/workflow-scope.ts",
+      "?? packages/os-kernel/sql/898_brain_speed.sql",
+      "?? packages/os-kernel/sql/899_brain_connector_modules.sql",
+      "?? packages/os-kernel/sql/900_brain_viewer_access.sql",
+      "?? packages/os-kernel/sql/901_brain_record_type_rule.sql"
+    ],
+    "code": "working tree"
+  },
+  "counts": {
+    "entities": 20000,
+    "memories": 40000,
+    "edges": 40000,
+    "memoryEdges": 3000,
+    "links": 84407
+  },
+  "methods": [
+    "recallMemories"
+  ],
+  "cold": {
+    "recallMemories": 739.6533
+  },
+  "wallSec": 6.237381,
+  "summary": [
+    {
+      "method": "recallMemories",
+      "cat": "direct",
+      "n": 100,
+      "answerInContext": 100,
+      "evidenceAll": 100,
+      "evidenceAny": 100,
+      "stalePresent": null,
+      "latestWinsStrict": null,
+      "latestFirst": null,
+      "errors": 0,
+      "leakQueries": 0,
+      "leakByClass": {},
+      "ms": {
+        "n": 100,
+        "p50": 31.424699999999575,
+        "p95": 44.84720000000016,
+        "max": 55.558500000000095,
+        "mean": 32.417125999999996
+      },
+      "tokens": {
+        "n": 100,
+        "p50": 270,
+        "p95": 306,
+        "max": 323,
+        "mean": 269.19
+      },
+      "tokens_o200k": {
+        "n": 100,
+        "p50": 263,
+        "p95": 301,
+        "max": 322,
+        "mean": 264.92
+      }
+    },
+    {
+      "method": "recallMemories",
+      "cat": "multihop2",
+      "n": 60,
+      "answerInContext": 0,
+      "evidenceAll": 0,
+      "evidenceAny": 35,
+      "stalePresent": null,
+      "latestWinsStrict": null,
+      "latestFirst": null,
+      "errors": 0,
+      "leakQueries": 0,
+      "leakByClass": {},
+      "ms": {
+        "n": 60,
+        "p50": 29.059900000000198,
+        "p95": 32.33669999999984,
+        "max": 35.31470000000081,
+        "mean": 29.00044833333324
+      },
+      "tokens": {
+        "n": 60,
+        "p50": 241,
+        "p95": 298,
+        "max": 357,
+        "mean": 242.31666666666666
+      },
+      "tokens_o200k": {
+        "n": 60,
+        "p50": 231,
+        "p95": 288,
+        "max": 334,
+        "mean": 232.41666666666666
+      }
+    },
+    {
+      "method": "recallMemories",
+      "cat": "multihop3",
+      "n": 40,
+      "answerInContext": 1,
+      "evidenceAll": 0,
+      "evidenceAny": 24,
+      "stalePresent": null,
+      "latestWinsStrict": null,
+      "latestFirst": null,
+      "errors": 0,
+      "leakQueries": 0,
+      "leakByClass": {},
+      "ms": {
+        "n": 40,
+        "p50": 26.789600000000064,
+        "p95": 31.09519999999975,
+        "max": 36.03830000000016,
+        "mean": 27.301682500000084
+      },
+      "tokens": {
+        "n": 40,
+        "p50": 208,
+        "p95": 307,
+        "max": 315,
+        "mean": 214.875
+      },
+      "tokens_o200k": {
+        "n": 40,
+        "p50": 201,
+        "p95": 287,
+        "max": 312,
+        "mean": 206.975
+      }
+    }
+  ],
+  "rows": [
+    {
+      "qid": "direct-0",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 33.05719999999974,
+      "tokens": 225,
+      "tokens_o200k": 222,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-1",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 40.003600000000006,
+      "tokens": 297,
+      "tokens_o200k": 294,
+      "extra": {
+        "n": 12,
+        "related": 2
+      }
+    },
+    {
+      "qid": "direct-2",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 32.28800000000001,
+      "tokens": 274,
+      "tokens_o200k": 271,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-3",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 31.282600000000002,
+      "tokens": 264,
+      "tokens_o200k": 261,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-4",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 46.92419999999993,
+      "tokens": 307,
+      "tokens_o200k": 304,
+      "extra": {
+        "n": 12,
+        "related": 2
+      }
+    },
+    {
+      "qid": "direct-5",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 55.558500000000095,
+      "tokens": 295,
+      "tokens_o200k": 295,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-6",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 29.782000000000153,
+      "tokens": 261,
+      "tokens_o200k": 261,
+      "extra": {
+        "n": 12,
+        "related": 2
+      }
+    },
+    {
+      "qid": "direct-7",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 32.03150000000005,
+      "tokens": 257,
+      "tokens_o200k": 254,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-8",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 45.70400000000018,
+      "tokens": 288,
+      "tokens_o200k": 284,
+      "extra": {
+        "n": 12,
+        "related": 2
+      }
+    },
+    {
+      "qid": "direct-9",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 41.588300000000345,
+      "tokens": 292,
+      "tokens_o200k": 289,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-10",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 35.362600000000384,
+      "tokens": 248,
+      "tokens_o200k": 237,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-11",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 36.30329999999958,
+      "tokens": 256,
+      "tokens_o200k": 253,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-12",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 31.097000000000662,
+      "tokens": 262,
+      "tokens_o200k": 255,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-13",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 36.05779999999959,
+      "tokens": 291,
+      "tokens_o200k": 282,
+      "extra": {
+        "n": 12,
+        "related": 2
+      }
+    },
+    {
+      "qid": "direct-14",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 31.52219999999943,
+      "tokens": 273,
+      "tokens_o200k": 274,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-15",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 30.37920000000031,
+      "tokens": 239,
+      "tokens_o200k": 236,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-16",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 31.424699999999575,
+      "tokens": 250,
+      "tokens_o200k": 249,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-17",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 34.17900000000009,
+      "tokens": 284,
+      "tokens_o200k": 287,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-18",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 29.576199999999517,
+      "tokens": 265,
+      "tokens_o200k": 250,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-19",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 30.346199999999953,
+      "tokens": 268,
+      "tokens_o200k": 258,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-20",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 29.683799999999792,
+      "tokens": 271,
+      "tokens_o200k": 266,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-21",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 32.080700000000434,
+      "tokens": 266,
+      "tokens_o200k": 264,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-22",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 28.77350000000024,
+      "tokens": 261,
+      "tokens_o200k": 247,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-23",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 32.08089999999993,
+      "tokens": 251,
+      "tokens_o200k": 249,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-24",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 27.5028999999995,
+      "tokens": 242,
+      "tokens_o200k": 242,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-25",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 34.02949999999964,
+      "tokens": 272,
+      "tokens_o200k": 261,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-26",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 36.393699999999626,
+      "tokens": 250,
+      "tokens_o200k": 249,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-27",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 27.23620000000028,
+      "tokens": 275,
+      "tokens_o200k": 260,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-28",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 25.698300000000017,
+      "tokens": 296,
+      "tokens_o200k": 293,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-29",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 26.466999999999643,
+      "tokens": 266,
+      "tokens_o200k": 261,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-30",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 35.8132999999998,
+      "tokens": 259,
+      "tokens_o200k": 258,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-31",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 25.21769999999924,
+      "tokens": 306,
+      "tokens_o200k": 301,
+      "extra": {
+        "n": 12,
+        "related": 2
+      }
+    },
+    {
+      "qid": "direct-32",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 26.15350000000035,
+      "tokens": 307,
+      "tokens_o200k": 297,
+      "extra": {
+        "n": 12,
+        "related": 2
+      }
+    },
+    {
+      "qid": "direct-33",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 27.726200000000063,
+      "tokens": 238,
+      "tokens_o200k": 234,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-34",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 31.104199999999764,
+      "tokens": 278,
+      "tokens_o200k": 266,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-35",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 28.44329999999991,
+      "tokens": 299,
+      "tokens_o200k": 297,
+      "extra": {
+        "n": 13,
+        "related": 3
+      }
+    },
+    {
+      "qid": "direct-36",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 30.825600000000122,
+      "tokens": 268,
+      "tokens_o200k": 267,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-37",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 24.473300000000563,
+      "tokens": 252,
+      "tokens_o200k": 247,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-38",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 24.60900000000038,
+      "tokens": 209,
+      "tokens_o200k": 209,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-39",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 27.301500000000487,
+      "tokens": 259,
+      "tokens_o200k": 254,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-40",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 29.625,
+      "tokens": 276,
+      "tokens_o200k": 275,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-41",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 43.27630000000045,
+      "tokens": 278,
+      "tokens_o200k": 275,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-42",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 28.178099999999176,
+      "tokens": 278,
+      "tokens_o200k": 272,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-43",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 30.46770000000015,
+      "tokens": 292,
+      "tokens_o200k": 288,
+      "extra": {
+        "n": 13,
+        "related": 3
+      }
+    },
+    {
+      "qid": "direct-44",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 38.693099999999504,
+      "tokens": 253,
+      "tokens_o200k": 251,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-45",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 27.064800000000105,
+      "tokens": 323,
+      "tokens_o200k": 322,
+      "extra": {
+        "n": 12,
+        "related": 2
+      }
+    },
+    {
+      "qid": "direct-46",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 35.7463000000007,
+      "tokens": 258,
+      "tokens_o200k": 253,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-47",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 35.40889999999945,
+      "tokens": 262,
+      "tokens_o200k": 263,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-48",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 27.31999999999971,
+      "tokens": 300,
+      "tokens_o200k": 300,
+      "extra": {
+        "n": 12,
+        "related": 2
+      }
+    },
+    {
+      "qid": "direct-49",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 25.32220000000052,
+      "tokens": 229,
+      "tokens_o200k": 225,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-50",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 26.977600000000166,
+      "tokens": 227,
+      "tokens_o200k": 227,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-51",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 24.33719999999994,
+      "tokens": 278,
+      "tokens_o200k": 274,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-52",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 26.956900000000132,
+      "tokens": 271,
+      "tokens_o200k": 270,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-53",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 31.876400000000103,
+      "tokens": 277,
+      "tokens_o200k": 277,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-54",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 34.97180000000026,
+      "tokens": 217,
+      "tokens_o200k": 215,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-55",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 33.322799999999916,
+      "tokens": 267,
+      "tokens_o200k": 259,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-56",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 35.852600000000166,
+      "tokens": 254,
+      "tokens_o200k": 253,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-57",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 34.387299999999414,
+      "tokens": 256,
+      "tokens_o200k": 252,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-58",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 35.119800000000396,
+      "tokens": 270,
+      "tokens_o200k": 268,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-59",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 32.667199999999866,
+      "tokens": 270,
+      "tokens_o200k": 265,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-60",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 34.28560000000016,
+      "tokens": 288,
+      "tokens_o200k": 287,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-61",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 26.241399999999885,
+      "tokens": 294,
+      "tokens_o200k": 288,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-62",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 29.14350000000013,
+      "tokens": 306,
+      "tokens_o200k": 302,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-63",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 32.84010000000035,
+      "tokens": 258,
+      "tokens_o200k": 257,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-64",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 39.06500000000051,
+      "tokens": 244,
+      "tokens_o200k": 244,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-65",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 45.33860000000004,
+      "tokens": 245,
+      "tokens_o200k": 242,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-66",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 41.771200000000135,
+      "tokens": 260,
+      "tokens_o200k": 252,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-67",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 30.1912999999995,
+      "tokens": 307,
+      "tokens_o200k": 301,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-68",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 30.296800000000076,
+      "tokens": 255,
+      "tokens_o200k": 241,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-69",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 30.741500000000087,
+      "tokens": 259,
+      "tokens_o200k": 256,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-70",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 30.020700000000033,
+      "tokens": 272,
+      "tokens_o200k": 272,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-71",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 39.536699999999655,
+      "tokens": 257,
+      "tokens_o200k": 254,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-72",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 33.34850000000006,
+      "tokens": 284,
+      "tokens_o200k": 275,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-73",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 37.85480000000007,
+      "tokens": 301,
+      "tokens_o200k": 294,
+      "extra": {
+        "n": 12,
+        "related": 2
+      }
+    },
+    {
+      "qid": "direct-74",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 41.0626000000002,
+      "tokens": 274,
+      "tokens_o200k": 260,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-75",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 28.923400000000584,
+      "tokens": 250,
+      "tokens_o200k": 248,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-76",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 25.528199999999742,
+      "tokens": 267,
+      "tokens_o200k": 254,
+      "extra": {
+        "n": 12,
+        "related": 2
+      }
+    },
+    {
+      "qid": "direct-77",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 31.33299999999963,
+      "tokens": 217,
+      "tokens_o200k": 207,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-78",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 32.728000000000065,
+      "tokens": 297,
+      "tokens_o200k": 294,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-79",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 35.0599000000002,
+      "tokens": 279,
+      "tokens_o200k": 273,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-80",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 31.730899999999565,
+      "tokens": 255,
+      "tokens_o200k": 247,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-81",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 28.057999999999993,
+      "tokens": 269,
+      "tokens_o200k": 252,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-82",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 32.693199999999706,
+      "tokens": 233,
+      "tokens_o200k": 229,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-83",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 33.919699999999466,
+      "tokens": 292,
+      "tokens_o200k": 290,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-84",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 31.35199999999986,
+      "tokens": 305,
+      "tokens_o200k": 309,
+      "extra": {
+        "n": 12,
+        "related": 2
+      }
+    },
+    {
+      "qid": "direct-85",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 24.724999999999454,
+      "tokens": 277,
+      "tokens_o200k": 266,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-86",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 25.647799999999734,
+      "tokens": 251,
+      "tokens_o200k": 247,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-87",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 21.19920000000002,
+      "tokens": 265,
+      "tokens_o200k": 262,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-88",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 36.238900000000285,
+      "tokens": 272,
+      "tokens_o200k": 267,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-89",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 32.57669999999962,
+      "tokens": 274,
+      "tokens_o200k": 270,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-90",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 29.977200000000266,
+      "tokens": 251,
+      "tokens_o200k": 248,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-91",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 29.905099999999948,
+      "tokens": 282,
+      "tokens_o200k": 283,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-92",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 35.847899999999754,
+      "tokens": 240,
+      "tokens_o200k": 240,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "direct-93",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 44.84720000000016,
+      "tokens": 249,
+      "tokens_o200k": 246,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-94",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 47.58680000000004,
+      "tokens": 300,
+      "tokens_o200k": 298,
+      "extra": {
+        "n": 13,
+        "related": 3
+      }
+    },
+    {
+      "qid": "direct-95",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 32.08429999999953,
+      "tokens": 279,
+      "tokens_o200k": 274,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-96",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 28.695999999999913,
+      "tokens": 287,
+      "tokens_o200k": 284,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-97",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 30.14260000000013,
+      "tokens": 299,
+      "tokens_o200k": 299,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-98",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 28.192300000000614,
+      "tokens": 288,
+      "tokens_o200k": 280,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "direct-99",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 27.32680000000073,
+      "tokens": 280,
+      "tokens_o200k": 278,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "2hop-100",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 28.17609999999968,
+      "tokens": 283,
+      "tokens_o200k": 276,
+      "extra": {
+        "n": 13,
+        "related": 3
+      }
+    },
+    {
+      "qid": "2hop-101",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 28.69589999999971,
+      "tokens": 250,
+      "tokens_o200k": 244,
+      "extra": {
+        "n": 12,
+        "related": 2
+      }
+    },
+    {
+      "qid": "2hop-102",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 28.551399999999376,
+      "tokens": 267,
+      "tokens_o200k": 256,
+      "extra": {
+        "n": 14,
+        "related": 4
+      }
+    },
+    {
+      "qid": "2hop-103",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 26.202000000000226,
+      "tokens": 234,
+      "tokens_o200k": 228,
+      "extra": {
+        "n": 13,
+        "related": 3
+      }
+    },
+    {
+      "qid": "2hop-104",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 30.43209999999999,
+      "tokens": 261,
+      "tokens_o200k": 254,
+      "extra": {
+        "n": 13,
+        "related": 3
+      }
+    },
+    {
+      "qid": "2hop-105",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 29.646300000000338,
+      "tokens": 214,
+      "tokens_o200k": 204,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "2hop-106",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 31.210900000000038,
+      "tokens": 220,
+      "tokens_o200k": 216,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "2hop-107",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 31.44670000000042,
+      "tokens": 259,
+      "tokens_o200k": 249,
+      "extra": {
+        "n": 12,
+        "related": 2
+      }
+    },
+    {
+      "qid": "2hop-108",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 30.04410000000007,
+      "tokens": 224,
+      "tokens_o200k": 218,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "2hop-109",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 30.707500000000437,
+      "tokens": 235,
+      "tokens_o200k": 219,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "2hop-110",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 30.48409999999967,
+      "tokens": 268,
+      "tokens_o200k": 268,
+      "extra": {
+        "n": 13,
+        "related": 3
+      }
+    },
+    {
+      "qid": "2hop-111",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 24.5012999999999,
+      "tokens": 224,
+      "tokens_o200k": 213,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "2hop-112",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 25.239300000000185,
+      "tokens": 201,
+      "tokens_o200k": 187,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "2hop-113",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 30.985599999999977,
+      "tokens": 227,
+      "tokens_o200k": 216,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "2hop-114",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 29.26179999999931,
+      "tokens": 243,
+      "tokens_o200k": 235,
+      "extra": {
+        "n": 12,
+        "related": 2
+      }
+    },
+    {
+      "qid": "2hop-115",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 27.633899999999812,
+      "tokens": 244,
+      "tokens_o200k": 234,
+      "extra": {
+        "n": 12,
+        "related": 2
+      }
+    },
+    {
+      "qid": "2hop-116",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 26.267100000000028,
+      "tokens": 251,
+      "tokens_o200k": 244,
+      "extra": {
+        "n": 13,
+        "related": 3
+      }
+    },
+    {
+      "qid": "2hop-117",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 24.850999999999658,
+      "tokens": 199,
+      "tokens_o200k": 191,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "3hop-118",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 25.579099999999926,
+      "tokens": 236,
+      "tokens_o200k": 234,
+      "extra": {
+        "n": 13,
+        "related": 3
+      }
+    },
+    {
+      "qid": "2hop-119",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 29.666599999999562,
+      "tokens": 250,
+      "tokens_o200k": 244,
+      "extra": {
+        "n": 13,
+        "related": 3
+      }
+    },
+    {
+      "qid": "2hop-120",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 27.032999999999447,
+      "tokens": 357,
+      "tokens_o200k": 334,
+      "extra": {
+        "n": 17,
+        "related": 7
+      }
+    },
+    {
+      "qid": "2hop-121",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 27.586199999999735,
+      "tokens": 309,
+      "tokens_o200k": 298,
+      "extra": {
+        "n": 15,
+        "related": 5
+      }
+    },
+    {
+      "qid": "2hop-122",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 29.217399999999543,
+      "tokens": 243,
+      "tokens_o200k": 233,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "2hop-123",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 30.307700000000295,
+      "tokens": 245,
+      "tokens_o200k": 236,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "2hop-124",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 28.135199999999713,
+      "tokens": 221,
+      "tokens_o200k": 208,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "2hop-125",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 32.25790000000052,
+      "tokens": 227,
+      "tokens_o200k": 220,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "2hop-126",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 28.98790000000008,
+      "tokens": 227,
+      "tokens_o200k": 223,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "2hop-127",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 28.228500000000167,
+      "tokens": 216,
+      "tokens_o200k": 197,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "2hop-128",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 27.377199999999903,
+      "tokens": 296,
+      "tokens_o200k": 279,
+      "extra": {
+        "n": 14,
+        "related": 4
+      }
+    },
+    {
+      "qid": "2hop-129",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 27.51800000000003,
+      "tokens": 288,
+      "tokens_o200k": 284,
+      "extra": {
+        "n": 14,
+        "related": 4
+      }
+    },
+    {
+      "qid": "2hop-130",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 28.397100000000137,
+      "tokens": 298,
+      "tokens_o200k": 288,
+      "extra": {
+        "n": 14,
+        "related": 4
+      }
+    },
+    {
+      "qid": "2hop-131",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 30.484599999999773,
+      "tokens": 221,
+      "tokens_o200k": 211,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "2hop-132",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 30.970400000000154,
+      "tokens": 241,
+      "tokens_o200k": 215,
+      "extra": {
+        "n": 12,
+        "related": 2
+      }
+    },
+    {
+      "qid": "2hop-133",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 26.194800000000214,
+      "tokens": 213,
+      "tokens_o200k": 202,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "2hop-134",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 35.31470000000081,
+      "tokens": 216,
+      "tokens_o200k": 203,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "2hop-135",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 30.342499999999745,
+      "tokens": 249,
+      "tokens_o200k": 238,
+      "extra": {
+        "n": 12,
+        "related": 2
+      }
+    },
+    {
+      "qid": "2hop-136",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 27.20550000000003,
+      "tokens": 235,
+      "tokens_o200k": 231,
+      "extra": {
+        "n": 12,
+        "related": 2
+      }
+    },
+    {
+      "qid": "2hop-137",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 30.19589999999971,
+      "tokens": 262,
+      "tokens_o200k": 249,
+      "extra": {
+        "n": 13,
+        "related": 3
+      }
+    },
+    {
+      "qid": "2hop-138",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 27.433899999999085,
+      "tokens": 186,
+      "tokens_o200k": 184,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "2hop-139",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 29.421399999999267,
+      "tokens": 229,
+      "tokens_o200k": 218,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "2hop-140",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 27.636200000000827,
+      "tokens": 230,
+      "tokens_o200k": 227,
+      "extra": {
+        "n": 12,
+        "related": 2
+      }
+    },
+    {
+      "qid": "2hop-141",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 27.8783999999996,
+      "tokens": 301,
+      "tokens_o200k": 296,
+      "extra": {
+        "n": 15,
+        "related": 5
+      }
+    },
+    {
+      "qid": "2hop-142",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 26.251099999999497,
+      "tokens": 197,
+      "tokens_o200k": 191,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "2hop-143",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 32.34969999999885,
+      "tokens": 279,
+      "tokens_o200k": 266,
+      "extra": {
+        "n": 14,
+        "related": 4
+      }
+    },
+    {
+      "qid": "2hop-144",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 28.22059999999874,
+      "tokens": 248,
+      "tokens_o200k": 236,
+      "extra": {
+        "n": 13,
+        "related": 3
+      }
+    },
+    {
+      "qid": "2hop-145",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 27.440199999999095,
+      "tokens": 199,
+      "tokens_o200k": 192,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "2hop-146",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 26.70379999999932,
+      "tokens": 214,
+      "tokens_o200k": 209,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "2hop-147",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 27.038800000000265,
+      "tokens": 222,
+      "tokens_o200k": 209,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "2hop-148",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 29.059900000000198,
+      "tokens": 216,
+      "tokens_o200k": 207,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "2hop-149",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 27.59939999999915,
+      "tokens": 218,
+      "tokens_o200k": 206,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "2hop-150",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 29.596299999999246,
+      "tokens": 258,
+      "tokens_o200k": 245,
+      "extra": {
+        "n": 13,
+        "related": 3
+      }
+    },
+    {
+      "qid": "2hop-151",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 28.618099999999686,
+      "tokens": 194,
+      "tokens_o200k": 182,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "2hop-152",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 30.540400000001682,
+      "tokens": 248,
+      "tokens_o200k": 234,
+      "extra": {
+        "n": 12,
+        "related": 2
+      }
+    },
+    {
+      "qid": "2hop-153",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 30.34059999999954,
+      "tokens": 254,
+      "tokens_o200k": 248,
+      "extra": {
+        "n": 12,
+        "related": 2
+      }
+    },
+    {
+      "qid": "2hop-154",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 32.33669999999984,
+      "tokens": 271,
+      "tokens_o200k": 262,
+      "extra": {
+        "n": 13,
+        "related": 3
+      }
+    },
+    {
+      "qid": "2hop-155",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 32.43369999999959,
+      "tokens": 210,
+      "tokens_o200k": 200,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "2hop-156",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 29.961600000000544,
+      "tokens": 257,
+      "tokens_o200k": 247,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "2hop-157",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 28.98750000000109,
+      "tokens": 217,
+      "tokens_o200k": 208,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "2hop-158",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 29.14600000000064,
+      "tokens": 213,
+      "tokens_o200k": 207,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "2hop-159",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 30.967899999999645,
+      "tokens": 280,
+      "tokens_o200k": 263,
+      "extra": {
+        "n": 14,
+        "related": 4
+      }
+    },
+    {
+      "qid": "2hop-160",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 30.306500000000597,
+      "tokens": 280,
+      "tokens_o200k": 263,
+      "extra": {
+        "n": 12,
+        "related": 2
+      }
+    },
+    {
+      "qid": "3hop-161",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 31.09519999999975,
+      "tokens": 224,
+      "tokens_o200k": 223,
+      "extra": {
+        "n": 12,
+        "related": 2
+      }
+    },
+    {
+      "qid": "3hop-162",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 27.688500000000204,
+      "tokens": 315,
+      "tokens_o200k": 312,
+      "extra": {
+        "n": 15,
+        "related": 5
+      }
+    },
+    {
+      "qid": "3hop-163",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 26.789600000000064,
+      "tokens": 208,
+      "tokens_o200k": 203,
+      "extra": {
+        "n": 12,
+        "related": 2
+      }
+    },
+    {
+      "qid": "3hop-164",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 28.062799999999697,
+      "tokens": 214,
+      "tokens_o200k": 211,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "3hop-165",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 24.989700000000084,
+      "tokens": 156,
+      "tokens_o200k": 152,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "3hop-166",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 28.706200000000536,
+      "tokens": 198,
+      "tokens_o200k": 194,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "3hop-167",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 27.045000000000073,
+      "tokens": 244,
+      "tokens_o200k": 227,
+      "extra": {
+        "n": 13,
+        "related": 3
+      }
+    },
+    {
+      "qid": "3hop-168",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 27.87670000000071,
+      "tokens": 248,
+      "tokens_o200k": 238,
+      "extra": {
+        "n": 12,
+        "related": 2
+      }
+    },
+    {
+      "qid": "3hop-169",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 29.180199999998877,
+      "tokens": 201,
+      "tokens_o200k": 192,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "3hop-170",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 27.009500000000116,
+      "tokens": 208,
+      "tokens_o200k": 206,
+      "extra": {
+        "n": 12,
+        "related": 2
+      }
+    },
+    {
+      "qid": "3hop-171",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 26.534100000000763,
+      "tokens": 216,
+      "tokens_o200k": 201,
+      "extra": {
+        "n": 12,
+        "related": 2
+      }
+    },
+    {
+      "qid": "3hop-172",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 26.671299999999974,
+      "tokens": 212,
+      "tokens_o200k": 208,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "3hop-173",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 27.996499999999287,
+      "tokens": 177,
+      "tokens_o200k": 171,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "3hop-174",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 27.720900000000256,
+      "tokens": 216,
+      "tokens_o200k": 206,
+      "extra": {
+        "n": 12,
+        "related": 2
+      }
+    },
+    {
+      "qid": "3hop-175",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 36.03830000000016,
+      "tokens": 236,
+      "tokens_o200k": 215,
+      "extra": {
+        "n": 12,
+        "related": 2
+      }
+    },
+    {
+      "qid": "3hop-176",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 25.765699999999924,
+      "tokens": 188,
+      "tokens_o200k": 184,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "3hop-177",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 26.40689999999995,
+      "tokens": 160,
+      "tokens_o200k": 156,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "3hop-178",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 25.67450000000099,
+      "tokens": 194,
+      "tokens_o200k": 194,
+      "extra": {
+        "n": 12,
+        "related": 2
+      }
+    },
+    {
+      "qid": "3hop-179",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 28.326999999999316,
+      "tokens": 214,
+      "tokens_o200k": 205,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "3hop-180",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 26.018099999999322,
+      "tokens": 180,
+      "tokens_o200k": 174,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "3hop-181",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 26.696399999998903,
+      "tokens": 307,
+      "tokens_o200k": 281,
+      "extra": {
+        "n": 13,
+        "related": 3
+      }
+    },
+    {
+      "qid": "3hop-182",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 26.04359999999906,
+      "tokens": 199,
+      "tokens_o200k": 195,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "3hop-183",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 24.55999999999949,
+      "tokens": 177,
+      "tokens_o200k": 169,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "3hop-184",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 27.970000000001164,
+      "tokens": 277,
+      "tokens_o200k": 273,
+      "extra": {
+        "n": 14,
+        "related": 4
+      }
+    },
+    {
+      "qid": "3hop-185",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 33.21519999999873,
+      "tokens": 193,
+      "tokens_o200k": 188,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "3hop-186",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 25.523200000001452,
+      "tokens": 177,
+      "tokens_o200k": 172,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "3hop-187",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 25.66860000000088,
+      "tokens": 255,
+      "tokens_o200k": 250,
+      "extra": {
+        "n": 13,
+        "related": 3
+      }
+    },
+    {
+      "qid": "3hop-188",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 28.0666999999994,
+      "tokens": 239,
+      "tokens_o200k": 232,
+      "extra": {
+        "n": 13,
+        "related": 3
+      }
+    },
+    {
+      "qid": "3hop-189",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 25.246900000000096,
+      "tokens": 193,
+      "tokens_o200k": 185,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "3hop-190",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 26.289499999998952,
+      "tokens": 203,
+      "tokens_o200k": 190,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "3hop-191",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 27.159200000000055,
+      "tokens": 194,
+      "tokens_o200k": 183,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "3hop-192",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 25.506100000000515,
+      "tokens": 176,
+      "tokens_o200k": 169,
+      "extra": {
+        "n": 11,
+        "related": 1
+      }
+    },
+    {
+      "qid": "3hop-193",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 24.12670000000071,
+      "tokens": 160,
+      "tokens_o200k": 147,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "3hop-194",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 30.195000000001528,
+      "tokens": 264,
+      "tokens_o200k": 246,
+      "extra": {
+        "n": 13,
+        "related": 3
+      }
+    },
+    {
+      "qid": "3hop-195",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 31.006600000000617,
+      "tokens": 213,
+      "tokens_o200k": 198,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "3hop-196",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 26.285799999999654,
+      "tokens": 294,
+      "tokens_o200k": 287,
+      "extra": {
+        "n": 15,
+        "related": 5
+      }
+    },
+    {
+      "qid": "3hop-197",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 24.28100000000086,
+      "tokens": 153,
+      "tokens_o200k": 145,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "3hop-198",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 25.482100000001083,
+      "tokens": 166,
+      "tokens_o200k": 162,
+      "extra": {
+        "n": 10,
+        "related": 0
+      }
+    },
+    {
+      "qid": "3hop-199",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": false,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 27.568900000000212,
+      "tokens": 310,
+      "tokens_o200k": 301,
+      "extra": {
+        "n": 15,
+        "related": 5
+      }
+    }
+  ]
+}

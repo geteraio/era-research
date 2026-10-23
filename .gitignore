@@ -1,0 +1,11 @@
+node_modules/
+data/
+head/
+llm-cwd/
+logs-*
+llm-calls.log
+report/out/
+report/report-en.html
+report/report-tr.html
+report/shots/
+.env*

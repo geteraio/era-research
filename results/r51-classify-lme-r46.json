@@ -1,0 +1,158 @@
+{
+  "65240037": {
+    "cause": "missing",
+    "why": "The tea tree oil dilution fact from the 2023/05/23 assistant turn does not appear anywhere in the memory context, so the 1:10 ratio was never available."
+  },
+  "8979f9ec": {
+    "cause": "multihop",
+    "why": "The lentil soup's 5 lunches are in context, but the chicken fajitas' third-meal count from the 2023/05/24 user turn is not."
+  },
+  "c4a1ceb8": {
+    "cause": "multihop",
+    "why": "Orange and lime are in context, but the lemon from the 2023/05/27 sangria message, a third list member, is absent."
+  },
+  "gpt4_2f91af09": {
+    "cause": "multihop",
+    "why": "The 17 poems and the challenge piece are in context, but the five short stories from the 2023/05/28 turn are missing."
+  },
+  "gpt4_59c863d7": {
+    "cause": "missing",
+    "why": "The 1/16 Tiger I tank kit (a diorama build, one of the five gold kits) never appears in the memory context; only vague 'model tanks' weathering facts do."
+  },
+  "60472f9c": {
+    "cause": "answerer",
+    "why": "The Data Mining and Database Systems group projects are both in context and match the gold of 2, but the answer model added two personal coding projects to reach 4."
+  },
+  "gpt4_d12ceb0e": {
+    "cause": "missing",
+    "why": "The grandmother's (75) and grandfather's (78) ages are not in the memory context, so the answer model could not include them in the average."
+  },
+  "28dc39ac": {
+    "cause": "missing",
+    "why": "The 10-hour Celeste playthrough needed for the 140-hour gold total is absent from the memory context, so the answer model summed only 130."
+  },
+  "bc149d6b": {
+    "cause": "missing",
+    "why": "The 20-pound scratch grain purchase that completes the 70-pound total is in the evidence turns but absent from the memory context, which records the grains with no weight."
+  },
+  "9d25d4e0": {
+    "cause": "missing",
+    "why": "The emerald earrings bought at the flea market last weekend, needed for the count of 3, never appear in the memory context, so the answer could only find two items."
+  },
+  "4adc0475": {
+    "cause": "buried",
+    "why": "The memory context says only 'several goals' and drops the specific figure of 3 goals from the 2023-05-26 turn, so the total of 5 cannot be computed."
+  },
+  "51a45a95": {
+    "cause": "missing",
+    "why": "The memory context never links the coffee creamer coupon redemption to Target; that link is only implied by other turns of the session, which are not in the context."
+  },
+  "001be529": {
+    "cause": "missing",
+    "why": "The asylum application and its over-a-year wait appear only in the 2023/05/28 conversation turn, and nothing about it is in the memory context."
+  },
+  "d905b33f": {
+    "cause": "buried",
+    "why": "The context says the book was bought on sale at $30 original price, but drops the $24 sale price the gold needs to compute 20%."
+  },
+  "a89d7624": {
+    "cause": "missing",
+    "why": "The Brandon Flowers meeting and the Killers concert experience that the gold depends on are absent from the memory context, which only says the user loves Denver's music scene."
+  },
+  "gpt4_4ef30696": {
+    "cause": "answerer",
+    "why": "The 2022-01-16 date and the chat about loving the book were in context, so the answer model could have concluded 1 day, but it abstained and hedged."
+  },
+  "eac54add": {
+    "cause": "missing",
+    "why": "The first-client contract signing (dated 2023/03/01 in the evidence) never appears in the memory context, which only has the Johnson account and laptop memories."
+  },
+  "gpt4_d9af6064": {
+    "cause": "missing",
+    "why": "The smart thermostat setup on 2/10 is absent from the memory context, so the answer model had only one of the two dates."
+  },
+  "2a1811e2": {
+    "cause": "date",
+    "why": "The Sunday mass at St. Mary's is in the context but undated, and the answer model assumed March 26 instead of the March 19 date in the evidence."
+  },
+  "gpt4_6ed717ea": {
+    "cause": "date",
+    "why": "The training-pad purchase is in the context but undated, so the answer model could not tell it was about a month before 2023/05/29 and placed it after the bed."
+  },
+  "gpt4_4929293b": {
+    "cause": "missing",
+    "why": "The cousin's wedding appears only in the raw 2023/06/15 turn; the memory context has no cousin or wedding-attendance fact, only a wedding-planner entry from May."
+  },
+  "gpt4_1d4ab0c9": {
+    "cause": "missing",
+    "why": "The 2023/03/22 watering-start fact is absent from the context; the only related memory is a drip-irrigation plan, which does not give the start date needed for the 24-day count."
+  },
+  "gpt4_59149c78": {
+    "cause": "answerer",
+    "why": "The context states the Met 'Ancient Civilizations' visit on 2023-01-15, which is the right venue and near the two-week target, but the answer model chose the undated City Art Museum exhibition instead."
+  },
+  "gpt4_b5700ca0": {
+    "cause": "missing",
+    "why": "The Maundy Thursday service at the Episcopal Church (2023/04/06) is not in the memory context, so the answer model had no religious-activity fact to work from."
+  },
+  "gpt4_fa19884d": {
+    "cause": "buried",
+    "why": "The memory keeps only a vague 'exploring bluegrass, interested in popular artists and bands' entry and drops the specific detail that the band features a banjo player."
+  },
+  "gpt4_98f46fc6": {
+    "cause": "date",
+    "why": "The gala entry is present but lost the relative 'tonight' anchor, so the model could not tie the gala to March 28 and treated its date as unknown."
+  },
+  "gpt4_7a0daae1": {
+    "cause": "missing",
+    "why": "The March 10 purchase ('bought a new tennis racket online today') is absent from the memory context, which only records the March 17 receipt."
+  },
+  "618f13b2": {
+    "cause": "missing",
+    "why": "Neither the 'six times' nor the 'four times' wear count appears anywhere in the memory context, which only states ownership and comfort."
+  },
+  "42ec0761": {
+    "cause": "missing",
+    "why": "The 2023-08-15 user message saying they have a spare screwdriver is not in the memory context, which only has the RAM-upgrade plan and the misplaced-tool fact is absent."
+  },
+  "1d4da289": {
+    "cause": "missing",
+    "why": "The biometric and OTP examples appear only in an assistant turn, and no memory in the context records the two-factor methods."
+  },
+  "8752c811": {
+    "cause": "missing",
+    "why": "The 100-parameter list and its 27th item (sound effects) exist only in an assistant turn, and nothing in the memory context covers them."
+  },
+  "6222b6eb": {
+    "cause": "missing",
+    "why": "The memory context mentions the user comparing 6S, MAJA, Sen2Cor, and SIAC_GEE, but not the assistant's statement that SIAC_GEE uses 6S, which appears only in an assistant turn."
+  },
+  "4388e9dd": {
+    "cause": "missing",
+    "why": "The memory context has no fact about Andy's shirt; the only clothing memories concern the user's own wardrobe, and the stained-shirt detail never reached the context."
+  },
+  "7a8d0b71": {
+    "cause": "missing",
+    "why": "No memory mentions the influencer marketing budget or the DHL campaign; the only retreat fact is a generic email-campaign request with no figures."
+  },
+  "e982271f": {
+    "cause": "missing",
+    "why": "The context only says the user wants to check out Portland indie venues, with no list of venues and no note of which one was last."
+  },
+  "89527b6b": {
+    "cause": "missing",
+    "why": "Nothing in the memory context refers to the children's dinosaur book or the Plesiosaur's colour, so the needed fact was absent."
+  },
+  "70b3e69b": {
+    "cause": "missing",
+    "why": "The memory context has no mention of Catalonia, Manolo García, or the singer-songwriter; the answer appears only in an assistant turn that the memory system did not store."
+  },
+  "b759caee": {
+    "cause": "missing",
+    "why": "The memory context contains nothing about UK designers, unusual gemstones, or Jessica Poole's handle; the designer appears only in an assistant turn outside the memories."
+  },
+  "51b23612": {
+    "cause": "missing",
+    "why": "The memory context has only the user's remark that political humor is refreshing, with no mention of the Soviet cartoon 'Nu, pogodi!', which appears only in an assistant turn."
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "model": "claude-haiku-5-5",
+  "systems": {
+    "era": {
+      "multi-hop": {
+        "n": 282,
+        "correct": 206,
+        "J": 73.04964539007092,
+        "unparsedAnswers": 0,
+        "unparsedJudge": 0
+      },
+      "temporal": {
+        "n": 321,
+        "correct": 251,
+        "J": 78.19314641744548,
+        "unparsedAnswers": 0,
+        "unparsedJudge": 0
+      },
+      "open-domain": {
+        "n": 96,
+        "correct": 47,
+        "J": 48.958333333333336,
+        "unparsedAnswers": 0,
+        "unparsedJudge": 0
+      },
+      "single-hop": {
+        "n": 841,
+        "correct": 668,
+        "J": 79.42925089179548,
+        "unparsedAnswers": 0,
+        "unparsedJudge": 0
+      },
+      "ALL": {
+        "n": 1540,
+        "correct": 1172,
+        "J": 76.1038961038961,
+        "unparsedAnswers": 0,
+        "unparsedJudge": 0
+      }
+    }
+  },
+  "eraContext": {
+    "n": 1540,
+    "tokens": {
+      "n": 1540,
+      "p50": 2009,
+      "p95": 2965,
+      "max": 3512,
+      "mean": 2125.096103896104
+    },
+    "tokensGraph": {
+      "n": 1540,
+      "p50": 450,
+      "p95": 498,
+      "max": 1011,
+      "mean": 459.40714285714284
+    },
+    "tokensMem": {
+      "n": 1540,
+      "p50": 1560,
+      "p95": 2519,
+      "max": 2704,
+      "mean": 1665.688961038961
+    },
+    "ms": {
+      "n": 1540,
+      "p50": 59.914099999994505,
+      "p95": 74.75249999999505,
+      "max": 837.5609,
+      "mean": 61.57929279220772
+    },
+    "msGraph": {
+      "n": 1540,
+      "p50": 59.914099999994505,
+      "p95": 74.75249999999505,
+      "max": 837.5609,
+      "mean": 61.57929279220772
+    },
+    "msMem": {
+      "n": 1540,
+      "p50": 59.914099999994505,
+      "p95": 74.75249999999505,
+      "max": 837.5609,
+      "mean": 61.57929279220772
+    },
+    "graphUsed": 1540
+  },
+  "evidence": {
+    "multi-hop": {
+      "n": 282,
+      "evAny": 274,
+      "evAll": 176,
+      "evAnyMem": 237,
+      "evAllMem": 69,
+      "ansInCtx": 53
+    },
+    "temporal": {
+      "n": 321,
+      "evAny": 295,
+      "evAll": 288,
+      "evAnyMem": 138,
+      "evAllMem": 119,
+      "ansInCtx": 90
+    },
+    "open-domain": {
+      "n": 96,
+      "evAny": 75,
+      "evAll": 59,
+      "evAnyMem": 55,
+      "evAllMem": 33,
+      "ansInCtx": 11
+    },
+    "single-hop": {
+      "n": 841,
+      "evAny": 779,
+      "evAll": 775,
+      "evAnyMem": 415,
+      "evAllMem": 408,
+      "ansInCtx": 367
+    },
+    "ALL": {
+      "n": 1540,
+      "evAny": 1423,
+      "evAll": 1298,
+      "evAnyMem": 845,
+      "evAllMem": 629,
+      "ansInCtx": 521
+    }
+  },
+  "fullContextTokens": {
+    "n": 10,
+    "p50": 22247,
+    "p95": 24270,
+    "max": 24270,
+    "mean": 20782.5
+  }
+}

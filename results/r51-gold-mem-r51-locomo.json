@@ -1,0 +1,5423 @@
+{
+  "conv-26-30": {
+    "cand": 0,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-26-46": {
+    "cand": 0,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-26-142": {
+    "cand": 0,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-30-43": {
+    "cand": 0,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-30-44": {
+    "cand": 0,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-30-45": {
+    "cand": 0,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-30-52": {
+    "cand": 0,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-30-76": {
+    "cand": 0,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-41-123": {
+    "cand": 0,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-43-129": {
+    "cand": 0,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-43-177": {
+    "cand": 0,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-26-16": {
+    "cand": 4,
+    "needed": [
+      "c87511f2-347b-4168-9092-583986d3994e"
+    ],
+    "sufficient": true
+  },
+  "conv-26-17": {
+    "cand": 2,
+    "needed": [
+      "b96395f0-e2b3-48b7-9940-3a348df2ef4f"
+    ],
+    "sufficient": true
+  },
+  "conv-26-18": {
+    "cand": 14,
+    "needed": [
+      "d6207750-884e-453c-a744-fe1dfed6153a",
+      "25f22f0f-231e-4f31-aa60-8af3e71a2726",
+      "5cc4bb32-f011-435f-b0fd-c3d9c3c0bbba"
+    ],
+    "sufficient": true
+  },
+  "conv-26-19": {
+    "cand": 9,
+    "needed": [
+      "ab5313b4-db09-4f98-b922-12451117f476",
+      "7b83582d-24e6-4587-8ccd-5c7ccf9ee612"
+    ],
+    "sufficient": true
+  },
+  "conv-26-20": {
+    "cand": 4,
+    "needed": [
+      "ab5313b4-db09-4f98-b922-12451117f476"
+    ],
+    "sufficient": true
+  },
+  "conv-26-21": {
+    "cand": 5,
+    "needed": [
+      "4f216549-ddd0-4036-bedb-5693e1911712"
+    ],
+    "sufficient": false
+  },
+  "conv-26-22": {
+    "cand": 5,
+    "needed": [
+      "a3f125d3-d064-4fd5-995e-329f9d71624b"
+    ],
+    "sufficient": true
+  },
+  "conv-26-23": {
+    "cand": 9,
+    "needed": [
+      "dd08806a-7342-4143-9d1f-da0a5e7e2559"
+    ],
+    "sufficient": false
+  },
+  "conv-26-8": {
+    "cand": 3,
+    "needed": [
+      "5dd50d06-2e9d-42e2-8b57-3600fc980b0a"
+    ],
+    "sufficient": false
+  },
+  "conv-26-9": {
+    "cand": 3,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-26-10": {
+    "cand": 3,
+    "needed": [
+      "989bfa45-0406-4e6e-b403-84e16c1741da"
+    ],
+    "sufficient": true
+  },
+  "conv-26-11": {
+    "cand": 8,
+    "needed": [
+      "c4e7d055-c258-420f-a396-ba8de5a8c890"
+    ],
+    "sufficient": true
+  },
+  "conv-26-12": {
+    "cand": 5,
+    "needed": [
+      "def1f3fb-94d6-4b22-8132-aae62a286145"
+    ],
+    "sufficient": true
+  },
+  "conv-26-13": {
+    "cand": 8,
+    "needed": [
+      "218e523d-946b-487c-9e83-904526061ca2"
+    ],
+    "sufficient": true
+  },
+  "conv-26-14": {
+    "cand": 7,
+    "needed": [
+      "218e523d-946b-487c-9e83-904526061ca2",
+      "74f8c053-a3ef-4e10-927e-81b11cfa8763"
+    ],
+    "sufficient": true
+  },
+  "conv-26-15": {
+    "cand": 13,
+    "needed": [
+      "c87511f2-347b-4168-9092-583986d3994e",
+      "f95a74ff-98e4-4eb2-80ea-a00a1e6821c3",
+      "8c3c04a9-fb7a-4051-b9b5-b04d24a08f4a"
+    ],
+    "sufficient": false
+  },
+  "conv-26-0": {
+    "cand": 2,
+    "needed": [
+      "830fa825-776f-47cf-a919-69f8cb25171d"
+    ],
+    "sufficient": true
+  },
+  "conv-26-1": {
+    "cand": 4,
+    "needed": [
+      "d04d8142-606b-49d7-bf86-cc9aa558b37d"
+    ],
+    "sufficient": true
+  },
+  "conv-26-2": {
+    "cand": 4,
+    "needed": [
+      "0c50be75-9cf1-48fe-88e5-77d1c74dfe18",
+      "3ffa7f77-c1d9-436d-951e-53937bb25d85"
+    ],
+    "sufficient": false
+  },
+  "conv-26-3": {
+    "cand": 5,
+    "needed": [
+      "952060f8-a54e-4a8b-b685-b8e090f619aa"
+    ],
+    "sufficient": true
+  },
+  "conv-26-4": {
+    "cand": 2,
+    "needed": [
+      "3d8373cd-a23a-4f56-b52f-ef4513a4d77b",
+      "830fa825-776f-47cf-a919-69f8cb25171d"
+    ],
+    "sufficient": false
+  },
+  "conv-26-5": {
+    "cand": 5,
+    "needed": [
+      "a3dba2de-d912-416e-ae60-019c7734b824"
+    ],
+    "sufficient": false
+  },
+  "conv-26-6": {
+    "cand": 5,
+    "needed": [
+      "954c4ecb-24ee-41e7-bbf7-86b4b9f6da7f"
+    ],
+    "sufficient": true
+  },
+  "conv-26-7": {
+    "cand": 5,
+    "needed": [
+      "a0b5581c-4a91-4efa-992b-207d9fcc7356"
+    ],
+    "sufficient": false
+  },
+  "conv-26-24": {
+    "cand": 6,
+    "needed": [
+      "31214351-2c99-45c4-904b-ea86f0a3cb1d",
+      "c87511f2-347b-4168-9092-583986d3994e"
+    ],
+    "sufficient": true
+  },
+  "conv-26-25": {
+    "cand": 4,
+    "needed": [
+      "e4864ac8-1344-4353-9307-21339083a7e2"
+    ],
+    "sufficient": true
+  },
+  "conv-26-26": {
+    "cand": 4,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-26-27": {
+    "cand": 8,
+    "needed": [
+      "0c45fb83-324e-41ab-8d89-c3b28240afc5",
+      "25b0303c-e0be-4460-b50a-6f644825122a"
+    ],
+    "sufficient": true
+  },
+  "conv-26-28": {
+    "cand": 5,
+    "needed": [
+      "42307ec4-c1c3-434f-8f28-a298b7683752"
+    ],
+    "sufficient": false
+  },
+  "conv-26-29": {
+    "cand": 2,
+    "needed": [
+      "f0c887e9-2a90-4515-b207-cb24a8130ab9"
+    ],
+    "sufficient": false
+  },
+  "conv-26-31": {
+    "cand": 5,
+    "needed": [
+      "25f22f0f-231e-4f31-aa60-8af3e71a2726"
+    ],
+    "sufficient": false
+  },
+  "conv-26-32": {
+    "cand": 11,
+    "needed": [
+      "6c36d241-b5db-4db7-b556-27155f67a0d7",
+      "5dd50d06-2e9d-42e2-8b57-3600fc980b0a",
+      "830fa825-776f-47cf-a919-69f8cb25171d"
+    ],
+    "sufficient": true
+  },
+  "conv-26-33": {
+    "cand": 4,
+    "needed": [
+      "6c36d241-b5db-4db7-b556-27155f67a0d7"
+    ],
+    "sufficient": true
+  },
+  "conv-26-34": {
+    "cand": 8,
+    "needed": [
+      "869ea6ca-7ce8-42b5-aaad-de5fc25df084",
+      "5dd50d06-2e9d-42e2-8b57-3600fc980b0a"
+    ],
+    "sufficient": true
+  },
+  "conv-26-35": {
+    "cand": 5,
+    "needed": [
+      "f95a74ff-98e4-4eb2-80ea-a00a1e6821c3"
+    ],
+    "sufficient": true
+  },
+  "conv-26-36": {
+    "cand": 5,
+    "needed": [
+      "869ea6ca-7ce8-42b5-aaad-de5fc25df084"
+    ],
+    "sufficient": false
+  },
+  "conv-26-37": {
+    "cand": 3,
+    "needed": [
+      "5899c3a2-465e-4841-b588-bf2efde1290d"
+    ],
+    "sufficient": true
+  },
+  "conv-26-38": {
+    "cand": 14,
+    "needed": [
+      "5899c3a2-465e-4841-b588-bf2efde1290d",
+      "f0c887e9-2a90-4515-b207-cb24a8130ab9",
+      "f95a74ff-98e4-4eb2-80ea-a00a1e6821c3",
+      "ab5313b4-db09-4f98-b922-12451117f476"
+    ],
+    "sufficient": false
+  },
+  "conv-26-39": {
+    "cand": 16,
+    "needed": [
+      "d8e28f6f-5c39-4078-bb9d-6e0872a9219b",
+      "6c36d241-b5db-4db7-b556-27155f67a0d7",
+      "ee6adee4-fbc2-4f1d-baea-3c851a1b6e2c",
+      "869ea6ca-7ce8-42b5-aaad-de5fc25df084"
+    ],
+    "sufficient": true
+  },
+  "conv-26-40": {
+    "cand": 9,
+    "needed": [
+      "059c5305-6c95-4e9c-9548-11b4070ca418",
+      "d6207750-884e-453c-a744-fe1dfed6153a"
+    ],
+    "sufficient": false
+  },
+  "conv-26-41": {
+    "cand": 4,
+    "needed": [
+      "d8e28f6f-5c39-4078-bb9d-6e0872a9219b"
+    ],
+    "sufficient": true
+  },
+  "conv-26-42": {
+    "cand": 3,
+    "needed": [
+      "ae57b4f8-0b69-4f9e-be7a-e4cba761c06e",
+      "dd0aa30e-6261-413c-97ec-c1eac8ab8981"
+    ],
+    "sufficient": true
+  },
+  "conv-26-43": {
+    "cand": 10,
+    "needed": [
+      "d6ec084f-455e-475a-80c5-57620bd53c92",
+      "955541f4-d4ef-4721-90de-f0214205dab2"
+    ],
+    "sufficient": false
+  },
+  "conv-26-44": {
+    "cand": 4,
+    "needed": [
+      "dc8a356a-4b60-40b3-8737-0dfa32c11e8f"
+    ],
+    "sufficient": true
+  },
+  "conv-26-45": {
+    "cand": 4,
+    "needed": [
+      "517d45e6-6852-4591-bc06-b2b7d7e66130"
+    ],
+    "sufficient": true
+  },
+  "conv-26-47": {
+    "cand": 7,
+    "needed": [
+      "14fb23a4-8c2b-4096-82ca-5995581a857b",
+      "a83dd92f-5f70-4156-aca5-e3861bc27bdd"
+    ],
+    "sufficient": true
+  },
+  "conv-26-48": {
+    "cand": 7,
+    "needed": [
+      "f0c887e9-2a90-4515-b207-cb24a8130ab9"
+    ],
+    "sufficient": false
+  },
+  "conv-26-49": {
+    "cand": 1,
+    "needed": [
+      "c05ecbe3-cc89-4c59-80e3-31d4245a2ab9"
+    ],
+    "sufficient": true
+  },
+  "conv-26-50": {
+    "cand": 4,
+    "needed": [
+      "7c2569f5-44c6-45ad-95f4-f141d2995957"
+    ],
+    "sufficient": true
+  },
+  "conv-26-51": {
+    "cand": 11,
+    "needed": [
+      "87d80081-d571-4fae-ae07-3d0fe399d757",
+      "5899c3a2-465e-4841-b588-bf2efde1290d",
+      "d04d8142-606b-49d7-bf86-cc9aa558b37d"
+    ],
+    "sufficient": true
+  },
+  "conv-26-52": {
+    "cand": 7,
+    "needed": [
+      "a3012766-1e63-4405-9337-dfad864ad0be"
+    ],
+    "sufficient": false
+  },
+  "conv-26-53": {
+    "cand": 5,
+    "needed": [
+      "881bbb44-7140-4853-b1f8-8c2fa911b24e"
+    ],
+    "sufficient": true
+  },
+  "conv-26-54": {
+    "cand": 2,
+    "needed": [
+      "c8d58508-ed1a-497f-9a50-06531418707a"
+    ],
+    "sufficient": false
+  },
+  "conv-26-55": {
+    "cand": 5,
+    "needed": [
+      "24e1d36d-5ee2-4551-9067-379d3d40506d",
+      "5899c3a2-465e-4841-b588-bf2efde1290d"
+    ],
+    "sufficient": true
+  },
+  "conv-26-56": {
+    "cand": 7,
+    "needed": [
+      "559068dd-b7b2-4630-bf01-043a1166ba94"
+    ],
+    "sufficient": false
+  },
+  "conv-26-57": {
+    "cand": 3,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-26-58": {
+    "cand": 3,
+    "needed": [
+      "3bb462a7-70d8-4b92-9c2c-6135bbe74981"
+    ],
+    "sufficient": false
+  },
+  "conv-26-59": {
+    "cand": 5,
+    "needed": [
+      "9b5c0fec-2d42-43bd-b160-f1d11693a5b1",
+      "7c2569f5-44c6-45ad-95f4-f141d2995957"
+    ],
+    "sufficient": true
+  },
+  "conv-26-60": {
+    "cand": 7,
+    "needed": [
+      "72b4e53f-f76c-4a96-909c-80d221c8090f",
+      "81724b45-07e7-4b28-8de4-e18c010d5491"
+    ],
+    "sufficient": true
+  },
+  "conv-26-61": {
+    "cand": 8,
+    "needed": [
+      "f78a5f18-56a2-4b1c-aee7-8a798e481be8",
+      "dc8a356a-4b60-40b3-8737-0dfa32c11e8f"
+    ],
+    "sufficient": true
+  },
+  "conv-26-62": {
+    "cand": 3,
+    "needed": [
+      "ae2cd6d6-a9ba-4419-85b1-936742bbac7a"
+    ],
+    "sufficient": false
+  },
+  "conv-26-63": {
+    "cand": 4,
+    "needed": [
+      "0fc72b34-afa7-4455-80b0-a009b5c7a605"
+    ],
+    "sufficient": true
+  },
+  "conv-26-64": {
+    "cand": 2,
+    "needed": [
+      "c2fa1d0e-300e-4605-bc0c-c43d542342ae"
+    ],
+    "sufficient": true
+  },
+  "conv-26-65": {
+    "cand": 7,
+    "needed": [
+      "9e452080-5deb-4b4d-895d-b8bbd1a7e6a6",
+      "5431655f-6c86-4624-a6a6-760aece7a601"
+    ],
+    "sufficient": true
+  },
+  "conv-26-66": {
+    "cand": 6,
+    "needed": [
+      "ae57b4f8-0b69-4f9e-be7a-e4cba761c06e"
+    ],
+    "sufficient": true
+  },
+  "conv-26-67": {
+    "cand": 3,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-26-68": {
+    "cand": 3,
+    "needed": [
+      "ecea7dc5-98e5-438d-8a23-aae6d40478a0"
+    ],
+    "sufficient": true
+  },
+  "conv-26-69": {
+    "cand": 7,
+    "needed": [
+      "752fd5cf-f164-4c01-a5e2-d51ce7e1da85",
+      "0c45fb83-324e-41ab-8d89-c3b28240afc5"
+    ],
+    "sufficient": false
+  },
+  "conv-26-70": {
+    "cand": 6,
+    "needed": [
+      "0fe98ce1-30be-4a79-95d6-1342149392da"
+    ],
+    "sufficient": true
+  },
+  "conv-26-71": {
+    "cand": 6,
+    "needed": [
+      "4cda2781-6a7b-4bed-9385-949018dfc026"
+    ],
+    "sufficient": true
+  },
+  "conv-26-72": {
+    "cand": 3,
+    "needed": [
+      "3d1a21cd-0819-4fdc-8687-42725ea28f50"
+    ],
+    "sufficient": true
+  },
+  "conv-26-73": {
+    "cand": 3,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-26-82": {
+    "cand": 5,
+    "needed": [
+      "a3dba2de-d912-416e-ae60-019c7734b824"
+    ],
+    "sufficient": true
+  },
+  "conv-26-83": {
+    "cand": 5,
+    "needed": [
+      "a8421d21-ccb1-4e4c-9ed5-c90fc193ca34"
+    ],
+    "sufficient": true
+  },
+  "conv-26-84": {
+    "cand": 5,
+    "needed": [
+      "81724b45-07e7-4b28-8de4-e18c010d5491"
+    ],
+    "sufficient": true
+  },
+  "conv-26-85": {
+    "cand": 5,
+    "needed": [
+      "952060f8-a54e-4a8b-b685-b8e090f619aa"
+    ],
+    "sufficient": true
+  },
+  "conv-26-86": {
+    "cand": 2,
+    "needed": [
+      "1cc13e29-c4ef-4c93-9f9a-f574df1b16c5"
+    ],
+    "sufficient": true
+  },
+  "conv-26-87": {
+    "cand": 2,
+    "needed": [
+      "1cc13e29-c4ef-4c93-9f9a-f574df1b16c5"
+    ],
+    "sufficient": true
+  },
+  "conv-26-88": {
+    "cand": 2,
+    "needed": [
+      "a0b5581c-4a91-4efa-992b-207d9fcc7356"
+    ],
+    "sufficient": false
+  },
+  "conv-26-89": {
+    "cand": 2,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-26-74": {
+    "cand": 4,
+    "needed": [
+      "0d718016-173f-4eff-a4c7-970e544d13fa"
+    ],
+    "sufficient": true
+  },
+  "conv-26-75": {
+    "cand": 4,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-26-76": {
+    "cand": 2,
+    "needed": [
+      "2dfbab35-bd75-42d0-9442-dc2d23ab3482"
+    ],
+    "sufficient": true
+  },
+  "conv-26-77": {
+    "cand": 4,
+    "needed": [
+      "0d718016-173f-4eff-a4c7-970e544d13fa",
+      "1e5f9b27-930d-413b-921b-733084ca5bab"
+    ],
+    "sufficient": true
+  },
+  "conv-26-78": {
+    "cand": 6,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-26-79": {
+    "cand": 4,
+    "needed": [
+      "fbddf2a6-8034-4d28-8586-99010742bf26"
+    ],
+    "sufficient": true
+  },
+  "conv-26-80": {
+    "cand": 4,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-26-81": {
+    "cand": 4,
+    "needed": [
+      "206642a7-7af4-4fee-8459-49b8855f1fab",
+      "fbddf2a6-8034-4d28-8586-99010742bf26"
+    ],
+    "sufficient": true
+  },
+  "conv-26-90": {
+    "cand": 3,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-26-91": {
+    "cand": 5,
+    "needed": [
+      "60b3b6de-2aaf-4806-afb3-71022b295e8b"
+    ],
+    "sufficient": true
+  },
+  "conv-26-92": {
+    "cand": 5,
+    "needed": [
+      "60b3b6de-2aaf-4806-afb3-71022b295e8b"
+    ],
+    "sufficient": true
+  },
+  "conv-26-93": {
+    "cand": 5,
+    "needed": [
+      "60b3b6de-2aaf-4806-afb3-71022b295e8b"
+    ],
+    "sufficient": true
+  },
+  "conv-26-94": {
+    "cand": 5,
+    "needed": [
+      "def1f3fb-94d6-4b22-8132-aae62a286145"
+    ],
+    "sufficient": true
+  },
+  "conv-26-95": {
+    "cand": 5,
+    "needed": [
+      "25f22f0f-231e-4f31-aa60-8af3e71a2726"
+    ],
+    "sufficient": true
+  },
+  "conv-26-96": {
+    "cand": 4,
+    "needed": [
+      "218e523d-946b-487c-9e83-904526061ca2"
+    ],
+    "sufficient": true
+  },
+  "conv-26-97": {
+    "cand": 4,
+    "needed": [
+      "403187b4-0176-4464-8e51-dd7547d342f4"
+    ],
+    "sufficient": true
+  },
+  "conv-26-98": {
+    "cand": 4,
+    "needed": [
+      "403187b4-0176-4464-8e51-dd7547d342f4"
+    ],
+    "sufficient": true
+  },
+  "conv-26-99": {
+    "cand": 4,
+    "needed": [
+      "74f8c053-a3ef-4e10-927e-81b11cfa8763"
+    ],
+    "sufficient": true
+  },
+  "conv-26-100": {
+    "cand": 4,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-26-101": {
+    "cand": 4,
+    "needed": [
+      "c87511f2-347b-4168-9092-583986d3994e"
+    ],
+    "sufficient": false
+  },
+  "conv-26-102": {
+    "cand": 5,
+    "needed": [
+      "a3f125d3-d064-4fd5-995e-329f9d71624b"
+    ],
+    "sufficient": true
+  },
+  "conv-26-103": {
+    "cand": 5,
+    "needed": [
+      "dd08806a-7342-4143-9d1f-da0a5e7e2559"
+    ],
+    "sufficient": true
+  },
+  "conv-26-104": {
+    "cand": 4,
+    "needed": [
+      "4cda2781-6a7b-4bed-9385-949018dfc026"
+    ],
+    "sufficient": true
+  },
+  "conv-26-105": {
+    "cand": 4,
+    "needed": [
+      "f585e01a-7854-4d80-aa70-114cb658fbea"
+    ],
+    "sufficient": true
+  },
+  "conv-26-114": {
+    "cand": 5,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-26-115": {
+    "cand": 5,
+    "needed": [
+      "6ccde283-3377-4285-8df0-afd3e1ce0106",
+      "7dba7b1b-7569-4637-ae2e-a3d884a28f0f"
+    ],
+    "sufficient": true
+  },
+  "conv-26-116": {
+    "cand": 3,
+    "needed": [
+      "133d2788-6a37-4330-925b-3918178d8200"
+    ],
+    "sufficient": true
+  },
+  "conv-26-117": {
+    "cand": 3,
+    "needed": [
+      "0b606bce-cfe5-4bcd-95c1-7038aad9012f"
+    ],
+    "sufficient": true
+  },
+  "conv-26-118": {
+    "cand": 3,
+    "needed": [
+      "dd0aa30e-6261-413c-97ec-c1eac8ab8981"
+    ],
+    "sufficient": true
+  },
+  "conv-26-119": {
+    "cand": 2,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-26-120": {
+    "cand": 4,
+    "needed": [
+      "dc8a356a-4b60-40b3-8737-0dfa32c11e8f"
+    ],
+    "sufficient": true
+  },
+  "conv-26-121": {
+    "cand": 4,
+    "needed": [
+      "dc8a356a-4b60-40b3-8737-0dfa32c11e8f"
+    ],
+    "sufficient": true
+  },
+  "conv-26-106": {
+    "cand": 2,
+    "needed": [
+      "31214351-2c99-45c4-904b-ea86f0a3cb1d"
+    ],
+    "sufficient": true
+  },
+  "conv-26-107": {
+    "cand": 2,
+    "needed": [
+      "31214351-2c99-45c4-904b-ea86f0a3cb1d"
+    ],
+    "sufficient": true
+  },
+  "conv-26-108": {
+    "cand": 2,
+    "needed": [
+      "31214351-2c99-45c4-904b-ea86f0a3cb1d"
+    ],
+    "sufficient": true
+  },
+  "conv-26-109": {
+    "cand": 2,
+    "needed": [
+      "f0c887e9-2a90-4515-b207-cb24a8130ab9"
+    ],
+    "sufficient": true
+  },
+  "conv-26-110": {
+    "cand": 2,
+    "needed": [
+      "f0c887e9-2a90-4515-b207-cb24a8130ab9"
+    ],
+    "sufficient": false
+  },
+  "conv-26-111": {
+    "cand": 2,
+    "needed": [
+      "5899c3a2-465e-4841-b588-bf2efde1290d"
+    ],
+    "sufficient": true
+  },
+  "conv-26-112": {
+    "cand": 2,
+    "needed": [
+      "5899c3a2-465e-4841-b588-bf2efde1290d"
+    ],
+    "sufficient": true
+  },
+  "conv-26-113": {
+    "cand": 5,
+    "needed": [
+      "42307ec4-c1c3-434f-8f28-a298b7683752",
+      "af4ba650-e059-409e-8a84-624f25ac859a"
+    ],
+    "sufficient": false
+  },
+  "conv-26-122": {
+    "cand": 4,
+    "needed": [
+      "366631eb-6937-45be-89b7-3ab9cb6431db"
+    ],
+    "sufficient": true
+  },
+  "conv-26-123": {
+    "cand": 5,
+    "needed": [
+      "3791e746-8e1b-4cfb-ae2f-c08fe7e0b374"
+    ],
+    "sufficient": true
+  },
+  "conv-26-124": {
+    "cand": 5,
+    "needed": [
+      "a3012766-1e63-4405-9337-dfad864ad0be"
+    ],
+    "sufficient": false
+  },
+  "conv-26-125": {
+    "cand": 5,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-26-126": {
+    "cand": 5,
+    "needed": [
+      "4950244c-0d93-4ff4-8a41-813c43d6f9f9"
+    ],
+    "sufficient": true
+  },
+  "conv-26-127": {
+    "cand": 1,
+    "needed": [
+      "9b5c0fec-2d42-43bd-b160-f1d11693a5b1"
+    ],
+    "sufficient": true
+  },
+  "conv-26-128": {
+    "cand": 1,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-26-129": {
+    "cand": 3,
+    "needed": [
+      "cc9cdfc9-d3dd-447e-b303-e2c7a516add2"
+    ],
+    "sufficient": true
+  },
+  "conv-26-130": {
+    "cand": 2,
+    "needed": [
+      "c2fa1d0e-300e-4605-bc0c-c43d542342ae"
+    ],
+    "sufficient": true
+  },
+  "conv-26-131": {
+    "cand": 2,
+    "needed": [
+      "c2fa1d0e-300e-4605-bc0c-c43d542342ae"
+    ],
+    "sufficient": true
+  },
+  "conv-26-132": {
+    "cand": 3,
+    "needed": [
+      "ecea7dc5-98e5-438d-8a23-aae6d40478a0"
+    ],
+    "sufficient": true
+  },
+  "conv-26-133": {
+    "cand": 4,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-26-134": {
+    "cand": 3,
+    "needed": [
+      "47ea7326-3d93-46e3-a558-2620c274953a"
+    ],
+    "sufficient": true
+  },
+  "conv-26-135": {
+    "cand": 3,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-26-136": {
+    "cand": 2,
+    "needed": [
+      "e49a2bcc-b523-4e8d-a618-bf948a26af22"
+    ],
+    "sufficient": false
+  },
+  "conv-26-137": {
+    "cand": 2,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-26-138": {
+    "cand": 2,
+    "needed": [
+      "e49a2bcc-b523-4e8d-a618-bf948a26af22"
+    ],
+    "sufficient": false
+  },
+  "conv-26-139": {
+    "cand": 2,
+    "needed": [
+      "0fe98ce1-30be-4a79-95d6-1342149392da"
+    ],
+    "sufficient": true
+  },
+  "conv-26-140": {
+    "cand": 2,
+    "needed": [
+      "0fe98ce1-30be-4a79-95d6-1342149392da"
+    ],
+    "sufficient": false
+  },
+  "conv-26-141": {
+    "cand": 2,
+    "needed": [
+      "999e1f54-11c1-4036-8f84-0544ec118838"
+    ],
+    "sufficient": true
+  },
+  "conv-26-143": {
+    "cand": 4,
+    "needed": [
+      "0d718016-173f-4eff-a4c7-970e544d13fa"
+    ],
+    "sufficient": true
+  },
+  "conv-26-144": {
+    "cand": 4,
+    "needed": [
+      "0d718016-173f-4eff-a4c7-970e544d13fa"
+    ],
+    "sufficient": false
+  },
+  "conv-26-145": {
+    "cand": 4,
+    "needed": [
+      "84e4d9ec-d47e-4360-9143-e4ad540eaf17"
+    ],
+    "sufficient": true
+  },
+  "conv-26-146": {
+    "cand": 4,
+    "needed": [
+      "0d718016-173f-4eff-a4c7-970e544d13fa"
+    ],
+    "sufficient": false
+  },
+  "conv-30-3": {
+    "cand": 11,
+    "needed": [
+      "05d31ea6-253c-4b5e-9b24-11be0f327150",
+      "f37b2ece-33c4-4281-a32c-16c07de34b9a",
+      "955edbb5-e574-410f-baa9-6bde30315302"
+    ],
+    "sufficient": true
+  },
+  "conv-30-4": {
+    "cand": 6,
+    "needed": [
+      "05d31ea6-253c-4b5e-9b24-11be0f327150",
+      "8f062e9b-b6cd-4d13-80a4-f1ee3a2610dd"
+    ],
+    "sufficient": true
+  },
+  "conv-30-5": {
+    "cand": 10,
+    "needed": [
+      "0c63b517-6251-4b04-be93-9ce2e0281243",
+      "4c3e6612-e366-44bb-8db7-cd01250fc9d2",
+      "d93fcdae-0837-455d-9d8f-4754e814a719"
+    ],
+    "sufficient": true
+  },
+  "conv-30-6": {
+    "cand": 5,
+    "needed": [
+      "40f01b06-921b-4305-8698-b719762904fa"
+    ],
+    "sufficient": true
+  },
+  "conv-30-7": {
+    "cand": 5,
+    "needed": [
+      "955edbb5-e574-410f-baa9-6bde30315302"
+    ],
+    "sufficient": true
+  },
+  "conv-30-8": {
+    "cand": 5,
+    "needed": [
+      "7c2de259-3cae-4230-a5c2-18292996fe94"
+    ],
+    "sufficient": true
+  },
+  "conv-30-9": {
+    "cand": 8,
+    "needed": [
+      "25fd179d-f2f9-4ad8-a429-5863ec84dbdc"
+    ],
+    "sufficient": false
+  },
+  "conv-30-10": {
+    "cand": 5,
+    "needed": [
+      "c7ba7453-34b2-45ab-9e6b-9f76a2c8445c"
+    ],
+    "sufficient": true
+  },
+  "conv-26-147": {
+    "cand": 4,
+    "needed": [
+      "84e4d9ec-d47e-4360-9143-e4ad540eaf17"
+    ],
+    "sufficient": true
+  },
+  "conv-26-148": {
+    "cand": 4,
+    "needed": [
+      "84e4d9ec-d47e-4360-9143-e4ad540eaf17",
+      "fce7c2b1-d3fe-43bb-abec-da56dbcc5824"
+    ],
+    "sufficient": true
+  },
+  "conv-26-149": {
+    "cand": 1,
+    "needed": [
+      "483a68c2-1d07-41a4-90c5-67dd64e23aba"
+    ],
+    "sufficient": true
+  },
+  "conv-26-150": {
+    "cand": 1,
+    "needed": [
+      "483a68c2-1d07-41a4-90c5-67dd64e23aba"
+    ],
+    "sufficient": false
+  },
+  "conv-26-151": {
+    "cand": 2,
+    "needed": [
+      "2dfbab35-bd75-42d0-9442-dc2d23ab3482",
+      "cc1dc381-2707-4e3c-9769-ed2676b2daac"
+    ],
+    "sufficient": false
+  },
+  "conv-30-0": {
+    "cand": 6,
+    "needed": [
+      "05d31ea6-253c-4b5e-9b24-11be0f327150"
+    ],
+    "sufficient": true
+  },
+  "conv-30-1": {
+    "cand": 6,
+    "needed": [
+      "f37b2ece-33c4-4281-a32c-16c07de34b9a"
+    ],
+    "sufficient": true
+  },
+  "conv-30-2": {
+    "cand": 6,
+    "needed": [
+      "ea02a4b6-981d-4207-b4fa-d69084ab6a03",
+      "fd8f0445-9183-44cc-8fc1-453d91bb44e3"
+    ],
+    "sufficient": true
+  },
+  "conv-30-11": {
+    "cand": 3,
+    "needed": [
+      "d8ff1c83-9a7d-4dbc-a49a-783080af685e"
+    ],
+    "sufficient": true
+  },
+  "conv-30-12": {
+    "cand": 4,
+    "needed": [
+      "fd0800d3-508f-4a70-854b-b1b5108a7943"
+    ],
+    "sufficient": true
+  },
+  "conv-30-13": {
+    "cand": 4,
+    "needed": [
+      "6fa9fb73-6ec3-40fb-b2f9-841116654dab"
+    ],
+    "sufficient": true
+  },
+  "conv-30-14": {
+    "cand": 6,
+    "needed": [
+      "68d4ec5b-1e34-4735-a179-56a9b16c3f64"
+    ],
+    "sufficient": true
+  },
+  "conv-30-15": {
+    "cand": 6,
+    "needed": [
+      "8227f162-555b-4b98-912b-2af5d168e3cb"
+    ],
+    "sufficient": true
+  },
+  "conv-30-16": {
+    "cand": 3,
+    "needed": [
+      "30df5757-c380-48b6-be90-45dba14df47e"
+    ],
+    "sufficient": true
+  },
+  "conv-30-17": {
+    "cand": 10,
+    "needed": [
+      "e73af13e-cd34-40c5-9220-8e76e53bf105",
+      "faa1bed1-5fb8-4041-a949-77c37516608f"
+    ],
+    "sufficient": true
+  },
+  "conv-30-18": {
+    "cand": 10,
+    "needed": [
+      "8f062e9b-b6cd-4d13-80a4-f1ee3a2610dd",
+      "faa1bed1-5fb8-4041-a949-77c37516608f"
+    ],
+    "sufficient": true
+  },
+  "conv-30-19": {
+    "cand": 2,
+    "needed": [
+      "8558bcc6-bdb0-4ea0-a9c4-69b1f6b90bb9"
+    ],
+    "sufficient": true
+  },
+  "conv-30-20": {
+    "cand": 3,
+    "needed": [
+      "c5cab922-b3b5-4cf2-b382-acf3868f13a6"
+    ],
+    "sufficient": true
+  },
+  "conv-30-21": {
+    "cand": 3,
+    "needed": [
+      "565b904c-87c1-4db9-9d98-0aefd0938cb4"
+    ],
+    "sufficient": true
+  },
+  "conv-30-22": {
+    "cand": 5,
+    "needed": [
+      "a96108ae-7178-4b16-a849-e3e2712482b7"
+    ],
+    "sufficient": true
+  },
+  "conv-30-23": {
+    "cand": 19,
+    "needed": [
+      "c7ba7453-34b2-45ab-9e6b-9f76a2c8445c",
+      "c080de12-6a31-4180-b291-f3e6d8ccefd1",
+      "f3b0f74e-27e3-4d15-98e0-fb177306c507",
+      "f2a4f340-276c-4532-b8f5-5b9c8edf8476",
+      "a96108ae-7178-4b16-a849-e3e2712482b7"
+    ],
+    "sufficient": true
+  },
+  "conv-30-24": {
+    "cand": 12,
+    "needed": [
+      "30df5757-c380-48b6-be90-45dba14df47e",
+      "6b2dcf33-4490-413b-83d3-36aeca0c95f7"
+    ],
+    "sufficient": false
+  },
+  "conv-30-25": {
+    "cand": 11,
+    "needed": [
+      "53875212-7aaa-4cd6-b893-d4b799efdf17",
+      "68d4ec5b-1e34-4735-a179-56a9b16c3f64"
+    ],
+    "sufficient": true
+  },
+  "conv-30-26": {
+    "cand": 4,
+    "needed": [
+      "f6826e44-c8f2-4dd1-a65c-50b639b5f113"
+    ],
+    "sufficient": true
+  },
+  "conv-30-27": {
+    "cand": 11,
+    "needed": [
+      "d072bf50-fd84-4a0f-9d24-e1e1517795eb",
+      "e10aca07-649c-41ef-a8a0-d3b4b84ea2fc"
+    ],
+    "sufficient": true
+  },
+  "conv-30-28": {
+    "cand": 3,
+    "needed": [
+      "25fd179d-f2f9-4ad8-a429-5863ec84dbdc"
+    ],
+    "sufficient": true
+  },
+  "conv-30-29": {
+    "cand": 8,
+    "needed": [
+      "7c2de259-3cae-4230-a5c2-18292996fe94",
+      "25fd179d-f2f9-4ad8-a429-5863ec84dbdc"
+    ],
+    "sufficient": true
+  },
+  "conv-30-30": {
+    "cand": 3,
+    "needed": [
+      "33607836-cc93-4fbb-b8a7-b2106c1e4ef3"
+    ],
+    "sufficient": true
+  },
+  "conv-30-31": {
+    "cand": 7,
+    "needed": [
+      "05d31ea6-253c-4b5e-9b24-11be0f327150",
+      "c59e829a-f9c5-466c-8e28-a6587d2de6a6"
+    ],
+    "sufficient": true
+  },
+  "conv-30-32": {
+    "cand": 5,
+    "needed": [
+      "f3b0f74e-27e3-4d15-98e0-fb177306c507"
+    ],
+    "sufficient": true
+  },
+  "conv-30-33": {
+    "cand": 5,
+    "needed": [
+      "6b2dcf33-4490-413b-83d3-36aeca0c95f7"
+    ],
+    "sufficient": true
+  },
+  "conv-30-34": {
+    "cand": 4,
+    "needed": [
+      "ef74f2ce-5bcb-43fc-a99c-e153f1668e66"
+    ],
+    "sufficient": true
+  },
+  "conv-30-35": {
+    "cand": 4,
+    "needed": [
+      "0d5e84e8-7b7c-450a-8de2-e0d5279b8388"
+    ],
+    "sufficient": true
+  },
+  "conv-30-36": {
+    "cand": 1,
+    "needed": [
+      "379551ee-74ab-49bf-ab07-21a1639def78"
+    ],
+    "sufficient": true
+  },
+  "conv-30-37": {
+    "cand": 4,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-30-38": {
+    "cand": 4,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-30-39": {
+    "cand": 2,
+    "needed": [
+      "8ace2677-0d3c-4861-bdd8-892f53f36324"
+    ],
+    "sufficient": true
+  },
+  "conv-30-40": {
+    "cand": 6,
+    "needed": [
+      "900d80d7-d59e-4321-9211-42ad2f425e61"
+    ],
+    "sufficient": true
+  },
+  "conv-30-41": {
+    "cand": 5,
+    "needed": [
+      "e10aca07-649c-41ef-a8a0-d3b4b84ea2fc"
+    ],
+    "sufficient": true
+  },
+  "conv-30-42": {
+    "cand": 5,
+    "needed": [
+      "6b0ce62d-4ca4-48ba-abfa-e9035e60110c"
+    ],
+    "sufficient": true
+  },
+  "conv-30-46": {
+    "cand": 5,
+    "needed": [
+      "4c3e6612-e366-44bb-8db7-cd01250fc9d2"
+    ],
+    "sufficient": true
+  },
+  "conv-30-47": {
+    "cand": 4,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-30-48": {
+    "cand": 4,
+    "needed": [
+      "46f15d08-0ff0-46b6-a51d-9b798372b36f"
+    ],
+    "sufficient": true
+  },
+  "conv-30-49": {
+    "cand": 4,
+    "needed": [
+      "46f15d08-0ff0-46b6-a51d-9b798372b36f"
+    ],
+    "sufficient": true
+  },
+  "conv-30-50": {
+    "cand": 4,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-30-51": {
+    "cand": 4,
+    "needed": [
+      "46f15d08-0ff0-46b6-a51d-9b798372b36f"
+    ],
+    "sufficient": false
+  },
+  "conv-30-53": {
+    "cand": 4,
+    "needed": [
+      "e1937085-1cce-4abd-af0e-043ddd140c4d"
+    ],
+    "sufficient": true
+  },
+  "conv-30-54": {
+    "cand": 2,
+    "needed": [
+      "e3a2b82e-c184-4ee2-b145-e2ca7f62a934"
+    ],
+    "sufficient": true
+  },
+  "conv-30-55": {
+    "cand": 3,
+    "needed": [
+      "d8ff1c83-9a7d-4dbc-a49a-783080af685e"
+    ],
+    "sufficient": true
+  },
+  "conv-30-56": {
+    "cand": 2,
+    "needed": [
+      "0c960797-0c70-4a17-bb16-f9fcf2a12263"
+    ],
+    "sufficient": false
+  },
+  "conv-30-57": {
+    "cand": 6,
+    "needed": [
+      "d79a97cd-fbbe-437d-8b8f-1ef6a7f40d4f"
+    ],
+    "sufficient": true
+  },
+  "conv-30-58": {
+    "cand": 4,
+    "needed": [
+      "6be6dc96-2315-4608-ac16-301350e5ad4f"
+    ],
+    "sufficient": true
+  },
+  "conv-30-59": {
+    "cand": 4,
+    "needed": [
+      "afa97c4e-7c48-4fa7-a1ae-c7d7623675b3"
+    ],
+    "sufficient": true
+  },
+  "conv-30-60": {
+    "cand": 5,
+    "needed": [
+      "97b20566-5cb7-4489-8d1b-636fb71ccfb7"
+    ],
+    "sufficient": true
+  },
+  "conv-30-61": {
+    "cand": 3,
+    "needed": [
+      "78821022-395b-4e9a-af0c-cabb696dbc43"
+    ],
+    "sufficient": true
+  },
+  "conv-30-62": {
+    "cand": 3,
+    "needed": [
+      "93536e25-14a7-48d0-8979-8ec6730f578f"
+    ],
+    "sufficient": false
+  },
+  "conv-30-63": {
+    "cand": 3,
+    "needed": [
+      "c5cab922-b3b5-4cf2-b382-acf3868f13a6"
+    ],
+    "sufficient": true
+  },
+  "conv-30-64": {
+    "cand": 3,
+    "needed": [
+      "c5cab922-b3b5-4cf2-b382-acf3868f13a6"
+    ],
+    "sufficient": true
+  },
+  "conv-30-65": {
+    "cand": 3,
+    "needed": [
+      "565b904c-87c1-4db9-9d98-0aefd0938cb4"
+    ],
+    "sufficient": true
+  },
+  "conv-30-66": {
+    "cand": 5,
+    "needed": [
+      "53875212-7aaa-4cd6-b893-d4b799efdf17"
+    ],
+    "sufficient": true
+  },
+  "conv-30-67": {
+    "cand": 2,
+    "needed": [
+      "f66fe48b-cfa3-42cc-a35a-5b67a512b2de"
+    ],
+    "sufficient": true
+  },
+  "conv-30-68": {
+    "cand": 1,
+    "needed": [
+      "16a9a36f-f404-4bce-bd81-c3603700dfc1"
+    ],
+    "sufficient": false
+  },
+  "conv-30-69": {
+    "cand": 3,
+    "needed": [
+      "25fd179d-f2f9-4ad8-a429-5863ec84dbdc"
+    ],
+    "sufficient": true
+  },
+  "conv-30-70": {
+    "cand": 3,
+    "needed": [
+      "73a400b3-49bf-4865-a319-c81b1ae0cded"
+    ],
+    "sufficient": true
+  },
+  "conv-30-71": {
+    "cand": 3,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-30-72": {
+    "cand": 3,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-30-73": {
+    "cand": 3,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-30-74": {
+    "cand": 1,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-30-75": {
+    "cand": 1,
+    "needed": [
+      "c59e829a-f9c5-466c-8e28-a6587d2de6a6"
+    ],
+    "sufficient": false
+  },
+  "conv-30-77": {
+    "cand": 5,
+    "needed": [
+      "f3b0f74e-27e3-4d15-98e0-fb177306c507"
+    ],
+    "sufficient": true
+  },
+  "conv-30-78": {
+    "cand": 4,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-30-79": {
+    "cand": 4,
+    "needed": [
+      "b74b7555-9266-4eb4-bf28-7f3b62255e0f",
+      "b8ca72bc-f775-4335-bbdb-d9c6eec8520d"
+    ],
+    "sufficient": true
+  },
+  "conv-30-80": {
+    "cand": 4,
+    "needed": [
+      "fa9dd051-cc74-4018-be4c-4ad28c0e5d6f"
+    ],
+    "sufficient": true
+  },
+  "conv-41-0": {
+    "cand": 2,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-41-1": {
+    "cand": 3,
+    "needed": [
+      "0c11684a-3a41-4319-8e0c-f0df21ab14f2"
+    ],
+    "sufficient": true
+  },
+  "conv-41-2": {
+    "cand": 7,
+    "needed": [
+      "16055930-f493-427b-8c42-abb776de7d75",
+      "833b6d7c-0cc6-4c16-9f6e-7419fdd33f85"
+    ],
+    "sufficient": true
+  },
+  "conv-41-3": {
+    "cand": 7,
+    "needed": [
+      "3320f764-81fc-478d-952d-6ee822a6a9ab",
+      "0c11684a-3a41-4319-8e0c-f0df21ab14f2"
+    ],
+    "sufficient": true
+  },
+  "conv-41-4": {
+    "cand": 4,
+    "needed": [
+      "3aa51ce1-f453-4e30-bd8c-e9daae99c102"
+    ],
+    "sufficient": false
+  },
+  "conv-41-5": {
+    "cand": 4,
+    "needed": [
+      "0a49ff3a-e96d-4b3e-abbf-e6e2f937cbfa"
+    ],
+    "sufficient": true
+  },
+  "conv-41-6": {
+    "cand": 14,
+    "needed": [
+      "8a1eee88-4d91-4032-b5a9-5a3ddf859ad4",
+      "0c11684a-3a41-4319-8e0c-f0df21ab14f2",
+      "80e88514-4816-4e32-bdc8-fc3c92b0df43",
+      "0eb50899-46a4-44e0-badb-b6a42a3922ed"
+    ],
+    "sufficient": true
+  },
+  "conv-41-15": {
+    "cand": 8,
+    "needed": [
+      "f81f9cca-d685-4464-877c-39720b75b60d",
+      "6b08775d-ed67-4e76-9ef1-86bb060d62ef"
+    ],
+    "sufficient": true
+  },
+  "conv-41-16": {
+    "cand": 4,
+    "needed": [
+      "1a475a90-af2f-41a9-bc90-cbadb720b931"
+    ],
+    "sufficient": false
+  },
+  "conv-41-17": {
+    "cand": 4,
+    "needed": [
+      "7c2891bf-f97f-4fe5-9f6d-0101a5e88876"
+    ],
+    "sufficient": false
+  },
+  "conv-41-18": {
+    "cand": 3,
+    "needed": [
+      "03e758da-a643-49c4-8d1d-bfa6f4ab4f95",
+      "b2d28e0b-aa0f-4a8f-a068-fd29855dfe42"
+    ],
+    "sufficient": true
+  },
+  "conv-41-19": {
+    "cand": 3,
+    "needed": [
+      "15ef3cc8-814c-4b19-b3f0-3ad3f212b65c"
+    ],
+    "sufficient": false
+  },
+  "conv-41-20": {
+    "cand": 1,
+    "needed": [
+      "7cbaaaa9-0040-45af-b9b2-bbca93a43c32"
+    ],
+    "sufficient": true
+  },
+  "conv-41-21": {
+    "cand": 3,
+    "needed": [
+      "7cbaaaa9-0040-45af-b9b2-bbca93a43c32",
+      "25f0373c-b964-4e66-b637-fbe5b58678d3"
+    ],
+    "sufficient": true
+  },
+  "conv-41-22": {
+    "cand": 3,
+    "needed": [
+      "dfee43cf-e61a-4df2-a3d8-725fba0c32b1"
+    ],
+    "sufficient": true
+  },
+  "conv-41-7": {
+    "cand": 7,
+    "needed": [
+      "b63ba328-256c-4596-9f6d-dcd6bf00c6db",
+      "c4d32c2c-29b5-414a-913c-632e0cdef4e8"
+    ],
+    "sufficient": true
+  },
+  "conv-41-8": {
+    "cand": 6,
+    "needed": [
+      "c3ca4243-936b-4704-b240-b7eff9114cf7"
+    ],
+    "sufficient": true
+  },
+  "conv-41-9": {
+    "cand": 9,
+    "needed": [
+      "40f25a73-beb0-4ee5-a528-450b5b9bcd1a"
+    ],
+    "sufficient": true
+  },
+  "conv-41-10": {
+    "cand": 4,
+    "needed": [
+      "8ab8a161-5409-4cbc-b08b-0b1784fe8ca7"
+    ],
+    "sufficient": false
+  },
+  "conv-41-11": {
+    "cand": 15,
+    "needed": [
+      "8ab8a161-5409-4cbc-b08b-0b1784fe8ca7",
+      "6e520a1c-7306-4731-917a-28a8c03fad66",
+      "ca0540bf-79f9-46df-a584-27cf4264fb37",
+      "efdcf009-dd2b-4192-a0d4-90251f847637"
+    ],
+    "sufficient": true
+  },
+  "conv-41-12": {
+    "cand": 9,
+    "needed": [
+      "3a949e9d-54d3-4e34-a6c4-2234fbcdd376",
+      "8396092f-13d3-49da-bd09-4994241416ca"
+    ],
+    "sufficient": true
+  },
+  "conv-41-13": {
+    "cand": 3,
+    "needed": [
+      "d0aa5d31-fb37-4a12-813d-05ef39345573"
+    ],
+    "sufficient": true
+  },
+  "conv-41-14": {
+    "cand": 5,
+    "needed": [
+      "3a949e9d-54d3-4e34-a6c4-2234fbcdd376"
+    ],
+    "sufficient": true
+  },
+  "conv-41-23": {
+    "cand": 5,
+    "needed": [
+      "f367e2cd-cbce-4559-bf03-18f44870fc7f",
+      "0f51bb5f-ee41-4bdb-870b-9f4c61fac78e"
+    ],
+    "sufficient": true
+  },
+  "conv-41-24": {
+    "cand": 3,
+    "needed": [
+      "474978a3-0e63-485d-91a3-b5149785cbc0"
+    ],
+    "sufficient": true
+  },
+  "conv-41-25": {
+    "cand": 7,
+    "needed": [
+      "52852857-33a9-4bff-b7cd-8a1283fe9850",
+      "2891e8d6-a48c-4131-a74b-29801bea013a"
+    ],
+    "sufficient": true
+  },
+  "conv-41-26": {
+    "cand": 7,
+    "needed": [
+      "0eb50899-46a4-44e0-badb-b6a42a3922ed",
+      "108d873b-fe71-436f-899c-df2e668067b8"
+    ],
+    "sufficient": true
+  },
+  "conv-41-27": {
+    "cand": 2,
+    "needed": [
+      "4ccccdc5-0afb-46f7-b977-bcdbad6ee418",
+      "ed1b4047-e24c-4220-aad5-ecda2d88507d"
+    ],
+    "sufficient": false
+  },
+  "conv-41-28": {
+    "cand": 16,
+    "needed": [
+      "a2870bff-2889-4447-b827-67c3434329a1",
+      "e66f7039-4101-41ca-8a20-52ccd3d938b2",
+      "81031016-9ad1-44f9-87ca-729e514cb4d0"
+    ],
+    "sufficient": true
+  },
+  "conv-41-29": {
+    "cand": 5,
+    "needed": [
+      "9c4cf247-1f84-482f-8d1b-798705125dec",
+      "cac786a8-a935-411b-97e9-369299a80225"
+    ],
+    "sufficient": true
+  },
+  "conv-41-30": {
+    "cand": 10,
+    "needed": [
+      "0c11684a-3a41-4319-8e0c-f0df21ab14f2",
+      "1673f23a-227a-4ed1-b072-534cc368be8a"
+    ],
+    "sufficient": true
+  },
+  "conv-41-31": {
+    "cand": 1,
+    "needed": [
+      "50a1b2c7-624c-43dc-adc7-2e991530a94c"
+    ],
+    "sufficient": true
+  },
+  "conv-41-32": {
+    "cand": 7,
+    "needed": [
+      "d118f24f-9852-443b-8d91-ae098728f15c"
+    ],
+    "sufficient": false
+  },
+  "conv-41-33": {
+    "cand": 14,
+    "needed": [
+      "3d905b5d-6cb0-47cb-b1ed-61a969505886",
+      "8a0c9dc5-2213-4a6b-9314-e1ebb46af396"
+    ],
+    "sufficient": true
+  },
+  "conv-41-34": {
+    "cand": 6,
+    "needed": [
+      "80e88514-4816-4e32-bdc8-fc3c92b0df43"
+    ],
+    "sufficient": false
+  },
+  "conv-41-35": {
+    "cand": 7,
+    "needed": [
+      "a92d1652-ebb0-41e1-82ad-adf1eeece7cb",
+      "42d4b490-6119-4f10-b0f4-660b15dd586d"
+    ],
+    "sufficient": true
+  },
+  "conv-41-36": {
+    "cand": 8,
+    "needed": [
+      "9b5f0af7-c3d4-481b-ae86-84d9b47c9dd9",
+      "0f69bfc3-c698-4a38-a6d2-2f430695f723"
+    ],
+    "sufficient": true
+  },
+  "conv-41-37": {
+    "cand": 16,
+    "needed": [
+      "a2870bff-2889-4447-b827-67c3434329a1",
+      "ed1b4047-e24c-4220-aad5-ecda2d88507d",
+      "8fea41d0-4269-4bc6-8be9-c3d694731ac3",
+      "a322e7d7-5048-4696-afbe-67a6ea8484ed",
+      "71561a68-c3d7-44f6-967f-1e0b4ed5b01f"
+    ],
+    "sufficient": true
+  },
+  "conv-41-38": {
+    "cand": 4,
+    "needed": [
+      "829f7c0a-b3cb-421b-b3f2-73f83dd508c2"
+    ],
+    "sufficient": true
+  },
+  "conv-41-39": {
+    "cand": 4,
+    "needed": [
+      "829f7c0a-b3cb-421b-b3f2-73f83dd508c2"
+    ],
+    "sufficient": true
+  },
+  "conv-41-40": {
+    "cand": 8,
+    "needed": [
+      "28f8e7f0-ee38-414a-adf0-b95bd2b68a2f",
+      "755af945-a09a-42aa-83a5-9f2888c65586"
+    ],
+    "sufficient": true
+  },
+  "conv-41-41": {
+    "cand": 3,
+    "needed": [
+      "3d2295df-3e52-4bfd-a0a5-e6a0c046d9f1"
+    ],
+    "sufficient": true
+  },
+  "conv-41-42": {
+    "cand": 6,
+    "needed": [
+      "d03da783-d22f-41c8-952b-1b2e03824432",
+      "2511351d-c6d6-4b64-b666-138dfb29eec9"
+    ],
+    "sufficient": true
+  },
+  "conv-41-43": {
+    "cand": 2,
+    "needed": [
+      "2511351d-c6d6-4b64-b666-138dfb29eec9"
+    ],
+    "sufficient": true
+  },
+  "conv-41-44": {
+    "cand": 11,
+    "needed": [
+      "a768bf4e-46ca-448e-b4fe-035888d7e849",
+      "7df7a664-830f-4e12-b07a-3e90df5beded",
+      "63273bda-b7ae-4804-b013-5af60a0f4321"
+    ],
+    "sufficient": true
+  },
+  "conv-41-45": {
+    "cand": 8,
+    "needed": [
+      "e1b63778-bbd1-4666-b213-8bd868e70503"
+    ],
+    "sufficient": false
+  },
+  "conv-41-46": {
+    "cand": 4,
+    "needed": [
+      "a768bf4e-46ca-448e-b4fe-035888d7e849"
+    ],
+    "sufficient": true
+  },
+  "conv-41-47": {
+    "cand": 10,
+    "needed": [
+      "021dff0f-ccf0-44f3-a8d8-d7985d8220e7",
+      "d2dd099c-7629-4065-a3db-1116281aa195",
+      "75f5096a-967a-4c97-a136-d2b64df9c68c",
+      "b2d28e0b-aa0f-4a8f-a068-fd29855dfe42",
+      "833b6d7c-0cc6-4c16-9f6e-7419fdd33f85"
+    ],
+    "sufficient": false
+  },
+  "conv-41-48": {
+    "cand": 5,
+    "needed": [
+      "e56895fa-6fbd-4ff7-82f7-32360f997278"
+    ],
+    "sufficient": false
+  },
+  "conv-41-49": {
+    "cand": 6,
+    "needed": [
+      "c804778e-a191-45fa-9eb6-0e9cd9702058"
+    ],
+    "sufficient": false
+  },
+  "conv-41-50": {
+    "cand": 13,
+    "needed": [
+      "85be6554-a62d-4fa7-afa7-8e4f34b58ecc",
+      "e104b350-8517-4af5-909b-9658cc73d667",
+      "fd34aae3-663a-4611-8c2e-df81c392e3b5",
+      "1dcd9fef-1f25-4a38-9448-e54ebd00d2b4",
+      "15ef3cc8-814c-4b19-b3f0-3ad3f212b65c"
+    ],
+    "sufficient": true
+  },
+  "conv-41-51": {
+    "cand": 4,
+    "needed": [
+      "464b3b05-1ad7-48bd-8f05-6432a7240668"
+    ],
+    "sufficient": false
+  },
+  "conv-41-52": {
+    "cand": 8,
+    "needed": [
+      "ca0540bf-79f9-46df-a584-27cf4264fb37",
+      "efdcf009-dd2b-4192-a0d4-90251f847637"
+    ],
+    "sufficient": true
+  },
+  "conv-41-53": {
+    "cand": 2,
+    "needed": [
+      "957d7b64-006e-4b56-bc70-7558a70ecb4a"
+    ],
+    "sufficient": true
+  },
+  "conv-41-54": {
+    "cand": 3,
+    "needed": [
+      "63273bda-b7ae-4804-b013-5af60a0f4321"
+    ],
+    "sufficient": false
+  },
+  "conv-41-55": {
+    "cand": 4,
+    "needed": [
+      "35618931-1492-4cc1-a9be-f6b6822b1223"
+    ],
+    "sufficient": true
+  },
+  "conv-41-56": {
+    "cand": 4,
+    "needed": [
+      "71561a68-c3d7-44f6-967f-1e0b4ed5b01f"
+    ],
+    "sufficient": false
+  },
+  "conv-41-57": {
+    "cand": 12,
+    "needed": [
+      "3320f764-81fc-478d-952d-6ee822a6a9ab",
+      "dd44a6d8-8b7f-4ec6-aa92-e09cf8dc0172",
+      "71561a68-c3d7-44f6-967f-1e0b4ed5b01f",
+      "b83288e9-36cf-4df3-8863-ebc9cce7ebe2"
+    ],
+    "sufficient": true
+  },
+  "conv-41-58": {
+    "cand": 3,
+    "needed": [
+      "579bb567-cb25-4982-8e7c-5c89dcb712ae"
+    ],
+    "sufficient": false
+  },
+  "conv-41-59": {
+    "cand": 3,
+    "needed": [
+      "861e6976-e79f-49d4-a29a-b8547d75e574"
+    ],
+    "sufficient": true
+  },
+  "conv-41-60": {
+    "cand": 8,
+    "needed": [
+      "579bb567-cb25-4982-8e7c-5c89dcb712ae",
+      "9284ca80-544a-485f-a154-9454fdebf737"
+    ],
+    "sufficient": true
+  },
+  "conv-41-61": {
+    "cand": 5,
+    "needed": [
+      "9284ca80-544a-485f-a154-9454fdebf737"
+    ],
+    "sufficient": false
+  },
+  "conv-41-62": {
+    "cand": 8,
+    "needed": [
+      "579bb567-cb25-4982-8e7c-5c89dcb712ae",
+      "9284ca80-544a-485f-a154-9454fdebf737"
+    ],
+    "sufficient": false
+  },
+  "conv-41-63": {
+    "cand": 8,
+    "needed": [
+      "579bb567-cb25-4982-8e7c-5c89dcb712ae",
+      "9284ca80-544a-485f-a154-9454fdebf737"
+    ],
+    "sufficient": false
+  },
+  "conv-41-64": {
+    "cand": 18,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-41-65": {
+    "cand": 5,
+    "needed": [
+      "81031016-9ad1-44f9-87ca-729e514cb4d0"
+    ],
+    "sufficient": true
+  },
+  "conv-41-66": {
+    "cand": 4,
+    "needed": [
+      "c41c93ff-39bf-43b7-ad9f-0187b1ffa81f"
+    ],
+    "sufficient": true
+  },
+  "conv-41-67": {
+    "cand": 4,
+    "needed": [
+      "ba7425fb-f6aa-4c0f-85c9-a786169ecb9c"
+    ],
+    "sufficient": true
+  },
+  "conv-41-68": {
+    "cand": 5,
+    "needed": [
+      "3d905b5d-6cb0-47cb-b1ed-61a969505886"
+    ],
+    "sufficient": true
+  },
+  "conv-41-69": {
+    "cand": 3,
+    "needed": [
+      "0c11684a-3a41-4319-8e0c-f0df21ab14f2"
+    ],
+    "sufficient": true
+  },
+  "conv-41-70": {
+    "cand": 3,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-41-71": {
+    "cand": 4,
+    "needed": [
+      "3aa51ce1-f453-4e30-bd8c-e9daae99c102"
+    ],
+    "sufficient": true
+  },
+  "conv-41-72": {
+    "cand": 4,
+    "needed": [
+      "3320f764-81fc-478d-952d-6ee822a6a9ab"
+    ],
+    "sufficient": true
+  },
+  "conv-41-73": {
+    "cand": 6,
+    "needed": [
+      "d58b1e12-fa4c-47b5-9d79-df4288e50a20"
+    ],
+    "sufficient": true
+  },
+  "conv-41-74": {
+    "cand": 3,
+    "needed": [
+      "3943c2bd-117f-4d94-a048-21db7b12ad5a"
+    ],
+    "sufficient": true
+  },
+  "conv-41-75": {
+    "cand": 4,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-41-76": {
+    "cand": 4,
+    "needed": [
+      "e1b63778-bbd1-4666-b213-8bd868e70503"
+    ],
+    "sufficient": false
+  },
+  "conv-41-77": {
+    "cand": 1,
+    "needed": [
+      "03e758da-a643-49c4-8d1d-bfa6f4ab4f95"
+    ],
+    "sufficient": true
+  },
+  "conv-41-78": {
+    "cand": 3,
+    "needed": [
+      "28f8e7f0-ee38-414a-adf0-b95bd2b68a2f"
+    ],
+    "sufficient": true
+  },
+  "conv-41-79": {
+    "cand": 3,
+    "needed": [
+      "a1f235d2-4a50-4a8f-a63a-2d1b2a31e3e2"
+    ],
+    "sufficient": true
+  },
+  "conv-41-80": {
+    "cand": 4,
+    "needed": [
+      "f1d5ba9a-698f-4ad3-b78d-ea538e4f7779"
+    ],
+    "sufficient": true
+  },
+  "conv-41-81": {
+    "cand": 4,
+    "needed": [
+      "2891e8d6-a48c-4131-a74b-29801bea013a"
+    ],
+    "sufficient": true
+  },
+  "conv-41-82": {
+    "cand": 4,
+    "needed": [
+      "1a475a90-af2f-41a9-bc90-cbadb720b931"
+    ],
+    "sufficient": true
+  },
+  "conv-41-83": {
+    "cand": 4,
+    "needed": [
+      "85b6a905-acc0-4e3e-b4fb-02fee997ff42"
+    ],
+    "sufficient": true
+  },
+  "conv-41-84": {
+    "cand": 3,
+    "needed": [
+      "95e21668-9706-4ebd-8065-feafb41108cf"
+    ],
+    "sufficient": true
+  },
+  "conv-41-85": {
+    "cand": 3,
+    "needed": [
+      "1c4202c7-6fe6-48c8-adee-bb8546207274"
+    ],
+    "sufficient": true
+  },
+  "conv-41-86": {
+    "cand": 1,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-41-87": {
+    "cand": 1,
+    "needed": [
+      "7cbaaaa9-0040-45af-b9b2-bbca93a43c32"
+    ],
+    "sufficient": true
+  },
+  "conv-41-88": {
+    "cand": 5,
+    "needed": [
+      "f10fdcfa-cadb-4ba9-b547-83b459b8e175"
+    ],
+    "sufficient": true
+  },
+  "conv-41-89": {
+    "cand": 5,
+    "needed": [
+      "96c35f46-7e83-4844-bf31-19b14b450d14"
+    ],
+    "sufficient": true
+  },
+  "conv-41-90": {
+    "cand": 5,
+    "needed": [
+      "e66f7039-4101-41ca-8a20-52ccd3d938b2"
+    ],
+    "sufficient": true
+  },
+  "conv-41-91": {
+    "cand": 3,
+    "needed": [
+      "dfee43cf-e61a-4df2-a3d8-725fba0c32b1"
+    ],
+    "sufficient": true
+  },
+  "conv-41-92": {
+    "cand": 3,
+    "needed": [
+      "c1cf13e1-194d-4bb3-9a50-0688180363f8"
+    ],
+    "sufficient": true
+  },
+  "conv-41-93": {
+    "cand": 3,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-41-94": {
+    "cand": 3,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-41-95": {
+    "cand": 2,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-41-96": {
+    "cand": 3,
+    "needed": [
+      "0eb50899-46a4-44e0-badb-b6a42a3922ed"
+    ],
+    "sufficient": true
+  },
+  "conv-41-97": {
+    "cand": 3,
+    "needed": [
+      "0eb50899-46a4-44e0-badb-b6a42a3922ed"
+    ],
+    "sufficient": true
+  },
+  "conv-41-98": {
+    "cand": 2,
+    "needed": [
+      "ed1b4047-e24c-4220-aad5-ecda2d88507d"
+    ],
+    "sufficient": true
+  },
+  "conv-41-99": {
+    "cand": 2,
+    "needed": [
+      "ed1b4047-e24c-4220-aad5-ecda2d88507d"
+    ],
+    "sufficient": true
+  },
+  "conv-41-100": {
+    "cand": 2,
+    "needed": [
+      "ed1b4047-e24c-4220-aad5-ecda2d88507d"
+    ],
+    "sufficient": false
+  },
+  "conv-41-101": {
+    "cand": 4,
+    "needed": [
+      "65da3aaa-c2c6-4509-9cf7-ab70d18ce4dc"
+    ],
+    "sufficient": true
+  },
+  "conv-41-102": {
+    "cand": 4,
+    "needed": [
+      "9c4cf247-1f84-482f-8d1b-798705125dec"
+    ],
+    "sufficient": true
+  },
+  "conv-41-103": {
+    "cand": 1,
+    "needed": [
+      "50a1b2c7-624c-43dc-adc7-2e991530a94c"
+    ],
+    "sufficient": true
+  },
+  "conv-41-104": {
+    "cand": 1,
+    "needed": [
+      "50a1b2c7-624c-43dc-adc7-2e991530a94c"
+    ],
+    "sufficient": true
+  },
+  "conv-41-105": {
+    "cand": 3,
+    "needed": [
+      "11ad9822-0617-4e84-9fa6-d9a99312150a"
+    ],
+    "sufficient": true
+  },
+  "conv-41-106": {
+    "cand": 3,
+    "needed": [
+      "11ad9822-0617-4e84-9fa6-d9a99312150a"
+    ],
+    "sufficient": true
+  },
+  "conv-41-107": {
+    "cand": 3,
+    "needed": [
+      "1673f23a-227a-4ed1-b072-534cc368be8a"
+    ],
+    "sufficient": true
+  },
+  "conv-41-108": {
+    "cand": 3,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-41-109": {
+    "cand": 3,
+    "needed": [
+      "97d68438-2cc5-49d3-b9bb-c60b8ef6888f"
+    ],
+    "sufficient": true
+  },
+  "conv-41-110": {
+    "cand": 6,
+    "needed": [
+      "80e88514-4816-4e32-bdc8-fc3c92b0df43"
+    ],
+    "sufficient": true
+  },
+  "conv-41-111": {
+    "cand": 6,
+    "needed": [
+      "727cc37a-bc7f-4f1d-9756-318c13a0e479",
+      "8a0c9dc5-2213-4a6b-9314-e1ebb46af396"
+    ],
+    "sufficient": true
+  },
+  "conv-41-112": {
+    "cand": 6,
+    "needed": [
+      "552e143d-b486-4e40-ad64-37e73c26ea21"
+    ],
+    "sufficient": true
+  },
+  "conv-41-113": {
+    "cand": 4,
+    "needed": [
+      "9fd6f554-88d0-404f-9c6c-f9770717db83"
+    ],
+    "sufficient": true
+  },
+  "conv-41-114": {
+    "cand": 4,
+    "needed": [
+      "bc5bfc79-9fbe-43bb-98f2-f0078a1b09c0"
+    ],
+    "sufficient": true
+  },
+  "conv-41-115": {
+    "cand": 4,
+    "needed": [
+      "9b5f0af7-c3d4-481b-ae86-84d9b47c9dd9"
+    ],
+    "sufficient": true
+  },
+  "conv-41-116": {
+    "cand": 4,
+    "needed": [
+      "cae2e5f3-edfd-4d9f-882d-4ef336c80bb3"
+    ],
+    "sufficient": true
+  },
+  "conv-41-117": {
+    "cand": 4,
+    "needed": [
+      "8fea41d0-4269-4bc6-8be9-c3d694731ac3"
+    ],
+    "sufficient": true
+  },
+  "conv-41-118": {
+    "cand": 4,
+    "needed": [
+      "08ba5306-89d0-40bf-a5f9-7e0380e4b607"
+    ],
+    "sufficient": false
+  },
+  "conv-41-119": {
+    "cand": 2,
+    "needed": [
+      "a08265bf-e204-4d02-86e5-97ecea470100"
+    ],
+    "sufficient": true
+  },
+  "conv-41-120": {
+    "cand": 2,
+    "needed": [
+      "2511351d-c6d6-4b64-b666-138dfb29eec9"
+    ],
+    "sufficient": true
+  },
+  "conv-41-121": {
+    "cand": 2,
+    "needed": [
+      "2511351d-c6d6-4b64-b666-138dfb29eec9"
+    ],
+    "sufficient": true
+  },
+  "conv-41-122": {
+    "cand": 2,
+    "needed": [
+      "2511351d-c6d6-4b64-b666-138dfb29eec9"
+    ],
+    "sufficient": true
+  },
+  "conv-41-124": {
+    "cand": 4,
+    "needed": [
+      "7df7a664-830f-4e12-b07a-3e90df5beded"
+    ],
+    "sufficient": true
+  },
+  "conv-41-125": {
+    "cand": 4,
+    "needed": [
+      "6345f78d-e4da-4fad-9398-b125f2f49707",
+      "a322e7d7-5048-4696-afbe-67a6ea8484ed"
+    ],
+    "sufficient": false
+  },
+  "conv-41-126": {
+    "cand": 4,
+    "needed": [
+      "a322e7d7-5048-4696-afbe-67a6ea8484ed"
+    ],
+    "sufficient": true
+  },
+  "conv-41-127": {
+    "cand": 4,
+    "needed": [
+      "6345f78d-e4da-4fad-9398-b125f2f49707"
+    ],
+    "sufficient": false
+  },
+  "conv-41-128": {
+    "cand": 4,
+    "needed": [
+      "a768bf4e-46ca-448e-b4fe-035888d7e849"
+    ],
+    "sufficient": true
+  },
+  "conv-41-129": {
+    "cand": 2,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-41-130": {
+    "cand": 1,
+    "needed": [
+      "021dff0f-ccf0-44f3-a8d8-d7985d8220e7"
+    ],
+    "sufficient": true
+  },
+  "conv-41-131": {
+    "cand": 5,
+    "needed": [
+      "c804778e-a191-45fa-9eb6-0e9cd9702058"
+    ],
+    "sufficient": true
+  },
+  "conv-41-132": {
+    "cand": 4,
+    "needed": [
+      "464b3b05-1ad7-48bd-8f05-6432a7240668"
+    ],
+    "sufficient": false
+  },
+  "conv-41-133": {
+    "cand": 1,
+    "needed": [
+      "45729fad-51c6-4d32-bc77-874381910f6e"
+    ],
+    "sufficient": true
+  },
+  "conv-41-134": {
+    "cand": 1,
+    "needed": [
+      "45729fad-51c6-4d32-bc77-874381910f6e"
+    ],
+    "sufficient": true
+  },
+  "conv-41-135": {
+    "cand": 1,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-41-136": {
+    "cand": 1,
+    "needed": [
+      "45729fad-51c6-4d32-bc77-874381910f6e"
+    ],
+    "sufficient": false
+  },
+  "conv-41-137": {
+    "cand": 3,
+    "needed": [
+      "ab6efc4b-2028-476c-82b0-a8b0da23844a"
+    ],
+    "sufficient": true
+  },
+  "conv-41-138": {
+    "cand": 3,
+    "needed": [
+      "63273bda-b7ae-4804-b013-5af60a0f4321"
+    ],
+    "sufficient": true
+  },
+  "conv-41-139": {
+    "cand": 2,
+    "needed": [
+      "957d7b64-006e-4b56-bc70-7558a70ecb4a"
+    ],
+    "sufficient": true
+  },
+  "conv-41-140": {
+    "cand": 4,
+    "needed": [
+      "71561a68-c3d7-44f6-967f-1e0b4ed5b01f"
+    ],
+    "sufficient": true
+  },
+  "conv-41-141": {
+    "cand": 1,
+    "needed": [
+      "b83288e9-36cf-4df3-8863-ebc9cce7ebe2"
+    ],
+    "sufficient": true
+  },
+  "conv-41-142": {
+    "cand": 4,
+    "needed": [
+      "35618931-1492-4cc1-a9be-f6b6822b1223"
+    ],
+    "sufficient": true
+  },
+  "conv-41-143": {
+    "cand": 3,
+    "needed": [
+      "579bb567-cb25-4982-8e7c-5c89dcb712ae"
+    ],
+    "sufficient": true
+  },
+  "conv-41-144": {
+    "cand": 3,
+    "needed": [
+      "861e6976-e79f-49d4-a29a-b8547d75e574"
+    ],
+    "sufficient": true
+  },
+  "conv-41-145": {
+    "cand": 3,
+    "needed": [
+      "861e6976-e79f-49d4-a29a-b8547d75e574"
+    ],
+    "sufficient": false
+  },
+  "conv-41-146": {
+    "cand": 2,
+    "needed": [
+      "6ef5b80e-25f3-4ed5-b51a-0bf13bbf1288"
+    ],
+    "sufficient": false
+  },
+  "conv-41-147": {
+    "cand": 5,
+    "needed": [
+      "9284ca80-544a-485f-a154-9454fdebf737"
+    ],
+    "sufficient": true
+  },
+  "conv-41-148": {
+    "cand": 2,
+    "needed": [
+      "1317382f-197e-4049-96fb-0da534798852"
+    ],
+    "sufficient": false
+  },
+  "conv-41-149": {
+    "cand": 5,
+    "needed": [
+      "5f40a89f-2287-45f1-859b-5bf091e2d06b"
+    ],
+    "sufficient": true
+  },
+  "conv-41-150": {
+    "cand": 2,
+    "needed": [
+      "e774fceb-e013-4681-8abb-aa3b731ce226"
+    ],
+    "sufficient": true
+  },
+  "conv-41-151": {
+    "cand": 4,
+    "needed": [
+      "4670e5d2-9644-44cc-909c-10582ddab16a"
+    ],
+    "sufficient": true
+  },
+  "conv-42-0": {
+    "cand": 2,
+    "needed": [
+      "f0127acb-e7dd-4d06-8d12-c2ddc5477159"
+    ],
+    "sufficient": true
+  },
+  "conv-42-1": {
+    "cand": 16,
+    "needed": [
+      "c36dacfd-68a4-48e7-8303-ca49a118f341",
+      "d70babef-7eef-493e-9fa8-1e9a134757bb",
+      "53810b36-53e9-4aa4-bff5-0c627da15987",
+      "7f84c260-84c2-4630-ac4f-21a2acab8e8c",
+      "b576cd79-d106-44a7-b0d6-372fdb66bd20"
+    ],
+    "sufficient": true
+  },
+  "conv-42-2": {
+    "cand": 2,
+    "needed": [
+      "1cad56d7-8f99-4b80-b8b0-3e82c723fa33"
+    ],
+    "sufficient": true
+  },
+  "conv-42-3": {
+    "cand": 2,
+    "needed": [
+      "f0127acb-e7dd-4d06-8d12-c2ddc5477159"
+    ],
+    "sufficient": true
+  },
+  "conv-42-4": {
+    "cand": 2,
+    "needed": [
+      "eb382bfc-7919-4e40-ab43-32bbfb5e13ec"
+    ],
+    "sufficient": false
+  },
+  "conv-42-5": {
+    "cand": 6,
+    "needed": [
+      "d70babef-7eef-493e-9fa8-1e9a134757bb",
+      "5cf79d8b-4b55-497d-a6c5-ca182b236989"
+    ],
+    "sufficient": true
+  },
+  "conv-42-6": {
+    "cand": 3,
+    "needed": [
+      "7b0dc5d6-e50a-463b-b2f8-fcc58929d75a"
+    ],
+    "sufficient": true
+  },
+  "conv-42-7": {
+    "cand": 2,
+    "needed": [
+      "22b0d4b0-f404-4a57-8fbb-ab7549d4bd8a"
+    ],
+    "sufficient": true
+  },
+  "conv-42-8": {
+    "cand": 3,
+    "needed": [
+      "7b0dc5d6-e50a-463b-b2f8-fcc58929d75a"
+    ],
+    "sufficient": true
+  },
+  "conv-42-9": {
+    "cand": 2,
+    "needed": [
+      "22b0d4b0-f404-4a57-8fbb-ab7549d4bd8a"
+    ],
+    "sufficient": true
+  },
+  "conv-42-10": {
+    "cand": 4,
+    "needed": [
+      "87e957c1-36e0-4f73-a89c-1b1bcc4a4fe7",
+      "32a9dec7-5806-43c0-b5e1-df015c258f52"
+    ],
+    "sufficient": false
+  },
+  "conv-42-11": {
+    "cand": 9,
+    "needed": [
+      "8cbb0005-3658-435c-a9ca-db98b51c446b",
+      "1d4b71d2-5702-42c5-ad76-ee3d03f0c87e",
+      "eb382bfc-7919-4e40-ab43-32bbfb5e13ec"
+    ],
+    "sufficient": true
+  },
+  "conv-42-12": {
+    "cand": 6,
+    "needed": [
+      "eb382bfc-7919-4e40-ab43-32bbfb5e13ec"
+    ],
+    "sufficient": false
+  },
+  "conv-42-13": {
+    "cand": 3,
+    "needed": [
+      "9e6d75bb-b451-4731-9754-10098da1474a"
+    ],
+    "sufficient": true
+  },
+  "conv-42-14": {
+    "cand": 3,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-42-15": {
+    "cand": 3,
+    "needed": [
+      "cedadc36-8972-4e2c-9a6c-efe30fc77338"
+    ],
+    "sufficient": true
+  },
+  "conv-42-16": {
+    "cand": 3,
+    "needed": [
+      "cedadc36-8972-4e2c-9a6c-efe30fc77338"
+    ],
+    "sufficient": true
+  },
+  "conv-42-17": {
+    "cand": 5,
+    "needed": [
+      "0b168e1b-9399-41df-be60-9507e07c34e0"
+    ],
+    "sufficient": true
+  },
+  "conv-42-18": {
+    "cand": 2,
+    "needed": [
+      "7bd400aa-8c98-4757-a9aa-9af1486523fd"
+    ],
+    "sufficient": true
+  },
+  "conv-42-19": {
+    "cand": 4,
+    "needed": [
+      "dd95d56a-7751-480f-a19a-1891db7a52ba"
+    ],
+    "sufficient": false
+  },
+  "conv-42-20": {
+    "cand": 2,
+    "needed": [
+      "937bf362-1955-4700-8eea-a0e6c5bba023"
+    ],
+    "sufficient": true
+  },
+  "conv-42-21": {
+    "cand": 2,
+    "needed": [
+      "937bf362-1955-4700-8eea-a0e6c5bba023"
+    ],
+    "sufficient": true
+  },
+  "conv-42-22": {
+    "cand": 3,
+    "needed": [
+      "bafe5aeb-4b4f-497d-9dc0-46413d4865a9"
+    ],
+    "sufficient": true
+  },
+  "conv-42-23": {
+    "cand": 10,
+    "needed": [
+      "40d49d09-e4aa-4f02-8950-c181733766d1",
+      "22b0d4b0-f404-4a57-8fbb-ab7549d4bd8a",
+      "b14b6642-2f1c-41e2-ae44-81c281e44579"
+    ],
+    "sufficient": false
+  },
+  "conv-42-24": {
+    "cand": 5,
+    "needed": [
+      "588f79a7-9210-434b-b7a3-a6bbf222df7c"
+    ],
+    "sufficient": true
+  },
+  "conv-42-25": {
+    "cand": 5,
+    "needed": [
+      "923d2704-0854-4980-b42d-0397534d3109"
+    ],
+    "sufficient": true
+  },
+  "conv-42-26": {
+    "cand": 2,
+    "needed": [
+      "f94630ee-caba-44d1-ae3f-36f14edb5123"
+    ],
+    "sufficient": false
+  },
+  "conv-42-27": {
+    "cand": 6,
+    "needed": [
+      "87e957c1-36e0-4f73-a89c-1b1bcc4a4fe7",
+      "b885e033-e7c5-4460-808e-e2436d417acb"
+    ],
+    "sufficient": true
+  },
+  "conv-42-28": {
+    "cand": 4,
+    "needed": [
+      "99e06c6c-35da-439e-b5e9-2c9a2b3da2c1"
+    ],
+    "sufficient": true
+  },
+  "conv-42-29": {
+    "cand": 2,
+    "needed": [
+      "a4ffe658-6f69-4200-aa48-eeb0b2d68e5c"
+    ],
+    "sufficient": true
+  },
+  "conv-42-30": {
+    "cand": 9,
+    "needed": [
+      "22b0d4b0-f404-4a57-8fbb-ab7549d4bd8a",
+      "a799f563-2282-450a-ad75-a8c18b01ffad",
+      "79a14387-b4bc-46a6-a75b-f53c73db9044",
+      "a2148771-25e5-4fc2-bda4-7ee38011b60c"
+    ],
+    "sufficient": true
+  },
+  "conv-42-31": {
+    "cand": 4,
+    "needed": [
+      "efe2a973-336f-4ab2-a16f-542335df4c9f"
+    ],
+    "sufficient": true
+  },
+  "conv-42-32": {
+    "cand": 4,
+    "needed": [
+      "f190844e-553a-4cd1-b49f-09c36076c980"
+    ],
+    "sufficient": true
+  },
+  "conv-42-33": {
+    "cand": 5,
+    "needed": [
+      "a2148771-25e5-4fc2-bda4-7ee38011b60c"
+    ],
+    "sufficient": true
+  },
+  "conv-42-34": {
+    "cand": 4,
+    "needed": [
+      "1c382778-9cd7-4679-be2e-7d2635e57932"
+    ],
+    "sufficient": false
+  },
+  "conv-42-35": {
+    "cand": 2,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-42-36": {
+    "cand": 3,
+    "needed": [
+      "45f81c50-63de-43f3-88db-9d8b215fa4a3"
+    ],
+    "sufficient": true
+  },
+  "conv-42-37": {
+    "cand": 3,
+    "needed": [
+      "2b7ece28-1e9e-4e1c-9c89-f4b1179ce796"
+    ],
+    "sufficient": true
+  },
+  "conv-42-38": {
+    "cand": 4,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-42-39": {
+    "cand": 5,
+    "needed": [
+      "0bb4d79b-5e4a-4871-b341-2e80e1ddd02c"
+    ],
+    "sufficient": false
+  },
+  "conv-42-40": {
+    "cand": 5,
+    "needed": [
+      "a6cc87c8-1cc9-4c90-af84-e5ab3b70d52f"
+    ],
+    "sufficient": false
+  },
+  "conv-42-41": {
+    "cand": 5,
+    "needed": [
+      "d153976a-41e8-4910-a38d-0f11deb5e994"
+    ],
+    "sufficient": true
+  },
+  "conv-42-42": {
+    "cand": 12,
+    "needed": [
+      "1c382778-9cd7-4679-be2e-7d2635e57932",
+      "0b168e1b-9399-41df-be60-9507e07c34e0",
+      "f2176b7a-fbe1-47fc-9596-b0fd85fdb61e",
+      "41531878-72c7-4097-8849-e0c21516ef76"
+    ],
+    "sufficient": true
+  },
+  "conv-42-43": {
+    "cand": 4,
+    "needed": [
+      "a799f563-2282-450a-ad75-a8c18b01ffad",
+      "7f78fd7d-f4b9-4c56-b23e-ff607b10ae8a"
+    ],
+    "sufficient": false
+  },
+  "conv-42-44": {
+    "cand": 5,
+    "needed": [
+      "6f9ceaa4-2820-42f0-8aa9-d00185e99d34"
+    ],
+    "sufficient": true
+  },
+  "conv-42-45": {
+    "cand": 2,
+    "needed": [
+      "7f78fd7d-f4b9-4c56-b23e-ff607b10ae8a"
+    ],
+    "sufficient": false
+  },
+  "conv-42-46": {
+    "cand": 7,
+    "needed": [
+      "f72d462f-b890-4087-98b6-ab225e0d531c"
+    ],
+    "sufficient": false
+  },
+  "conv-42-47": {
+    "cand": 5,
+    "needed": [
+      "f94630ee-caba-44d1-ae3f-36f14edb5123",
+      "e0ad96c8-7b73-41cb-b87b-a96ebd99a09f"
+    ],
+    "sufficient": true
+  },
+  "conv-42-48": {
+    "cand": 3,
+    "needed": [
+      "e0ad96c8-7b73-41cb-b87b-a96ebd99a09f"
+    ],
+    "sufficient": false
+  },
+  "conv-42-49": {
+    "cand": 6,
+    "needed": [
+      "40d49d09-e4aa-4f02-8950-c181733766d1",
+      "b14b6642-2f1c-41e2-ae44-81c281e44579"
+    ],
+    "sufficient": true
+  },
+  "conv-42-50": {
+    "cand": 5,
+    "needed": [
+      "01341b16-3fdf-42e2-9c37-c5acc37cdcbb",
+      "6c34b65f-252c-4389-ae21-df9c1557df19"
+    ],
+    "sufficient": true
+  },
+  "conv-42-51": {
+    "cand": 5,
+    "needed": [
+      "01341b16-3fdf-42e2-9c37-c5acc37cdcbb",
+      "6c34b65f-252c-4389-ae21-df9c1557df19"
+    ],
+    "sufficient": true
+  },
+  "conv-42-52": {
+    "cand": 9,
+    "needed": [
+      "bb22bb47-a01b-48a8-9fdc-b8e554f6ff78",
+      "ed05d389-d40e-4728-902e-8360ee556130"
+    ],
+    "sufficient": true
+  },
+  "conv-42-53": {
+    "cand": 4,
+    "needed": [
+      "b76c4dbb-5d3e-4ca4-85b6-af269eb5b8e8"
+    ],
+    "sufficient": false
+  },
+  "conv-42-54": {
+    "cand": 3,
+    "needed": [
+      "ed05d389-d40e-4728-902e-8360ee556130"
+    ],
+    "sufficient": true
+  },
+  "conv-42-55": {
+    "cand": 12,
+    "needed": [
+      "39205dec-a2db-4e08-be8c-4178d120a616",
+      "1b9d4a76-d609-446f-9756-c2e36183eae7",
+      "dd94b953-74fc-441d-b93e-e77af7807707",
+      "398c28dd-be69-42dd-b7fb-14b21906ed39",
+      "b0bd1b91-d3e8-40f7-9a12-669ede16d5e7",
+      "e2b0cf16-a302-4715-97a7-d5fa2413896f"
+    ],
+    "sufficient": false
+  },
+  "conv-42-56": {
+    "cand": 5,
+    "needed": [
+      "b76c4dbb-5d3e-4ca4-85b6-af269eb5b8e8",
+      "39e2c4f3-a798-45dd-a796-eeef5cdf12e5"
+    ],
+    "sufficient": true
+  },
+  "conv-42-57": {
+    "cand": 1,
+    "needed": [
+      "fa52d13e-4b6f-4cf3-bbfe-5aafd5e4c9c0"
+    ],
+    "sufficient": false
+  },
+  "conv-42-58": {
+    "cand": 20,
+    "needed": [
+      "7b0dc5d6-e50a-463b-b2f8-fcc58929d75a",
+      "f9ad25ee-5e88-414e-8a97-19f68f0b0bec",
+      "728b72e2-162c-4400-afde-d9f5ce24ce5a",
+      "12d52dd3-0fce-41f9-babf-4ff242de815b",
+      "7688ccbc-7d65-49ed-8a5c-4cbd52e496a1",
+      "79a46063-1d78-4a17-9d61-dfd79a6e5d18",
+      "c214395c-8655-4457-a3c5-4d90db822b56"
+    ],
+    "sufficient": false
+  },
+  "conv-42-59": {
+    "cand": 4,
+    "needed": [
+      "07a494ea-11a7-4590-9cc6-09a49d36a06e",
+      "4ae0bfcc-1d21-4b48-bf9d-787257881355"
+    ],
+    "sufficient": true
+  },
+  "conv-42-60": {
+    "cand": 8,
+    "needed": [
+      "24d9f4c5-3404-4f46-b391-33ea704e78b5"
+    ],
+    "sufficient": false
+  },
+  "conv-42-61": {
+    "cand": 16,
+    "needed": [
+      "24d9f4c5-3404-4f46-b391-33ea704e78b5",
+      "e088d2db-c76d-4e5f-b559-67f52c76e7f2"
+    ],
+    "sufficient": false
+  },
+  "conv-42-62": {
+    "cand": 7,
+    "needed": [
+      "40d49d09-e4aa-4f02-8950-c181733766d1",
+      "a2148771-25e5-4fc2-bda4-7ee38011b60c"
+    ],
+    "sufficient": true
+  },
+  "conv-42-63": {
+    "cand": 25,
+    "needed": [
+      "63ddc847-e261-4d0d-a950-5462faa49cdd",
+      "c60b6d65-61cf-45fa-945d-bec63d0e59ae",
+      "ef78e300-85f5-467b-87be-2f91f5f0765e",
+      "79a46063-1d78-4a17-9d61-dfd79a6e5d18",
+      "c214395c-8655-4457-a3c5-4d90db822b56",
+      "9f034215-252c-4b52-961c-6d6bb466a4c5"
+    ],
+    "sufficient": true
+  },
+  "conv-42-64": {
+    "cand": 4,
+    "needed": [
+      "ef78e300-85f5-467b-87be-2f91f5f0765e"
+    ],
+    "sufficient": true
+  },
+  "conv-42-65": {
+    "cand": 4,
+    "needed": [
+      "ef78e300-85f5-467b-87be-2f91f5f0765e"
+    ],
+    "sufficient": true
+  },
+  "conv-42-66": {
+    "cand": 10,
+    "needed": [
+      "3c7d0a1a-42f4-4a72-8d9f-b7a6ecdf8238",
+      "b76c4dbb-5d3e-4ca4-85b6-af269eb5b8e8",
+      "2b7ece28-1e9e-4e1c-9c89-f4b1179ce796"
+    ],
+    "sufficient": false
+  },
+  "conv-42-67": {
+    "cand": 7,
+    "needed": [
+      "937bf362-1955-4700-8eea-a0e6c5bba023",
+      "a75b0ba1-cb1d-484c-a4d6-471c732103fa"
+    ],
+    "sufficient": true
+  },
+  "conv-42-68": {
+    "cand": 13,
+    "needed": [
+      "39205dec-a2db-4e08-be8c-4178d120a616",
+      "7bd400aa-8c98-4757-a9aa-9af1486523fd",
+      "dd95d56a-7751-480f-a19a-1891db7a52ba",
+      "923d2704-0854-4980-b42d-0397534d3109"
+    ],
+    "sufficient": false
+  },
+  "conv-42-69": {
+    "cand": 5,
+    "needed": [
+      "a75b0ba1-cb1d-484c-a4d6-471c732103fa"
+    ],
+    "sufficient": true
+  },
+  "conv-42-70": {
+    "cand": 4,
+    "needed": [
+      "0717033b-2471-47c1-b814-19ea5c0e6da9",
+      "08a8724c-1bc1-43bd-a580-fa687e4a8164"
+    ],
+    "sufficient": false
+  },
+  "conv-42-71": {
+    "cand": 6,
+    "needed": [
+      "dce98cf3-35ca-4911-b6cc-4a76907cda8f",
+      "dd94b953-74fc-441d-b93e-e77af7807707"
+    ],
+    "sufficient": true
+  },
+  "conv-42-80": {
+    "cand": 25,
+    "needed": [
+      "f0127acb-e7dd-4d06-8d12-c2ddc5477159",
+      "40a3789a-467b-42a2-84f6-c783cdc68999",
+      "f94630ee-caba-44d1-ae3f-36f14edb5123",
+      "efe2a973-336f-4ab2-a16f-542335df4c9f",
+      "2b7ece28-1e9e-4e1c-9c89-f4b1179ce796",
+      "6f9ceaa4-2820-42f0-8aa9-d00185e99d34",
+      "ef78e300-85f5-467b-87be-2f91f5f0765e"
+    ],
+    "sufficient": true
+  },
+  "conv-42-81": {
+    "cand": 28,
+    "needed": [
+      "12d52dd3-0fce-41f9-babf-4ff242de815b",
+      "5941f69c-2e88-4c7a-9e4e-3c4467819448",
+      "71e7fe09-11a4-444d-a2e3-901f9fcd535e",
+      "259e8061-e521-484e-ba0f-b2fbf80a5b6a",
+      "fc824621-db0b-4c6c-bf06-aa58dad90371",
+      "23b154ee-4f50-461c-a9db-be6840f25b26"
+    ],
+    "sufficient": false
+  },
+  "conv-42-82": {
+    "cand": 5,
+    "needed": [
+      "53810b36-53e9-4aa4-bff5-0c627da15987",
+      "6d2236e8-2525-44cd-83b6-c0d869680fd3"
+    ],
+    "sufficient": true
+  },
+  "conv-42-83": {
+    "cand": 9,
+    "needed": [
+      "fdabdce7-3dbc-4ad4-8e18-1115276bbbef",
+      "601a413a-3798-4a2a-a190-c1c157fbc3d6",
+      "c44a2da2-9194-4287-ac4f-c6e5026f8d7e"
+    ],
+    "sufficient": false
+  },
+  "conv-42-84": {
+    "cand": 8,
+    "needed": [
+      "a6cc87c8-1cc9-4c90-af84-e5ab3b70d52f"
+    ],
+    "sufficient": false
+  },
+  "conv-42-85": {
+    "cand": 3,
+    "needed": [
+      "998bf7ba-9e42-4250-8371-04e731003645"
+    ],
+    "sufficient": true
+  },
+  "conv-42-86": {
+    "cand": 3,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-42-87": {
+    "cand": 3,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-42-72": {
+    "cand": 2,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-42-73": {
+    "cand": 3,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-42-74": {
+    "cand": 10,
+    "needed": [
+      "1c382778-9cd7-4679-be2e-7d2635e57932",
+      "fe126881-384c-4f8c-9d4c-a6210d7e8444"
+    ],
+    "sufficient": false
+  },
+  "conv-42-75": {
+    "cand": 8,
+    "needed": [
+      "53810b36-53e9-4aa4-bff5-0c627da15987",
+      "0576371b-e743-4fc1-831a-1cfedac07085",
+      "5de536b8-fbbe-472e-babd-b9f6500c6ec1",
+      "cf585b2f-9ecb-4d94-a62c-afc6a4df2b78"
+    ],
+    "sufficient": true
+  },
+  "conv-42-76": {
+    "cand": 10,
+    "needed": [
+      "fdabdce7-3dbc-4ad4-8e18-1115276bbbef",
+      "0bb4d79b-5e4a-4871-b341-2e80e1ddd02c"
+    ],
+    "sufficient": true
+  },
+  "conv-42-77": {
+    "cand": 5,
+    "needed": [],
+    "sufficient": true
+  },
+  "conv-42-78": {
+    "cand": 31,
+    "needed": [
+      "f0127acb-e7dd-4d06-8d12-c2ddc5477159",
+      "8cde0462-e93b-4b47-b579-43be3306de33",
+      "40a3789a-467b-42a2-84f6-c783cdc68999",
+      "f94630ee-caba-44d1-ae3f-36f14edb5123",
+      "efe2a973-336f-4ab2-a16f-542335df4c9f",
+      "2b7ece28-1e9e-4e1c-9c89-f4b1179ce796",
+      "6f9ceaa4-2820-42f0-8aa9-d00185e99d34",
+      "ef78e300-85f5-467b-87be-2f91f5f0765e"
+    ],
+    "sufficient": false
+  },
+  "conv-42-79": {
+    "cand": 11,
+    "needed": [
+      "22b0d4b0-f404-4a57-8fbb-ab7549d4bd8a",
+      "59886eda-7ff3-45e2-a2a5-3bdfcce9662b",
+      "bafe5aeb-4b4f-497d-9dc0-46413d4865a9"
+    ],
+    "sufficient": true
+  },
+  "conv-42-88": {
+    "cand": 2,
+    "needed": [
+      "1cad56d7-8f99-4b80-b8b0-3e82c723fa33"
+    ],
+    "sufficient": false
+  },
+  "conv-42-89": {
+    "cand": 3,
+    "needed": [
+      "cedadc36-8972-4e2c-9a6c-efe30fc77338"
+    ],
+    "sufficient": true
+  },
+  "conv-42-90": {
+    "cand": 4,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-42-91": {
+    "cand": 4,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-42-92": {
+    "cand": 5,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-42-93": {
+    "cand": 5,
+    "needed": [
+      "40a3789a-467b-42a2-84f6-c783cdc68999",
+      "c60b6d65-61cf-45fa-945d-bec63d0e59ae"
+    ],
+    "sufficient": true
+  },
+  "conv-42-94": {
+    "cand": 3,
+    "needed": [
+      "bafe5aeb-4b4f-497d-9dc0-46413d4865a9"
+    ],
+    "sufficient": true
+  },
+  "conv-42-95": {
+    "cand": 8,
+    "needed": [
+      "c214395c-8655-4457-a3c5-4d90db822b56"
+    ],
+    "sufficient": true
+  },
+  "conv-42-96": {
+    "cand": 4,
+    "needed": [
+      "a77b25c2-2360-425b-86b7-81dbdbe9d13b"
+    ],
+    "sufficient": true
+  },
+  "conv-42-97": {
+    "cand": 2,
+    "needed": [
+      "22b0d4b0-f404-4a57-8fbb-ab7549d4bd8a"
+    ],
+    "sufficient": true
+  },
+  "conv-42-98": {
+    "cand": 2,
+    "needed": [
+      "22b0d4b0-f404-4a57-8fbb-ab7549d4bd8a"
+    ],
+    "sufficient": true
+  },
+  "conv-42-99": {
+    "cand": 2,
+    "needed": [
+      "87e957c1-36e0-4f73-a89c-1b1bcc4a4fe7"
+    ],
+    "sufficient": true
+  },
+  "conv-42-100": {
+    "cand": 3,
+    "needed": [
+      "7b0dc5d6-e50a-463b-b2f8-fcc58929d75a"
+    ],
+    "sufficient": true
+  },
+  "conv-42-101": {
+    "cand": 2,
+    "needed": [
+      "53810b36-53e9-4aa4-bff5-0c627da15987"
+    ],
+    "sufficient": false
+  },
+  "conv-42-102": {
+    "cand": 2,
+    "needed": [
+      "0576371b-e743-4fc1-831a-1cfedac07085"
+    ],
+    "sufficient": true
+  },
+  "conv-42-103": {
+    "cand": 2,
+    "needed": [
+      "1c382778-9cd7-4679-be2e-7d2635e57932"
+    ],
+    "sufficient": true
+  },
+  "conv-42-104": {
+    "cand": 2,
+    "needed": [
+      "1c382778-9cd7-4679-be2e-7d2635e57932"
+    ],
+    "sufficient": true
+  },
+  "conv-42-105": {
+    "cand": 3,
+    "needed": [
+      "6d2236e8-2525-44cd-83b6-c0d869680fd3"
+    ],
+    "sufficient": true
+  },
+  "conv-42-106": {
+    "cand": 3,
+    "needed": [
+      "f82d9521-7b9a-409b-9846-49b123ed4c44"
+    ],
+    "sufficient": true
+  },
+  "conv-42-107": {
+    "cand": 3,
+    "needed": [
+      "b76c4dbb-5d3e-4ca4-85b6-af269eb5b8e8"
+    ],
+    "sufficient": true
+  },
+  "conv-42-108": {
+    "cand": 3,
+    "needed": [
+      "3c7d0a1a-42f4-4a72-8d9f-b7a6ecdf8238"
+    ],
+    "sufficient": true
+  },
+  "conv-42-109": {
+    "cand": 3,
+    "needed": [
+      "9e6d75bb-b451-4731-9754-10098da1474a"
+    ],
+    "sufficient": true
+  },
+  "conv-42-110": {
+    "cand": 3,
+    "needed": [
+      "cedadc36-8972-4e2c-9a6c-efe30fc77338"
+    ],
+    "sufficient": true
+  },
+  "conv-42-111": {
+    "cand": 2,
+    "needed": [
+      "566fa7e6-4133-40e7-89c2-9cb6f8c7b249"
+    ],
+    "sufficient": true
+  },
+  "conv-42-120": {
+    "cand": 3,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-42-121": {
+    "cand": 1,
+    "needed": [
+      "dab661ed-2d92-4a62-ac14-20f120254aa5"
+    ],
+    "sufficient": true
+  },
+  "conv-42-122": {
+    "cand": 1,
+    "needed": [
+      "01341b16-3fdf-42e2-9c37-c5acc37cdcbb"
+    ],
+    "sufficient": true
+  },
+  "conv-42-123": {
+    "cand": 1,
+    "needed": [
+      "01341b16-3fdf-42e2-9c37-c5acc37cdcbb"
+    ],
+    "sufficient": true
+  },
+  "conv-42-124": {
+    "cand": 5,
+    "needed": [
+      "588f79a7-9210-434b-b7a3-a6bbf222df7c"
+    ],
+    "sufficient": true
+  },
+  "conv-42-125": {
+    "cand": 5,
+    "needed": [
+      "8434a9ae-e566-46a4-959b-627d7e07775b"
+    ],
+    "sufficient": true
+  },
+  "conv-42-126": {
+    "cand": 5,
+    "needed": [
+      "b6f511b9-494d-4c8f-9759-fe97f4bb117f"
+    ],
+    "sufficient": true
+  },
+  "conv-42-127": {
+    "cand": 6,
+    "needed": [
+      "bb22bb47-a01b-48a8-9fdc-b8e554f6ff78"
+    ],
+    "sufficient": true
+  },
+  "conv-42-128": {
+    "cand": 6,
+    "needed": [
+      "929ba24f-b55a-4448-a52e-ee330098abd1"
+    ],
+    "sufficient": true
+  },
+  "conv-42-129": {
+    "cand": 6,
+    "needed": [
+      "ff2d23be-d4ee-4e74-8af3-9c18951c6d9f"
+    ],
+    "sufficient": true
+  },
+  "conv-42-130": {
+    "cand": 6,
+    "needed": [
+      "a13214af-2b4b-4f59-9702-6a79510eab25"
+    ],
+    "sufficient": true
+  },
+  "conv-42-131": {
+    "cand": 1,
+    "needed": [
+      "07a494ea-11a7-4590-9cc6-09a49d36a06e"
+    ],
+    "sufficient": true
+  },
+  "conv-42-132": {
+    "cand": 4,
+    "needed": [
+      "99e06c6c-35da-439e-b5e9-2c9a2b3da2c1"
+    ],
+    "sufficient": true
+  },
+  "conv-42-133": {
+    "cand": 4,
+    "needed": [
+      "056314ee-0db1-41fc-aca6-8b795850bd1e"
+    ],
+    "sufficient": true
+  },
+  "conv-42-134": {
+    "cand": 2,
+    "needed": [
+      "e242f88e-9d6d-491e-8314-a1e450a31f06"
+    ],
+    "sufficient": true
+  },
+  "conv-42-135": {
+    "cand": 2,
+    "needed": [
+      "a4ffe658-6f69-4200-aa48-eeb0b2d68e5c"
+    ],
+    "sufficient": true
+  },
+  "conv-42-112": {
+    "cand": 5,
+    "needed": [
+      "0e1cae31-b240-4a1d-8bce-8e04ff16ad36"
+    ],
+    "sufficient": true
+  },
+  "conv-42-113": {
+    "cand": 4,
+    "needed": [
+      "3568e950-ef5a-49ac-8924-647de50ab67f"
+    ],
+    "sufficient": true
+  },
+  "conv-42-114": {
+    "cand": 4,
+    "needed": [
+      "728b72e2-162c-4400-afde-d9f5ce24ce5a"
+    ],
+    "sufficient": true
+  },
+  "conv-42-115": {
+    "cand": 4,
+    "needed": [
+      "313e2c01-719b-4b3d-8e57-972f048d2938"
+    ],
+    "sufficient": true
+  },
+  "conv-42-116": {
+    "cand": 4,
+    "needed": [
+      "3568e950-ef5a-49ac-8924-647de50ab67f"
+    ],
+    "sufficient": true
+  },
+  "conv-42-117": {
+    "cand": 4,
+    "needed": [
+      "12d52dd3-0fce-41f9-babf-4ff242de815b"
+    ],
+    "sufficient": true
+  },
+  "conv-42-118": {
+    "cand": 4,
+    "needed": [
+      "12d52dd3-0fce-41f9-babf-4ff242de815b"
+    ],
+    "sufficient": true
+  },
+  "conv-42-119": {
+    "cand": 3,
+    "needed": [
+      "1b9d4a76-d609-446f-9756-c2e36183eae7"
+    ],
+    "sufficient": false
+  },
+  "conv-42-136": {
+    "cand": 4,
+    "needed": [
+      "efe2a973-336f-4ab2-a16f-542335df4c9f"
+    ],
+    "sufficient": true
+  },
+  "conv-42-137": {
+    "cand": 4,
+    "needed": [
+      "f190844e-553a-4cd1-b49f-09c36076c980"
+    ],
+    "sufficient": true
+  },
+  "conv-42-138": {
+    "cand": 4,
+    "needed": [
+      "a45c1b9b-6620-459f-b92c-b21ca40abecd"
+    ],
+    "sufficient": false
+  },
+  "conv-42-139": {
+    "cand": 2,
+    "needed": [
+      "a799f563-2282-450a-ad75-a8c18b01ffad"
+    ],
+    "sufficient": true
+  },
+  "conv-42-140": {
+    "cand": 4,
+    "needed": [
+      "a45c1b9b-6620-459f-b92c-b21ca40abecd"
+    ],
+    "sufficient": true
+  },
+  "conv-42-141": {
+    "cand": 4,
+    "needed": [
+      "efe2a973-336f-4ab2-a16f-542335df4c9f"
+    ],
+    "sufficient": true
+  },
+  "conv-42-142": {
+    "cand": 4,
+    "needed": [
+      "98953579-ebaa-4d98-8c9a-0f09b7c6b789"
+    ],
+    "sufficient": true
+  },
+  "conv-42-143": {
+    "cand": 5,
+    "needed": [
+      "a2148771-25e5-4fc2-bda4-7ee38011b60c"
+    ],
+    "sufficient": false
+  },
+  "conv-42-152": {
+    "cand": 3,
+    "needed": [
+      "3d54cc41-a7d5-44f4-aced-b09286d6c179"
+    ],
+    "sufficient": true
+  },
+  "conv-42-153": {
+    "cand": 3,
+    "needed": [
+      "4b7b9d02-2060-4b72-a70f-f91dbd4a362b"
+    ],
+    "sufficient": true
+  },
+  "conv-42-154": {
+    "cand": 5,
+    "needed": [
+      "0bb4d79b-5e4a-4871-b341-2e80e1ddd02c"
+    ],
+    "sufficient": true
+  },
+  "conv-42-155": {
+    "cand": 5,
+    "needed": [
+      "3cb0ee06-82d8-4985-b5c4-f9897b50d712"
+    ],
+    "sufficient": true
+  },
+  "conv-42-156": {
+    "cand": 4,
+    "needed": [
+      "cf585b2f-9ecb-4d94-a62c-afc6a4df2b78"
+    ],
+    "sufficient": true
+  },
+  "conv-42-157": {
+    "cand": 4,
+    "needed": [
+      "fc824621-db0b-4c6c-bf06-aa58dad90371"
+    ],
+    "sufficient": true
+  },
+  "conv-42-158": {
+    "cand": 4,
+    "needed": [
+      "259e8061-e521-484e-ba0f-b2fbf80a5b6a"
+    ],
+    "sufficient": true
+  },
+  "conv-42-159": {
+    "cand": 1,
+    "needed": [
+      "23b154ee-4f50-461c-a9db-be6840f25b26"
+    ],
+    "sufficient": true
+  },
+  "conv-42-144": {
+    "cand": 5,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-42-145": {
+    "cand": 5,
+    "needed": [
+      "a2148771-25e5-4fc2-bda4-7ee38011b60c"
+    ],
+    "sufficient": true
+  },
+  "conv-42-146": {
+    "cand": 5,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-42-147": {
+    "cand": 2,
+    "needed": [
+      "84bb4625-3608-42d4-9cea-a875ee03da2d",
+      "b97432a6-a8b9-4222-89a5-5223530470cc"
+    ],
+    "sufficient": true
+  },
+  "conv-42-148": {
+    "cand": 2,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-42-149": {
+    "cand": 3,
+    "needed": [
+      "45f81c50-63de-43f3-88db-9d8b215fa4a3"
+    ],
+    "sufficient": true
+  },
+  "conv-42-150": {
+    "cand": 3,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-42-151": {
+    "cand": 2,
+    "needed": [
+      "b309c45d-dad6-43a7-9d2c-24c3de067450"
+    ],
+    "sufficient": false
+  },
+  "conv-42-160": {
+    "cand": 5,
+    "needed": [
+      "41531878-72c7-4097-8849-e0c21516ef76"
+    ],
+    "sufficient": true
+  },
+  "conv-42-161": {
+    "cand": 3,
+    "needed": [
+      "26cebab2-c42e-43e9-accb-fbc33e49ccf4"
+    ],
+    "sufficient": true
+  },
+  "conv-42-162": {
+    "cand": 3,
+    "needed": [
+      "e0ad96c8-7b73-41cb-b87b-a96ebd99a09f",
+      "f72d462f-b890-4087-98b6-ab225e0d531c"
+    ],
+    "sufficient": true
+  },
+  "conv-42-163": {
+    "cand": 6,
+    "needed": [
+      "507f91fd-93ed-4bd5-bc86-b01449082963"
+    ],
+    "sufficient": true
+  },
+  "conv-42-164": {
+    "cand": 6,
+    "needed": [
+      "9f034215-252c-4b52-961c-6d6bb466a4c5"
+    ],
+    "sufficient": true
+  },
+  "conv-42-165": {
+    "cand": 2,
+    "needed": [
+      "5c62a0dc-44c9-4050-899c-d7fbe538b4d7"
+    ],
+    "sufficient": false
+  },
+  "conv-42-166": {
+    "cand": 6,
+    "needed": [
+      "a2786d0b-9562-470b-aaf5-50da8eef4598"
+    ],
+    "sufficient": true
+  },
+  "conv-42-167": {
+    "cand": 1,
+    "needed": [
+      "fe126881-384c-4f8c-9d4c-a6210d7e8444"
+    ],
+    "sufficient": true
+  },
+  "conv-42-168": {
+    "cand": 4,
+    "needed": [
+      "6c34b65f-252c-4389-ae21-df9c1557df19"
+    ],
+    "sufficient": true
+  },
+  "conv-42-169": {
+    "cand": 4,
+    "needed": [
+      "6c34b65f-252c-4389-ae21-df9c1557df19"
+    ],
+    "sufficient": true
+  },
+  "conv-42-170": {
+    "cand": 4,
+    "needed": [
+      "f02e7d7e-702f-4ea2-8408-fd687f4ee84f"
+    ],
+    "sufficient": true
+  },
+  "conv-42-171": {
+    "cand": 4,
+    "needed": [
+      "9b8f3258-5f3a-4f10-80a2-e60e0ad8f216",
+      "b14b6642-2f1c-41e2-ae44-81c281e44579"
+    ],
+    "sufficient": true
+  },
+  "conv-42-172": {
+    "cand": 4,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-42-173": {
+    "cand": 4,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-42-174": {
+    "cand": 4,
+    "needed": [
+      "bc557b8d-fed1-4f5d-9dbc-09cc95678422"
+    ],
+    "sufficient": true
+  },
+  "conv-42-175": {
+    "cand": 4,
+    "needed": [
+      "f02e7d7e-702f-4ea2-8408-fd687f4ee84f"
+    ],
+    "sufficient": true
+  },
+  "conv-42-176": {
+    "cand": 3,
+    "needed": [
+      "ed05d389-d40e-4728-902e-8360ee556130"
+    ],
+    "sufficient": true
+  },
+  "conv-42-177": {
+    "cand": 3,
+    "needed": [
+      "bbfc7e54-a440-4939-9773-4dcb20440941"
+    ],
+    "sufficient": true
+  },
+  "conv-42-178": {
+    "cand": 1,
+    "needed": [
+      "e2b0cf16-a302-4715-97a7-d5fa2413896f"
+    ],
+    "sufficient": true
+  },
+  "conv-42-179": {
+    "cand": 3,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-42-180": {
+    "cand": 2,
+    "needed": [
+      "6dd8f9c3-8e66-4591-a122-781767b7c964"
+    ],
+    "sufficient": true
+  },
+  "conv-42-181": {
+    "cand": 1,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-42-182": {
+    "cand": 2,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-42-183": {
+    "cand": 8,
+    "needed": [
+      "c214395c-8655-4457-a3c5-4d90db822b56"
+    ],
+    "sufficient": true
+  },
+  "conv-42-184": {
+    "cand": 4,
+    "needed": [
+      "5e9106a0-bf17-4851-9244-70ba796fa2a3",
+      "52f08821-f991-4d10-93cb-b81f6e25fea1"
+    ],
+    "sufficient": true
+  },
+  "conv-42-185": {
+    "cand": 8,
+    "needed": [
+      "c214395c-8655-4457-a3c5-4d90db822b56"
+    ],
+    "sufficient": true
+  },
+  "conv-42-186": {
+    "cand": 3,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-42-187": {
+    "cand": 4,
+    "needed": [
+      "fd623dd5-e789-4f6b-a571-4c981593ea69"
+    ],
+    "sufficient": true
+  },
+  "conv-42-188": {
+    "cand": 4,
+    "needed": [
+      "e30447fb-fc70-4341-aa0a-3ee67afd2b99"
+    ],
+    "sufficient": true
+  },
+  "conv-42-189": {
+    "cand": 4,
+    "needed": [
+      "f9286750-5e2e-4089-9e27-92e912662012"
+    ],
+    "sufficient": true
+  },
+  "conv-42-190": {
+    "cand": 4,
+    "needed": [
+      "f9286750-5e2e-4089-9e27-92e912662012"
+    ],
+    "sufficient": true
+  },
+  "conv-42-191": {
+    "cand": 3,
+    "needed": [
+      "9b096692-0ea3-471f-ae60-f5d62dd0c11e"
+    ],
+    "sufficient": true
+  },
+  "conv-42-192": {
+    "cand": 3,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-42-193": {
+    "cand": 3,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-42-194": {
+    "cand": 2,
+    "needed": [
+      "4f500934-857f-44f1-a423-92a3db1827ec"
+    ],
+    "sufficient": false
+  },
+  "conv-42-195": {
+    "cand": 2,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-42-196": {
+    "cand": 3,
+    "needed": [
+      "76b551f3-9527-4d2c-b56a-e4585f981111"
+    ],
+    "sufficient": false
+  },
+  "conv-42-197": {
+    "cand": 3,
+    "needed": [
+      "76b551f3-9527-4d2c-b56a-e4585f981111"
+    ],
+    "sufficient": true
+  },
+  "conv-42-198": {
+    "cand": 1,
+    "needed": [
+      "a39dea27-d7b2-4536-aa1d-c915fbaeb5e7"
+    ],
+    "sufficient": true
+  },
+  "conv-43-0": {
+    "cand": 12,
+    "needed": [
+      "faf05ffd-1c98-493b-b9af-e8e62db8c8b9",
+      "1558a051-9099-46a4-b48a-7ec312d78e7d"
+    ],
+    "sufficient": true
+  },
+  "conv-43-9": {
+    "cand": 11,
+    "needed": [
+      "311f4d81-ddd1-40aa-92e3-460d093ce4b5",
+      "76b6902b-0edf-4a2c-84cf-5ff623bc0778",
+      "451d1b9a-dca5-4214-9014-7dd0a655e7cd",
+      "55915a9e-675e-4d75-9eb3-a93a2096f450"
+    ],
+    "sufficient": false
+  },
+  "conv-43-10": {
+    "cand": 7,
+    "needed": [
+      "1d92e059-bbfd-4380-a4bb-d0423ed93cde",
+      "05a2febf-3326-48e0-b275-cb5f711a8f62"
+    ],
+    "sufficient": true
+  },
+  "conv-43-11": {
+    "cand": 12,
+    "needed": [
+      "48e036db-8d58-4211-8995-316b580ce0c2"
+    ],
+    "sufficient": true
+  },
+  "conv-43-12": {
+    "cand": 3,
+    "needed": [
+      "73384e3c-3063-4c58-b81a-f2524a9ec95c"
+    ],
+    "sufficient": true
+  },
+  "conv-43-13": {
+    "cand": 6,
+    "needed": [
+      "3643a5ed-b627-443d-bfaf-0bea66eea9c1"
+    ],
+    "sufficient": false
+  },
+  "conv-43-14": {
+    "cand": 12,
+    "needed": [
+      "d2b5f171-7ba3-458f-a8f5-1df20253f2a2",
+      "c7bfc91f-f625-4fe8-8c4d-a363475059e1",
+      "1f546783-6990-40ff-8bd1-0bd6ef712d74"
+    ],
+    "sufficient": true
+  },
+  "conv-43-15": {
+    "cand": 4,
+    "needed": [
+      "49440e79-ca98-40cb-a6f3-2aae59e143a6"
+    ],
+    "sufficient": true
+  },
+  "conv-43-16": {
+    "cand": 6,
+    "needed": [
+      "dc89456a-a494-48c1-babc-0b5d446d9ffa"
+    ],
+    "sufficient": false
+  },
+  "conv-43-1": {
+    "cand": 8,
+    "needed": [
+      "dc3c109b-0624-43b3-9e8c-d7f185ad4d08",
+      "81a99258-00e8-4863-80da-494a2def0879"
+    ],
+    "sufficient": true
+  },
+  "conv-43-2": {
+    "cand": 15,
+    "needed": [
+      "1a85c1b5-53e9-4c45-bd38-593aaa81ff82",
+      "909b1248-ccff-4caf-b63e-42312b1772da",
+      "f1eb58ce-fdd5-4eb4-99bc-6e0a690ae7b2"
+    ],
+    "sufficient": true
+  },
+  "conv-43-3": {
+    "cand": 6,
+    "needed": [
+      "8a8791bd-586c-4392-ada7-670023b98512",
+      "6dd5b45d-ea0c-4b48-8cac-56db8f258f48"
+    ],
+    "sufficient": true
+  },
+  "conv-43-4": {
+    "cand": 20,
+    "needed": [
+      "8a8791bd-586c-4392-ada7-670023b98512",
+      "6920391e-3391-49a9-b68e-619ce461af2e",
+      "f4d7057f-e6a5-4838-91a5-37fcbf478d23",
+      "9126d277-e17b-45f5-9f83-d53d9f08115f",
+      "774ed774-8e69-401a-b185-0e7695bc8f97",
+      "33f7c94b-9d0e-472a-8377-7ad4f0226e6e"
+    ],
+    "sufficient": false
+  },
+  "conv-43-5": {
+    "cand": 3,
+    "needed": [
+      "e990dfb6-4ace-4903-9c9c-a30af1fbd1bc"
+    ],
+    "sufficient": false
+  },
+  "conv-43-6": {
+    "cand": 3,
+    "needed": [
+      "3effc70d-c186-48d4-a8c2-35d63f2505ad"
+    ],
+    "sufficient": false
+  },
+  "conv-43-7": {
+    "cand": 8,
+    "needed": [
+      "6dd5b45d-ea0c-4b48-8cac-56db8f258f48",
+      "6fc7cf15-8fe1-411d-930c-ca63a20574d8"
+    ],
+    "sufficient": false
+  },
+  "conv-43-8": {
+    "cand": 8,
+    "needed": [
+      "1f61de88-b534-496b-b6e1-1698baceab31",
+      "76b6902b-0edf-4a2c-84cf-5ff623bc0778",
+      "451d1b9a-dca5-4214-9014-7dd0a655e7cd"
+    ],
+    "sufficient": true
+  },
+  "conv-43-17": {
+    "cand": 17,
+    "needed": [
+      "dbac2ae4-7695-4e19-8bcb-e6c08e709685",
+      "05a2febf-3326-48e0-b275-cb5f711a8f62",
+      "4ca52750-f9ec-4289-a28a-76626cd4def3",
+      "0096507f-482e-47c7-b857-1352fd8d1cde",
+      "3e3db5e2-57b6-4680-83bd-f93b4b5b26f9",
+      "7818abf8-4e32-4bc1-9278-51808253c5fa"
+    ],
+    "sufficient": false
+  },
+  "conv-43-18": {
+    "cand": 18,
+    "needed": [
+      "1471b8f9-4b14-4074-91a2-7a98845ff94f",
+      "aca1ff12-0dfd-4e0d-a825-f1dd9373f41e",
+      "9126d277-e17b-45f5-9f83-d53d9f08115f"
+    ],
+    "sufficient": false
+  },
+  "conv-43-19": {
+    "cand": 9,
+    "needed": [
+      "1f61de88-b534-496b-b6e1-1698baceab31",
+      "311f4d81-ddd1-40aa-92e3-460d093ce4b5",
+      "76b6902b-0edf-4a2c-84cf-5ff623bc0778"
+    ],
+    "sufficient": false
+  },
+  "conv-43-20": {
+    "cand": 10,
+    "needed": [
+      "1d92e059-bbfd-4380-a4bb-d0423ed93cde",
+      "bb3344ec-bf76-402e-8c94-4e61f4af6f08"
+    ],
+    "sufficient": false
+  },
+  "conv-43-21": {
+    "cand": 14,
+    "needed": [
+      "55a42203-d86e-40ed-8e63-c4dab7db3eb4",
+      "bb3344ec-bf76-402e-8c94-4e61f4af6f08",
+      "c75f4b3d-67fb-4f04-884f-05c01bcdfbf3"
+    ],
+    "sufficient": true
+  },
+  "conv-43-22": {
+    "cand": 3,
+    "needed": [
+      "f741fdb5-53b4-4d16-894e-441744d95cad"
+    ],
+    "sufficient": true
+  },
+  "conv-43-23": {
+    "cand": 3,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-43-24": {
+    "cand": 6,
+    "needed": [
+      "bb3344ec-bf76-402e-8c94-4e61f4af6f08",
+      "f741fdb5-53b4-4d16-894e-441744d95cad"
+    ],
+    "sufficient": false
+  },
+  "conv-43-25": {
+    "cand": 11,
+    "needed": [
+      "27fffc17-31fa-442e-80af-34d534f130a5",
+      "fe673d2c-99aa-4d8d-86be-fbb2c940f821"
+    ],
+    "sufficient": true
+  },
+  "conv-43-26": {
+    "cand": 6,
+    "needed": [
+      "465c769e-dc6a-4bad-ba05-1a99717445bb",
+      "774ed774-8e69-401a-b185-0e7695bc8f97"
+    ],
+    "sufficient": true
+  },
+  "conv-43-27": {
+    "cand": 3,
+    "needed": [
+      "e1beee57-63cb-49b6-af0c-f3b6a93fe3db"
+    ],
+    "sufficient": false
+  },
+  "conv-43-28": {
+    "cand": 4,
+    "needed": [
+      "c9d072a4-0da6-4b26-8b22-5b835d51b1ff"
+    ],
+    "sufficient": false
+  },
+  "conv-43-29": {
+    "cand": 12,
+    "needed": [
+      "1a473d19-ac4b-4c07-8b9a-dd4c5795e271",
+      "a47b39f7-c133-4c53-bb61-63a03c85534f",
+      "e3e12072-9d48-4ca5-bde7-58a9c36ad047"
+    ],
+    "sufficient": false
+  },
+  "conv-43-30": {
+    "cand": 18,
+    "needed": [
+      "55a42203-d86e-40ed-8e63-c4dab7db3eb4",
+      "bb3344ec-bf76-402e-8c94-4e61f4af6f08",
+      "c75f4b3d-67fb-4f04-884f-05c01bcdfbf3",
+      "070f0eeb-e027-4e32-b3d5-f4625bed566f"
+    ],
+    "sufficient": true
+  },
+  "conv-43-31": {
+    "cand": 3,
+    "needed": [
+      "65c5a485-b62d-4618-aa52-e52893bb42b1"
+    ],
+    "sufficient": true
+  },
+  "conv-43-32": {
+    "cand": 3,
+    "needed": [
+      "65c5a485-b62d-4618-aa52-e52893bb42b1"
+    ],
+    "sufficient": false
+  },
+  "conv-43-33": {
+    "cand": 3,
+    "needed": [
+      "220fbacf-13bc-4fb7-9086-9d4d48a200f2"
+    ],
+    "sufficient": true
+  },
+  "conv-43-34": {
+    "cand": 9,
+    "needed": [
+      "22198658-76db-4bb6-90a6-ca7ca4309cd1",
+      "5a4280c9-f905-4b01-bd4d-0aa426be755d"
+    ],
+    "sufficient": false
+  },
+  "conv-43-35": {
+    "cand": 6,
+    "needed": [
+      "48e036db-8d58-4211-8995-316b580ce0c2",
+      "73384e3c-3063-4c58-b81a-f2524a9ec95c",
+      "ccf03b7c-d6fa-4d69-be66-8084cf88d800"
+    ],
+    "sufficient": true
+  },
+  "conv-43-36": {
+    "cand": 8,
+    "needed": [
+      "ac7e91e4-b04b-4d66-b924-e99dbb25990e",
+      "a519507a-61bd-4664-9e02-1a4deea7268c"
+    ],
+    "sufficient": true
+  },
+  "conv-43-37": {
+    "cand": 3,
+    "needed": [
+      "d5839ca3-93d3-4357-b061-7a867d376d48"
+    ],
+    "sufficient": true
+  },
+  "conv-43-38": {
+    "cand": 8,
+    "needed": [
+      "6dd5b45d-ea0c-4b48-8cac-56db8f258f48",
+      "d5839ca3-93d3-4357-b061-7a867d376d48",
+      "2ec3b173-6b2b-4a83-9c29-ca39732c386b"
+    ],
+    "sufficient": true
+  },
+  "conv-43-39": {
+    "cand": 3,
+    "needed": [
+      "6fc7cf15-8fe1-411d-930c-ca63a20574d8"
+    ],
+    "sufficient": true
+  },
+  "conv-43-40": {
+    "cand": 3,
+    "needed": [
+      "6fc7cf15-8fe1-411d-930c-ca63a20574d8"
+    ],
+    "sufficient": true
+  },
+  "conv-43-41": {
+    "cand": 8,
+    "needed": [
+      "1f546783-6990-40ff-8bd1-0bd6ef712d74",
+      "dc3d6a60-04e9-4daa-8e7b-f8d707ff1ac0"
+    ],
+    "sufficient": true
+  },
+  "conv-43-42": {
+    "cand": 10,
+    "needed": [
+      "adaed0e5-d2d9-4245-a7a4-d4e359af84f4",
+      "77e21901-45d2-4fd2-a698-b7635c26cfa2"
+    ],
+    "sufficient": false
+  },
+  "conv-43-43": {
+    "cand": 8,
+    "needed": [
+      "ac7e91e4-b04b-4d66-b924-e99dbb25990e"
+    ],
+    "sufficient": false
+  },
+  "conv-43-44": {
+    "cand": 3,
+    "needed": [
+      "9f1b7696-7cc7-424e-bbad-1b38a811a4ec"
+    ],
+    "sufficient": true
+  },
+  "conv-43-45": {
+    "cand": 3,
+    "needed": [
+      "2ec3b173-6b2b-4a83-9c29-ca39732c386b"
+    ],
+    "sufficient": true
+  },
+  "conv-43-46": {
+    "cand": 3,
+    "needed": [
+      "2ec3b173-6b2b-4a83-9c29-ca39732c386b"
+    ],
+    "sufficient": true
+  },
+  "conv-43-47": {
+    "cand": 3,
+    "needed": [
+      "0de737dd-1a6e-409a-b4f1-0e3d3c931c93"
+    ],
+    "sufficient": true
+  },
+  "conv-43-48": {
+    "cand": 3,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-43-49": {
+    "cand": 7,
+    "needed": [
+      "08208ff4-3594-4edb-87c7-8100a9861eed"
+    ],
+    "sufficient": false
+  },
+  "conv-43-50": {
+    "cand": 7,
+    "needed": [
+      "653e9fa0-3f7a-45dd-8874-9db915b65b57"
+    ],
+    "sufficient": true
+  },
+  "conv-43-51": {
+    "cand": 3,
+    "needed": [
+      "3b6c459d-184b-47cf-89ed-9865b00bb4d3"
+    ],
+    "sufficient": false
+  },
+  "conv-43-52": {
+    "cand": 6,
+    "needed": [
+      "05da91e7-801f-4a6a-9ba0-f6d19a4f58b4",
+      "3b6c459d-184b-47cf-89ed-9865b00bb4d3"
+    ],
+    "sufficient": true
+  },
+  "conv-43-53": {
+    "cand": 6,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-43-54": {
+    "cand": 3,
+    "needed": [
+      "b74f8898-f4e8-4992-b651-b60db5932874"
+    ],
+    "sufficient": true
+  },
+  "conv-43-55": {
+    "cand": 8,
+    "needed": [
+      "cb95a09c-02f2-46b8-9b72-dad8466bb3a6",
+      "89d6e4b3-d462-4b60-8467-1404d23669cd"
+    ],
+    "sufficient": false
+  },
+  "conv-43-56": {
+    "cand": 5,
+    "needed": [
+      "3f1bbd46-1ef9-49b9-b1cf-7eeae9b96278"
+    ],
+    "sufficient": true
+  },
+  "conv-43-73": {
+    "cand": 4,
+    "needed": [
+      "922c3863-73e5-4adc-b84c-059f3f05d818"
+    ],
+    "sufficient": true
+  },
+  "conv-43-74": {
+    "cand": 4,
+    "needed": [
+      "8a8791bd-586c-4392-ada7-670023b98512"
+    ],
+    "sufficient": true
+  },
+  "conv-43-75": {
+    "cand": 3,
+    "needed": [
+      "d2b5f171-7ba3-458f-a8f5-1df20253f2a2"
+    ],
+    "sufficient": true
+  },
+  "conv-43-76": {
+    "cand": 3,
+    "needed": [
+      "e990dfb6-4ace-4903-9c9c-a30af1fbd1bc"
+    ],
+    "sufficient": true
+  },
+  "conv-43-77": {
+    "cand": 3,
+    "needed": [
+      "3effc70d-c186-48d4-a8c2-35d63f2505ad"
+    ],
+    "sufficient": true
+  },
+  "conv-43-78": {
+    "cand": 3,
+    "needed": [
+      "dbac2ae4-7695-4e19-8bcb-e6c08e709685"
+    ],
+    "sufficient": true
+  },
+  "conv-43-79": {
+    "cand": 4,
+    "needed": [
+      "311f4d81-ddd1-40aa-92e3-460d093ce4b5",
+      "76b6902b-0edf-4a2c-84cf-5ff623bc0778"
+    ],
+    "sufficient": true
+  },
+  "conv-43-80": {
+    "cand": 4,
+    "needed": [
+      "1d92e059-bbfd-4380-a4bb-d0423ed93cde"
+    ],
+    "sufficient": true
+  },
+  "conv-43-57": {
+    "cand": 9,
+    "needed": [
+      "42f09c1d-3549-4695-a6d4-151e35f24bb6",
+      "3f1bbd46-1ef9-49b9-b1cf-7eeae9b96278"
+    ],
+    "sufficient": true
+  },
+  "conv-43-58": {
+    "cand": 9,
+    "needed": [
+      "49440e79-ca98-40cb-a6f3-2aae59e143a6",
+      "2629c36e-f9de-41e7-82ad-c7a8fa60448e"
+    ],
+    "sufficient": true
+  },
+  "conv-43-59": {
+    "cand": 7,
+    "needed": [
+      "3effc70d-c186-48d4-a8c2-35d63f2505ad",
+      "0096507f-482e-47c7-b857-1352fd8d1cde"
+    ],
+    "sufficient": true
+  },
+  "conv-43-60": {
+    "cand": 4,
+    "needed": [
+      "0096507f-482e-47c7-b857-1352fd8d1cde"
+    ],
+    "sufficient": false
+  },
+  "conv-43-61": {
+    "cand": 19,
+    "needed": [
+      "03ce0d52-afc6-450a-8517-7ac27d2b9076",
+      "12c9c548-5ed3-4bb2-be42-e821de0188cb",
+      "ed2991bf-241b-497a-b773-c0306c58a585",
+      "3f6ec57b-0a53-4776-b6ff-7b95662372a8",
+      "567cdaf0-0c71-473d-aa32-4af4bc2cfc93"
+    ],
+    "sufficient": true
+  },
+  "conv-43-62": {
+    "cand": 4,
+    "needed": [
+      "78c588d4-f8ca-4f43-a9e0-19579c9a6db9",
+      "1d7686cd-02f2-4892-aaab-47cc9eb7092e"
+    ],
+    "sufficient": true
+  },
+  "conv-43-63": {
+    "cand": 4,
+    "needed": [
+      "86cb9229-418c-4cd4-a2bf-3398977b24a3"
+    ],
+    "sufficient": true
+  },
+  "conv-43-64": {
+    "cand": 6,
+    "needed": [
+      "078dde0f-dcf4-4b3a-b64d-d2c874d655a5"
+    ],
+    "sufficient": true
+  },
+  "conv-43-65": {
+    "cand": 19,
+    "needed": [
+      "2f34e6d5-0464-427d-932a-de6f41fa64a0",
+      "60596d95-3ac4-4419-a931-ec94034c9d41",
+      "54278fa7-b8ae-4fde-923e-7317a1fe79af"
+    ],
+    "sufficient": true
+  },
+  "conv-43-66": {
+    "cand": 6,
+    "needed": [
+      "54278fa7-b8ae-4fde-923e-7317a1fe79af",
+      "afda987a-787c-43aa-808e-976e5c1763b8"
+    ],
+    "sufficient": false
+  },
+  "conv-43-67": {
+    "cand": 16,
+    "needed": [
+      "c7bfc91f-f625-4fe8-8c4d-a363475059e1",
+      "15dc4009-16db-4bb9-8613-555bdfc0b2e3",
+      "c2397da3-d157-45e4-9605-11005304df2b"
+    ],
+    "sufficient": true
+  },
+  "conv-43-68": {
+    "cand": 3,
+    "needed": [
+      "f53284ac-24cb-4b6b-a5ed-3ffa269b050a"
+    ],
+    "sufficient": false
+  },
+  "conv-43-69": {
+    "cand": 3,
+    "needed": [
+      "f53284ac-24cb-4b6b-a5ed-3ffa269b050a"
+    ],
+    "sufficient": true
+  },
+  "conv-43-70": {
+    "cand": 11,
+    "needed": [
+      "54278fa7-b8ae-4fde-923e-7317a1fe79af",
+      "a08bf64b-3b1b-40cc-a144-04fcc4ebd08b",
+      "f53284ac-24cb-4b6b-a5ed-3ffa269b050a"
+    ],
+    "sufficient": false
+  },
+  "conv-43-71": {
+    "cand": 3,
+    "needed": [
+      "cb95a09c-02f2-46b8-9b72-dad8466bb3a6"
+    ],
+    "sufficient": true
+  },
+  "conv-43-72": {
+    "cand": 3,
+    "needed": [
+      "067d98b9-9a20-455a-929c-7a20da6e3661"
+    ],
+    "sufficient": true
+  },
+  "conv-43-89": {
+    "cand": 5,
+    "needed": [
+      "1558a051-9099-46a4-b48a-7ec312d78e7d"
+    ],
+    "sufficient": true
+  },
+  "conv-43-90": {
+    "cand": 1,
+    "needed": [
+      "d61ccca3-317c-4a2b-a85d-618f0ba74df7"
+    ],
+    "sufficient": true
+  },
+  "conv-43-91": {
+    "cand": 3,
+    "needed": [
+      "f741fdb5-53b4-4d16-894e-441744d95cad"
+    ],
+    "sufficient": true
+  },
+  "conv-43-92": {
+    "cand": 3,
+    "needed": [
+      "5387da32-4a45-4ea0-bb8a-47d94d9fe8c2"
+    ],
+    "sufficient": true
+  },
+  "conv-43-93": {
+    "cand": 2,
+    "needed": [
+      "27fffc17-31fa-442e-80af-34d534f130a5"
+    ],
+    "sufficient": true
+  },
+  "conv-43-94": {
+    "cand": 3,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-43-95": {
+    "cand": 4,
+    "needed": [
+      "42f09c1d-3549-4695-a6d4-151e35f24bb6"
+    ],
+    "sufficient": true
+  },
+  "conv-43-96": {
+    "cand": 4,
+    "needed": [
+      "c9d072a4-0da6-4b26-8b22-5b835d51b1ff"
+    ],
+    "sufficient": true
+  },
+  "conv-43-81": {
+    "cand": 3,
+    "needed": [
+      "73384e3c-3063-4c58-b81a-f2524a9ec95c"
+    ],
+    "sufficient": true
+  },
+  "conv-43-82": {
+    "cand": 3,
+    "needed": [
+      "8ce130ec-6796-4ca8-87e7-7573a16d70de"
+    ],
+    "sufficient": true
+  },
+  "conv-43-83": {
+    "cand": 4,
+    "needed": [
+      "c7bfc91f-f625-4fe8-8c4d-a363475059e1"
+    ],
+    "sufficient": true
+  },
+  "conv-43-84": {
+    "cand": 4,
+    "needed": [
+      "1471b8f9-4b14-4074-91a2-7a98845ff94f"
+    ],
+    "sufficient": true
+  },
+  "conv-43-85": {
+    "cand": 4,
+    "needed": [
+      "49440e79-ca98-40cb-a6f3-2aae59e143a6"
+    ],
+    "sufficient": true
+  },
+  "conv-43-86": {
+    "cand": 3,
+    "needed": [
+      "dc89456a-a494-48c1-babc-0b5d446d9ffa"
+    ],
+    "sufficient": true
+  },
+  "conv-43-87": {
+    "cand": 3,
+    "needed": [
+      "b42e89bf-cddb-4253-a7cb-cf63f6dea009"
+    ],
+    "sufficient": false
+  },
+  "conv-43-88": {
+    "cand": 5,
+    "needed": [
+      "1a473d19-ac4b-4c07-8b9a-dd4c5795e271"
+    ],
+    "sufficient": true
+  },
+  "conv-43-97": {
+    "cand": 4,
+    "needed": [
+      "4962b50d-a491-405b-b017-73cb3a347cde"
+    ],
+    "sufficient": true
+  },
+  "conv-43-98": {
+    "cand": 4,
+    "needed": [
+      "64b0d5e8-7c11-45ed-bb21-7f89ec13ee33"
+    ],
+    "sufficient": true
+  },
+  "conv-43-99": {
+    "cand": 4,
+    "needed": [
+      "64b0d5e8-7c11-45ed-bb21-7f89ec13ee33"
+    ],
+    "sufficient": true
+  },
+  "conv-43-100": {
+    "cand": 7,
+    "needed": [
+      "e3e12072-9d48-4ca5-bde7-58a9c36ad047"
+    ],
+    "sufficient": true
+  },
+  "conv-43-101": {
+    "cand": 7,
+    "needed": [
+      "c75f4b3d-67fb-4f04-884f-05c01bcdfbf3"
+    ],
+    "sufficient": true
+  },
+  "conv-43-102": {
+    "cand": 1,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-43-103": {
+    "cand": 5,
+    "needed": [
+      "adaed0e5-d2d9-4245-a7a4-d4e359af84f4"
+    ],
+    "sufficient": true
+  },
+  "conv-43-104": {
+    "cand": 5,
+    "needed": [
+      "adaed0e5-d2d9-4245-a7a4-d4e359af84f4"
+    ],
+    "sufficient": true
+  },
+  "conv-43-105": {
+    "cand": 3,
+    "needed": [
+      "2556402b-3521-418b-9122-bf426466113c"
+    ],
+    "sufficient": true
+  },
+  "conv-43-106": {
+    "cand": 3,
+    "needed": [
+      "220fbacf-13bc-4fb7-9086-9d4d48a200f2"
+    ],
+    "sufficient": true
+  },
+  "conv-43-107": {
+    "cand": 2,
+    "needed": [
+      "596239e0-d1b5-4772-b1d7-22363624f29a"
+    ],
+    "sufficient": false
+  },
+  "conv-43-108": {
+    "cand": 3,
+    "needed": [
+      "22198658-76db-4bb6-90a6-ca7ca4309cd1"
+    ],
+    "sufficient": false
+  },
+  "conv-43-109": {
+    "cand": 3,
+    "needed": [
+      "22198658-76db-4bb6-90a6-ca7ca4309cd1"
+    ],
+    "sufficient": false
+  },
+  "conv-43-110": {
+    "cand": 3,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-43-111": {
+    "cand": 3,
+    "needed": [
+      "0de737dd-1a6e-409a-b4f1-0e3d3c931c93"
+    ],
+    "sufficient": true
+  },
+  "conv-43-112": {
+    "cand": 2,
+    "needed": [
+      "8ea58e53-201c-4915-9347-c98e59feb936"
+    ],
+    "sufficient": true
+  },
+  "conv-43-113": {
+    "cand": 5,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-43-114": {
+    "cand": 3,
+    "needed": [
+      "09aa6c15-3c9a-4fbb-8d37-5ef773b2803b"
+    ],
+    "sufficient": true
+  },
+  "conv-43-115": {
+    "cand": 3,
+    "needed": [
+      "cc51524b-b561-4128-b71d-100e799984cd"
+    ],
+    "sufficient": true
+  },
+  "conv-43-116": {
+    "cand": 3,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-43-117": {
+    "cand": 3,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-43-118": {
+    "cand": 3,
+    "needed": [
+      "cc51524b-b561-4128-b71d-100e799984cd"
+    ],
+    "sufficient": true
+  },
+  "conv-43-119": {
+    "cand": 3,
+    "needed": [
+      "6fc7cf15-8fe1-411d-930c-ca63a20574d8"
+    ],
+    "sufficient": true
+  },
+  "conv-43-120": {
+    "cand": 3,
+    "needed": [
+      "05d375cc-ae19-4d18-8893-c65714538e96"
+    ],
+    "sufficient": true
+  },
+  "conv-43-121": {
+    "cand": 2,
+    "needed": [
+      "3c084def-696d-4474-9618-ae185bcbe031"
+    ],
+    "sufficient": false
+  },
+  "conv-43-122": {
+    "cand": 2,
+    "needed": [
+      "3c084def-696d-4474-9618-ae185bcbe031"
+    ],
+    "sufficient": true
+  },
+  "conv-43-123": {
+    "cand": 5,
+    "needed": [
+      "1f546783-6990-40ff-8bd1-0bd6ef712d74"
+    ],
+    "sufficient": true
+  },
+  "conv-43-124": {
+    "cand": 5,
+    "needed": [
+      "b76cf70a-f4b7-4ef7-a9e1-2ae74080381a"
+    ],
+    "sufficient": true
+  },
+  "conv-43-125": {
+    "cand": 4,
+    "needed": [
+      "ac401bd3-3cf9-4a46-8f99-f78ba4c42aec"
+    ],
+    "sufficient": true
+  },
+  "conv-43-126": {
+    "cand": 4,
+    "needed": [
+      "923e0b88-4e73-4159-ab45-50428ac226ea"
+    ],
+    "sufficient": true
+  },
+  "conv-43-127": {
+    "cand": 5,
+    "needed": [
+      "b757b12c-cf7d-4839-8dd9-9af962e3a290"
+    ],
+    "sufficient": true
+  },
+  "conv-43-128": {
+    "cand": 5,
+    "needed": [
+      "77e21901-45d2-4fd2-a698-b7635c26cfa2"
+    ],
+    "sufficient": true
+  },
+  "conv-43-130": {
+    "cand": 3,
+    "needed": [
+      "dc3d6a60-04e9-4daa-8e7b-f8d707ff1ac0"
+    ],
+    "sufficient": true
+  },
+  "conv-43-131": {
+    "cand": 3,
+    "needed": [
+      "fe673d2c-99aa-4d8d-86be-fbb2c940f821"
+    ],
+    "sufficient": true
+  },
+  "conv-43-132": {
+    "cand": 3,
+    "needed": [
+      "a519507a-61bd-4664-9e02-1a4deea7268c"
+    ],
+    "sufficient": false
+  },
+  "conv-43-133": {
+    "cand": 2,
+    "needed": [
+      "6cce9ab9-ce63-4ff2-9ec0-3d8183809601"
+    ],
+    "sufficient": false
+  },
+  "conv-43-134": {
+    "cand": 3,
+    "needed": [
+      "465c769e-dc6a-4bad-ba05-1a99717445bb"
+    ],
+    "sufficient": true
+  },
+  "conv-43-135": {
+    "cand": 3,
+    "needed": [
+      "c080395b-a7d4-4935-8664-029a9203e73a"
+    ],
+    "sufficient": true
+  },
+  "conv-43-136": {
+    "cand": 1,
+    "needed": [
+      "29e0c0bb-fcb9-406d-af78-a88e5fa215eb"
+    ],
+    "sufficient": false
+  },
+  "conv-43-137": {
+    "cand": 4,
+    "needed": [
+      "f2eb04f9-4762-49bf-a515-b4aefc7f5224"
+    ],
+    "sufficient": true
+  },
+  "conv-43-138": {
+    "cand": 4,
+    "needed": [
+      "08208ff4-3594-4edb-87c7-8100a9861eed"
+    ],
+    "sufficient": false
+  },
+  "conv-43-139": {
+    "cand": 5,
+    "needed": [
+      "5b2fa390-c4b9-4429-8629-7ed42694a2c7"
+    ],
+    "sufficient": true
+  },
+  "conv-43-140": {
+    "cand": 5,
+    "needed": [
+      "c67303fa-a0e3-48eb-bf0e-e19b51a54686"
+    ],
+    "sufficient": true
+  },
+  "conv-43-141": {
+    "cand": 4,
+    "needed": [
+      "653e9fa0-3f7a-45dd-8874-9db915b65b57"
+    ],
+    "sufficient": true
+  },
+  "conv-43-142": {
+    "cand": 4,
+    "needed": [
+      "653e9fa0-3f7a-45dd-8874-9db915b65b57"
+    ],
+    "sufficient": true
+  },
+  "conv-43-143": {
+    "cand": 3,
+    "needed": [
+      "3b6c459d-184b-47cf-89ed-9865b00bb4d3"
+    ],
+    "sufficient": true
+  },
+  "conv-43-144": {
+    "cand": 2,
+    "needed": [
+      "aa454b64-23e2-4655-a3b2-e02a0829951e"
+    ],
+    "sufficient": true
+  },
+  "conv-43-145": {
+    "cand": 2,
+    "needed": [
+      "1a61d480-9435-446f-b806-2c39e3397bd9"
+    ],
+    "sufficient": true
+  },
+  "conv-43-146": {
+    "cand": 5,
+    "needed": [
+      "3f1bbd46-1ef9-49b9-b1cf-7eeae9b96278"
+    ],
+    "sufficient": true
+  },
+  "conv-43-147": {
+    "cand": 5,
+    "needed": [
+      "3f1bbd46-1ef9-49b9-b1cf-7eeae9b96278"
+    ],
+    "sufficient": true
+  },
+  "conv-43-148": {
+    "cand": 5,
+    "needed": [
+      "3f1bbd46-1ef9-49b9-b1cf-7eeae9b96278"
+    ],
+    "sufficient": true
+  },
+  "conv-43-149": {
+    "cand": 4,
+    "needed": [
+      "33f7c94b-9d0e-472a-8377-7ad4f0226e6e"
+    ],
+    "sufficient": true
+  },
+  "conv-43-150": {
+    "cand": 4,
+    "needed": [
+      "33f7c94b-9d0e-472a-8377-7ad4f0226e6e"
+    ],
+    "sufficient": true
+  },
+  "conv-43-151": {
+    "cand": 4,
+    "needed": [
+      "0096507f-482e-47c7-b857-1352fd8d1cde",
+      "f26bd040-0ba2-47b3-8e54-2365118425b1"
+    ],
+    "sufficient": true
+  },
+  "conv-43-152": {
+    "cand": 4,
+    "needed": [
+      "0096507f-482e-47c7-b857-1352fd8d1cde",
+      "3e3db5e2-57b6-4680-83bd-f93b4b5b26f9"
+    ],
+    "sufficient": false
+  },
+  "conv-43-153": {
+    "cand": 3,
+    "needed": [
+      "5b3c2d40-528c-4d4f-9064-99aa7e38bf9f"
+    ],
+    "sufficient": true
+  },
+  "conv-43-154": {
+    "cand": 4,
+    "needed": [
+      "0096507f-482e-47c7-b857-1352fd8d1cde"
+    ],
+    "sufficient": false
+  },
+  "conv-43-155": {
+    "cand": 4,
+    "needed": [
+      "71cd3f90-27d6-444e-95a3-455a6aa50be1"
+    ],
+    "sufficient": true
+  },
+  "conv-43-156": {
+    "cand": 4,
+    "needed": [
+      "451d1b9a-dca5-4214-9014-7dd0a655e7cd"
+    ],
+    "sufficient": true
+  },
+  "conv-43-157": {
+    "cand": 4,
+    "needed": [
+      "d1dca0d7-3d73-4f86-93fd-f8131e190b5f"
+    ],
+    "sufficient": true
+  },
+  "conv-43-158": {
+    "cand": 2,
+    "needed": [
+      "4979bbc1-fe25-46d0-a724-5853eab91d45"
+    ],
+    "sufficient": true
+  },
+  "conv-43-159": {
+    "cand": 2,
+    "needed": [
+      "1d7686cd-02f2-4892-aaab-47cc9eb7092e"
+    ],
+    "sufficient": true
+  },
+  "conv-43-160": {
+    "cand": 2,
+    "needed": [
+      "a33c0c27-b6ec-4df8-8de8-1fec38ebe8c8"
+    ],
+    "sufficient": true
+  },
+  "conv-43-161": {
+    "cand": 4,
+    "needed": [
+      "96aeecb3-1af5-4650-a57d-a2d8a8f59938"
+    ],
+    "sufficient": true
+  },
+  "conv-43-162": {
+    "cand": 1,
+    "needed": [
+      "774ed774-8e69-401a-b185-0e7695bc8f97"
+    ],
+    "sufficient": true
+  },
+  "conv-43-163": {
+    "cand": 6,
+    "needed": [
+      "a3f17d99-8caf-464f-b748-9618fa1973cf"
+    ],
+    "sufficient": true
+  },
+  "conv-43-164": {
+    "cand": 6,
+    "needed": [
+      "386fe78c-aa2d-447a-b51e-8ec5a518688c"
+    ],
+    "sufficient": false
+  },
+  "conv-43-165": {
+    "cand": 6,
+    "needed": [
+      "9a64ae2a-7629-495d-9ba8-461414be249a"
+    ],
+    "sufficient": true
+  },
+  "conv-43-166": {
+    "cand": 6,
+    "needed": [
+      "aae9261b-01b8-4479-b26e-78a262b16f1a"
+    ],
+    "sufficient": true
+  },
+  "conv-43-167": {
+    "cand": 6,
+    "needed": [
+      "5d72a121-94f7-47c7-9115-b662bddd8b78"
+    ],
+    "sufficient": true
+  },
+  "conv-43-168": {
+    "cand": 4,
+    "needed": [
+      "5a4280c9-f905-4b01-bd4d-0aa426be755d"
+    ],
+    "sufficient": true
+  },
+  "conv-43-169": {
+    "cand": 4,
+    "needed": [
+      "de59d476-fba5-447e-bae4-9c19212d6f47"
+    ],
+    "sufficient": true
+  },
+  "conv-43-170": {
+    "cand": 4,
+    "needed": [
+      "de59d476-fba5-447e-bae4-9c19212d6f47"
+    ],
+    "sufficient": true
+  },
+  "conv-43-171": {
+    "cand": 4,
+    "needed": [],
+    "sufficient": false
+  },
+  "conv-43-172": {
+    "cand": 3,
+    "needed": [
+      "f53284ac-24cb-4b6b-a5ed-3ffa269b050a"
+    ],
+    "sufficient": true
+  },
+  "conv-43-173": {
+    "cand": 3,
+    "needed": [
+      "a08bf64b-3b1b-40cc-a144-04fcc4ebd08b"
+    ],
+    "sufficient": true
+  },
+  "conv-43-174": {
+    "cand": 1,
+    "needed": [
+      "8fdfe758-9586-464a-831f-66e9ba365d88"
+    ],
+    "sufficient": true
+  },
+  "conv-43-175": {
+    "cand": 3,
+    "needed": [
+      "55915a9e-675e-4d75-9eb3-a93a2096f450"
+    ],
+    "sufficient": true
+  },
+  "conv-43-176": {
+    "cand": 3,
+    "needed": [
+      "55915a9e-675e-4d75-9eb3-a93a2096f450"
+    ],
+    "sufficient": false
+  }
+}

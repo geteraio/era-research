@@ -1,0 +1,136 @@
+{
+  "model": "claude-haiku-5-5",
+  "n": 100,
+  "systems": {
+    "era": {
+      "abstention": {
+        "n": 6,
+        "correct": 6,
+        "acc": 100
+      },
+      "knowledge-update": {
+        "n": 15,
+        "correct": 13,
+        "acc": 86.66666666666667
+      },
+      "multi-session": {
+        "n": 24,
+        "correct": 13,
+        "acc": 54.166666666666664
+      },
+      "single-session-assistant": {
+        "n": 11,
+        "correct": 0,
+        "acc": 0
+      },
+      "single-session-preference": {
+        "n": 6,
+        "correct": 5,
+        "acc": 83.33333333333333
+      },
+      "single-session-user": {
+        "n": 13,
+        "correct": 11,
+        "acc": 84.61538461538461
+      },
+      "temporal-reasoning": {
+        "n": 25,
+        "correct": 13,
+        "acc": 52
+      },
+      "ALL": {
+        "n": 100,
+        "correct": 61,
+        "acc": 61
+      }
+    },
+    "full": {
+      "abstention": {
+        "n": 6,
+        "correct": 6,
+        "acc": 100
+      },
+      "knowledge-update": {
+        "n": 15,
+        "correct": 13,
+        "acc": 86.66666666666667
+      },
+      "multi-session": {
+        "n": 24,
+        "correct": 23,
+        "acc": 95.83333333333333
+      },
+      "single-session-assistant": {
+        "n": 11,
+        "correct": 11,
+        "acc": 100
+      },
+      "single-session-preference": {
+        "n": 6,
+        "correct": 6,
+        "acc": 100
+      },
+      "single-session-user": {
+        "n": 13,
+        "correct": 10,
+        "acc": 76.92307692307692
+      },
+      "temporal-reasoning": {
+        "n": 25,
+        "correct": 23,
+        "acc": 92
+      },
+      "ALL": {
+        "n": 100,
+        "correct": 92,
+        "acc": 92
+      }
+    }
+  },
+  "era": {
+    "tokens": {
+      "n": 100,
+      "p50": 738,
+      "p95": 1147,
+      "max": 1389,
+      "mean": 770.38
+    },
+    "ms": {
+      "n": 100,
+      "p50": 64.3125,
+      "p95": 94.95669999998063,
+      "max": 139.72360000002664,
+      "mean": 65.26184899996443
+    },
+    "evidenceUserTurnAny": "81/84",
+    "sessionAny": "87/94",
+    "memories": {
+      "n": 100,
+      "p50": 112,
+      "p95": 139,
+      "max": 148,
+      "mean": 113.28
+    },
+    "entities": {
+      "n": 100,
+      "p50": 96,
+      "p95": 123,
+      "max": 141,
+      "mean": 96.43
+    },
+    "entityEdges": {
+      "n": 100,
+      "p50": 36,
+      "p95": 46,
+      "max": 49,
+      "mean": 34.28
+    }
+  },
+  "fullTokens": {
+    "n": 100,
+    "p50": 112361,
+    "p95": 113791,
+    "max": 114095,
+    "mean": 112189.55
+  }
+}

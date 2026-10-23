@@ -1,0 +1,6782 @@
+[
+  {
+    "id": "conv-26-0",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 840,
+    "ms": 147.24159999999392,
+    "n": 13
+  },
+  {
+    "id": "conv-26-1",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 896,
+    "ms": 156.67089999999735,
+    "n": 15
+  },
+  {
+    "id": "conv-26-2",
+    "cat": 3,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 905,
+    "ms": 137.5274000000063,
+    "n": 16
+  },
+  {
+    "id": "conv-26-3",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 788,
+    "ms": 166.04200000000128,
+    "n": 11
+  },
+  {
+    "id": "conv-26-4",
+    "cat": 1,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 734,
+    "ms": 146.64020000000892,
+    "n": 10
+  },
+  {
+    "id": "conv-26-5",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 959,
+    "ms": 154.16830000000482,
+    "n": 14
+  },
+  {
+    "id": "conv-26-6",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1102,
+    "ms": 142.89999999999418,
+    "n": 16
+  },
+  {
+    "id": "conv-26-7",
+    "cat": 1,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 887,
+    "ms": 308.4962999999989,
+    "n": 13
+  },
+  {
+    "id": "conv-26-8",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 808,
+    "ms": 393.340200000006,
+    "n": 11
+  },
+  {
+    "id": "conv-26-10",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 969,
+    "ms": 215.03830000000016,
+    "n": 14
+  },
+  {
+    "id": "conv-26-11",
+    "cat": 1,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 1030,
+    "ms": 168.08330000001297,
+    "n": 13
+  },
+  {
+    "id": "conv-26-12",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1110,
+    "ms": 133.9719000000041,
+    "n": 15
+  },
+  {
+    "id": "conv-26-13",
+    "cat": 1,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 748,
+    "ms": 126.50899999999092,
+    "n": 12
+  },
+  {
+    "id": "conv-26-14",
+    "cat": 3,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 798,
+    "ms": 133.06750000000466,
+    "n": 12
+  },
+  {
+    "id": "conv-26-15",
+    "cat": 1,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 787,
+    "ms": 122.28639999999723,
+    "n": 11
+  },
+  {
+    "id": "conv-26-16",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1030,
+    "ms": 111.00319999999192,
+    "n": 16
+  },
+  {
+    "id": "conv-26-17",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 874,
+    "ms": 136.82919999999285,
+    "n": 11
+  },
+  {
+    "id": "conv-26-18",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1136,
+    "ms": 133.73570000000473,
+    "n": 16
+  },
+  {
+    "id": "conv-26-19",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 801,
+    "ms": 109.42630000000645,
+    "n": 11
+  },
+  {
+    "id": "conv-26-20",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 903,
+    "ms": 122.28149999999732,
+    "n": 11
+  },
+  {
+    "id": "conv-26-21",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1076,
+    "ms": 123.59939999999187,
+    "n": 14
+  },
+  {
+    "id": "conv-26-22",
+    "cat": 3,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 801,
+    "ms": 121.17710000000079,
+    "n": 10
+  },
+  {
+    "id": "conv-26-23",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 843,
+    "ms": 122.01429999999527,
+    "n": 13
+  },
+  {
+    "id": "conv-26-24",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 907,
+    "ms": 126.47889999998733,
+    "n": 13
+  },
+  {
+    "id": "conv-26-25",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 722,
+    "ms": 125.59200000000419,
+    "n": 10
+  },
+  {
+    "id": "conv-26-27",
+    "cat": 3,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 767,
+    "ms": 102.28689999999187,
+    "n": 12
+  },
+  {
+    "id": "conv-26-28",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 961,
+    "ms": 110.52379999999539,
+    "n": 13
+  },
+  {
+    "id": "conv-26-29",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1022,
+    "ms": 130.47639999999956,
+    "n": 15
+  },
+  {
+    "id": "conv-26-31",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1063,
+    "ms": 123.81650000000081,
+    "n": 16
+  },
+  {
+    "id": "conv-26-32",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.6666666666666666,
+    "tok": 890,
+    "ms": 117.64160000000265,
+    "n": 11
+  },
+  {
+    "id": "conv-26-33",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1124,
+    "ms": 129.17029999999795,
+    "n": 14
+  },
+  {
+    "id": "conv-26-34",
+    "cat": 1,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 1069,
+    "ms": 118.0168999999878,
+    "n": 14
+  },
+  {
+    "id": "conv-26-35",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1176,
+    "ms": 118.62220000001253,
+    "n": 16
+  },
+  {
+    "id": "conv-26-36",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 991,
+    "ms": 129.3590000000113,
+    "n": 15
+  },
+  {
+    "id": "conv-26-37",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 896,
+    "ms": 128.2795000000042,
+    "n": 15
+  },
+  {
+    "id": "conv-26-38",
+    "cat": 1,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 914,
+    "ms": 139.84470000000147,
+    "n": 12
+  },
+  {
+    "id": "conv-26-39",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 768,
+    "ms": 160.11849999999686,
+    "n": 11
+  },
+  {
+    "id": "conv-26-40",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1114,
+    "ms": 116.16740000000573,
+    "n": 16
+  },
+  {
+    "id": "conv-26-41",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 841,
+    "ms": 115.78580000001239,
+    "n": 11
+  },
+  {
+    "id": "conv-26-42",
+    "cat": 3,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 928,
+    "ms": 128.82080000000133,
+    "n": 17
+  },
+  {
+    "id": "conv-26-43",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 959,
+    "ms": 114.45010000000184,
+    "n": 14
+  },
+  {
+    "id": "conv-26-44",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1029,
+    "ms": 133.13490000000456,
+    "n": 15
+  },
+  {
+    "id": "conv-26-45",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 823,
+    "ms": 394.42029999999795,
+    "n": 13
+  },
+  {
+    "id": "conv-26-47",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 1012,
+    "ms": 103.29750000000058,
+    "n": 16
+  },
+  {
+    "id": "conv-26-48",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 758,
+    "ms": 132.17140000000654,
+    "n": 11
+  },
+  {
+    "id": "conv-26-49",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 875,
+    "ms": 109.04630000000179,
+    "n": 11
+  },
+  {
+    "id": "conv-26-50",
+    "cat": 3,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 884,
+    "ms": 106.32189999999537,
+    "n": 13
+  },
+  {
+    "id": "conv-26-51",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 914,
+    "ms": 89.85640000000421,
+    "n": 15
+  },
+  {
+    "id": "conv-26-52",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1077,
+    "ms": 92.73010000000068,
+    "n": 16
+  },
+  {
+    "id": "conv-26-53",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 921,
+    "ms": 104.64970000000903,
+    "n": 12
+  },
+  {
+    "id": "conv-26-54",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 893,
+    "ms": 96.80109999999695,
+    "n": 11
+  },
+  {
+    "id": "conv-26-55",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 972,
+    "ms": 115.57820000000356,
+    "n": 11
+  },
+  {
+    "id": "conv-26-56",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 838,
+    "ms": 101.86190000000352,
+    "n": 10
+  },
+  {
+    "id": "conv-26-58",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 775,
+    "ms": 95.08890000000247,
+    "n": 11
+  },
+  {
+    "id": "conv-26-59",
+    "cat": 3,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 1134,
+    "ms": 91.59530000000086,
+    "n": 15
+  },
+  {
+    "id": "conv-26-60",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 821,
+    "ms": 88.3587000000116,
+    "n": 12
+  },
+  {
+    "id": "conv-26-61",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1002,
+    "ms": 105.0515000000014,
+    "n": 15
+  },
+  {
+    "id": "conv-26-62",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1018,
+    "ms": 98.9774999999936,
+    "n": 17
+  },
+  {
+    "id": "conv-26-63",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 792,
+    "ms": 121.70059999999648,
+    "n": 10
+  },
+  {
+    "id": "conv-26-64",
+    "cat": 3,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 793,
+    "ms": 138.04219999999623,
+    "n": 12
+  },
+  {
+    "id": "conv-26-65",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 804,
+    "ms": 145.45380000000296,
+    "n": 10
+  },
+  {
+    "id": "conv-26-66",
+    "cat": 1,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 1021,
+    "ms": 119.62730000000738,
+    "n": 13
+  },
+  {
+    "id": "conv-26-68",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 939,
+    "ms": 120.34590000000026,
+    "n": 17
+  },
+  {
+    "id": "conv-26-69",
+    "cat": 3,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 755,
+    "ms": 131.40649999999732,
+    "n": 11
+  },
+  {
+    "id": "conv-26-70",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 839,
+    "ms": 112.68360000000393,
+    "n": 13
+  },
+  {
+    "id": "conv-26-71",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 580,
+    "ms": 89.51450000000477,
+    "n": 10
+  },
+  {
+    "id": "conv-26-72",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1002,
+    "ms": 66.95609999999579,
+    "n": 15
+  },
+  {
+    "id": "conv-26-74",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1091,
+    "ms": 102.42859999999928,
+    "n": 14
+  },
+  {
+    "id": "conv-26-76",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1083,
+    "ms": 106.58259999999427,
+    "n": 16
+  },
+  {
+    "id": "conv-26-77",
+    "cat": 3,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 1173,
+    "ms": 109.33329999999842,
+    "n": 16
+  },
+  {
+    "id": "conv-26-79",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 898,
+    "ms": 108.85369999999239,
+    "n": 12
+  },
+  {
+    "id": "conv-26-81",
+    "cat": 3,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 947,
+    "ms": 116.09970000000612,
+    "n": 12
+  },
+  {
+    "id": "conv-26-82",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 816,
+    "ms": 118.84309999999823,
+    "n": 12
+  },
+  {
+    "id": "conv-26-83",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1015,
+    "ms": 101.79379999999946,
+    "n": 15
+  },
+  {
+    "id": "conv-26-84",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 1011,
+    "ms": 92.85099999999511,
+    "n": 15
+  },
+  {
+    "id": "conv-26-85",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 842,
+    "ms": 83.89299999999639,
+    "n": 11
+  },
+  {
+    "id": "conv-26-86",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 770,
+    "ms": 84.80939999999828,
+    "n": 11
+  },
+  {
+    "id": "conv-26-87",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 960,
+    "ms": 93.8862999999983,
+    "n": 13
+  },
+  {
+    "id": "conv-26-88",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 958,
+    "ms": 114.17379999998957,
+    "n": 13
+  },
+  {
+    "id": "conv-26-91",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 815,
+    "ms": 123.18869999999879,
+    "n": 10
+  },
+  {
+    "id": "conv-26-92",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 775,
+    "ms": 127.13670000000275,
+    "n": 11
+  },
+  {
+    "id": "conv-26-93",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 792,
+    "ms": 113.80949999998847,
+    "n": 12
+  },
+  {
+    "id": "conv-26-94",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 758,
+    "ms": 110.25049999999464,
+    "n": 13
+  },
+  {
+    "id": "conv-26-95",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 950,
+    "ms": 113.89099999998871,
+    "n": 13
+  },
+  {
+    "id": "conv-26-96",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 757,
+    "ms": 99.4146000000037,
+    "n": 12
+  },
+  {
+    "id": "conv-26-97",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1003,
+    "ms": 111.83950000000186,
+    "n": 16
+  },
+  {
+    "id": "conv-26-98",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 967,
+    "ms": 120.82360000000335,
+    "n": 16
+  },
+  {
+    "id": "conv-26-99",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 763,
+    "ms": 88.09709999999905,
+    "n": 12
+  },
+  {
+    "id": "conv-26-101",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 883,
+    "ms": 98.52650000000722,
+    "n": 14
+  },
+  {
+    "id": "conv-26-102",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 788,
+    "ms": 104.77790000000095,
+    "n": 10
+  },
+  {
+    "id": "conv-26-103",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 938,
+    "ms": 107.00180000001274,
+    "n": 16
+  },
+  {
+    "id": "conv-26-104",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 560,
+    "ms": 107.73509999999078,
+    "n": 10
+  },
+  {
+    "id": "conv-26-105",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 895,
+    "ms": 108.48619999999937,
+    "n": 12
+  },
+  {
+    "id": "conv-26-106",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 1287,
+    "ms": 100.31269999999495,
+    "n": 21
+  },
+  {
+    "id": "conv-26-107",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1135,
+    "ms": 114.96480000000156,
+    "n": 19
+  },
+  {
+    "id": "conv-26-108",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1152,
+    "ms": 124.89979999999923,
+    "n": 20
+  },
+  {
+    "id": "conv-26-109",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1070,
+    "ms": 128.53280000000086,
+    "n": 19
+  },
+  {
+    "id": "conv-26-110",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 915,
+    "ms": 128.47609999999986,
+    "n": 15
+  },
+  {
+    "id": "conv-26-111",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1059,
+    "ms": 104.12939999999071,
+    "n": 18
+  },
+  {
+    "id": "conv-26-112",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 866,
+    "ms": 158.4447000000073,
+    "n": 13
+  },
+  {
+    "id": "conv-26-113",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 864,
+    "ms": 142.21420000000217,
+    "n": 12
+  },
+  {
+    "id": "conv-26-115",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 853,
+    "ms": 147.44860000000335,
+    "n": 15
+  },
+  {
+    "id": "conv-26-116",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 1120,
+    "ms": 152.87679999999818,
+    "n": 15
+  },
+  {
+    "id": "conv-26-117",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1020,
+    "ms": 140.3622999999934,
+    "n": 15
+  },
+  {
+    "id": "conv-26-118",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1146,
+    "ms": 140.02049999999872,
+    "n": 15
+  },
+  {
+    "id": "conv-26-120",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 944,
+    "ms": 108.66599999999744,
+    "n": 14
+  },
+  {
+    "id": "conv-26-121",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 952,
+    "ms": 102.47359999999753,
+    "n": 16
+  },
+  {
+    "id": "conv-26-122",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1177,
+    "ms": 119.38560000000871,
+    "n": 17
+  },
+  {
+    "id": "conv-26-123",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 934,
+    "ms": 112.00089999999909,
+    "n": 17
+  },
+  {
+    "id": "conv-26-124",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 999,
+    "ms": 96.35540000000037,
+    "n": 16
+  },
+  {
+    "id": "conv-26-126",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 879,
+    "ms": 103.43519999999262,
+    "n": 12
+  },
+  {
+    "id": "conv-26-127",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 953,
+    "ms": 99.4265000000014,
+    "n": 12
+  },
+  {
+    "id": "conv-26-129",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 757,
+    "ms": 110.17840000000433,
+    "n": 10
+  },
+  {
+    "id": "conv-26-130",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1016,
+    "ms": 119.22289999999339,
+    "n": 16
+  },
+  {
+    "id": "conv-26-131",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1016,
+    "ms": 107.27990000000864,
+    "n": 16
+  },
+  {
+    "id": "conv-26-132",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 911,
+    "ms": 108.84769999999844,
+    "n": 16
+  },
+  {
+    "id": "conv-26-134",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 775,
+    "ms": 106.95059999999648,
+    "n": 11
+  },
+  {
+    "id": "conv-26-136",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 971,
+    "ms": 110.87660000000324,
+    "n": 15
+  },
+  {
+    "id": "conv-26-138",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 648,
+    "ms": 101.78070000000298,
+    "n": 10
+  },
+  {
+    "id": "conv-26-139",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 814,
+    "ms": 115.59789999999339,
+    "n": 13
+  },
+  {
+    "id": "conv-26-140",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1014,
+    "ms": 143.88290000001143,
+    "n": 15
+  },
+  {
+    "id": "conv-26-141",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 954,
+    "ms": 107.55869999999413,
+    "n": 11
+  },
+  {
+    "id": "conv-26-143",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1138,
+    "ms": 123.90200000000186,
+    "n": 15
+  },
+  {
+    "id": "conv-26-144",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1050,
+    "ms": 109.81569999999192,
+    "n": 14
+  },
+  {
+    "id": "conv-26-145",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 943,
+    "ms": 116.17930000000342,
+    "n": 12
+  },
+  {
+    "id": "conv-26-146",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1028,
+    "ms": 106.13300000000163,
+    "n": 14
+  },
+  {
+    "id": "conv-26-147",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1062,
+    "ms": 103.7549999999901,
+    "n": 14
+  },
+  {
+    "id": "conv-26-148",
+    "cat": 4,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 1007,
+    "ms": 109.18189999999595,
+    "n": 14
+  },
+  {
+    "id": "conv-26-149",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 996,
+    "ms": 94.22589999999036,
+    "n": 13
+  },
+  {
+    "id": "conv-26-150",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1110,
+    "ms": 112.08220000000438,
+    "n": 16
+  },
+  {
+    "id": "conv-26-151",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1017,
+    "ms": 104.25239999999758,
+    "n": 14
+  },
+  {
+    "id": "conv-30-0",
+    "cat": 2,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 998,
+    "ms": 86.58260000000882,
+    "n": 17
+  },
+  {
+    "id": "conv-30-1",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 540,
+    "ms": 97.4323000000004,
+    "n": 10
+  },
+  {
+    "id": "conv-30-2",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 908,
+    "ms": 115.23339999999735,
+    "n": 12
+  },
+  {
+    "id": "conv-30-3",
+    "cat": 1,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 864,
+    "ms": 108.53979999999865,
+    "n": 12
+  },
+  {
+    "id": "conv-30-4",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 960,
+    "ms": 96.60149999998976,
+    "n": 15
+  },
+  {
+    "id": "conv-30-5",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.3333333333333333,
+    "tok": 1011,
+    "ms": 110.89830000000075,
+    "n": 16
+  },
+  {
+    "id": "conv-30-6",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 882,
+    "ms": 113.25850000001083,
+    "n": 14
+  },
+  {
+    "id": "conv-30-7",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1053,
+    "ms": 103.37189999999828,
+    "n": 16
+  },
+  {
+    "id": "conv-30-8",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1054,
+    "ms": 109.34949999999662,
+    "n": 17
+  },
+  {
+    "id": "conv-30-9",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 641,
+    "ms": 99.46949999999197,
+    "n": 12
+  },
+  {
+    "id": "conv-30-10",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1154,
+    "ms": 124.71250000000873,
+    "n": 17
+  },
+  {
+    "id": "conv-30-11",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1028,
+    "ms": 111.0735999999888,
+    "n": 14
+  },
+  {
+    "id": "conv-30-12",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1062,
+    "ms": 114.57719999999972,
+    "n": 17
+  },
+  {
+    "id": "conv-30-13",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 856,
+    "ms": 101.69079999999667,
+    "n": 12
+  },
+  {
+    "id": "conv-30-14",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 787,
+    "ms": 111.56519999999728,
+    "n": 14
+  },
+  {
+    "id": "conv-30-15",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1152,
+    "ms": 127.30920000000333,
+    "n": 17
+  },
+  {
+    "id": "conv-30-16",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1089,
+    "ms": 103.57860000000801,
+    "n": 16
+  },
+  {
+    "id": "conv-30-17",
+    "cat": 1,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 1095,
+    "ms": 113.8076000000001,
+    "n": 15
+  },
+  {
+    "id": "conv-30-18",
+    "cat": 1,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 1039,
+    "ms": 108.37240000000747,
+    "n": 13
+  },
+  {
+    "id": "conv-30-19",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 968,
+    "ms": 117.23389999999199,
+    "n": 14
+  },
+  {
+    "id": "conv-30-20",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 942,
+    "ms": 107.17780000000494,
+    "n": 14
+  },
+  {
+    "id": "conv-30-21",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 898,
+    "ms": 108.83750000000873,
+    "n": 14
+  },
+  {
+    "id": "conv-30-22",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1208,
+    "ms": 109.71700000000419,
+    "n": 19
+  },
+  {
+    "id": "conv-30-23",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.2,
+    "tok": 855,
+    "ms": 110.43079999998736,
+    "n": 13
+  },
+  {
+    "id": "conv-30-24",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 1014,
+    "ms": 122.37679999999818,
+    "n": 17
+  },
+  {
+    "id": "conv-30-25",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 991,
+    "ms": 95.88760000000184,
+    "n": 16
+  },
+  {
+    "id": "conv-30-26",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 876,
+    "ms": 99.84329999999318,
+    "n": 14
+  },
+  {
+    "id": "conv-30-27",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1107,
+    "ms": 97.73129999999946,
+    "n": 15
+  },
+  {
+    "id": "conv-30-28",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1126,
+    "ms": 105.07869999999821,
+    "n": 18
+  },
+  {
+    "id": "conv-30-29",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1099,
+    "ms": 94.14880000000994,
+    "n": 17
+  },
+  {
+    "id": "conv-30-30",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 957,
+    "ms": 89.27909999999974,
+    "n": 16
+  },
+  {
+    "id": "conv-30-31",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 847,
+    "ms": 90.43670000000566,
+    "n": 14
+  },
+  {
+    "id": "conv-30-32",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 606,
+    "ms": 95.62800000001153,
+    "n": 10
+  },
+  {
+    "id": "conv-30-33",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 967,
+    "ms": 102.07000000000698,
+    "n": 16
+  },
+  {
+    "id": "conv-30-34",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 899,
+    "ms": 97.44479999999749,
+    "n": 13
+  },
+  {
+    "id": "conv-30-35",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 849,
+    "ms": 79.08280000000377,
+    "n": 15
+  },
+  {
+    "id": "conv-30-36",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 813,
+    "ms": 93.2439999999915,
+    "n": 13
+  },
+  {
+    "id": "conv-30-39",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 883,
+    "ms": 97.01300000000629,
+    "n": 13
+  },
+  {
+    "id": "conv-30-40",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1146,
+    "ms": 89.90570000000298,
+    "n": 17
+  },
+  {
+    "id": "conv-30-41",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 938,
+    "ms": 90.29490000000806,
+    "n": 16
+  },
+  {
+    "id": "conv-30-42",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 999,
+    "ms": 93.7384999999922,
+    "n": 16
+  },
+  {
+    "id": "conv-30-46",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1076,
+    "ms": 87.91640000000189,
+    "n": 16
+  },
+  {
+    "id": "conv-30-48",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 889,
+    "ms": 85.74300000000221,
+    "n": 13
+  },
+  {
+    "id": "conv-30-49",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1021,
+    "ms": 73.39070000000356,
+    "n": 15
+  },
+  {
+    "id": "conv-30-51",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 951,
+    "ms": 93.06400000001304,
+    "n": 15
+  },
+  {
+    "id": "conv-30-53",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1001,
+    "ms": 93.86699999999837,
+    "n": 15
+  },
+  {
+    "id": "conv-30-54",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 833,
+    "ms": 127.01840000000084,
+    "n": 13
+  },
+  {
+    "id": "conv-30-55",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 838,
+    "ms": 116.64190000000235,
+    "n": 13
+  },
+  {
+    "id": "conv-30-56",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 981,
+    "ms": 105.6585999999952,
+    "n": 14
+  },
+  {
+    "id": "conv-30-57",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 707,
+    "ms": 158.9212000000116,
+    "n": 11
+  },
+  {
+    "id": "conv-30-58",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1135,
+    "ms": 214.40989999999874,
+    "n": 18
+  },
+  {
+    "id": "conv-30-59",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1001,
+    "ms": 163.5,
+    "n": 15
+  },
+  {
+    "id": "conv-30-60",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1048,
+    "ms": 120.7094999999972,
+    "n": 17
+  },
+  {
+    "id": "conv-30-61",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 999,
+    "ms": 132.67350000000442,
+    "n": 17
+  },
+  {
+    "id": "conv-30-62",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 973,
+    "ms": 130.02210000000196,
+    "n": 13
+  },
+  {
+    "id": "conv-30-63",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1083,
+    "ms": 135.4158999999927,
+    "n": 16
+  },
+  {
+    "id": "conv-30-64",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1156,
+    "ms": 132.8813999999984,
+    "n": 18
+  },
+  {
+    "id": "conv-30-65",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 894,
+    "ms": 173.23799999999756,
+    "n": 15
+  },
+  {
+    "id": "conv-30-66",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 938,
+    "ms": 127.94910000001255,
+    "n": 15
+  },
+  {
+    "id": "conv-30-67",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1007,
+    "ms": 93.93079999998736,
+    "n": 15
+  },
+  {
+    "id": "conv-30-68",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 981,
+    "ms": 165.02640000000247,
+    "n": 14
+  },
+  {
+    "id": "conv-30-69",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1096,
+    "ms": 86.50410000000556,
+    "n": 17
+  },
+  {
+    "id": "conv-30-70",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 816,
+    "ms": 64.43860000000859,
+    "n": 15
+  },
+  {
+    "id": "conv-30-75",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 917,
+    "ms": 167.11990000000515,
+    "n": 11
+  },
+  {
+    "id": "conv-30-77",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 738,
+    "ms": 93.31699999999546,
+    "n": 10
+  },
+  {
+    "id": "conv-30-79",
+    "cat": 4,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 1082,
+    "ms": 99.40510000000359,
+    "n": 15
+  },
+  {
+    "id": "conv-30-80",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 856,
+    "ms": 108.97309999998834,
+    "n": 12
+  },
+  {
+    "id": "conv-41-1",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 906,
+    "ms": 109.81609999999637,
+    "n": 13
+  },
+  {
+    "id": "conv-41-2",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 710,
+    "ms": 128.83550000000105,
+    "n": 11
+  },
+  {
+    "id": "conv-41-3",
+    "cat": 1,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 766,
+    "ms": 216.40780000000086,
+    "n": 14
+  },
+  {
+    "id": "conv-41-4",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1193,
+    "ms": 271.67979999999807,
+    "n": 21
+  },
+  {
+    "id": "conv-41-5",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 845,
+    "ms": 174.36549999999988,
+    "n": 12
+  },
+  {
+    "id": "conv-41-6",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.25,
+    "tok": 1246,
+    "ms": 224.54290000000037,
+    "n": 19
+  },
+  {
+    "id": "conv-41-7",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 835,
+    "ms": 723.5893999999971,
+    "n": 11
+  },
+  {
+    "id": "conv-41-8",
+    "cat": 3,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 917,
+    "ms": 494.47000000000116,
+    "n": 13
+  },
+  {
+    "id": "conv-41-9",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 993,
+    "ms": 739.2221999999892,
+    "n": 15
+  },
+  {
+    "id": "conv-41-10",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 860,
+    "ms": 300.8972999999969,
+    "n": 14
+  },
+  {
+    "id": "conv-41-11",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.25,
+    "tok": 740,
+    "ms": 103.86699999999837,
+    "n": 12
+  },
+  {
+    "id": "conv-41-12",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 866,
+    "ms": 153.16790000000037,
+    "n": 12
+  },
+  {
+    "id": "conv-41-13",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 886,
+    "ms": 130.78559999998834,
+    "n": 11
+  },
+  {
+    "id": "conv-41-14",
+    "cat": 3,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 960,
+    "ms": 100.00310000000172,
+    "n": 14
+  },
+  {
+    "id": "conv-41-15",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1148,
+    "ms": 117.60970000000088,
+    "n": 17
+  },
+  {
+    "id": "conv-41-16",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 644,
+    "ms": 112.9598999999871,
+    "n": 11
+  },
+  {
+    "id": "conv-41-17",
+    "cat": 3,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 681,
+    "ms": 98.64029999999912,
+    "n": 11
+  },
+  {
+    "id": "conv-41-18",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 836,
+    "ms": 95.52060000000347,
+    "n": 16
+  },
+  {
+    "id": "conv-41-19",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 826,
+    "ms": 99.91839999999502,
+    "n": 11
+  },
+  {
+    "id": "conv-41-20",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 975,
+    "ms": 96.77300000000105,
+    "n": 12
+  },
+  {
+    "id": "conv-41-21",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 847,
+    "ms": 95.04320000000007,
+    "n": 12
+  },
+  {
+    "id": "conv-41-22",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 960,
+    "ms": 75.80680000000575,
+    "n": 14
+  },
+  {
+    "id": "conv-41-23",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 892,
+    "ms": 89.17750000000524,
+    "n": 12
+  },
+  {
+    "id": "conv-41-24",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 857,
+    "ms": 92.27640000000247,
+    "n": 14
+  },
+  {
+    "id": "conv-41-25",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 967,
+    "ms": 101.18469999999797,
+    "n": 14
+  },
+  {
+    "id": "conv-41-26",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1080,
+    "ms": 90.02909999999974,
+    "n": 17
+  },
+  {
+    "id": "conv-41-27",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 893,
+    "ms": 89.23109999998996,
+    "n": 15
+  },
+  {
+    "id": "conv-41-28",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.3333333333333333,
+    "tok": 1194,
+    "ms": 86.57709999999497,
+    "n": 21
+  },
+  {
+    "id": "conv-41-29",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 988,
+    "ms": 98.64440000000468,
+    "n": 16
+  },
+  {
+    "id": "conv-41-30",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 664,
+    "ms": 96.79400000000896,
+    "n": 11
+  },
+  {
+    "id": "conv-41-31",
+    "cat": 2,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 804,
+    "ms": 95.26469999999972,
+    "n": 11
+  },
+  {
+    "id": "conv-41-32",
+    "cat": 1,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 929,
+    "ms": 78.9201999999932,
+    "n": 14
+  },
+  {
+    "id": "conv-41-33",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 977,
+    "ms": 88.49130000000878,
+    "n": 17
+  },
+  {
+    "id": "conv-41-34",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 887,
+    "ms": 91.84530000000086,
+    "n": 11
+  },
+  {
+    "id": "conv-41-35",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 836,
+    "ms": 85.14519999999902,
+    "n": 13
+  },
+  {
+    "id": "conv-41-36",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 1161,
+    "ms": 103.47350000000733,
+    "n": 16
+  },
+  {
+    "id": "conv-41-37",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 834,
+    "ms": 97.1366999999882,
+    "n": 13
+  },
+  {
+    "id": "conv-41-38",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 886,
+    "ms": 92.06060000001162,
+    "n": 13
+  },
+  {
+    "id": "conv-41-39",
+    "cat": 3,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 970,
+    "ms": 108.62099999999919,
+    "n": 13
+  },
+  {
+    "id": "conv-41-40",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 811,
+    "ms": 112.41779999999562,
+    "n": 11
+  },
+  {
+    "id": "conv-41-41",
+    "cat": 3,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 845,
+    "ms": 103.67020000000775,
+    "n": 11
+  },
+  {
+    "id": "conv-41-42",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 1126,
+    "ms": 123.09519999999611,
+    "n": 19
+  },
+  {
+    "id": "conv-41-43",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 807,
+    "ms": 114.78160000000207,
+    "n": 14
+  },
+  {
+    "id": "conv-41-44",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 945,
+    "ms": 81.68240000000515,
+    "n": 13
+  },
+  {
+    "id": "conv-41-45",
+    "cat": 3,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 1021,
+    "ms": 104.98440000000119,
+    "n": 12
+  },
+  {
+    "id": "conv-41-46",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 961,
+    "ms": 77.69280000000435,
+    "n": 13
+  },
+  {
+    "id": "conv-41-47",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.4,
+    "tok": 780,
+    "ms": 91.28239999999641,
+    "n": 11
+  },
+  {
+    "id": "conv-41-48",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 907,
+    "ms": 105.42770000000019,
+    "n": 11
+  },
+  {
+    "id": "conv-41-49",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 663,
+    "ms": 96.27760000000126,
+    "n": 11
+  },
+  {
+    "id": "conv-41-50",
+    "cat": 3,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 746,
+    "ms": 102.32140000000072,
+    "n": 11
+  },
+  {
+    "id": "conv-41-51",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 717,
+    "ms": 103.51290000000154,
+    "n": 13
+  },
+  {
+    "id": "conv-41-52",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 591,
+    "ms": 102.53429999999935,
+    "n": 10
+  },
+  {
+    "id": "conv-41-53",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 796,
+    "ms": 106.7905000000028,
+    "n": 11
+  },
+  {
+    "id": "conv-41-54",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1178,
+    "ms": 105.76630000000296,
+    "n": 19
+  },
+  {
+    "id": "conv-41-55",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 670,
+    "ms": 85.58890000000247,
+    "n": 10
+  },
+  {
+    "id": "conv-41-56",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 840,
+    "ms": 110.89190000000235,
+    "n": 10
+  },
+  {
+    "id": "conv-41-57",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.25,
+    "tok": 1011,
+    "ms": 90.48619999999937,
+    "n": 13
+  },
+  {
+    "id": "conv-41-58",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 754,
+    "ms": 85.36269999999786,
+    "n": 11
+  },
+  {
+    "id": "conv-41-59",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 807,
+    "ms": 101.24029999999038,
+    "n": 14
+  },
+  {
+    "id": "conv-41-60",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 666,
+    "ms": 121.42840000000433,
+    "n": 10
+  },
+  {
+    "id": "conv-41-61",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 747,
+    "ms": 121.64990000000398,
+    "n": 11
+  },
+  {
+    "id": "conv-41-62",
+    "cat": 1,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 657,
+    "ms": 120.09870000000228,
+    "n": 10
+  },
+  {
+    "id": "conv-41-63",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 681,
+    "ms": 117.59819999999308,
+    "n": 11
+  },
+  {
+    "id": "conv-41-65",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 823,
+    "ms": 100.11030000000028,
+    "n": 13
+  },
+  {
+    "id": "conv-41-66",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 940,
+    "ms": 88.92149999999674,
+    "n": 13
+  },
+  {
+    "id": "conv-41-67",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 769,
+    "ms": 97.31429999999818,
+    "n": 11
+  },
+  {
+    "id": "conv-41-68",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 975,
+    "ms": 87.92029999999795,
+    "n": 13
+  },
+  {
+    "id": "conv-41-69",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 749,
+    "ms": 96.65660000000207,
+    "n": 12
+  },
+  {
+    "id": "conv-41-71",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 750,
+    "ms": 83.74640000000363,
+    "n": 10
+  },
+  {
+    "id": "conv-41-72",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 793,
+    "ms": 153.31559999998717,
+    "n": 10
+  },
+  {
+    "id": "conv-41-73",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 952,
+    "ms": 118.79429999999411,
+    "n": 14
+  },
+  {
+    "id": "conv-41-74",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1250,
+    "ms": 144.0292000000045,
+    "n": 19
+  },
+  {
+    "id": "conv-41-76",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 920,
+    "ms": 132.55229999999574,
+    "n": 12
+  },
+  {
+    "id": "conv-41-77",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 827,
+    "ms": 77.25299999999697,
+    "n": 13
+  },
+  {
+    "id": "conv-41-78",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 812,
+    "ms": 97.03979999999865,
+    "n": 12
+  },
+  {
+    "id": "conv-41-79",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 964,
+    "ms": 98.17750000000524,
+    "n": 12
+  },
+  {
+    "id": "conv-41-80",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 1168,
+    "ms": 107.85659999999916,
+    "n": 20
+  },
+  {
+    "id": "conv-41-81",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1217,
+    "ms": 110.7280000000028,
+    "n": 19
+  },
+  {
+    "id": "conv-41-82",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 948,
+    "ms": 105.3804000000091,
+    "n": 14
+  },
+  {
+    "id": "conv-41-83",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 797,
+    "ms": 118.63740000000689,
+    "n": 12
+  },
+  {
+    "id": "conv-41-84",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 857,
+    "ms": 103.85109999999986,
+    "n": 11
+  },
+  {
+    "id": "conv-41-85",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1138,
+    "ms": 109.78270000001066,
+    "n": 19
+  },
+  {
+    "id": "conv-41-87",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 948,
+    "ms": 107.70650000000023,
+    "n": 11
+  },
+  {
+    "id": "conv-41-88",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 873,
+    "ms": 102.22310000000289,
+    "n": 12
+  },
+  {
+    "id": "conv-41-89",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 702,
+    "ms": 91.68840000001364,
+    "n": 11
+  },
+  {
+    "id": "conv-41-90",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 750,
+    "ms": 93.17459999999846,
+    "n": 11
+  },
+  {
+    "id": "conv-41-91",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1042,
+    "ms": 78.21360000001732,
+    "n": 14
+  },
+  {
+    "id": "conv-41-92",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1091,
+    "ms": 90.59979999999632,
+    "n": 16
+  },
+  {
+    "id": "conv-41-96",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1079,
+    "ms": 101.94630000001052,
+    "n": 16
+  },
+  {
+    "id": "conv-41-97",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 950,
+    "ms": 119.66759999998612,
+    "n": 12
+  },
+  {
+    "id": "conv-41-98",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1005,
+    "ms": 133.24359999998705,
+    "n": 16
+  },
+  {
+    "id": "conv-41-99",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 676,
+    "ms": 148.81460000001243,
+    "n": 10
+  },
+  {
+    "id": "conv-41-100",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 897,
+    "ms": 329.06159999998636,
+    "n": 15
+  },
+  {
+    "id": "conv-41-101",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 1078,
+    "ms": 293.97279999998864,
+    "n": 18
+  },
+  {
+    "id": "conv-41-102",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 1095,
+    "ms": 227.45550000001094,
+    "n": 17
+  },
+  {
+    "id": "conv-41-103",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 1246,
+    "ms": 121.30989999999292,
+    "n": 16
+  },
+  {
+    "id": "conv-41-104",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 730,
+    "ms": 116.6871000000101,
+    "n": 13
+  },
+  {
+    "id": "conv-41-105",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1201,
+    "ms": 102.80509999999776,
+    "n": 18
+  },
+  {
+    "id": "conv-41-106",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 738,
+    "ms": 107.57180000000517,
+    "n": 11
+  },
+  {
+    "id": "conv-41-107",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 864,
+    "ms": 108.61309999998775,
+    "n": 11
+  },
+  {
+    "id": "conv-41-109",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1010,
+    "ms": 117.67160000000149,
+    "n": 16
+  },
+  {
+    "id": "conv-41-110",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 767,
+    "ms": 128.1972999999998,
+    "n": 10
+  },
+  {
+    "id": "conv-41-111",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1033,
+    "ms": 119.87039999998524,
+    "n": 17
+  },
+  {
+    "id": "conv-41-112",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 856,
+    "ms": 105.1076999999932,
+    "n": 11
+  },
+  {
+    "id": "conv-41-113",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 836,
+    "ms": 142.3872000000265,
+    "n": 11
+  },
+  {
+    "id": "conv-41-114",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1156,
+    "ms": 112.57070000001113,
+    "n": 21
+  },
+  {
+    "id": "conv-41-115",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1224,
+    "ms": 104.49590000000899,
+    "n": 15
+  },
+  {
+    "id": "conv-41-116",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 834,
+    "ms": 117.24210000000312,
+    "n": 10
+  },
+  {
+    "id": "conv-41-117",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1011,
+    "ms": 111.3416000000143,
+    "n": 17
+  },
+  {
+    "id": "conv-41-118",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 992,
+    "ms": 114.1820000000007,
+    "n": 14
+  },
+  {
+    "id": "conv-41-119",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 822,
+    "ms": 114.12069999999949,
+    "n": 12
+  },
+  {
+    "id": "conv-41-120",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 732,
+    "ms": 118.65439999999944,
+    "n": 11
+  },
+  {
+    "id": "conv-41-121",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 711,
+    "ms": 111.43319999999949,
+    "n": 11
+  },
+  {
+    "id": "conv-41-122",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 1176,
+    "ms": 102.5792000000074,
+    "n": 10
+  },
+  {
+    "id": "conv-41-124",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 964,
+    "ms": 81.84469999998691,
+    "n": 13
+  },
+  {
+    "id": "conv-41-125",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1156,
+    "ms": 101.4157000000123,
+    "n": 15
+  },
+  {
+    "id": "conv-41-126",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 992,
+    "ms": 128.57579999999143,
+    "n": 14
+  },
+  {
+    "id": "conv-41-127",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1024,
+    "ms": 97.57289999999921,
+    "n": 13
+  },
+  {
+    "id": "conv-41-128",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 975,
+    "ms": 77.12970000001951,
+    "n": 12
+  },
+  {
+    "id": "conv-41-130",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 650,
+    "ms": 89.08410000000731,
+    "n": 10
+  },
+  {
+    "id": "conv-41-131",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 977,
+    "ms": 98.65299999999115,
+    "n": 13
+  },
+  {
+    "id": "conv-41-132",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 771,
+    "ms": 100.44190000000526,
+    "n": 14
+  },
+  {
+    "id": "conv-41-133",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 1020,
+    "ms": 99.15380000000005,
+    "n": 12
+  },
+  {
+    "id": "conv-41-134",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 842,
+    "ms": 105.2558999999892,
+    "n": 11
+  },
+  {
+    "id": "conv-41-136",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 686,
+    "ms": 90.2954000000027,
+    "n": 10
+  },
+  {
+    "id": "conv-41-137",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1165,
+    "ms": 85.95579999999609,
+    "n": 15
+  },
+  {
+    "id": "conv-41-138",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 949,
+    "ms": 77.9542000000074,
+    "n": 13
+  },
+  {
+    "id": "conv-41-139",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 794,
+    "ms": 99.08860000001732,
+    "n": 11
+  },
+  {
+    "id": "conv-41-140",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1029,
+    "ms": 115.00359999999637,
+    "n": 16
+  },
+  {
+    "id": "conv-41-141",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 964,
+    "ms": 86.30199999999604,
+    "n": 13
+  },
+  {
+    "id": "conv-41-142",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 791,
+    "ms": 92.6649000000034,
+    "n": 13
+  },
+  {
+    "id": "conv-41-143",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 711,
+    "ms": 95.28350000001956,
+    "n": 10
+  },
+  {
+    "id": "conv-41-144",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 730,
+    "ms": 97.14879999999539,
+    "n": 11
+  },
+  {
+    "id": "conv-41-145",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 779,
+    "ms": 109.93120000002091,
+    "n": 13
+  },
+  {
+    "id": "conv-41-146",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 946,
+    "ms": 109.38080000001355,
+    "n": 12
+  },
+  {
+    "id": "conv-41-147",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 820,
+    "ms": 108.20650000000023,
+    "n": 13
+  },
+  {
+    "id": "conv-41-148",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 703,
+    "ms": 90.62919999999576,
+    "n": 10
+  },
+  {
+    "id": "conv-41-149",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 1021,
+    "ms": 120.98679999998421,
+    "n": 15
+  },
+  {
+    "id": "conv-41-150",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 751,
+    "ms": 103.37179999999353,
+    "n": 10
+  },
+  {
+    "id": "conv-41-151",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 988,
+    "ms": 111.3182000000088,
+    "n": 12
+  },
+  {
+    "id": "conv-42-0",
+    "cat": 3,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 831,
+    "ms": 114.84950000001118,
+    "n": 10
+  },
+  {
+    "id": "conv-42-1",
+    "cat": 1,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 1041,
+    "ms": 123.90010000002803,
+    "n": 10
+  },
+  {
+    "id": "conv-42-2",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 994,
+    "ms": 131.59409999998752,
+    "n": 16
+  },
+  {
+    "id": "conv-42-3",
+    "cat": 2,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 991,
+    "ms": 126.40320000000065,
+    "n": 12
+  },
+  {
+    "id": "conv-42-4",
+    "cat": 3,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1210,
+    "ms": 150.37250000002678,
+    "n": 16
+  },
+  {
+    "id": "conv-42-5",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1198,
+    "ms": 119.05179999998654,
+    "n": 16
+  },
+  {
+    "id": "conv-42-6",
+    "cat": 2,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 1034,
+    "ms": 112.29550000000745,
+    "n": 13
+  },
+  {
+    "id": "conv-42-7",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 855,
+    "ms": 92.19249999997555,
+    "n": 12
+  },
+  {
+    "id": "conv-42-8",
+    "cat": 2,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 1011,
+    "ms": 99.76209999999264,
+    "n": 12
+  },
+  {
+    "id": "conv-42-9",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1248,
+    "ms": 111.72330000001239,
+    "n": 16
+  },
+  {
+    "id": "conv-42-10",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 903,
+    "ms": 118.03360000002431,
+    "n": 12
+  },
+  {
+    "id": "conv-42-11",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.6666666666666666,
+    "tok": 1257,
+    "ms": 113.56629999997676,
+    "n": 17
+  },
+  {
+    "id": "conv-42-12",
+    "cat": 3,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1239,
+    "ms": 133.44670000000042,
+    "n": 17
+  },
+  {
+    "id": "conv-42-13",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1026,
+    "ms": 126.89890000000014,
+    "n": 17
+  },
+  {
+    "id": "conv-42-15",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1142,
+    "ms": 116.94089999998687,
+    "n": 14
+  },
+  {
+    "id": "conv-42-16",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1104,
+    "ms": 109.57820000001811,
+    "n": 13
+  },
+  {
+    "id": "conv-42-17",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1104,
+    "ms": 111.99830000000657,
+    "n": 17
+  },
+  {
+    "id": "conv-42-18",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1046,
+    "ms": 111.21799999999348,
+    "n": 15
+  },
+  {
+    "id": "conv-42-19",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1297,
+    "ms": 121.07140000001527,
+    "n": 17
+  },
+  {
+    "id": "conv-42-20",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 834,
+    "ms": 154.0451999999932,
+    "n": 10
+  },
+  {
+    "id": "conv-42-21",
+    "cat": 2,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 1068,
+    "ms": 138.60440000001108,
+    "n": 13
+  },
+  {
+    "id": "conv-42-22",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1080,
+    "ms": 101.68889999997918,
+    "n": 18
+  },
+  {
+    "id": "conv-42-23",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 631,
+    "ms": 68.43630000000121,
+    "n": 11
+  },
+  {
+    "id": "conv-42-24",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 830,
+    "ms": 106.25340000001597,
+    "n": 10
+  },
+  {
+    "id": "conv-42-25",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1077,
+    "ms": 102.86500000001979,
+    "n": 16
+  },
+  {
+    "id": "conv-42-26",
+    "cat": 2,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 1141,
+    "ms": 98.08559999999125,
+    "n": 14
+  },
+  {
+    "id": "conv-42-27",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 716,
+    "ms": 103.87239999999292,
+    "n": 10
+  },
+  {
+    "id": "conv-42-28",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 891,
+    "ms": 109.35029999999097,
+    "n": 14
+  },
+  {
+    "id": "conv-42-29",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 838,
+    "ms": 101.81030000001192,
+    "n": 10
+  },
+  {
+    "id": "conv-42-30",
+    "cat": 1,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 1310,
+    "ms": 106.340200000006,
+    "n": 18
+  },
+  {
+    "id": "conv-42-31",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1005,
+    "ms": 109.59640000000945,
+    "n": 12
+  },
+  {
+    "id": "conv-42-32",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1286,
+    "ms": 132.6261999999988,
+    "n": 17
+  },
+  {
+    "id": "conv-42-33",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1363,
+    "ms": 124.40660000001662,
+    "n": 18
+  },
+  {
+    "id": "conv-42-34",
+    "cat": 1,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 939,
+    "ms": 112.35670000000391,
+    "n": 10
+  },
+  {
+    "id": "conv-42-36",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1097,
+    "ms": 112.83030000000144,
+    "n": 15
+  },
+  {
+    "id": "conv-42-37",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 844,
+    "ms": 106.92699999999604,
+    "n": 11
+  },
+  {
+    "id": "conv-42-39",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1094,
+    "ms": 119.48509999999078,
+    "n": 13
+  },
+  {
+    "id": "conv-42-40",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1259,
+    "ms": 130.77609999998822,
+    "n": 16
+  },
+  {
+    "id": "conv-42-41",
+    "cat": 2,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 801,
+    "ms": 105.0105999999796,
+    "n": 12
+  },
+  {
+    "id": "conv-42-42",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.25,
+    "tok": 848,
+    "ms": 109.28870000000461,
+    "n": 11
+  },
+  {
+    "id": "conv-42-43",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1067,
+    "ms": 110.0222000000067,
+    "n": 16
+  },
+  {
+    "id": "conv-42-44",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 982,
+    "ms": 112.06889999998384,
+    "n": 12
+  },
+  {
+    "id": "conv-42-45",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1051,
+    "ms": 145.84490000002552,
+    "n": 16
+  },
+  {
+    "id": "conv-42-46",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1027,
+    "ms": 107.65619999999763,
+    "n": 13
+  },
+  {
+    "id": "conv-42-47",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 967,
+    "ms": 83.24210000000312,
+    "n": 13
+  },
+  {
+    "id": "conv-42-48",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1065,
+    "ms": 111.23610000000917,
+    "n": 13
+  },
+  {
+    "id": "conv-42-49",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1166,
+    "ms": 112.86839999997756,
+    "n": 16
+  },
+  {
+    "id": "conv-42-50",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 864,
+    "ms": 120.41639999998733,
+    "n": 11
+  },
+  {
+    "id": "conv-42-51",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 842,
+    "ms": 106.22810000000754,
+    "n": 11
+  },
+  {
+    "id": "conv-42-52",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 988,
+    "ms": 125.90409999998519,
+    "n": 15
+  },
+  {
+    "id": "conv-42-53",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1033,
+    "ms": 117.33249999998952,
+    "n": 13
+  },
+  {
+    "id": "conv-42-54",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1233,
+    "ms": 124.58640000000014,
+    "n": 17
+  },
+  {
+    "id": "conv-42-55",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.16666666666666666,
+    "tok": 1311,
+    "ms": 118.5179000000062,
+    "n": 17
+  },
+  {
+    "id": "conv-42-56",
+    "cat": 1,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 816,
+    "ms": 114.55199999999604,
+    "n": 10
+  },
+  {
+    "id": "conv-42-57",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 985,
+    "ms": 110.20799999998417,
+    "n": 10
+  },
+  {
+    "id": "conv-42-58",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.2857142857142857,
+    "tok": 834,
+    "ms": 108.49259999999776,
+    "n": 10
+  },
+  {
+    "id": "conv-42-59",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1190,
+    "ms": 124.78580000001239,
+    "n": 16
+  },
+  {
+    "id": "conv-42-60",
+    "cat": 3,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 1115,
+    "ms": 155.05489999998827,
+    "n": 14
+  },
+  {
+    "id": "conv-42-61",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 986,
+    "ms": 155.1062999999849,
+    "n": 12
+  },
+  {
+    "id": "conv-42-62",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1323,
+    "ms": 118.79619999998249,
+    "n": 17
+  },
+  {
+    "id": "conv-42-63",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.16666666666666666,
+    "tok": 1019,
+    "ms": 106.44129999997676,
+    "n": 13
+  },
+  {
+    "id": "conv-42-64",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1022,
+    "ms": 114.33709999997518,
+    "n": 12
+  },
+  {
+    "id": "conv-42-65",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 982,
+    "ms": 127.40840000001481,
+    "n": 13
+  },
+  {
+    "id": "conv-42-66",
+    "cat": 3,
+    "all": false,
+    "any": true,
+    "frac": 0.3333333333333333,
+    "tok": 817,
+    "ms": 111.8344999999972,
+    "n": 10
+  },
+  {
+    "id": "conv-42-67",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1104,
+    "ms": 111.07270000001881,
+    "n": 14
+  },
+  {
+    "id": "conv-42-68",
+    "cat": 3,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1204,
+    "ms": 120.41700000001583,
+    "n": 17
+  },
+  {
+    "id": "conv-42-69",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1037,
+    "ms": 97.16210000001593,
+    "n": 13
+  },
+  {
+    "id": "conv-42-70",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1029,
+    "ms": 112.4033000000054,
+    "n": 15
+  },
+  {
+    "id": "conv-42-71",
+    "cat": 1,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 828,
+    "ms": 103.76209999999264,
+    "n": 10
+  },
+  {
+    "id": "conv-42-74",
+    "cat": 1,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 916,
+    "ms": 136.0360000000219,
+    "n": 10
+  },
+  {
+    "id": "conv-42-75",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 994,
+    "ms": 122.53110000002198,
+    "n": 15
+  },
+  {
+    "id": "conv-42-76",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 1061,
+    "ms": 187.14540000000852,
+    "n": 14
+  },
+  {
+    "id": "conv-42-78",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.625,
+    "tok": 928,
+    "ms": 125.24170000001322,
+    "n": 12
+  },
+  {
+    "id": "conv-42-79",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.6666666666666666,
+    "tok": 1169,
+    "ms": 112.89850000001024,
+    "n": 15
+  },
+  {
+    "id": "conv-42-80",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.8571428571428571,
+    "tok": 804,
+    "ms": 113.7952000000223,
+    "n": 12
+  },
+  {
+    "id": "conv-42-81",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.8333333333333334,
+    "tok": 1118,
+    "ms": 107.93019999997341,
+    "n": 16
+  },
+  {
+    "id": "conv-42-82",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 1081,
+    "ms": 106.02590000000782,
+    "n": 13
+  },
+  {
+    "id": "conv-42-83",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.6666666666666666,
+    "tok": 1061,
+    "ms": 125.02900000000955,
+    "n": 13
+  },
+  {
+    "id": "conv-42-84",
+    "cat": 3,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 910,
+    "ms": 124.55850000001374,
+    "n": 11
+  },
+  {
+    "id": "conv-42-85",
+    "cat": 3,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 773,
+    "ms": 123.3011000000115,
+    "n": 11
+  },
+  {
+    "id": "conv-42-88",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1067,
+    "ms": 114.89280000000144,
+    "n": 15
+  },
+  {
+    "id": "conv-42-89",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1149,
+    "ms": 107.73609999998007,
+    "n": 14
+  },
+  {
+    "id": "conv-42-93",
+    "cat": 4,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 849,
+    "ms": 136.59960000001593,
+    "n": 12
+  },
+  {
+    "id": "conv-42-94",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 883,
+    "ms": 115.82519999999204,
+    "n": 14
+  },
+  {
+    "id": "conv-42-95",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 941,
+    "ms": 114.60469999999623,
+    "n": 13
+  },
+  {
+    "id": "conv-42-96",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 993,
+    "ms": 116.10140000001411,
+    "n": 14
+  },
+  {
+    "id": "conv-42-97",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1287,
+    "ms": 113.32279999999446,
+    "n": 16
+  },
+  {
+    "id": "conv-42-98",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 880,
+    "ms": 111.50719999999274,
+    "n": 13
+  },
+  {
+    "id": "conv-42-99",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 871,
+    "ms": 120.79889999999432,
+    "n": 13
+  },
+  {
+    "id": "conv-42-100",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 1023,
+    "ms": 118.44150000001537,
+    "n": 12
+  },
+  {
+    "id": "conv-42-101",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 937,
+    "ms": 130.9498999999778,
+    "n": 13
+  },
+  {
+    "id": "conv-42-102",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1009,
+    "ms": 140.7439000000013,
+    "n": 12
+  },
+  {
+    "id": "conv-42-103",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 920,
+    "ms": 107.56150000001071,
+    "n": 10
+  },
+  {
+    "id": "conv-42-104",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 903,
+    "ms": 122.57740000000922,
+    "n": 14
+  },
+  {
+    "id": "conv-42-105",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 953,
+    "ms": 118.00560000000405,
+    "n": 13
+  },
+  {
+    "id": "conv-42-106",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 864,
+    "ms": 137.34899999998743,
+    "n": 13
+  },
+  {
+    "id": "conv-42-107",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1009,
+    "ms": 140.43959999998333,
+    "n": 13
+  },
+  {
+    "id": "conv-42-108",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1077,
+    "ms": 137.64960000000428,
+    "n": 13
+  },
+  {
+    "id": "conv-42-109",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1248,
+    "ms": 164.68460000000778,
+    "n": 18
+  },
+  {
+    "id": "conv-42-110",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1264,
+    "ms": 122.15789999999106,
+    "n": 16
+  },
+  {
+    "id": "conv-42-111",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1075,
+    "ms": 106.99559999999474,
+    "n": 17
+  },
+  {
+    "id": "conv-42-112",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 769,
+    "ms": 82.44019999998272,
+    "n": 10
+  },
+  {
+    "id": "conv-42-113",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 878,
+    "ms": 113.55360000001383,
+    "n": 13
+  },
+  {
+    "id": "conv-42-114",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 950,
+    "ms": 107.32139999998617,
+    "n": 13
+  },
+  {
+    "id": "conv-42-115",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1088,
+    "ms": 154.34829999998328,
+    "n": 17
+  },
+  {
+    "id": "conv-42-116",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1027,
+    "ms": 117.46760000000359,
+    "n": 14
+  },
+  {
+    "id": "conv-42-117",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1180,
+    "ms": 128.92199999999139,
+    "n": 16
+  },
+  {
+    "id": "conv-42-118",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1191,
+    "ms": 149.20470000000205,
+    "n": 16
+  },
+  {
+    "id": "conv-42-119",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 950,
+    "ms": 131.65679999999702,
+    "n": 13
+  },
+  {
+    "id": "conv-42-121",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1141,
+    "ms": 142.32340000002296,
+    "n": 13
+  },
+  {
+    "id": "conv-42-122",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 801,
+    "ms": 144.3525999999838,
+    "n": 10
+  },
+  {
+    "id": "conv-42-123",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 809,
+    "ms": 129.9249000000127,
+    "n": 10
+  },
+  {
+    "id": "conv-42-124",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1115,
+    "ms": 130.68020000000251,
+    "n": 13
+  },
+  {
+    "id": "conv-42-125",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1003,
+    "ms": 129.7154000000155,
+    "n": 12
+  },
+  {
+    "id": "conv-42-126",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 751,
+    "ms": 96.10589999999502,
+    "n": 10
+  },
+  {
+    "id": "conv-42-127",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1300,
+    "ms": 124.6073000000033,
+    "n": 17
+  },
+  {
+    "id": "conv-42-128",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1172,
+    "ms": 120.7049999999872,
+    "n": 18
+  },
+  {
+    "id": "conv-42-129",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1094,
+    "ms": 114.79329999999027,
+    "n": 16
+  },
+  {
+    "id": "conv-42-130",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 673,
+    "ms": 119.80270000000019,
+    "n": 10
+  },
+  {
+    "id": "conv-42-131",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1242,
+    "ms": 136.30909999998403,
+    "n": 16
+  },
+  {
+    "id": "conv-42-132",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 871,
+    "ms": 123.23089999999502,
+    "n": 13
+  },
+  {
+    "id": "conv-42-133",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 793,
+    "ms": 129.3022999999812,
+    "n": 10
+  },
+  {
+    "id": "conv-42-134",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 808,
+    "ms": 131.3074000000197,
+    "n": 10
+  },
+  {
+    "id": "conv-42-135",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 880,
+    "ms": 138.85350000002654,
+    "n": 10
+  },
+  {
+    "id": "conv-42-136",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 855,
+    "ms": 130.3064000000013,
+    "n": 12
+  },
+  {
+    "id": "conv-42-137",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1223,
+    "ms": 151.66659999999683,
+    "n": 17
+  },
+  {
+    "id": "conv-42-138",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1052,
+    "ms": 127.3857999999891,
+    "n": 16
+  },
+  {
+    "id": "conv-42-139",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1246,
+    "ms": 157.36389999999665,
+    "n": 16
+  },
+  {
+    "id": "conv-42-140",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 1221,
+    "ms": 146.46099999998114,
+    "n": 17
+  },
+  {
+    "id": "conv-42-141",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 955,
+    "ms": 146.4249000000127,
+    "n": 11
+  },
+  {
+    "id": "conv-42-142",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1058,
+    "ms": 158.54409999999916,
+    "n": 13
+  },
+  {
+    "id": "conv-42-143",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1197,
+    "ms": 160.88349999999627,
+    "n": 16
+  },
+  {
+    "id": "conv-42-145",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1161,
+    "ms": 157.1999000000069,
+    "n": 16
+  },
+  {
+    "id": "conv-42-147",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1010,
+    "ms": 177.89989999998943,
+    "n": 11
+  },
+  {
+    "id": "conv-42-149",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1029,
+    "ms": 169.79080000001704,
+    "n": 15
+  },
+  {
+    "id": "conv-42-151",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 852,
+    "ms": 151.80309999999008,
+    "n": 11
+  },
+  {
+    "id": "conv-42-152",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 1030,
+    "ms": 138.683400000009,
+    "n": 16
+  },
+  {
+    "id": "conv-42-153",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1024,
+    "ms": 126.94080000001122,
+    "n": 11
+  },
+  {
+    "id": "conv-42-154",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1056,
+    "ms": 150.5566000000108,
+    "n": 15
+  },
+  {
+    "id": "conv-42-155",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 990,
+    "ms": 127.77669999998761,
+    "n": 15
+  },
+  {
+    "id": "conv-42-156",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 836,
+    "ms": 127.26900000000023,
+    "n": 11
+  },
+  {
+    "id": "conv-42-157",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 930,
+    "ms": 129.42660000000615,
+    "n": 15
+  },
+  {
+    "id": "conv-42-158",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 929,
+    "ms": 132.95259999998962,
+    "n": 15
+  },
+  {
+    "id": "conv-42-159",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 964,
+    "ms": 183.7786999999953,
+    "n": 16
+  },
+  {
+    "id": "conv-42-160",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1025,
+    "ms": 164.39480000000913,
+    "n": 13
+  },
+  {
+    "id": "conv-42-161",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 942,
+    "ms": 129.69530000002123,
+    "n": 15
+  },
+  {
+    "id": "conv-42-162",
+    "cat": 4,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 1062,
+    "ms": 143.66229999999632,
+    "n": 13
+  },
+  {
+    "id": "conv-42-163",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1046,
+    "ms": 149.8925000000163,
+    "n": 14
+  },
+  {
+    "id": "conv-42-164",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 912,
+    "ms": 154.74950000000536,
+    "n": 13
+  },
+  {
+    "id": "conv-42-165",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1186,
+    "ms": 120.05959999997867,
+    "n": 16
+  },
+  {
+    "id": "conv-42-166",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1118,
+    "ms": 114.0561999999918,
+    "n": 18
+  },
+  {
+    "id": "conv-42-167",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1230,
+    "ms": 111.21150000000489,
+    "n": 18
+  },
+  {
+    "id": "conv-42-168",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1186,
+    "ms": 126.07270000001881,
+    "n": 16
+  },
+  {
+    "id": "conv-42-169",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1230,
+    "ms": 141.99299999998766,
+    "n": 18
+  },
+  {
+    "id": "conv-42-170",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1161,
+    "ms": 136.57730000000447,
+    "n": 15
+  },
+  {
+    "id": "conv-42-171",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1128,
+    "ms": 164.36249999998836,
+    "n": 16
+  },
+  {
+    "id": "conv-42-174",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1126,
+    "ms": 110.62609999999404,
+    "n": 15
+  },
+  {
+    "id": "conv-42-175",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1094,
+    "ms": 116.96929999999702,
+    "n": 16
+  },
+  {
+    "id": "conv-42-176",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1245,
+    "ms": 118.09330000000773,
+    "n": 17
+  },
+  {
+    "id": "conv-42-177",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 752,
+    "ms": 117.75310000000172,
+    "n": 10
+  },
+  {
+    "id": "conv-42-178",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1216,
+    "ms": 149.89079999999376,
+    "n": 17
+  },
+  {
+    "id": "conv-42-180",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1009,
+    "ms": 123.22060000000056,
+    "n": 13
+  },
+  {
+    "id": "conv-42-183",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1068,
+    "ms": 128.33290000000852,
+    "n": 15
+  },
+  {
+    "id": "conv-42-184",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1274,
+    "ms": 128.14910000000964,
+    "n": 18
+  },
+  {
+    "id": "conv-42-185",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 953,
+    "ms": 150.46749999999884,
+    "n": 12
+  },
+  {
+    "id": "conv-42-187",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 771,
+    "ms": 135.49100000000908,
+    "n": 11
+  },
+  {
+    "id": "conv-42-188",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1072,
+    "ms": 119.03580000001239,
+    "n": 16
+  },
+  {
+    "id": "conv-42-189",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 689,
+    "ms": 101.48450000002049,
+    "n": 11
+  },
+  {
+    "id": "conv-42-190",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 939,
+    "ms": 103.12589999998454,
+    "n": 16
+  },
+  {
+    "id": "conv-42-191",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 908,
+    "ms": 108.63219999999274,
+    "n": 10
+  },
+  {
+    "id": "conv-42-194",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1025,
+    "ms": 100.6246000000101,
+    "n": 13
+  },
+  {
+    "id": "conv-42-196",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 1134,
+    "ms": 106.8642000000109,
+    "n": 13
+  },
+  {
+    "id": "conv-42-197",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 1006,
+    "ms": 101.92879999999423,
+    "n": 13
+  },
+  {
+    "id": "conv-42-198",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 1163,
+    "ms": 125.78000000002794,
+    "n": 15
+  },
+  {
+    "id": "conv-43-0",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 931,
+    "ms": 103.19160000002012,
+    "n": 12
+  },
+  {
+    "id": "conv-43-1",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 1101,
+    "ms": 108.96510000000126,
+    "n": 13
+  },
+  {
+    "id": "conv-43-2",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1031,
+    "ms": 86.2276000000129,
+    "n": 17
+  },
+  {
+    "id": "conv-43-3",
+    "cat": 3,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 861,
+    "ms": 102.9594999999972,
+    "n": 14
+  },
+  {
+    "id": "conv-43-4",
+    "cat": 1,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 857,
+    "ms": 103.64900000000489,
+    "n": 14
+  },
+  {
+    "id": "conv-43-5",
+    "cat": 3,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 834,
+    "ms": 93.68619999999646,
+    "n": 15
+  },
+  {
+    "id": "conv-43-6",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 844,
+    "ms": 124.78519999998389,
+    "n": 11
+  },
+  {
+    "id": "conv-43-7",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 980,
+    "ms": 83.67190000001574,
+    "n": 15
+  },
+  {
+    "id": "conv-43-8",
+    "cat": 3,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 594,
+    "ms": 129.44370000000345,
+    "n": 10
+  },
+  {
+    "id": "conv-43-9",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 704,
+    "ms": 99.53390000000945,
+    "n": 11
+  },
+  {
+    "id": "conv-43-10",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 642,
+    "ms": 106.5571999999811,
+    "n": 10
+  },
+  {
+    "id": "conv-43-11",
+    "cat": 1,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 819,
+    "ms": 104.62899999998626,
+    "n": 12
+  },
+  {
+    "id": "conv-43-12",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 919,
+    "ms": 103.46739999999409,
+    "n": 11
+  },
+  {
+    "id": "conv-43-13",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 850,
+    "ms": 106.91610000000219,
+    "n": 13
+  },
+  {
+    "id": "conv-43-14",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.6666666666666666,
+    "tok": 954,
+    "ms": 118.41160000002128,
+    "n": 14
+  },
+  {
+    "id": "conv-43-15",
+    "cat": 3,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 929,
+    "ms": 118.07099999999627,
+    "n": 15
+  },
+  {
+    "id": "conv-43-16",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1013,
+    "ms": 129.97419999999693,
+    "n": 15
+  },
+  {
+    "id": "conv-43-17",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 1085,
+    "ms": 117.25899999999092,
+    "n": 15
+  },
+  {
+    "id": "conv-43-18",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.3333333333333333,
+    "tok": 870,
+    "ms": 121.59770000001299,
+    "n": 12
+  },
+  {
+    "id": "conv-43-19",
+    "cat": 3,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 883,
+    "ms": 134.35569999998552,
+    "n": 10
+  },
+  {
+    "id": "conv-43-20",
+    "cat": 2,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 639,
+    "ms": 109.39790000001085,
+    "n": 10
+  },
+  {
+    "id": "conv-43-21",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.6666666666666666,
+    "tok": 945,
+    "ms": 117.46040000001085,
+    "n": 11
+  },
+  {
+    "id": "conv-43-22",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 684,
+    "ms": 118.19980000000214,
+    "n": 10
+  },
+  {
+    "id": "conv-43-24",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 901,
+    "ms": 85.7339000000211,
+    "n": 11
+  },
+  {
+    "id": "conv-43-25",
+    "cat": 1,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 787,
+    "ms": 89.13190000000759,
+    "n": 14
+  },
+  {
+    "id": "conv-43-26",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 839,
+    "ms": 117.14559999998892,
+    "n": 12
+  },
+  {
+    "id": "conv-43-27",
+    "cat": 3,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 1293,
+    "ms": 139.6198999999906,
+    "n": 20
+  },
+  {
+    "id": "conv-43-28",
+    "cat": 3,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1164,
+    "ms": 148.6021999999939,
+    "n": 19
+  },
+  {
+    "id": "conv-43-29",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 886,
+    "ms": 149.2627999999968,
+    "n": 11
+  },
+  {
+    "id": "conv-43-30",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.75,
+    "tok": 1067,
+    "ms": 138.9701000000059,
+    "n": 14
+  },
+  {
+    "id": "conv-43-31",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 881,
+    "ms": 128.55350000000908,
+    "n": 13
+  },
+  {
+    "id": "conv-43-32",
+    "cat": 3,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 916,
+    "ms": 90.96879999997327,
+    "n": 15
+  },
+  {
+    "id": "conv-43-33",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 812,
+    "ms": 123.44559999997728,
+    "n": 11
+  },
+  {
+    "id": "conv-43-34",
+    "cat": 3,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 870,
+    "ms": 109.3471000000136,
+    "n": 11
+  },
+  {
+    "id": "conv-43-35",
+    "cat": 1,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 969,
+    "ms": 116.44409999999334,
+    "n": 16
+  },
+  {
+    "id": "conv-43-36",
+    "cat": 1,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 1116,
+    "ms": 135.8451000000059,
+    "n": 15
+  },
+  {
+    "id": "conv-43-37",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1222,
+    "ms": 134.30449999999837,
+    "n": 16
+  },
+  {
+    "id": "conv-43-38",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.6666666666666666,
+    "tok": 1208,
+    "ms": 158.90729999999166,
+    "n": 18
+  },
+  {
+    "id": "conv-43-39",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 803,
+    "ms": 113.98389999999199,
+    "n": 12
+  },
+  {
+    "id": "conv-43-40",
+    "cat": 2,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 991,
+    "ms": 115.9210000000021,
+    "n": 15
+  },
+  {
+    "id": "conv-43-41",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 1148,
+    "ms": 120.05009999999311,
+    "n": 16
+  },
+  {
+    "id": "conv-43-42",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1066,
+    "ms": 111.42720000000554,
+    "n": 14
+  },
+  {
+    "id": "conv-43-43",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 949,
+    "ms": 117.60659999999916,
+    "n": 12
+  },
+  {
+    "id": "conv-43-44",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1016,
+    "ms": 123.56389999997918,
+    "n": 14
+  },
+  {
+    "id": "conv-43-45",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1268,
+    "ms": 174.30879999999888,
+    "n": 18
+  },
+  {
+    "id": "conv-43-46",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1049,
+    "ms": 115.4940999999817,
+    "n": 13
+  },
+  {
+    "id": "conv-43-47",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 903,
+    "ms": 132.38270000001648,
+    "n": 11
+  },
+  {
+    "id": "conv-43-49",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1044,
+    "ms": 152.56560000000172,
+    "n": 14
+  },
+  {
+    "id": "conv-43-50",
+    "cat": 1,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 1087,
+    "ms": 162.25740000000224,
+    "n": 17
+  },
+  {
+    "id": "conv-43-51",
+    "cat": 3,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 731,
+    "ms": 118.39730000001146,
+    "n": 10
+  },
+  {
+    "id": "conv-43-52",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 895,
+    "ms": 154.76969999997527,
+    "n": 12
+  },
+  {
+    "id": "conv-43-54",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 755,
+    "ms": 120.30710000000545,
+    "n": 10
+  },
+  {
+    "id": "conv-43-55",
+    "cat": 2,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 875,
+    "ms": 121.08110000001034,
+    "n": 11
+  },
+  {
+    "id": "conv-43-56",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 792,
+    "ms": 118.14329999999609,
+    "n": 11
+  },
+  {
+    "id": "conv-43-57",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 887,
+    "ms": 113.47490000000107,
+    "n": 13
+  },
+  {
+    "id": "conv-43-58",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 763,
+    "ms": 122.29829999999492,
+    "n": 13
+  },
+  {
+    "id": "conv-43-59",
+    "cat": 1,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 865,
+    "ms": 140.4157000000123,
+    "n": 11
+  },
+  {
+    "id": "conv-43-60",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 915,
+    "ms": 134.58729999998468,
+    "n": 12
+  },
+  {
+    "id": "conv-43-61",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.6,
+    "tok": 884,
+    "ms": 129.02409999998054,
+    "n": 16
+  },
+  {
+    "id": "conv-43-62",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.5,
+    "tok": 1125,
+    "ms": 119.85529999999562,
+    "n": 19
+  },
+  {
+    "id": "conv-43-63",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 800,
+    "ms": 146.29610000000685,
+    "n": 10
+  },
+  {
+    "id": "conv-43-64",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 833,
+    "ms": 399.87389999997686,
+    "n": 12
+  },
+  {
+    "id": "conv-43-65",
+    "cat": 1,
+    "all": false,
+    "any": true,
+    "frac": 0.3333333333333333,
+    "tok": 668,
+    "ms": 318.3847999999998,
+    "n": 13
+  },
+  {
+    "id": "conv-43-66",
+    "cat": 3,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1108,
+    "ms": 355.5372999999963,
+    "n": 19
+  },
+  {
+    "id": "conv-43-67",
+    "cat": 3,
+    "all": false,
+    "any": true,
+    "frac": 0.3333333333333333,
+    "tok": 968,
+    "ms": 337.58869999999297,
+    "n": 15
+  },
+  {
+    "id": "conv-43-68",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 839,
+    "ms": 288.48910000000615,
+    "n": 13
+  },
+  {
+    "id": "conv-43-69",
+    "cat": 2,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 904,
+    "ms": 392.1854999999923,
+    "n": 15
+  },
+  {
+    "id": "conv-43-70",
+    "cat": 3,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 844,
+    "ms": 200.9875999999931,
+    "n": 14
+  },
+  {
+    "id": "conv-43-71",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 770,
+    "ms": 186.22080000001006,
+    "n": 10
+  },
+  {
+    "id": "conv-43-72",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 816,
+    "ms": 190.16800000000512,
+    "n": 11
+  },
+  {
+    "id": "conv-43-73",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 740,
+    "ms": 193.21510000000126,
+    "n": 10
+  },
+  {
+    "id": "conv-43-74",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 943,
+    "ms": 151.93189999999595,
+    "n": 14
+  },
+  {
+    "id": "conv-43-75",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 923,
+    "ms": 141.53610000002664,
+    "n": 13
+  },
+  {
+    "id": "conv-43-76",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 998,
+    "ms": 138.2286000000022,
+    "n": 14
+  },
+  {
+    "id": "conv-43-77",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 909,
+    "ms": 132.46360000001732,
+    "n": 12
+  },
+  {
+    "id": "conv-43-78",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 809,
+    "ms": 148.79839999999967,
+    "n": 10
+  },
+  {
+    "id": "conv-43-79",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 593,
+    "ms": 169.20080000002054,
+    "n": 10
+  },
+  {
+    "id": "conv-43-80",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 817,
+    "ms": 176.18660000001546,
+    "n": 11
+  },
+  {
+    "id": "conv-43-81",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1070,
+    "ms": 187.05380000002333,
+    "n": 14
+  },
+  {
+    "id": "conv-43-82",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 742,
+    "ms": 178.39160000000265,
+    "n": 10
+  },
+  {
+    "id": "conv-43-83",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1043,
+    "ms": 162.1075000000128,
+    "n": 15
+  },
+  {
+    "id": "conv-43-84",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 1039,
+    "ms": 172.56019999997807,
+    "n": 17
+  },
+  {
+    "id": "conv-43-85",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 971,
+    "ms": 157.0862999999954,
+    "n": 14
+  },
+  {
+    "id": "conv-43-86",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 1155,
+    "ms": 169.8334999999788,
+    "n": 17
+  },
+  {
+    "id": "conv-43-87",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 744,
+    "ms": 161.8591000000015,
+    "n": 11
+  },
+  {
+    "id": "conv-43-88",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 797,
+    "ms": 114.43530000001192,
+    "n": 15
+  },
+  {
+    "id": "conv-43-89",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 936,
+    "ms": 139.53349999999045,
+    "n": 13
+  },
+  {
+    "id": "conv-43-90",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 802,
+    "ms": 131.52469999997993,
+    "n": 10
+  },
+  {
+    "id": "conv-43-91",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 789,
+    "ms": 122.18129999999655,
+    "n": 10
+  },
+  {
+    "id": "conv-43-92",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1101,
+    "ms": 102.53660000002128,
+    "n": 16
+  },
+  {
+    "id": "conv-43-93",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 834,
+    "ms": 124.59220000001369,
+    "n": 10
+  },
+  {
+    "id": "conv-43-95",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 854,
+    "ms": 115.2320999999938,
+    "n": 13
+  },
+  {
+    "id": "conv-43-96",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 864,
+    "ms": 116.65219999998226,
+    "n": 16
+  },
+  {
+    "id": "conv-43-97",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 1186,
+    "ms": 117.28029999998398,
+    "n": 15
+  },
+  {
+    "id": "conv-43-98",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 932,
+    "ms": 122.97839999999269,
+    "n": 16
+  },
+  {
+    "id": "conv-43-99",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 761,
+    "ms": 108.71160000000964,
+    "n": 12
+  },
+  {
+    "id": "conv-43-100",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 857,
+    "ms": 108.10510000001523,
+    "n": 10
+  },
+  {
+    "id": "conv-43-101",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 768,
+    "ms": 81.74060000001919,
+    "n": 13
+  },
+  {
+    "id": "conv-43-103",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 905,
+    "ms": 119.54370000000927,
+    "n": 11
+  },
+  {
+    "id": "conv-43-104",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 802,
+    "ms": 96.34359999999288,
+    "n": 12
+  },
+  {
+    "id": "conv-43-105",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 872,
+    "ms": 124.4434000000183,
+    "n": 14
+  },
+  {
+    "id": "conv-43-106",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 896,
+    "ms": 104.68090000000666,
+    "n": 12
+  },
+  {
+    "id": "conv-43-107",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 769,
+    "ms": 106.41650000002119,
+    "n": 11
+  },
+  {
+    "id": "conv-43-108",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 837,
+    "ms": 115.050900000002,
+    "n": 11
+  },
+  {
+    "id": "conv-43-109",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 995,
+    "ms": 127.97099999999045,
+    "n": 13
+  },
+  {
+    "id": "conv-43-111",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 792,
+    "ms": 141.9720999999845,
+    "n": 10
+  },
+  {
+    "id": "conv-43-112",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 818,
+    "ms": 123.25339999998687,
+    "n": 11
+  },
+  {
+    "id": "conv-43-114",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 714,
+    "ms": 113.24130000002333,
+    "n": 10
+  },
+  {
+    "id": "conv-43-115",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 797,
+    "ms": 117.61199999999371,
+    "n": 11
+  },
+  {
+    "id": "conv-43-118",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 774,
+    "ms": 156.85679999997956,
+    "n": 11
+  },
+  {
+    "id": "conv-43-119",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1005,
+    "ms": 138.84409999998752,
+    "n": 15
+  },
+  {
+    "id": "conv-43-120",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 978,
+    "ms": 136.01990000001388,
+    "n": 13
+  },
+  {
+    "id": "conv-43-121",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 722,
+    "ms": 143.35560000000987,
+    "n": 10
+  },
+  {
+    "id": "conv-43-122",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1109,
+    "ms": 177.117900000012,
+    "n": 14
+  },
+  {
+    "id": "conv-43-123",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 995,
+    "ms": 153.04510000001756,
+    "n": 15
+  },
+  {
+    "id": "conv-43-124",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1280,
+    "ms": 156.4832999999926,
+    "n": 21
+  },
+  {
+    "id": "conv-43-125",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 978,
+    "ms": 175.3135000000184,
+    "n": 16
+  },
+  {
+    "id": "conv-43-126",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 859,
+    "ms": 181.6021999999939,
+    "n": 12
+  },
+  {
+    "id": "conv-43-127",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 944,
+    "ms": 153.6999000000069,
+    "n": 14
+  },
+  {
+    "id": "conv-43-128",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 802,
+    "ms": 120.43450000000303,
+    "n": 10
+  },
+  {
+    "id": "conv-43-130",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 997,
+    "ms": 129.21880000000237,
+    "n": 12
+  },
+  {
+    "id": "conv-43-131",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 774,
+    "ms": 94.8810999999987,
+    "n": 10
+  },
+  {
+    "id": "conv-43-132",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 749,
+    "ms": 134.5917999999947,
+    "n": 10
+  },
+  {
+    "id": "conv-43-133",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 828,
+    "ms": 128.53589999998803,
+    "n": 10
+  },
+  {
+    "id": "conv-43-134",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 993,
+    "ms": 124.54429999997956,
+    "n": 16
+  },
+  {
+    "id": "conv-43-135",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 875,
+    "ms": 111.10740000000806,
+    "n": 14
+  },
+  {
+    "id": "conv-43-136",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 998,
+    "ms": 773.2783000000054,
+    "n": 13
+  },
+  {
+    "id": "conv-43-137",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1003,
+    "ms": 102.37470000001485,
+    "n": 12
+  },
+  {
+    "id": "conv-43-138",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1059,
+    "ms": 121.02670000001672,
+    "n": 14
+  },
+  {
+    "id": "conv-43-139",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 893,
+    "ms": 123.96360000001732,
+    "n": 15
+  },
+  {
+    "id": "conv-43-140",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 808,
+    "ms": 117.77060000001802,
+    "n": 10
+  },
+  {
+    "id": "conv-43-141",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1090,
+    "ms": 119.43080000000191,
+    "n": 17
+  },
+  {
+    "id": "conv-43-142",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 874,
+    "ms": 118.06360000002314,
+    "n": 12
+  },
+  {
+    "id": "conv-43-143",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1061,
+    "ms": 113.04650000002584,
+    "n": 15
+  },
+  {
+    "id": "conv-43-144",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1149,
+    "ms": 103.07529999999679,
+    "n": 13
+  },
+  {
+    "id": "conv-43-145",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 946,
+    "ms": 96.50270000001183,
+    "n": 13
+  },
+  {
+    "id": "conv-43-146",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1080,
+    "ms": 135.21799999999348,
+    "n": 17
+  },
+  {
+    "id": "conv-43-147",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 875,
+    "ms": 124.562900000019,
+    "n": 13
+  },
+  {
+    "id": "conv-43-148",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1179,
+    "ms": 112.45240000000922,
+    "n": 15
+  },
+  {
+    "id": "conv-43-149",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 1291,
+    "ms": 117.83150000000023,
+    "n": 21
+  },
+  {
+    "id": "conv-43-150",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 946,
+    "ms": 115.53859999999986,
+    "n": 11
+  },
+  {
+    "id": "conv-43-151",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 996,
+    "ms": 109.11449999999604,
+    "n": 10
+  },
+  {
+    "id": "conv-43-152",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 927,
+    "ms": 124.78829999998561,
+    "n": 12
+  },
+  {
+    "id": "conv-43-153",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 786,
+    "ms": 125.2776999999769,
+    "n": 10
+  },
+  {
+    "id": "conv-43-154",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 807,
+    "ms": 115.16589999999269,
+    "n": 11
+  },
+  {
+    "id": "conv-43-155",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 804,
+    "ms": 119.49679999999353,
+    "n": 10
+  },
+  {
+    "id": "conv-43-156",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 749,
+    "ms": 111.76219999999739,
+    "n": 10
+  },
+  {
+    "id": "conv-43-157",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 750,
+    "ms": 103.09940000000643,
+    "n": 10
+  },
+  {
+    "id": "conv-43-158",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 838,
+    "ms": 165.03859999999986,
+    "n": 14
+  },
+  {
+    "id": "conv-43-159",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1000,
+    "ms": 137.15109999998822,
+    "n": 13
+  },
+  {
+    "id": "conv-43-160",
+    "cat": 4,
+    "all": false,
+    "any": false,
+    "frac": 0,
+    "tok": 892,
+    "ms": 128.61470000000554,
+    "n": 14
+  },
+  {
+    "id": "conv-43-161",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1006,
+    "ms": 124.8344999999972,
+    "n": 13
+  },
+  {
+    "id": "conv-43-162",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 879,
+    "ms": 153.3022999999812,
+    "n": 16
+  },
+  {
+    "id": "conv-43-163",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1096,
+    "ms": 211.80749999999534,
+    "n": 15
+  },
+  {
+    "id": "conv-43-164",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 774,
+    "ms": 133.0268999999971,
+    "n": 13
+  },
+  {
+    "id": "conv-43-165",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1224,
+    "ms": 176.89869999999064,
+    "n": 22
+  },
+  {
+    "id": "conv-43-166",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 906,
+    "ms": 153.48730000000796,
+    "n": 14
+  },
+  {
+    "id": "conv-43-167",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 1136,
+    "ms": 185.33379999999306,
+    "n": 17
+  },
+  {
+    "id": "conv-43-168",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 846,
+    "ms": 155.1774999999907,
+    "n": 12
+  },
+  {
+    "id": "conv-43-169",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 893,
+    "ms": 145.4308000000019,
+    "n": 12
+  },
+  {
+    "id": "conv-43-170",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 861,
+    "ms": 159.91330000001471,
+    "n": 12
+  },
+  {
+    "id": "conv-43-172",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 880,
+    "ms": 123.28009999997448,
+    "n": 12
+  },
+  {
+    "id": "conv-43-173",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 680,
+    "ms": 134.0725000000093,
+    "n": 11
+  },
+  {
+    "id": "conv-43-174",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 802,
+    "ms": 143.68989999999758,
+    "n": 11
+  },
+  {
+    "id": "conv-43-175",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 922,
+    "ms": 130.94039999999222,
+    "n": 10
+  },
+  {
+    "id": "conv-43-176",
+    "cat": 4,
+    "all": true,
+    "any": true,
+    "frac": 1,
+    "tok": 812,
+    "ms": 171.99640000000363,
+    "n": 12
+  }
+]

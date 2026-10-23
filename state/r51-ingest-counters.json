@@ -1,0 +1,41 @@
+{
+  "at": "2026-10-22T10:40:45.272Z",
+  "model": "claude-haiku-5-5",
+  "routerStats": {
+    "calls": 993,
+    "byIntent": {
+      "judgeRelations": 939,
+      "relationships": 54
+    }
+  },
+  "counters": {
+    "evicted": 0,
+    "cliCalls": 123,
+    "cacheHits": 82,
+    "failures": 0,
+    "retries": 0,
+    "inTok": 246,
+    "outTok": 342140,
+    "cacheCreate": 508482,
+    "cacheRead": 0,
+    "byPurpose": {
+      "extract": {
+        "cli": 0,
+        "hit": 82
+      },
+      "judgeRelations-batch": {
+        "cli": 69,
+        "hit": 0
+      },
+      "relationships": {
+        "cli": 54,
+        "hit": 0
+      }
+    }
+  },
+  "coalesceStats": {
+    "items": 939,
+    "calls": 69,
+    "missing": 0
+  }
+}

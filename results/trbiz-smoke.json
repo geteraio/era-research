@@ -1,0 +1,884 @@
+{
+  "dataset": "trbiz",
+  "label": "smoke",
+  "at": "2026-10-22T01:11:00.568Z",
+  "code": {
+    "head": "890e63123",
+    "dirty": [
+      "M apps/brain-agent/src/brain/graph-query.ts",
+      " M apps/brain-agent/src/brain/recall.ts",
+      " M apps/studio/lib/brain/brain-context.ts",
+      " M apps/studio/lib/brain/graph-query.ts",
+      " M apps/studio/lib/brain/recall.ts",
+      "?? packages/os-kernel/sql/898_brain_speed.sql"
+    ],
+    "code": "working tree"
+  },
+  "counts": {
+    "memories": 4772,
+    "latest": 4747,
+    "module_tagged": 35,
+    "entities": 4062,
+    "edges": 6230,
+    "records": 3885,
+    "conversations": 915,
+    "questions": 370,
+    "secrets": 865
+  },
+  "methods": [
+    "recallMemories",
+    "recallGraph",
+    "graphPlusMemories",
+    "studioRecall",
+    "studioRecallFixCast",
+    "vectorTop10",
+    "eraBrainSearch",
+    "eraBrainGraph",
+    "eraTurn",
+    "brainContext"
+  ],
+  "cold": {
+    "recallMemories": 699.7736999999997,
+    "recallGraph": 163.47670000000016,
+    "graphPlusMemories": 50.980299999999716,
+    "studioRecall": 14.18560000000025,
+    "studioRecallFixCast": 36.404299999999694,
+    "vectorTop10": 9.447599999999966,
+    "eraBrainSearch": 59.76170000000002,
+    "eraBrainGraph": 93.77400000000034,
+    "eraTurn": 104.4380000000001,
+    "brainContext": 62.73960000000079
+  },
+  "wallSec": 1.3503562000000002,
+  "summary": [
+    {
+      "method": "brainContext",
+      "cat": "temporal",
+      "n": 3,
+      "answerInContext": 3,
+      "evidenceAll": 3,
+      "evidenceAny": 3,
+      "stalePresent": null,
+      "latestWinsStrict": null,
+      "latestFirst": 0,
+      "errors": 0,
+      "leakQueries": 0,
+      "leakByClass": {},
+      "ms": {
+        "n": 3,
+        "p50": 65.53489999999965,
+        "p95": 66.91159999999945,
+        "max": 66.91159999999945,
+        "mean": 64.25786666666652
+      },
+      "tokens": {
+        "n": 3,
+        "p50": 1620,
+        "p95": 2043,
+        "max": 2043,
+        "mean": 1716.3333333333333
+      },
+      "tokens_o200k": {
+        "n": 3,
+        "p50": 1360,
+        "p95": 1745,
+        "max": 1745,
+        "mean": 1447
+      }
+    },
+    {
+      "method": "eraBrainGraph",
+      "cat": "temporal",
+      "n": 3,
+      "answerInContext": 3,
+      "evidenceAll": 0,
+      "evidenceAny": 0,
+      "stalePresent": null,
+      "latestWinsStrict": null,
+      "latestFirst": 0,
+      "errors": 0,
+      "leakQueries": 0,
+      "leakByClass": {},
+      "ms": {
+        "n": 3,
+        "p50": 86.10379999999986,
+        "p95": 99.31660000000011,
+        "max": 99.31660000000011,
+        "mean": 90.46836666666665
+      },
+      "tokens": {
+        "n": 3,
+        "p50": 849,
+        "p95": 1289,
+        "max": 1289,
+        "mean": 947.6666666666666
+      },
+      "tokens_o200k": {
+        "n": 3,
+        "p50": 749,
+        "p95": 1143,
+        "max": 1143,
+        "mean": 838
+      }
+    },
+    {
+      "method": "eraBrainSearch",
+      "cat": "temporal",
+      "n": 3,
+      "answerInContext": 0,
+      "evidenceAll": 0,
+      "evidenceAny": 0,
+      "stalePresent": null,
+      "latestWinsStrict": null,
+      "latestFirst": 0,
+      "errors": 3,
+      "leakQueries": 0,
+      "leakByClass": {},
+      "ms": {
+        "n": 3,
+        "p50": 8.309900000000198,
+        "p95": 9.057700000000295,
+        "max": 9.057700000000295,
+        "mean": 8.353633333333468
+      },
+      "tokens": {
+        "n": 3,
+        "p50": 0,
+        "p95": 0,
+        "max": 0,
+        "mean": 0
+      },
+      "tokens_o200k": {
+        "n": 3,
+        "p50": 0,
+        "p95": 0,
+        "max": 0,
+        "mean": 0
+      }
+    },
+    {
+      "method": "eraTurn",
+      "cat": "temporal",
+      "n": 3,
+      "answerInContext": 2,
+      "evidenceAll": 0,
+      "evidenceAny": 0,
+      "stalePresent": null,
+      "latestWinsStrict": null,
+      "latestFirst": 0,
+      "errors": 0,
+      "leakQueries": 0,
+      "leakByClass": {},
+      "ms": {
+        "n": 3,
+        "p50": 103.22310000000016,
+        "p95": 103.48739999999998,
+        "max": 103.48739999999998,
+        "mean": 102.6953999999999
+      },
+      "tokens": {
+        "n": 3,
+        "p50": 117,
+        "p95": 135,
+        "max": 135,
+        "mean": 116
+      },
+      "tokens_o200k": {
+        "n": 3,
+        "p50": 109,
+        "p95": 131,
+        "max": 131,
+        "mean": 110
+      }
+    },
+    {
+      "method": "graphPlusMemories",
+      "cat": "temporal",
+      "n": 3,
+      "answerInContext": 3,
+      "evidenceAll": 3,
+      "evidenceAny": 3,
+      "stalePresent": null,
+      "latestWinsStrict": null,
+      "latestFirst": 0,
+      "errors": 0,
+      "leakQueries": 0,
+      "leakByClass": {},
+      "ms": {
+        "n": 3,
+        "p50": 44.662999999999556,
+        "p95": 45.2467000000006,
+        "max": 45.2467000000006,
+        "mean": 43.572799999999916
+      },
+      "tokens": {
+        "n": 3,
+        "p50": 1620,
+        "p95": 2043,
+        "max": 2043,
+        "mean": 1716.3333333333333
+      },
+      "tokens_o200k": {
+        "n": 3,
+        "p50": 1360,
+        "p95": 1745,
+        "max": 1745,
+        "mean": 1447
+      }
+    },
+    {
+      "method": "recallGraph",
+      "cat": "temporal",
+      "n": 3,
+      "answerInContext": 3,
+      "evidenceAll": 3,
+      "evidenceAny": 3,
+      "stalePresent": null,
+      "latestWinsStrict": null,
+      "latestFirst": 0,
+      "errors": 0,
+      "leakQueries": 0,
+      "leakByClass": {},
+      "ms": {
+        "n": 3,
+        "p50": 35.30339999999978,
+        "p95": 37.21799999999985,
+        "max": 37.21799999999985,
+        "mean": 35.88209999999981
+      },
+      "tokens": {
+        "n": 3,
+        "p50": 849,
+        "p95": 1289,
+        "max": 1289,
+        "mean": 947.6666666666666
+      },
+      "tokens_o200k": {
+        "n": 3,
+        "p50": 749,
+        "p95": 1143,
+        "max": 1143,
+        "mean": 838
+      }
+    },
+    {
+      "method": "recallMemories",
+      "cat": "temporal",
+      "n": 3,
+      "answerInContext": 3,
+      "evidenceAll": 3,
+      "evidenceAny": 3,
+      "stalePresent": null,
+      "latestWinsStrict": null,
+      "latestFirst": 2,
+      "errors": 0,
+      "leakQueries": 0,
+      "leakByClass": {},
+      "ms": {
+        "n": 3,
+        "p50": 35.999399999999696,
+        "p95": 37.52210000000014,
+        "max": 37.52210000000014,
+        "mean": 35.59336666666665
+      },
+      "tokens": {
+        "n": 3,
+        "p50": 771,
+        "p95": 781,
+        "max": 781,
+        "mean": 768.6666666666666
+      },
+      "tokens_o200k": {
+        "n": 3,
+        "p50": 611,
+        "p95": 614,
+        "max": 614,
+        "mean": 609
+      }
+    },
+    {
+      "method": "studioRecall",
+      "cat": "temporal",
+      "n": 3,
+      "answerInContext": 0,
+      "evidenceAll": 0,
+      "evidenceAny": 0,
+      "stalePresent": null,
+      "latestWinsStrict": null,
+      "latestFirst": 0,
+      "errors": 3,
+      "leakQueries": 0,
+      "leakByClass": {},
+      "ms": {
+        "n": 3,
+        "p50": 8.481699999999364,
+        "p95": 8.790299999999661,
+        "max": 8.790299999999661,
+        "mean": 8.426933333333182
+      },
+      "tokens": {
+        "n": 3,
+        "p50": 0,
+        "p95": 0,
+        "max": 0,
+        "mean": 0
+      },
+      "tokens_o200k": {
+        "n": 3,
+        "p50": 0,
+        "p95": 0,
+        "max": 0,
+        "mean": 0
+      }
+    },
+    {
+      "method": "studioRecallFixCast",
+      "cat": "temporal",
+      "n": 3,
+      "answerInContext": 3,
+      "evidenceAll": 3,
+      "evidenceAny": 3,
+      "stalePresent": null,
+      "latestWinsStrict": null,
+      "latestFirst": 2,
+      "errors": 0,
+      "leakQueries": 0,
+      "leakByClass": {},
+      "ms": {
+        "n": 3,
+        "p50": 27.464100000000144,
+        "p95": 28.938999999999396,
+        "max": 28.938999999999396,
+        "mean": 27.891999999999825
+      },
+      "tokens": {
+        "n": 3,
+        "p50": 771,
+        "p95": 781,
+        "max": 781,
+        "mean": 768.6666666666666
+      },
+      "tokens_o200k": {
+        "n": 3,
+        "p50": 611,
+        "p95": 614,
+        "max": 614,
+        "mean": 609
+      }
+    },
+    {
+      "method": "vectorTop10",
+      "cat": "temporal",
+      "n": 3,
+      "answerInContext": 3,
+      "evidenceAll": 3,
+      "evidenceAny": 3,
+      "stalePresent": null,
+      "latestWinsStrict": null,
+      "latestFirst": 0,
+      "errors": 0,
+      "leakQueries": 0,
+      "leakByClass": {},
+      "ms": {
+        "n": 3,
+        "p50": 6.698500000000422,
+        "p95": 6.88300000000072,
+        "max": 6.88300000000072,
+        "mean": 6.525133333333845
+      },
+      "tokens": {
+        "n": 3,
+        "p50": 791,
+        "p95": 834,
+        "max": 834,
+        "mean": 795
+      },
+      "tokens_o200k": {
+        "n": 3,
+        "p50": 630,
+        "p95": 665,
+        "max": 665,
+        "mean": 633.6666666666666
+      }
+    }
+  ],
+  "rows": [
+    {
+      "qid": "temporal-0",
+      "cat": "temporal",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 33.258600000000115,
+      "tokens": 781,
+      "tokens_o200k": 614,
+      "extra": {
+        "n": 10,
+        "related": 0
+      },
+      "latestFirst": true
+    },
+    {
+      "qid": "temporal-0",
+      "cat": "temporal",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 37.21799999999985,
+      "tokens": 705,
+      "tokens_o200k": 622,
+      "extra": {
+        "nodes": 7,
+        "edges": 6,
+        "truncated": false,
+        "estTokens": 570,
+        "seeds": [
+          "Nur Turan"
+        ]
+      },
+      "latestFirst": false
+    },
+    {
+      "qid": "temporal-0",
+      "cat": "temporal",
+      "asker": "owner",
+      "method": "graphPlusMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 40.80869999999959,
+      "tokens": 1486,
+      "tokens_o200k": 1236,
+      "latestFirst": false
+    },
+    {
+      "qid": "temporal-0",
+      "cat": "temporal",
+      "asker": "owner",
+      "method": "studioRecall",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 8.790299999999661,
+      "tokens": 0,
+      "tokens_o200k": 0,
+      "extra": {
+        "error": "operator does not exist: text = uuid"
+      },
+      "latestFirst": false
+    },
+    {
+      "qid": "temporal-0",
+      "cat": "temporal",
+      "asker": "owner",
+      "method": "studioRecallFixCast",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 27.272899999999936,
+      "tokens": 781,
+      "tokens_o200k": 614,
+      "latestFirst": true
+    },
+    {
+      "qid": "temporal-0",
+      "cat": "temporal",
+      "asker": "owner",
+      "method": "vectorTop10",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 6.698500000000422,
+      "tokens": 760,
+      "tokens_o200k": 606,
+      "latestFirst": false
+    },
+    {
+      "qid": "temporal-0",
+      "cat": "temporal",
+      "asker": "owner",
+      "method": "eraBrainSearch",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 9.057700000000295,
+      "tokens": 0,
+      "tokens_o200k": 0,
+      "extra": {
+        "error": "operator does not exist: text = uuid"
+      },
+      "latestFirst": false
+    },
+    {
+      "qid": "temporal-0",
+      "cat": "temporal",
+      "asker": "owner",
+      "method": "eraBrainGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 85.98469999999998,
+      "tokens": 705,
+      "tokens_o200k": 622,
+      "latestFirst": false
+    },
+    {
+      "qid": "temporal-0",
+      "cat": "temporal",
+      "asker": "owner",
+      "method": "eraTurn",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 103.22310000000016,
+      "tokens": 96,
+      "tokens_o200k": 90,
+      "latestFirst": false
+    },
+    {
+      "qid": "temporal-0",
+      "cat": "temporal",
+      "asker": "owner",
+      "method": "brainContext",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 65.53489999999965,
+      "tokens": 1486,
+      "tokens_o200k": 1236,
+      "latestFirst": false
+    },
+    {
+      "qid": "temporal-1",
+      "cat": "temporal",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 35.999399999999696,
+      "tokens": 771,
+      "tokens_o200k": 611,
+      "extra": {
+        "n": 10,
+        "related": 0
+      },
+      "latestFirst": true
+    },
+    {
+      "qid": "temporal-1",
+      "cat": "temporal",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 35.1248999999998,
+      "tokens": 849,
+      "tokens_o200k": 749,
+      "extra": {
+        "nodes": 7,
+        "edges": 6,
+        "truncated": false,
+        "estTokens": 671,
+        "seeds": [
+          "Necati Özdemir"
+        ]
+      },
+      "latestFirst": false
+    },
+    {
+      "qid": "temporal-1",
+      "cat": "temporal",
+      "asker": "owner",
+      "method": "graphPlusMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 45.2467000000006,
+      "tokens": 1620,
+      "tokens_o200k": 1360,
+      "latestFirst": false
+    },
+    {
+      "qid": "temporal-1",
+      "cat": "temporal",
+      "asker": "owner",
+      "method": "studioRecall",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 8.481699999999364,
+      "tokens": 0,
+      "tokens_o200k": 0,
+      "extra": {
+        "error": "operator does not exist: text = uuid"
+      },
+      "latestFirst": false
+    },
+    {
+      "qid": "temporal-1",
+      "cat": "temporal",
+      "asker": "owner",
+      "method": "studioRecallFixCast",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 27.464100000000144,
+      "tokens": 771,
+      "tokens_o200k": 611,
+      "latestFirst": true
+    },
+    {
+      "qid": "temporal-1",
+      "cat": "temporal",
+      "asker": "owner",
+      "method": "vectorTop10",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 6.88300000000072,
+      "tokens": 834,
+      "tokens_o200k": 665,
+      "latestFirst": false
+    },
+    {
+      "qid": "temporal-1",
+      "cat": "temporal",
+      "asker": "owner",
+      "method": "eraBrainSearch",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 8.309900000000198,
+      "tokens": 0,
+      "tokens_o200k": 0,
+      "extra": {
+        "error": "operator does not exist: text = uuid"
+      },
+      "latestFirst": false
+    },
+    {
+      "qid": "temporal-1",
+      "cat": "temporal",
+      "asker": "owner",
+      "method": "eraBrainGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 99.31660000000011,
+      "tokens": 849,
+      "tokens_o200k": 749,
+      "latestFirst": false
+    },
+    {
+      "qid": "temporal-1",
+      "cat": "temporal",
+      "asker": "owner",
+      "method": "eraTurn",
+      "hit": true,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 101.3756999999996,
+      "tokens": 117,
+      "tokens_o200k": 109,
+      "latestFirst": false
+    },
+    {
+      "qid": "temporal-1",
+      "cat": "temporal",
+      "asker": "owner",
+      "method": "brainContext",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 66.91159999999945,
+      "tokens": 1620,
+      "tokens_o200k": 1360,
+      "latestFirst": false
+    },
+    {
+      "qid": "temporal-2",
+      "cat": "temporal",
+      "asker": "owner",
+      "method": "recallMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 37.52210000000014,
+      "tokens": 754,
+      "tokens_o200k": 602,
+      "extra": {
+        "n": 10,
+        "related": 0
+      },
+      "latestFirst": false
+    },
+    {
+      "qid": "temporal-2",
+      "cat": "temporal",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 35.30339999999978,
+      "tokens": 1289,
+      "tokens_o200k": 1143,
+      "extra": {
+        "nodes": 9,
+        "edges": 8,
+        "truncated": false,
+        "estTokens": 982,
+        "seeds": [
+          "Deniz Çakır"
+        ]
+      },
+      "latestFirst": false
+    },
+    {
+      "qid": "temporal-2",
+      "cat": "temporal",
+      "asker": "owner",
+      "method": "graphPlusMemories",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 44.662999999999556,
+      "tokens": 2043,
+      "tokens_o200k": 1745,
+      "latestFirst": false
+    },
+    {
+      "qid": "temporal-2",
+      "cat": "temporal",
+      "asker": "owner",
+      "method": "studioRecall",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 8.00880000000052,
+      "tokens": 0,
+      "tokens_o200k": 0,
+      "extra": {
+        "error": "operator does not exist: text = uuid"
+      },
+      "latestFirst": false
+    },
+    {
+      "qid": "temporal-2",
+      "cat": "temporal",
+      "asker": "owner",
+      "method": "studioRecallFixCast",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 28.938999999999396,
+      "tokens": 754,
+      "tokens_o200k": 602,
+      "latestFirst": false
+    },
+    {
+      "qid": "temporal-2",
+      "cat": "temporal",
+      "asker": "owner",
+      "method": "vectorTop10",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 5.993900000000394,
+      "tokens": 791,
+      "tokens_o200k": 630,
+      "latestFirst": false
+    },
+    {
+      "qid": "temporal-2",
+      "cat": "temporal",
+      "asker": "owner",
+      "method": "eraBrainSearch",
+      "hit": false,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 7.693299999999908,
+      "tokens": 0,
+      "tokens_o200k": 0,
+      "extra": {
+        "error": "operator does not exist: text = uuid"
+      },
+      "latestFirst": false
+    },
+    {
+      "qid": "temporal-2",
+      "cat": "temporal",
+      "asker": "owner",
+      "method": "eraBrainGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 86.10379999999986,
+      "tokens": 1289,
+      "tokens_o200k": 1143,
+      "latestFirst": false
+    },
+    {
+      "qid": "temporal-2",
+      "cat": "temporal",
+      "asker": "owner",
+      "method": "eraTurn",
+      "hit": true,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 103.48739999999998,
+      "tokens": 135,
+      "tokens_o200k": 131,
+      "latestFirst": false
+    },
+    {
+      "qid": "temporal-2",
+      "cat": "temporal",
+      "asker": "owner",
+      "method": "brainContext",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 60.32710000000043,
+      "tokens": 2043,
+      "tokens_o200k": 1745,
+      "latestFirst": false
+    }
+  ]
+}

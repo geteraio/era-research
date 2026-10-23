@@ -1,0 +1,3851 @@
+{
+  "dataset": "bizA",
+  "label": "A-after",
+  "at": "2026-10-22T02:21:10.014Z",
+  "code": {
+    "head": "890e63123",
+    "dirty": [
+      "M apps/brain-agent/src/brain/connector-ingest.ts",
+      " M apps/brain-agent/src/brain/graph-query.ts",
+      " M apps/brain-agent/src/brain/ingestion.ts",
+      " M apps/brain-agent/src/brain/recall.ts",
+      " M apps/studio/lib/brain/brain-context.ts",
+      " M apps/studio/lib/brain/graph-query.ts",
+      " M apps/studio/lib/brain/recall.ts",
+      " M apps/studio/lib/brain/sync-types.ts",
+      " M apps/studio/lib/brain/workflow-scope.ts",
+      "?? packages/os-kernel/sql/898_brain_speed.sql",
+      "?? packages/os-kernel/sql/899_brain_connector_modules.sql",
+      "?? packages/os-kernel/sql/900_brain_viewer_access.sql",
+      "?? packages/os-kernel/sql/901_brain_record_type_rule.sql"
+    ],
+    "code": "working tree"
+  },
+  "counts": {
+    "entities": 20000,
+    "memories": 40000,
+    "edges": 40000,
+    "memoryEdges": 3000,
+    "links": 84407
+  },
+  "methods": [
+    "recallGraph"
+  ],
+  "cold": {
+    "recallGraph": 919.5088999999998
+  },
+  "wallSec": 11.697100100000002,
+  "summary": [
+    {
+      "method": "recallGraph",
+      "cat": "direct",
+      "n": 100,
+      "answerInContext": 100,
+      "evidenceAll": 100,
+      "evidenceAny": 100,
+      "stalePresent": null,
+      "latestWinsStrict": null,
+      "latestFirst": null,
+      "errors": 0,
+      "leakQueries": 0,
+      "leakByClass": {},
+      "ms": {
+        "n": 100,
+        "p50": 57.73250000000007,
+        "p95": 80.31790000000001,
+        "max": 94.7860999999998,
+        "mean": 60.99502700000003
+      },
+      "tokens": {
+        "n": 100,
+        "p50": 828,
+        "p95": 1065,
+        "max": 1128,
+        "mean": 841.62
+      },
+      "tokens_o200k": {
+        "n": 100,
+        "p50": 813,
+        "p95": 1052,
+        "max": 1098,
+        "mean": 826.05
+      }
+    },
+    {
+      "method": "recallGraph",
+      "cat": "multihop2",
+      "n": 60,
+      "answerInContext": 60,
+      "evidenceAll": 40,
+      "evidenceAny": 60,
+      "stalePresent": null,
+      "latestWinsStrict": null,
+      "latestFirst": null,
+      "errors": 0,
+      "leakQueries": 0,
+      "leakByClass": {},
+      "ms": {
+        "n": 60,
+        "p50": 45.08640000000105,
+        "p95": 55.696900000000824,
+        "max": 73.35879999999997,
+        "mean": 46.19942500000006
+      },
+      "tokens": {
+        "n": 60,
+        "p50": 880,
+        "p95": 1010,
+        "max": 1069,
+        "mean": 871.0666666666667
+      },
+      "tokens_o200k": {
+        "n": 60,
+        "p50": 873,
+        "p95": 987,
+        "max": 1035,
+        "mean": 853.75
+      }
+    },
+    {
+      "method": "recallGraph",
+      "cat": "multihop3",
+      "n": 40,
+      "answerInContext": 40,
+      "evidenceAll": 4,
+      "evidenceAny": 40,
+      "stalePresent": null,
+      "latestWinsStrict": null,
+      "latestFirst": null,
+      "errors": 0,
+      "leakQueries": 0,
+      "leakByClass": {},
+      "ms": {
+        "n": 40,
+        "p50": 57.30160000000069,
+        "p95": 74.13330000000133,
+        "max": 84.79290000000037,
+        "mean": 59.907372500000065
+      },
+      "tokens": {
+        "n": 40,
+        "p50": 1021,
+        "p95": 1159,
+        "max": 1179,
+        "mean": 1011.675
+      },
+      "tokens_o200k": {
+        "n": 40,
+        "p50": 998,
+        "p95": 1146,
+        "max": 1151,
+        "mean": 990.75
+      }
+    }
+  ],
+  "rows": [
+    {
+      "qid": "direct-0",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 56.11439999999993,
+      "tokens": 775,
+      "tokens_o200k": 756,
+      "extra": {
+        "seeds": [
+          "Starling Shipping",
+          "Royal Cooler"
+        ]
+      }
+    },
+    {
+      "qid": "direct-1",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 57.849899999999934,
+      "tokens": 823,
+      "tokens_o200k": 813,
+      "extra": {
+        "seeds": [
+          "Riverbend Robotics",
+          "Fresh Backpack"
+        ]
+      }
+    },
+    {
+      "qid": "direct-2",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 67.42910000000006,
+      "tokens": 925,
+      "tokens_o200k": 892,
+      "extra": {
+        "seeds": [
+          "Starling Consulting",
+          "Stellar Mug"
+        ]
+      }
+    },
+    {
+      "qid": "direct-3",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 76.85440000000017,
+      "tokens": 886,
+      "tokens_o200k": 869,
+      "extra": {
+        "seeds": [
+          "Sovereign Cloud",
+          "Opal Boot"
+        ]
+      }
+    },
+    {
+      "qid": "direct-4",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 56.816299999999956,
+      "tokens": 781,
+      "tokens_o200k": 761,
+      "extra": {
+        "seeds": [
+          "Marmara Retail",
+          "Fresh Pillow"
+        ]
+      }
+    },
+    {
+      "qid": "direct-5",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 50.79029999999989,
+      "tokens": 894,
+      "tokens_o200k": 887,
+      "extra": {
+        "seeds": [
+          "Windmill Media",
+          "Onyx Pillow"
+        ]
+      }
+    },
+    {
+      "qid": "direct-6",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 42.099300000000085,
+      "tokens": 841,
+      "tokens_o200k": 827,
+      "extra": {
+        "seeds": [
+          "Velocity Bakery",
+          "Ultra Planter"
+        ]
+      }
+    },
+    {
+      "qid": "direct-7",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 66.84750000000008,
+      "tokens": 822,
+      "tokens_o200k": 808,
+      "extra": {
+        "seeds": [
+          "Frontier Plastics",
+          "Arctic Tablet"
+        ]
+      }
+    },
+    {
+      "qid": "direct-8",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 57.356700000000046,
+      "tokens": 801,
+      "tokens_o200k": 787,
+      "extra": {
+        "seeds": [
+          "Vertex Tools",
+          "Prime Tent"
+        ]
+      }
+    },
+    {
+      "qid": "direct-9",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 47.918899999999894,
+      "tokens": 627,
+      "tokens_o200k": 615,
+      "extra": {
+        "seeds": [
+          "Emerald Consulting",
+          "Forest Monitor"
+        ]
+      }
+    },
+    {
+      "qid": "direct-10",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 49.802799999999934,
+      "tokens": 710,
+      "tokens_o200k": 683,
+      "extra": {
+        "seeds": [
+          "Polaris Data",
+          "Prime Charger"
+        ]
+      }
+    },
+    {
+      "qid": "direct-11",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 80.41539999999986,
+      "tokens": 661,
+      "tokens_o200k": 646,
+      "extra": {
+        "seeds": [
+          "Truva Coffee",
+          "Velvet Tee"
+        ]
+      }
+    },
+    {
+      "qid": "direct-12",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 46.0350999999996,
+      "tokens": 670,
+      "tokens_o200k": 664,
+      "extra": {
+        "seeds": [
+          "Datça Bakery",
+          "Ultra Monitor"
+        ]
+      }
+    },
+    {
+      "qid": "direct-13",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 71.45250000000033,
+      "tokens": 666,
+      "tokens_o200k": 640,
+      "extra": {
+        "seeds": [
+          "Atlas Apparel",
+          "Clever Shelf"
+        ]
+      }
+    },
+    {
+      "qid": "direct-14",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 57.73250000000007,
+      "tokens": 1020,
+      "tokens_o200k": 1009,
+      "extra": {
+        "seeds": [
+          "Göreme Networks",
+          "Nova Ring"
+        ]
+      }
+    },
+    {
+      "qid": "direct-15",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 91.74170000000004,
+      "tokens": 923,
+      "tokens_o200k": 894,
+      "extra": {
+        "seeds": [
+          "Summit Catering",
+          "Solar Cream"
+        ]
+      }
+    },
+    {
+      "qid": "direct-16",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 71.42039999999997,
+      "tokens": 895,
+      "tokens_o200k": 882,
+      "extra": {
+        "seeds": [
+          "Sahara Networks",
+          "Max Drone"
+        ]
+      }
+    },
+    {
+      "qid": "direct-17",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 47.70749999999998,
+      "tokens": 1081,
+      "tokens_o200k": 1064,
+      "extra": {
+        "seeds": [
+          "Mistral Tea",
+          "Solid Towel"
+        ]
+      }
+    },
+    {
+      "qid": "direct-18",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 70.85910000000013,
+      "tokens": 836,
+      "tokens_o200k": 825,
+      "extra": {
+        "seeds": [
+          "Emerald Security",
+          "Ocean Hoodie"
+        ]
+      }
+    },
+    {
+      "qid": "direct-19",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 44.83089999999993,
+      "tokens": 947,
+      "tokens_o200k": 910,
+      "extra": {
+        "seeds": [
+          "Alaçatı Catering",
+          "Edge Pillow"
+        ]
+      }
+    },
+    {
+      "qid": "direct-20",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 46.9382999999998,
+      "tokens": 849,
+      "tokens_o200k": 829,
+      "extra": {
+        "seeds": [
+          "Meridian Dairy",
+          "Velvet Grill"
+        ]
+      }
+    },
+    {
+      "qid": "direct-21",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 66.9072000000001,
+      "tokens": 957,
+      "tokens_o200k": 936,
+      "extra": {
+        "seeds": [
+          "Ege Bank",
+          "Max Planter"
+        ]
+      }
+    },
+    {
+      "qid": "direct-22",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 71.17389999999978,
+      "tokens": 845,
+      "tokens_o200k": 815,
+      "extra": {
+        "seeds": [
+          "Starling Tea",
+          "Classic Hoodie"
+        ]
+      }
+    },
+    {
+      "qid": "direct-23",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 72.95530000000008,
+      "tokens": 690,
+      "tokens_o200k": 677,
+      "extra": {
+        "seeds": [
+          "Windmill Mining",
+          "Desert Cooler"
+        ]
+      }
+    },
+    {
+      "qid": "direct-24",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 51.63200000000006,
+      "tokens": 717,
+      "tokens_o200k": 717,
+      "extra": {
+        "seeds": [
+          "Starling Construction",
+          "Jade Curtain"
+        ]
+      }
+    },
+    {
+      "qid": "direct-25",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 77.93399999999974,
+      "tokens": 822,
+      "tokens_o200k": 807,
+      "extra": {
+        "seeds": [
+          "Erciyes Foods",
+          "Arctic Blender"
+        ]
+      }
+    },
+    {
+      "qid": "direct-26",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 71.2177999999999,
+      "tokens": 796,
+      "tokens_o200k": 785,
+      "extra": {
+        "seeds": [
+          "Anatolia Networks",
+          "Copper Tent"
+        ]
+      }
+    },
+    {
+      "qid": "direct-27",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 66.36859999999979,
+      "tokens": 839,
+      "tokens_o200k": 811,
+      "extra": {
+        "seeds": [
+          "Ilgaz Jewelry",
+          "Calm Tent"
+        ]
+      }
+    },
+    {
+      "qid": "direct-28",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 60.945500000000266,
+      "tokens": 909,
+      "tokens_o200k": 893,
+      "extra": {
+        "seeds": [
+          "Marmara Textiles",
+          "Jade Speaker"
+        ]
+      }
+    },
+    {
+      "qid": "direct-29",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 79.20429999999988,
+      "tokens": 1047,
+      "tokens_o200k": 1022,
+      "extra": {
+        "seeds": [
+          "Mardin Foods",
+          "Eco Speaker",
+          "Mardin"
+        ]
+      }
+    },
+    {
+      "qid": "direct-30",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 58.80430000000024,
+      "tokens": 760,
+      "tokens_o200k": 751,
+      "extra": {
+        "seeds": [
+          "Catalyst Networks",
+          "Pure Jacket"
+        ]
+      }
+    },
+    {
+      "qid": "direct-31",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 52.22530000000006,
+      "tokens": 698,
+      "tokens_o200k": 698,
+      "extra": {
+        "seeds": [
+          "Horizon Wind",
+          "Ultra Notebook"
+        ]
+      }
+    },
+    {
+      "qid": "direct-32",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 50.67170000000033,
+      "tokens": 868,
+      "tokens_o200k": 850,
+      "extra": {
+        "seeds": [
+          "Karadeniz Solar",
+          "Peak Pillow"
+        ]
+      }
+    },
+    {
+      "qid": "direct-33",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 48.87530000000015,
+      "tokens": 865,
+      "tokens_o200k": 854,
+      "extra": {
+        "seeds": [
+          "Oakridge Hotels",
+          "Aurora Blender"
+        ]
+      }
+    },
+    {
+      "qid": "direct-34",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 51.20210000000043,
+      "tokens": 989,
+      "tokens_o200k": 970,
+      "extra": {
+        "seeds": [
+          "Kestrel Academy",
+          "Smart Hoodie"
+        ]
+      }
+    },
+    {
+      "qid": "direct-35",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 45.621799999999894,
+      "tokens": 746,
+      "tokens_o200k": 746,
+      "extra": {
+        "seeds": [
+          "Equinox Insurance",
+          "Silent Planter"
+        ]
+      }
+    },
+    {
+      "qid": "direct-36",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 49.56849999999986,
+      "tokens": 777,
+      "tokens_o200k": 777,
+      "extra": {
+        "seeds": [
+          "Sahara Sports",
+          "Fresh Serum"
+        ]
+      }
+    },
+    {
+      "qid": "direct-37",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 66.14220000000023,
+      "tokens": 828,
+      "tokens_o200k": 819,
+      "extra": {
+        "seeds": [
+          "Sovereign Tea",
+          "Fusion Curtain"
+        ]
+      }
+    },
+    {
+      "qid": "direct-38",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 48.63200000000006,
+      "tokens": 753,
+      "tokens_o200k": 747,
+      "extra": {
+        "seeds": [
+          "Ege Telecom",
+          "Modern Camera"
+        ]
+      }
+    },
+    {
+      "qid": "direct-39",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 94.7860999999998,
+      "tokens": 1073,
+      "tokens_o200k": 1049,
+      "extra": {
+        "seeds": [
+          "Mardin Catering",
+          "Max Rug",
+          "Mardin"
+        ]
+      }
+    },
+    {
+      "qid": "direct-40",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 79.4650999999999,
+      "tokens": 967,
+      "tokens_o200k": 961,
+      "extra": {
+        "seeds": [
+          "Ayvalık Logistics",
+          "Fresh Blender"
+        ]
+      }
+    },
+    {
+      "qid": "direct-41",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 66.7856999999999,
+      "tokens": 679,
+      "tokens_o200k": 672,
+      "extra": {
+        "seeds": [
+          "Northwind Partners",
+          "Pure Monitor"
+        ]
+      }
+    },
+    {
+      "qid": "direct-42",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 51.628000000000156,
+      "tokens": 898,
+      "tokens_o200k": 885,
+      "extra": {
+        "seeds": [
+          "Truva Shipping",
+          "Bold Wallet"
+        ]
+      }
+    },
+    {
+      "qid": "direct-43",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 44.49290000000019,
+      "tokens": 977,
+      "tokens_o200k": 971,
+      "extra": {
+        "seeds": [
+          "Karadeniz Consulting",
+          "Fresh Monitor"
+        ]
+      }
+    },
+    {
+      "qid": "direct-44",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 78.63140000000021,
+      "tokens": 1092,
+      "tokens_o200k": 1055,
+      "extra": {
+        "seeds": [
+          "Frontier Ceramics",
+          "Urban Sofa"
+        ]
+      }
+    },
+    {
+      "qid": "direct-45",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 54.73320000000058,
+      "tokens": 783,
+      "tokens_o200k": 776,
+      "extra": {
+        "seeds": [
+          "Brightpath Freight",
+          "Mighty Shelf"
+        ]
+      }
+    },
+    {
+      "qid": "direct-46",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 72.7493000000004,
+      "tokens": 716,
+      "tokens_o200k": 705,
+      "extra": {
+        "seeds": [
+          "Ilgaz Education",
+          "Rural Kettle"
+        ]
+      }
+    },
+    {
+      "qid": "direct-47",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 80.31790000000001,
+      "tokens": 879,
+      "tokens_o200k": 845,
+      "extra": {
+        "seeds": [
+          "Pulse Holdings",
+          "Edge Blender"
+        ]
+      }
+    },
+    {
+      "qid": "direct-48",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 62.22260000000006,
+      "tokens": 783,
+      "tokens_o200k": 772,
+      "extra": {
+        "seeds": [
+          "Keystone Logistics",
+          "Eco Monitor"
+        ]
+      }
+    },
+    {
+      "qid": "direct-49",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 53.55490000000009,
+      "tokens": 1056,
+      "tokens_o200k": 1048,
+      "extra": {
+        "seeds": [
+          "Catalyst Plastics",
+          "Nova Rug"
+        ]
+      }
+    },
+    {
+      "qid": "direct-50",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 55.53309999999965,
+      "tokens": 953,
+      "tokens_o200k": 941,
+      "extra": {
+        "seeds": [
+          "Aegean Construction",
+          "Aurora Drone"
+        ]
+      }
+    },
+    {
+      "qid": "direct-51",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 51.8761999999997,
+      "tokens": 877,
+      "tokens_o200k": 846,
+      "extra": {
+        "seeds": [
+          "Redstone Agro",
+          "Royal Scarf"
+        ]
+      }
+    },
+    {
+      "qid": "direct-52",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 61.65639999999985,
+      "tokens": 667,
+      "tokens_o200k": 661,
+      "extra": {
+        "seeds": [
+          "Summit Energy",
+          "Classic Grill"
+        ]
+      }
+    },
+    {
+      "qid": "direct-53",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 54.54730000000018,
+      "tokens": 838,
+      "tokens_o200k": 838,
+      "extra": {
+        "seeds": [
+          "Mistral Plastics",
+          "Rural Sofa"
+        ]
+      }
+    },
+    {
+      "qid": "direct-54",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 45.77430000000004,
+      "tokens": 750,
+      "tokens_o200k": 747,
+      "extra": {
+        "seeds": [
+          "Velocity Printing",
+          "Desert Bottle"
+        ]
+      }
+    },
+    {
+      "qid": "direct-55",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 49.45919999999933,
+      "tokens": 827,
+      "tokens_o200k": 790,
+      "extra": {
+        "seeds": [
+          "Riverbend Textiles",
+          "Bold Speaker"
+        ]
+      }
+    },
+    {
+      "qid": "direct-56",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 72.31169999999929,
+      "tokens": 623,
+      "tokens_o200k": 611,
+      "extra": {
+        "seeds": [
+          "Vega Medical",
+          "Fusion Ring"
+        ]
+      }
+    },
+    {
+      "qid": "direct-57",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 74.6869999999999,
+      "tokens": 960,
+      "tokens_o200k": 948,
+      "extra": {
+        "seeds": [
+          "Catalyst Paper",
+          "Pro Serum"
+        ]
+      }
+    },
+    {
+      "qid": "direct-58",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 73.40560000000005,
+      "tokens": 700,
+      "tokens_o200k": 689,
+      "extra": {
+        "seeds": [
+          "Sumela Payments",
+          "Velvet Camera"
+        ]
+      }
+    },
+    {
+      "qid": "direct-59",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 75.42010000000028,
+      "tokens": 1074,
+      "tokens_o200k": 1052,
+      "extra": {
+        "seeds": [
+          "Cedar Cosmetics",
+          "Pro Ring"
+        ]
+      }
+    },
+    {
+      "qid": "direct-60",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 49.377700000000004,
+      "tokens": 853,
+      "tokens_o200k": 829,
+      "extra": {
+        "seeds": [
+          "Sapphire Motors",
+          "Fresh Camera"
+        ]
+      }
+    },
+    {
+      "qid": "direct-61",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 54.101699999999255,
+      "tokens": 880,
+      "tokens_o200k": 859,
+      "extra": {
+        "seeds": [
+          "Uludağ Security",
+          "Peak Sandal"
+        ]
+      }
+    },
+    {
+      "qid": "direct-62",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 73.23400000000038,
+      "tokens": 988,
+      "tokens_o200k": 951,
+      "extra": {
+        "seeds": [
+          "Truva Freight",
+          "Pro Glove"
+        ]
+      }
+    },
+    {
+      "qid": "direct-63",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 66.45440000000053,
+      "tokens": 920,
+      "tokens_o200k": 898,
+      "extra": {
+        "seeds": [
+          "Meridian Marketing",
+          "Rapid Tee"
+        ]
+      }
+    },
+    {
+      "qid": "direct-64",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 86.07380000000012,
+      "tokens": 712,
+      "tokens_o200k": 702,
+      "extra": {
+        "seeds": [
+          "Stonegate Ventures",
+          "Copper Cream"
+        ]
+      }
+    },
+    {
+      "qid": "direct-65",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 76.21820000000025,
+      "tokens": 723,
+      "tokens_o200k": 709,
+      "extra": {
+        "seeds": [
+          "Velocity Clinics",
+          "Solar Shelf"
+        ]
+      }
+    },
+    {
+      "qid": "direct-66",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 73.78480000000036,
+      "tokens": 772,
+      "tokens_o200k": 758,
+      "extra": {
+        "seeds": [
+          "Pamukkale Tea",
+          "Bright Cable"
+        ]
+      }
+    },
+    {
+      "qid": "direct-67",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 76.57670000000053,
+      "tokens": 978,
+      "tokens_o200k": 953,
+      "extra": {
+        "seeds": [
+          "Alaçatı Freight",
+          "Modern Curtain"
+        ]
+      }
+    },
+    {
+      "qid": "direct-68",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 56.41579999999976,
+      "tokens": 835,
+      "tokens_o200k": 808,
+      "extra": {
+        "seeds": [
+          "Lighthouse Pharma",
+          "Urban Sandal"
+        ]
+      }
+    },
+    {
+      "qid": "direct-69",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 73.75749999999971,
+      "tokens": 817,
+      "tokens_o200k": 812,
+      "extra": {
+        "seeds": [
+          "Nemrut Plastics",
+          "Onyx Pillow"
+        ]
+      }
+    },
+    {
+      "qid": "direct-70",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 42.25969999999961,
+      "tokens": 831,
+      "tokens_o200k": 825,
+      "extra": {
+        "seeds": [
+          "Nimbus Toys",
+          "Core Serum"
+        ]
+      }
+    },
+    {
+      "qid": "direct-71",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 73.25840000000062,
+      "tokens": 830,
+      "tokens_o200k": 813,
+      "extra": {
+        "seeds": [
+          "Momentum Retail",
+          "Vivid Router"
+        ]
+      }
+    },
+    {
+      "qid": "direct-72",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 73.47910000000047,
+      "tokens": 911,
+      "tokens_o200k": 892,
+      "extra": {
+        "seeds": [
+          "Lighthouse Dental",
+          "Silent Drone"
+        ]
+      }
+    },
+    {
+      "qid": "direct-73",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 75.1904999999997,
+      "tokens": 1128,
+      "tokens_o200k": 1098,
+      "extra": {
+        "seeds": [
+          "Harbor Sports",
+          "Calm Chair"
+        ]
+      }
+    },
+    {
+      "qid": "direct-74",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 80.82709999999952,
+      "tokens": 916,
+      "tokens_o200k": 900,
+      "extra": {
+        "seeds": [
+          "Polaris Labs",
+          "Nova Tablet"
+        ]
+      }
+    },
+    {
+      "qid": "direct-75",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 57.49290000000019,
+      "tokens": 818,
+      "tokens_o200k": 805,
+      "extra": {
+        "seeds": [
+          "Keystone Bank",
+          "Modern Backpack"
+        ]
+      }
+    },
+    {
+      "qid": "direct-76",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 48.20720000000074,
+      "tokens": 792,
+      "tokens_o200k": 773,
+      "extra": {
+        "seeds": [
+          "Regal Furniture",
+          "Flex Shelf"
+        ]
+      }
+    },
+    {
+      "qid": "direct-77",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 47.622699999999895,
+      "tokens": 862,
+      "tokens_o200k": 839,
+      "extra": {
+        "seeds": [
+          "Pamukkale Fitness",
+          "Core Bottle"
+        ]
+      }
+    },
+    {
+      "qid": "direct-78",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 40.906300000000556,
+      "tokens": 838,
+      "tokens_o200k": 820,
+      "extra": {
+        "seeds": [
+          "Safranbolu Mining",
+          "Pure Headset"
+        ]
+      }
+    },
+    {
+      "qid": "direct-79",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 73.73729999999978,
+      "tokens": 818,
+      "tokens_o200k": 810,
+      "extra": {
+        "seeds": [
+          "Goldleaf Textiles",
+          "Ruby Candle"
+        ]
+      }
+    },
+    {
+      "qid": "direct-80",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 39.037099999999555,
+      "tokens": 808,
+      "tokens_o200k": 791,
+      "extra": {
+        "seeds": [
+          "Sovereign Tools",
+          "Jade Shampoo"
+        ]
+      }
+    },
+    {
+      "qid": "direct-81",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 46.85990000000038,
+      "tokens": 871,
+      "tokens_o200k": 844,
+      "extra": {
+        "seeds": [
+          "Cappadocia Cloud",
+          "Onyx Tee"
+        ]
+      }
+    },
+    {
+      "qid": "direct-82",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 44.31450000000041,
+      "tokens": 760,
+      "tokens_o200k": 741,
+      "extra": {
+        "seeds": [
+          "Brightpath Tea",
+          "Prime Backpack"
+        ]
+      }
+    },
+    {
+      "qid": "direct-83",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 56.931800000000294,
+      "tokens": 823,
+      "tokens_o200k": 818,
+      "extra": {
+        "seeds": [
+          "Vega Telecom",
+          "Opal Backpack"
+        ]
+      }
+    },
+    {
+      "qid": "direct-84",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 45.70229999999992,
+      "tokens": 1060,
+      "tokens_o200k": 1061,
+      "extra": {
+        "seeds": [
+          "Trident Ceramics",
+          "Urban Ring"
+        ]
+      }
+    },
+    {
+      "qid": "direct-85",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 62.84850000000006,
+      "tokens": 784,
+      "tokens_o200k": 756,
+      "extra": {
+        "seeds": [
+          "Pamukkale Dental",
+          "Crystal Scarf"
+        ]
+      }
+    },
+    {
+      "qid": "direct-86",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 53.72059999999965,
+      "tokens": 802,
+      "tokens_o200k": 766,
+      "extra": {
+        "seeds": [
+          "Meridian Glass",
+          "Arctic Drone"
+        ]
+      }
+    },
+    {
+      "qid": "direct-87",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 48.88160000000062,
+      "tokens": 759,
+      "tokens_o200k": 751,
+      "extra": {
+        "seeds": [
+          "Ayvalık Bank",
+          "Velvet Scanner"
+        ]
+      }
+    },
+    {
+      "qid": "direct-88",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 68.65169999999944,
+      "tokens": 695,
+      "tokens_o200k": 689,
+      "extra": {
+        "seeds": [
+          "Kestrel Packaging",
+          "Forest Notebook"
+        ]
+      }
+    },
+    {
+      "qid": "direct-89",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 52.66710000000057,
+      "tokens": 766,
+      "tokens_o200k": 751,
+      "extra": {
+        "seeds": [
+          "Velocity Appliances",
+          "Clever Cream"
+        ]
+      }
+    },
+    {
+      "qid": "direct-90",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 68.82780000000002,
+      "tokens": 792,
+      "tokens_o200k": 778,
+      "extra": {
+        "seeds": [
+          "Spark Coffee",
+          "Peak Jacket"
+        ]
+      }
+    },
+    {
+      "qid": "direct-91",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 52.10040000000026,
+      "tokens": 806,
+      "tokens_o200k": 799,
+      "extra": {
+        "seeds": [
+          "Ironbridge Energy",
+          "Ultra Tent"
+        ]
+      }
+    },
+    {
+      "qid": "direct-92",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 78.16089999999986,
+      "tokens": 813,
+      "tokens_o200k": 807,
+      "extra": {
+        "seeds": [
+          "Toros Steel",
+          "Max Cable"
+        ]
+      }
+    },
+    {
+      "qid": "direct-93",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 46.50009999999929,
+      "tokens": 890,
+      "tokens_o200k": 883,
+      "extra": {
+        "seeds": [
+          "Summit Optics",
+          "Prime Notebook"
+        ]
+      }
+    },
+    {
+      "qid": "direct-94",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 69.02900000000045,
+      "tokens": 703,
+      "tokens_o200k": 690,
+      "extra": {
+        "seeds": [
+          "Pulse Medical",
+          "Prime Belt"
+        ]
+      }
+    },
+    {
+      "qid": "direct-95",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 62.87339999999949,
+      "tokens": 768,
+      "tokens_o200k": 758,
+      "extra": {
+        "seeds": [
+          "Toros Ventures",
+          "Velvet Cream"
+        ]
+      }
+    },
+    {
+      "qid": "direct-96",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 50.25390000000061,
+      "tokens": 1065,
+      "tokens_o200k": 1081,
+      "extra": {
+        "seeds": [
+          "Palandöken Tea",
+          "Bold Pen"
+        ]
+      }
+    },
+    {
+      "qid": "direct-97",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 54.4978000000001,
+      "tokens": 732,
+      "tokens_o200k": 720,
+      "extra": {
+        "seeds": [
+          "Pinnacle Systems",
+          "Urban Pillow"
+        ]
+      }
+    },
+    {
+      "qid": "direct-98",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 41.74120000000039,
+      "tokens": 820,
+      "tokens_o200k": 781,
+      "extra": {
+        "seeds": [
+          "Regal Medical",
+          "Arctic Cream"
+        ]
+      }
+    },
+    {
+      "qid": "direct-99",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 53.79449999999997,
+      "tokens": 912,
+      "tokens_o200k": 888,
+      "extra": {
+        "seeds": [
+          "Truva Security",
+          "Vivid Router"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-100",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 45.57510000000002,
+      "tokens": 945,
+      "tokens_o200k": 922,
+      "extra": {
+        "seeds": [
+          "Linda Patel"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-101",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 47.097499999999854,
+      "tokens": 964,
+      "tokens_o200k": 947,
+      "extra": {
+        "seeds": [
+          "Hülya Foster"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-102",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 49.100100000000566,
+      "tokens": 851,
+      "tokens_o200k": 821,
+      "extra": {
+        "seeds": [
+          "Jack Fischer"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-103",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 49.98500000000058,
+      "tokens": 925,
+      "tokens_o200k": 915,
+      "extra": {
+        "seeds": [
+          "David Keskin"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-104",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 43.07040000000052,
+      "tokens": 807,
+      "tokens_o200k": 800,
+      "extra": {
+        "seeds": [
+          "Laura Brown"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-105",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 46.43830000000071,
+      "tokens": 845,
+      "tokens_o200k": 844,
+      "extra": {
+        "seeds": [
+          "Mei Güler"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-106",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 38.77849999999944,
+      "tokens": 942,
+      "tokens_o200k": 922,
+      "extra": {
+        "seeds": [
+          "Selin Williams"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-107",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 50.032099999999446,
+      "tokens": 949,
+      "tokens_o200k": 926,
+      "extra": {
+        "seeds": [
+          "Adam Öztürk"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-108",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 43.72029999999995,
+      "tokens": 716,
+      "tokens_o200k": 713,
+      "extra": {
+        "seeds": [
+          "Fatma Wang"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-109",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 45.84640000000036,
+      "tokens": 961,
+      "tokens_o200k": 931,
+      "extra": {
+        "seeds": [
+          "Robert Özdemir"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-110",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 45.08640000000105,
+      "tokens": 880,
+      "tokens_o200k": 873,
+      "extra": {
+        "seeds": [
+          "Sedat Brooks"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-111",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 37.31460000000152,
+      "tokens": 914,
+      "tokens_o200k": 891,
+      "extra": {
+        "seeds": [
+          "Noah Kara"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-112",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 43.48149999999987,
+      "tokens": 862,
+      "tokens_o200k": 845,
+      "extra": {
+        "seeds": [
+          "Alp Weber"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-113",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 54.96230000000105,
+      "tokens": 980,
+      "tokens_o200k": 933,
+      "extra": {
+        "seeds": [
+          "Doğan Ateş"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-114",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 43.35479999999916,
+      "tokens": 727,
+      "tokens_o200k": 729,
+      "extra": {
+        "seeds": [
+          "Oya Moreau"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-115",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 48.736299999998664,
+      "tokens": 942,
+      "tokens_o200k": 925,
+      "extra": {
+        "seeds": [
+          "Yasemin Aslan"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-116",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 47.79770000000099,
+      "tokens": 956,
+      "tokens_o200k": 939,
+      "extra": {
+        "seeds": [
+          "Gökhan King"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-117",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 43.449900000001435,
+      "tokens": 976,
+      "tokens_o200k": 963,
+      "extra": {
+        "seeds": [
+          "Yuki Young"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-118",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 61.47619999999915,
+      "tokens": 1054,
+      "tokens_o200k": 1034,
+      "extra": {
+        "seeds": [
+          "Derya Bailey"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-119",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 57.73949999999968,
+      "tokens": 979,
+      "tokens_o200k": 951,
+      "extra": {
+        "seeds": [
+          "Sofia James",
+          "Sofia"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-120",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 52.47559999999976,
+      "tokens": 707,
+      "tokens_o200k": 693,
+      "extra": {
+        "seeds": [
+          "Koray Ateş"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-121",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 47.09970000000067,
+      "tokens": 999,
+      "tokens_o200k": 998,
+      "extra": {
+        "seeds": [
+          "Sibel Clark"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-122",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 55.696900000000824,
+      "tokens": 944,
+      "tokens_o200k": 921,
+      "extra": {
+        "seeds": [
+          "Esra Kaya"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-123",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 44.80340000000069,
+      "tokens": 1056,
+      "tokens_o200k": 1029,
+      "extra": {
+        "seeds": [
+          "Amelie Tunç"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-124",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 48.434000000001106,
+      "tokens": 1010,
+      "tokens_o200k": 971,
+      "extra": {
+        "seeds": [
+          "Esra Aydın",
+          "Aydın"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-125",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 38.20420000000013,
+      "tokens": 903,
+      "tokens_o200k": 875,
+      "extra": {
+        "seeds": [
+          "Layla King"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-126",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 46.9359000000004,
+      "tokens": 777,
+      "tokens_o200k": 774,
+      "extra": {
+        "seeds": [
+          "Tolga Roberts"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-127",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 73.35879999999997,
+      "tokens": 829,
+      "tokens_o200k": 810,
+      "extra": {
+        "seeds": [
+          "Polat Bayram"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-128",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 39.97390000000087,
+      "tokens": 870,
+      "tokens_o200k": 853,
+      "extra": {
+        "seeds": [
+          "Ece Watson"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-129",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 42.652900000000955,
+      "tokens": 875,
+      "tokens_o200k": 857,
+      "extra": {
+        "seeds": [
+          "Zeynep Parker"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-130",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 46.83400000000074,
+      "tokens": 932,
+      "tokens_o200k": 922,
+      "extra": {
+        "seeds": [
+          "Rüya Edwards"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-131",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 47.04780000000028,
+      "tokens": 869,
+      "tokens_o200k": 843,
+      "extra": {
+        "seeds": [
+          "Sarah Carter"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-132",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 41.4349000000002,
+      "tokens": 841,
+      "tokens_o200k": 806,
+      "extra": {
+        "seeds": [
+          "Mehmet Yıldırım"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-133",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 44.240099999999074,
+      "tokens": 953,
+      "tokens_o200k": 920,
+      "extra": {
+        "seeds": [
+          "Irmak Taş"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-134",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 44.853399999999965,
+      "tokens": 802,
+      "tokens_o200k": 795,
+      "extra": {
+        "seeds": [
+          "John Tunç"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-135",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 42.136499999998705,
+      "tokens": 863,
+      "tokens_o200k": 851,
+      "extra": {
+        "seeds": [
+          "Wei Becker"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-136",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 51.92900000000009,
+      "tokens": 417,
+      "tokens_o200k": 416,
+      "extra": {
+        "seeds": [
+          "Anna Hughes"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-137",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 45.20249999999942,
+      "tokens": 1069,
+      "tokens_o200k": 1035,
+      "extra": {
+        "seeds": [
+          "Fatma Roberts"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-138",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 45.81890000000021,
+      "tokens": 863,
+      "tokens_o200k": 847,
+      "extra": {
+        "seeds": [
+          "Anna Walker"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-139",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 42.119300000000294,
+      "tokens": 862,
+      "tokens_o200k": 852,
+      "extra": {
+        "seeds": [
+          "Burak Bianchi"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-140",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 47.14400000000023,
+      "tokens": 907,
+      "tokens_o200k": 885,
+      "extra": {
+        "seeds": [
+          "Ivan Anderson"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-141",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 45.037500000000364,
+      "tokens": 902,
+      "tokens_o200k": 892,
+      "extra": {
+        "seeds": [
+          "Max Adams"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-142",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 42.88960000000043,
+      "tokens": 864,
+      "tokens_o200k": 840,
+      "extra": {
+        "seeds": [
+          "Gökhan Murphy"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-143",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 44.04869999999937,
+      "tokens": 865,
+      "tokens_o200k": 848,
+      "extra": {
+        "seeds": [
+          "Ivan Çelik"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-144",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 53.39859999999862,
+      "tokens": 897,
+      "tokens_o200k": 885,
+      "extra": {
+        "seeds": [
+          "Marco Nowak"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-145",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 43.887800000000425,
+      "tokens": 770,
+      "tokens_o200k": 760,
+      "extra": {
+        "seeds": [
+          "Selin Parker"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-146",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 39.59319999999934,
+      "tokens": 871,
+      "tokens_o200k": 862,
+      "extra": {
+        "seeds": [
+          "Gökhan Khan"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-147",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 43.891999999999825,
+      "tokens": 980,
+      "tokens_o200k": 971,
+      "extra": {
+        "seeds": [
+          "Aslı Polat"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-148",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 42.06470000000081,
+      "tokens": 811,
+      "tokens_o200k": 790,
+      "extra": {
+        "seeds": [
+          "Greta Johnson"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-149",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 50.5671999999995,
+      "tokens": 810,
+      "tokens_o200k": 791,
+      "extra": {
+        "seeds": [
+          "Necati Ferrari"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-150",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 42.25280000000021,
+      "tokens": 884,
+      "tokens_o200k": 876,
+      "extra": {
+        "seeds": [
+          "Mary Martin"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-151",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 42.34109999999964,
+      "tokens": 927,
+      "tokens_o200k": 916,
+      "extra": {
+        "seeds": [
+          "Can Wang"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-152",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 50.48959999999897,
+      "tokens": 916,
+      "tokens_o200k": 894,
+      "extra": {
+        "seeds": [
+          "Cem Wilson"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-153",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 46.20880000000034,
+      "tokens": 897,
+      "tokens_o200k": 882,
+      "extra": {
+        "seeds": [
+          "Emma Miller"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-154",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 40.349599999999555,
+      "tokens": 756,
+      "tokens_o200k": 738,
+      "extra": {
+        "seeds": [
+          "Ozan Çetin"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-155",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 42.87960000000021,
+      "tokens": 839,
+      "tokens_o200k": 820,
+      "extra": {
+        "seeds": [
+          "Necati Becker"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-156",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 57.27360000000044,
+      "tokens": 526,
+      "tokens_o200k": 505,
+      "extra": {
+        "seeds": [
+          "Nina Turan"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-157",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 43.02099999999882,
+      "tokens": 857,
+      "tokens_o200k": 847,
+      "extra": {
+        "seeds": [
+          "Ella Suzuki"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-158",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 42.224599999999555,
+      "tokens": 785,
+      "tokens_o200k": 778,
+      "extra": {
+        "seeds": [
+          "Onur Anderson"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-159",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 42.28219999999965,
+      "tokens": 623,
+      "tokens_o200k": 600,
+      "extra": {
+        "seeds": [
+          "Esra Eren"
+        ]
+      }
+    },
+    {
+      "qid": "2hop-160",
+      "cat": "multihop2",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 47.300899999998364,
+      "tokens": 1015,
+      "tokens_o200k": 987,
+      "extra": {
+        "seeds": [
+          "Laura Özkan"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-161",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 59.86209999999846,
+      "tokens": 1016,
+      "tokens_o200k": 1016,
+      "extra": {
+        "seeds": [
+          "Amira Nelson"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-162",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 57.248100000000704,
+      "tokens": 960,
+      "tokens_o200k": 950,
+      "extra": {
+        "seeds": [
+          "Barış Foster"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-163",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 55.71439999999893,
+      "tokens": 816,
+      "tokens_o200k": 800,
+      "extra": {
+        "seeds": [
+          "Priya Cook"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-164",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 74.64409999999953,
+      "tokens": 1059,
+      "tokens_o200k": 1036,
+      "extra": {
+        "seeds": [
+          "Kaan Polat"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-165",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 64.068299999999,
+      "tokens": 951,
+      "tokens_o200k": 915,
+      "extra": {
+        "seeds": [
+          "John Cox"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-166",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 56.39669999999933,
+      "tokens": 1160,
+      "tokens_o200k": 1146,
+      "extra": {
+        "seeds": [
+          "Volkan Rivera"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-167",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 56.88130000000092,
+      "tokens": 895,
+      "tokens_o200k": 872,
+      "extra": {
+        "seeds": [
+          "Irmak Garcia"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-168",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 57.24579999999878,
+      "tokens": 1131,
+      "tokens_o200k": 1090,
+      "extra": {
+        "seeds": [
+          "Ebru Wilson"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-169",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 74.13330000000133,
+      "tokens": 875,
+      "tokens_o200k": 859,
+      "extra": {
+        "seeds": [
+          "Merve Khan"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-170",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 63.35280000000057,
+      "tokens": 990,
+      "tokens_o200k": 994,
+      "extra": {
+        "seeds": [
+          "Anna Aslan"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-171",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 57.03850000000057,
+      "tokens": 789,
+      "tokens_o200k": 760,
+      "extra": {
+        "seeds": [
+          "Gamze Özkan"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-172",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 54.66560000000027,
+      "tokens": 1031,
+      "tokens_o200k": 1021,
+      "extra": {
+        "seeds": [
+          "Linda Polat"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-173",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 56.677999999999884,
+      "tokens": 1179,
+      "tokens_o200k": 1151,
+      "extra": {
+        "seeds": [
+          "Ayşe Morris"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-174",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 53.739700000000084,
+      "tokens": 1012,
+      "tokens_o200k": 974,
+      "extra": {
+        "seeds": [
+          "Olivia Yılmaz"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-175",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 59.87989999999991,
+      "tokens": 1103,
+      "tokens_o200k": 1065,
+      "extra": {
+        "seeds": [
+          "Deniz Doğan"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-176",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 57.30160000000069,
+      "tokens": 1091,
+      "tokens_o200k": 1079,
+      "extra": {
+        "seeds": [
+          "Aslı Moore"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-177",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 55.550499999999374,
+      "tokens": 1146,
+      "tokens_o200k": 1129,
+      "extra": {
+        "seeds": [
+          "Giulia James"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-178",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 53.089600000001155,
+      "tokens": 1096,
+      "tokens_o200k": 1071,
+      "extra": {
+        "seeds": [
+          "Emma Duman"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-179",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 70.84159999999974,
+      "tokens": 824,
+      "tokens_o200k": 825,
+      "extra": {
+        "seeds": [
+          "Koray Karaca"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-180",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 60.292200000001685,
+      "tokens": 981,
+      "tokens_o200k": 970,
+      "extra": {
+        "seeds": [
+          "Necati Jones"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-181",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 62.05740000000151,
+      "tokens": 1159,
+      "tokens_o200k": 1120,
+      "extra": {
+        "seeds": [
+          "Vedat Yıldırım"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-182",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 54.06079999999929,
+      "tokens": 973,
+      "tokens_o200k": 959,
+      "extra": {
+        "seeds": [
+          "Umut Bulut"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-183",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 58.36110000000008,
+      "tokens": 1129,
+      "tokens_o200k": 1110,
+      "extra": {
+        "seeds": [
+          "Nina Hill"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-184",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 59.2512999999999,
+      "tokens": 763,
+      "tokens_o200k": 758,
+      "extra": {
+        "seeds": [
+          "Jale Wood"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-185",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 54.914999999999054,
+      "tokens": 1154,
+      "tokens_o200k": 1148,
+      "extra": {
+        "seeds": [
+          "Dilan Ferrari"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-186",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 56.305200000000696,
+      "tokens": 1018,
+      "tokens_o200k": 997,
+      "extra": {
+        "seeds": [
+          "Lena Foster"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-187",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 57.74569999999949,
+      "tokens": 1133,
+      "tokens_o200k": 1122,
+      "extra": {
+        "seeds": [
+          "Oliver Schulz"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-188",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 56.6851000000006,
+      "tokens": 1025,
+      "tokens_o200k": 998,
+      "extra": {
+        "seeds": [
+          "Jack Hall"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-189",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 53.181800000000294,
+      "tokens": 849,
+      "tokens_o200k": 832,
+      "extra": {
+        "seeds": [
+          "Şule Aksoy"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-190",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 56.22080000000096,
+      "tokens": 980,
+      "tokens_o200k": 962,
+      "extra": {
+        "seeds": [
+          "Hülya Dubois"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-191",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 56.777500000000146,
+      "tokens": 1021,
+      "tokens_o200k": 968,
+      "extra": {
+        "seeds": [
+          "Gökhan Aksoy"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-192",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 73.00750000000153,
+      "tokens": 1142,
+      "tokens_o200k": 1130,
+      "extra": {
+        "seeds": [
+          "Emre Sanders"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-193",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 63.33799999999974,
+      "tokens": 1038,
+      "tokens_o200k": 998,
+      "extra": {
+        "seeds": [
+          "Alp Hall"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-194",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 54.35030000000006,
+      "tokens": 1028,
+      "tokens_o200k": 1005,
+      "extra": {
+        "seeds": [
+          "Daniel Kowalski"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-195",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 59.54290000000037,
+      "tokens": 959,
+      "tokens_o200k": 943,
+      "extra": {
+        "seeds": [
+          "Yeliz Young"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-196",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 84.79290000000037,
+      "tokens": 1156,
+      "tokens_o200k": 1132,
+      "extra": {
+        "seeds": [
+          "Tolga Aslan"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-197",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 50.07560000000012,
+      "tokens": 925,
+      "tokens_o200k": 886,
+      "extra": {
+        "seeds": [
+          "Robert Williams"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-198",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": true,
+      "evAny": true,
+      "leaks": [],
+      "ms": 67.18839999999909,
+      "tokens": 901,
+      "tokens_o200k": 874,
+      "extra": {
+        "seeds": [
+          "Ivan Mitchell"
+        ]
+      }
+    },
+    {
+      "qid": "3hop-199",
+      "cat": "multihop3",
+      "asker": "owner",
+      "method": "recallGraph",
+      "hit": true,
+      "evAll": false,
+      "evAny": true,
+      "leaks": [],
+      "ms": 58.33729999999923,
+      "tokens": 955,
+      "tokens_o200k": 931,
+      "extra": {
+        "seeds": [
+          "İrem Cook"
+        ]
+      }
+    }
+  ]
+}

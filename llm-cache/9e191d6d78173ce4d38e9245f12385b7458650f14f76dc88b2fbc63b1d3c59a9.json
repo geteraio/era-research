@@ -1,0 +1,1 @@
+{"model":"claude-haiku-5-5","at":"2026-10-22T07:08:52.972Z","coalesced":true,"system":"Return ONLY a JSON array: [{\"x\": <the input number doubled>}]","userHead":"number: 2","text":"[{\"x\":4}]"}

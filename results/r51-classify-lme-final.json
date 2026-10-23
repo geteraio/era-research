@@ -1,0 +1,94 @@
+{
+  "65240037": {
+    "cause": "missing",
+    "why": "The tea tree oil dilution advice (1:10) appears only in an assistant turn, and no memory fact about tea tree oil or dilution ratios is in the context."
+  },
+  "gpt4_fe651585": {
+    "cause": "gold",
+    "why": "The evidence turns support only Rachel's twins (Feb 2022) and Alex's adoption (Jan 2023), so Alex being first rests only on a dubious graph edge (Alex parent_of Olivia) that the evidence does not establish."
+  },
+  "618f13b2": {
+    "cause": "missing",
+    "why": "The wear-count statements ('four times', 'six times') from the 2023/05/30 turns are not in the memory context, which holds only a general fact about owning the Converses."
+  },
+  "9bbe84a2": {
+    "cause": "missing",
+    "why": "The earlier level-100 goal from the 2023/06/16 turn is absent from the memory context, which shows only the level-150 goal and an aim-improvement goal."
+  },
+  "1d4da289": {
+    "cause": "missing",
+    "why": "The 2FA methods appear only in an assistant turn that the system never learns, and the memory context contains no 2FA content at all."
+  },
+  "60472f9c": {
+    "cause": "answerer",
+    "why": "The two course projects (Data Mining and Database Systems) were in context, but the answer model added the unrelated tournament simulator to reach 3."
+  },
+  "6456829e": {
+    "cause": "answerer",
+    "why": "Both counts (5 tomato plants initially, 3 cucumber plants) were in context, but the answer model hedged and gave the total of 8 only conditionally."
+  },
+  "32260d93": {
+    "cause": "answerer",
+    "why": "The context states the user is an aspiring stand-up comedian who wants Netflix stand-up specials, but the answer model chose true-crime and Egypt titles instead."
+  },
+  "eac54add": {
+    "cause": "missing",
+    "why": "The visible context has no fact about signing a first client contract on 2023-03-01; the closest entries are QuickBooks estimates as contracts and the website launch."
+  },
+  "51a45a95": {
+    "cause": "gold",
+    "why": "The evidence says only that the coffee creamer coupon was redeemed, never naming Target, so the gold store is an inference the conversation doesn't state."
+  },
+  "d905b33f": {
+    "cause": "multihop",
+    "why": "The $30 original price is in context, but the $24 sale price that gives the 20% discount comes from a separate 05/23 turn that is not in context."
+  },
+  "8979f9ec": {
+    "cause": "multihop",
+    "why": "The 5 lunches from lentil soup are in context, but the 'third meal' count for the chicken fajitas from the 05/24 turn is missing, so the total of 8 cannot be formed."
+  },
+  "8752c811": {
+    "cause": "missing",
+    "why": "The 100-parameter list (including item 27, Sound effects) appears only in an assistant turn, and no memory context entry contains it."
+  },
+  "6222b6eb": {
+    "cause": "missing",
+    "why": "The memory context has only the user's comparison question; the fact that SIAC_GEE implements 6S is stated only in an assistant turn and never reaches the context."
+  },
+  "4388e9dd": {
+    "cause": "missing",
+    "why": "The script's description of Andy's untidy, stained white shirt is in the user's brief and the assistant's script, and neither appears in the memory context."
+  },
+  "7a8d0b71": {
+    "cause": "missing",
+    "why": "The $2,000 influencer budget appears only in the assistant's campaign plan, and the context contains no DHL Wellness Retreats campaign facts."
+  },
+  "e982271f": {
+    "cause": "missing",
+    "why": "The memory context holds only the user's side of the 2023/05/25 Portland chat, so the assistant's numbered venue list and its last entry, Revolution Hall, never reach the answer model."
+  },
+  "89527b6b": {
+    "cause": "missing",
+    "why": "No memory fact mentions the dinosaur children's book or the Plesiosaur's color; the relevant assistant turn is absent from the context."
+  },
+  "70b3e69b": {
+    "cause": "missing",
+    "why": "The context has no Catalonia, Catalan music, or Manolo García facts; the example appears only in an assistant turn that was not surfaced."
+  },
+  "b759caee": {
+    "cause": "missing",
+    "why": "Nothing in the memory context covers engagement ring designers or the Jessica Poole handle; the designer list exists only in an assistant turn from 2023/05/27."
+  },
+  "51b23612": {
+    "cause": "missing",
+    "why": "The Nu, pogodi! cartoon appears only in a truncated assistant turn and no memory fact or retrieved line names it, so the answer model had nothing to draw on."
+  },
+  "gpt4_1d4ab0c9": {
+    "cause": "multihop",
+    "why": "The harvest date (2023-04-15) is in context, but the watering start date from the 2023-03-22 user message, which the 24-day answer depends on, is not."
+  },
+  "gpt4_7a0daae1": {
+    "cause": "multihop",
+    "why": "The receipt date (2023-03-17) is in context, but the purchase date from the 2023-03-10 message, which the one-week answer depends on, is not."
+  }
+}

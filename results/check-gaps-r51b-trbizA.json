@@ -1,0 +1,400 @@
+{
+  "at": "2026-10-22T11:20:19.483Z",
+  "ok": [
+    "3 stripe:charge → finance",
+    "3 paypal:transaction → finance",
+    "3 iyzico:payout → finance",
+    "3 gusto-payroll:record (slug words) → employees",
+    "3 notes:note stays unplaced",
+    "3 backfill places an old stripe:charge row",
+    "3 no connector row left that the rule would place (whole quickera_test)",
+    "1/2 research as none: no error",
+    "1/2 research as none: 0 leaks",
+    "1/2 research as none: shared fact still read",
+    "1/2 research as sales: no error",
+    "1/2 research as sales: 0 leaks",
+    "1/2 research as sales: shared fact still read",
+    "1/2 research as finance: no error",
+    "1/2 research as finance: 0 leaks",
+    "1/2 research as finance: shared fact still read",
+    "1/2 research as finance: finance member sees stripe, not payroll",
+    "1/2 research as owner: no error",
+    "1/2 research as owner: 0 leaks",
+    "1/2 research as owner: shared fact still read",
+    "1/2 research as owner: owner still sees finance + own personal",
+    "1/2 workflowBlock as none: no error",
+    "1/2 workflowBlock as none: 0 leaks",
+    "1/2 workflowBlock as none: shared fact still read",
+    "1/2 workflowBlockOrgSel as none: no error",
+    "1/2 workflowBlockOrgSel as none: 0 leaks",
+    "1/2 workflowBlockOrgSel as none: shared fact still read",
+    "1/2 copilotContext as none: no error",
+    "1/2 copilotContext as none: 0 leaks",
+    "1/2 copilotContext as none: shared fact still read",
+    "1/2 copilotContext as sales: no error",
+    "1/2 copilotContext as sales: 0 leaks",
+    "1/2 copilotContext as sales: shared fact still read",
+    "1/2 copilotContext as finance: no error",
+    "1/2 copilotContext as finance: 0 leaks",
+    "1/2 copilotContext as finance: shared fact still read",
+    "1/2 copilotContext as finance: finance member sees stripe, not payroll",
+    "1/2 copilotContext as owner: no error",
+    "1/2 copilotContext as owner: 0 leaks",
+    "1/2 copilotContext as owner: shared fact still read",
+    "1/2 copilotContext as owner: owner still sees finance + own personal",
+    "1/2 graphContext as none: no error",
+    "1/2 graphContext as none: 0 leaks",
+    "1/2 graphContext as none: shared fact still read",
+    "1/2 graphContext as sales: no error",
+    "1/2 graphContext as sales: 0 leaks",
+    "1/2 graphContext as sales: shared fact still read",
+    "1/2 graphContext as finance: no error",
+    "1/2 graphContext as finance: 0 leaks",
+    "1/2 graphContext as finance: shared fact still read",
+    "1/2 graphContext as finance: finance member sees stripe, not payroll",
+    "1/2 graphContext as owner: no error",
+    "1/2 graphContext as owner: 0 leaks",
+    "1/2 graphContext as owner: shared fact still read",
+    "1/2 graphContext as owner: owner still sees finance + own personal",
+    "1/2 meetingsBrief as none: no error",
+    "1/2 meetingsBrief as none: 0 leaks",
+    "1/2 meetingsBrief as none: shared fact still read",
+    "1/2 meetingsBrief as sales: no error",
+    "1/2 meetingsBrief as sales: 0 leaks",
+    "1/2 meetingsBrief as sales: shared fact still read",
+    "1/2 meetingsBrief as finance: no error",
+    "1/2 meetingsBrief as finance: 0 leaks",
+    "1/2 meetingsBrief as finance: shared fact still read",
+    "1/2 meetingsBrief as finance: finance member sees stripe, not payroll",
+    "1/2 meetingsBrief as owner: no error",
+    "1/2 meetingsBrief as owner: 0 leaks",
+    "1/2 meetingsBrief as owner: shared fact still read",
+    "1/2 manageList as none: no error",
+    "1/2 manageList as none: 0 leaks",
+    "1/2 manageList as sales: no error",
+    "1/2 manageList as sales: 0 leaks",
+    "1/2 manageList as sales: shared fact still read",
+    "1/2 manageList as finance: no error",
+    "1/2 manageList as finance: 0 leaks",
+    "1/2 manageList as finance: shared fact still read",
+    "1/2 manageList as finance: finance member sees stripe, not payroll",
+    "1/2 manageList as owner: no error",
+    "1/2 manageList as owner: 0 leaks",
+    "1/2 manageList as owner: shared fact still read",
+    "1/2 manageList as owner: owner still sees finance + own personal",
+    "1/2 manageRecall as none: no error",
+    "1/2 manageRecall as none: 0 leaks",
+    "1/2 manageRecall as none: shared fact still read",
+    "1/2 manageRecall as sales: no error",
+    "1/2 manageRecall as sales: 0 leaks",
+    "1/2 manageRecall as sales: shared fact still read",
+    "1/2 manageRecall as finance: no error",
+    "1/2 manageRecall as finance: 0 leaks",
+    "1/2 manageRecall as finance: shared fact still read",
+    "1/2 manageRecall as finance: finance member sees stripe, not payroll",
+    "1/2 manageRecall as owner: no error",
+    "1/2 manageRecall as owner: 0 leaks",
+    "1/2 manageRecall as owner: shared fact still read",
+    "1/2 manageRecall as owner: owner still sees finance + own personal",
+    "cleanup: gaps tenant gone",
+    "4 r51b-trbizA research as none: 0 leaks / 0 errors over 370 q",
+    "4 r51b-trbizA research as sales: 0 leaks / 0 errors over 370 q",
+    "4 r51b-trbizA research as finance: 0 leaks / 0 errors over 370 q",
+    "4 r51b-trbizA workflowBlock as none: 0 leaks / 0 errors over 370 q",
+    "4 r51b-trbizA workflowBlockOrgSel as none: 0 leaks / 0 errors over 370 q",
+    "4 r51b-trbizA manageRecall as none: 0 leaks / 0 errors over 370 q",
+    "4 r51b-trbizA manageRecall as sales: 0 leaks / 0 errors over 370 q",
+    "4 r51b-trbizA manageList as none: 0 leaks / 0 errors over 370 q",
+    "4 r51b-trbizA manageList as sales: 0 leaks / 0 errors over 370 q",
+    "4 r51b-trbizA copilotContext as none: 0 leaks / 0 errors over 370 q",
+    "4 r51b-trbizA copilotContext as sales: 0 leaks / 0 errors over 370 q",
+    "4 r51b-trbizA graphContext as none: 0 leaks / 0 errors over 370 q",
+    "4 r51b-trbizA graphContext as sales: 0 leaks / 0 errors over 370 q",
+    "4 r51b-trbizA meetingsBrief as none: 0 leaks / 0 errors over 370 q",
+    "4 r51b-trbizA meetingsBrief as sales: 0 leaks / 0 errors over 370 q"
+  ],
+  "bad": [],
+  "summary": [
+    {
+      "path": "research",
+      "reader": "none",
+      "n": 370,
+      "leakQueries": 0,
+      "leakByClass": {},
+      "errors": 0,
+      "answerInContext": 43,
+      "ms": {
+        "n": 370,
+        "p50": 59.080699999998615,
+        "p95": 87.53130000000237,
+        "max": 720.2649999999994,
+        "mean": 66.1287524324326
+      }
+    },
+    {
+      "path": "research",
+      "reader": "sales",
+      "n": 370,
+      "leakQueries": 0,
+      "leakByClass": {},
+      "errors": 0,
+      "answerInContext": 93,
+      "ms": {
+        "n": 370,
+        "p50": 74.17460000001302,
+        "p95": 112.07709999999497,
+        "max": 688.6906999999919,
+        "mean": 82.59081648648666
+      }
+    },
+    {
+      "path": "research",
+      "reader": "finance",
+      "n": 370,
+      "leakQueries": 0,
+      "leakByClass": {},
+      "errors": 0,
+      "answerInContext": 106,
+      "ms": {
+        "n": 370,
+        "p50": 75.55189999999129,
+        "p95": 99.35330000000249,
+        "max": 211.83430000000226,
+        "mean": 78.1788075675671
+      }
+    },
+    {
+      "path": "researchBefore",
+      "reader": "none",
+      "n": 370,
+      "leakQueries": 87,
+      "leakByClass": {
+        "finance-record-untagged": 52,
+        "employees-tagged": 23,
+        "personal": 28,
+        "finance-tagged": 15
+      },
+      "errors": 0,
+      "answerInContext": 131,
+      "ms": {
+        "n": 370,
+        "p50": 70.17789999999513,
+        "p95": 116.18739999999525,
+        "max": 774.7109999999957,
+        "mean": 76.96624540540506
+      }
+    },
+    {
+      "path": "workflowBlock",
+      "reader": "none",
+      "n": 370,
+      "leakQueries": 0,
+      "leakByClass": {},
+      "errors": 0,
+      "answerInContext": 46,
+      "ms": {
+        "n": 370,
+        "p50": 289.07439999998314,
+        "p95": 447.03570000000764,
+        "max": 1361.701000000001,
+        "mean": 302.6999164864865
+      }
+    },
+    {
+      "path": "workflowBlockOrgSel",
+      "reader": "none",
+      "n": 370,
+      "leakQueries": 0,
+      "leakByClass": {},
+      "errors": 0,
+      "answerInContext": 46,
+      "ms": {
+        "n": 370,
+        "p50": 282.92679999998654,
+        "p95": 447.66539999999804,
+        "max": 1236.3489999999874,
+        "mean": 295.2144437837824
+      }
+    },
+    {
+      "path": "workflowBlockBefore",
+      "reader": "none",
+      "n": 370,
+      "leakQueries": 305,
+      "leakByClass": {
+        "finance-record-untagged": 288,
+        "finance-tagged": 24,
+        "employees-tagged": 41
+      },
+      "errors": 0,
+      "answerInContext": 349,
+      "ms": {
+        "n": 370,
+        "p50": 175.9814999999944,
+        "p95": 394.87119999999413,
+        "max": 1296.6547000000137,
+        "mean": 201.68799918918978
+      }
+    },
+    {
+      "path": "manageRecall",
+      "reader": "none",
+      "n": 370,
+      "leakQueries": 0,
+      "leakByClass": {},
+      "errors": 0,
+      "answerInContext": 44,
+      "ms": {
+        "n": 370,
+        "p50": 46.37989999999991,
+        "p95": 71.68559999996796,
+        "max": 100.26209999999264,
+        "mean": 49.59213459459401
+      }
+    },
+    {
+      "path": "manageRecall",
+      "reader": "sales",
+      "n": 370,
+      "leakQueries": 0,
+      "leakByClass": {},
+      "errors": 0,
+      "answerInContext": 97,
+      "ms": {
+        "n": 370,
+        "p50": 60.66009999997914,
+        "p95": 85.86370000004536,
+        "max": 197.1069000000134,
+        "mean": 62.44966972973135
+      }
+    },
+    {
+      "path": "manageList",
+      "reader": "none",
+      "n": 370,
+      "leakQueries": 0,
+      "leakByClass": {},
+      "errors": 0,
+      "answerInContext": 34,
+      "ms": {
+        "n": 370,
+        "p50": 334.58009999990463,
+        "p95": 574.0176999999676,
+        "max": 2590.2016000000294,
+        "mean": 390.3500218918909
+      }
+    },
+    {
+      "path": "manageList",
+      "reader": "sales",
+      "n": 370,
+      "leakQueries": 0,
+      "leakByClass": {},
+      "errors": 0,
+      "answerInContext": 96,
+      "ms": {
+        "n": 370,
+        "p50": 983.3717000000179,
+        "p95": 1639.015800000052,
+        "max": 3822.24589999998,
+        "mean": 1090.9884167567598
+      }
+    },
+    {
+      "path": "copilotContext",
+      "reader": "none",
+      "n": 370,
+      "leakQueries": 0,
+      "leakByClass": {},
+      "errors": 0,
+      "answerInContext": 32,
+      "ms": {
+        "n": 370,
+        "p50": 196.37550000008196,
+        "p95": 328.50479999999516,
+        "max": 1355.3024999999907,
+        "mean": 205.8738810810833
+      }
+    },
+    {
+      "path": "copilotContext",
+      "reader": "sales",
+      "n": 370,
+      "leakQueries": 0,
+      "leakByClass": {},
+      "errors": 0,
+      "answerInContext": 270,
+      "ms": {
+        "n": 370,
+        "p50": 194.50520000001416,
+        "p95": 302.60149999987334,
+        "max": 752.0243999999948,
+        "mean": 203.46866540540563
+      }
+    },
+    {
+      "path": "graphContext",
+      "reader": "none",
+      "n": 370,
+      "leakQueries": 0,
+      "leakByClass": {},
+      "errors": 0,
+      "answerInContext": 40,
+      "ms": {
+        "n": 370,
+        "p50": 109.98109999997541,
+        "p95": 197.99890000000596,
+        "max": 727.8887000000104,
+        "mean": 127.51428756757035
+      }
+    },
+    {
+      "path": "graphContext",
+      "reader": "sales",
+      "n": 370,
+      "leakQueries": 0,
+      "leakByClass": {},
+      "errors": 0,
+      "answerInContext": 95,
+      "ms": {
+        "n": 370,
+        "p50": 137.45109999994747,
+        "p95": 215.82609999994747,
+        "max": 803.3681000000797,
+        "mean": 148.0082451351396
+      }
+    },
+    {
+      "path": "meetingsBrief",
+      "reader": "none",
+      "n": 370,
+      "leakQueries": 0,
+      "leakByClass": {},
+      "errors": 0,
+      "answerInContext": 34,
+      "ms": {
+        "n": 370,
+        "p50": 62.75839999993332,
+        "p95": 368.25459999986924,
+        "max": 1663.2349000000395,
+        "mean": 108.75391729729489
+      }
+    },
+    {
+      "path": "meetingsBrief",
+      "reader": "sales",
+      "n": 370,
+      "leakQueries": 0,
+      "leakByClass": {},
+      "errors": 0,
+      "answerInContext": 79,
+      "ms": {
+        "n": 370,
+        "p50": 78.5730999999214,
+        "p95": 170.2210999999661,
+        "max": 2190.4874000002164,
+        "mean": 108.86172594594882
+      }
+    }
+  ]
+}

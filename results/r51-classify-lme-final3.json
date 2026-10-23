@@ -1,0 +1,102 @@
+{
+  "65240037": {
+    "cause": "missing",
+    "why": "The tea tree oil dilution advice (1:10) appears only in an assistant turn, and the memory context contains no fact about tea tree oil or carrier-oil ratios."
+  },
+  "001be529": {
+    "cause": "missing",
+    "why": "The asylum wait fact never appears in the memory context; only the full conversation contains the \"over a year\" statement."
+  },
+  "d905b33f": {
+    "cause": "multihop",
+    "why": "The context has the $30 original price, but the $24 sale price from the separate 2023/05/23 session is absent, so the discount can't be computed."
+  },
+  "gpt4_1d4ab0c9": {
+    "cause": "missing",
+    "why": "The context has the April 15 harvest date but no fact recording the March 22 start of watering, so the day count is impossible."
+  },
+  "gpt4_59149c78": {
+    "cause": "answerer",
+    "why": "The context includes the Met \"Ancient Civilizations\" visit dated 2023-01-15, about two weeks before 2023/02/01, but the answer model chose the City Art Museum instead."
+  },
+  "8979f9ec": {
+    "cause": "missing",
+    "why": "The lentil soup fact (5 lunches) is in context, but the fact that the chicken fajitas yielded 3 meals is absent, so the total of 8 cannot be formed."
+  },
+  "bc149d6b": {
+    "cause": "answerer",
+    "why": "Both the 50-lb layer feed and the 20-lb scratch grains are in context as chicken feed bought in the window, so 70 was supported, but the model chose 50 as its main answer and only hedged on 70."
+  },
+  "51a45a95": {
+    "cause": "answerer",
+    "why": "The context has the coupon redemption plus the user's Target and Cartwheel facts, so Target could be inferred, but the model abstained instead of connecting them."
+  },
+  "gpt4_b5700ca0": {
+    "cause": "answerer",
+    "why": "The Maundy Thursday service (April 6) is in context and falls within the week before the April 10 question date, but the answer model wrongly reasoned it was 'this week' and abstained."
+  },
+  "gpt4_7a0daae1": {
+    "cause": "missing",
+    "why": "The purchase date (March 10, 'bought today') is not in the memory context, so the model could only see the March 17 receipt and correctly said the interval couldn't be computed."
+  },
+  "eac54add": {
+    "cause": "missing",
+    "why": "The fact that the user signed a contract with their first client (dated around March 1) is absent from the memory context, which only has an unrelated QuickBooks-contract fact."
+  },
+  "gpt4_d9af6064": {
+    "cause": "missing",
+    "why": "The smart thermostat setup on 2/10 is not in the visible memory context, so the model had only the router date and could not compare the two devices."
+  },
+  "gpt4_fe651585": {
+    "cause": "date",
+    "why": "The memory has Rachel's twins born 'February 12' with no year, and the answer model guessed 2022, which put Rachel first, while the gold depends on the 2023 birth year (after Alex's January 2023 adoption)."
+  },
+  "618f13b2": {
+    "cause": "missing",
+    "why": "The wear count ('six times') appears only in a user turn from 2023/05/30 that is absent from the memory context, which lists only the sneakers' ownership and comfort."
+  },
+  "9bbe84a2": {
+    "cause": "missing",
+    "why": "The earlier level-100 goal from the 2023/06/16 user message is not in the memory context, which records only the level-150 goal and an aim-improvement goal."
+  },
+  "1d4da289": {
+    "cause": "missing",
+    "why": "The biometric/OTP examples were in an assistant turn that the memory system never stored, and the context contains no 2FA method details."
+  },
+  "8752c811": {
+    "cause": "missing",
+    "why": "The 100-parameter list and its 27th item (Sound effects) appear only in the assistant turn, and the memory context contains no part of that list."
+  },
+  "6222b6eb": {
+    "cause": "missing",
+    "why": "The fact that SIAC_GEE uses the 6S model is only in the assistant turn; the context mentions the four methods but not which one SIAC_GEE implements."
+  },
+  "4388e9dd": {
+    "cause": "missing",
+    "why": "The detail that Andy wears an untidy, stained white shirt is in the user's script brief, and the memory context has no Andy or script facts."
+  },
+  "7a8d0b71": {
+    "cause": "missing",
+    "why": "The $2,000 influencer marketing allocation appears only in the assistant's campaign plan, and the context has no DHL campaign or budget facts."
+  },
+  "51b23612": {
+    "cause": "missing",
+    "why": "The cartoon name 'Nu, pogodi!' appears only in an assistant turn, and the memory context holds only the user's messages from that session, so the needed fact never reached the answer model."
+  },
+  "e982271f": {
+    "cause": "missing",
+    "why": "The memory context has no fact listing the Portland venues, so Revolution Hall never reached the answer model."
+  },
+  "89527b6b": {
+    "cause": "missing",
+    "why": "No memory fact mentions the dinosaur children's book or the Plesiosaur's blue scaly body, so the answer model had nothing to draw on."
+  },
+  "70b3e69b": {
+    "cause": "missing",
+    "why": "The Catalonia literature and music conversation and the Manolo García example are absent from the memory context."
+  },
+  "b759caee": {
+    "cause": "missing",
+    "why": "The engagement ring designer conversation and the @jessica_poole_jewellery handle are absent from the memory context."
+  }
+}

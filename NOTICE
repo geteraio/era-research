@@ -1,0 +1,16 @@
+Era Research
+Copyright (c) 2026 Era
+
+This repository contains third-party material:
+
+- harness/mem0ref/prompts.py and harness/mem0ref/llm_judge.py: from mem0ai/mem0
+  (https://github.com/mem0ai/mem0) at commit aae5989e78a6188b3b047c104d960c9ad0927e75,
+  evaluation/prompts.py and evaluation/metrics/llm_judge.py. Apache License 2.0,
+  Copyright (c) Mem0. Used unmodified as reference for the answer and judge prompts.
+- harness/mem0ref/lme_run_generation.py and harness/mem0ref/lme_evaluate_qa.py: from
+  LongMemEval (https://github.com/xiaowu0162/LongMemEval), MIT License. Used unmodified as
+  reference for the answer templates and the per-type judge prompts.
+- results/ and llm-cache/ quote the LoCoMo-10 dataset (CC BY-NC 4.0) and LongMemEval-S cleaned
+  (MIT) in the questions, contexts and answers they record.
+
+See THIRD_PARTY_NOTICES.md for the license terms.

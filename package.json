@@ -1,0 +1,15 @@
+{
+  "name": "era-research",
+  "private": true,
+  "type": "module",
+  "description": "Era Brain benchmarks: harness, datasets, results and the technical report.",
+  "license": "MIT",
+  "scripts": {
+    "fetch-data": "bash scripts/fetch-data.sh",
+    "report": "node report/build.cjs"
+  },
+  "dependencies": {
+    "js-tiktoken": "1.0.15",
+    "postgres": "^3.4.5"
+  }
+}

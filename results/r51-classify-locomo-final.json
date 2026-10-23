@@ -1,0 +1,1438 @@
+{
+  "conv-26-5": {
+    "cause": "gold",
+    "why": "Melanie said \"last Saturday\" on 25 May 2023, which resolves to Saturday 20 May; the gold's \"Sunday before 25 May\" (21 May) is not supported by the conversation."
+  },
+  "conv-26-12": {
+    "cause": "answerer",
+    "why": "The context states the birthday was about ten years before June 2023, but the answer model measured from today's date (2026) instead of the conversation time."
+  },
+  "conv-26-26": {
+    "cause": "missing",
+    "why": "The turn saying Melanie read the book \"last year\" (in July 2023, so 2022) is not in the memory context, and no fact about that book or its reading year appears there."
+  },
+  "conv-26-29": {
+    "cause": "buried",
+    "why": "The context says only \"in the days before 15 July 2023\" and drops the \"last Friday\" detail (14 July) that the gold names."
+  },
+  "conv-26-30": {
+    "cause": "answerer",
+    "why": "The context has enough to infer that Melanie is unlikely to be LGBTQ, since she never identifies that way, but the answer model abstained with \"not stated.\""
+  },
+  "conv-26-52": {
+    "cause": "answerer",
+    "why": "The answer model's reasoning cites the earlier Luna note as superseded, so Luna was in its context, but it dropped Luna from the final list."
+  },
+  "conv-26-56": {
+    "cause": "gold",
+    "why": "The evidence turns never mention a transgender symbol, so the gold's second item is unsupported, while the eagle is actually described as a symbol in the evidence."
+  },
+  "conv-26-57": {
+    "cause": "date",
+    "why": "The hike fact is in context but dated 2023-08-17, so the answer resolved the 'last week' reference to the wrong absolute week instead of the week before 25 August."
+  },
+  "conv-26-65": {
+    "cause": "answerer",
+    "why": "Both the changing-body fact and the lost-friends fact are in context, but the answer model left out the body changes that the gold names."
+  },
+  "conv-26-66": {
+    "cause": "answerer",
+    "why": "The context explicitly states the family roasts marshmallows and tells stories around the campfire, yet the answer model chose the less relevant 'explore forests' detail."
+  },
+  "conv-26-33": {
+    "cause": "answerer",
+    "why": "The 'last week of June 2023' pride parade fact is in context and matches the gold, but the answer model hedged with a second, conflicting date (11 August)."
+  },
+  "conv-26-37": {
+    "cause": "buried",
+    "why": "The July sunset-with-palm-tree painting fact is in the context but is drowned among many painting facts, and the model chose the newer August sunflower."
+  },
+  "conv-26-38": {
+    "cause": "missing",
+    "why": "Facts for the museum visit, swimming, and painting with the kids are not in the shown context, and the answer also listed unsupported activities like the road trip and volunteering."
+  },
+  "conv-26-40": {
+    "cause": "buried",
+    "why": "The second beach trip (camping at the beach, 6 July) is in context only as a vague undated fact, and the model concluded there was just one trip."
+  },
+  "conv-26-43": {
+    "cause": "missing",
+    "why": "The abstract-painting fact (October 2023) does not appear in this item's shown context and is not in its evidence turns."
+  },
+  "conv-26-80": {
+    "cause": "missing",
+    "why": "The 22 October turn mentioning the figurines bought 'yesterday' (i.e., 21 October) is not in the visible memory context, so the purchase date was never available to the answer model."
+  },
+  "conv-26-85": {
+    "cause": "buried",
+    "why": "The context only says Caroline is 'planning to adopt', without the specific 'researching adoption agencies' detail from the 25 May turn, and the answer model chose a different summer-outing fact."
+  },
+  "conv-26-95": {
+    "cause": "answerer",
+    "why": "The full fact 'explored nature, roasted marshmallows around the campfire and went on a hike' is in the context, but the answer model dropped the hike and nature exploration and added 'told stories'."
+  },
+  "conv-26-106": {
+    "cause": "missing",
+    "why": "Nothing in the memory context mentions new shoes or running; the 12 July turn where Caroline asks 'walking or running?' is absent."
+  },
+  "conv-26-113": {
+    "cause": "buried",
+    "why": "The context has the council-meeting fact only as 'made her more determined to adopt' and a separate note about wanting loving homes for children in need, without the 'many people' observation the gold names."
+  },
+  "conv-26-67": {
+    "cause": "missing",
+    "why": "The biking trip with friends is not in the visible memory context, and the omitted truncated lines are the only place it could be."
+  },
+  "conv-26-73": {
+    "cause": "missing",
+    "why": "The September 2023 pottery injury appears only in the 13 October evidence turn, and the context holds only the car accident where everyone was unharmed."
+  },
+  "conv-26-76": {
+    "cause": "answerer",
+    "why": "The context has a 19 October 2023 entry about a post-roadtrip outing (camping, children loved it), which the model overlooked while claiming no post-roadtrip outing was recorded."
+  },
+  "conv-26-77": {
+    "cause": "answerer",
+    "why": "The context has the frightening road-trip accident, which supports the gold's inference that she would likely not go on another trip soon, yet the model abstained."
+  },
+  "conv-26-78": {
+    "cause": "multihop",
+    "why": "The shoes purchase is in the context's said text for the July running fact, but the figurines purchase from October 2023 is absent, so the gold's two-item answer cannot be fully reconstructed."
+  },
+  "conv-26-114": {
+    "cause": "missing",
+    "why": "The memory context never includes Caroline's statement that sunflowers mean warmth and happiness; the only sunflower fact is about Melanie's painting."
+  },
+  "conv-26-115": {
+    "cause": "answerer",
+    "why": "The context contains both the 'appreciate small moments' and the wedding decor facts, but the answer model dropped them and gave only joy, growth, and beauty."
+  },
+  "conv-26-116": {
+    "cause": "answerer",
+    "why": "The context has the 2023-07-17 fact that Caroline painted a tree after visiting an LGBTQ center to capture unity and strength, but the answer model said it was not stated."
+  },
+  "conv-26-124": {
+    "cause": "multihop",
+    "why": "Only Oliver and Bailey are in context; the other cat and the dog (Luna, Oscar, the pup) are not linked to Melanie in the memories, so the second hop is missing."
+  },
+  "conv-26-128": {
+    "cause": "missing",
+    "why": "Nothing in the memory context mentions a rainbow sidewalk or the neighborhood walk; the nearby rainbow flag mural is a different item."
+  },
+  "conv-26-133": {
+    "cause": "buried",
+    "why": "The context mentions a café sign only as a precaution with no content, while the gold names the specific sign text about someone not being able to leave, which is only in the full conversation."
+  },
+  "conv-26-134": {
+    "cause": "missing",
+    "why": "Caroline's specific adoption advice (research, agency or lawyer, documents, emotional preparation) from the 2023-10-13 turn is not in the memory context; only the mentor contact is."
+  },
+  "conv-26-135": {
+    "cause": "missing",
+    "why": "Melanie's injury and pottery break from the 2023-10-13 turn is absent; the context only has the son's car accident from a different event."
+  },
+  "conv-26-136": {
+    "cause": "buried",
+    "why": "The context has reading and painting only as general me-time or feelings facts, drowned among running and violin, and not tied to the pottery break, so the answer picked the wrong set."
+  },
+  "conv-26-137": {
+    "cause": "missing",
+    "why": "The sunset-with-pink-sky painting shown on 2023-10-13 is not in the context; the only sunset painting listed is a different July 2023 sunset-with-palm-tree piece."
+  },
+  "conv-26-138": {
+    "cause": "answerer",
+    "why": "The context includes the 2023-10-13 fact that Caroline was experimenting with abstract painting, but the answer model chose a drawing of a woman from the poetry-reading memory instead."
+  },
+  "conv-26-142": {
+    "cause": "missing",
+    "why": "Caroline's \"ongoing adventure of learning and growing\" line does not appear in the visible memory context, and the full-conversation run had access to it."
+  },
+  "conv-26-147": {
+    "cause": "answerer",
+    "why": "The graph line \"especially thankful for them after the accident\" is in context, but the answer model reported only the scared and relieved details."
+  },
+  "conv-26-151": {
+    "cause": "missing",
+    "why": "The context has only the camping trip after the road trip; the post-road-trip hike that the gold names is not in it, though the full-conversation run found a hike."
+  },
+  "conv-30-0": {
+    "cause": "date",
+    "why": "The job-loss memory is present but dated 2023-03-16 and framed as \"before April,\" so the answer lacks the 19 January 2023 date that the 20 January \"yesterday\" turn gives."
+  },
+  "conv-30-3": {
+    "cause": "multihop",
+    "why": "Gina's job loss at Door Dash is in the context, but the fact that Jon lost his banking job is not, so the shared-experience answer cannot be assembled."
+  },
+  "conv-30-9": {
+    "cause": "answerer",
+    "why": "The context states Jon took a trip to Rome in June 2023, and the model wrongly abstained, claiming no evidence linked Jon to a city both visited."
+  },
+  "conv-30-31": {
+    "cause": "gold",
+    "why": "The evidence dates (Jon lost his job 20 January 2023, studio opened around 20 June 2023) give about five months, so the gold 'six months' is not supported."
+  },
+  "conv-30-38": {
+    "cause": "date",
+    "why": "The 23 July 2023 turn says 'last Friday', which resolves to 21 July 2023, but the model wrongly resolved it to 14 July."
+  },
+  "conv-30-43": {
+    "cause": "answerer",
+    "why": "The context includes Jon's group finishing choreography for a February 2023 festival performance, but the model picked a self-expression reading from a different turn."
+  },
+  "conv-30-44": {
+    "cause": "missing",
+    "why": "The memory context never includes Gina's remark that the dancers look graceful; the only nearby 'graceful' fact is about contemporary dance in general, and the full conversation supplies the detail."
+  },
+  "conv-30-47": {
+    "cause": "buried",
+    "why": "The gold 'perfect spot' appears only in Jon's line inside a long 'said:' snippet attached to a different fact, so the answer model latched onto the wholesaler fact instead."
+  },
+  "conv-30-48": {
+    "cause": "answerer",
+    "why": "The context states she designed the store with comfortable furniture and a glamorous chandelier, and the model's own reasoning cites it, but its answer dropped the space/furniture/decor detail."
+  },
+  "conv-30-49": {
+    "cause": "answerer",
+    "why": "The 'cozy' wording Gina used about making customers feel cozy is in the context snippet, but the model chose the 'cool oasis' phrase instead."
+  },
+  "conv-30-52": {
+    "cause": "missing",
+    "why": "Jon's statement that a special customer experience is the key to making customers feel welcome and return is not in the memory context; the context only has Gina's words from that exchange."
+  },
+  "conv-41-0": {
+    "cause": "missing",
+    "why": "The dinner with her mom (\"My mom and I made some dinner together last night\", said on 4 May) appears nowhere in the memory context."
+  },
+  "conv-41-10": {
+    "cause": "date",
+    "why": "The Jean meeting is in context but undated; the source's \"yesterday\" (said 25 Feb) was never resolved to 24 Feb, so the answer only had the recording date's month."
+  },
+  "conv-41-11": {
+    "cause": "missing",
+    "why": "The visible context has no Cindy or Laura facts (Laura appears only in another item's context), so the answer model could not list them."
+  },
+  "conv-41-19": {
+    "cause": "missing",
+    "why": "The car breakdown (\"my car broke down last Fri\") is not in the visible memory facts, which show only the windshield incident."
+  },
+  "conv-41-27": {
+    "cause": "buried",
+    "why": "The party fact is in context but only as \"May 2023\", dropping the \"Friday before 20 May\" detail the gold names."
+  },
+  "conv-30-56": {
+    "cause": "buried",
+    "why": "The context has a summary fact that Jon and Gina support each other, but the dance-partner analogy the gold names is absent from the truncated said: text."
+  },
+  "conv-30-62": {
+    "cause": "buried",
+    "why": "The context's motivation fact names goals, support, and dancing, but drops the gold's 'reminding herself of successes and progress' and 'why she started' details."
+  },
+  "conv-30-71": {
+    "cause": "missing",
+    "why": "The 'studio looks amazing' line from the 19 June conversation is not in the memory context, so the answer model had no way to produce 'amazing'."
+  },
+  "conv-30-73": {
+    "cause": "missing",
+    "why": "The 'it's magical' line from the 19 June 10:04 am turn is not in the memory context; only other dance facts appear."
+  },
+  "conv-30-78": {
+    "cause": "missing",
+    "why": "Gina's 9 July praise of Jon's positivity and determination is not in the memory context; the answer drew on an unrelated mentoring fact."
+  },
+  "conv-41-31": {
+    "cause": "gold",
+    "why": "Nothing in the evidence turns or memory context mentions getting Max in 2013, and the full-conversation run also found no date, so the gold is unsupported."
+  },
+  "conv-41-32": {
+    "cause": "multihop",
+    "why": "The mountaineering trip with workmates is in context, but the hiking activity with colleagues is a second list member that is not in the memory context."
+  },
+  "conv-41-36": {
+    "cause": "buried",
+    "why": "The violin concert fact is in the memory FACTS list but sits low among many similar event facts, so the answer model listed only the live music event."
+  },
+  "conv-41-48": {
+    "cause": "gold",
+    "why": "The 31 July message says 'last Sunday,' which is 30 July 2023, so the gold 'Sunday before 3 July 2023' is not supported by the conversation."
+  },
+  "conv-41-62": {
+    "cause": "gold",
+    "why": "The evidence shows Shadow came from 'a shelter' and says nothing about Coco's origin, so the gold count of two is not supported and 'not stated' is defensible."
+  },
+  "conv-41-75": {
+    "cause": "buried",
+    "why": "The context has the Jean-meeting memory from the same session, but it omits the divorce, job loss, and homelessness detail, and 7 lines were truncated."
+  },
+  "conv-41-82": {
+    "cause": "answerer",
+    "why": "The context states that John graduated from university in late March 2023, which supports the gold answer, but the answer model said nothing was mentioned."
+  },
+  "conv-41-86": {
+    "cause": "missing",
+    "why": "Nothing in the visible context says John's car broke down or strained his wallet; the only car memory is the December 2022 windshield incident."
+  },
+  "conv-41-94": {
+    "cause": "missing",
+    "why": "The context has no memory of Maria's dinner spread with her mother or the salads, sandwiches, and desserts."
+  },
+  "conv-41-95": {
+    "cause": "missing",
+    "why": "The context has no memory of Maria making dinner with her mom in May 2023."
+  },
+  "conv-41-63": {
+    "cause": "date",
+    "why": "Both adoption dates are only approximate in memory (\"late July\" and \"early August\"), and the answer model's one-week gap came from those imprecise anchors rather than the two-week gap the gold reflects."
+  },
+  "conv-41-64": {
+    "cause": "gold",
+    "why": "The evidence turns never mention Maria pursuing shelter coordinator or counselor roles, so the gold answer is not supported by the conversation and \"not stated\" is the defensible answer."
+  },
+  "conv-41-68": {
+    "cause": "missing",
+    "why": "The aerial yoga fact (Dec 2022 conversation) does not appear in the visible memory context, which instead surfaces kundalini yoga and a gym, so the answer model had no path to the gold."
+  },
+  "conv-41-69": {
+    "cause": "judge",
+    "why": "The answer gives the correct item (old car) and correctly notes the donation was in December 2022, while the question's December 2023 premise is false, so the judge should have graded it correct."
+  },
+  "conv-41-70": {
+    "cause": "missing",
+    "why": "The pizza-making fact from the 22 December 2022 conversation does not appear in the visible memory context, so the answer model could not identify pizza."
+  },
+  "conv-41-100": {
+    "cause": "missing",
+    "why": "The 'heartwarming' remark from the 20 May party conversation is not in the memory context, which only says the party let veterans share stories and make connections."
+  },
+  "conv-41-108": {
+    "cause": "missing",
+    "why": "Nothing in the context describes the Oregon waterfall or Maria's feeling there; the only Oregon memory is the road trip."
+  },
+  "conv-41-123": {
+    "cause": "missing",
+    "why": "The context never mentions Maria's plans for the evening of 7 July 2023, so the dinner with gym friends is absent."
+  },
+  "conv-41-125": {
+    "cause": "buried",
+    "why": "The visit fact only says he appreciated 'what he has'; the resilience and inspiring-stories detail appears only inside another fact's quoted text, so the answer model picked the surface line."
+  },
+  "conv-41-126": {
+    "cause": "answerer",
+    "why": "The context states both 'appreciate what he has' and 'want to give back', but the answer model reported only the first part and dropped the giving-back element the gold names."
+  },
+  "conv-41-145": {
+    "cause": "buried",
+    "why": "The memory from the same turn (s30:w0) records the Max camping trip but drops the 'peaceful and awesome' description, so the answer model fell back on a generic view of camping."
+  },
+  "conv-41-149": {
+    "cause": "missing",
+    "why": "The August 2023 mentoring-at-a-school fact appears nowhere in the context; the only school-related memory is a March 2023 career fair."
+  },
+  "conv-42-4": {
+    "cause": "answerer",
+    "why": "The context states Joanna is allergic to most reptiles and fur-bearing animals, yet the answer model still proposed turtles, a misreading of the evidence it had."
+  },
+  "conv-42-12": {
+    "cause": "gold",
+    "why": "Nothing in the cited evidence mentions asthma or any diagnosed condition, and the full-conversation run could not find it either, so the gold is unsupported."
+  },
+  "conv-42-14": {
+    "cause": "missing",
+    "why": "The 'Hey Jo' nickname turn from April 2022 is absent from the context, and no memory mentions a nickname for Joanna."
+  },
+  "conv-42-19": {
+    "cause": "answerer",
+    "why": "Both the 17 April hometown trail and the May 2022 trails are in the context, so 'twice' was derivable, but the model answered 'once'."
+  },
+  "conv-42-22": {
+    "cause": "answerer",
+    "why": "The context states that on 20 May 2022 Joanna shared her third written piece, which anchors the gold date, yet the model abstained as 'not specified'."
+  },
+  "conv-42-23": {
+    "cause": "multihop",
+    "why": "The first and third screenplays are described, but nothing in the context links the rejections (3 June and 21 October) to specific scripts."
+  },
+  "conv-42-24": {
+    "cause": "gold",
+    "why": "Nate said on 3 June 'two weekends later', which is about 17-19 June, so the gold 'weekend after 3 June' (4-5 June) contradicts the evidence."
+  },
+  "conv-42-34": {
+    "cause": "buried",
+    "why": "The context says only 'a certain fantasy book series' without naming A Court of Thorns and Roses, so the second gold title is missing its specific detail."
+  },
+  "conv-42-35": {
+    "cause": "missing",
+    "why": "The 22 August 2022 turn where Nate says he is taking time off this weekend to chill with his pets is not in the context; only a fish-tank fact from that date appears."
+  },
+  "conv-42-42": {
+    "cause": "buried",
+    "why": "The fact that Nate watched Little Women appears only inside a truncated 'said:' quote under a general movie-watching fact, so the answer model missed it."
+  },
+  "conv-42-43": {
+    "cause": "gold",
+    "why": "The evidence shows the book was started around 10 July and finished in late September, which is about 2.5 to 3 months, not four."
+  },
+  "conv-42-46": {
+    "cause": "missing",
+    "why": "The 24 June turn where Nate played Chess is not visible in the context, and the truncated facts do not show it."
+  },
+  "conv-42-52": {
+    "cause": "gold",
+    "why": "The evidence turns show two big-screen appearances, but the context records Joanna saying it was the third time, so the gold 'two' conflicts with a stated fact."
+  },
+  "conv-42-53": {
+    "cause": "missing",
+    "why": "The memory context has no fact about turtle walks, and the 25 Oct 2022 walk appears only in the raw evidence turns, so the answer model had nothing to count."
+  },
+  "conv-42-54": {
+    "cause": "answerer",
+    "why": "The context includes the fact that a script was first shown on the big screen the Sunday before 25 Oct 2022, but the answer model picked the 4 June bits instead."
+  },
+  "conv-42-57": {
+    "cause": "date",
+    "why": "The context gives only 'planned to bring her recipes' dated 4 Nov with no resolved date, so the 'tomorrow' in the source never became 5 Nov and the model guessed 10 Nov."
+  },
+  "conv-42-59": {
+    "cause": "buried",
+    "why": "The context has the notebook detail, but the corkboard detail from the 5 June turn is absent (likely in the truncated lines), so the answer omits half the gold."
+  },
+  "conv-42-60": {
+    "cause": "gold",
+    "why": "The evidence only shows Nintendo game covers and never says Nate owns a Nintendo Switch, so the gold console is not supported by the conversation."
+  },
+  "conv-42-61": {
+    "cause": "missing",
+    "why": "The GameCube and PlayStation facts behind the gold answer never appear in the memory context, which only offers vague 'Nintendo' and 'computer setup' hints."
+  },
+  "conv-42-66": {
+    "cause": "answerer",
+    "why": "The context has Nate keeping, caring for, and being fond of pet turtles, which supports the zoo-keeper inference, but the answer model abstained and cited memories that aren't there."
+  },
+  "conv-42-68": {
+    "cause": "answerer",
+    "why": "The April 2022 sunset-hike fact is in the context, so the full set of four hikes was available, but the answer model miscounted to three."
+  },
+  "conv-42-72": {
+    "cause": "missing",
+    "why": "The plan for Joanna to visit Nate 'tomorrow' (10 Nov) from the 9 Nov turn is absent from the memory context, which only has allergy and turtle facts."
+  },
+  "conv-42-73": {
+    "cause": "missing",
+    "why": "The Fort Wayne hike fact, which is what points to Indiana, is not in the memory context, and the context only shows the Woodhaven Midwest trip."
+  },
+  "conv-42-87": {
+    "cause": "missing",
+    "why": "The Tampa beach fact (Tampa is in Florida) appears in the evidence turn but nowhere in the memory context, which has no location for Nate's beach trip."
+  },
+  "conv-42-91": {
+    "cause": "gold",
+    "why": "The evidence turns say only 'adventures, magic, and great characters' with no mention of dragons, so the gold answer is not supported and the generated answer matches the evidence."
+  },
+  "conv-42-92": {
+    "cause": "gold",
+    "why": "The evidence turn only describes a gaming room with a computer and chair, with no lighting detail, so 'red and purple lighting' is not supported by the conversation text."
+  },
+  "conv-42-110": {
+    "cause": "answerer",
+    "why": "The memory explicitly says he chose a 'bright, bold color' to stand out, but the answer model reported only the 'stand out' part and dropped 'bright and bold'."
+  },
+  "conv-42-120": {
+    "cause": "missing",
+    "why": "Nate's joke about starting a drama and publishing a screenplay is only in the evidence turn; the memory context has no record of it, only Joanna's drama ideas and Nate's general interest in writing."
+  },
+  "conv-42-74": {
+    "cause": "missing",
+    "why": "The memory context has Little Women and an unnamed romantic drama, but the cork board advice, the living room tips (couch, blanket, dimmable lights), and the 'A Court of Thorns and Roses' recommendation are absent."
+  },
+  "conv-42-78": {
+    "cause": "answerer",
+    "why": "Nine tournament mentions (Jan win, Mar participation, May, June, July, Aug, Sept setback, Oct, Nov) are recoverable from the context, but the answer model abstained as 'not specified' instead of enumerating them."
+  },
+  "conv-42-79": {
+    "cause": "buried",
+    "why": "The third script is in context only as a vaguely worded 'third written piece' shared on 20 May 2022, and the answer model did not connect it to the count of screenplays."
+  },
+  "conv-42-80": {
+    "cause": "answerer",
+    "why": "All seven wins (Jan, late Apr/May, late May, July, Aug, late Sept, Nov) are in the context, but the answer model abstained with 'not specified' rather than counting them."
+  },
+  "conv-42-86": {
+    "cause": "missing",
+    "why": "The beach trip on 10 November 2022 appears nowhere in the memory context, which only mentions a park outing on 7 November."
+  },
+  "conv-42-123": {
+    "cause": "answerer",
+    "why": "The context states Nate gave a stuffed animal as a reminder of good vibes, but the answer model gave 'Joy in your pocket', a phrase its reasoning attributes to Nate that appears nowhere in the context."
+  },
+  "conv-42-134": {
+    "cause": "buried",
+    "why": "The needed fact (6/24: Nate agreed to give the vegan ice cream recipe) is in the facts list, but the answer model picked a similar earlier coconut-milk dessert recipe instead."
+  },
+  "conv-42-143": {
+    "cause": "buried",
+    "why": "The context has the letter-after-blog-post fact but drops Joanna's feeling that 'their words touched me', so the answer model said the feeling was not stated."
+  },
+  "conv-42-144": {
+    "cause": "missing",
+    "why": "No visible fact says Joanna hopes her writing will share stories and have an impact; the relevant 14 August turn is truncated or absent from the context."
+  },
+  "conv-42-146": {
+    "cause": "missing",
+    "why": "The gold motivation, that her writing can make a difference, is not in the visible context; the answer relied on the supportive-friends fact instead."
+  },
+  "conv-42-150": {
+    "cause": "buried",
+    "why": "The entity line mentions Joanna sharing her book with the writers group, but the celebration detail (making a treat) is cut off and absent from the visible context."
+  },
+  "conv-42-151": {
+    "cause": "multihop",
+    "why": "The 21 August tournament win is in context, but the separate follow-up turn where Nate says he is chilling with his pets is not."
+  },
+  "conv-42-172": {
+    "cause": "missing",
+    "why": "The bounce-back remark is not in the memory context; the same-session fact only covers the 'people cheering you on' line."
+  },
+  "conv-42-173": {
+    "cause": "buried",
+    "why": "The 21 October session is present, but the quoted excerpt is truncated and omits Nate's rejection-and-keep-going encouragement."
+  },
+  "conv-42-182": {
+    "cause": "missing",
+    "why": "The context never states that Joanna found old notebooks last week; the age-10 story is only a loose match for early writings."
+  },
+  "conv-42-196": {
+    "cause": "missing",
+    "why": "The context has Nate's turtles and his general fondness for them, but nothing about taking them to a beach or to Tampa."
+  },
+  "conv-43-2": {
+    "cause": "answerer",
+    "why": "The context states John owns a Star Wars movie collection and the whole Harry Potter movie collection, yet the answer omitted the fantasy movie DVDs."
+  },
+  "conv-43-4": {
+    "cause": "missing",
+    "why": "The context does not show Tim reading The Hobbit or The Wheel of Time, so the full seven-book gold list cannot be assembled from it."
+  },
+  "conv-43-6": {
+    "cause": "gold",
+    "why": "The conversation dates the 40-point game to the week before 16 July 2023, which supports July, not June."
+  },
+  "conv-43-7": {
+    "cause": "missing",
+    "why": "No visible context fact mentions a Smoky Mountains trip, which the gold answer requires alongside the California and London visits."
+  },
+  "conv-43-8": {
+    "cause": "gold",
+    "why": "The evidence only says John wished to work with Under Armour and that an unnamed outdoor gear company signed him, so the gold's Under Armour is an unsupported guess."
+  },
+  "conv-43-9": {
+    "cause": "answerer",
+    "why": "The memory context already had the beverage-company deal and the model's reasoning named it, but the final answer dropped it and added Under Armour, which was only a wish."
+  },
+  "conv-43-16": {
+    "cause": "missing",
+    "why": "The context has the August video call but not the July 'last week' first meeting, so no start date exists to compute the gap."
+  },
+  "conv-43-17": {
+    "cause": "answerer",
+    "why": "The context contains enough distinct wins (July tough win, August close game, December top-team and final-buzzer wins, 2022 comeback) to reach six, but the model undercounted."
+  },
+  "conv-43-18": {
+    "cause": "missing",
+    "why": "The Hobbit/Tolkien mention and the link between The Alchemist and Coelho are absent from the memory context, so the answer could not list the other two authors."
+  },
+  "conv-43-19": {
+    "cause": "missing",
+    "why": "The name Good Sports appears nowhere in the memory context or the evidence turns; the context only says 'a local organization' helping disadvantaged kids."
+  },
+  "conv-43-20": {
+    "cause": "missing",
+    "why": "The July 16 turn placing John in Seattle is not in the memory context, which only says Seattle is a favorite city, so the answer model had no location fact to work from."
+  },
+  "conv-43-23": {
+    "cause": "buried",
+    "why": "The 17 August 'book conference next month' fact is not in the visible facts, which were truncated, and the model latched onto the unrelated October Harry Potter conference."
+  },
+  "conv-43-26": {
+    "cause": "answerer",
+    "why": "The 'That' fact ('Tim considers \"That\" one of his favorite fantasy shows') is fully visible in the context, but the answer model listed only The Wheel of Time."
+  },
+  "conv-43-29": {
+    "cause": "missing",
+    "why": "The middle school detail from the 11 August turn is absent from the visible memory context, which mentions only the high school four years and a college scholarship."
+  },
+  "conv-43-34": {
+    "cause": "gold",
+    "why": "The conversation and memories never mention coaching; the gold answer is an inference, and the endorsement and charity answer is a reasonable reading of the evidence."
+  },
+  "conv-43-36": {
+    "cause": "answerer",
+    "why": "The context has John's 'LeBron is the man' admiration and Tim's LeBron inspiration, so the answer model should have inferred LeBron James rather than abstaining."
+  },
+  "conv-43-40": {
+    "cause": "answerer",
+    "why": "The context has the Smoky Mountains visit, and the answer model should have applied the common knowledge that the Smoky Mountains span North Carolina and Tennessee instead of answering 'unclear'."
+  },
+  "conv-43-48": {
+    "cause": "date",
+    "why": "The injury is anchored to the wrong dates (a 'previous season' fact recorded 2023-11-21 and 'late 2023'), so the answer never resolved it to about 16 November 2023."
+  },
+  "conv-43-49": {
+    "cause": "answerer",
+    "why": "Both injuries are in the context (the late-2023 injury and the previous-season ankle injury), but the answer model only counted one and did not link the two."
+  },
+  "conv-43-51": {
+    "cause": "gold",
+    "why": "The conversation never names Hatha Yoga or any yoga style; John only mentions Warrior II and an unnamed balance pose, so the gold is unsupported by the evidence."
+  },
+  "conv-43-53": {
+    "cause": "gold",
+    "why": "Neither the evidence nor the memories mention sprinting, long-distance running, or boxing; the only supplementary exercises discussed are strength training and yoga."
+  },
+  "conv-43-55": {
+    "cause": "missing",
+    "why": "The May 21, 2023 turn where John signs with a new team is absent from the memory context, which only offers the vague 'just under a year' as of December 2023, leading the answer model to a wrong inference."
+  },
+  "conv-43-60": {
+    "cause": "gold",
+    "why": "The career-high fact is in context and the conversation says the game was on 'Friday, around 8 December,' so the answer's December 8 is the supported date rather than the gold's session date of December 11."
+  },
+  "conv-43-66": {
+    "cause": "gold",
+    "why": "The conversation only says Star Wars is Tim's favorite and never mentions a Star Wars book, so the gold title and authors have no support in the evidence or memories."
+  },
+  "conv-43-67": {
+    "cause": "gold",
+    "why": "The question asks for a 'good hobby' suggestion, which is open-ended, and language learning is an equally defensible answer that the conversation supports; 'writing a travel blog' is an inference no turn states."
+  },
+  "conv-43-70": {
+    "cause": "gold",
+    "why": "No conversation turn mentions Star Wars filming locations in Ireland, so the gold answer is unsupported and the model's 'none mentioned' is the accurate response."
+  },
+  "conv-43-72": {
+    "cause": "missing",
+    "why": "The turn saying John is a shooting guard is not in the shown memory context; the only omitted content is a truncated tail, so the position fact never reached the answer model."
+  },
+  "conv-43-76": {
+    "cause": "answerer",
+    "why": "The MinaLima fact (Tim's Harry Potter memorabilia from MinaLima, the film prop studio) is explicitly in the context, but the model latched onto the desk-and-bookshelf photo instead."
+  },
+  "conv-43-84": {
+    "cause": "answerer",
+    "why": "The fact 'Tim's favorite books are Harry Potter and Game of Thrones' is explicitly in the context, yet the model abstained with 'not specified'."
+  },
+  "conv-43-109": {
+    "cause": "buried",
+    "why": "The context quotes John asking Tim for advice on picking endorsements, but the quote is cut off with an ellipsis before Tim's advice appears."
+  },
+  "conv-43-113": {
+    "cause": "missing",
+    "why": "The context only says John's favorite team is the Timberwolves; Tim's statement that he supports the Wolves is not in the memory context."
+  },
+  "conv-43-115": {
+    "cause": "answerer",
+    "why": "The context contains the fact that the team had an intense season with tough losses and great wins, but the answer model chose the camaraderie fact instead."
+  },
+  "conv-43-116": {
+    "cause": "buried",
+    "why": "The context has a summary of the 2023-10-13 season turn but omits the specific 'back each other up and won't quit' detail that the gold names."
+  },
+  "conv-43-117": {
+    "cause": "buried",
+    "why": "The same 2023-10-13 turn is summarized in the context without the 'faced tough opponents drives us to get better' detail, so the answer model picked a different motivator."
+  },
+  "conv-43-86": {
+    "cause": "answerer",
+    "why": "The context states Tim discussed characters with a Harry Potter fan he skyped, which is the gold answer, but the answer model refused on a speaker-name mismatch instead of using it."
+  },
+  "conv-43-87": {
+    "cause": "missing",
+    "why": "The context has a related fact about team bonding and communication but never includes the 'awesome' description from the evidence turn, so the gold word is absent."
+  },
+  "conv-43-94": {
+    "cause": "missing",
+    "why": "The context has no fact about Tim's planned book conference or its purpose, so the gold intention is not present."
+  },
+  "conv-43-104": {
+    "cause": "answerer",
+    "why": "The context explicitly says John made a sage soup without a written recipe, and the answer model missed it and said no spice was named."
+  },
+  "conv-43-107": {
+    "cause": "answerer",
+    "why": "The context names Edinburgh as the team-trip destination John was considering, and the answer model failed to connect it despite the city being present."
+  },
+  "conv-43-127": {
+    "cause": "answerer",
+    "why": "The context states that John finds cooking therapeutic when away from the court, but the answer model chose nature from a different fact."
+  },
+  "conv-43-128": {
+    "cause": "answerer",
+    "why": "The context includes that John often makes honey garlic chicken with roasted vegetables, but the answer model said nothing was mentioned."
+  },
+  "conv-43-129": {
+    "cause": "missing",
+    "why": "The memory context has the honey garlic chicken recipe but nothing about writing it down or mailing it, which the gold requires."
+  },
+  "conv-43-135": {
+    "cause": "gold",
+    "why": "The visualizing answer is John's statement, yet the question asks about Tim, and Tim's own described approach is the 25/5 method the answer model gave."
+  },
+  "conv-43-136": {
+    "cause": "gold",
+    "why": "The doctor line is John's words, not Tim's, so the gold misattributes it and the generated answer matches what Tim actually said."
+  },
+  "conv-43-145": {
+    "cause": "answerer",
+    "why": "The memory context states 'John's hometown has a tranquil forest nearby,' so the answer model had the needed fact but still said the location was unspecified."
+  },
+  "conv-43-146": {
+    "cause": "answerer",
+    "why": "The context includes that Tim started learning the violin, which matches the gold 'an instrument,' but the answer model picked German from a different fact."
+  },
+  "conv-43-152": {
+    "cause": "answerer",
+    "why": "The context has the career-high assists fact plus many basketball facts, so the model could have named basketball but answered only 'big game against rival.'"
+  },
+  "conv-43-155": {
+    "cause": "buried",
+    "why": "The context gives the jogging milestone only as a 'milestone in his recovery,' dropping the 'huge success' wording, so the answer model's 'relieved' did not match the gold."
+  },
+  "conv-43-166": {
+    "cause": "gold",
+    "why": "The evidence turn says Tim, not John, calls Harry Potter his favorite book, and the full-conversation run also found no explicit John favorite series, so the gold is unsupported."
+  },
+  "conv-43-168": {
+    "cause": "answerer",
+    "why": "The context states Aragorn is admired for being brave, selfless, and down-to-earth, but the answer model chose the 'grows throughout the story' detail instead."
+  },
+  "conv-43-170": {
+    "cause": "answerer",
+    "why": "The context contains both 'stay true to himself' and 'be a leader', but the answer model reported only the first half and dropped the gold phrase."
+  },
+  "conv-43-177": {
+    "cause": "missing",
+    "why": "The memory context never mentions John recommending Barcelona to Tim, so the 12 January 2024 evidence turn is absent from the context."
+  },
+  "conv-44-1": {
+    "cause": "date",
+    "why": "The context says 'late March 2023' where the evidence ('last week' relative to 27 March) resolves to the week before March 27, so the absolute date is wrong."
+  },
+  "conv-44-2": {
+    "cause": "answerer",
+    "why": "The context includes the board game night and pet shelter volunteering, yet the answer model listed only cafes and wine tasting; the flower-growing item may sit in the truncated facts."
+  },
+  "conv-44-3": {
+    "cause": "answerer",
+    "why": "The wine tasting, pet shelter, park, and hiking-spot facts were all in the context, but the answer model listed only cafes and restaurants."
+  },
+  "conv-44-4": {
+    "cause": "date",
+    "why": "The memory gives the muffin-baking event only as 'the week before April 16' with no absolute dates, so the judge read it as April 9-15 rather than April 3-9."
+  },
+  "conv-44-5": {
+    "cause": "gold",
+    "why": "The evidence says 'last week' from a 3 May session, which points to late April, matching the answer model and the full-conversation run, so the gold 'first week of May' looks wrong."
+  },
+  "conv-44-9": {
+    "cause": "answerer",
+    "why": "The context included the dog training course and agility class facts, but the answer model listed only the owners group and bonding workshop."
+  },
+  "conv-44-11": {
+    "cause": "date",
+    "why": "The context has 'last Sunday' before 13 June resolved to 'around June 4', but the Sunday before 13 June is June 11."
+  },
+  "conv-44-30": {
+    "cause": "date",
+    "why": "The beach-trip fact is in context but its date resolves to October 2023 instead of November, though the source said 'next month' from 1 October."
+  },
+  "conv-44-33": {
+    "cause": "gold",
+    "why": "Nothing in the evidence turns or context mentions a hybrid or remote job or moving to the suburbs, so the gold answer is not supported by the conversation."
+  },
+  "conv-44-39": {
+    "cause": "buried",
+    "why": "The exact fact 'they give her love and companionship' (13 Oct 2023) is in the facts list but is drowned among many similar dog facts, and the answer model chose the tattoo fact instead."
+  },
+  "conv-44-43": {
+    "cause": "multihop",
+    "why": "Context has the national park trip but not the park's identity (Voyageurs) or its state (Minnesota), so the second hop is missing."
+  },
+  "conv-44-44": {
+    "cause": "missing",
+    "why": "The context only says 'a national park' and never names Voyageurs National Park, so the needed name is absent."
+  },
+  "conv-44-12": {
+    "cause": "missing",
+    "why": "The fishing trip (24 Aug 2023) is not in the memory context, so the answer could only list two of the three gold activities."
+  },
+  "conv-44-15": {
+    "cause": "multihop",
+    "why": "Andrew's struggle to find a dog-friendly place is in context, but the shared frustration depends on Audrey's 3 July acknowledgement, which is not included."
+  },
+  "conv-44-16": {
+    "cause": "missing",
+    "why": "The 8 July 2023 message saying \"next month\" (August) is absent from the context, so only the November hike was available."
+  },
+  "conv-44-17": {
+    "cause": "missing",
+    "why": "The 8 July 2023 hike plan, needed to reach the gold count of three, is absent, leaving the answer with only the October-planned hikes."
+  },
+  "conv-44-19": {
+    "cause": "missing",
+    "why": "The context has Andrew's cooking hobby but not the fact that he cooks dog treats, so the gold answer is unsupported by what the answer model received."
+  },
+  "conv-44-52": {
+    "cause": "gold",
+    "why": "None of the evidence turns or memory facts mention a bird feeder or any way to watch birds from home, so the gold suggestion is not supported by the conversation."
+  },
+  "conv-44-53": {
+    "cause": "gold",
+    "why": "The question is open-ended and the evidence shows only nature love and animal care, never park ranger work, so the gold names a specific career the conversation doesn't support."
+  },
+  "conv-44-55": {
+    "cause": "missing",
+    "why": "The 22 November turn about buying a bed, toys and puppy pads is not in the memory context, and no fact records Andrew setting up an indoor area a few days earlier."
+  },
+  "conv-44-58": {
+    "cause": "missing",
+    "why": "Audrey's 24 October line about ordering sushi for dinner is not in the memory context, which only has a distractor fact about Andrew eating sushi."
+  },
+  "conv-44-71": {
+    "cause": "buried",
+    "why": "The 2023-05-11 pet-store workshop fact is in the context, but the dog-description detail ('friendly and playful') that the gold names was dropped."
+  },
+  "conv-44-72": {
+    "cause": "answerer",
+    "why": "The context states pets should be trained with positive reinforcement, but the answer model picked the punishment clause instead of the gold's 'learn to behave positively' point."
+  },
+  "conv-44-74": {
+    "cause": "missing",
+    "why": "The context has only the September note that Andrew found the search challenging; the June 2 'discouraged but determined' sentiment is not in the memory."
+  },
+  "conv-44-80": {
+    "cause": "answerer",
+    "why": "The context explicitly says Audrey's favorite dish to make with garlic is Roasted Chicken, but the answer chose the Mediterranean comfort-meal fact instead."
+  },
+  "conv-44-87": {
+    "cause": "missing",
+    "why": "The 4 August 2023 statement that the hike took two hours is absent; the context only has the planned November hike and a Toby hike, with no duration."
+  },
+  "conv-44-111": {
+    "cause": "answerer",
+    "why": "The context includes 'Buddy loves exploring new hiking trails with Andrew', yet the answer gave only generic time-together and fresh-air points."
+  },
+  "conv-44-114": {
+    "cause": "missing",
+    "why": "The picnic-date fact from the 28 October 2023 turn is not in the visible memory context; the facts list is truncated before it appears."
+  },
+  "conv-44-116": {
+    "cause": "missing",
+    "why": "Nothing about autumn or autumn colors appears in the memory context, and the facts list is truncated, so the needed fact was never supplied."
+  },
+  "conv-47-0": {
+    "cause": "gold",
+    "why": "The only evidence is John saying his fingers are too big and he should exercise, which does not establish obesity as a suspected health problem, so 'no health problems mentioned' is defensible."
+  },
+  "conv-47-2": {
+    "cause": "multihop",
+    "why": "McGee's Pub and the VR plan are in context, but the baseball game invitation from the September 2022 turn is absent, so the list is incomplete and the answer model also dropped the VR item."
+  },
+  "conv-47-4": {
+    "cause": "missing",
+    "why": "The fact that John had been playing drums for about a month as of 27 March 2022 is not in context; the only drum fact in context is misattributed to James."
+  },
+  "conv-47-6": {
+    "cause": "answerer",
+    "why": "The memory context includes the Stamford shelter adoption, which points to Connecticut, but the answer model abstained instead of drawing that inference."
+  },
+  "conv-47-10": {
+    "cause": "judge",
+    "why": "The generated 'week before 12 April 2022' matches the gold 'first week of April 2022', and the judge wrongly placed it in mid-to-late March."
+  },
+  "conv-47-11": {
+    "cause": "date",
+    "why": "The canyon-visit fact is in context but dated about two days before 20 April (around 18 April), not the April 10 the question asks about."
+  },
+  "conv-47-15": {
+    "cause": "missing",
+    "why": "The context never states when James began playing Civilization VI; the '29 April, playing for a month' turn that gives the March 2022 start is absent from it."
+  },
+  "conv-47-16": {
+    "cause": "buried",
+    "why": "The context reduces John's game to 'a strategy board game with friends' and drops the colored, numbered card and draw/skip details needed to infer UNO."
+  },
+  "conv-47-17": {
+    "cause": "gold",
+    "why": "The conversation never names the social deduction game, so the gold answer 'Mafia' is not supported by the evidence turns, and the full-conversation run also could not name it."
+  },
+  "conv-47-19": {
+    "cause": "gold",
+    "why": "The evidence only says pets, games, travel and pizza bring happiness; it says nothing about loneliness or dating before Samantha, so the gold's inference is weakly supported and the 'no evidence' answer is defensible."
+  },
+  "conv-47-24": {
+    "cause": "buried",
+    "why": "The football simulator and Witcher 3-inspired virtual world facts are in the context but are drowned among many similar game-project facts, and the answer model chose generic 'strategy and computer games' instead."
+  },
+  "conv-47-26": {
+    "cause": "buried",
+    "why": "The context states only that James bought tickets to Toronto and planned to visit Vancouver, without confirming a Canada visit, so the detail the gold relies on is dropped."
+  },
+  "conv-47-27": {
+    "cause": "judge",
+    "why": "The answer's 'programming/gaming course' matches the gold's game design course in substance, and the cooking class matches, so the judge was overly strict."
+  },
+  "conv-47-31": {
+    "cause": "gold",
+    "why": "The evidence gives a departure on 11 July and a return on 20 July, which is about 9 days, so the gold of 19 days is not supported by the conversation."
+  },
+  "conv-47-33": {
+    "cause": "buried",
+    "why": "The context has the age-10 skateboarding fact but drops the elementary-school and same-class link that the gold 'Yes' depends on."
+  },
+  "conv-47-36": {
+    "cause": "missing",
+    "why": "The 'for both you and your Jill' turn, which is the only mention of Jill, is absent from the memory context."
+  },
+  "conv-47-37": {
+    "cause": "judge",
+    "why": "The generated answer gives the same date (21 July 2022) as the gold, and the gold itself does not name John, so the grading on attribution is a judge error."
+  },
+  "conv-47-40": {
+    "cause": "buried",
+    "why": "The skateboard-balancing and sit/stay/paw/rollover facts are in context, but the answer picked only the trick list and omitted the other pet tricks among many similar facts."
+  },
+  "conv-47-44": {
+    "cause": "missing",
+    "why": "John's suggestion of beer instead of Starbucks appears only in the evidence turns, and the memory context has no fact stating he wanted beer."
+  },
+  "conv-47-45": {
+    "cause": "buried",
+    "why": "The stout detail appears only inside a quoted 'said' field, and the answer model picked just the 'light beers' fact."
+  },
+  "conv-47-48": {
+    "cause": "missing",
+    "why": "The baseball-game plan (\"next Sunday\" from 4 Sept 2022, i.e. 11 Sept) is absent from the memory context, which covers only the dog outing, theater date, and McGee's."
+  },
+  "conv-47-51": {
+    "cause": "missing",
+    "why": "AC Valhalla, The Witcher 3 as John's game, and FIFA 23 do not appear in the visible context, and the relevant lines were truncated."
+  },
+  "conv-47-53": {
+    "cause": "answerer",
+    "why": "The context has the April 2022 start (Witcher-inspired project) and the October 2022 release, so the answer model could have derived about six months but abstained."
+  },
+  "conv-47-61": {
+    "cause": "answerer",
+    "why": "The McGee's apartment fact and the decision to move in together are both in the FACTS list, but the answer model said there was no record and gave only the bare move-in fact."
+  },
+  "conv-47-62": {
+    "cause": "answerer",
+    "why": "The context has the first meeting (9 Aug 2022), the girlfriend date (3 Sep 2022) and the move-in (31 Oct 2022), so roughly three months is derivable, but the answer model miscalculated to about one month."
+  },
+  "conv-47-64": {
+    "cause": "gold",
+    "why": "John started chess on 22 July 2022 and won on about 1 November 2022, which is roughly three months, so the gold of nearly four months is not supported by the evidence."
+  },
+  "conv-47-71": {
+    "cause": "missing",
+    "why": "The offer to help find the perfect pet appears only in the raw 20 March 2022 turn and is absent from the memory context, which has only the unrelated financial-assistance offer."
+  },
+  "conv-47-77": {
+    "cause": "answerer",
+    "why": "The context states that James believes the key advice is to communicate with the team and never put his ego above team success, yet the answer model replied with vague unspecified tips."
+  },
+  "conv-47-80": {
+    "cause": "buried",
+    "why": "The context says the character was based on a stranger from a walk but omits the reason the gold names, that her eyes and appearance amazed him."
+  },
+  "conv-47-81": {
+    "cause": "answerer",
+    "why": "The context states the character was based on a stranger seen on a walk, but the answer model picked The Witcher 3 instead."
+  },
+  "conv-47-84": {
+    "cause": "missing",
+    "why": "The displayed context has no mention of John's coding assignment from April 2022, and the truncated lines may be the only place it could appear."
+  },
+  "conv-47-101": {
+    "cause": "answerer",
+    "why": "The context has a 2022-07-09 fact that John relaxes by reading, and the answer model said it was not mentioned."
+  },
+  "conv-47-112": {
+    "cause": "answerer",
+    "why": "The context states John is hooked on making choices that shape the world, but the answer model chose storytelling and characters instead."
+  },
+  "conv-47-114": {
+    "cause": "answerer",
+    "why": "The context states James intended to call Samantha on 10 August 2022, but the answer model chose 'ask her out on a date' instead of the call."
+  },
+  "conv-47-123": {
+    "cause": "buried",
+    "why": "The cooking-class fact is cut short at 'omelette and meringue' and drops the dough detail that the gold answer names."
+  },
+  "conv-47-131": {
+    "cause": "answerer",
+    "why": "The context includes 'John played drums when he was younger', but the answer model picked video games from the relax-and-gaming facts."
+  },
+  "conv-47-133": {
+    "cause": "answerer",
+    "why": "The context has both the 2D adventure game and the mobile game launching in the same timeframe, but the answer model failed to link them and said the genre was unstated."
+  },
+  "conv-47-147": {
+    "cause": "missing",
+    "why": "The context only mentions that John is hooked on FIFA 23; the gamepad-and-timing suggestion is absent."
+  },
+  "conv-48-12": {
+    "cause": "date",
+    "why": "The letter fact is in context, but it is recorded only as 'as of 2023-01-27' with no resolved date, so the 'yesterday' reference to 26 January was lost and the answer gave only the month."
+  },
+  "conv-48-20": {
+    "cause": "missing",
+    "why": "The Walking Dead gaming plan appears nowhere in the memory context, and Battlefield 1 is shown only as a console gift, not as a game played with the partner."
+  },
+  "conv-48-21": {
+    "cause": "missing",
+    "why": "The plan to play Walking Dead 'next Saturday' from the 27 January turn is not in the memory context at all."
+  },
+  "conv-48-23": {
+    "cause": "missing",
+    "why": "The 1 February turn saying Jolene and her partner planned to play the console instead of yoga is absent from the memory context, so the gold reason had no support in it."
+  },
+  "conv-48-24": {
+    "cause": "missing",
+    "why": "Only the tree pose is in context; the Warrior II and Dancer Pose facts from the 4 February and 26 June turns are not present."
+  },
+  "conv-48-30": {
+    "cause": "missing",
+    "why": "The 21 February dinner-and-drinks event appears nowhere in the visible memory context; the only Rio, dinner, and night-out facts are unrelated."
+  },
+  "conv-48-36": {
+    "cause": "gold",
+    "why": "No age or birth year is stated in the conversation, so the gold 'no more than 30' is an unsupported inference rather than a fact the memories could supply."
+  },
+  "conv-48-61": {
+    "cause": "multihop",
+    "why": "The renewable-energy project is in context, but the clean-water project that the gold names as the second project is absent, and the answer instead chose the STEM program."
+  },
+  "conv-48-62": {
+    "cause": "missing",
+    "why": "The fact that Luna came from a shelter is not in the memory context, so the answer could only supply Max's origin."
+  },
+  "conv-48-67": {
+    "cause": "answerer",
+    "why": "The context includes the excursions and the old temple visit alongside the yoga classes, yet the answer listed only yoga classes."
+  },
+  "conv-48-70": {
+    "cause": "missing",
+    "why": "The memory context never states that the quote-writing friend is dead; the 'will never be able to support me' line and any link between that friend and Karlie are absent."
+  },
+  "conv-48-71": {
+    "cause": "date",
+    "why": "The meetup is in context as 'last Friday' relative to 3 September, but the answer resolved it to 1 September, which falls outside the gold's 'last week of August' window."
+  },
+  "conv-48-74": {
+    "cause": "answerer",
+    "why": "The cancelled-coffee fact's said: text includes 'Let's try fresh pastries' and 'catch up over coffee', so the answer model had the detail and wrongly said no cafe plans were mentioned."
+  },
+  "conv-48-75": {
+    "cause": "gold",
+    "why": "The conversation describes the cat card game but Deborah says she doesn't remember its name, and the full-conversation run also could not name it, so 'Exploding Kittens' is unsupported."
+  },
+  "conv-48-77": {
+    "cause": "gold",
+    "why": "The dive spot is never tied to a location in the conversation; Phuket is the meditation retreat location, so the gold's link between the dive spot and Phuket is not supported."
+  },
+  "conv-48-81": {
+    "cause": "buried",
+    "why": "The context has the October 2023 plan to get together with Deborah, but nothing ties it to surfing, so the surfing agreement is lost."
+  },
+  "conv-48-84": {
+    "cause": "answerer",
+    "why": "The context contains the electrical engineering, robotics, and aerial surveillance projects, but the answer model listed only two of the four and left out the aerial surveillance project it had named in its own reasoning."
+  },
+  "conv-48-86": {
+    "cause": "missing",
+    "why": "The bouquet from a friend is in context, but the group members' appreciation letter and the friend's motivational quote do not appear in the visible context, and the truncated lines may not contain them."
+  },
+  "conv-48-87": {
+    "cause": "gold",
+    "why": "The evidence turns mention only Bali (Indonesia) and Rio de Janeiro (Brazil), with no mention of Thailand, so the generated answer is the better-supported one."
+  },
+  "conv-48-88": {
+    "cause": "buried",
+    "why": "Biking and art shows appear only in evidence turns and a few facts, while the visible context is dominated by yoga and meditation facts, so the answer model did not surface them."
+  },
+  "conv-48-93": {
+    "cause": "multihop",
+    "why": "The renewable energy plan is in the context, but the clean-water plan (a second required list member) is absent, so the answer model only had STEM workshops to offer."
+  },
+  "conv-48-94": {
+    "cause": "missing",
+    "why": "The memory context says Max came from her mother but never states where Luna came from (the shelter), which the gold answer requires."
+  },
+  "conv-48-96": {
+    "cause": "answerer",
+    "why": "The excursions and the old temple are in the context, but the answer model reported only the yoga classes; the cafes detail is also absent, so the answer was incomplete either way."
+  },
+  "conv-48-99": {
+    "cause": "missing",
+    "why": "The context has no mention of the planned meetup at a cafe or of trying fresh pastries and coffee; it only has a cancelled coffee meetup and a vague next-month get-together."
+  },
+  "conv-48-104": {
+    "cause": "missing",
+    "why": "The planned console activity from 1 February 2023 is not in the memory context, which mentions only a camping trip and general console play."
+  },
+  "conv-48-106": {
+    "cause": "buried",
+    "why": "The Sapiens fact dated 2023-02-04 is in the FACTS list, but the answer model chose the more prominent Avalanche entity fact, which is also a book Jolene read."
+  },
+  "conv-48-108": {
+    "cause": "answerer",
+    "why": "The context states the mini retreat gave her 'a confidence boost and a new outlook,' so the model abstained or misread when the gold answer was available."
+  },
+  "conv-48-112": {
+    "cause": "buried",
+    "why": "The fact 'Deborah's favorite flowers are roses and dahlias, which bring her peace' is present but drowned among many garden and peace-related facts, so the model picked the bench."
+  },
+  "conv-48-115": {
+    "cause": "gold",
+    "why": "The evidence says she will incorporate the morning jog into her routine, so 'morning jogging' is supported, while the gold names the evening activity from the same turn."
+  },
+  "conv-48-117": {
+    "cause": "answerer",
+    "why": "The context explicitly mentions a yellow mug with an encouraging handwritten message shown in a photo, but the model said the photo was not specified."
+  },
+  "conv-48-119": {
+    "cause": "missing",
+    "why": "The desk-with-notebook-and-monitor photo from the 2 March 2023 turn appears nowhere in the memory context, and the only overwhelm-related facts are about breathing, meditation, and the Eisenhower Matrix."
+  },
+  "conv-48-124": {
+    "cause": "answerer",
+    "why": "The context's first Jolene entry states all three gold elements (gathering information, watching videos, getting a beginners' guide), but the answer model reported only the final step about finding a lesson time and place."
+  },
+  "conv-48-135": {
+    "cause": "buried",
+    "why": "The context has the Seraphim-brings-peace fact but drops the 'comforting' wording the gold names, so the answer model gave 'calm and at peace'."
+  },
+  "conv-48-136": {
+    "cause": "answerer",
+    "why": "The context explicitly includes the tree pose from the 26 June 2023 retreat in the Deborah entry, yet the answer model chose the Dancer Pose fact instead."
+  },
+  "conv-48-144": {
+    "cause": "buried",
+    "why": "The context has the 'had Susie for two years' fact but lacks the loneliness reason for adopting her, so the answer model fell back to the reptile-fascination reason belonging to Seraphim."
+  },
+  "conv-48-151": {
+    "cause": "answerer",
+    "why": "The context has 'used to play games with my husband' and the answer model picked the narrower 'detective games' sub-detail instead of the general 'video games' the gold names."
+  },
+  "conv-48-158": {
+    "cause": "answerer",
+    "why": "The context states she presented at a virtual conference and got positive feedback, but the answer model chose the more recent yoga retreat."
+  },
+  "conv-48-159": {
+    "cause": "buried",
+    "why": "The positive-feedback event is in context, but the memory drops her emotional reaction ('thrilled', 'rewarding') and only says it confirmed she was on track."
+  },
+  "conv-48-169": {
+    "cause": "missing",
+    "why": "The 2023-09-03 fact about her focusing on her relationship with her partner is not in the shown memory context, so the answer model had no basis for the gold answer."
+  },
+  "conv-48-172": {
+    "cause": "answerer",
+    "why": "The context includes 'Jolene's favorite game is Monster Hunter: World' and that her mom played video games with her, yet the answer model abstained."
+  },
+  "conv-48-174": {
+    "cause": "gold",
+    "why": "The evidence turn shows Deborah cancelled because she already had plans, so the answer 'Deborah cancelled for other plans' matches the conversation and the gold 'Jolene already had plans' does not."
+  },
+  "conv-48-176": {
+    "cause": "buried",
+    "why": "The context has only a partial fact (Jolene forgets to appreciate the journey) without the specific 'releasing expectations and savoring the present' detail, which may sit in the truncated lines."
+  },
+  "conv-48-177": {
+    "cause": "buried",
+    "why": "The 2023-09-12 fact says she is trying to be more mindful and grateful but omits the 'new level of joy and happiness' detail the gold names."
+  },
+  "conv-48-178": {
+    "cause": "buried",
+    "why": "The Phuket retreat fact is present but drops the 'found inner peace' detail, and the answer model picked a different positive change from another trip."
+  },
+  "conv-48-179": {
+    "cause": "gold",
+    "why": "The question asks what Jolene played and described to Deborah, and Jolene did describe Overcooked 2 to Deborah on 19 August, so the answer is defensible while the gold reflects Deborah's card-game turn."
+  },
+  "conv-48-188": {
+    "cause": "missing",
+    "why": "The memory context has no fact about Jolene suggesting surfing; the only Deborah-related outdoor item is the lakeside dock, so the gold activity never reaches the answer model."
+  },
+  "conv-49-7": {
+    "cause": "missing",
+    "why": "The context gives only painting and a vague 'calming hobby'; kayaking, running, and cooking as new hobbies Sam considered are absent from the shown memory."
+  },
+  "conv-49-11": {
+    "cause": "answerer",
+    "why": "The context explicitly states the doctor called Sam's weight a serious health risk, but the answer model chose gastritis, a later event, instead."
+  },
+  "conv-49-20": {
+    "cause": "missing",
+    "why": "The context lacks Sam's cooking-class or recipe-sharing facts that would support a cookbook or meal-delivery gift, so the answer model had no basis for the gold idea."
+  },
+  "conv-49-22": {
+    "cause": "judge",
+    "why": "The generated 'late July 2023' matches the gold 'week before August 7, 2023' (Evan's 'last week' trip), so the judge wrongly marked it incorrect."
+  },
+  "conv-49-24": {
+    "cause": "gold",
+    "why": "The gold attributes the Canadian romance to Sam, but the evidence and memory facts attribute it to Evan, so the gold is not supported for the person asked about."
+  },
+  "conv-49-30": {
+    "cause": "answerer",
+    "why": "The memory fact is dated 2023-08-13 and the model's own reasoning cites that date, yet it answered with the vaguer 'Around August 2023'."
+  },
+  "conv-49-31": {
+    "cause": "gold",
+    "why": "The evidence turns are not found, and the gold's 'growth opportunities' framing is not clearly supported, while the generated answer's patience, support and coping themes are reasonable for an open-ended question."
+  },
+  "conv-49-33": {
+    "cause": "missing",
+    "why": "The recurring skyscraper/flying dream from the evidence turns does not appear in the shown memory context, so the model had nothing to answer from."
+  },
+  "conv-49-39": {
+    "cause": "missing",
+    "why": "The mid-August 2023 doctor's appointment that gives the three-month gap is not in the visible context, so the model used the October check-up and got four months."
+  },
+  "conv-49-43": {
+    "cause": "gold",
+    "why": "None of the listed evidence turns or visible memory facts mention a checkup every three months; the gold answer is not supported by the shown conversation."
+  },
+  "conv-49-45": {
+    "cause": "answerer",
+    "why": "The context states Evan's July 2023 road trip to the Rocky Mountains, and the answer model discarded it by saying the places were unspecified."
+  },
+  "conv-49-47": {
+    "cause": "date",
+    "why": "The skiing-in-Banff fact is in context but its relative 'last month' was never resolved to July 2023, so the answer gave an unanchored or wrong 'before August 2023'."
+  },
+  "conv-49-49": {
+    "cause": "answerer",
+    "why": "The context explicitly includes Evan's own knee injury from playing basketball, but the answer model listed only Evan's son."
+  },
+  "conv-49-51": {
+    "cause": "answerer",
+    "why": "The context has the cooking class and Evan's support as Sam's responses, but the answer model omitted them and gave cravings and impatience instead."
+  },
+  "conv-49-53": {
+    "cause": "answerer",
+    "why": "The context states the correct relative date (the Saturday after 11 September 2023), but the answer model gave the conversation date instead."
+  },
+  "conv-49-54": {
+    "cause": "gold",
+    "why": "The evidence turns describe a knee injury, not a twisted ankle; the ankle injury in the context belongs to Evan's son, so the gold 'twisted ankle' is not supported."
+  },
+  "conv-49-60": {
+    "cause": "answerer",
+    "why": "The kayaking plan is in the context, but the answer model chose the distractor weightlifting and dismissed kayaking through over-reasoning."
+  },
+  "conv-49-61": {
+    "cause": "missing",
+    "why": "The 'work stress' statement from the 14 October conversation does not appear in the visible context, and the facts list is cut off before it could appear."
+  },
+  "conv-49-64": {
+    "cause": "answerer",
+    "why": "The context includes the PATH stating Sam was diagnosed with gastritis, but the answer model claimed no specific ailment was named."
+  },
+  "conv-49-70": {
+    "cause": "missing",
+    "why": "The dating duration (four months) appears in neither the memory context nor the shown evidence turns; the memory only says they married in late December 2023."
+  },
+  "conv-49-78": {
+    "cause": "multihop",
+    "why": "The work-friends and extended-family recipients are in context, but the 26 Dec 2023 exchange where Evan told Sam is not, so Sam is omitted."
+  },
+  "conv-49-80": {
+    "cause": "gold",
+    "why": "The evidence ('yesterday' in a 10 Jan 2024 message) supports 9 January 2024, not the gold's 2023, so the gold year is wrong."
+  },
+  "conv-49-82": {
+    "cause": "answerer",
+    "why": "Yoga, a gold item, is in the context as Sam's stress reliever, but the answer model chose painting, which Sam only said he would try."
+  },
+  "conv-49-86": {
+    "cause": "missing",
+    "why": "Evan's 'keep trying new things until something sparks your excitement' advice is not in the memory context, which only has the painting recommendation."
+  },
+  "conv-49-99": {
+    "cause": "missing",
+    "why": "The dream-interpretation-book suggestion from the 13 August exchange appears nowhere in the memory context, which only has painting advice from Evan."
+  },
+  "conv-49-102": {
+    "cause": "missing",
+    "why": "The 15 August salmon-and-vegetables grilled dish is not in the visible context; only the 19 August grilled chicken stir-fry appears, and the omitted lines may not hold it."
+  },
+  "conv-49-103": {
+    "cause": "gold",
+    "why": "The question is anchored to 19 August, when Evan asked for the stir-fry recipe, but the gold 'recipes with more vegetables' comes from a 15 August turn, so the gold does not match the question's date."
+  },
+  "conv-49-106": {
+    "cause": "buried",
+    "why": "The 'forest scene' detail appears only in a photo caption inside the quoted text, while the summary fact drops it and says only 'a painting', so the answer model fell back to the medium, watercolors."
+  },
+  "conv-49-108": {
+    "cause": "buried",
+    "why": "The 'sunset over the ocean' detail is in the quoted caption, but the more prominent 'mountain landscapes' fact drowns it out, so the answer model picked that instead."
+  },
+  "conv-49-130": {
+    "cause": "missing",
+    "why": "The memory context has Evan's Prius breakdown and frustration but not Sam's suggestion to view it as a chance to explore other ways of staying active and traveling."
+  },
+  "conv-49-132": {
+    "cause": "missing",
+    "why": "The context shows Evan and Sam both practicing yoga but never includes Sam's offer of yoga tips and support."
+  },
+  "conv-49-136": {
+    "cause": "missing",
+    "why": "The context has Evan's weightlifting advice and Sam's health struggles, but not his 'your worth is not defined by your weight' message."
+  },
+  "conv-49-144": {
+    "cause": "gold",
+    "why": "The gold photo is the one Sam shared in the cited turn, yet the question asks what Evan shared, and the context contains no Evan photo to match."
+  },
+  "conv-49-154": {
+    "cause": "judge",
+    "why": "The answer 'damaged rose bushes after drinking' captures the drinking-night reason the gold names, so the judge's strict mismatch was an error."
+  },
+  "conv-49-109": {
+    "cause": "buried",
+    "why": "The skiing exchange about the July trip to Banff appears in the said: text of a winter-sports fact, but the answer model latched onto the Rocky Mountains hiking entries instead."
+  },
+  "conv-49-110": {
+    "cause": "date",
+    "why": "The knee injury is in context but dated late September 2023, while the evidence places it in August (\"last Friday\" before 27 August)."
+  },
+  "conv-49-111": {
+    "cause": "missing",
+    "why": "Evan's own swimming during the knee injury is absent; context has only a generic 2024 recommendation of swimming, yoga, and walking, and yoga was a distractor."
+  },
+  "conv-49-112": {
+    "cause": "missing",
+    "why": "Sam's 27 August suggestion of low-impact exercises or physical therapy is not in context; only later, unrelated mentions of low-impact exercises appear."
+  },
+  "conv-49-118": {
+    "cause": "missing",
+    "why": "The malfunctioning navigation app on Sam's new phone is not in the visible memory context, and the answer model fell back on the self-checkout distractor."
+  },
+  "conv-50-3": {
+    "cause": "buried",
+    "why": "The Fireworks is in the evidence, but the visible context names no band beyond Aerosmith and an unnamed rock band, and the 11 omitted lines likely held the detail that was cut."
+  },
+  "conv-50-4": {
+    "cause": "gold",
+    "why": "The shown evidence says Calvin wants to tour the world and Dave wants to visit Tokyo, and nothing supports the United States gold answer."
+  },
+  "conv-50-7": {
+    "cause": "gold",
+    "why": "The only evidence is a photo of a group of people in front of a car, which does not establish that the shop employs many people, so the Yes gold is unsupported."
+  },
+  "conv-50-8": {
+    "cause": "date",
+    "why": "The context has the 1 May opening, but the answer resolved the 'week before 16 May' phrasing to about 9 May instead of the gold 1 May date."
+  },
+  "conv-50-18": {
+    "cause": "buried",
+    "why": "The context's flood fact lacks the insurance detail, and the answer model counted only the car accident, so the second insurance episode was not made explicit."
+  },
+  "conv-50-62": {
+    "cause": "gold",
+    "why": "Neither the evidence turns nor the memory context state how long the San Francisco workshop lasted, and the full-conversation run also found no duration, so 'two weeks' is unsupported."
+  },
+  "conv-50-71": {
+    "cause": "missing",
+    "why": "The 'few months' statement appears only in the evidence turn and is absent from the memory context, which mentions only the Japan plans without a duration."
+  },
+  "conv-50-78": {
+    "cause": "missing",
+    "why": "The necklace's meaning ('why I keep hustling as a musician') is not in the memory context, which records only that the necklace was a gift from another artist."
+  },
+  "conv-50-84": {
+    "cause": "missing",
+    "why": "The 'performing live fuels my soul' statement is not in the visible memory context, which offers only the 'music is my passion and purpose' fact, a different answer."
+  },
+  "conv-50-86": {
+    "cause": "buried",
+    "why": "The context has the planned post-tour visit to a mountain town but drops the skiing detail that the gold answer names."
+  },
+  "conv-50-19": {
+    "cause": "buried",
+    "why": "Shibuya and Shinjuku appear in the context only as planned visits, and the car museum is absent from the visible lines, so the answer model excluded the places the gold names."
+  },
+  "conv-50-45": {
+    "cause": "answerer",
+    "why": "The context has Dave and Calvin both discussing cars (Dave finds car work therapeutic, the garage invitation, Calvin's car project), so the answer model should have picked up working on cars."
+  },
+  "conv-50-47": {
+    "cause": "date",
+    "why": "The context dates an earlier classic car show to 2023-03-23 although the source turn is 20 April, which led the answer model to count the same show twice (March and April) and answer four instead of two."
+  },
+  "conv-50-50": {
+    "cause": "date",
+    "why": "The context resolves 'last week' only to 'the week before 15 October 2023' rather than a concrete early-October date, so the answer does not clearly match the gold's first week of October."
+  },
+  "conv-50-61": {
+    "cause": "buried",
+    "why": "The August start and September finish appear only in a parenthetical correction about a 'classic car' and never tie the Mustang to specific dates, so the duration could not be computed."
+  },
+  "conv-50-90": {
+    "cause": "buried",
+    "why": "The 2023-07-21 fact keeps the experimentation and motivation points but drops the 'gives them a fresh vibe' detail the gold names."
+  },
+  "conv-50-109": {
+    "cause": "answerer",
+    "why": "The memory context states Calvin's next plans are a tour, then exploring and growing his brand, but the answer model chose the Tokyo trip instead."
+  },
+  "conv-50-110": {
+    "cause": "answerer",
+    "why": "The garage visit is in the Boston entity context and the answer model's reasoning cites it, yet the final answer omitted it and gave a different plan."
+  },
+  "conv-50-113": {
+    "cause": "judge",
+    "why": "The answer 'Long drives in his car' is the same as the full-conversation run's answer, which was graded correct, so the grading is inconsistent."
+  },
+  "conv-50-117": {
+    "cause": "answerer",
+    "why": "The 2023-10-04 fact stating that Dave finds fulfillment in transforming old, beat-up things into something beautiful is in context, but the answer model picked a different fact about people's reactions."
+  },
+  "conv-50-137": {
+    "cause": "gold",
+    "why": "The only evidence about an early start with cars is Dave's dad taking Dave to a car show at age 10, and nothing says when Calvin first got interested, so the gold 'at an early age' is not supported for Calvin."
+  },
+  "conv-50-147": {
+    "cause": "gold",
+    "why": "The writing-lyrics-and-notes habit belongs to Dave in the evidence, while the memories give Calvin's own motivation tools as collaboration and positive energy, so the gold misattributes the answer."
+  },
+  "conv-50-151": {
+    "cause": "gold",
+    "why": "The photography hobby is stated by Dave in the evidence turn, not Calvin, so the gold answer does not match the speaker the question asks about."
+  },
+  "conv-50-157": {
+    "cause": "missing",
+    "why": "The specific statement that nature's beauty helps us appreciate life when things are tough is absent from the visible context, which only says Calvin finds embracing nature calming, and the fact list was truncated before any such entry."
+  },
+  "conv-50-118": {
+    "cause": "missing",
+    "why": "The line containing 'hard work and determination' (Calvin, 4 Oct 2023) is not in the memory context, and the context's Calvin facts about motivation don't mention it."
+  },
+  "conv-50-120": {
+    "cause": "buried",
+    "why": "The exact 'take something broken and make it into something awesome' line sits only inside a long 'said:' quote, and the answer model instead picked a different, similar Dave-restoration memory."
+  },
+  "conv-50-121": {
+    "cause": "buried",
+    "why": "The 'owns a red Ferrari' path is present but thin, and the answer model drew on the more prominent generic 'luxury red sports car' fact instead."
+  },
+  "conv-50-133": {
+    "cause": "answerer",
+    "why": "The fact 'fascinated by how machines work since he was ten' is explicitly in the context, but the answer model chose the childhood-garage memory instead."
+  },
+  "conv-50-136": {
+    "cause": "gold",
+    "why": "The gold 'last year' just echoes the question's relative phrase, while the context supports 2022 (restored and sold in 2022, relative to a 2023 conversation), so the generated answer is correct."
+  }
+}

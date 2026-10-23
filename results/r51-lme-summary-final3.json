@@ -1,0 +1,94 @@
+{
+  "model": "claude-haiku-5-5",
+  "n": 100,
+  "systems": {
+    "era": {
+      "abstention": {
+        "n": 6,
+        "correct": 6,
+        "acc": 100
+      },
+      "knowledge-update": {
+        "n": 15,
+        "correct": 13,
+        "acc": 86.66666666666667
+      },
+      "multi-session": {
+        "n": 24,
+        "correct": 21,
+        "acc": 87.5
+      },
+      "single-session-assistant": {
+        "n": 11,
+        "correct": 0,
+        "acc": 0
+      },
+      "single-session-preference": {
+        "n": 6,
+        "correct": 6,
+        "acc": 100
+      },
+      "single-session-user": {
+        "n": 13,
+        "correct": 11,
+        "acc": 84.61538461538461
+      },
+      "temporal-reasoning": {
+        "n": 25,
+        "correct": 18,
+        "acc": 72
+      },
+      "ALL": {
+        "n": 100,
+        "correct": 75,
+        "acc": 75
+      }
+    }
+  },
+  "era": {
+    "tokens": {
+      "n": 100,
+      "p50": 1985,
+      "p95": 2798,
+      "max": 2882,
+      "mean": 2185.53
+    },
+    "ms": {
+      "n": 100,
+      "p50": 76.41200000001118,
+      "p95": 97.70210000011139,
+      "max": 115.70879999996396,
+      "mean": 75.83880800000523
+    },
+    "evidenceUserTurnAny": "83/84",
+    "sessionAny": "88/94",
+    "memories": {
+      "n": 100,
+      "p50": 111,
+      "p95": 136,
+      "max": 148,
+      "mean": 112.85
+    },
+    "entities": {
+      "n": 100,
+      "p50": 96,
+      "p95": 123,
+      "max": 141,
+      "mean": 95.88
+    },
+    "entityEdges": {
+      "n": 100,
+      "p50": 36,
+      "p95": 48,
+      "max": 52,
+      "mean": 34.78
+    }
+  },
+  "fullTokens": {
+    "n": 100,
+    "p50": 112361,
+    "p95": 113791,
+    "max": 114095,
+    "mean": 112189.55
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "dataset": "trbizH",
+  "label": "dbg",
+  "at": "2026-10-22T18:02:26.506Z",
+  "code": {
+    "head": "3aba0bbfb",
+    "dirty": [
+      "M apps/brain-agent/src/brain/analyze.ts",
+      " M apps/brain-agent/src/brain/community-core.test.ts",
+      " M apps/brain-agent/src/brain/community-core.ts",
+      " M apps/brain-agent/src/brain/community-tick.ts",
+      " M apps/brain-agent/src/brain/connector-ingest.ts",
+      " M apps/brain-agent/src/brain/consolidation.ts",
+      " M apps/brain-agent/src/brain/embeddings.ts",
+      " M apps/brain-agent/src/brain/era-brains.ts",
+      " M apps/brain-agent/src/brain/extraction.ts",
+      " M apps/brain-agent/src/brain/ingestion.ts",
+      " M apps/brain-agent/src/brain/learning.ts",
+      " M apps/brain-agent/src/brain/recall.ts",
+      " M apps/brain-agent/src/brain/relationships.ts",
+      " M apps/brain-agent/src/brain/tick.ts",
+      " M apps/studio/lib/brain/field-mapper.ts",
+      " M apps/studio/lib/brain/graph-embed.ts",
+      " M apps/studio/lib/brain/graph-query.ts",
+      " M apps/studio/lib/brain/station-text.ts",
+      " M packages/os-kernel/sql/450_brains.sql",
+      "?? apps/brain-agent/src/brain/derived-visibility.test.ts",
+      "?? apps/brain-agent/src/brain/derived-visibility.ts",
+      "?? apps/brain-agent/src/brain/record-mentions-core.ts",
+      "?? apps/brain-agent/src/brain/record-mentions.test.ts",
+      "?? apps/brain-agent/src/brain/record-mentions.ts",
+      "?? apps/brain-agent/src/brain/source-excerpt.ts",
+      "?? packages/os-kernel/sql/902_brain_embedding_space_doc.sql",
+      "?? packages/os-kernel/sql/903_site_deploy.sql",
+      "?? packages/os-kernel/sql/904_platform_oauth.sql",
+      "?? packages/os-kernel/sql/905_site_api_deploy_hosts.sql",
+      "?? packages/os-kernel/sql/906_site_actor_channel_scope.sql",
+      "?? packages/os-kernel/sql/907_lead_score.sql",
+      "?? packages/os-kernel/sql/908_brain_source_ref_idx.sql",
+      "?? packages/os-kernel/sql/909_member_insights.sql"
+    ],
+    "code": "working tree"
+  },
+  "counts": {
+    "memories": 5478,
+    "latest": 5458,
+    "module_tagged": 4459,
+    "entities": 4806,
+    "edges": 7016,
+    "records": 4668,
+    "conversations": 858,
+    "questions": 365,
+    "secrets": 790
+  },
+  "methods": [
+    "brainContext"
+  ],
+  "cold": {
+    "brainContext": 1891.0920999999998
+  },
+  "wallSec": 0.9279736000000003,
+  "summary": [
+    {
+      "method": "brainContext",
+      "cat": "direct",
+      "n": 1,
+      "answerInContext": 1,
+      "evidenceAll": 0,
+      "evidenceAny": 0,
+      "stalePresent": null,
+      "latestWinsStrict": null,
+      "latestFirst": null,
+      "errors": 0,
+      "leakQueries": 0,
+      "leakByClass": {},
+      "ms": {
+        "n": 1,
+        "p50": 919.1296000000002,
+        "p95": 919.1296000000002,
+        "max": 919.1296000000002,
+        "mean": 919.1296000000002
+      },
+      "tokens": {
+        "n": 1,
+        "p50": 1830,
+        "p95": 1830,
+        "max": 1830,
+        "mean": 1830
+      },
+      "tokens_o200k": {
+        "n": 1,
+        "p50": 1668,
+        "p95": 1668,
+        "max": 1668,
+        "mean": 1668
+      }
+    }
+  ],
+  "rows": [
+    {
+      "qid": "direct-0",
+      "cat": "direct",
+      "asker": "owner",
+      "method": "brainContext",
+      "hit": true,
+      "evAll": false,
+      "evAny": false,
+      "leaks": [],
+      "ms": 919.1296000000002,
+      "tokens": 1830,
+      "tokens_o200k": 1668
+    }
+  ]
+}

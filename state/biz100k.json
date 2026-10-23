@@ -1,0 +1,5043 @@
+{
+  "dataset": "biz100k",
+  "tenant": {
+    "orgId": "b28e5b76-06dd-4414-9d1d-cf12e8689cd5",
+    "workspaceId": "6a4df1aa-87ac-44b6-a1c5-87d0f179f6ce",
+    "users": {
+      "owner": "bd1bfaf0-e31a-47ec-9d82-88f6cf3a4601",
+      "sales": "a2d079f3-5c94-4def-afd2-dcbdcb1026fc",
+      "finance": "3bcb84ec-b736-41f0-b63e-8218e817d866"
+    },
+    "slug": "bb2-biz100k-mvjvvxi7"
+  },
+  "linkOrg": true,
+  "insert": {
+    "brain_entities": {
+      "rows": 20000,
+      "ms": 1421,
+      "rowsPerSec": 14077
+    },
+    "brain_memories": {
+      "rows": 40000,
+      "ms": 63490,
+      "rowsPerSec": 630
+    },
+    "brain_memory_entities": {
+      "rows": 84407,
+      "ms": 3070,
+      "rowsPerSec": 27492
+    },
+    "brain_entity_edges": {
+      "rows": 40000,
+      "ms": 939,
+      "rowsPerSec": 42589
+    },
+    "brain_memory_edges": {
+      "rows": 3000,
+      "ms": 148,
+      "rowsPerSec": 20313
+    }
+  },
+  "embed": {
+    "batches": 100,
+    "batchSize": 400,
+    "totalMs": 166403,
+    "textsPerSec": 240
+  },
+  "counts": {
+    "entities": 20000,
+    "memories": 40000,
+    "edges": 40000,
+    "memoryEdges": 3000,
+    "links": 84407
+  },
+  "needles": [
+    {
+      "kind": "direct",
+      "query": "Starling Shipping Royal Cooler contract code?",
+      "answer": "QX-19652-P",
+      "memId": "a3476b25-3d99-494c-ace3-47edc9a05ea8"
+    },
+    {
+      "kind": "direct",
+      "query": "Riverbend Robotics Fresh Backpack contract code?",
+      "answer": "QX-59934-Z",
+      "memId": "639799b7-4b72-44fb-b855-e50ce1bdd9fe"
+    },
+    {
+      "kind": "direct",
+      "query": "What is the contract number for Starling Consulting's Stellar Mug agreement?",
+      "answer": "QX-99201-F",
+      "memId": "1c40745a-076a-4c44-822d-8564ac0fb8a7"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Opal Boot deal with Sovereign Cloud?",
+      "answer": "QX-62918-H",
+      "memId": "b0e4e3bd-a153-46af-bf98-1c4d2ab5ff61"
+    },
+    {
+      "kind": "direct",
+      "query": "What is the contract number for Marmara Retail's Fresh Pillow agreement?",
+      "answer": "QX-24726-F",
+      "memId": "d64c820f-678f-4ee1-90d8-6844205d874e"
+    },
+    {
+      "kind": "direct",
+      "query": "What is the contract number for Windmill Media's Onyx Pillow agreement?",
+      "answer": "QX-20105-T",
+      "memId": "86f5d3a2-fd61-49ad-b6fb-58f08abb4a42"
+    },
+    {
+      "kind": "direct",
+      "query": "Velocity Bakery Ultra Planter contract code?",
+      "answer": "QX-90217-M",
+      "memId": "166852bc-5571-485d-8ad7-7b0369b8977c"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Arctic Tablet deal with Frontier Plastics?",
+      "answer": "QX-72482-Y",
+      "memId": "3dfd9214-f056-46f9-ac5a-a25815598435"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Prime Tent deal with Vertex Tools?",
+      "answer": "QX-88731-W",
+      "memId": "3e971507-bca5-4ced-b390-8b15e20bdc0f"
+    },
+    {
+      "kind": "direct",
+      "query": "What is the contract number for Emerald Consulting's Forest Monitor agreement?",
+      "answer": "QX-99427-C",
+      "memId": "4ce0187e-abad-4bd5-be0c-7e21836caadc"
+    },
+    {
+      "kind": "direct",
+      "query": "Polaris Data Prime Charger contract code?",
+      "answer": "QX-64903-F",
+      "memId": "f2f261d7-11fb-4947-9403-a9d597f09cc5"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Velvet Tee deal with Truva Coffee?",
+      "answer": "QX-11687-O",
+      "memId": "81bf2126-186c-4f87-bf32-7082c25f84ba"
+    },
+    {
+      "kind": "direct",
+      "query": "Datça Bakery Ultra Monitor contract code?",
+      "answer": "QX-78934-Q",
+      "memId": "053a952b-0eac-4874-9b8a-a4c229e37246"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Clever Shelf deal with Atlas Apparel?",
+      "answer": "QX-69365-G",
+      "memId": "245b4473-540a-440f-a6fa-a8bb0f121844"
+    },
+    {
+      "kind": "direct",
+      "query": "What is the contract number for Göreme Networks's Nova Ring agreement?",
+      "answer": "QX-32423-H",
+      "memId": "3dea52d3-80f9-47e5-82e9-f5ac05221cbe"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Solar Cream deal with Summit Catering?",
+      "answer": "QX-40426-Z",
+      "memId": "5ebe87c8-2cf7-499c-b11d-a00e04f67f7c"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Max Drone deal with Sahara Networks?",
+      "answer": "QX-39927-K",
+      "memId": "7684ed93-b89c-4520-aa02-e00583811471"
+    },
+    {
+      "kind": "direct",
+      "query": "Mistral Tea Solid Towel contract code?",
+      "answer": "QX-67952-S",
+      "memId": "4495cd46-82a4-4a89-958f-03953fe75e00"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Ocean Hoodie deal with Emerald Security?",
+      "answer": "QX-35717-G",
+      "memId": "1cada957-b510-4b16-9a14-5038ccf5597e"
+    },
+    {
+      "kind": "direct",
+      "query": "Alaçatı Catering Edge Pillow contract code?",
+      "answer": "QX-74111-U",
+      "memId": "a368bba1-3662-41ea-aadc-0d980a7d5997"
+    },
+    {
+      "kind": "direct",
+      "query": "Meridian Dairy Velvet Grill contract code?",
+      "answer": "QX-41565-Z",
+      "memId": "0be36c6d-3d7e-48c7-b51e-7c26c541c084"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Max Planter deal with Ege Bank?",
+      "answer": "QX-86083-I",
+      "memId": "3c97b5cf-4ae5-40b9-9200-70b4126eb978"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Classic Hoodie deal with Starling Tea?",
+      "answer": "QX-25320-U",
+      "memId": "d99f1b43-3dcc-48dd-9709-a4fac0c864ac"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Desert Cooler deal with Windmill Mining?",
+      "answer": "QX-99039-U",
+      "memId": "f388a63d-1ebc-466b-a666-ae0e617d72a8"
+    },
+    {
+      "kind": "direct",
+      "query": "Starling Construction Jade Curtain contract code?",
+      "answer": "QX-53449-C",
+      "memId": "ec95cb73-cd4d-4204-b613-53b336ad9ee4"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Arctic Blender deal with Erciyes Foods?",
+      "answer": "QX-45152-G",
+      "memId": "b46add70-5fe3-4f71-96b0-b344062bb0a6"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Copper Tent deal with Anatolia Networks?",
+      "answer": "QX-63042-C",
+      "memId": "b3518459-f04d-485a-8fc6-ceb2d4ee1cde"
+    },
+    {
+      "kind": "direct",
+      "query": "Ilgaz Jewelry Calm Tent contract code?",
+      "answer": "QX-48476-A",
+      "memId": "a58ea9a8-16b7-4f6f-99c1-dabf54c08882"
+    },
+    {
+      "kind": "direct",
+      "query": "What is the contract number for Marmara Textiles's Jade Speaker agreement?",
+      "answer": "QX-18607-I",
+      "memId": "861449e4-099b-4640-8067-7a7152e337cc"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Eco Speaker deal with Mardin Foods?",
+      "answer": "QX-86133-V",
+      "memId": "67ebf785-8c5e-4bfa-bfe2-8f1e2e946638"
+    },
+    {
+      "kind": "direct",
+      "query": "Catalyst Networks Pure Jacket contract code?",
+      "answer": "QX-29280-D",
+      "memId": "e2ace67e-5787-4440-b4e9-3c7d8d992b79"
+    },
+    {
+      "kind": "direct",
+      "query": "Horizon Wind Ultra Notebook contract code?",
+      "answer": "QX-27448-T",
+      "memId": "03f7120b-15b3-42cf-ac6f-dcefda1c0f42"
+    },
+    {
+      "kind": "direct",
+      "query": "Karadeniz Solar Peak Pillow contract code?",
+      "answer": "QX-76733-H",
+      "memId": "7c25b3fd-6d4d-4c59-a398-29e669783b13"
+    },
+    {
+      "kind": "direct",
+      "query": "Oakridge Hotels Aurora Blender contract code?",
+      "answer": "QX-91556-M",
+      "memId": "325d8748-1b64-4286-9a7b-cb6d29a69c9b"
+    },
+    {
+      "kind": "direct",
+      "query": "Kestrel Academy Smart Hoodie contract code?",
+      "answer": "QX-23804-E",
+      "memId": "3deea00a-5d90-4442-808d-7758b413423b"
+    },
+    {
+      "kind": "direct",
+      "query": "Equinox Insurance Silent Planter contract code?",
+      "answer": "QX-60323-R",
+      "memId": "b9edb5a9-bc45-4d49-b423-da722dbbe2a3"
+    },
+    {
+      "kind": "direct",
+      "query": "What is the contract number for Sahara Sports's Fresh Serum agreement?",
+      "answer": "QX-22879-O",
+      "memId": "36f7a31f-1900-4e19-8abf-b0ce777ac005"
+    },
+    {
+      "kind": "direct",
+      "query": "Sovereign Tea Fusion Curtain contract code?",
+      "answer": "QX-74017-W",
+      "memId": "09d726a5-39da-4ea0-b19f-1f2887bc83eb"
+    },
+    {
+      "kind": "direct",
+      "query": "Ege Telecom Modern Camera contract code?",
+      "answer": "QX-63688-Z",
+      "memId": "29fed07a-ab31-4046-a39a-1aed76cd40a6"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Max Rug deal with Mardin Catering?",
+      "answer": "QX-48319-V",
+      "memId": "5562fd19-c634-4f24-a6d5-6b58218150e0"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Fresh Blender deal with Ayvalık Logistics?",
+      "answer": "QX-39513-R",
+      "memId": "b2cfeea7-16da-49bd-9695-5e96a2d2d1af"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Pure Monitor deal with Northwind Partners?",
+      "answer": "QX-42634-L",
+      "memId": "5142d601-8619-42e6-9aa1-6858d42061aa"
+    },
+    {
+      "kind": "direct",
+      "query": "Truva Shipping Bold Wallet contract code?",
+      "answer": "QX-91144-S",
+      "memId": "cda20fe1-c75e-4dea-9ecc-2f59da94bb37"
+    },
+    {
+      "kind": "direct",
+      "query": "Karadeniz Consulting Fresh Monitor contract code?",
+      "answer": "QX-53903-V",
+      "memId": "6c00409b-a5d1-4703-9f7c-4b8759a6d170"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Urban Sofa deal with Frontier Ceramics?",
+      "answer": "QX-40003-E",
+      "memId": "40b6cd4a-99c3-4284-9a62-1307b74a7efa"
+    },
+    {
+      "kind": "direct",
+      "query": "What is the contract number for Brightpath Freight's Mighty Shelf agreement?",
+      "answer": "QX-95152-W",
+      "memId": "9bff1953-a108-4860-b97f-328a834f5781"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Rural Kettle deal with Ilgaz Education?",
+      "answer": "QX-71955-I",
+      "memId": "b5579f37-4f63-43a3-bcdd-0102c56fa214"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Edge Blender deal with Pulse Holdings?",
+      "answer": "QX-84709-N",
+      "memId": "f7a006a0-a693-46c4-9389-9d9caad73f1b"
+    },
+    {
+      "kind": "direct",
+      "query": "What is the contract number for Keystone Logistics's Eco Monitor agreement?",
+      "answer": "QX-19539-S",
+      "memId": "1f045f97-5899-473a-86fa-4e0edde90c01"
+    },
+    {
+      "kind": "direct",
+      "query": "Catalyst Plastics Nova Rug contract code?",
+      "answer": "QX-53412-O",
+      "memId": "dcfae057-6c69-4c94-a211-f355dfdc02ef"
+    },
+    {
+      "kind": "direct",
+      "query": "Aegean Construction Aurora Drone contract code?",
+      "answer": "QX-29504-Z",
+      "memId": "13a3de1f-f22f-49d9-adf1-69a70cc8ffd7"
+    },
+    {
+      "kind": "direct",
+      "query": "Redstone Agro Royal Scarf contract code?",
+      "answer": "QX-18844-B",
+      "memId": "4acda1fd-e4e4-434f-9121-2cee259f7010"
+    },
+    {
+      "kind": "direct",
+      "query": "What is the contract number for Summit Energy's Classic Grill agreement?",
+      "answer": "QX-10763-K",
+      "memId": "0dd1cb45-35b3-47f5-86bb-edaf39ff45bb"
+    },
+    {
+      "kind": "direct",
+      "query": "What is the contract number for Mistral Plastics's Rural Sofa agreement?",
+      "answer": "QX-29990-N",
+      "memId": "ebf699b0-62a7-414c-ab8b-f71ccb901d3d"
+    },
+    {
+      "kind": "direct",
+      "query": "Velocity Printing Desert Bottle contract code?",
+      "answer": "QX-77208-Y",
+      "memId": "a4d99979-4f04-4195-97ca-baad8694822c"
+    },
+    {
+      "kind": "direct",
+      "query": "Riverbend Textiles Bold Speaker contract code?",
+      "answer": "QX-62264-V",
+      "memId": "8aaadc8d-7b64-485e-b835-84515233d2a2"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Fusion Ring deal with Vega Medical?",
+      "answer": "QX-24168-Z",
+      "memId": "159774aa-55fe-4d4f-961e-0c11f8d1c49c"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Pro Serum deal with Catalyst Paper?",
+      "answer": "QX-39812-U",
+      "memId": "bf57dbdc-3d7b-4114-81a6-d3c3f947b71e"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Velvet Camera deal with Sumela Payments?",
+      "answer": "QX-28322-U",
+      "memId": "e1992c08-e67e-430e-b992-3b21811fb9a3"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Pro Ring deal with Cedar Cosmetics?",
+      "answer": "QX-72309-D",
+      "memId": "9ffb3a94-cf6f-422a-a263-ce29b0500a89"
+    },
+    {
+      "kind": "direct",
+      "query": "What is the contract number for Sapphire Motors's Fresh Camera agreement?",
+      "answer": "QX-59862-T",
+      "memId": "18a1a06f-fbdf-45cf-8a6f-428309d774c6"
+    },
+    {
+      "kind": "direct",
+      "query": "What is the contract number for Uludağ Security's Peak Sandal agreement?",
+      "answer": "QX-97158-E",
+      "memId": "35ec722f-4672-4fdd-8aaa-48b53ad1e10a"
+    },
+    {
+      "kind": "direct",
+      "query": "Truva Freight Pro Glove contract code?",
+      "answer": "QX-46923-G",
+      "memId": "5b3f9478-3026-45b4-be2d-754ab0d7b4ed"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Rapid Tee deal with Meridian Marketing?",
+      "answer": "QX-39615-F",
+      "memId": "24efe2ea-356a-45e1-b603-9160e0078aca"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Copper Cream deal with Stonegate Ventures?",
+      "answer": "QX-40793-A",
+      "memId": "ddbaaae3-a12c-4247-acf2-2d48cd20ef47"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Solar Shelf deal with Velocity Clinics?",
+      "answer": "QX-48256-Z",
+      "memId": "0f97ecb3-dc7d-48a2-9d69-5479abcb9d9b"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Bright Cable deal with Pamukkale Tea?",
+      "answer": "QX-53384-I",
+      "memId": "3955cef7-9ed6-486f-8cf5-0f3b1e9570f2"
+    },
+    {
+      "kind": "direct",
+      "query": "What is the contract number for Alaçatı Freight's Modern Curtain agreement?",
+      "answer": "QX-30084-T",
+      "memId": "59852522-9918-4d04-a98f-303d44bb672c"
+    },
+    {
+      "kind": "direct",
+      "query": "Lighthouse Pharma Urban Sandal contract code?",
+      "answer": "QX-72269-H",
+      "memId": "739a999a-122f-4bae-93d7-259a1bafa740"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Onyx Pillow deal with Nemrut Plastics?",
+      "answer": "QX-60871-T",
+      "memId": "77c53d94-787e-423a-a212-3c54f288c6ca"
+    },
+    {
+      "kind": "direct",
+      "query": "Nimbus Toys Core Serum contract code?",
+      "answer": "QX-56865-D",
+      "memId": "66cca60b-0dee-4d10-b3dd-aeb65ae7c170"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Vivid Router deal with Momentum Retail?",
+      "answer": "QX-28595-J",
+      "memId": "d83a11db-89e3-4bc0-ae70-d842a32588e0"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Silent Drone deal with Lighthouse Dental?",
+      "answer": "QX-32198-C",
+      "memId": "17c841d9-de07-4d6c-bfd7-7782a925b5db"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Calm Chair deal with Harbor Sports?",
+      "answer": "QX-20659-B",
+      "memId": "3c315de5-d02c-40e7-8bbb-7f449df4cf4a"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Nova Tablet deal with Polaris Labs?",
+      "answer": "QX-26591-G",
+      "memId": "92ee41f5-c8be-4afe-b445-4d452ec5e3ab"
+    },
+    {
+      "kind": "direct",
+      "query": "Keystone Bank Modern Backpack contract code?",
+      "answer": "QX-94143-Q",
+      "memId": "6ecc3341-76ce-464a-9a83-2a222f00684a"
+    },
+    {
+      "kind": "direct",
+      "query": "Regal Furniture Flex Shelf contract code?",
+      "answer": "QX-24259-T",
+      "memId": "608df58b-a19c-49ab-b17e-9624e137c4da"
+    },
+    {
+      "kind": "direct",
+      "query": "Pamukkale Fitness Core Bottle contract code?",
+      "answer": "QX-76872-F",
+      "memId": "4653a309-8828-44a4-aeac-784091c74c94"
+    },
+    {
+      "kind": "direct",
+      "query": "What is the contract number for Safranbolu Mining's Pure Headset agreement?",
+      "answer": "QX-84936-Q",
+      "memId": "d935ceaf-7405-4163-aa03-3e4d285838bc"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Ruby Candle deal with Goldleaf Textiles?",
+      "answer": "QX-88911-L",
+      "memId": "155e0752-e8e8-490a-b639-b10d67a0cf6b"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Jade Shampoo deal with Sovereign Tools?",
+      "answer": "QX-37475-G",
+      "memId": "44dfc723-ba67-49c7-a730-0b22d8146cea"
+    },
+    {
+      "kind": "direct",
+      "query": "Cappadocia Cloud Onyx Tee contract code?",
+      "answer": "QX-25322-C",
+      "memId": "e52cbb69-0ee6-4fbd-b4f8-9e03a0c522e0"
+    },
+    {
+      "kind": "direct",
+      "query": "Brightpath Tea Prime Backpack contract code?",
+      "answer": "QX-13190-R",
+      "memId": "83af711f-5b10-4e94-b3d6-870a24a8fed1"
+    },
+    {
+      "kind": "direct",
+      "query": "What is the contract number for Vega Telecom's Opal Backpack agreement?",
+      "answer": "QX-30611-W",
+      "memId": "56124b18-0300-40a2-829d-af4019ae21b9"
+    },
+    {
+      "kind": "direct",
+      "query": "What is the contract number for Trident Ceramics's Urban Ring agreement?",
+      "answer": "QX-15352-S",
+      "memId": "9fb410e0-547e-466c-84b9-17de0315d125"
+    },
+    {
+      "kind": "direct",
+      "query": "Pamukkale Dental Crystal Scarf contract code?",
+      "answer": "QX-79490-A",
+      "memId": "9f75a50b-ad36-4e9c-a816-7c1b27ca3d65"
+    },
+    {
+      "kind": "direct",
+      "query": "Meridian Glass Arctic Drone contract code?",
+      "answer": "QX-31711-C",
+      "memId": "b656b6e2-b605-40d2-a920-479703547f9d"
+    },
+    {
+      "kind": "direct",
+      "query": "Ayvalık Bank Velvet Scanner contract code?",
+      "answer": "QX-99213-X",
+      "memId": "2151bad5-2c25-4445-913d-5c2687761033"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Forest Notebook deal with Kestrel Packaging?",
+      "answer": "QX-57452-K",
+      "memId": "24b29742-d70a-4a9c-9b6e-631a5b12dce8"
+    },
+    {
+      "kind": "direct",
+      "query": "What is the contract number for Velocity Appliances's Clever Cream agreement?",
+      "answer": "QX-61341-P",
+      "memId": "3771b781-b5a5-4ac8-a8c3-ca50ee43b53b"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Peak Jacket deal with Spark Coffee?",
+      "answer": "QX-38465-E",
+      "memId": "e4cd12db-9f2e-45de-bde0-24449ac6be0b"
+    },
+    {
+      "kind": "direct",
+      "query": "What is the contract number for Ironbridge Energy's Ultra Tent agreement?",
+      "answer": "QX-44633-R",
+      "memId": "3fc1faf7-e671-482c-8941-b271b33ff6c8"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Max Cable deal with Toros Steel?",
+      "answer": "QX-39620-N",
+      "memId": "ed9e75ed-6220-4af6-b9df-0f23aa78d326"
+    },
+    {
+      "kind": "direct",
+      "query": "Summit Optics Prime Notebook contract code?",
+      "answer": "QX-43395-E",
+      "memId": "14a60a96-3958-420e-a099-2189e4d69b85"
+    },
+    {
+      "kind": "direct",
+      "query": "Which contract reference covers the Prime Belt deal with Pulse Medical?",
+      "answer": "QX-71159-Z",
+      "memId": "cfece903-e98f-4058-ac6e-a092e68f8cc0"
+    },
+    {
+      "kind": "direct",
+      "query": "Toros Ventures Velvet Cream contract code?",
+      "answer": "QX-89707-R",
+      "memId": "f5e2a09e-d2df-42c7-a804-c5756dca8c46"
+    },
+    {
+      "kind": "direct",
+      "query": "Palandöken Tea Bold Pen contract code?",
+      "answer": "QX-39239-X",
+      "memId": "8a988516-464a-4579-ad35-0b2f81a36ef9"
+    },
+    {
+      "kind": "direct",
+      "query": "What is the contract number for Pinnacle Systems's Urban Pillow agreement?",
+      "answer": "QX-57326-A",
+      "memId": "cdda9d17-97ae-4609-9669-59b08c3b86a7"
+    },
+    {
+      "kind": "direct",
+      "query": "Regal Medical Arctic Cream contract code?",
+      "answer": "QX-46129-C",
+      "memId": "4774ee9a-ca93-41cd-8d4d-c9d8bd08ee36"
+    },
+    {
+      "kind": "direct",
+      "query": "Truva Security Vivid Router contract code?",
+      "answer": "QX-87367-Y",
+      "memId": "74d4d6c2-dff1-4b4f-8b97-35752b2cb56d"
+    },
+    {
+      "kind": "2hop",
+      "query": "Where is Linda Patel's employer headquartered?",
+      "answer": "Şebboy Sk. No:109",
+      "chain": [
+        "Linda Patel",
+        "Efes Retail"
+      ],
+      "ids": [
+        "1141cf66-fd2f-4e94-b5ab-44f92ad6a421",
+        "4361345e-f75f-46b4-a9c1-867035044304"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "What is the headquarters address of the company Hülya Foster works for?",
+      "answer": "Bağdat Cad. No:159",
+      "chain": [
+        "Hülya Foster",
+        "Titan Tea"
+      ],
+      "ids": [
+        "ce37fbb0-c712-45f6-b1dd-a01ba10b6318",
+        "2df60ef2-5b62-4ed1-9a4f-14bba65c034f"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "Where is Jack Fischer's employer headquartered?",
+      "answer": "Sümbül Sk. No:217",
+      "chain": [
+        "Jack Fischer",
+        "Orion Payments"
+      ],
+      "ids": [
+        "282f829b-da89-4caa-aca7-bfda7d4475c9",
+        "2c4eb0fc-072c-4e77-8b44-bbdd83d30b6d"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "What is the headquarters address of the company David Keskin works for?",
+      "answer": "Kaktüs Sk. No:166",
+      "chain": [
+        "David Keskin",
+        "Northwind Energy"
+      ],
+      "ids": [
+        "3ad57abc-395c-4a68-87b9-9eeec099f0f1",
+        "b570d598-fe82-419b-a99a-319d6177d4af"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "Where is Laura Brown's employer headquartered?",
+      "answer": "Kaktüs Sk. No:192",
+      "chain": [
+        "Laura Brown",
+        "Pioneer Freight"
+      ],
+      "ids": [
+        "fa10c28c-18ad-4dfb-8406-fb9c6f433191",
+        "85f867f6-0225-49de-bce8-2c6215d28c85"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "Where is Mei Güler's employer headquartered?",
+      "answer": "Nergis Sk. No:199",
+      "chain": [
+        "Mei Güler",
+        "Bluewave Construction"
+      ],
+      "ids": [
+        "e5e12cda-acdf-4ef5-b75e-57df9b2a4a70",
+        "ba15aa51-8835-4544-aba1-9c6fde199e02"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "Where is Selin Williams's employer headquartered?",
+      "answer": "Zambak Sk. No:180",
+      "chain": [
+        "Selin Williams",
+        "Mardin Marketing"
+      ],
+      "ids": [
+        "0fd548de-b866-47db-9ea3-dc4c60aa1c74",
+        "9c00808c-d70d-4e77-860d-a59fe3d060d2"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "What is the headquarters address of the company Adam Öztürk works for?",
+      "answer": "Akasya Sk. No:168",
+      "chain": [
+        "Adam Öztürk",
+        "Kaş Ceramics"
+      ],
+      "ids": [
+        "bce96c69-1f68-4cdd-857a-e4e724394612",
+        "931e5713-f1ec-4758-b372-4eca072ae2f3"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "Where is Fatma Wang's employer headquartered?",
+      "answer": "Karanfil Sk. No:140",
+      "chain": [
+        "Fatma Wang",
+        "Sirocco Media"
+      ],
+      "ids": [
+        "43167eeb-57b5-49c9-9514-50b2d3b54b3c",
+        "71dc91a5-8df3-42bb-9955-5f56ec750253"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "Where is Robert Özdemir's employer headquartered?",
+      "answer": "İstiklal Cad. No:140",
+      "chain": [
+        "Robert Özdemir",
+        "Heritage Water"
+      ],
+      "ids": [
+        "f9f52994-0755-4153-91c9-708e73d9c088",
+        "10bf44a1-5a2e-4bf7-82ac-9a8dfe246c3e"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "Where is Sedat Brooks's employer headquartered?",
+      "answer": "Kavak Sk. No:11",
+      "chain": [
+        "Sedat Brooks",
+        "Horizon Hotels"
+      ],
+      "ids": [
+        "77fcbc45-f98c-496b-b83a-607c071116f0",
+        "d950e4c2-e386-4e09-89aa-f5727df79619"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "Where is Noah Kara's employer headquartered?",
+      "answer": "Söğüt Sk. No:196",
+      "chain": [
+        "Noah Kara",
+        "Bluewave Hotels"
+      ],
+      "ids": [
+        "91cdf05e-e054-4691-9014-c829b79d99a3",
+        "0ff424cf-c4ba-44ed-86f5-dc9de0f393b7"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "What is the headquarters address of the company Alp Weber works for?",
+      "answer": "Begonya Sk. No:219",
+      "chain": [
+        "Alp Weber",
+        "Sterling Analytics"
+      ],
+      "ids": [
+        "282a188e-bc48-48df-9bd8-19feddf4c6b2",
+        "a15a0c72-aa67-4dae-9f09-87114d27564d"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "What is the headquarters address of the company Doğan Ateş works for?",
+      "answer": "Begonya Sk. No:85",
+      "chain": [
+        "Doğan Ateş",
+        "Sumela Shipping"
+      ],
+      "ids": [
+        "cc9e9109-02b4-4239-b1b3-4502a8aaff7e",
+        "d1733bc7-df9b-481a-97d2-2940fcea0ab0"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "Where is Oya Moreau's employer headquartered?",
+      "answer": "Sümbül Sk. No:222",
+      "chain": [
+        "Oya Moreau",
+        "Compass Systems"
+      ],
+      "ids": [
+        "24a04068-1ffb-4ca7-a080-a7cc3dd60538",
+        "20291107-3b70-4e34-84c7-bc9e264de904"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "Where is Yasemin Aslan's employer headquartered?",
+      "answer": "Kaktüs Sk. No:5",
+      "chain": [
+        "Yasemin Aslan",
+        "Titan Analytics"
+      ],
+      "ids": [
+        "fd6223a2-7120-4660-9a87-d1a14abeb3a6",
+        "b3b248ad-2267-46ff-8223-b70a453f4101"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "What is the headquarters address of the company Gökhan King works for?",
+      "answer": "Alsancak Sk. No:44",
+      "chain": [
+        "Gökhan King",
+        "Ironbridge Marketing"
+      ],
+      "ids": [
+        "87b6b666-eae1-41c7-8cc4-c218ad77d43b",
+        "e656d0ac-1f15-493c-bd4b-d8356352ef4a"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "What is the headquarters address of the company Yuki Young works for?",
+      "answer": "Kamelya Sk. No:221",
+      "chain": [
+        "Yuki Young",
+        "Bolu Software"
+      ],
+      "ids": [
+        "94f9b944-007c-4cbd-bc69-500ad0298910",
+        "e70cdc8a-640c-4d62-8b5b-d62d7f54d205"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who runs the company that supplies Derya Bailey's company?",
+      "answer": "Yeliz Hill",
+      "chain": [
+        "Derya Bailey",
+        "Momentum Glass",
+        "Alaçatı Fitness",
+        "Yeliz Hill"
+      ],
+      "ids": [
+        "a928ced5-58e2-439d-af12-f3824fe4fcc0",
+        "bbdc47cb-d41b-4627-9087-d90192a0f43d",
+        "b2396872-2a7e-45f2-b28a-4171d42916cf",
+        "32a2026d-fb59-4f4f-801e-dec3a6e92607"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "Where is Sofia James's employer headquartered?",
+      "answer": "Papatya Sk. No:119",
+      "chain": [
+        "Sofia James",
+        "Cappadocia Wind"
+      ],
+      "ids": [
+        "1e8b963d-ca25-4664-b8e5-12c41b20a8df",
+        "d3264a8e-a1b4-42bd-b808-43a832a35862"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "What is the headquarters address of the company Koray Ateş works for?",
+      "answer": "Abdi İpekçi Cad. No:142",
+      "chain": [
+        "Koray Ateş",
+        "Göreme Insurance"
+      ],
+      "ids": [
+        "82b036eb-1d43-479c-b78a-746950776b7e",
+        "b8462f21-d111-45a1-964c-e428a3036c69"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "What is the headquarters address of the company Sibel Clark works for?",
+      "answer": "Lavanta Sk. No:185",
+      "chain": [
+        "Sibel Clark",
+        "Tundra Holdings"
+      ],
+      "ids": [
+        "732b6546-3657-4264-92b0-2b31027961b3",
+        "3411391d-1055-4c93-8e2b-310c72e92fcf"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "What is the headquarters address of the company Esra Kaya works for?",
+      "answer": "Kaktüs Sk. No:170",
+      "chain": [
+        "Esra Kaya",
+        "Mardin Robotics"
+      ],
+      "ids": [
+        "223c722c-011c-4d00-baec-ca80c08e8944",
+        "5e57729f-fd8d-4ffe-96d6-71e7e321cdea"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "Where is Amelie Tunç's employer headquartered?",
+      "answer": "Büyükdere Cad. No:66",
+      "chain": [
+        "Amelie Tunç",
+        "Pioneer Insurance"
+      ],
+      "ids": [
+        "a1687163-1fb6-4f2c-96cd-e41bc2aadae1",
+        "2c6be466-7796-47df-a8c1-41ecec4fd091"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "Where is Esra Aydın's employer headquartered?",
+      "answer": "Kavak Sk. No:62",
+      "chain": [
+        "Esra Aydın",
+        "Nemrut Logistics"
+      ],
+      "ids": [
+        "4b32e518-77a0-4324-a42e-21c0c534936f",
+        "124575a4-f747-4848-b0a4-bdeb77e17b00"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "Where is Layla King's employer headquartered?",
+      "answer": "Şebboy Sk. No:216",
+      "chain": [
+        "Layla King",
+        "Ilgaz Education"
+      ],
+      "ids": [
+        "8b12b8da-33bb-4a80-a4b5-44bbda154f70",
+        "a0ddec54-3c00-43b8-9934-e0ba06c73edf"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "Where is Tolga Roberts's employer headquartered?",
+      "answer": "Mimoza Sk. No:7",
+      "chain": [
+        "Tolga Roberts",
+        "Liberty Insurance"
+      ],
+      "ids": [
+        "b2c0c9a0-ebc6-4cde-83de-7720233f1119",
+        "de911c5f-c0be-44ce-ac5b-1b6f0fc6fbbf"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "What is the headquarters address of the company Polat Bayram works for?",
+      "answer": "Begonya Sk. No:218",
+      "chain": [
+        "Polat Bayram",
+        "Monarch Energy"
+      ],
+      "ids": [
+        "ad928335-4095-4ab7-87fe-2a1a64696702",
+        "9080c0e2-6069-4de3-9e01-33c8260931d2"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "What is the headquarters address of the company Ece Watson works for?",
+      "answer": "Bağdat Cad. No:48",
+      "chain": [
+        "Ece Watson",
+        "Lighthouse Travel"
+      ],
+      "ids": [
+        "ad044d83-6201-4e49-8db1-4a7dae2343b2",
+        "3e105f6f-b70e-4e3c-9703-f962359e77c1"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "What is the headquarters address of the company Zeynep Parker works for?",
+      "answer": "Papatya Sk. No:229",
+      "chain": [
+        "Zeynep Parker",
+        "Vega Bakery"
+      ],
+      "ids": [
+        "56e65930-1e2e-4f9b-a236-951449d8ab71",
+        "d23b5776-aaeb-4282-8074-8a6725e92225"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "What is the headquarters address of the company Rüya Edwards works for?",
+      "answer": "Konyaaltı Cad. No:111",
+      "chain": [
+        "Rüya Edwards",
+        "Ihlara Ceramics"
+      ],
+      "ids": [
+        "1b12bf61-885f-434c-9173-895338bd4256",
+        "ebe3c31a-9fc4-4d7d-97cb-a2cf53d31aff"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "What is the headquarters address of the company Sarah Carter works for?",
+      "answer": "Cinnah Cad. No:98",
+      "chain": [
+        "Sarah Carter",
+        "Quantum Steel"
+      ],
+      "ids": [
+        "3d7072bc-587b-46a4-8cf7-7d7d8f0ccc0a",
+        "74d48d01-8310-4cb2-a140-f5a617dce494"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "What is the headquarters address of the company Mehmet Yıldırım works for?",
+      "answer": "Konyaaltı Cad. No:27",
+      "chain": [
+        "Mehmet Yıldırım",
+        "Crescent Paper"
+      ],
+      "ids": [
+        "1efefeea-2059-4312-baa2-5658420eac75",
+        "32799cbd-c359-48d9-87a3-2e399123caf1"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "Where is Irmak Taş's employer headquartered?",
+      "answer": "Çınar Sk. No:11",
+      "chain": [
+        "Irmak Taş",
+        "Lighthouse Media"
+      ],
+      "ids": [
+        "3233e894-84ff-49ce-bb03-29254e57e1fa",
+        "492b94d9-c8d7-49d6-9ed6-038ff813cafc"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "What is the headquarters address of the company John Tunç works for?",
+      "answer": "Bağdat Cad. No:199",
+      "chain": [
+        "John Tunç",
+        "Palandöken Steel"
+      ],
+      "ids": [
+        "f4f3a2ad-31c6-461f-bf72-3c8d534c7ff5",
+        "42de47af-b17d-4795-a3c1-5c1174d16617"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "Where is Wei Becker's employer headquartered?",
+      "answer": "Lale Sk. No:214",
+      "chain": [
+        "Wei Becker",
+        "Bodrum Bank"
+      ],
+      "ids": [
+        "9ecd5890-1b13-434f-9bd5-ff89f31508a6",
+        "99eef514-6ea7-4a0d-89de-a0df107bb071"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "What is the headquarters address of the company Anna Hughes works for?",
+      "answer": "Cinnah Cad. No:225",
+      "chain": [
+        "Anna Hughes",
+        "Pulse Solar"
+      ],
+      "ids": [
+        "47bf6f2c-0b0f-4ff9-8f3b-c55e2d39bd2d",
+        "7b266f2a-cef4-4197-b3e2-4b2ef505ce35"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "What is the headquarters address of the company Fatma Roberts works for?",
+      "answer": "Nergis Sk. No:169",
+      "chain": [
+        "Fatma Roberts",
+        "Kaçkar Tools"
+      ],
+      "ids": [
+        "7c4900d7-0899-4af4-af51-c4e27baf223b",
+        "a53d372f-b86b-497e-a705-a2e9c3898047"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "What is the headquarters address of the company Anna Walker works for?",
+      "answer": "Konyaaltı Cad. No:217",
+      "chain": [
+        "Anna Walker",
+        "Palandöken Partners"
+      ],
+      "ids": [
+        "d7594733-d771-4227-a1c4-78c4085d9e58",
+        "0db7f550-ad95-465a-93fc-23cf4881fbe1"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "Where is Burak Bianchi's employer headquartered?",
+      "answer": "Gülbahar Sk. No:160",
+      "chain": [
+        "Burak Bianchi",
+        "Falcon Textiles"
+      ],
+      "ids": [
+        "75c74b08-1507-4900-9510-1751349500f5",
+        "7288a6d5-df1f-4381-b8a3-edde79c3fa20"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "What is the headquarters address of the company Ivan Anderson works for?",
+      "answer": "Zambak Sk. No:237",
+      "chain": [
+        "Ivan Anderson",
+        "Riverbend Bank"
+      ],
+      "ids": [
+        "a0730f4a-f810-466d-8405-5aa851be9bb4",
+        "9d24e7de-ff0a-4ea0-a662-c7a4e6ec90bc"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "What is the headquarters address of the company Max Adams works for?",
+      "answer": "Manolya Sk. No:101",
+      "chain": [
+        "Max Adams",
+        "Vertex Medical"
+      ],
+      "ids": [
+        "d73e2bf9-c0a1-4b54-9cc4-3d822d0eb046",
+        "f48d82ab-7033-491a-88f6-1925bf828395"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "What is the headquarters address of the company Gökhan Murphy works for?",
+      "answer": "Hanımeli Sk. No:224",
+      "chain": [
+        "Gökhan Murphy",
+        "Marmara Bakery"
+      ],
+      "ids": [
+        "50a6d65c-df2e-4949-b285-46ae5e5a1508",
+        "8d5d27f6-a6f2-4773-a1d4-c81cd71a147f"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "What is the headquarters address of the company Ivan Çelik works for?",
+      "answer": "Atatürk Blv. No:56",
+      "chain": [
+        "Ivan Çelik",
+        "Spark Catering"
+      ],
+      "ids": [
+        "57b4d50e-5954-40d4-aa59-ffc1f6e4825d",
+        "dbbb452d-e766-427d-8a67-29cb44fbbea5"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "What is the headquarters address of the company Marco Nowak works for?",
+      "answer": "Nilüfer Sk. No:179",
+      "chain": [
+        "Marco Nowak",
+        "Aegean Robotics"
+      ],
+      "ids": [
+        "b100cb0e-5325-484c-95f4-c141214ffdfd",
+        "1891791b-7ef7-46a8-b6ab-ecc5e16b8aa2"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "Where is Selin Parker's employer headquartered?",
+      "answer": "Hanımeli Sk. No:39",
+      "chain": [
+        "Selin Parker",
+        "Nimbus Printing"
+      ],
+      "ids": [
+        "7c733991-2f2b-46e1-a3d9-84a58809e972",
+        "b1e20b8f-5beb-4ae7-915a-bfb706ea1070"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "Where is Gökhan Khan's employer headquartered?",
+      "answer": "Karanfil Sk. No:8",
+      "chain": [
+        "Gökhan Khan",
+        "Nimbus Hotels"
+      ],
+      "ids": [
+        "bd63b151-c708-4ee5-8102-11b7ba27ad39",
+        "c2a74187-f981-4b9f-bf93-44f698a62f45"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "Where is Aslı Polat's employer headquartered?",
+      "answer": "Gazi Blv. No:132",
+      "chain": [
+        "Aslı Polat",
+        "Momentum Aviation"
+      ],
+      "ids": [
+        "e3aa9d50-b38a-4d84-8385-811fe1aa709a",
+        "568d6292-fe8c-459e-a097-46b92af373b1"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "Where is Greta Johnson's employer headquartered?",
+      "answer": "Kordon Boyu Lara Cad. No:237",
+      "chain": [
+        "Greta Johnson",
+        "Crescent Marketing"
+      ],
+      "ids": [
+        "787ef315-e132-44f1-addd-7a50a380fe25",
+        "380c4a05-d55f-4a0f-b5c2-e57d822b8825"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "Where is Necati Ferrari's employer headquartered?",
+      "answer": "Söğüt Sk. No:58",
+      "chain": [
+        "Necati Ferrari",
+        "Marmara Studios"
+      ],
+      "ids": [
+        "063807d2-ad27-45bc-bd9b-1a7f0ac11b45",
+        "ef71a86f-7f5f-474e-9c00-5833b987b18d"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "What is the headquarters address of the company Mary Martin works for?",
+      "answer": "İstiklal Cad. No:105",
+      "chain": [
+        "Mary Martin",
+        "Tundra Analytics"
+      ],
+      "ids": [
+        "87b51cbd-4736-48f4-8502-f20236b5d622",
+        "21de439d-75df-4042-85dc-a61fa7ca63af"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "Where is Can Wang's employer headquartered?",
+      "answer": "Atatürk Blv. No:20",
+      "chain": [
+        "Can Wang",
+        "Equinox Motors"
+      ],
+      "ids": [
+        "9d8de756-d076-49ef-ae35-b1421e1cd29e",
+        "3cbcc387-947b-4e42-8977-e04c6b04b5af"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "Where is Cem Wilson's employer headquartered?",
+      "answer": "Manolya Sk. No:225",
+      "chain": [
+        "Cem Wilson",
+        "Redstone Electronics"
+      ],
+      "ids": [
+        "99ea5cb3-2c0f-493e-ada1-9b659825a103",
+        "d03126a1-f031-438a-b39b-7606e300d376"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "What is the headquarters address of the company Emma Miller works for?",
+      "answer": "Nilüfer Sk. No:8",
+      "chain": [
+        "Emma Miller",
+        "Silverline Ventures"
+      ],
+      "ids": [
+        "ea55809b-a8fa-40df-9533-dd5753e09452",
+        "0b00caf2-df29-4235-b71e-5906274af54e"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "What is the headquarters address of the company Ozan Çetin works for?",
+      "answer": "Hanımeli Sk. No:135",
+      "chain": [
+        "Ozan Çetin",
+        "Titan Marketing"
+      ],
+      "ids": [
+        "94a46a0c-e2c2-4f42-a30a-c99bd7b2aee6",
+        "f967d0d2-a468-4bdb-a991-7f25965bb92f"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "What is the headquarters address of the company Necati Becker works for?",
+      "answer": "İstiklal Cad. No:6",
+      "chain": [
+        "Necati Becker",
+        "Evergreen Telecom"
+      ],
+      "ids": [
+        "94396d89-7a25-445e-bf73-7b70ca7aca85",
+        "ee8392b5-95b1-4863-b5c2-d2f8021f4097"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "Where is Nina Turan's employer headquartered?",
+      "answer": "Ihlamur Sk. No:132",
+      "chain": [
+        "Nina Turan",
+        "Efes Bank"
+      ],
+      "ids": [
+        "3c23a856-cc3c-46d7-9605-a68c93ad1fc4",
+        "7ccfdaf1-b488-4180-bbef-dbb9a68366e2"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "Where is Ella Suzuki's employer headquartered?",
+      "answer": "Konyaaltı Cad. No:169",
+      "chain": [
+        "Ella Suzuki",
+        "Spark Academy"
+      ],
+      "ids": [
+        "03693d17-46d3-48c1-a446-6f366f3b1536",
+        "a1f8fd2d-fc7c-4261-b929-d3fa67956d00"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "What is the headquarters address of the company Onur Anderson works for?",
+      "answer": "Mithatpaşa Cad. No:226",
+      "chain": [
+        "Onur Anderson",
+        "Heritage Ceramics"
+      ],
+      "ids": [
+        "a005afe7-acdc-434e-b5fc-c00daac931cd",
+        "34388d25-8bb2-42ae-bbff-ced88d8b5601"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "What is the headquarters address of the company Esra Eren works for?",
+      "answer": "Tunalı Hilmi Cad. No:122",
+      "chain": [
+        "Esra Eren",
+        "Compass Academy"
+      ],
+      "ids": [
+        "8edcdecb-80ea-444f-9939-0b8fcecdedf2",
+        "c318b71b-a7a6-4bd0-b78a-f10cc237fa38"
+      ]
+    },
+    {
+      "kind": "2hop",
+      "query": "Where is Laura Özkan's employer headquartered?",
+      "answer": "Hürriyet Cad. No:27",
+      "chain": [
+        "Laura Özkan",
+        "Vanguard Studios"
+      ],
+      "ids": [
+        "78ad681f-6679-4179-9213-a42d872621b9",
+        "b538bb78-9f1e-4e9f-aa0b-1bdc1e5c1741"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who runs the company that supplies Amira Nelson's company?",
+      "answer": "Tuba Bell",
+      "chain": [
+        "Amira Nelson",
+        "Bluewave Electronics",
+        "Nemrut Optics",
+        "Tuba Bell"
+      ],
+      "ids": [
+        "27c881f8-b8cb-45d9-8cb3-450ce2d1b9a6",
+        "52a946d6-dd34-4e4f-b6b5-7a35a2acc92e",
+        "f47a1bdd-a0c8-47e5-b220-2abcf13ecdf4",
+        "881c072c-458e-4747-8e2f-454c3dc1c9f9"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who runs the company that supplies Barış Foster's company?",
+      "answer": "Umut Demir",
+      "chain": [
+        "Barış Foster",
+        "Anatolia Solar",
+        "Lumen Sports",
+        "Umut Demir"
+      ],
+      "ids": [
+        "1ae6a0d7-c00d-4b14-ad12-19045219a001",
+        "ba184334-22d6-4de3-bb2f-ccd2dc76c20e",
+        "f337ee79-4f13-4757-974f-f9cff81cde9f",
+        "d92b62e6-1407-41f7-b653-fca654273217"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who is the CEO of the supplier of Priya Cook's employer?",
+      "answer": "Pınar Bulut",
+      "chain": [
+        "Priya Cook",
+        "Orion Dairy",
+        "Kaş Agro",
+        "Pınar Bulut"
+      ],
+      "ids": [
+        "5a241051-9f9e-434a-90ed-e7819ba6d2b2",
+        "6d1f7d9b-b3ec-4981-823e-71d9d9467146",
+        "453ef8f8-5135-42b7-8146-37f816642231",
+        "673a67d2-f1ca-4a6c-8849-ce478b4967d9"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who runs the company that supplies Kaan Polat's company?",
+      "answer": "Gökhan Aslan",
+      "chain": [
+        "Kaan Polat",
+        "Clearwater Packaging",
+        "Ember Pharma",
+        "Gökhan Aslan"
+      ],
+      "ids": [
+        "515f1d24-0f15-4f5d-ac69-7151b0d9e756",
+        "ede16ff3-d2e9-4e78-8620-ebd5357a7b93",
+        "477b2b00-833f-4701-a3a8-bdb2823e2ed6",
+        "fd25634b-b690-4d96-a091-ecc1adaa3ed0"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who is the CEO of the supplier of John Cox's employer?",
+      "answer": "Kenji Aydın",
+      "chain": [
+        "John Cox",
+        "Ilgaz Labs",
+        "Göreme Cosmetics",
+        "Kenji Aydın"
+      ],
+      "ids": [
+        "0ae38757-99d9-4cb9-9d50-b264d3843254",
+        "bc160f9c-114d-404a-a165-dfb13c37556a",
+        "8df09648-f407-4a5e-bee7-03d7346d8007",
+        "8829ba41-ceda-4160-8807-c4d38183c600"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who runs the company that supplies Volkan Rivera's company?",
+      "answer": "Mustafa Aydın",
+      "chain": [
+        "Volkan Rivera",
+        "Velocity Travel",
+        "Ember Robotics",
+        "Mustafa Aydın"
+      ],
+      "ids": [
+        "8b3134e9-0ed6-435b-bb38-1abe87e600f4",
+        "1f360840-6c71-45d2-b127-1b61307b349e",
+        "83170997-02e0-4a32-980c-1a1f5163601c",
+        "1c720dd0-c978-4654-a3bb-137f779a64d3"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who runs the company that supplies Irmak Garcia's company?",
+      "answer": "Hans Price",
+      "chain": [
+        "Irmak Garcia",
+        "Safranbolu Construction",
+        "Ege Footwear",
+        "Hans Price"
+      ],
+      "ids": [
+        "0753c005-c039-4ed9-a66b-812806f1fcd4",
+        "b983baeb-b101-4ac0-bfcd-1d7d0f67c233",
+        "96f74864-2165-480a-a622-a2731ed92254",
+        "27fc00db-9ab2-4ea5-8a13-137eeb28a221"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who runs the company that supplies Ebru Wilson's company?",
+      "answer": "Amelie Morgan",
+      "chain": [
+        "Ebru Wilson",
+        "Mardin Bank",
+        "Crescent Telecom",
+        "Amelie Morgan"
+      ],
+      "ids": [
+        "ee495e10-5737-4f13-92ba-5692818f3b3d",
+        "8944d5f8-cb1d-4ece-826d-2a3fe58f2e84",
+        "a44575b9-31ff-4c10-bab5-b6a6f3d172eb",
+        "5f54787c-e553-4c73-b5bb-54e74625907e"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who runs the company that supplies Merve Khan's company?",
+      "answer": "Daniel Weber",
+      "chain": [
+        "Merve Khan",
+        "Kaçkar Coffee",
+        "Vertex Electronics",
+        "Daniel Weber"
+      ],
+      "ids": [
+        "de1279e6-b4d9-4499-812e-636b266019b0",
+        "86e6bebc-4be3-47a7-9525-f2baa48aacb3",
+        "e000dc58-b108-464c-96d5-ad26de24cefa",
+        "ea64cca3-ab95-4e1a-a841-5861ba68dd31"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who runs the company that supplies Anna Aslan's company?",
+      "answer": "Leyla Kurt",
+      "chain": [
+        "Anna Aslan",
+        "Ihlara Holdings",
+        "Ironbridge Consulting",
+        "Leyla Kurt"
+      ],
+      "ids": [
+        "ab4bcf86-3249-4814-a86f-a847f244e9f5",
+        "65caa0b4-4e41-4979-92cc-e6746b02cb33",
+        "518dc67c-80fd-449a-b48e-08ee2b5b8445",
+        "0e3f5ae5-9b4b-417b-a772-4847110e5d6b"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who is the CEO of the supplier of Gamze Özkan's employer?",
+      "answer": "Sedat Demir",
+      "chain": [
+        "Gamze Özkan",
+        "Evergreen Labs",
+        "Cappadocia Retail",
+        "Sedat Demir"
+      ],
+      "ids": [
+        "97a2f4e2-69a3-4576-ba7d-18f357a75e70",
+        "e4d3ade0-8d31-4bbc-9e2f-4ee99cc6b7c3",
+        "5ad9c8b7-ab73-47cd-8301-93fbccf9d3d1",
+        "7d4ea92d-db12-440d-b541-485dcdf507c7"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who runs the company that supplies Linda Polat's company?",
+      "answer": "Serkan Ekinci",
+      "chain": [
+        "Linda Polat",
+        "Titan Holdings",
+        "Cappadocia Cloud",
+        "Serkan Ekinci"
+      ],
+      "ids": [
+        "9b089fc2-5bc8-4590-901f-427840ecf106",
+        "63e2200c-e823-4e31-aabc-75814d4ef133",
+        "acc54af7-eb17-4b48-97af-b6361f638467",
+        "d7bb9eea-9900-436e-a5a3-c483f2440d35"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who is the CEO of the supplier of Ayşe Morris's employer?",
+      "answer": "Amira Kocabaş",
+      "chain": [
+        "Ayşe Morris",
+        "Aurora Water",
+        "Beacon Tools",
+        "Amira Kocabaş"
+      ],
+      "ids": [
+        "f96cb3c5-2b2f-4a3c-aca0-7a959ca8123d",
+        "f12227f6-18b4-4777-b57e-25a6855d91f8",
+        "82447e61-e995-4e8a-9858-ff9f7e79f275",
+        "e39f8613-77bd-4922-a9bd-6ddf357bf696"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who is the CEO of the supplier of Olivia Yılmaz's employer?",
+      "answer": "Bora Polat",
+      "chain": [
+        "Olivia Yılmaz",
+        "Erciyes Plastics",
+        "Ege Travel",
+        "Bora Polat"
+      ],
+      "ids": [
+        "4b572637-fcb2-4a58-a787-d7254f64897d",
+        "16330217-0f9d-40a3-b88f-2750b4eb6d72",
+        "4c7b911d-14bc-4b7f-877e-a2bc3529ef86",
+        "5902904d-a2b4-4c7a-bd5f-e75b1260861d"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who is the CEO of the supplier of Deniz Doğan's employer?",
+      "answer": "Omar Lewis",
+      "chain": [
+        "Deniz Doğan",
+        "Ember Cosmetics",
+        "Goldleaf Steel",
+        "Omar Lewis"
+      ],
+      "ids": [
+        "131409f7-cafd-4fbd-ae08-21557f61405d",
+        "d5e007cc-3aa4-458b-94e7-91ea55375e7c",
+        "9cc706c7-f458-4fbf-b354-50570197cd06",
+        "1bd3b4cc-73f7-47d1-8adf-b4051f2f2822"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who runs the company that supplies Aslı Moore's company?",
+      "answer": "Lucas Morris",
+      "chain": [
+        "Aslı Moore",
+        "Ironbridge Foods",
+        "Aegean Catering",
+        "Lucas Morris"
+      ],
+      "ids": [
+        "92368f3f-6629-4ed8-a251-46d3bf525344",
+        "3529f503-71ea-4525-9069-9a3e96b73c26",
+        "6d3ddd55-1f93-4e76-9e52-8eff0d4be651",
+        "2dea4065-27c4-4457-9a82-19f9093e2038"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who is the CEO of the supplier of Giulia James's employer?",
+      "answer": "Selin Myers",
+      "chain": [
+        "Giulia James",
+        "Truva Robotics",
+        "Karadeniz Aviation",
+        "Selin Myers"
+      ],
+      "ids": [
+        "16fc7c78-766e-405a-8906-6c2d4d4dea3c",
+        "7e82790e-53c4-4f8d-b491-c72b0c6eafe1",
+        "9cb8f27a-75bc-4e39-9b5c-866396852a77",
+        "e021ad37-0136-461c-bce8-4c5515b7119c"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who is the CEO of the supplier of Emma Duman's employer?",
+      "answer": "Adam Sanders",
+      "chain": [
+        "Emma Duman",
+        "Frontier Partners",
+        "Marmara Clinics",
+        "Adam Sanders"
+      ],
+      "ids": [
+        "7059371d-3396-4b64-9783-577acfb45eb6",
+        "80ee8912-ae73-4e88-acad-ef43953bf22c",
+        "ccd90002-270e-443d-92fd-7ff0a4617d56",
+        "a8f1f3cd-6596-4848-b471-4224e8508e2c"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who runs the company that supplies Koray Karaca's company?",
+      "answer": "Oya Edwards",
+      "chain": [
+        "Koray Karaca",
+        "Silverline Steel",
+        "Keystone Retail",
+        "Oya Edwards"
+      ],
+      "ids": [
+        "e53101d4-f314-43f2-81d8-03a282f5c641",
+        "e4e58c4d-b3a8-453d-8719-63b12ea3dbb5",
+        "4af1b95c-f7d3-4cb2-80b1-0dfc886f3822",
+        "a8988a4b-1ea2-4b15-ab46-8f21d25996d4"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who is the CEO of the supplier of Necati Jones's employer?",
+      "answer": "Ece Edwards",
+      "chain": [
+        "Necati Jones",
+        "Toros Sports",
+        "Falcon Networks",
+        "Ece Edwards"
+      ],
+      "ids": [
+        "be128cc1-d13d-45c1-a9c8-311c042f9d21",
+        "33571812-ac0f-4bde-b80c-ee875c8acbf7",
+        "ef2a96f3-a4b4-44fd-ac47-b64be1d2f841",
+        "546eb5ce-2f87-4e0c-928a-f383c624db91"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who runs the company that supplies Vedat Yıldırım's company?",
+      "answer": "Ozan Suzuki",
+      "chain": [
+        "Vedat Yıldırım",
+        "Titan Shipping",
+        "Sovereign Agro",
+        "Ozan Suzuki"
+      ],
+      "ids": [
+        "aeaf0570-280d-4999-9242-6767c8683a06",
+        "beaabc54-9409-45f0-b681-147707a51b7b",
+        "9637fa94-e834-4e09-94b2-aba04c391977",
+        "cddbb11e-1e77-4c46-957f-63fb54961967"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who runs the company that supplies Umut Bulut's company?",
+      "answer": "Zafer Peterson",
+      "chain": [
+        "Umut Bulut",
+        "Starling Printing",
+        "Summit Bank",
+        "Zafer Peterson"
+      ],
+      "ids": [
+        "54e5975c-77a0-4304-abe1-fd14fe1a8e4b",
+        "7285a6b9-a0d4-48c9-a2cb-9f0468b654e6",
+        "30928c72-37b4-41cb-b774-8d72c50961ff",
+        "9ef38365-34c4-49a5-8c17-7b439bbcee58"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who runs the company that supplies Nina Hill's company?",
+      "answer": "Ozan Suzuki",
+      "chain": [
+        "Nina Hill",
+        "Titan Shipping",
+        "Sovereign Agro",
+        "Ozan Suzuki"
+      ],
+      "ids": [
+        "d6b0fbf0-3eb9-4ba6-9fec-ec82a1a54499",
+        "beaabc54-9409-45f0-b681-147707a51b7b",
+        "9637fa94-e834-4e09-94b2-aba04c391977",
+        "cddbb11e-1e77-4c46-957f-63fb54961967"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who runs the company that supplies Jale Wood's company?",
+      "answer": "Polat Shah",
+      "chain": [
+        "Jale Wood",
+        "Beacon Toys",
+        "Titan Printing",
+        "Polat Shah"
+      ],
+      "ids": [
+        "7de62851-4159-4ec7-9afb-b2820b358ae3",
+        "d214072a-0a3e-4fa0-8962-1cac85b9c40f",
+        "b994f406-a287-46b0-820d-b25931240d54",
+        "6df5665f-d650-4bae-afa9-575a27d7353a"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who is the CEO of the supplier of Dilan Ferrari's employer?",
+      "answer": "Ivan Miller",
+      "chain": [
+        "Dilan Ferrari",
+        "Velocity Bank",
+        "Göreme Shipping",
+        "Ivan Miller"
+      ],
+      "ids": [
+        "917ec0ab-4e3e-4a05-8327-fcc466e0b2d7",
+        "c7041ae8-621d-4208-85fa-c8d86636d3c8",
+        "a4645721-9e6a-42a1-bc6d-74efe397dc36",
+        "054d551a-52e3-4d76-89df-2594f44a167d"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who runs the company that supplies Lena Foster's company?",
+      "answer": "Hülya Howard",
+      "chain": [
+        "Lena Foster",
+        "Crescent Security",
+        "Kaş Steel",
+        "Hülya Howard"
+      ],
+      "ids": [
+        "d40eb305-432f-4e19-b96e-d91d739c197a",
+        "1b9bb153-cf8c-4c04-8ec9-8fd13b4844d3",
+        "ddf4e919-474a-41cb-93d0-d1aaa2b3785a",
+        "a7e0f695-0601-4f23-9ded-9f72bad81cc9"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who is the CEO of the supplier of Oliver Schulz's employer?",
+      "answer": "Burak King",
+      "chain": [
+        "Oliver Schulz",
+        "Liberty Footwear",
+        "Sapphire Printing",
+        "Burak King"
+      ],
+      "ids": [
+        "e26b1d01-d98a-4f4d-8019-9b5f5884de81",
+        "e7234366-9d10-4479-be22-eb7c77eb40c4",
+        "5098b166-5e75-4f6c-9f78-bbc3557d0519",
+        "16bd6234-afb1-4873-8bd4-d21dbc839dd5"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who runs the company that supplies Jack Hall's company?",
+      "answer": "İlker Sato",
+      "chain": [
+        "Jack Hall",
+        "Mardin Media",
+        "Erciyes Systems",
+        "İlker Sato"
+      ],
+      "ids": [
+        "8a692969-cdd9-4b60-8d6e-229a4dd25a2c",
+        "ec846af9-82b0-4b43-af8f-643e5974cf3e",
+        "5f239ff6-aef3-47cb-9f2e-d60f9736dc06",
+        "8629b95e-fbec-4b81-921e-f57a9b3499e4"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who is the CEO of the supplier of Şule Aksoy's employer?",
+      "answer": "Michael Tekin",
+      "chain": [
+        "Şule Aksoy",
+        "Horizon Packaging",
+        "Efes Appliances",
+        "Michael Tekin"
+      ],
+      "ids": [
+        "888bbb89-f8a8-441f-922b-0524df68d7e9",
+        "9e4f9fb9-12dc-43c1-b404-c53a9c0fb9f7",
+        "70118600-2f14-4864-a964-3546a3703daf",
+        "c17e43e9-e95f-4d99-baaf-45b715c9b646"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who is the CEO of the supplier of Hülya Dubois's employer?",
+      "answer": "Hülya Duman",
+      "chain": [
+        "Hülya Dubois",
+        "Vertex Payments",
+        "Tundra Telecom",
+        "Hülya Duman"
+      ],
+      "ids": [
+        "93407293-d04f-4f2a-b6ae-62fe4d94be18",
+        "0718a8f2-02e6-4eed-8e64-ce0604899497",
+        "1ca22500-f7ad-44c9-a556-f4a4945a3571",
+        "c7f78015-4638-4c32-b78f-dafd8dd20ee9"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who is the CEO of the supplier of Gökhan Aksoy's employer?",
+      "answer": "Sophia Taş",
+      "chain": [
+        "Gökhan Aksoy",
+        "Pamukkale Robotics",
+        "Alaçatı Catering",
+        "Sophia Taş"
+      ],
+      "ids": [
+        "1cc51547-b4df-45b3-b520-3302a975c001",
+        "b3e03c8e-cd9a-4976-a5f8-588997997249",
+        "220b3925-b789-4cdc-9b08-0c6c5495f09b",
+        "e979ac53-bbc5-4bcd-bbea-87e9803bd1b7"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who is the CEO of the supplier of Emre Sanders's employer?",
+      "answer": "Sibel King",
+      "chain": [
+        "Emre Sanders",
+        "Crescent Holdings",
+        "Pulse Plastics",
+        "Sibel King"
+      ],
+      "ids": [
+        "812aee39-3d10-4259-be9a-4efa416e240f",
+        "8ed50e3b-a235-4cfa-872d-bea48d44852b",
+        "42d20d6f-b5fa-4ab1-817b-5d1599da5be8",
+        "da4c1ce2-119c-4aff-a96b-dfde2e766c81"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who is the CEO of the supplier of Alp Hall's employer?",
+      "answer": "Hande Baker",
+      "chain": [
+        "Alp Hall",
+        "Nexus Cloud",
+        "Bluewave Footwear",
+        "Hande Baker"
+      ],
+      "ids": [
+        "f5b5d370-4035-4b0e-827e-25bfe13bd370",
+        "bd48c719-92fa-4688-b593-6ef8c410fce5",
+        "2d3968bf-8a5c-4fdb-a631-95efd4f8acce",
+        "60149f4b-93f1-4990-9424-3a6fa93fd3a4"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who is the CEO of the supplier of Daniel Kowalski's employer?",
+      "answer": "Nina Özdemir",
+      "chain": [
+        "Daniel Kowalski",
+        "Ember Jewelry",
+        "Levant Footwear",
+        "Nina Özdemir"
+      ],
+      "ids": [
+        "d1596ae7-95a4-4bbc-b229-cfe12773ed3a",
+        "d95b1135-0654-4bc8-9128-c3718bd45c29",
+        "1d61ae15-74c1-4579-acdf-96333311c713",
+        "e3a85237-c91b-4a53-8933-09417e8db571"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who is the CEO of the supplier of Yeliz Young's employer?",
+      "answer": "Anna Kara",
+      "chain": [
+        "Yeliz Young",
+        "Ayvalık Hotels",
+        "Bosphorus Travel",
+        "Anna Kara"
+      ],
+      "ids": [
+        "66603aaf-70db-4d2b-8a1a-c2df0836dae5",
+        "0fb2bbe7-f438-4d64-8ca6-2f66eeb34b2f",
+        "bc4643dd-41e2-4676-afe9-2913cbb2de6a",
+        "de220deb-774c-4a6c-b920-6c07ed4795fa"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who runs the company that supplies Tolga Aslan's company?",
+      "answer": "Leo Harris",
+      "chain": [
+        "Tolga Aslan",
+        "Göreme Consulting",
+        "Compass Ceramics",
+        "Leo Harris"
+      ],
+      "ids": [
+        "bea1434f-d370-4b32-8a47-9b5e0e14d6c0",
+        "d98faa7e-877d-4e93-9847-c06ac598e069",
+        "4d6083c5-8ae8-47fb-82c0-0c141245d720",
+        "b9842f87-ff2d-4192-a9b9-f2a43761f143"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who is the CEO of the supplier of Robert Williams's employer?",
+      "answer": "Sophia Bennett",
+      "chain": [
+        "Robert Williams",
+        "Falcon Apparel",
+        "Cappadocia Ceramics",
+        "Sophia Bennett"
+      ],
+      "ids": [
+        "3008da4e-bffe-451f-883c-ccdcf0f4b5b7",
+        "1e344e1a-646c-4c36-a181-a0aa045c4f30",
+        "c53e3630-083f-4b84-adde-4cc7ceb0ebe3",
+        "7d5c9e0b-4aa4-40f9-bf20-41e2cb33fb9b"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who is the CEO of the supplier of Ivan Mitchell's employer?",
+      "answer": "Noah Gündoğdu",
+      "chain": [
+        "Ivan Mitchell",
+        "Starling Agro",
+        "Alaçatı Plastics",
+        "Noah Gündoğdu"
+      ],
+      "ids": [
+        "e42c0e40-a7ff-467d-ab21-f096a60ebaa6",
+        "3ba7fd46-7087-45a0-b1b7-3182c468961f",
+        "d1afdc21-eb8c-45ad-ad57-04b6c8d650e4",
+        "d7e6fa32-abb0-4e23-b535-e784cce6ce95"
+      ]
+    },
+    {
+      "kind": "3hop",
+      "query": "Who runs the company that supplies İrem Cook's company?",
+      "answer": "Chloe Bailey",
+      "chain": [
+        "İrem Cook",
+        "Brightpath Cosmetics",
+        "Ihlara Paper",
+        "Chloe Bailey"
+      ],
+      "ids": [
+        "d13133f5-69dc-4f1b-968d-d7718dab1ffa",
+        "8704a954-c7d4-48d7-82c7-b2b663d5b666",
+        "25933d7c-6476-4d8a-ac23-d19c322b5ae1",
+        "baf198e1-5e47-443a-8a4b-dae2388b640c"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "direct-0",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Starling Shipping Royal Cooler contract code?",
+      "answer": "QX-19652-P",
+      "evidenceIds": [
+        "a3476b25-3d99-494c-ace3-47edc9a05ea8"
+      ]
+    },
+    {
+      "id": "direct-1",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Riverbend Robotics Fresh Backpack contract code?",
+      "answer": "QX-59934-Z",
+      "evidenceIds": [
+        "639799b7-4b72-44fb-b855-e50ce1bdd9fe"
+      ]
+    },
+    {
+      "id": "direct-2",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "What is the contract number for Starling Consulting's Stellar Mug agreement?",
+      "answer": "QX-99201-F",
+      "evidenceIds": [
+        "1c40745a-076a-4c44-822d-8564ac0fb8a7"
+      ]
+    },
+    {
+      "id": "direct-3",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Opal Boot deal with Sovereign Cloud?",
+      "answer": "QX-62918-H",
+      "evidenceIds": [
+        "b0e4e3bd-a153-46af-bf98-1c4d2ab5ff61"
+      ]
+    },
+    {
+      "id": "direct-4",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "What is the contract number for Marmara Retail's Fresh Pillow agreement?",
+      "answer": "QX-24726-F",
+      "evidenceIds": [
+        "d64c820f-678f-4ee1-90d8-6844205d874e"
+      ]
+    },
+    {
+      "id": "direct-5",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "What is the contract number for Windmill Media's Onyx Pillow agreement?",
+      "answer": "QX-20105-T",
+      "evidenceIds": [
+        "86f5d3a2-fd61-49ad-b6fb-58f08abb4a42"
+      ]
+    },
+    {
+      "id": "direct-6",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Velocity Bakery Ultra Planter contract code?",
+      "answer": "QX-90217-M",
+      "evidenceIds": [
+        "166852bc-5571-485d-8ad7-7b0369b8977c"
+      ]
+    },
+    {
+      "id": "direct-7",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Arctic Tablet deal with Frontier Plastics?",
+      "answer": "QX-72482-Y",
+      "evidenceIds": [
+        "3dfd9214-f056-46f9-ac5a-a25815598435"
+      ]
+    },
+    {
+      "id": "direct-8",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Prime Tent deal with Vertex Tools?",
+      "answer": "QX-88731-W",
+      "evidenceIds": [
+        "3e971507-bca5-4ced-b390-8b15e20bdc0f"
+      ]
+    },
+    {
+      "id": "direct-9",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "What is the contract number for Emerald Consulting's Forest Monitor agreement?",
+      "answer": "QX-99427-C",
+      "evidenceIds": [
+        "4ce0187e-abad-4bd5-be0c-7e21836caadc"
+      ]
+    },
+    {
+      "id": "direct-10",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Polaris Data Prime Charger contract code?",
+      "answer": "QX-64903-F",
+      "evidenceIds": [
+        "f2f261d7-11fb-4947-9403-a9d597f09cc5"
+      ]
+    },
+    {
+      "id": "direct-11",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Velvet Tee deal with Truva Coffee?",
+      "answer": "QX-11687-O",
+      "evidenceIds": [
+        "81bf2126-186c-4f87-bf32-7082c25f84ba"
+      ]
+    },
+    {
+      "id": "direct-12",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Datça Bakery Ultra Monitor contract code?",
+      "answer": "QX-78934-Q",
+      "evidenceIds": [
+        "053a952b-0eac-4874-9b8a-a4c229e37246"
+      ]
+    },
+    {
+      "id": "direct-13",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Clever Shelf deal with Atlas Apparel?",
+      "answer": "QX-69365-G",
+      "evidenceIds": [
+        "245b4473-540a-440f-a6fa-a8bb0f121844"
+      ]
+    },
+    {
+      "id": "direct-14",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "What is the contract number for Göreme Networks's Nova Ring agreement?",
+      "answer": "QX-32423-H",
+      "evidenceIds": [
+        "3dea52d3-80f9-47e5-82e9-f5ac05221cbe"
+      ]
+    },
+    {
+      "id": "direct-15",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Solar Cream deal with Summit Catering?",
+      "answer": "QX-40426-Z",
+      "evidenceIds": [
+        "5ebe87c8-2cf7-499c-b11d-a00e04f67f7c"
+      ]
+    },
+    {
+      "id": "direct-16",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Max Drone deal with Sahara Networks?",
+      "answer": "QX-39927-K",
+      "evidenceIds": [
+        "7684ed93-b89c-4520-aa02-e00583811471"
+      ]
+    },
+    {
+      "id": "direct-17",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Mistral Tea Solid Towel contract code?",
+      "answer": "QX-67952-S",
+      "evidenceIds": [
+        "4495cd46-82a4-4a89-958f-03953fe75e00"
+      ]
+    },
+    {
+      "id": "direct-18",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Ocean Hoodie deal with Emerald Security?",
+      "answer": "QX-35717-G",
+      "evidenceIds": [
+        "1cada957-b510-4b16-9a14-5038ccf5597e"
+      ]
+    },
+    {
+      "id": "direct-19",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Alaçatı Catering Edge Pillow contract code?",
+      "answer": "QX-74111-U",
+      "evidenceIds": [
+        "a368bba1-3662-41ea-aadc-0d980a7d5997"
+      ]
+    },
+    {
+      "id": "direct-20",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Meridian Dairy Velvet Grill contract code?",
+      "answer": "QX-41565-Z",
+      "evidenceIds": [
+        "0be36c6d-3d7e-48c7-b51e-7c26c541c084"
+      ]
+    },
+    {
+      "id": "direct-21",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Max Planter deal with Ege Bank?",
+      "answer": "QX-86083-I",
+      "evidenceIds": [
+        "3c97b5cf-4ae5-40b9-9200-70b4126eb978"
+      ]
+    },
+    {
+      "id": "direct-22",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Classic Hoodie deal with Starling Tea?",
+      "answer": "QX-25320-U",
+      "evidenceIds": [
+        "d99f1b43-3dcc-48dd-9709-a4fac0c864ac"
+      ]
+    },
+    {
+      "id": "direct-23",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Desert Cooler deal with Windmill Mining?",
+      "answer": "QX-99039-U",
+      "evidenceIds": [
+        "f388a63d-1ebc-466b-a666-ae0e617d72a8"
+      ]
+    },
+    {
+      "id": "direct-24",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Starling Construction Jade Curtain contract code?",
+      "answer": "QX-53449-C",
+      "evidenceIds": [
+        "ec95cb73-cd4d-4204-b613-53b336ad9ee4"
+      ]
+    },
+    {
+      "id": "direct-25",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Arctic Blender deal with Erciyes Foods?",
+      "answer": "QX-45152-G",
+      "evidenceIds": [
+        "b46add70-5fe3-4f71-96b0-b344062bb0a6"
+      ]
+    },
+    {
+      "id": "direct-26",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Copper Tent deal with Anatolia Networks?",
+      "answer": "QX-63042-C",
+      "evidenceIds": [
+        "b3518459-f04d-485a-8fc6-ceb2d4ee1cde"
+      ]
+    },
+    {
+      "id": "direct-27",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Ilgaz Jewelry Calm Tent contract code?",
+      "answer": "QX-48476-A",
+      "evidenceIds": [
+        "a58ea9a8-16b7-4f6f-99c1-dabf54c08882"
+      ]
+    },
+    {
+      "id": "direct-28",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "What is the contract number for Marmara Textiles's Jade Speaker agreement?",
+      "answer": "QX-18607-I",
+      "evidenceIds": [
+        "861449e4-099b-4640-8067-7a7152e337cc"
+      ]
+    },
+    {
+      "id": "direct-29",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Eco Speaker deal with Mardin Foods?",
+      "answer": "QX-86133-V",
+      "evidenceIds": [
+        "67ebf785-8c5e-4bfa-bfe2-8f1e2e946638"
+      ]
+    },
+    {
+      "id": "direct-30",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Catalyst Networks Pure Jacket contract code?",
+      "answer": "QX-29280-D",
+      "evidenceIds": [
+        "e2ace67e-5787-4440-b4e9-3c7d8d992b79"
+      ]
+    },
+    {
+      "id": "direct-31",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Horizon Wind Ultra Notebook contract code?",
+      "answer": "QX-27448-T",
+      "evidenceIds": [
+        "03f7120b-15b3-42cf-ac6f-dcefda1c0f42"
+      ]
+    },
+    {
+      "id": "direct-32",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Karadeniz Solar Peak Pillow contract code?",
+      "answer": "QX-76733-H",
+      "evidenceIds": [
+        "7c25b3fd-6d4d-4c59-a398-29e669783b13"
+      ]
+    },
+    {
+      "id": "direct-33",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Oakridge Hotels Aurora Blender contract code?",
+      "answer": "QX-91556-M",
+      "evidenceIds": [
+        "325d8748-1b64-4286-9a7b-cb6d29a69c9b"
+      ]
+    },
+    {
+      "id": "direct-34",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Kestrel Academy Smart Hoodie contract code?",
+      "answer": "QX-23804-E",
+      "evidenceIds": [
+        "3deea00a-5d90-4442-808d-7758b413423b"
+      ]
+    },
+    {
+      "id": "direct-35",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Equinox Insurance Silent Planter contract code?",
+      "answer": "QX-60323-R",
+      "evidenceIds": [
+        "b9edb5a9-bc45-4d49-b423-da722dbbe2a3"
+      ]
+    },
+    {
+      "id": "direct-36",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "What is the contract number for Sahara Sports's Fresh Serum agreement?",
+      "answer": "QX-22879-O",
+      "evidenceIds": [
+        "36f7a31f-1900-4e19-8abf-b0ce777ac005"
+      ]
+    },
+    {
+      "id": "direct-37",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Sovereign Tea Fusion Curtain contract code?",
+      "answer": "QX-74017-W",
+      "evidenceIds": [
+        "09d726a5-39da-4ea0-b19f-1f2887bc83eb"
+      ]
+    },
+    {
+      "id": "direct-38",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Ege Telecom Modern Camera contract code?",
+      "answer": "QX-63688-Z",
+      "evidenceIds": [
+        "29fed07a-ab31-4046-a39a-1aed76cd40a6"
+      ]
+    },
+    {
+      "id": "direct-39",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Max Rug deal with Mardin Catering?",
+      "answer": "QX-48319-V",
+      "evidenceIds": [
+        "5562fd19-c634-4f24-a6d5-6b58218150e0"
+      ]
+    },
+    {
+      "id": "direct-40",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Fresh Blender deal with Ayvalık Logistics?",
+      "answer": "QX-39513-R",
+      "evidenceIds": [
+        "b2cfeea7-16da-49bd-9695-5e96a2d2d1af"
+      ]
+    },
+    {
+      "id": "direct-41",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Pure Monitor deal with Northwind Partners?",
+      "answer": "QX-42634-L",
+      "evidenceIds": [
+        "5142d601-8619-42e6-9aa1-6858d42061aa"
+      ]
+    },
+    {
+      "id": "direct-42",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Truva Shipping Bold Wallet contract code?",
+      "answer": "QX-91144-S",
+      "evidenceIds": [
+        "cda20fe1-c75e-4dea-9ecc-2f59da94bb37"
+      ]
+    },
+    {
+      "id": "direct-43",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Karadeniz Consulting Fresh Monitor contract code?",
+      "answer": "QX-53903-V",
+      "evidenceIds": [
+        "6c00409b-a5d1-4703-9f7c-4b8759a6d170"
+      ]
+    },
+    {
+      "id": "direct-44",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Urban Sofa deal with Frontier Ceramics?",
+      "answer": "QX-40003-E",
+      "evidenceIds": [
+        "40b6cd4a-99c3-4284-9a62-1307b74a7efa"
+      ]
+    },
+    {
+      "id": "direct-45",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "What is the contract number for Brightpath Freight's Mighty Shelf agreement?",
+      "answer": "QX-95152-W",
+      "evidenceIds": [
+        "9bff1953-a108-4860-b97f-328a834f5781"
+      ]
+    },
+    {
+      "id": "direct-46",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Rural Kettle deal with Ilgaz Education?",
+      "answer": "QX-71955-I",
+      "evidenceIds": [
+        "b5579f37-4f63-43a3-bcdd-0102c56fa214"
+      ]
+    },
+    {
+      "id": "direct-47",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Edge Blender deal with Pulse Holdings?",
+      "answer": "QX-84709-N",
+      "evidenceIds": [
+        "f7a006a0-a693-46c4-9389-9d9caad73f1b"
+      ]
+    },
+    {
+      "id": "direct-48",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "What is the contract number for Keystone Logistics's Eco Monitor agreement?",
+      "answer": "QX-19539-S",
+      "evidenceIds": [
+        "1f045f97-5899-473a-86fa-4e0edde90c01"
+      ]
+    },
+    {
+      "id": "direct-49",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Catalyst Plastics Nova Rug contract code?",
+      "answer": "QX-53412-O",
+      "evidenceIds": [
+        "dcfae057-6c69-4c94-a211-f355dfdc02ef"
+      ]
+    },
+    {
+      "id": "direct-50",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Aegean Construction Aurora Drone contract code?",
+      "answer": "QX-29504-Z",
+      "evidenceIds": [
+        "13a3de1f-f22f-49d9-adf1-69a70cc8ffd7"
+      ]
+    },
+    {
+      "id": "direct-51",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Redstone Agro Royal Scarf contract code?",
+      "answer": "QX-18844-B",
+      "evidenceIds": [
+        "4acda1fd-e4e4-434f-9121-2cee259f7010"
+      ]
+    },
+    {
+      "id": "direct-52",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "What is the contract number for Summit Energy's Classic Grill agreement?",
+      "answer": "QX-10763-K",
+      "evidenceIds": [
+        "0dd1cb45-35b3-47f5-86bb-edaf39ff45bb"
+      ]
+    },
+    {
+      "id": "direct-53",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "What is the contract number for Mistral Plastics's Rural Sofa agreement?",
+      "answer": "QX-29990-N",
+      "evidenceIds": [
+        "ebf699b0-62a7-414c-ab8b-f71ccb901d3d"
+      ]
+    },
+    {
+      "id": "direct-54",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Velocity Printing Desert Bottle contract code?",
+      "answer": "QX-77208-Y",
+      "evidenceIds": [
+        "a4d99979-4f04-4195-97ca-baad8694822c"
+      ]
+    },
+    {
+      "id": "direct-55",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Riverbend Textiles Bold Speaker contract code?",
+      "answer": "QX-62264-V",
+      "evidenceIds": [
+        "8aaadc8d-7b64-485e-b835-84515233d2a2"
+      ]
+    },
+    {
+      "id": "direct-56",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Fusion Ring deal with Vega Medical?",
+      "answer": "QX-24168-Z",
+      "evidenceIds": [
+        "159774aa-55fe-4d4f-961e-0c11f8d1c49c"
+      ]
+    },
+    {
+      "id": "direct-57",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Pro Serum deal with Catalyst Paper?",
+      "answer": "QX-39812-U",
+      "evidenceIds": [
+        "bf57dbdc-3d7b-4114-81a6-d3c3f947b71e"
+      ]
+    },
+    {
+      "id": "direct-58",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Velvet Camera deal with Sumela Payments?",
+      "answer": "QX-28322-U",
+      "evidenceIds": [
+        "e1992c08-e67e-430e-b992-3b21811fb9a3"
+      ]
+    },
+    {
+      "id": "direct-59",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Pro Ring deal with Cedar Cosmetics?",
+      "answer": "QX-72309-D",
+      "evidenceIds": [
+        "9ffb3a94-cf6f-422a-a263-ce29b0500a89"
+      ]
+    },
+    {
+      "id": "direct-60",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "What is the contract number for Sapphire Motors's Fresh Camera agreement?",
+      "answer": "QX-59862-T",
+      "evidenceIds": [
+        "18a1a06f-fbdf-45cf-8a6f-428309d774c6"
+      ]
+    },
+    {
+      "id": "direct-61",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "What is the contract number for Uludağ Security's Peak Sandal agreement?",
+      "answer": "QX-97158-E",
+      "evidenceIds": [
+        "35ec722f-4672-4fdd-8aaa-48b53ad1e10a"
+      ]
+    },
+    {
+      "id": "direct-62",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Truva Freight Pro Glove contract code?",
+      "answer": "QX-46923-G",
+      "evidenceIds": [
+        "5b3f9478-3026-45b4-be2d-754ab0d7b4ed"
+      ]
+    },
+    {
+      "id": "direct-63",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Rapid Tee deal with Meridian Marketing?",
+      "answer": "QX-39615-F",
+      "evidenceIds": [
+        "24efe2ea-356a-45e1-b603-9160e0078aca"
+      ]
+    },
+    {
+      "id": "direct-64",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Copper Cream deal with Stonegate Ventures?",
+      "answer": "QX-40793-A",
+      "evidenceIds": [
+        "ddbaaae3-a12c-4247-acf2-2d48cd20ef47"
+      ]
+    },
+    {
+      "id": "direct-65",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Solar Shelf deal with Velocity Clinics?",
+      "answer": "QX-48256-Z",
+      "evidenceIds": [
+        "0f97ecb3-dc7d-48a2-9d69-5479abcb9d9b"
+      ]
+    },
+    {
+      "id": "direct-66",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Bright Cable deal with Pamukkale Tea?",
+      "answer": "QX-53384-I",
+      "evidenceIds": [
+        "3955cef7-9ed6-486f-8cf5-0f3b1e9570f2"
+      ]
+    },
+    {
+      "id": "direct-67",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "What is the contract number for Alaçatı Freight's Modern Curtain agreement?",
+      "answer": "QX-30084-T",
+      "evidenceIds": [
+        "59852522-9918-4d04-a98f-303d44bb672c"
+      ]
+    },
+    {
+      "id": "direct-68",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Lighthouse Pharma Urban Sandal contract code?",
+      "answer": "QX-72269-H",
+      "evidenceIds": [
+        "739a999a-122f-4bae-93d7-259a1bafa740"
+      ]
+    },
+    {
+      "id": "direct-69",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Onyx Pillow deal with Nemrut Plastics?",
+      "answer": "QX-60871-T",
+      "evidenceIds": [
+        "77c53d94-787e-423a-a212-3c54f288c6ca"
+      ]
+    },
+    {
+      "id": "direct-70",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Nimbus Toys Core Serum contract code?",
+      "answer": "QX-56865-D",
+      "evidenceIds": [
+        "66cca60b-0dee-4d10-b3dd-aeb65ae7c170"
+      ]
+    },
+    {
+      "id": "direct-71",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Vivid Router deal with Momentum Retail?",
+      "answer": "QX-28595-J",
+      "evidenceIds": [
+        "d83a11db-89e3-4bc0-ae70-d842a32588e0"
+      ]
+    },
+    {
+      "id": "direct-72",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Silent Drone deal with Lighthouse Dental?",
+      "answer": "QX-32198-C",
+      "evidenceIds": [
+        "17c841d9-de07-4d6c-bfd7-7782a925b5db"
+      ]
+    },
+    {
+      "id": "direct-73",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Calm Chair deal with Harbor Sports?",
+      "answer": "QX-20659-B",
+      "evidenceIds": [
+        "3c315de5-d02c-40e7-8bbb-7f449df4cf4a"
+      ]
+    },
+    {
+      "id": "direct-74",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Nova Tablet deal with Polaris Labs?",
+      "answer": "QX-26591-G",
+      "evidenceIds": [
+        "92ee41f5-c8be-4afe-b445-4d452ec5e3ab"
+      ]
+    },
+    {
+      "id": "direct-75",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Keystone Bank Modern Backpack contract code?",
+      "answer": "QX-94143-Q",
+      "evidenceIds": [
+        "6ecc3341-76ce-464a-9a83-2a222f00684a"
+      ]
+    },
+    {
+      "id": "direct-76",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Regal Furniture Flex Shelf contract code?",
+      "answer": "QX-24259-T",
+      "evidenceIds": [
+        "608df58b-a19c-49ab-b17e-9624e137c4da"
+      ]
+    },
+    {
+      "id": "direct-77",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Pamukkale Fitness Core Bottle contract code?",
+      "answer": "QX-76872-F",
+      "evidenceIds": [
+        "4653a309-8828-44a4-aeac-784091c74c94"
+      ]
+    },
+    {
+      "id": "direct-78",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "What is the contract number for Safranbolu Mining's Pure Headset agreement?",
+      "answer": "QX-84936-Q",
+      "evidenceIds": [
+        "d935ceaf-7405-4163-aa03-3e4d285838bc"
+      ]
+    },
+    {
+      "id": "direct-79",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Ruby Candle deal with Goldleaf Textiles?",
+      "answer": "QX-88911-L",
+      "evidenceIds": [
+        "155e0752-e8e8-490a-b639-b10d67a0cf6b"
+      ]
+    },
+    {
+      "id": "direct-80",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Jade Shampoo deal with Sovereign Tools?",
+      "answer": "QX-37475-G",
+      "evidenceIds": [
+        "44dfc723-ba67-49c7-a730-0b22d8146cea"
+      ]
+    },
+    {
+      "id": "direct-81",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Cappadocia Cloud Onyx Tee contract code?",
+      "answer": "QX-25322-C",
+      "evidenceIds": [
+        "e52cbb69-0ee6-4fbd-b4f8-9e03a0c522e0"
+      ]
+    },
+    {
+      "id": "direct-82",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Brightpath Tea Prime Backpack contract code?",
+      "answer": "QX-13190-R",
+      "evidenceIds": [
+        "83af711f-5b10-4e94-b3d6-870a24a8fed1"
+      ]
+    },
+    {
+      "id": "direct-83",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "What is the contract number for Vega Telecom's Opal Backpack agreement?",
+      "answer": "QX-30611-W",
+      "evidenceIds": [
+        "56124b18-0300-40a2-829d-af4019ae21b9"
+      ]
+    },
+    {
+      "id": "direct-84",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "What is the contract number for Trident Ceramics's Urban Ring agreement?",
+      "answer": "QX-15352-S",
+      "evidenceIds": [
+        "9fb410e0-547e-466c-84b9-17de0315d125"
+      ]
+    },
+    {
+      "id": "direct-85",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Pamukkale Dental Crystal Scarf contract code?",
+      "answer": "QX-79490-A",
+      "evidenceIds": [
+        "9f75a50b-ad36-4e9c-a816-7c1b27ca3d65"
+      ]
+    },
+    {
+      "id": "direct-86",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Meridian Glass Arctic Drone contract code?",
+      "answer": "QX-31711-C",
+      "evidenceIds": [
+        "b656b6e2-b605-40d2-a920-479703547f9d"
+      ]
+    },
+    {
+      "id": "direct-87",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Ayvalık Bank Velvet Scanner contract code?",
+      "answer": "QX-99213-X",
+      "evidenceIds": [
+        "2151bad5-2c25-4445-913d-5c2687761033"
+      ]
+    },
+    {
+      "id": "direct-88",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Forest Notebook deal with Kestrel Packaging?",
+      "answer": "QX-57452-K",
+      "evidenceIds": [
+        "24b29742-d70a-4a9c-9b6e-631a5b12dce8"
+      ]
+    },
+    {
+      "id": "direct-89",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "What is the contract number for Velocity Appliances's Clever Cream agreement?",
+      "answer": "QX-61341-P",
+      "evidenceIds": [
+        "3771b781-b5a5-4ac8-a8c3-ca50ee43b53b"
+      ]
+    },
+    {
+      "id": "direct-90",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Peak Jacket deal with Spark Coffee?",
+      "answer": "QX-38465-E",
+      "evidenceIds": [
+        "e4cd12db-9f2e-45de-bde0-24449ac6be0b"
+      ]
+    },
+    {
+      "id": "direct-91",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "What is the contract number for Ironbridge Energy's Ultra Tent agreement?",
+      "answer": "QX-44633-R",
+      "evidenceIds": [
+        "3fc1faf7-e671-482c-8941-b271b33ff6c8"
+      ]
+    },
+    {
+      "id": "direct-92",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Max Cable deal with Toros Steel?",
+      "answer": "QX-39620-N",
+      "evidenceIds": [
+        "ed9e75ed-6220-4af6-b9df-0f23aa78d326"
+      ]
+    },
+    {
+      "id": "direct-93",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Summit Optics Prime Notebook contract code?",
+      "answer": "QX-43395-E",
+      "evidenceIds": [
+        "14a60a96-3958-420e-a099-2189e4d69b85"
+      ]
+    },
+    {
+      "id": "direct-94",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Which contract reference covers the Prime Belt deal with Pulse Medical?",
+      "answer": "QX-71159-Z",
+      "evidenceIds": [
+        "cfece903-e98f-4058-ac6e-a092e68f8cc0"
+      ]
+    },
+    {
+      "id": "direct-95",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Toros Ventures Velvet Cream contract code?",
+      "answer": "QX-89707-R",
+      "evidenceIds": [
+        "f5e2a09e-d2df-42c7-a804-c5756dca8c46"
+      ]
+    },
+    {
+      "id": "direct-96",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Palandöken Tea Bold Pen contract code?",
+      "answer": "QX-39239-X",
+      "evidenceIds": [
+        "8a988516-464a-4579-ad35-0b2f81a36ef9"
+      ]
+    },
+    {
+      "id": "direct-97",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "What is the contract number for Pinnacle Systems's Urban Pillow agreement?",
+      "answer": "QX-57326-A",
+      "evidenceIds": [
+        "cdda9d17-97ae-4609-9669-59b08c3b86a7"
+      ]
+    },
+    {
+      "id": "direct-98",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Regal Medical Arctic Cream contract code?",
+      "answer": "QX-46129-C",
+      "evidenceIds": [
+        "4774ee9a-ca93-41cd-8d4d-c9d8bd08ee36"
+      ]
+    },
+    {
+      "id": "direct-99",
+      "cat": "direct",
+      "asker": "owner",
+      "q": "Truva Security Vivid Router contract code?",
+      "answer": "QX-87367-Y",
+      "evidenceIds": [
+        "74d4d6c2-dff1-4b4f-8b97-35752b2cb56d"
+      ]
+    },
+    {
+      "id": "2hop-100",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "Where is Linda Patel's employer headquartered?",
+      "answer": "Şebboy Sk. No:109",
+      "chain": [
+        "Linda Patel",
+        "Efes Retail"
+      ],
+      "evidenceIds": [
+        "911b2ceb-d4c4-4dc1-8912-411ae40e24ef",
+        "67ea26c5-f445-450f-91a0-14418ef27df4"
+      ]
+    },
+    {
+      "id": "2hop-101",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "What is the headquarters address of the company Hülya Foster works for?",
+      "answer": "Bağdat Cad. No:159",
+      "chain": [
+        "Hülya Foster",
+        "Titan Tea"
+      ],
+      "evidenceIds": [
+        "fd685fd8-6737-4063-8221-095e3056e193",
+        "c865be33-209a-4696-8339-a76d0e524cbc"
+      ]
+    },
+    {
+      "id": "2hop-102",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "Where is Jack Fischer's employer headquartered?",
+      "answer": "Sümbül Sk. No:217",
+      "chain": [
+        "Jack Fischer",
+        "Orion Payments"
+      ],
+      "evidenceIds": [
+        "1996c100-d5c8-4cb8-8935-7c057376f54b",
+        "ced8cc8d-de60-4514-af8e-08bb0b283759"
+      ]
+    },
+    {
+      "id": "2hop-103",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "What is the headquarters address of the company David Keskin works for?",
+      "answer": "Kaktüs Sk. No:166",
+      "chain": [
+        "David Keskin",
+        "Northwind Energy"
+      ],
+      "evidenceIds": [
+        "9725ece2-c1a3-4fe1-9540-1ba6b9fb4d11",
+        "2c60c2dc-9a67-4719-9a83-50064c1ae329"
+      ]
+    },
+    {
+      "id": "2hop-104",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "Where is Laura Brown's employer headquartered?",
+      "answer": "Kaktüs Sk. No:192",
+      "chain": [
+        "Laura Brown",
+        "Pioneer Freight"
+      ],
+      "evidenceIds": [
+        "dcd80e21-95f4-4e46-ab34-8e8ae4b79fe7",
+        "320f21bb-8e9c-42b3-8901-05305023379b"
+      ]
+    },
+    {
+      "id": "2hop-105",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "Where is Mei Güler's employer headquartered?",
+      "answer": "Nergis Sk. No:199",
+      "chain": [
+        "Mei Güler",
+        "Bluewave Construction"
+      ],
+      "evidenceIds": [
+        "8fbd3ddb-9446-4a2c-bb66-e3486c528cb9",
+        "8c02b8a4-766c-4f53-9a8b-14df5bdb4d00"
+      ]
+    },
+    {
+      "id": "2hop-106",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "Where is Selin Williams's employer headquartered?",
+      "answer": "Zambak Sk. No:180",
+      "chain": [
+        "Selin Williams",
+        "Mardin Marketing"
+      ],
+      "evidenceIds": [
+        "9f9d7e3b-3c5f-437b-94ed-5fc97936e449",
+        "0dc3474d-7544-44d8-aa2b-9b5fc60686f3"
+      ]
+    },
+    {
+      "id": "2hop-107",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "What is the headquarters address of the company Adam Öztürk works for?",
+      "answer": "Akasya Sk. No:168",
+      "chain": [
+        "Adam Öztürk",
+        "Kaş Ceramics"
+      ],
+      "evidenceIds": [
+        "a63140d8-c06b-4a67-986b-95ad102e34a9",
+        "0a681750-25ea-43af-a336-cb3eefb4d7f1"
+      ]
+    },
+    {
+      "id": "2hop-108",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "Where is Fatma Wang's employer headquartered?",
+      "answer": "Karanfil Sk. No:140",
+      "chain": [
+        "Fatma Wang",
+        "Sirocco Media"
+      ],
+      "evidenceIds": [
+        "a9fcb747-2320-42c1-a10a-69ff0d83d68e",
+        "af02b61d-8dfe-42ad-b733-f9540173233a"
+      ]
+    },
+    {
+      "id": "2hop-109",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "Where is Robert Özdemir's employer headquartered?",
+      "answer": "İstiklal Cad. No:140",
+      "chain": [
+        "Robert Özdemir",
+        "Heritage Water"
+      ],
+      "evidenceIds": [
+        "4d23484f-577f-49a9-82d7-abf27a988ccc",
+        "e33c9c96-39d3-4337-b800-13bfa63f244d"
+      ]
+    },
+    {
+      "id": "2hop-110",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "Where is Sedat Brooks's employer headquartered?",
+      "answer": "Kavak Sk. No:11",
+      "chain": [
+        "Sedat Brooks",
+        "Horizon Hotels"
+      ],
+      "evidenceIds": [
+        "7bcc3844-2482-4c1a-af02-f122c81bec3f",
+        "f281270f-152d-4190-a6ed-ff16d84513c6"
+      ]
+    },
+    {
+      "id": "2hop-111",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "Where is Noah Kara's employer headquartered?",
+      "answer": "Söğüt Sk. No:196",
+      "chain": [
+        "Noah Kara",
+        "Bluewave Hotels"
+      ],
+      "evidenceIds": [
+        "4289ff98-f53f-477c-a8df-a52821d40dbd",
+        "03eace84-e3f6-437f-a9f4-cbbfb838f259"
+      ]
+    },
+    {
+      "id": "2hop-112",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "What is the headquarters address of the company Alp Weber works for?",
+      "answer": "Begonya Sk. No:219",
+      "chain": [
+        "Alp Weber",
+        "Sterling Analytics"
+      ],
+      "evidenceIds": [
+        "441af1e6-8763-4e0c-8eaa-8bfa1fb70c4e",
+        "d56ff850-de7b-43ef-8b98-227eed3fe914"
+      ]
+    },
+    {
+      "id": "2hop-113",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "What is the headquarters address of the company Doğan Ateş works for?",
+      "answer": "Begonya Sk. No:85",
+      "chain": [
+        "Doğan Ateş",
+        "Sumela Shipping"
+      ],
+      "evidenceIds": [
+        "2db72741-06c8-497b-bf76-16f877527ebd",
+        "4386730d-7f9e-4060-a70f-52b6f8b6d000"
+      ]
+    },
+    {
+      "id": "2hop-114",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "Where is Oya Moreau's employer headquartered?",
+      "answer": "Sümbül Sk. No:222",
+      "chain": [
+        "Oya Moreau",
+        "Compass Systems"
+      ],
+      "evidenceIds": [
+        "ad328987-25b3-4615-a6b1-8c580dfeb26e",
+        "0ea1efdc-0ce7-4009-81ac-c76408b8cf0c"
+      ]
+    },
+    {
+      "id": "2hop-115",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "Where is Yasemin Aslan's employer headquartered?",
+      "answer": "Kaktüs Sk. No:5",
+      "chain": [
+        "Yasemin Aslan",
+        "Titan Analytics"
+      ],
+      "evidenceIds": [
+        "85131cc4-a39b-45e1-ba44-fbf506d81dac",
+        "e8fb20df-ed6a-441b-b367-c72c89c0e1e7"
+      ]
+    },
+    {
+      "id": "2hop-116",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "What is the headquarters address of the company Gökhan King works for?",
+      "answer": "Alsancak Sk. No:44",
+      "chain": [
+        "Gökhan King",
+        "Ironbridge Marketing"
+      ],
+      "evidenceIds": [
+        "fff6ad57-36b1-4b88-ab85-1dedc40a39c3",
+        "bb5964fd-1cdd-4f05-9a64-237aacdd9618"
+      ]
+    },
+    {
+      "id": "2hop-117",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "What is the headquarters address of the company Yuki Young works for?",
+      "answer": "Kamelya Sk. No:221",
+      "chain": [
+        "Yuki Young",
+        "Bolu Software"
+      ],
+      "evidenceIds": [
+        "d9abc31c-904a-4432-bbbe-6619f598a679",
+        "a81dc0a3-32e5-4329-a93f-814c89ed96d1"
+      ]
+    },
+    {
+      "id": "3hop-118",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who runs the company that supplies Derya Bailey's company?",
+      "answer": "Yeliz Hill",
+      "chain": [
+        "Derya Bailey",
+        "Momentum Glass",
+        "Alaçatı Fitness",
+        "Yeliz Hill"
+      ],
+      "evidenceIds": [
+        "1fef5944-d6f7-4e4e-8ae5-f6a0a262427d",
+        "cac7356e-507c-455b-b90f-b9396c2e381f",
+        "682d1f71-9b85-401a-94fa-569d0d727496"
+      ]
+    },
+    {
+      "id": "2hop-119",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "Where is Sofia James's employer headquartered?",
+      "answer": "Papatya Sk. No:119",
+      "chain": [
+        "Sofia James",
+        "Cappadocia Wind"
+      ],
+      "evidenceIds": [
+        "562505ae-1068-4e65-bc99-98c90de2d242",
+        "f73e05c5-358f-4a64-b655-5391fe105478"
+      ]
+    },
+    {
+      "id": "2hop-120",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "What is the headquarters address of the company Koray Ateş works for?",
+      "answer": "Abdi İpekçi Cad. No:142",
+      "chain": [
+        "Koray Ateş",
+        "Göreme Insurance"
+      ],
+      "evidenceIds": [
+        "57a9d27d-cc9b-482f-88fe-1b5b0e52cf0c",
+        "15a081fc-667a-4ea6-97bf-5509df547a86"
+      ]
+    },
+    {
+      "id": "2hop-121",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "What is the headquarters address of the company Sibel Clark works for?",
+      "answer": "Lavanta Sk. No:185",
+      "chain": [
+        "Sibel Clark",
+        "Tundra Holdings"
+      ],
+      "evidenceIds": [
+        "f15c826b-9fa2-4eb3-816c-86cbd87a09a5",
+        "07daaf45-7ede-4f18-b88b-3b8ea990a26e"
+      ]
+    },
+    {
+      "id": "2hop-122",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "What is the headquarters address of the company Esra Kaya works for?",
+      "answer": "Kaktüs Sk. No:170",
+      "chain": [
+        "Esra Kaya",
+        "Mardin Robotics"
+      ],
+      "evidenceIds": [
+        "18e81074-00c5-471e-b6bc-6c7b8f401e8c",
+        "4653b9ad-d5d5-46ec-abe0-addec712f1e9"
+      ]
+    },
+    {
+      "id": "2hop-123",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "Where is Amelie Tunç's employer headquartered?",
+      "answer": "Büyükdere Cad. No:66",
+      "chain": [
+        "Amelie Tunç",
+        "Pioneer Insurance"
+      ],
+      "evidenceIds": [
+        "6d93893a-91f5-426f-9510-38710f5106f9",
+        "36761a12-0f09-4508-acfd-9d8698c88d26"
+      ]
+    },
+    {
+      "id": "2hop-124",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "Where is Esra Aydın's employer headquartered?",
+      "answer": "Kavak Sk. No:62",
+      "chain": [
+        "Esra Aydın",
+        "Nemrut Logistics"
+      ],
+      "evidenceIds": [
+        "fbd4683a-a8ea-46cf-92fb-43f26ba82e0c",
+        "95c6cdb2-e743-4493-adc0-d7b451ef0e80"
+      ]
+    },
+    {
+      "id": "2hop-125",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "Where is Layla King's employer headquartered?",
+      "answer": "Şebboy Sk. No:216",
+      "chain": [
+        "Layla King",
+        "Ilgaz Education"
+      ],
+      "evidenceIds": [
+        "620d62bb-2d07-4dab-b6fa-39286a47b2ea",
+        "284fed78-1d62-4dd5-aeee-8aa67d0a6885"
+      ]
+    },
+    {
+      "id": "2hop-126",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "Where is Tolga Roberts's employer headquartered?",
+      "answer": "Mimoza Sk. No:7",
+      "chain": [
+        "Tolga Roberts",
+        "Liberty Insurance"
+      ],
+      "evidenceIds": [
+        "8f4f64ca-8561-4822-825b-c8a02a5ab27d",
+        "52c06036-adb1-4eed-8f9f-8fce9be482a1"
+      ]
+    },
+    {
+      "id": "2hop-127",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "What is the headquarters address of the company Polat Bayram works for?",
+      "answer": "Begonya Sk. No:218",
+      "chain": [
+        "Polat Bayram",
+        "Monarch Energy"
+      ],
+      "evidenceIds": [
+        "31f603f5-3366-408c-88c0-de20996acf8d",
+        "d5e5bf5a-4917-4e32-adff-08428e0214eb"
+      ]
+    },
+    {
+      "id": "2hop-128",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "What is the headquarters address of the company Ece Watson works for?",
+      "answer": "Bağdat Cad. No:48",
+      "chain": [
+        "Ece Watson",
+        "Lighthouse Travel"
+      ],
+      "evidenceIds": [
+        "d83322e0-b83b-4a6e-8e00-437d14bca9dc",
+        "18a747cf-3e10-4255-b819-ae31255bef94"
+      ]
+    },
+    {
+      "id": "2hop-129",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "What is the headquarters address of the company Zeynep Parker works for?",
+      "answer": "Papatya Sk. No:229",
+      "chain": [
+        "Zeynep Parker",
+        "Vega Bakery"
+      ],
+      "evidenceIds": [
+        "66b2b09a-ac7e-4f0d-b9c8-2ea0e7a745ec",
+        "fe95d5f8-5692-4fd6-bcf1-de59b697db2f"
+      ]
+    },
+    {
+      "id": "2hop-130",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "What is the headquarters address of the company Rüya Edwards works for?",
+      "answer": "Konyaaltı Cad. No:111",
+      "chain": [
+        "Rüya Edwards",
+        "Ihlara Ceramics"
+      ],
+      "evidenceIds": [
+        "6634cf98-94e8-4710-bace-30677bcab720",
+        "3cfec35e-5437-4825-859a-e563b8498e03"
+      ]
+    },
+    {
+      "id": "2hop-131",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "What is the headquarters address of the company Sarah Carter works for?",
+      "answer": "Cinnah Cad. No:98",
+      "chain": [
+        "Sarah Carter",
+        "Quantum Steel"
+      ],
+      "evidenceIds": [
+        "78e421e5-c279-4806-b9c4-1502564455ea",
+        "ce3ea566-6157-4750-97e5-fbba9c2f64c4"
+      ]
+    },
+    {
+      "id": "2hop-132",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "What is the headquarters address of the company Mehmet Yıldırım works for?",
+      "answer": "Konyaaltı Cad. No:27",
+      "chain": [
+        "Mehmet Yıldırım",
+        "Crescent Paper"
+      ],
+      "evidenceIds": [
+        "937a74c8-3f90-4c92-927d-82c783ff97f3",
+        "77d826bc-4b87-4b89-a612-6aec27a10e6e"
+      ]
+    },
+    {
+      "id": "2hop-133",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "Where is Irmak Taş's employer headquartered?",
+      "answer": "Çınar Sk. No:11",
+      "chain": [
+        "Irmak Taş",
+        "Lighthouse Media"
+      ],
+      "evidenceIds": [
+        "1c6914fb-35bb-43c8-9174-edc2035cc8a2",
+        "458f30ae-59bf-435f-a7f9-328545b12c63"
+      ]
+    },
+    {
+      "id": "2hop-134",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "What is the headquarters address of the company John Tunç works for?",
+      "answer": "Bağdat Cad. No:199",
+      "chain": [
+        "John Tunç",
+        "Palandöken Steel"
+      ],
+      "evidenceIds": [
+        "2cc89d71-df57-4de8-be2c-bc117b88b4f8",
+        "4e52ee3c-c3a3-48dd-a54d-bdeef6b1f800"
+      ]
+    },
+    {
+      "id": "2hop-135",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "Where is Wei Becker's employer headquartered?",
+      "answer": "Lale Sk. No:214",
+      "chain": [
+        "Wei Becker",
+        "Bodrum Bank"
+      ],
+      "evidenceIds": [
+        "e30e4109-bf2c-4090-ad3a-bb10b84f032d",
+        "570e39cd-9b5b-4e59-bf3d-e17047f6df8e"
+      ]
+    },
+    {
+      "id": "2hop-136",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "What is the headquarters address of the company Anna Hughes works for?",
+      "answer": "Cinnah Cad. No:225",
+      "chain": [
+        "Anna Hughes",
+        "Pulse Solar"
+      ],
+      "evidenceIds": [
+        "664c7d17-91ef-4cbd-889e-54c95b9f2f59",
+        "a018fb80-0883-4368-8a0a-e7d3f24b61fb"
+      ]
+    },
+    {
+      "id": "2hop-137",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "What is the headquarters address of the company Fatma Roberts works for?",
+      "answer": "Nergis Sk. No:169",
+      "chain": [
+        "Fatma Roberts",
+        "Kaçkar Tools"
+      ],
+      "evidenceIds": [
+        "59888838-cf57-4a1b-b0ac-035f71b122e0",
+        "9d79abeb-e484-4c4c-b9ef-7d2ca1f1473e"
+      ]
+    },
+    {
+      "id": "2hop-138",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "What is the headquarters address of the company Anna Walker works for?",
+      "answer": "Konyaaltı Cad. No:217",
+      "chain": [
+        "Anna Walker",
+        "Palandöken Partners"
+      ],
+      "evidenceIds": [
+        "984c7486-2422-4aef-b750-484bedd34f4e",
+        "2e126ce7-4d4e-4a5a-acda-09f3de6d55db"
+      ]
+    },
+    {
+      "id": "2hop-139",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "Where is Burak Bianchi's employer headquartered?",
+      "answer": "Gülbahar Sk. No:160",
+      "chain": [
+        "Burak Bianchi",
+        "Falcon Textiles"
+      ],
+      "evidenceIds": [
+        "288661ba-b5f1-4e10-8f13-2b56dd6658a5",
+        "eee0ac4c-f63a-45ed-bccf-fb2b9a4103ab"
+      ]
+    },
+    {
+      "id": "2hop-140",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "What is the headquarters address of the company Ivan Anderson works for?",
+      "answer": "Zambak Sk. No:237",
+      "chain": [
+        "Ivan Anderson",
+        "Riverbend Bank"
+      ],
+      "evidenceIds": [
+        "95577c68-eced-4e2e-872b-da0ff4652831",
+        "147a7442-d76f-478c-ae2b-a04a4fec3f86"
+      ]
+    },
+    {
+      "id": "2hop-141",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "What is the headquarters address of the company Max Adams works for?",
+      "answer": "Manolya Sk. No:101",
+      "chain": [
+        "Max Adams",
+        "Vertex Medical"
+      ],
+      "evidenceIds": [
+        "45bfad09-a48b-432c-a7bd-01e7a38dcba4",
+        "b3b55b28-8039-44bc-ae13-29e67e391709"
+      ]
+    },
+    {
+      "id": "2hop-142",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "What is the headquarters address of the company Gökhan Murphy works for?",
+      "answer": "Hanımeli Sk. No:224",
+      "chain": [
+        "Gökhan Murphy",
+        "Marmara Bakery"
+      ],
+      "evidenceIds": [
+        "7e6c85f7-8250-4841-bc21-0ddec588dde1",
+        "11007ad9-fb5a-4c9d-81b7-76223649e0e3"
+      ]
+    },
+    {
+      "id": "2hop-143",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "What is the headquarters address of the company Ivan Çelik works for?",
+      "answer": "Atatürk Blv. No:56",
+      "chain": [
+        "Ivan Çelik",
+        "Spark Catering"
+      ],
+      "evidenceIds": [
+        "709f7320-9590-42fe-9599-17e555191c9d",
+        "fc147a06-95d2-4e12-a4d5-4bb7d5a89d61"
+      ]
+    },
+    {
+      "id": "2hop-144",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "What is the headquarters address of the company Marco Nowak works for?",
+      "answer": "Nilüfer Sk. No:179",
+      "chain": [
+        "Marco Nowak",
+        "Aegean Robotics"
+      ],
+      "evidenceIds": [
+        "f9af8a85-99b9-4596-98ef-931d1dd2733c",
+        "529b4a6b-788f-4943-8bec-465900ce5eb7"
+      ]
+    },
+    {
+      "id": "2hop-145",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "Where is Selin Parker's employer headquartered?",
+      "answer": "Hanımeli Sk. No:39",
+      "chain": [
+        "Selin Parker",
+        "Nimbus Printing"
+      ],
+      "evidenceIds": [
+        "471b99df-cb2b-477b-8ce3-8c3ded5ec4e9",
+        "fe0bd483-0a7b-46e2-8548-bf10a0a0c4a2"
+      ]
+    },
+    {
+      "id": "2hop-146",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "Where is Gökhan Khan's employer headquartered?",
+      "answer": "Karanfil Sk. No:8",
+      "chain": [
+        "Gökhan Khan",
+        "Nimbus Hotels"
+      ],
+      "evidenceIds": [
+        "263b9ccc-62be-4bc3-bbbe-fc3848d1c968",
+        "30186335-3e85-4203-9878-60b9fd8d96e9"
+      ]
+    },
+    {
+      "id": "2hop-147",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "Where is Aslı Polat's employer headquartered?",
+      "answer": "Gazi Blv. No:132",
+      "chain": [
+        "Aslı Polat",
+        "Momentum Aviation"
+      ],
+      "evidenceIds": [
+        "6c0f0940-7151-4c64-8087-e300757c6b84",
+        "ba3b1cca-49fb-4d48-b7d5-8bae598ad0a1"
+      ]
+    },
+    {
+      "id": "2hop-148",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "Where is Greta Johnson's employer headquartered?",
+      "answer": "Kordon Boyu Lara Cad. No:237",
+      "chain": [
+        "Greta Johnson",
+        "Crescent Marketing"
+      ],
+      "evidenceIds": [
+        "0adb2d31-f018-4cb1-8bef-cad4e977ce0b",
+        "95952f5c-8c96-4525-973b-f822407d0da3"
+      ]
+    },
+    {
+      "id": "2hop-149",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "Where is Necati Ferrari's employer headquartered?",
+      "answer": "Söğüt Sk. No:58",
+      "chain": [
+        "Necati Ferrari",
+        "Marmara Studios"
+      ],
+      "evidenceIds": [
+        "03311df5-7089-4e5c-9547-36b6f671c939",
+        "4ae87da5-77ba-47ae-9d31-1d2256812496"
+      ]
+    },
+    {
+      "id": "2hop-150",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "What is the headquarters address of the company Mary Martin works for?",
+      "answer": "İstiklal Cad. No:105",
+      "chain": [
+        "Mary Martin",
+        "Tundra Analytics"
+      ],
+      "evidenceIds": [
+        "349ead2d-985c-4e1c-970e-fc7f89e5ad3e",
+        "1c8eb379-46cd-4251-8470-90f5867a95ab"
+      ]
+    },
+    {
+      "id": "2hop-151",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "Where is Can Wang's employer headquartered?",
+      "answer": "Atatürk Blv. No:20",
+      "chain": [
+        "Can Wang",
+        "Equinox Motors"
+      ],
+      "evidenceIds": [
+        "bb5488d1-827e-474c-b693-7b40104cfecb",
+        "b50e230c-e2df-4dd5-90fa-4653c416f3d3"
+      ]
+    },
+    {
+      "id": "2hop-152",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "Where is Cem Wilson's employer headquartered?",
+      "answer": "Manolya Sk. No:225",
+      "chain": [
+        "Cem Wilson",
+        "Redstone Electronics"
+      ],
+      "evidenceIds": [
+        "0fae0b48-99ad-40ea-b26c-ff8f67ac65ae",
+        "a9383ea3-fadd-46ac-a5da-516281668541"
+      ]
+    },
+    {
+      "id": "2hop-153",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "What is the headquarters address of the company Emma Miller works for?",
+      "answer": "Nilüfer Sk. No:8",
+      "chain": [
+        "Emma Miller",
+        "Silverline Ventures"
+      ],
+      "evidenceIds": [
+        "51952d4b-2318-4929-b7a0-3e6b2fab6f1b",
+        "6033b83d-914e-4b0c-bf6f-6469660a5690"
+      ]
+    },
+    {
+      "id": "2hop-154",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "What is the headquarters address of the company Ozan Çetin works for?",
+      "answer": "Hanımeli Sk. No:135",
+      "chain": [
+        "Ozan Çetin",
+        "Titan Marketing"
+      ],
+      "evidenceIds": [
+        "1d8f60c4-4730-4c0f-9def-9fe8e537b585",
+        "ce6b9d04-752b-452c-adfa-602e854a5a7d"
+      ]
+    },
+    {
+      "id": "2hop-155",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "What is the headquarters address of the company Necati Becker works for?",
+      "answer": "İstiklal Cad. No:6",
+      "chain": [
+        "Necati Becker",
+        "Evergreen Telecom"
+      ],
+      "evidenceIds": [
+        "e8e29084-cebe-481b-9052-48f5c4d9584e",
+        "0a3fc481-14f9-4938-807b-3b997a437490"
+      ]
+    },
+    {
+      "id": "2hop-156",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "Where is Nina Turan's employer headquartered?",
+      "answer": "Ihlamur Sk. No:132",
+      "chain": [
+        "Nina Turan",
+        "Efes Bank"
+      ],
+      "evidenceIds": [
+        "bb4fd49d-b027-4825-a2da-4c91d04aef65",
+        "b4a39704-54bb-4bab-b612-14920aa75d1a"
+      ]
+    },
+    {
+      "id": "2hop-157",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "Where is Ella Suzuki's employer headquartered?",
+      "answer": "Konyaaltı Cad. No:169",
+      "chain": [
+        "Ella Suzuki",
+        "Spark Academy"
+      ],
+      "evidenceIds": [
+        "f7373832-d857-415d-a742-9d9ae93ba17d",
+        "4b6e5526-db7b-441f-a018-aceeddc48216"
+      ]
+    },
+    {
+      "id": "2hop-158",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "What is the headquarters address of the company Onur Anderson works for?",
+      "answer": "Mithatpaşa Cad. No:226",
+      "chain": [
+        "Onur Anderson",
+        "Heritage Ceramics"
+      ],
+      "evidenceIds": [
+        "8284601a-8eed-4029-99fe-042c0e6d22d4",
+        "ff36577e-5466-4d1f-9b3d-b20f660f5448"
+      ]
+    },
+    {
+      "id": "2hop-159",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "What is the headquarters address of the company Esra Eren works for?",
+      "answer": "Tunalı Hilmi Cad. No:122",
+      "chain": [
+        "Esra Eren",
+        "Compass Academy"
+      ],
+      "evidenceIds": [
+        "8a3f3ad8-fd54-4725-9d59-3fb429817b3f",
+        "023b224d-5eba-4c91-8b3a-a3ce855a8193"
+      ]
+    },
+    {
+      "id": "2hop-160",
+      "cat": "multihop2",
+      "asker": "owner",
+      "q": "Where is Laura Özkan's employer headquartered?",
+      "answer": "Hürriyet Cad. No:27",
+      "chain": [
+        "Laura Özkan",
+        "Vanguard Studios"
+      ],
+      "evidenceIds": [
+        "40c0a31f-84e5-420b-b4ff-b726750a5de6",
+        "f5489925-cad4-411c-bbcb-d091c558187e"
+      ]
+    },
+    {
+      "id": "3hop-161",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who runs the company that supplies Amira Nelson's company?",
+      "answer": "Tuba Bell",
+      "chain": [
+        "Amira Nelson",
+        "Bluewave Electronics",
+        "Nemrut Optics",
+        "Tuba Bell"
+      ],
+      "evidenceIds": [
+        "5020527f-f5f0-4b17-903a-042fa249e8c7",
+        "cd07a637-f70a-40d3-ad82-0fb7dbe76a0a",
+        "4d27d33a-e3cf-4064-aecb-a9e3394f7241"
+      ]
+    },
+    {
+      "id": "3hop-162",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who runs the company that supplies Barış Foster's company?",
+      "answer": "Umut Demir",
+      "chain": [
+        "Barış Foster",
+        "Anatolia Solar",
+        "Lumen Sports",
+        "Umut Demir"
+      ],
+      "evidenceIds": [
+        "83aa8ecd-7242-4697-b0e0-f2b715eb426e",
+        "fceea404-7637-4567-851b-2333b34b397d",
+        "b1e1e0da-77d0-452b-a1c9-a4d6f8684dd9"
+      ]
+    },
+    {
+      "id": "3hop-163",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who is the CEO of the supplier of Priya Cook's employer?",
+      "answer": "Pınar Bulut",
+      "chain": [
+        "Priya Cook",
+        "Orion Dairy",
+        "Kaş Agro",
+        "Pınar Bulut"
+      ],
+      "evidenceIds": [
+        "6fbd8445-a6b8-4615-ba2b-bb6f73df8a3d",
+        "44338fe9-03c8-4878-bacd-11001abbec39",
+        "53f18b1f-05d7-4f13-82af-c23b90e964ab"
+      ]
+    },
+    {
+      "id": "3hop-164",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who runs the company that supplies Kaan Polat's company?",
+      "answer": "Gökhan Aslan",
+      "chain": [
+        "Kaan Polat",
+        "Clearwater Packaging",
+        "Ember Pharma",
+        "Gökhan Aslan"
+      ],
+      "evidenceIds": [
+        "38f17150-acd6-4c99-8142-fe2bb7ad922f",
+        "cc672150-7f10-4d1d-997a-a37ba5ae62e5",
+        "49043543-a890-48e4-b19d-0ba5d6c1aa18"
+      ]
+    },
+    {
+      "id": "3hop-165",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who is the CEO of the supplier of John Cox's employer?",
+      "answer": "Kenji Aydın",
+      "chain": [
+        "John Cox",
+        "Ilgaz Labs",
+        "Göreme Cosmetics",
+        "Kenji Aydın"
+      ],
+      "evidenceIds": [
+        "fd6456e0-3afd-4612-9a2b-af8c571dc206",
+        "86ab5170-a854-4805-ba33-660b9aec7b44",
+        "50ffecdd-2291-4997-b351-aaab328607f7"
+      ]
+    },
+    {
+      "id": "3hop-166",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who runs the company that supplies Volkan Rivera's company?",
+      "answer": "Mustafa Aydın",
+      "chain": [
+        "Volkan Rivera",
+        "Velocity Travel",
+        "Ember Robotics",
+        "Mustafa Aydın"
+      ],
+      "evidenceIds": [
+        "4bef31e6-f2e3-427c-8c0d-484ed79bbbd4",
+        "102ecac2-01df-4c84-a26e-ae302276c993",
+        "7c43feea-d3ff-47e9-90c3-789048453993"
+      ]
+    },
+    {
+      "id": "3hop-167",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who runs the company that supplies Irmak Garcia's company?",
+      "answer": "Hans Price",
+      "chain": [
+        "Irmak Garcia",
+        "Safranbolu Construction",
+        "Ege Footwear",
+        "Hans Price"
+      ],
+      "evidenceIds": [
+        "d67dd921-cf5a-458a-b48f-7a30c97527d8",
+        "d5d71435-2101-4dc7-a780-a2eaa350c3be",
+        "303d5ea7-3e33-49fd-a2c7-d809df6b6172"
+      ]
+    },
+    {
+      "id": "3hop-168",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who runs the company that supplies Ebru Wilson's company?",
+      "answer": "Amelie Morgan",
+      "chain": [
+        "Ebru Wilson",
+        "Mardin Bank",
+        "Crescent Telecom",
+        "Amelie Morgan"
+      ],
+      "evidenceIds": [
+        "b4191f2c-f442-4d2c-9df3-d5fee1fed8ac",
+        "1c40eef9-0a1f-4283-8c1d-55127c676eba",
+        "a35a6d4d-4e38-45d1-9c86-942b938f6966"
+      ]
+    },
+    {
+      "id": "3hop-169",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who runs the company that supplies Merve Khan's company?",
+      "answer": "Daniel Weber",
+      "chain": [
+        "Merve Khan",
+        "Kaçkar Coffee",
+        "Vertex Electronics",
+        "Daniel Weber"
+      ],
+      "evidenceIds": [
+        "3968582f-42d8-42e6-8989-41560e4aa4cb",
+        "1f73bb10-8ee9-4600-b615-f48fada3eca8",
+        "2dc906db-98e5-40c9-9c8b-961efa0c57b0"
+      ]
+    },
+    {
+      "id": "3hop-170",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who runs the company that supplies Anna Aslan's company?",
+      "answer": "Leyla Kurt",
+      "chain": [
+        "Anna Aslan",
+        "Ihlara Holdings",
+        "Ironbridge Consulting",
+        "Leyla Kurt"
+      ],
+      "evidenceIds": [
+        "06c2e610-34bc-4c8b-8b09-99e48287dffa",
+        "607ad2c8-1818-4a3a-86cf-f2dd96a267b6",
+        "5dc5d153-321c-4586-bbcb-8486911f51ce"
+      ]
+    },
+    {
+      "id": "3hop-171",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who is the CEO of the supplier of Gamze Özkan's employer?",
+      "answer": "Sedat Demir",
+      "chain": [
+        "Gamze Özkan",
+        "Evergreen Labs",
+        "Cappadocia Retail",
+        "Sedat Demir"
+      ],
+      "evidenceIds": [
+        "85e92ccc-0b91-4499-adec-da95a1ad162a",
+        "faf31ba7-245a-438b-98cc-29868e43b79d",
+        "714787f7-780a-4176-be67-5c8cacd6ed22"
+      ]
+    },
+    {
+      "id": "3hop-172",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who runs the company that supplies Linda Polat's company?",
+      "answer": "Serkan Ekinci",
+      "chain": [
+        "Linda Polat",
+        "Titan Holdings",
+        "Cappadocia Cloud",
+        "Serkan Ekinci"
+      ],
+      "evidenceIds": [
+        "d30f55e2-a9c4-41cc-97e2-3db045c3d0ad",
+        "6e5527db-af74-45a2-bb9a-3f006e3c1a68",
+        "b252586e-9d5e-4a9d-b8c6-a7901d44f7be"
+      ]
+    },
+    {
+      "id": "3hop-173",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who is the CEO of the supplier of Ayşe Morris's employer?",
+      "answer": "Amira Kocabaş",
+      "chain": [
+        "Ayşe Morris",
+        "Aurora Water",
+        "Beacon Tools",
+        "Amira Kocabaş"
+      ],
+      "evidenceIds": [
+        "a53e2cf6-6f1b-4511-8efd-79cb46fdb235",
+        "d0ace654-71b8-4657-84cc-4dd47ae0eba6",
+        "c8838006-5802-46bc-9c00-66323967c283"
+      ]
+    },
+    {
+      "id": "3hop-174",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who is the CEO of the supplier of Olivia Yılmaz's employer?",
+      "answer": "Bora Polat",
+      "chain": [
+        "Olivia Yılmaz",
+        "Erciyes Plastics",
+        "Ege Travel",
+        "Bora Polat"
+      ],
+      "evidenceIds": [
+        "61f9cf14-1350-4591-bb6b-e6259afbefd6",
+        "49ce9512-68cc-4031-84bb-8a01ee1fb382",
+        "c462aae5-34cb-4197-88b6-40b69822f964"
+      ]
+    },
+    {
+      "id": "3hop-175",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who is the CEO of the supplier of Deniz Doğan's employer?",
+      "answer": "Omar Lewis",
+      "chain": [
+        "Deniz Doğan",
+        "Ember Cosmetics",
+        "Goldleaf Steel",
+        "Omar Lewis"
+      ],
+      "evidenceIds": [
+        "16c9e6d2-d870-4055-9dc8-1bb1eaa0dfbb",
+        "b0adc513-b2d8-49ae-b922-e014c7be0775",
+        "0da5420a-ac87-4eea-be9f-a45c05a514b5"
+      ]
+    },
+    {
+      "id": "3hop-176",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who runs the company that supplies Aslı Moore's company?",
+      "answer": "Lucas Morris",
+      "chain": [
+        "Aslı Moore",
+        "Ironbridge Foods",
+        "Aegean Catering",
+        "Lucas Morris"
+      ],
+      "evidenceIds": [
+        "d4d1ca16-4aa2-4618-b9df-d1f6c53ef728",
+        "cb1f0bf9-0b4b-48c6-8d55-174ebf1c7fa4",
+        "b7d670d6-7c6c-42e0-bb2c-074d6e5be50d"
+      ]
+    },
+    {
+      "id": "3hop-177",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who is the CEO of the supplier of Giulia James's employer?",
+      "answer": "Selin Myers",
+      "chain": [
+        "Giulia James",
+        "Truva Robotics",
+        "Karadeniz Aviation",
+        "Selin Myers"
+      ],
+      "evidenceIds": [
+        "9aab2fa2-cdb0-4159-881b-8cd6078ca388",
+        "cdff01cc-4d5f-4bc1-aa8a-175df0f5b822",
+        "503bfa75-c8a4-481d-ab61-60b7d5fc5643"
+      ]
+    },
+    {
+      "id": "3hop-178",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who is the CEO of the supplier of Emma Duman's employer?",
+      "answer": "Adam Sanders",
+      "chain": [
+        "Emma Duman",
+        "Frontier Partners",
+        "Marmara Clinics",
+        "Adam Sanders"
+      ],
+      "evidenceIds": [
+        "2173930f-6774-484f-a279-b948ed2169de",
+        "5c064c73-acc5-4573-99ea-420fded61b47",
+        "66a1eec9-53f1-4458-95bb-e15fb10edb63"
+      ]
+    },
+    {
+      "id": "3hop-179",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who runs the company that supplies Koray Karaca's company?",
+      "answer": "Oya Edwards",
+      "chain": [
+        "Koray Karaca",
+        "Silverline Steel",
+        "Keystone Retail",
+        "Oya Edwards"
+      ],
+      "evidenceIds": [
+        "8eebec28-c7b9-429d-bcca-74aafb68acb9",
+        "ae43999a-e28d-428a-86a0-afb3b794dcac",
+        "e223e59e-5ec4-49bb-980d-ba5d88bdff09"
+      ]
+    },
+    {
+      "id": "3hop-180",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who is the CEO of the supplier of Necati Jones's employer?",
+      "answer": "Ece Edwards",
+      "chain": [
+        "Necati Jones",
+        "Toros Sports",
+        "Falcon Networks",
+        "Ece Edwards"
+      ],
+      "evidenceIds": [
+        "be898da0-ee1c-4a65-9998-c977a9a798ad",
+        "c787affb-f547-475b-b37d-483c3e0cba86",
+        "88bbf84b-c6b3-4fbc-a97e-c1d7cd9ba958"
+      ]
+    },
+    {
+      "id": "3hop-181",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who runs the company that supplies Vedat Yıldırım's company?",
+      "answer": "Ozan Suzuki",
+      "chain": [
+        "Vedat Yıldırım",
+        "Titan Shipping",
+        "Sovereign Agro",
+        "Ozan Suzuki"
+      ],
+      "evidenceIds": [
+        "c0f5e9ed-ca85-49fb-9e1c-ff3e7d6d04bc",
+        "a9f8af43-febf-454f-b9cf-c21b65f7dfa9",
+        "9c9202e7-28eb-45b9-a4ec-e6657ce056c7"
+      ]
+    },
+    {
+      "id": "3hop-182",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who runs the company that supplies Umut Bulut's company?",
+      "answer": "Zafer Peterson",
+      "chain": [
+        "Umut Bulut",
+        "Starling Printing",
+        "Summit Bank",
+        "Zafer Peterson"
+      ],
+      "evidenceIds": [
+        "a791bd29-8ac0-42ad-a1c3-37249314360d",
+        "224a5563-edb9-44d3-a907-3b8c920e4bba",
+        "7a1b672d-b472-48e3-b4d3-6aefe23cce2d"
+      ]
+    },
+    {
+      "id": "3hop-183",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who runs the company that supplies Nina Hill's company?",
+      "answer": "Ozan Suzuki",
+      "chain": [
+        "Nina Hill",
+        "Titan Shipping",
+        "Sovereign Agro",
+        "Ozan Suzuki"
+      ],
+      "evidenceIds": [
+        "926908bc-00b4-4324-86a8-80790a06203f",
+        "a9f8af43-febf-454f-b9cf-c21b65f7dfa9",
+        "9c9202e7-28eb-45b9-a4ec-e6657ce056c7"
+      ]
+    },
+    {
+      "id": "3hop-184",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who runs the company that supplies Jale Wood's company?",
+      "answer": "Polat Shah",
+      "chain": [
+        "Jale Wood",
+        "Beacon Toys",
+        "Titan Printing",
+        "Polat Shah"
+      ],
+      "evidenceIds": [
+        "9b36bf88-4f26-4577-8346-0660b514dc60",
+        "dd1deeaf-1837-4630-b9fe-fa8d168ff886",
+        "dc803fae-8d25-4e94-87ff-da3cee9e62bc"
+      ]
+    },
+    {
+      "id": "3hop-185",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who is the CEO of the supplier of Dilan Ferrari's employer?",
+      "answer": "Ivan Miller",
+      "chain": [
+        "Dilan Ferrari",
+        "Velocity Bank",
+        "Göreme Shipping",
+        "Ivan Miller"
+      ],
+      "evidenceIds": [
+        "b7d3cd60-888b-4484-a6ca-148353d21434",
+        "89259ab1-df6d-4e81-aef6-f681d8094f03",
+        "8810eb9e-e0d1-41fb-bef3-9e569eb91dee"
+      ]
+    },
+    {
+      "id": "3hop-186",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who runs the company that supplies Lena Foster's company?",
+      "answer": "Hülya Howard",
+      "chain": [
+        "Lena Foster",
+        "Crescent Security",
+        "Kaş Steel",
+        "Hülya Howard"
+      ],
+      "evidenceIds": [
+        "b5953390-5c95-4ef1-bbd7-45c2a38dff25",
+        "6e6d14e4-9dcb-4e08-9b25-03b2a3b017de",
+        "ee51badf-eee9-4e39-91ae-5e837624a14e"
+      ]
+    },
+    {
+      "id": "3hop-187",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who is the CEO of the supplier of Oliver Schulz's employer?",
+      "answer": "Burak King",
+      "chain": [
+        "Oliver Schulz",
+        "Liberty Footwear",
+        "Sapphire Printing",
+        "Burak King"
+      ],
+      "evidenceIds": [
+        "e1ea7927-0015-4a5e-800f-86407751f2e1",
+        "3b1ba9bd-29f0-4e10-9826-68e707972e9f",
+        "1725dd13-9d9b-409b-8cba-8b6bcc37dea9"
+      ]
+    },
+    {
+      "id": "3hop-188",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who runs the company that supplies Jack Hall's company?",
+      "answer": "İlker Sato",
+      "chain": [
+        "Jack Hall",
+        "Mardin Media",
+        "Erciyes Systems",
+        "İlker Sato"
+      ],
+      "evidenceIds": [
+        "5e5c9190-ba70-4264-9063-0a526f45bd08",
+        "5f2a2ed3-66bb-4bf7-ac22-5ce7025dd41c",
+        "71978b23-954f-44dd-ac5a-1132de6457b1"
+      ]
+    },
+    {
+      "id": "3hop-189",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who is the CEO of the supplier of Şule Aksoy's employer?",
+      "answer": "Michael Tekin",
+      "chain": [
+        "Şule Aksoy",
+        "Horizon Packaging",
+        "Efes Appliances",
+        "Michael Tekin"
+      ],
+      "evidenceIds": [
+        "182b4215-bcb2-4b07-bcd0-b7483bad44a2",
+        "12323a53-8ffc-4f82-9b43-78c7fbfe080a",
+        "0845416e-0125-4b68-a851-18f8b00840e7"
+      ]
+    },
+    {
+      "id": "3hop-190",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who is the CEO of the supplier of Hülya Dubois's employer?",
+      "answer": "Hülya Duman",
+      "chain": [
+        "Hülya Dubois",
+        "Vertex Payments",
+        "Tundra Telecom",
+        "Hülya Duman"
+      ],
+      "evidenceIds": [
+        "9c7da8a9-326d-4436-8d59-4c6bc80e8822",
+        "e7386736-bf4a-43ca-a5c7-36d26c9bcaec",
+        "67be70bd-43ad-4a46-979f-d3ca712ee658"
+      ]
+    },
+    {
+      "id": "3hop-191",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who is the CEO of the supplier of Gökhan Aksoy's employer?",
+      "answer": "Sophia Taş",
+      "chain": [
+        "Gökhan Aksoy",
+        "Pamukkale Robotics",
+        "Alaçatı Catering",
+        "Sophia Taş"
+      ],
+      "evidenceIds": [
+        "df3d62c1-41e9-4011-937d-7bc831311d74",
+        "0125de00-5d20-4c52-bd52-3b8b2e346750",
+        "023287f7-c193-4caa-a7a9-71c8a11741c1"
+      ]
+    },
+    {
+      "id": "3hop-192",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who is the CEO of the supplier of Emre Sanders's employer?",
+      "answer": "Sibel King",
+      "chain": [
+        "Emre Sanders",
+        "Crescent Holdings",
+        "Pulse Plastics",
+        "Sibel King"
+      ],
+      "evidenceIds": [
+        "2a046ae9-4064-4267-9b42-19fff8719c98",
+        "cd995fc2-e61f-4b2c-b744-e36d8e2d5056",
+        "adf4d916-edfc-4197-830d-1da5c94147ff"
+      ]
+    },
+    {
+      "id": "3hop-193",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who is the CEO of the supplier of Alp Hall's employer?",
+      "answer": "Hande Baker",
+      "chain": [
+        "Alp Hall",
+        "Nexus Cloud",
+        "Bluewave Footwear",
+        "Hande Baker"
+      ],
+      "evidenceIds": [
+        "5a202d96-8531-4d36-be4d-a85c2391ce77",
+        "b4fe9c27-55e1-418d-87be-4356faf6d3b9",
+        "e336ce35-3183-4ec6-9d40-1b59c30d4a87"
+      ]
+    },
+    {
+      "id": "3hop-194",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who is the CEO of the supplier of Daniel Kowalski's employer?",
+      "answer": "Nina Özdemir",
+      "chain": [
+        "Daniel Kowalski",
+        "Ember Jewelry",
+        "Levant Footwear",
+        "Nina Özdemir"
+      ],
+      "evidenceIds": [
+        "ba6cee40-91e6-4187-bda2-28369643f6d7",
+        "f9dc2d2f-55f6-43ea-b26c-571cad6c94de",
+        "0e479668-9395-4b34-b51c-4a93e0ed4f91"
+      ]
+    },
+    {
+      "id": "3hop-195",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who is the CEO of the supplier of Yeliz Young's employer?",
+      "answer": "Anna Kara",
+      "chain": [
+        "Yeliz Young",
+        "Ayvalık Hotels",
+        "Bosphorus Travel",
+        "Anna Kara"
+      ],
+      "evidenceIds": [
+        "4ef46db1-bb6b-4683-aaf2-5646f8c762a1",
+        "009d53ec-1009-4fac-b763-7df7573012da",
+        "39bb6adf-1f30-4b98-b1da-582e235ba931"
+      ]
+    },
+    {
+      "id": "3hop-196",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who runs the company that supplies Tolga Aslan's company?",
+      "answer": "Leo Harris",
+      "chain": [
+        "Tolga Aslan",
+        "Göreme Consulting",
+        "Compass Ceramics",
+        "Leo Harris"
+      ],
+      "evidenceIds": [
+        "f81b22e5-a8ad-45f3-9b32-b57322123d9b",
+        "c1e07ee0-5173-4e8a-8b9c-6c49deda2f4c",
+        "e03d8c8a-2e83-40a1-8974-a03034f8e692"
+      ]
+    },
+    {
+      "id": "3hop-197",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who is the CEO of the supplier of Robert Williams's employer?",
+      "answer": "Sophia Bennett",
+      "chain": [
+        "Robert Williams",
+        "Falcon Apparel",
+        "Cappadocia Ceramics",
+        "Sophia Bennett"
+      ],
+      "evidenceIds": [
+        "244f9f8f-1300-4284-a8cc-4ce887f02bfb",
+        "795deae6-6da5-4606-9e2b-6da8d047cca2",
+        "ca201bed-2656-4da4-865e-b4193dddd1f3"
+      ]
+    },
+    {
+      "id": "3hop-198",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who is the CEO of the supplier of Ivan Mitchell's employer?",
+      "answer": "Noah Gündoğdu",
+      "chain": [
+        "Ivan Mitchell",
+        "Starling Agro",
+        "Alaçatı Plastics",
+        "Noah Gündoğdu"
+      ],
+      "evidenceIds": [
+        "d8a8a2f3-0be0-40f7-a4fa-3498425b6144",
+        "8c3bfc24-0715-432e-adad-98cc6fe4adb8",
+        "a337ec00-4bb8-4e1f-a265-1b6c2d376f2e"
+      ]
+    },
+    {
+      "id": "3hop-199",
+      "cat": "multihop3",
+      "asker": "owner",
+      "q": "Who runs the company that supplies İrem Cook's company?",
+      "answer": "Chloe Bailey",
+      "chain": [
+        "İrem Cook",
+        "Brightpath Cosmetics",
+        "Ihlara Paper",
+        "Chloe Bailey"
+      ],
+      "evidenceIds": [
+        "22392b96-8c04-41a1-b90e-95510768100c",
+        "e4ce8c0c-5500-4203-80dc-f55956d7cc9d",
+        "005d9fe4-a53c-44c2-879e-b63df0d57b6f"
+      ]
+    }
+  ],
+  "secrets": [],
+  "sampleIds": {
+    "persons": [
+      "06b78f41-d996-49fa-82ad-7aa37d441cdf",
+      "b33b0926-d993-4c41-a9a5-77f06a40adeb",
+      "cd589840-b967-42bb-b79e-c353a77b0cdf",
+      "85e9a15a-1245-43e3-9508-2f19731bcb39",
+      "b3f6b4c1-f4c1-4bfb-b58b-9c44b6335cb4",
+      "8d889f07-1099-4844-9de6-9c64fda6fe0d",
+      "b8cd6e87-e801-410c-9f57-e3ab2a017b8f",
+      "144685ab-6a05-4bf8-9b19-b3103b3a0cdd",
+      "765312c6-cb0e-4bc1-9f57-7f65396d0a47",
+      "d1321761-e9d3-45e3-830d-5524bffafe44",
+      "a155371a-9da9-4cc3-8cff-f7619ff2b30c",
+      "0e4ee172-5394-4186-a3a3-23f093e95b37",
+      "90d1fd8c-770c-4ebd-94bc-47a575223d0c",
+      "3cf96ee4-ec52-44d6-adfa-471cb8e62970",
+      "8dcc1466-1d56-44c3-b75a-043c69bb6a61",
+      "7cc41a9e-1e10-4ed3-94ec-6c88786cd229",
+      "da602c59-3d64-4d5f-a8d5-7faf33de3480",
+      "64573542-918c-463e-ae45-a37457f90fed",
+      "a888f137-9c25-4614-b6ce-7e5f667c3094",
+      "95e8aa46-4e60-4ab5-bfcc-b3b1d55d253e",
+      "b8d985ca-d033-4a15-86d1-189c9c9de1ef",
+      "0811c6da-7eb8-4c5e-ad30-4e4dd7538f63",
+      "8ae930a3-674d-475a-adb4-14281d15d313",
+      "486d11e5-8833-4586-a1ac-d11f8569eac9",
+      "a8df2082-3ad1-4dff-afae-0f3fec57244e",
+      "320fc71c-25b5-4b6b-9f30-5f5ef8325c6b",
+      "e0aabe86-33f9-4ff4-84f7-cc7237322b09",
+      "1a3b359c-07d5-41bd-917c-559eacf96b63",
+      "327eaa8d-e4d4-49bf-8ccc-267c7235be34",
+      "45e09436-66ef-4642-996d-b3d94f447e09",
+      "488de649-4a4a-4a14-92e1-54484cc504d5",
+      "dc45da9e-8482-40b8-baa3-1f189c89c3bc",
+      "10e6bb11-d23a-44ab-aa82-0e7d65490457",
+      "c38f6fdb-c95c-49cb-8425-49f18bd7a661",
+      "202b6f4c-aa0a-4e38-8cbd-8163f43ebcfd",
+      "73b027fa-7089-444c-99fe-24e06208ef3c",
+      "054f9ad6-6363-429e-9772-a98c5719bb86",
+      "7ef7e9de-8f55-435c-bb11-0123a6996328",
+      "e4486d1f-21e6-4a5b-ac9b-5455e7f74588",
+      "0fdc3854-3f45-4d95-bd2f-86388bb477f8",
+      "6f5fd7ac-3239-451f-a1d3-2ca9c3cc5bee",
+      "160e872b-5283-4a48-9f76-0e5a189169b1",
+      "6bc05315-37b7-4c03-b660-d18f6aa084db",
+      "cf9c5c43-3d44-48b3-a032-b999dd7287c1",
+      "6eaef557-f098-48b2-b6b5-9c9da0cd1ab1",
+      "b257321a-7ca7-4105-9ae6-66b529995556",
+      "30cb17e0-83b0-4cd8-a879-0318896b3297",
+      "49b83e3f-8745-4ba7-8d12-ac1f8e332274",
+      "d0bd8562-139c-4eb7-9627-613b6934381f",
+      "0c3e3b07-c2e8-4b3b-9897-38e63447d96b",
+      "45b2413c-ab51-475f-a83c-cd46b85a354a",
+      "ffd42cf2-1d45-4350-802c-fa8463e49406",
+      "0412644b-7d4d-4977-9587-3fe103a7d08e",
+      "6dd21292-42bd-4129-b304-9a1e4229151a",
+      "cb3dc71c-1463-4a35-99db-be94b49fc140",
+      "7e322c64-fa5f-4505-b5cd-61a2ff4c3606",
+      "124e6455-09cb-412b-aa60-ff0c4e81ea3e",
+      "59da9a52-3497-4d58-9d54-a55c216f0b81",
+      "273fb788-c9e0-48f0-936e-6dfb8f27a7d6",
+      "ec4a47b1-a71d-418f-bb53-eed081daf8ac",
+      "222e6bba-c98c-462c-9b32-9095949207b1",
+      "93e801c3-7141-4535-aab2-bb0260b86355",
+      "c104e364-6c89-42bc-ae48-3cee90da551d",
+      "d972ec7f-063b-4c77-9ba3-68703cc20382",
+      "4eca65c3-4f1c-4d76-add2-ac24fb503bb3",
+      "2ee58a19-07dd-4c12-86fa-b0f1dfd634cd",
+      "5b9b47ac-292a-49aa-b00a-1828b31eae75",
+      "a646c9b4-16d3-4c1c-b90e-bb923d3076f9",
+      "1e4d13b6-424f-40b3-8531-c861ab70881c",
+      "0b265593-44cd-4b97-9396-c6a81841bb17",
+      "07a0df66-c70d-4825-8ba3-452d5a2029dc",
+      "f4691113-faaa-4e2b-9a6a-87763d6752f9",
+      "7d266982-508a-4414-8015-581c4317b93a",
+      "8adf6b33-b6cd-49a9-9ac1-525c46c6814f",
+      "4a9d2122-cf60-42d4-b16d-6df790df1bce",
+      "b84c3a33-c11c-4052-917c-cd8555849bd2",
+      "0d69fc1e-83a5-4b3a-956b-a610c26b6e9d",
+      "c2b3c2e1-b864-444c-a95d-e1385873c1f0",
+      "be5024c3-4152-4ca1-9afc-6b48da28212c",
+      "6c255a1b-a0a5-47ad-80ef-ed41fef1c1f9",
+      "be4fbafd-7e24-48c8-822a-149a195cb851",
+      "0f58f6e1-d977-486c-b076-63ec923e8cd2",
+      "2e89e613-7867-4b97-bf03-fb91a7231553",
+      "27006866-37cc-4585-9a83-213b676fdc64",
+      "d6938a4c-aac9-42b6-9a72-290d74c62771",
+      "383efffd-81ba-4983-a42f-e98f040e3132",
+      "57a6fb6c-a097-453f-8e9f-5757afe6facd",
+      "d0f963d8-e340-4d42-adda-f8d12e99f5b3",
+      "ec6658ce-34c5-4059-9d30-1ba0002ece67",
+      "eea825c1-364d-4578-95cd-2ffa1195d09e",
+      "b88dee75-21f7-4733-bc22-9b84921cca4b",
+      "74e080c8-54bd-4a3e-80cc-d85a69cfc05d",
+      "f6d8fdab-e79b-4b9c-9a6f-2d3d7a79535f",
+      "0072c899-bdf4-4cb3-9382-77660efbb366",
+      "af0d9c97-ab45-4e74-a377-ecf96ac972d5",
+      "27fb9a66-4b6d-4d69-bf59-088e9de8207f",
+      "5749d4f0-8da9-41ce-9534-cf14af163294",
+      "f1404bd9-3c60-4627-9596-0f0b192a4ecd",
+      "946658b2-88a5-4d30-8e27-3a8e1082f3db",
+      "ec89ca7c-2b26-4915-bd7f-d28578180cc4",
+      "3c54c5e7-7b0c-4fe6-87c6-36a7461c0b8c",
+      "daa6adb9-3840-496d-ae6b-278261c2e0ed",
+      "78187b71-b0bf-4572-9df4-a0a6844136b7",
+      "91584708-009c-473b-bf86-f7c50cd2ecdf",
+      "0ce6ab29-ff35-46c2-a016-f8002e56d6de",
+      "231d510b-cce4-4d5e-a134-92d3530fe845",
+      "b6a92ce4-6003-42a2-aa6c-ed27361c5232",
+      "8b1660cf-93d6-4e71-a273-9b159d6a0bb8",
+      "0ea2aa83-9117-42fb-be4a-63516f6f5dde",
+      "d87fd499-1bf5-4e5c-b744-70d99f48f3e2",
+      "c95bf8ba-9a3e-4b61-93b6-f523ae577e9b",
+      "1e061e3c-0135-4506-ac1c-e02a08365871",
+      "50d0a7d9-9dbe-4422-ad63-2987d893c463",
+      "3093a458-450d-40d5-a5fa-50c697485970",
+      "2637106a-7113-45f2-9896-b6a34534f9a2",
+      "732d9f80-c71d-4f4b-b6bd-5b9529a5503a",
+      "76346499-42a3-4b36-8a1c-09345c49f528",
+      "ab1864ff-0279-47b0-ba43-0707b554fa99",
+      "c585a6a4-8e14-41b2-88d3-39d08caf40bc",
+      "51f41d27-6443-4322-b20e-391a9d7b5948",
+      "9eaec072-3fbd-4987-8ea9-4c3581fc5e0c",
+      "366c59ca-bd78-48d8-b8f7-6859cfa2f133",
+      "6b9c96b4-5d0c-42bc-9eb6-3197184b393f",
+      "ed9546d1-989b-4562-8bb2-ff81a5340d57",
+      "3347b002-3c98-4793-8698-0142ab73d330",
+      "3b6573b9-1f28-47ce-902e-88660f8dbf09",
+      "e1e419e9-3a1b-4c40-ac4d-4bf54b469113",
+      "0c14a1b2-a836-4013-87a3-53fec46a5e61",
+      "966f6595-a49e-4600-902c-601ef804b94d",
+      "9e4fbaa0-6d9e-4e32-8f99-eff12930a3fd",
+      "7d7725d5-5e76-49b1-a422-41fc1d118e8b",
+      "0815200a-9dac-4eaf-ab0a-a49c13c3b031",
+      "66993a04-e18b-47e1-8677-32150d66e094",
+      "bbcd23f7-8ad1-4d2c-8c26-29e5a943fc1c",
+      "59c37f4a-27de-489c-bd70-4b44a1c1ec33",
+      "ab30e77c-57a2-4ee0-ad10-5d801c80e2ce",
+      "72a90da8-b8a1-4bae-9620-3c715ebe0e90",
+      "b1b7f913-84f2-42d5-8d4b-73d328fb91b2",
+      "b9bdc2d9-b4b7-4c33-89ec-0579f26437ee",
+      "22aabfda-78d0-4296-9ee6-2ecb4f3b9d2f",
+      "55a18a60-0835-4016-a027-c63c92a8f7a8",
+      "085e443d-789b-41ad-8a5b-55f0dd674541",
+      "190615b3-05e4-4ded-88b8-cb5a7eb4febc",
+      "afac717b-285d-492c-aaf2-c78dfcb344a4",
+      "475b5a3b-8214-4001-b117-3c7e0006a503",
+      "ef016c21-3b80-44ae-9d74-693e3708ee56",
+      "76c8f346-9965-4ffc-9249-e5c81ac174e2",
+      "89272b17-d035-48dd-8050-c5e261b29162",
+      "0c79b97b-6cd7-4ad2-99a8-6baee4605bf4",
+      "ec89e484-79ee-4b3d-9d73-0b1f46f76e60",
+      "28a7e065-e4f7-42d3-bbc7-13cfd1c93367",
+      "3d5b7b32-5291-48a3-8f27-e267381ab7a8",
+      "6450e218-f412-4167-85be-5ec5eeefcd27",
+      "0282f227-b511-4905-9111-6a9d81d0f59b",
+      "a936d0f8-3c2c-4580-97e7-b67af6f7cc96",
+      "42d43d69-edba-4293-9cf4-342406a8c14a",
+      "243bec54-1d66-454f-a28d-7e06f3646779",
+      "63dd552e-5dfe-41d8-a581-6ee731555992",
+      "00f9e858-092d-4ac3-ab62-cb86731e8e34",
+      "8f6ec1eb-d47e-4f33-9833-664e19f2d298",
+      "e52b5e9a-ae91-4e16-ae8d-cf3c75864062",
+      "76fcb895-6261-4f87-ae37-85b7b934392a",
+      "4c4fe5a7-ad37-4dda-b849-e284f4855cb6",
+      "e0495db7-2741-4766-8342-aff7efb88573",
+      "9008a2b8-ef08-4291-ad2d-552656dddd6f",
+      "bdeeaafc-f3da-4b51-b828-571809eeebef",
+      "6bc0553c-f8ed-47a4-b009-ec7bc0af7481",
+      "fc0ebac1-077b-4338-8b03-ee44181e3b05",
+      "c6b4dd70-b7eb-4d79-9c21-7caa08cd79ab",
+      "880c3bcd-17fa-4c03-b2c8-a4c840c4c8c4",
+      "f7b453f1-6395-41ae-9360-49999af3323c",
+      "e3222e74-dad0-4a5f-9635-76b17dd966d5",
+      "3dff2c1d-fa9c-48b7-90be-fdb3cbdd23f0",
+      "cb3b5f7e-becd-4f2f-a4a1-b3ad6000996e",
+      "ce37fbb0-c712-45f6-b1dd-a01ba10b6318",
+      "7cc11377-16cb-4446-a960-457b896d6183",
+      "f3cebfe0-47c0-4171-a25c-f1c7ccf0cd63",
+      "8f387e9d-d42f-4fc0-93b3-915b25feb6de",
+      "b7f737d6-629b-479f-a5c5-dab7b0cc0f8f",
+      "2e65d184-93c7-4128-bfa1-f4d21229adc9",
+      "950d7ff5-903a-4bf2-820e-9a94c589fc17",
+      "57e91f4f-5aa1-4cd7-b739-4569715e632e",
+      "42074e26-00a7-4dc7-857e-f4487804af08",
+      "aa93a839-2674-47c9-a524-c10c53550328",
+      "c4e8f4ad-cb97-4015-bb05-83153e3f64e5",
+      "df4a7d8b-b656-4d65-8cba-73f5c2d9db48",
+      "d954f49f-fa3c-4360-ac67-ba89912613ad",
+      "61c84365-eafd-4b9e-a3c1-eeda9bae8fef",
+      "49917c71-d125-483c-a342-6cc0225400ee",
+      "aad7e0b3-209f-469a-9694-a0071e540d0c",
+      "6388a3e5-b02e-4d68-ac4e-7cb2b5bc5b93",
+      "9e3bbab4-4ccb-4b17-ae89-85c03d875612",
+      "e77495db-c18b-4877-9886-ae235873f612",
+      "797ce494-4098-4b35-ac59-5e867a92fc63",
+      "92a105ef-2bb2-44d5-a6bc-8ee6efe153db",
+      "19f1a573-4b82-4640-8403-241411724cd9",
+      "93407293-d04f-4f2a-b6ae-62fe4d94be18",
+      "4192cee8-6c26-4ebe-839e-b61e4a4ed4d4",
+      "16a626cb-714c-47f8-b569-8a2a1bdfc705",
+      "3d169005-7fed-48cf-90c3-66bf0e3e2e83",
+      "2e9d5350-1a48-4222-9ffb-0f385f2ecd0c",
+      "6fc74ba0-2ff1-4be8-a243-24caab0ba86d",
+      "c950713f-eb07-46e3-8641-e5dca7338da4",
+      "20c08f61-897d-4afa-805e-8fe7e0b5bce5",
+      "5fa1402f-055f-4164-880c-cde01af18e62",
+      "426c3550-8f33-48cd-b71a-2ad981ac18af",
+      "0b49e7ef-f2e6-4d5d-95d4-1c9e4bbb51d2",
+      "32425de5-78d7-4d33-9cb9-1728d58e4092",
+      "fbab3c12-08a6-4786-97ca-d52f25315945",
+      "36a4745b-49fb-42bd-a07a-8726525fb35b",
+      "c1e185dc-4e36-4b19-b88d-1c99b1f87a87",
+      "0478d7b7-15b8-4059-afa8-d821cb3b33a9",
+      "f7216e25-a04b-44db-9ad1-77a3517fe229",
+      "5b52706a-2624-41de-9b76-e473d1e43d81",
+      "0be7906e-3f08-4a30-80ca-1e0b3c08c621",
+      "9f701fc9-58d6-40bd-a01e-f016d50bc30a",
+      "e64392d5-ab29-4240-9172-56f977bb2d84",
+      "1dea8b40-8e32-441d-85bf-799c59b72631",
+      "e1c75c9c-7445-4e7e-b22d-c4f8ed2fc279",
+      "2070bd97-1acf-4fed-b28a-684ea6d34cf2",
+      "b5a06aaa-79ba-42a4-9bb5-b4ee656f20f9",
+      "f685f203-1647-4b5a-8478-2d39008e278b",
+      "869b61a1-66c6-40dc-8851-1b5d3c025fd7",
+      "6c7c6dd6-9bad-42b2-969e-2410a1f4d097",
+      "f8283d86-9363-4572-b9e6-ddb1cd39d39a",
+      "038f1333-a184-4227-877e-472a69b11098",
+      "f1a38b21-f5e1-4cf6-b9e8-1f018696b5d9",
+      "2bdb1a1c-73dc-475b-a3c9-3d89b236176a",
+      "36f2a537-eedd-4f94-a36c-8d30e0c81168",
+      "f80d904b-58ca-4b85-9aab-34571241ffa8",
+      "92cde9ff-e5c2-467a-a333-cf30ec957e6c",
+      "0a1b9fa3-f051-4e93-a860-51e033c514ba",
+      "975588aa-be01-482b-b1b4-eb40cd8bb04a",
+      "2e45e3de-27fc-482a-816b-7defd6174ea7",
+      "ebf154a0-b55c-4174-ab03-d155f2d7a3b5",
+      "cd9fb171-6a4c-4ab1-ac18-72791eb050d0",
+      "71637098-6b9d-45e9-a2b0-1a49d02947fc",
+      "ceb97d42-8176-4ef7-b7de-c79de0819d60",
+      "1de76818-9a69-4d29-bf05-984bec53eda4",
+      "90edadd3-55b8-4eee-badb-9ac8c084ac50",
+      "6811b389-ee54-4915-8f65-a753836f2e38",
+      "fdadc4bd-f428-4799-a0b6-52e1f3306b3a",
+      "5f18f03d-0648-4974-b813-bd99ae75e8a1",
+      "d9755e68-3163-40e1-925a-f4da2b134aea",
+      "dd25a442-8218-4c83-ba08-743d8bef8e8d",
+      "4f0977b9-8e11-49b5-9549-5db657ccfa7a",
+      "73a913e3-1310-498e-b55b-9ebaafdf601c",
+      "2bd454a5-d3bd-4148-8b22-c305efdc77a7",
+      "8bdf2587-736b-4268-9534-f704542b0052",
+      "61fe4d25-f47b-416a-88c1-5e38186b612d",
+      "1fd93e09-9819-4f02-b2c2-802a10116d27",
+      "4087c2ab-8d2f-4877-b9c0-d10ef1ffd4c4",
+      "105e1226-c862-472b-a2bb-90a0c1882d3c",
+      "e9a28fbf-0c5d-44c5-aad1-6a02801108a0",
+      "9a8df540-66d9-47e5-ac8f-928ab8e52354",
+      "f1232601-e0fa-4538-a334-2e47104ed5ab",
+      "63224ccf-fd95-4928-8b4f-fc77d051678d",
+      "9eeff107-e5b3-4566-a901-dfad6eb07060",
+      "6b0fdbf0-748b-45bd-bd6b-1271f0454154",
+      "2061e732-277a-4b5e-bc06-4f952c1956e0",
+      "412a410d-a50d-4f06-ab05-b7e50bb76f4d",
+      "dc7e8f9b-6fde-4477-8d5a-54fb3db1bc10",
+      "24011cda-f858-481c-aa2e-40489efcfdf3",
+      "f688e575-3c49-40ec-9dff-9dce7741b1ac",
+      "f0818737-5087-498a-91ce-26d22b791cf0",
+      "560a32d9-10aa-4d6a-b147-0ad664f79ffc",
+      "ecee8f27-af45-423f-b9eb-1c89b8a51755",
+      "1a28ed37-bbef-43b2-98e8-03848940bb01",
+      "b7200d09-0127-4a94-8ba3-4822e0a93fbf",
+      "7a137e56-b970-49a1-bcde-0035810ea206",
+      "9ba69161-54ba-43e0-b2fb-6f83442ea7b0",
+      "6c7d653a-3e97-4bf7-a36b-8edd5e04e131",
+      "f6ca1b5d-3b4f-4fef-8365-27abf25e9be9",
+      "1f42498e-e3bd-4fc8-ae65-37f68d785238",
+      "03a2a0cc-952e-45bf-9fa2-661a70cb5438",
+      "a036cc79-96ff-4f8c-b7e3-1721d7b0b325",
+      "5b48f32f-8229-4215-887a-99558cf7b480",
+      "cf11646f-ddff-4cfd-9523-62e154806b51",
+      "4300549e-8b96-4d01-b713-2de4814fa019",
+      "d6be76fe-0570-4495-a880-9a4a20a4093b",
+      "82bf5595-eb30-440e-9de5-dcb41dd5f573",
+      "5aa33d8c-73ef-4d4b-ad93-c2dcdaaab095",
+      "4b75ff81-aee1-4db9-aba2-c0f8c18e6328",
+      "1bb28137-4f7d-474b-a4da-fcfce19ce19e",
+      "9c79c3e9-a61b-4ef4-889e-3bbfd92a0864",
+      "12f5e982-16ad-481b-96e2-7e67d7530116",
+      "e1a987c4-bf59-4641-b344-5924db192fd5",
+      "b1e52468-88e7-453a-a8cf-8131989d397a",
+      "69aa5977-a5ec-4c7f-b7dd-e0835dc0b1cc",
+      "20154060-cd0e-4799-a381-049c51628ec0",
+      "0d786590-e47a-44b9-9c66-30d995804602",
+      "371c82ef-7d2e-4a02-afd6-ea66e8bea1c9",
+      "f81de9ce-0c85-4c68-88ea-c0d7d6a4ff37",
+      "d6348b65-c012-4b1c-983a-b8c55a1b185b",
+      "7ceb2a8a-dea9-4efc-8d4c-da2077a9bc08",
+      "78f5460d-0c59-4ead-adb8-20c8db038adc",
+      "bf4677e7-0a2b-420c-b935-06e7c2a09cdb",
+      "81c98bf9-2b56-4f00-8ded-f37e289ff91c",
+      "a38a5536-a891-4edb-8038-b9cabb428e14",
+      "91364d36-0a02-4bef-a0bb-343e50beaa05"
+    ]
+  }
+}
